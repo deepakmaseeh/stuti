@@ -128,7 +128,8 @@ export default function PresentApp() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        history.length > 1 ? history.back() : location.assign('/');
+        if (history.length > 1) history.back();
+        else location.assign('/');
         return;
       }
       if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown') {
@@ -200,7 +201,8 @@ export default function PresentApp() {
           onClick={(e) => {
             e.stopPropagation();
             e.preventDefault();
-            history.length > 1 ? history.back() : location.assign('/');
+            if (history.length > 1) history.back();
+            else location.assign('/');
           }}
         >
           {t('desktop.exitPresent')}

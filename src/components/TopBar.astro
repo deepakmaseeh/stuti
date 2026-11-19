@@ -33,11 +33,13 @@ const langs = [
   // Sync language chips with prefs before the island hydrates.
   (function () {
     try {
-      var p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
-      var cur = p.langFilter || 'all';
+      const p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
+      const cur = p.langFilter || 'all';
       document.querySelectorAll('[data-lang-filter] [data-lang]').forEach(function (btn) {
         btn.setAttribute('aria-pressed', btn.getAttribute('data-lang') === cur ? 'true' : 'false');
       });
-    } catch (e) {}
+    } catch {
+      /* prefs missing or blocked */
+    }
   })();
 </script>

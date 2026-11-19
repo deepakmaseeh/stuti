@@ -39,8 +39,8 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
       document.documentElement.classList.add('js');
       // Before paint: desktop panes vs mobile (STUTI_DESKTOP_ADDON.md).
       (function () {
-        var w = window.innerWidth;
-        var h = document.documentElement;
+        const w = window.innerWidth;
+        const h = document.documentElement;
         if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
         else h.removeAttribute('data-desktop');
       })();
@@ -50,7 +50,7 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
         const h = document.documentElement;
         h.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
         // Desktop default lyric size is one step larger (index 3).
-        var sizeDefault = h.dataset.desktop ? 3 : 2;
+        const sizeDefault = h.dataset.desktop ? 3 : 2;
         h.dataset.size = String(p.size == null ? sizeDefault : p.size);
         h.dataset.theme = p.theme || 'system';
         h.dataset.layout = p.layout === 'columns' ? 'columns' : h.dataset.desktop === 'wide' ? 'columns' : 'stacked';
@@ -64,8 +64,8 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
         dispatchEvent(new Event('stuti:installable'));
       });
       addEventListener('resize', function () {
-        var w = window.innerWidth;
-        var h = document.documentElement;
+        const w = window.innerWidth;
+        const h = document.documentElement;
         if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
         else h.removeAttribute('data-desktop');
       });
