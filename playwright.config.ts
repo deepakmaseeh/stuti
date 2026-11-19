@@ -26,8 +26,13 @@ export default defineConfig({
       testIgnore: /admin\.spec|responsive\.spec|desktop-|columns\.spec|present\.spec|export\.spec/,
       use: { ...devices['iPhone 12'], browserName: 'chromium', defaultBrowserType: 'chromium' },
     },
-    // responsive + desktop add-on specs set their own viewports; run once on Chromium.
-    { name: 'desktop', testIgnore: /admin\.spec/, use: { ...devices['Desktop Chrome'] } },
+    // Desktop add-on + responsive only. Mobile projects already cover search/song/set/offline/a11y.
+    {
+      name: 'desktop',
+      testIgnore:
+        /admin\.spec|song-page\.spec|word-search\.spec|number-search\.spec|setlist\.spec|offline\.spec|a11y\.spec|layout\.spec/,
+      use: { ...devices['Desktop Chrome'] },
+    },
     {
       name: 'headers',
       testMatch: /admin\.spec/,

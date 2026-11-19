@@ -20,6 +20,8 @@ async function expectNoOverlapOrHScroll(page: Page) {
     for (let i = 0; i < spans.length - 1; i++) {
       const a = spans[i]!.getBoundingClientRect();
       const b = spans[i + 1]!.getBoundingClientRect();
+      // Same row in columns layout (native | roman | english) is fine.
+      if (Math.abs(b.top - a.top) <= 8) continue;
       // Next visible line must start at or below the previous one's bottom (1px rounding slack).
       if (b.top < a.bottom - 1) overlaps.push(`${spans[i]!.textContent} / ${spans[i + 1]!.textContent}`);
     }
