@@ -18,6 +18,8 @@ export default function Finder({ books, currentId = '' }: { books: BookChip[]; c
   const [browse, setBrowse] = useState<BrowseIndex | null>(null);
   const [letter, setLetter] = useState<string | null>(null);
   const [topic, setTopic] = useState<string | null>(null);
+  /** undefined until URL/prefs read so Keypad gets the deep-link book/n on first mount. */
+  const [deep, setDeep] = useState<{ book?: string; n?: string; q?: string } | undefined>(undefined);
 
   useEffect(() => {
     const mq = matchMedia(`(min-width: ${site.layout.desktopMin}px)`);
@@ -29,10 +31,21 @@ export default function Finder({ books, currentId = '' }: { books: BookChip[]; c
 
   useEffect(() => {
     if (!desktop) return;
-    const p = storage.prefs.get();
-    const last = p.lastTab;
-    setTab(last === 'words' || last === 'browse' ? last : 'number');
-    setLangFilter(p.langFilter || 'all');
+    const prefs = storage.prefs.get();
+    const url = new URLSearchParams(location.search);
+    const d = {
+      book: url.get('book') ?? undefined,
+      n: url.get('n') ?? undefined,
+      q: url.get('q') ?? undefined,
+    };
+    if (d.q || url.get('tab') === 'words') setTab('words');
+    else if (d.book || d.n) setTab('number');
+    else {
+      const last = prefs.lastTab;
+      setTab(last === 'words' || last === 'browse' ? last : 'number');
+    }
+    setDeep(d);
+    setLangFilter(prefs.langFilter || 'all');
     loadMeta().then(setMeta).catch(() => {});
     const onLang = (e: Event) => setLangFilter((e as CustomEvent).detail?.lang || 'all');
     addEventListener('stuti:lang-filter', onLang);
@@ -120,10 +133,15 @@ export default function Finder({ books, currentId = '' }: { books: BookChip[]; c
         ))}
       </div>
 
-      {tab === 'number' && (
-        <Keypad books={filteredBooks.length ? filteredBooks : books} active desktopOnly />
+      {tab === 'number' && deep !== undefined && (
+        <Keypad
+          books={filteredBooks.length ? filteredBooks : books}
+          active
+          desktopOnly
+          initial={deep}
+        />
       )}
-      {tab === 'words' && <WordSearch active autoFocus={false} />}
+      {tab === 'words' && <WordSearch active autoFocus={false} initialQuery={deep?.q} />}
       {tab === 'browse' && (
         <div class="finder-browse">
           <p class="finder-label">{t('desktop.firstLetter')}</p>
