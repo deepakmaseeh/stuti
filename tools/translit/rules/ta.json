@@ -1,0 +1,11 @@
+{
+  "about": "Regex replacements applied in order to lowercase Aksharamukha RomanReadable output (apostrophes already removed). Keep church spellings people already type.",
+  "replace": [
+    { "from": "\\biyechu", "to": "yesu" },
+    { "from": "\\byechu", "to": "yesu" },
+    { "from": "\\bkarththar", "to": "karthar" },
+    { "from": "\\bthevan", "to": "devan" },
+    { "from": "thth", "to": "th" },
+    { "from": "chch", "to": "ch" }
+  ]
+}

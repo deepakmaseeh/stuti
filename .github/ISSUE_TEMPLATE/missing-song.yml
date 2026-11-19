@@ -1,0 +1,39 @@
+name: Missing song
+description: Ask for a song that isn't in the app yet.
+title: 'Missing song: '
+labels: [missing-song]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We can only add songs we are allowed to publish (old public-domain hymns, or with written permission).
+        Please do not paste full lyrics copied from other websites or apps.
+  - type: input
+    id: song_title
+    attributes:
+      label: Song title
+      description: In any script, or in English letters.
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options: [Hindi, Tamil, Telugu, Punjabi, English, Other]
+    validations:
+      required: true
+  - type: input
+    id: book
+    attributes:
+      label: Hymnbook and number
+      description: e.g. "Tamil Keerthanaigal 117" (leave empty if you don't know).
+  - type: input
+    id: first_line
+    attributes:
+      label: First line or chorus line
+      description: Helps us find it. One line is enough.
+  - type: textarea
+    id: rights
+    attributes:
+      label: Who wrote it / permission
+      description: Author, year, and whether you have permission from the author or publisher (if you know).

@@ -1,0 +1,7 @@
+{
+  "about": "Regex replacements applied in order to lowercase Aksharamukha RomanReadable output (apostrophes already removed). Telugu keeps the final 'u' (velugu) and long 'aa' in common names.",
+  "replace": [
+    { "from": "\\byeesu", "to": "yesu" },
+    { "from": "\\byesayyaa\\b", "to": "yesayya" }
+  ]
+}

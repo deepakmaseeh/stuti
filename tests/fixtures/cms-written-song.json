@@ -1,0 +1,38 @@
+{
+  "slug": "cms-written-song",
+  "numbers": [
+    {
+      "book": "TB",
+      "number": "200"
+    }
+  ],
+  "title": {
+    "native": "புதிய பாடல்"
+  },
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "இயேசுவே என் துணை"
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "rights": {
+    "status": "permission_pending"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "updated": "2026-11-19",
+  "publish": false
+}

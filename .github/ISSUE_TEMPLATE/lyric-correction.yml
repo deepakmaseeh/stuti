@@ -1,0 +1,46 @@
+# The app's "Report a mistake" button prefills this form by field id: song, line, correction, url.
+# Keep those ids if you edit this file (see src/lib/report.ts).
+name: Lyric correction
+description: Report a wrong word, spelling, line or translation in a song.
+title: 'Correction: '
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping. Please check the printed hymnbook if you can.
+        Do not paste lyrics copied from other websites or apps.
+  - type: input
+    id: song
+    attributes:
+      label: Song
+      description: The song id from the page address, e.g. ta-yesuve-en-thunai
+    validations:
+      required: true
+  - type: input
+    id: line
+    attributes:
+      label: Which line
+      description: The line as it shows now (or "Title", "Number").
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What it should be
+      description: The correct text, and where you checked it (book, edition, page).
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Page link
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Which layer
+      options:
+        - Original script
+        - Roman (English letters)
+        - English meaning
+        - Not sure

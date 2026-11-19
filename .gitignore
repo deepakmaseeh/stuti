@@ -11,6 +11,7 @@ public/dl/
 # content tools output
 tools/**/out/
 __pycache__/
+.venv/
 
 # local env (copy .env.example to .env)
 .env
@@ -26,6 +27,9 @@ coverage/
 # personal reference copy of the original feature spec (saved web page, not part of the app)
 Stuti · Christian Songbook App · Feature Spec v0.1.html
 Stuti · Christian Songbook App · Feature Spec v0.1_files/
+
+# scratch files from local checks (screenshots, downloaded copies)
+*.tmp.*
 
 # OS / editor
 .DS_Store

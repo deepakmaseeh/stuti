@@ -1,0 +1,201 @@
+# Decap CMS for Stuti. Every save opens a branch + pull request (editorial workflow).
+# Before first use (see README "Editor login"): replace OWNER with your GitHub user/org,
+# and base_url with your own Cloudflare Worker that handles the GitHub login.
+backend:
+  name: github
+  repo: OWNER/stuti
+  branch: main
+  base_url: https://stuti-cms-auth.OWNER.workers.dev
+  squash_merges: true
+# Only used on localhost with `npx decap-server` (see CONTRIBUTING.md); ignored on the live site.
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: public/uploads
+public_folder: /uploads
+site_url: https://stuti.pages.dev
+locale: en
+
+# YAML helper: the song form, shared by the 5 song collections below.
+song_fields: &song_fields
+  - label: 'URL name (lowercase-with-hyphens, e.g. yesuve-en-thunai). Never change after publishing.'
+    name: slug
+    widget: string
+    pattern: ['^[a-z0-9-]{2,80}$', 'lowercase letters, numbers, hyphens']
+  - label: Hymn numbers
+    name: numbers
+    widget: list
+    summary: '{{fields.book}} {{fields.number}}'
+    fields:
+      - label: Book
+        name: book
+        widget: relation
+        collection: books
+        search_fields: [id, name.en]
+        value_field: id
+        display_fields: [id, name.en]
+      - label: Number (exactly as printed, e.g. 117 or 117a)
+        name: number
+        widget: string
+        pattern: ['^[0-9A-Za-z-]{1,8}$', 'up to 8 letters, numbers or hyphens']
+  - label: Title
+    name: title
+    widget: object
+    fields:
+      - { label: Native script, name: native, widget: string }
+      - { label: Roman, name: roman, widget: string, required: false }
+      - { label: English, name: en, widget: string, required: false }
+  - { label: Extra search words, name: aliases, widget: list, required: false }
+  - label: Sections
+    name: sections
+    widget: list
+    summary: '{{fields.label}}'
+    fields:
+      - { label: Type, name: type, widget: select, options: [verse, chorus, bridge, refrain, other] }
+      - { label: 'Label (e.g. Verse 1, Pallavi)', name: label, widget: string }
+      - label: Lines
+        name: lines
+        widget: list
+        summary: '{{fields.n}}'
+        fields:
+          - { label: Native, name: n, widget: string }
+          - { label: Roman, name: r, widget: string, required: false }
+          - { label: English, name: e, widget: string, required: false }
+  - label: Display
+    name: display
+    widget: object
+    fields:
+      - label: "Show '↻ Chorus' after each verse"
+        name: chorusAfterEachVerse
+        widget: boolean
+        default: false
+  - label: Author
+    name: author
+    widget: object
+    fields:
+      - { label: Name, name: name, widget: string, default: Unknown }
+      - { label: Born (year), name: born, widget: number, value_type: int, required: false }
+      - { label: Died (year), name: died, widget: number, value_type: int, required: false }
+  - { label: Composer, name: composer, widget: string, required: false }
+  - { label: Tune, name: tune, widget: string, required: false }
+  - { label: Year written, name: year, widget: number, value_type: int, required: false }
+  - { label: Bible references, name: bibleRefs, widget: list, required: false }
+  - { label: Tags, name: tags, widget: list, required: false }
+  - label: Rights (required before publishing)
+    name: rights
+    widget: object
+    fields:
+      - label: Status
+        name: status
+        widget: select
+        options: [permission_pending, public_domain, licensed, demo, rejected]
+        default: permission_pending
+      - { label: Basis (why), name: basis, widget: text, required: false }
+      - { label: Evidence (link / file ref), name: evidence, widget: string, required: false }
+      - { label: Rights holder, name: holder, widget: string, required: false }
+      - { label: Checked by, name: checkedBy, widget: string, required: false }
+      - label: Checked on
+        name: checkedOn
+        widget: datetime
+        format: YYYY-MM-DD
+        date_format: YYYY-MM-DD
+        time_format: false
+        required: false
+  - label: Layer status
+    name: layers
+    widget: object
+    fields:
+      - { label: Roman, name: roman, widget: select, options: [missing, draft, reviewed], default: missing }
+      - { label: English, name: en, widget: select, options: [missing, draft, reviewed], default: missing }
+  - label: Source scan
+    name: source
+    widget: object
+    required: false
+    fields:
+      - { label: Scan file/link, name: scan, widget: string, required: false }
+      - { label: Page, name: page, widget: number, value_type: int, required: false }
+  - label: Updated
+    name: updated
+    widget: datetime
+    format: YYYY-MM-DD
+    date_format: YYYY-MM-DD
+    time_format: false
+    default: '{{now}}'
+  - { label: Publish, name: publish, widget: boolean, default: false }
+
+collections:
+  - name: books
+    label: Books
+    folder: src/content/books
+    extension: json
+    format: json
+    create: true
+    identifier_field: id
+    slug: '{{id}}'
+    fields:
+      - label: ID (short letters, e.g. DT). Never change after publishing.
+        name: id
+        widget: string
+        pattern: ['^[A-Za-z]{1,6}$', '1 to 6 letters']
+      - label: Name
+        name: name
+        widget: object
+        fields:
+          - { label: Native, name: native, widget: string }
+          - { label: English, name: en, widget: string }
+      - { label: Language, name: lang, widget: select, options: [en, hi, ta, te, pa] }
+      - { label: Edition, name: edition, widget: string, required: false }
+      - { label: Publisher, name: publisher, widget: string, required: false }
+      - { label: Description, name: description, widget: text, required: false }
+      - { label: Order, name: order, widget: number, value_type: int, default: 100 }
+      - { label: Numbering, name: numbering, widget: select, options: [numeric, alnum], default: numeric }
+      - { label: Status, name: status, widget: select, options: [demo, active, archived], default: active }
+  - name: songs_hi
+    label: Songs · Hindi
+    folder: src/content/songs/hi
+    extension: json
+    format: json
+    create: true
+    identifier_field: slug
+    slug: '{{slug}}'
+    summary: '{{title.native}} · {{title.roman}}'
+    fields: *song_fields
+  - name: songs_ta
+    label: Songs · Tamil
+    folder: src/content/songs/ta
+    extension: json
+    format: json
+    create: true
+    identifier_field: slug
+    slug: '{{slug}}'
+    summary: '{{title.native}} · {{title.roman}}'
+    fields: *song_fields
+  - name: songs_te
+    label: Songs · Telugu
+    folder: src/content/songs/te
+    extension: json
+    format: json
+    create: true
+    identifier_field: slug
+    slug: '{{slug}}'
+    summary: '{{title.native}} · {{title.roman}}'
+    fields: *song_fields
+  - name: songs_pa
+    label: Songs · Punjabi
+    folder: src/content/songs/pa
+    extension: json
+    format: json
+    create: true
+    identifier_field: slug
+    slug: '{{slug}}'
+    summary: '{{title.native}} · {{title.roman}}'
+    fields: *song_fields
+  - name: songs_en
+    label: Songs · English
+    folder: src/content/songs/en
+    extension: json
+    format: json
+    create: true
+    identifier_field: slug
+    slug: '{{slug}}'
+    summary: '{{title.native}}'
+    fields: *song_fields

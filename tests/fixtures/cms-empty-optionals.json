@@ -1,0 +1,32 @@
+{
+  "slug": "cms-empty-optionals",
+  "numbers": [{ "book": "TB", "number": "15" }],
+  "title": { "native": "நல்ல பாடல் இரண்டு", "roman": "", "en": "" },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [{ "n": "இயேசுவே என் துணை", "r": "", "e": "" }]
+    }
+  ],
+  "display": { "chorusAfterEachVerse": false },
+  "author": { "name": "Unknown", "born": "", "died": "" },
+  "composer": "",
+  "tune": "",
+  "year": "",
+  "bibleRefs": [],
+  "tags": [],
+  "rights": {
+    "status": "permission_pending",
+    "basis": "",
+    "evidence": "",
+    "holder": "",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": { "roman": "missing", "en": "missing" },
+  "source": { "scan": "", "page": "" },
+  "updated": "2026-11-19",
+  "publish": false
+}

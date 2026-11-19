@@ -35,6 +35,18 @@ describe('validate: base fixtures', () => {
     expect(r.warnings.filter((w) => w.rule === 'w-slug')).toEqual([]);
   });
 
+  it('accepts a new song exactly as Decap CMS 3.18 writes it (minimal form)', () => {
+    const raw = readFileSync(join(FIX, 'cms-written-song.json'), 'utf8');
+    const r = run({ songs: [{ relPath: 'ta/cms-written-song.json', raw }] });
+    expect(r.errors).toEqual([]);
+  });
+
+  it('accepts a CMS save where optional fields were left empty ("" numbers)', () => {
+    const raw = readFileSync(join(FIX, 'cms-empty-optionals.json'), 'utf8');
+    const r = run({ songs: [{ relPath: 'ta/cms-empty-optionals.json', raw }] });
+    expect(r.errors).toEqual([]);
+  });
+
   it('warns when slug differs from the file name', () => {
     const raw = readFileSync(join(FIX, 'cms-created-song.json'), 'utf8');
     const r = run({ songs: [{ relPath: 'ta/renamed-file.json', raw }] });

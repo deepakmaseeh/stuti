@@ -42,6 +42,9 @@ export const RIGHTS_STATUSES = [
   'rejected',
 ] as const;
 
+// Decap saves a cleared optional number field as "", so treat "" like "not set".
+const optInt = z.preprocess((v) => (v === '' ? null : v), z.number().int().nullable()).default(null);
+
 // Song id and language are NOT in the JSON: they come from the file path (spec §5.3).
 export const SongSchema = z.object({
   slug: z.string().regex(SLUG_RE).optional(),
@@ -57,13 +60,13 @@ export const SongSchema = z.object({
   author: z
     .object({
       name: z.string().default('Unknown'),
-      born: z.number().int().nullable().default(null),
-      died: z.number().int().nullable().default(null),
+      born: optInt,
+      died: optInt,
     })
     .default({}),
   composer: z.string().nullable().default(null),
   tune: z.string().nullable().default(null),
-  year: z.number().int().nullable().default(null),
+  year: optInt,
   bibleRefs: z.array(z.string()).default([]),
   tags: z.array(z.string()).default([]),
   rights: z.object({
@@ -75,9 +78,7 @@ export const SongSchema = z.object({
     checkedOn: z.string().default(''),
   }),
   layers: z.object({ roman: LayerState.default('missing'), en: LayerState.default('missing') }).default({}),
-  source: z
-    .object({ scan: z.string().default(''), page: z.number().int().nullable().default(null) })
-    .default({}),
+  source: z.object({ scan: z.string().default(''), page: optInt }).default({}),
   chords: z.string().nullable().default(null),
   media: z.object({ youtube: z.string().nullable().default(null) }).default({}),
   updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),

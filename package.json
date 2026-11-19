@@ -9,6 +9,7 @@
     "dev": "npm run indexes && astro dev",
     "validate": "tsx --env-file-if-exists=.env scripts/validate.ts",
     "indexes": "tsx --env-file-if-exists=.env scripts/build-indexes.ts",
+    "new-song": "tsx --env-file-if-exists=.env scripts/new-song.ts",
     "prebuild": "npm run validate && npm run indexes",
     "build": "astro build",
     "postbuild": "tsx scripts/font-manifest.ts",

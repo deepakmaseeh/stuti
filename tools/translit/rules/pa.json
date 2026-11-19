@@ -1,0 +1,11 @@
+{
+  "about": "Regex replacements applied in order to lowercase Aksharamukha RomanReadable output (apostrophes already removed; final silent 'a' dropped before transliterating).",
+  "replace": [
+    { "from": "aa\\b", "to": "a" },
+    { "from": "chch", "to": "ch" },
+    { "from": "tth", "to": "th" },
+    { "from": "\\bnoon\\b", "to": "nu" },
+    { "from": "\\buh\\b", "to": "oh" },
+    { "from": "\\byisoo\\b", "to": "yisu" }
+  ]
+}

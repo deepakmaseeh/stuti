@@ -1,0 +1,5 @@
+# Content tools only (not needed to build or run the app).
+# Also install Tesseract 5 with hin, tam, tel, pan traineddata (tessdata_best) for OCR.
+pytesseract>=0.3.10
+pillow>=10
+aksharamukha>=2.1
