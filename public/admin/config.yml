@@ -1,9 +1,9 @@
 # Decap CMS for Stuti. Every save opens a branch + pull request (editorial workflow).
-# Before first use (see README "Editor login"): replace OWNER with your GitHub user/org,
-# and base_url with your own Cloudflare Worker that handles the GitHub login.
+# Before first use (see README "Editor login"): set base_url to your own Cloudflare Worker
+# that handles the GitHub login.
 backend:
   name: github
-  repo: OWNER/stuti
+  repo: deepakmaseeh/stuti
   branch: main
   base_url: https://stuti-cms-auth.OWNER.workers.dev
   squash_merges: true

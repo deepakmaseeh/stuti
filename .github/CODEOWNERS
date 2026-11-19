@@ -1,8 +1,8 @@
-# Who reviews what. Replace the placeholder usernames with real GitHub usernames
-# (use your own username for every line until you have language editors).
+# Who reviews what. Replace a language line's username with that language editor's GitHub username
+# when you add one (until then the maintainer owns everything).
 # The last matching line wins, so keep the language folders below /src/.
-/src/ @maintainer-github
-/src/content/songs/hi/ @hindi-editor-github
-/src/content/songs/ta/ @tamil-editor-github
-/src/content/songs/te/ @telugu-editor-github
-/src/content/songs/pa/ @punjabi-editor-github
+/src/ @deepakmaseeh
+/src/content/songs/hi/ @deepakmaseeh
+/src/content/songs/ta/ @deepakmaseeh
+/src/content/songs/te/ @deepakmaseeh
+/src/content/songs/pa/ @deepakmaseeh
