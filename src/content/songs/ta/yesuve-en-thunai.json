@@ -11,11 +11,7 @@
     "roman": "Yesuve En Thunai",
     "en": "Jesus, My Companion"
   },
-  "aliases": [
-    "yesu",
-    "thunai",
-    "tunai"
-  ],
+  "aliases": ["yesu", "thunai", "tunai"],
   "sections": [
     {
       "type": "chorus",
@@ -73,12 +69,8 @@
     "name": "Demo text"
   },
   "year": 2026,
-  "bibleRefs": [
-    "Isaiah 41:10"
-  ],
-  "tags": [
-    "comfort"
-  ],
+  "bibleRefs": ["Isaiah 41:10"],
+  "tags": ["comfort"],
   "rights": {
     "status": "demo",
     "basis": "Written for the prototype"

@@ -18,14 +18,14 @@ npm run dev            # http://localhost:4321
 
 ## Scripts
 
-| Command | What it does |
-|---|---|
-| `npm run dev` | Local dev server |
-| `npm run build` | Static build into `dist/` |
-| `npm run preview` | Serve the built site |
-| `npm test` | Unit tests (Vitest) |
-| `npm run lint` | ESLint |
-| `npm run format` | Prettier |
+| Command           | What it does              |
+| ----------------- | ------------------------- |
+| `npm run dev`     | Local dev server          |
+| `npm run build`   | Static build into `dist/` |
+| `npm run preview` | Serve the built site      |
+| `npm test`        | Unit tests (Vitest)       |
+| `npm run lint`    | ESLint                    |
+| `npm run format`  | Prettier                  |
 
 More scripts (validate, indexes, e2e, Lighthouse, precache check) are added in later phases (spec §18.1).
 

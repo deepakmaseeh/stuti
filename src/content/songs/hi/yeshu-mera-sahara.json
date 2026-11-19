@@ -11,11 +11,7 @@
     "roman": "Yeshu Mera Sahara",
     "en": "Jesus, My Support"
   },
-  "aliases": [
-    "yesu",
-    "yisu",
-    "sahara"
-  ],
+  "aliases": ["yesu", "yisu", "sahara"],
   "sections": [
     {
       "type": "chorus",
@@ -73,12 +69,8 @@
     "name": "Demo text"
   },
   "year": 2026,
-  "bibleRefs": [
-    "Psalm 23:4"
-  ],
-  "tags": [
-    "comfort"
-  ],
+  "bibleRefs": ["Psalm 23:4"],
+  "tags": ["comfort"],
   "rights": {
     "status": "demo",
     "basis": "Written for the prototype"

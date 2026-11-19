@@ -1,0 +1,139 @@
+---
+import Base from '../../layouts/Base.astro';
+import BottomNav from '../../components/BottomNav.astro';
+import NumberBadge from '../../components/NumberBadge.astro';
+import LyricSection from '../../components/LyricSection.astro';
+import SongMeta from '../../components/SongMeta.astro';
+import SongToolbar from '../../components/islands/SongToolbar.tsx';
+import FavStar from '../../components/islands/FavStar.tsx';
+import { getSongs } from '../../lib/content';
+import { safeJsonLd } from '../../lib/jsonld';
+import { LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
+import type { Song } from '../../lib/schema';
+import { badgeText, primaryNumber, songUrl } from '../../lib/songs';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+export async function getStaticPaths() {
+  const songs = await getSongs();
+  return songs.map((song) => ({ params: { id: song.id }, props: { song } }));
+}
+
+const { song } = Astro.props as { song: Song };
+const isEn = song.lang === 'en';
+const showR = !isEn && song.layers.roman !== 'missing';
+const showE = !isEn && song.layers.en !== 'missing';
+const primary = primaryNumber(song);
+const url = songUrl(song.id);
+const lines = song.sections.flatMap((s) => s.lines);
+const hasChorus = song.sections.some((s) => s.type === 'chorus' || s.type === 'refrain');
+
+const titleTag = isEn
+  ? `${song.title.native} hymn lyrics | ${site.name}`
+  : `${[`${song.title.native} lyrics`, song.title.roman, song.title.en].filter(Boolean).join(' · ')} | ${site.name}`;
+const description = lines
+  .slice(0, 2)
+  .map((l) => [l.n, isEn ? '' : l.r].filter(Boolean).join(' / '))
+  .join(' · ');
+const subtitle = [song.title.roman, song.title.en].filter(Boolean).join(' · ');
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'MusicComposition',
+  name: song.title.native,
+  alternateName: [song.title.roman, song.title.en].filter(Boolean),
+  inLanguage: song.lang,
+  lyricist: { '@type': 'Person', name: song.author.name },
+  lyrics: { '@type': 'CreativeWork', text: (song.sections[0]?.lines ?? []).map((l) => l.n).join('\n') },
+  url: new URL(url, site.url).href,
+};
+
+const snapshot = { id: song.id, title: song.title.native, lang: song.lang, badge: badgeText(primary) };
+const numbersData = JSON.stringify(song.numbers);
+---
+
+<Base title={titleTag} description={description} canonicalPath={url} bodyClass="page-song">
+  <script slot="head" type="application/ld+json" set:html={safeJsonLd(jsonLd)} />
+  <header class="song-header">
+    <div class="app-column song-header__inner">
+      <a
+        class="icon-btn"
+        href={`/books/${primary.book.toLowerCase()}/`}
+        aria-label={t('song.back')}
+        data-back
+      >
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <path d="m15 5-7 7 7 7"></path>
+        </svg>
+      </a>
+      <span data-numbers={numbersData} class="song-header__badge">
+        <NumberBadge book={primary.book} number={primary.number} size="header" />
+      </span>
+      <FavStar client:load snapshot={snapshot} />
+    </div>
+  </header>
+  <script is:inline>
+    (function () {
+      // Badge shows the book the user came from (/b/<book>/<n>/ → ?from=<book>).
+      const from = new URLSearchParams(location.search).get('from');
+      const wrap = document.querySelector('[data-numbers]');
+      if (from && wrap) {
+        const hit = JSON.parse(wrap.getAttribute('data-numbers')).find(function (n) {
+          return n.book.toLowerCase() === from.toLowerCase();
+        });
+        if (hit) {
+          wrap.querySelector('.badge').setAttribute('aria-label', hit.book + ' ' + hit.number);
+          wrap.querySelector('.badge__book').textContent = hit.book;
+          wrap.querySelector('.badge__num').textContent = hit.number;
+        }
+      }
+      const back = document.querySelector('[data-back]');
+      if (back && document.referrer.indexOf(location.origin) === 0 && history.length > 1) {
+        back.addEventListener('click', function (e) {
+          e.preventDefault();
+          history.back();
+        });
+      }
+    })();
+  </script>
+
+  <main id="main" class="app-column song">
+    <h1 class="song__title" lang={LANG_TAG.n[song.lang]}>
+      {song.title.native}
+    </h1>
+    {subtitle && (
+      <p class="song__subtitle" lang="en">
+        {subtitle}
+      </p>
+    )}
+
+    <SongToolbar
+      client:load
+      snapshot={snapshot}
+      isEnglish={isEn}
+      nativeLabel={LANG_NATIVE[song.lang]}
+      nativeLang={LANG_TAG.n[song.lang]}
+      layers={{ r: isEn ? 'missing' : song.layers.roman, e: isEn ? 'missing' : song.layers.en }}
+      share={{ title: song.title.native, text: lines[0]?.n ?? '', url }}
+    />
+
+    <div class:list={['lyrics', { 'is-en': isEn, 'has-r': showR, 'has-e': showE }]}>
+      {song.sections.map((section) => (
+        <LyricSection
+          section={section}
+          lang={song.lang}
+          showRoman={showR}
+          showEnglish={showE}
+          chorusMarker={song.display.chorusAfterEachVerse && hasChorus && section.type === 'verse'}
+        />
+      ))}
+    </div>
+
+    <SongMeta song={song} />
+
+    <a class="report-btn" href={site.report.githubIssueUrl} data-report>
+      {t('song.report')}
+    </a>
+  </main>
+  <BottomNav />
+</Base>

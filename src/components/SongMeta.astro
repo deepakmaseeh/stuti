@@ -1,0 +1,56 @@
+---
+import RightsBadge from './RightsBadge.astro';
+import { t } from '../i18n';
+import type { Song } from '../lib/schema';
+import { numberUrl } from '../lib/songs';
+
+interface Props {
+  song: Song;
+}
+const { song } = Astro.props;
+const { author } = song;
+const years =
+  author.born && author.died
+    ? ` (${author.born}–${author.died})`
+    : author.died
+      ? ` (d. ${author.died})`
+      : author.born
+        ? ` (b. ${author.born})`
+        : '';
+---
+
+<dl class="song-meta">
+  <div>
+    <dt>{t('song.author')}</dt>
+    <dd>
+      {author.name}
+      {years}
+      {song.year ? `, ${song.year}` : ''}
+    </dd>
+  </div>
+  <div>
+    <dt>{t('song.books')}</dt>
+    <dd>
+      {song.numbers.map((n, i) => (
+        <>
+          {i > 0 && ' · '}
+          <a href={numberUrl(n.book, n.number)}>
+            {n.book} {n.number}
+          </a>
+        </>
+      ))}
+    </dd>
+  </div>
+  {song.bibleRefs.length > 0 && (
+    <div>
+      <dt>{t('song.bible')}</dt>
+      <dd>{song.bibleRefs.join(' · ')}</dd>
+    </div>
+  )}
+  <div>
+    <dt>{t('song.rights')}</dt>
+    <dd>
+      <RightsBadge status={song.rights.status} />
+    </dd>
+  </div>
+</dl>

@@ -11,9 +11,7 @@
     "roman": "",
     "en": ""
   },
-  "aliases": [
-    "how sweet the sound"
-  ],
+  "aliases": ["how sweet the sound"],
   "sections": [
     {
       "type": "verse",
@@ -40,12 +38,8 @@
     "died": 1807
   },
   "year": 1779,
-  "bibleRefs": [
-    "Ephesians 2:8"
-  ],
-  "tags": [
-    "grace"
-  ],
+  "bibleRefs": ["Ephesians 2:8"],
+  "tags": ["grace"],
   "rights": {
     "status": "public_domain",
     "basis": "Author died 1807"

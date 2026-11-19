@@ -12,6 +12,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "test": "vitest run",
+    "test:e2e": "playwright test",
     "format": "prettier -w .",
     "lint": "eslint ."
   },
@@ -42,6 +43,7 @@
     "workerd@1.20261118.1": true
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.12",
     "@axe-core/playwright": "^4.14.0",
     "@eslint/js": "^10.0.1",
     "@lhci/cli": "^0.16.1",

@@ -1,0 +1,18 @@
+---
+interface Props {
+  book: string;
+  number: string;
+  size?: 'list' | 'header';
+  id?: string;
+}
+const { book, number, size = 'list', id } = Astro.props;
+---
+
+<span class={`badge badge--${size}`} id={id} role="img" aria-label={`${book} ${number}`}>
+  <span class="badge__book" aria-hidden="true">
+    {book}
+  </span>
+  <span class="badge__num" aria-hidden="true">
+    {number}
+  </span>
+</span>

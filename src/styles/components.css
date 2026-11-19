@@ -1,0 +1,363 @@
+@import './lyrics.css';
+
+/* ---------- App header ---------- */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--leather-deep);
+  color: var(--gold-soft);
+  padding-top: env(safe-area-inset-top);
+}
+.app-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 56px;
+}
+.app-header__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: var(--gold-soft);
+}
+.app-header__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+}
+.app-main {
+  padding-top: var(--s4);
+  padding-bottom: calc(96px + env(safe-area-inset-bottom));
+}
+.page-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  margin-bottom: var(--s1);
+}
+.page-sub,
+.muted {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+.page-sub {
+  margin-bottom: var(--s4);
+}
+.group-title {
+  font-size: var(--text-lg);
+  font-weight: 600;
+  margin: var(--s6) 0 var(--s2);
+}
+
+/* ---------- Bottom nav ---------- */
+.bottom-nav {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 20;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s1);
+  max-width: 480px;
+  margin-inline: auto;
+  padding: var(--s1) var(--s2) calc(var(--s1) + env(safe-area-inset-bottom));
+  background: var(--page);
+  border-top: 1px solid var(--line);
+  transition: transform var(--dur) var(--ease);
+}
+.nav-hidden .bottom-nav {
+  transform: translateY(110%);
+}
+.bottom-nav__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 52px;
+  border-radius: var(--r-md);
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+.bottom-nav__item svg,
+.icon-btn svg {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.bottom-nav__item[aria-current='page'] {
+  background: var(--card);
+  color: var(--ink);
+}
+.bottom-nav__item[aria-current='page'] svg {
+  color: var(--ribbon-ink);
+}
+
+/* ---------- Icon button ---------- */
+.icon-btn {
+  display: inline-grid;
+  place-items: center;
+  width: var(--tap);
+  height: var(--tap);
+  border-radius: 50%;
+  border: 0;
+  background: transparent;
+  color: inherit;
+}
+.icon-btn:hover {
+  background: color-mix(in oklch, currentColor 12%, transparent);
+}
+.star--on svg {
+  fill: var(--gold);
+  stroke: var(--gold);
+}
+
+/* ---------- Number badge (gold-stamped) ---------- */
+.badge {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  background: var(--leather);
+  border-radius: var(--r-sm);
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.1;
+}
+.badge--list {
+  width: 52px;
+  min-height: 48px;
+}
+.badge--header {
+  width: 76px;
+  min-height: 64px;
+}
+.badge__book {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--gold-soft);
+}
+.badge__num {
+  color: var(--gold);
+  font-size: 1.1875rem;
+}
+.badge--header .badge__num {
+  font-size: 1.75rem;
+}
+
+/* ---------- Song row ---------- */
+.song-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+  min-height: 56px;
+  padding: var(--s2) 0;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  color: inherit;
+}
+.song-row__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.song-row__title {
+  font-weight: 600;
+  font-size: 1rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.song-row__sub {
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+/* ---------- Chips ---------- */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s2);
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s1);
+  min-height: 40px;
+  padding: 0 var(--s4);
+  border-radius: var(--r-pill);
+  border: 1.5px solid var(--line);
+  background: var(--page);
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+.chip[aria-pressed='true'] {
+  background: var(--leather);
+  border-color: var(--leather);
+  color: var(--gold-soft);
+}
+.pill {
+  display: inline-block;
+  padding: 0 6px;
+  border-radius: var(--r-pill);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.pill--warn {
+  background: color-mix(in oklch, var(--warn) 25%, var(--page));
+  color: var(--ink);
+}
+
+/* ---------- Song toolbar (needs JS) ---------- */
+.toolbar {
+  display: none;
+  flex-direction: column;
+  gap: var(--s3);
+  margin: var(--s4) 0 var(--s6);
+}
+.js .toolbar {
+  display: flex;
+}
+.tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--s2);
+}
+.tool {
+  min-height: 44px;
+  min-width: 48px;
+  padding: 0 var(--s3);
+  border-radius: var(--r-md);
+  border: 0;
+  background: var(--card);
+  font-weight: 600;
+  font-size: var(--text-sm);
+}
+.tool:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.tool--on {
+  background: color-mix(in oklch, var(--ok) 22%, var(--page));
+}
+.tools__note {
+  text-align: center;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+/* ---------- Song page ---------- */
+.song-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  padding-top: env(safe-area-inset-top);
+}
+.song-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 72px;
+}
+.song {
+  padding-top: var(--s4);
+  padding-bottom: calc(110px + env(safe-area-inset-bottom));
+}
+.song__title {
+  text-align: center;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  font-family: var(--font-display);
+}
+.song__title:lang(hi),
+.song__title:lang(ta),
+.song__title:lang(te),
+.song__title:lang(pa) {
+  font-family: var(--font-indic);
+}
+.song__subtitle {
+  text-align: center;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin-top: var(--s1);
+}
+.song-meta {
+  display: grid;
+  gap: var(--s2);
+  margin-top: var(--s8);
+  padding-top: var(--s4);
+  border-top: 1px solid var(--line);
+  font-size: var(--text-sm);
+}
+.song-meta div {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: var(--s2);
+}
+.song-meta dt {
+  color: var(--muted);
+}
+.rights {
+  display: inline-block;
+  padding: 0 var(--s2);
+  border-radius: var(--r-pill);
+  border: 1px solid var(--line);
+  font-weight: 600;
+}
+.rights--demo,
+.rights--permission_pending {
+  border-color: var(--warn);
+}
+.report-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap);
+  margin-top: var(--s6);
+  padding: var(--s2) var(--s4);
+  border: 1.5px dashed var(--line);
+  border-radius: var(--r-md);
+  background: transparent;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  width: 100%;
+}
+
+/* ---------- Toast ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(80px + env(safe-area-inset-bottom));
+  z-index: 50;
+  transform: translate(-50%, 20px);
+  opacity: 0;
+  pointer-events: none;
+  padding: var(--s2) var(--s4);
+  border-radius: var(--r-pill);
+  background: var(--ink);
+  color: var(--paper);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  transition:
+    opacity var(--dur) var(--ease),
+    transform var(--dur) var(--ease);
+}
+.toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,29 @@
+---
+import NumberBadge from './NumberBadge.astro';
+import { LANG_TAG } from '../lib/scripts';
+import type { Lang } from '../lib/schema';
+
+interface Props {
+  href: string;
+  book: string;
+  number: string;
+  title: string;
+  subtitle?: string;
+  lang: Lang;
+}
+const { href, book, number, title, subtitle, lang } = Astro.props;
+---
+
+<a class="song-row" href={href}>
+  <NumberBadge book={book} number={number} />
+  <span class="song-row__text">
+    <span class="song-row__title" lang={LANG_TAG.n[lang]}>
+      {title}
+    </span>
+    {subtitle && (
+      <span class="song-row__sub" lang={LANG_TAG.r[lang]}>
+        {subtitle}
+      </span>
+    )}
+  </span>
+</a>

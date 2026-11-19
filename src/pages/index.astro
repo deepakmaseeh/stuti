@@ -1,52 +1,35 @@
 ---
-import '../styles/tokens.css';
-import '../styles/base.css';
+import AppShell from '../components/AppShell.astro';
 import { site } from '../site.config';
+import { t } from '../i18n';
 ---
 
-<!doctype html>
-<html lang="en" data-theme="system" data-size="2">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>{site.name} · {site.tagline}</title>
-    <meta
-      name="description"
-      content="Free, offline Christian hymnal in Hindi, Tamil, Telugu, Punjabi and English, numbered like the printed book."
-    />
-    <link rel="canonical" href={new URL('/', site.url).href} />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  </head>
-  <body>
-    <main class="app-column placeholder">
-      <h1>{site.name}</h1>
-      <p class="names">
-        <span lang="hi">स्तुति</span> · <span lang="ta">துதி</span> · <span lang="te">స్తుతి</span> ·
-        <span lang="pa">ਉਸਤਤ</span>
-      </p>
-      <p class="tagline">{site.tagline}</p>
-    </main>
-  </body>
-</html>
+<AppShell
+  title={`${site.name} · ${site.tagline}`}
+  description="Free, offline Christian hymnal in Hindi, Tamil, Telugu, Punjabi and English, numbered like the printed book."
+  active="home"
+>
+  <div class="placeholder">
+    <h1 class="page-title">{site.name}</h1>
+    <p class="names">
+      <span lang="hi">स्तुति</span> · <span lang="ta">துதி</span> · <span lang="te">స్తుతి</span> ·
+      <span lang="pa">ਉਸਤਤ</span>
+    </p>
+    <p class="muted">{site.tagline}</p>
+    <p>
+      <a href="/books/">{t('books.title')}</a>
+    </p>
+  </div>
+</AppShell>
 
 <style>
   .placeholder {
-    min-height: 100dvh;
     display: grid;
-    place-content: center;
     gap: var(--s3);
     text-align: center;
-  }
-  h1 {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: var(--text-2xl);
-    color: var(--ink);
+    padding-top: var(--s12);
   }
   .names {
     font-size: var(--text-lg);
-  }
-  .tagline {
-    color: var(--muted);
   }
 </style>

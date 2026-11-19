@@ -1,0 +1,41 @@
+---
+import { getSongs } from '../../../lib/content';
+import type { Song } from '../../../lib/schema';
+import { songUrl } from '../../../lib/songs';
+import { site } from '../../../site.config';
+
+export async function getStaticPaths() {
+  const songs = await getSongs();
+  return songs.flatMap((song) =>
+    song.numbers.map((n) => ({
+      params: { book: n.book.toLowerCase(), number: n.number.toLowerCase() },
+      props: { song, book: n.book, number: n.number },
+    })),
+  );
+}
+
+const { song, book, number } = Astro.props as { song: Song; book: string; number: string };
+const target = `${songUrl(song.id)}?from=${encodeURIComponent(book.toLowerCase())}`;
+const canonical = new URL(songUrl(song.id), site.url).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{book} {number} · {song.title.native} | {site.name}</title>
+    <link rel="canonical" href={canonical} />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <script is:inline define:vars={{ target }}>
+      location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p>
+      <a href={target}>
+        {book} {number}: {song.title.native}
+      </a>
+    </p>
+  </body>
+</html>

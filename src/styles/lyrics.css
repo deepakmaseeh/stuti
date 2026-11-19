@@ -1,0 +1,80 @@
+.lyrics {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  font-size: var(--lyric-size);
+}
+
+.sec {
+  padding: var(--s2) 0;
+}
+.sec--chorus {
+  padding: var(--s3) var(--s4);
+  border-left: 4px solid var(--ribbon);
+  border-radius: 0 var(--r-md) var(--r-md) 0;
+  background: color-mix(in oklch, var(--ribbon) 7%, var(--paper));
+}
+.sec__label {
+  margin-bottom: var(--s2);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ribbon-ink);
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+}
+.line + .line {
+  margin-top: 0.75rem;
+}
+.line .n,
+.line .r,
+.line .e {
+  display: block;
+  padding-block: 0.1em;
+}
+.line .n {
+  font-weight: 400;
+}
+.line .n:lang(hi),
+.line .n:lang(ta),
+.line .n:lang(te),
+.line .n:lang(pa) {
+  font-family: var(--font-indic);
+  line-height: var(--lh-indic);
+}
+.line .r {
+  font-size: 0.82em;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  line-height: var(--lh-latin);
+}
+.line .e {
+  font-size: 0.74em;
+  font-style: italic;
+  color: var(--muted);
+  line-height: var(--lh-latin);
+}
+
+/* Layer visibility from <html data-layers="n r e">. No attribute (no JS) = show everything. */
+html[data-layers]:not([data-layers~='r']) .line .r,
+html[data-layers]:not([data-layers~='e']) .line .e {
+  display: none;
+}
+/* Hide the native line only when another chosen layer actually exists for this song. */
+html[data-layers~='r']:not([data-layers~='n']) .lyrics.has-r .line .n,
+html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
+  display: none;
+}
+
+.chorus-marker {
+  margin-top: -0.5rem;
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ribbon-ink);
+}

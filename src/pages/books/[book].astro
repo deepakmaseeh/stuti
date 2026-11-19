@@ -1,0 +1,43 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import SongRow from '../../components/SongRow.astro';
+import { getBookEntries, getBooks } from '../../lib/content';
+import { LANG_LABEL, LANG_TAG } from '../../lib/scripts';
+import type { Book } from '../../lib/schema';
+import { songUrl } from '../../lib/songs';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+export async function getStaticPaths() {
+  const books = await getBooks();
+  return books.map((book) => ({ params: { book: book.id.toLowerCase() }, props: { book } }));
+}
+
+const { book } = Astro.props as { book: Book };
+const entries = await getBookEntries(book.id);
+---
+
+<AppShell
+  title={`${book.name.en} (${book.id}) | ${site.name}`}
+  description={`${book.name.native} · ${book.name.en}: ${t('books.count', { n: entries.length })}, numbered like the printed book.`}
+>
+  <h1 class="page-title" lang={LANG_TAG.n[book.lang]}>
+    {book.name.native}
+  </h1>
+  <p class="page-sub">
+    {book.name.en} · {LANG_LABEL[book.lang]}
+    {book.edition && ` · ${book.edition}`} · {t('books.count', { n: entries.length })}
+  </p>
+  <div class="book-list">
+    {entries.map(({ number, song }) => (
+      <SongRow
+        href={`${songUrl(song.id)}?from=${book.id.toLowerCase()}`}
+        book={book.id}
+        number={number}
+        title={song.title.native}
+        subtitle={song.title.roman || undefined}
+        lang={song.lang}
+      />
+    ))}
+  </div>
+</AppShell>

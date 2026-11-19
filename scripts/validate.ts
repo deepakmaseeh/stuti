@@ -17,7 +17,13 @@ import { isPublishable } from '../src/lib/songs';
 
 export type FileEntry = { relPath: string; raw: string };
 export type Issue = { file: string; rule: string; message: string };
-export type BookSummary = { book: string; songs: number; published: number; pending: number; draftLayers: number };
+export type BookSummary = {
+  book: string;
+  songs: number;
+  published: number;
+  pending: number;
+  draftLayers: number;
+};
 export type ValidationResult = { errors: Issue[]; warnings: Issue[]; summary: BookSummary[] };
 
 const MAX_LINE = 200;
@@ -78,11 +84,16 @@ export function validateEntries(input: {
       continue;
     }
     const book = parsed.data;
-    if (entry.relPath !== `${book.id}.json`) err(file, '1-schema', `Book file must be named "${book.id}.json"`);
+    if (entry.relPath !== `${book.id}.json`)
+      err(file, '1-schema', `Book file must be named "${book.id}.json"`);
     const lower = book.id.toLowerCase();
     const clash = booksLower.get(lower);
     if (clash !== undefined) {
-      err(file, '3-book-id', `Book id "${book.id}" clashes with "${clash}" (book ids must be unique ignoring case)`);
+      err(
+        file,
+        '3-book-id',
+        `Book id "${book.id}" clashes with "${clash}" (book ids must be unique ignoring case)`,
+      );
       continue;
     }
     booksLower.set(lower, book.id);
@@ -107,7 +118,11 @@ export function validateEntries(input: {
       continue;
     }
     if (!fileName.endsWith('.json') || !SLUG_RE.test(slug)) {
-      err(file, '2-path', `File name "${fileName}" must be lowercase letters, numbers and hyphens (2-80) + .json`);
+      err(
+        file,
+        '2-path',
+        `File name "${fileName}" must be lowercase letters, numbers and hyphens (2-80) + .json`,
+      );
       continue;
     }
     const id = songIdFromPath(rel);
@@ -132,7 +147,8 @@ export function validateEntries(input: {
     const strings: { path: string; text: string }[] = [];
     collectStrings(json, '', strings);
     for (const s of strings)
-      if (HTML_RE.test(s.text)) err(file, '9-html', `HTML is not allowed (${s.path}: "${s.text.slice(0, 40)}")`);
+      if (HTML_RE.test(s.text))
+        err(file, '9-html', `HTML is not allowed (${s.path}: "${s.text.slice(0, 40)}")`);
 
     songs.push({ file, id, lang: folder as Lang, slug, data: parsed.data });
   }
@@ -148,7 +164,11 @@ export function validateEntries(input: {
       const book = books.get(num.book);
       if (!book) {
         const hint = booksLower.get(num.book.toLowerCase());
-        err(file, '4-numbers', `Book "${num.book}" does not exist${hint ? ` (did you mean "${hint}"?)` : ''}`);
+        err(
+          file,
+          '4-numbers',
+          `Book "${num.book}" does not exist${hint ? ` (did you mean "${hint}"?)` : ''}`,
+        );
         continue;
       }
       const key = `${num.book.toLowerCase()}|${num.number.toLowerCase()}`;
@@ -156,8 +176,10 @@ export function validateEntries(input: {
       if (owner) err(file, '4-numbers', `${num.book} ${num.number} is already used by ${owner}`);
       else numberOwners.set(key, file);
       if (book.lang !== lang) {
-        if (book.lang === 'en') warn(file, '4-numbers', `Song language "${lang}" differs from English book ${book.id}`);
-        else err(file, '4-numbers', `Book ${book.id} is "${book.lang}" but the song is in the "${lang}" folder`);
+        if (book.lang === 'en')
+          warn(file, '4-numbers', `Song language "${lang}" differs from English book ${book.id}`);
+        else
+          err(file, '4-numbers', `Book ${book.id} is "${book.lang}" but the song is in the "${lang}" folder`);
       }
     }
 
@@ -174,13 +196,17 @@ export function validateEntries(input: {
     }
     lines.forEach((l, i) => {
       const where = `${l.label}, line ${i + 1}`;
-      if (lang !== 'en' && !SCRIPT_RE[lang].test(l.n)) err(file, '5-script', `${where}: "n" is not in the ${lang} script`);
+      if (lang !== 'en' && !SCRIPT_RE[lang].test(l.n))
+        err(file, '5-script', `${where}: "n" is not in the ${lang} script`);
       if (l.r && !LATIN_ONLY.test(l.r)) err(file, '5-script', `${where}: "r" must use Latin letters only`);
       if (l.e && !LATIN_ONLY.test(l.e)) err(file, '5-script', `${where}: "e" must use Latin letters only`);
       for (const k of ['n', 'r', 'e'] as const)
-        if (l[k].length > MAX_LINE) err(file, '10-size', `${where}: "${k}" is ${l[k].length} chars (max ${MAX_LINE})`);
-      if (data.layers.roman !== 'missing' && !l.r) err(file, '6-layers', `${where}: missing "r" (layers.roman is "${data.layers.roman}")`);
-      if (data.layers.en !== 'missing' && !l.e) err(file, '6-layers', `${where}: missing "e" (layers.en is "${data.layers.en}")`);
+        if (l[k].length > MAX_LINE)
+          err(file, '10-size', `${where}: "${k}" is ${l[k].length} chars (max ${MAX_LINE})`);
+      if (data.layers.roman !== 'missing' && !l.r)
+        err(file, '6-layers', `${where}: missing "r" (layers.roman is "${data.layers.roman}")`);
+      if (data.layers.en !== 'missing' && !l.e)
+        err(file, '6-layers', `${where}: missing "e" (layers.en is "${data.layers.en}")`);
     });
 
     // Rule 7: rights gate
@@ -197,7 +223,11 @@ export function validateEntries(input: {
       const died = data.author.died;
       const oldEnough = died !== null && died <= currentYear - 61;
       if (!oldEnough && !r.basis.trim())
-        err(file, '7-rights', 'public_domain needs author.died ≤ current year − 61 or a rights.basis explaining why');
+        err(
+          file,
+          '7-rights',
+          'public_domain needs author.died ≤ current year − 61 or a rights.basis explaining why',
+        );
     }
     if (r.status === 'licensed' && (!r.holder.trim() || !r.evidence.trim()))
       err(file, '7-rights', 'licensed needs rights.holder and rights.evidence');
@@ -228,7 +258,8 @@ export function validateEntries(input: {
       songs: inBook.length,
       published: inBook.filter((s) => isPublishable(s.data, input.includeDemo)).length,
       pending: inBook.filter((s) => s.data.rights.status === 'permission_pending').length,
-      draftLayers: inBook.filter((s) => s.data.layers.roman === 'draft' || s.data.layers.en === 'draft').length,
+      draftLayers: inBook.filter((s) => s.data.layers.roman === 'draft' || s.data.layers.en === 'draft')
+        .length,
     };
   });
 
@@ -266,7 +297,8 @@ function main(): void {
     console.log(`\n${result.errors.length} error(s), ${result.warnings.length} warning(s)`);
   }
   if (process.env.GITHUB_ACTIONS)
-    for (const e of result.errors) console.log(`::error file=src/content/${e.file}::[${e.rule}] ${e.message}`);
+    for (const e of result.errors)
+      console.log(`::error file=src/content/${e.file}::[${e.rule}] ${e.message}`);
   process.exitCode = result.errors.length ? 1 : 0;
 }
 

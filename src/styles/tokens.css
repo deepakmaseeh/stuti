@@ -4,7 +4,8 @@
   --leather-deep: oklch(0.27 0.08 15); /* header/cover, app frame */
   --gold: oklch(0.8 0.12 82); /* numbers on leather, star */
   --gold-soft: oklch(0.9 0.07 85); /* text on leather */
-  --ribbon: oklch(0.55 0.19 25); /* CTA (Open, Start singing), chorus rule, section labels */
+  --ribbon: oklch(0.55 0.19 25); /* CTA (Open, Start singing), chorus rule */
+  --ribbon-ink: var(--ribbon); /* ribbon-coloured TEXT (section labels, markers): lighter in dark themes */
   --ok: oklch(0.55 0.09 175); /* offline-ready, saved, keep-awake on */
   --warn: oklch(0.62 0.15 60); /* draft layer, permission pending */
   --paper: oklch(0.985 0.004 15); /* app background */
@@ -55,6 +56,7 @@ html[data-theme='dark'] {
   --ink: oklch(0.93 0.01 60);
   --muted: oklch(0.74 0.02 40);
   --line: oklch(0.32 0.02 15);
+  --ribbon-ink: oklch(0.72 0.15 25);
 }
 
 /* Keep in sync with html[data-theme='dark'] (CSS can't reference another selector's values) */
@@ -66,6 +68,7 @@ html[data-theme='dark'] {
     --ink: oklch(0.93 0.01 60);
     --muted: oklch(0.74 0.02 40);
     --line: oklch(0.32 0.02 15);
+    --ribbon-ink: oklch(0.72 0.15 25);
   }
 }
 
@@ -81,12 +84,24 @@ html[data-theme='contrast'] {
 }
 
 /* rem so lyric sizes grow with the phone's font setting (html stays at font-size: 100%) */
-html[data-size='0'] { --lyric-size: 1rem; }
-html[data-size='1'] { --lyric-size: 1.125rem; }
-html[data-size='2'] { --lyric-size: 1.25rem; }
-html[data-size='3'] { --lyric-size: 1.4375rem; }
-html[data-size='4'] { --lyric-size: 1.625rem; }
-html[data-size='5'] { --lyric-size: 1.875rem; }
+html[data-size='0'] {
+  --lyric-size: 1rem;
+}
+html[data-size='1'] {
+  --lyric-size: 1.125rem;
+}
+html[data-size='2'] {
+  --lyric-size: 1.25rem;
+}
+html[data-size='3'] {
+  --lyric-size: 1.4375rem;
+}
+html[data-size='4'] {
+  --lyric-size: 1.625rem;
+}
+html[data-size='5'] {
+  --lyric-size: 1.875rem;
+}
 
 @media (prefers-reduced-motion: reduce) {
   * {

@@ -1,0 +1,36 @@
+---
+import { t } from '../i18n';
+
+interface Props {
+  active?: 'home' | 'search' | 'set' | 'offline';
+}
+const { active } = Astro.props;
+
+const items = [
+  {
+    key: 'home',
+    href: '/',
+    label: t('nav.home'),
+    icon: 'M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z',
+  },
+  { key: 'search', href: '/search/', label: t('nav.search'), icon: 'M5 9h14M5 15h14M10 4 8 20M16 4l-2 16' },
+  {
+    key: 'set',
+    href: '/set/',
+    label: t('nav.set'),
+    icon: 'M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01',
+  },
+  { key: 'offline', href: '/downloads/', label: t('nav.offline'), icon: 'M12 3v12m0 0-5-5m5 5 5-5M5 21h14' },
+] as const;
+---
+
+<nav class="bottom-nav" aria-label="Main">
+  {items.map((it) => (
+    <a href={it.href} class="bottom-nav__item" aria-current={active === it.key ? 'page' : undefined}>
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <path d={it.icon} />
+      </svg>
+      <span>{it.label}</span>
+    </a>
+  ))}
+</nav>

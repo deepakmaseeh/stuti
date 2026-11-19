@@ -1,0 +1,46 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import NumberBadge from '../../components/NumberBadge.astro';
+import { getBookEntries, getBooks } from '../../lib/content';
+import { LANG_LABEL, LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+const books = await getBooks();
+const groups = await Promise.all(
+  site.languages
+    .map((lang) => ({ lang, books: books.filter((b) => b.lang === lang) }))
+    .filter((g) => g.books.length > 0)
+    .map(async (g) => ({
+      ...g,
+      books: await Promise.all(
+        g.books.map(async (b) => ({ book: b, count: (await getBookEntries(b.id)).length })),
+      ),
+    })),
+);
+---
+
+<AppShell title={`${t('books.title')} | ${site.name}`} description="All hymnbooks by language.">
+  <h1 class="page-title">{t('books.title')}</h1>
+  {groups.map((g) => (
+    <section class="book-group" aria-labelledby={`lang-${g.lang}`}>
+      <h2 class="group-title" id={`lang-${g.lang}`}>
+        <span lang={LANG_TAG.n[g.lang]}>{LANG_NATIVE[g.lang]}</span>
+        {g.lang !== 'en' && <span class="muted"> · {LANG_LABEL[g.lang]}</span>}
+      </h2>
+      {g.books.map(({ book, count }) => (
+        <a class="song-row" href={`/books/${book.id.toLowerCase()}/`}>
+          <NumberBadge book="" number={book.id} />
+          <span class="song-row__text">
+            <span class="song-row__title" lang={LANG_TAG.n[book.lang]}>
+              {book.name.native}
+            </span>
+            <span class="song-row__sub">
+              {book.name.en} · {t('books.count', { n: count })}
+            </span>
+          </span>
+        </a>
+      ))}
+    </section>
+  ))}
+</AppShell>

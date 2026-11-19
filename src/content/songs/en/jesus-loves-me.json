@@ -11,9 +11,7 @@
     "roman": "",
     "en": ""
   },
-  "aliases": [
-    "this i know"
-  ],
+  "aliases": ["this i know"],
   "sections": [
     {
       "type": "verse",
@@ -58,12 +56,8 @@
     "died": 1915
   },
   "year": 1860,
-  "bibleRefs": [
-    "Mark 10:14"
-  ],
-  "tags": [
-    "children"
-  ],
+  "bibleRefs": ["Mark 10:14"],
+  "tags": ["children"],
   "rights": {
     "status": "public_domain",
     "basis": "Author died 1915"

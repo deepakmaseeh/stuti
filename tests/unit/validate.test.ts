@@ -47,17 +47,62 @@ describe('validate: each rule fails with a clear message', () => {
   const cases: { name: string; path: string; rule: string; text: RegExp }[] = [
     { name: 'invalid-json', path: 'ta/invalid-json.json', rule: '1-schema', text: /Invalid JSON/ },
     { name: 'schema-missing-title', path: 'ta/missing-title.json', rule: '1-schema', text: /title/ },
-    { name: 'schema-bad-section-type', path: 'ta/bad-section.json', rule: '1-schema', text: /sections\.0\.type/ },
-    { name: 'numbers-unknown-book', path: 'ta/unknown-book.json', rule: '4-numbers', text: /Book "ZZ" does not exist/ },
-    { name: 'numbers-duplicate', path: 'ta/duplicate-number.json', rule: '4-numbers', text: /TB 1 is already used/ },
-    { name: 'numbers-wrong-lang-book', path: 'hi/wrong-lang.json', rule: '4-numbers', text: /Book TB is "ta"/ },
-    { name: 'script-native-not-tamil', path: 'ta/latin-native.json', rule: '5-script', text: /"n" is not in the ta script/ },
-    { name: 'script-roman-not-latin', path: 'ta/tamil-roman.json', rule: '5-script', text: /"r" must use Latin/ },
+    {
+      name: 'schema-bad-section-type',
+      path: 'ta/bad-section.json',
+      rule: '1-schema',
+      text: /sections\.0\.type/,
+    },
+    {
+      name: 'numbers-unknown-book',
+      path: 'ta/unknown-book.json',
+      rule: '4-numbers',
+      text: /Book "ZZ" does not exist/,
+    },
+    {
+      name: 'numbers-duplicate',
+      path: 'ta/duplicate-number.json',
+      rule: '4-numbers',
+      text: /TB 1 is already used/,
+    },
+    {
+      name: 'numbers-wrong-lang-book',
+      path: 'hi/wrong-lang.json',
+      rule: '4-numbers',
+      text: /Book TB is "ta"/,
+    },
+    {
+      name: 'script-native-not-tamil',
+      path: 'ta/latin-native.json',
+      rule: '5-script',
+      text: /"n" is not in the ta script/,
+    },
+    {
+      name: 'script-roman-not-latin',
+      path: 'ta/tamil-roman.json',
+      rule: '5-script',
+      text: /"r" must use Latin/,
+    },
     { name: 'layers-missing-roman', path: 'ta/missing-roman.json', rule: '6-layers', text: /missing "r"/ },
-    { name: 'rights-pending-published', path: 'ta/pending.json', rule: '7-rights', text: /permission_pending/ },
-    { name: 'rights-demo-published', path: 'ta/demo.json', rule: '7-rights', text: /PUBLIC_INCLUDE_DEMO=true/ },
+    {
+      name: 'rights-pending-published',
+      path: 'ta/pending.json',
+      rule: '7-rights',
+      text: /permission_pending/,
+    },
+    {
+      name: 'rights-demo-published',
+      path: 'ta/demo.json',
+      rule: '7-rights',
+      text: /PUBLIC_INCLUDE_DEMO=true/,
+    },
     { name: 'rights-pd-no-basis', path: 'ta/pd-no-basis.json', rule: '7-rights', text: /author\.died/ },
-    { name: 'rights-licensed-no-evidence', path: 'ta/licensed.json', rule: '7-rights', text: /rights\.evidence/ },
+    {
+      name: 'rights-licensed-no-evidence',
+      path: 'ta/licensed.json',
+      rule: '7-rights',
+      text: /rights\.evidence/,
+    },
     { name: 'updated-future', path: 'ta/future.json', rule: '8-updated', text: /in the future/ },
     { name: 'updated-invalid', path: 'ta/bad-date.json', rule: '8-updated', text: /not a valid date/ },
     { name: 'html-in-line', path: 'ta/html.json', rule: '9-html', text: /HTML is not allowed/ },
@@ -85,7 +130,10 @@ describe('validate: each rule fails with a clear message', () => {
 
   it('2-path: nested folder', () => {
     const r = run({ songs: [{ relPath: 'ta/extra/song.json', raw: bad('numbers-duplicate') }] });
-    expect(r.errors[0]).toMatchObject({ rule: '2-path', message: expect.stringMatching(/songs\/<lang>\/<slug>\.json/) });
+    expect(r.errors[0]).toMatchObject({
+      rule: '2-path',
+      message: expect.stringMatching(/songs\/<lang>\/<slug>\.json/),
+    });
   });
 
   it('2-path: duplicate id', () => {

@@ -34,14 +34,18 @@ const SectionSchema = z.object({
 
 const LayerState = z.enum(['missing', 'draft', 'reviewed']);
 
-export const RIGHTS_STATUSES = ['public_domain', 'licensed', 'permission_pending', 'demo', 'rejected'] as const;
+export const RIGHTS_STATUSES = [
+  'public_domain',
+  'licensed',
+  'permission_pending',
+  'demo',
+  'rejected',
+] as const;
 
 // Song id and language are NOT in the JSON: they come from the file path (spec §5.3).
 export const SongSchema = z.object({
   slug: z.string().regex(SLUG_RE).optional(),
-  numbers: z
-    .array(z.object({ book: z.string(), number: z.string().regex(/^[0-9A-Za-z-]{1,8}$/) }))
-    .min(1),
+  numbers: z.array(z.object({ book: z.string(), number: z.string().regex(/^[0-9A-Za-z-]{1,8}$/) })).min(1),
   title: z.object({
     native: z.string().min(1),
     roman: z.string().default(''),
@@ -70,9 +74,7 @@ export const SongSchema = z.object({
     checkedBy: z.string().default(''),
     checkedOn: z.string().default(''),
   }),
-  layers: z
-    .object({ roman: LayerState.default('missing'), en: LayerState.default('missing') })
-    .default({}),
+  layers: z.object({ roman: LayerState.default('missing'), en: LayerState.default('missing') }).default({}),
   source: z
     .object({ scan: z.string().default(''), page: z.number().int().nullable().default(null) })
     .default({}),
@@ -88,5 +90,8 @@ export type Song = SongData & { id: string; lang: Lang };
 
 /** `ta/yesuve-en-thunai.json` → `ta-yesuve-en-thunai`. Accepts Windows separators. */
 export function songIdFromPath(relPath: string): string {
-  return relPath.replace(/\\/g, '/').replace(/\.json$/, '').replace('/', '-');
+  return relPath
+    .replace(/\\/g, '/')
+    .replace(/\.json$/, '')
+    .replace('/', '-');
 }

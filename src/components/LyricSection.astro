@@ -1,0 +1,37 @@
+---
+import { LANG_TAG } from '../lib/scripts';
+import type { Lang, SongData } from '../lib/schema';
+import { t } from '../i18n';
+
+interface Props {
+  section: SongData['sections'][number];
+  lang: Lang;
+  showRoman: boolean;
+  showEnglish: boolean;
+  chorusMarker: boolean;
+}
+const { section, lang, showRoman, showEnglish, chorusMarker } = Astro.props;
+const isChorus = section.type === 'chorus' || section.type === 'refrain';
+---
+
+<section class:list={['sec', { 'sec--chorus': isChorus }]} aria-label={section.label}>
+  <h2 class="sec__label">{section.label}</h2>
+  {section.lines.map((line) => (
+    <p class="line">
+      <span class="n" lang={LANG_TAG.n[lang]}>
+        {line.n}
+      </span>
+      {showRoman && line.r && (
+        <span class="r" lang={LANG_TAG.r[lang]}>
+          {line.r}
+        </span>
+      )}
+      {showEnglish && line.e && (
+        <span class="e" lang="en">
+          {line.e}
+        </span>
+      )}
+    </p>
+  ))}
+</section>
+{chorusMarker && <p class="chorus-marker">{t('song.chorusMarker')}</p>}

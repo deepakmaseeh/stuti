@@ -1,0 +1,49 @@
+---
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/components.css';
+import { site } from '../site.config';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Path for <link rel="canonical"> (defaults to the current path). */
+  canonicalPath?: string;
+  noindex?: boolean;
+  bodyClass?: string;
+}
+
+const { title, description = site.tagline, canonicalPath, noindex = false, bodyClass } = Astro.props;
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, site.url).href;
+---
+
+<!doctype html>
+<html lang="en" data-theme="system" data-size="2">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#4a1820" />
+    <script is:inline>
+      document.documentElement.classList.add('js');
+      try {
+        const p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
+        const l = p.layers || { n: true, r: true, e: false };
+        const h = document.documentElement;
+        h.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
+        h.dataset.size = String(p.size == null ? 2 : p.size);
+        h.dataset.theme = p.theme || 'system';
+      } catch {
+        // Storage blocked or corrupt: keep the server defaults.
+      }
+    </script>
+    <slot name="head" />
+  </head>
+  <body class={bodyClass}>
+    <slot />
+  </body>
+</html>

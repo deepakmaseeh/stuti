@@ -11,10 +11,7 @@
     "roman": "Yesayya Neeve Naa Aadhaaram",
     "en": "Jesus, You Are My Foundation"
   },
-  "aliases": [
-    "yesu",
-    "adharam"
-  ],
+  "aliases": ["yesu", "adharam"],
   "sections": [
     {
       "type": "chorus",
@@ -72,12 +69,8 @@
     "name": "Demo text"
   },
   "year": 2026,
-  "bibleRefs": [
-    "Psalm 18:2"
-  ],
-  "tags": [
-    "worship"
-  ],
+  "bibleRefs": ["Psalm 18:2"],
+  "tags": ["worship"],
   "rights": {
     "status": "demo",
     "basis": "Written for the prototype"
