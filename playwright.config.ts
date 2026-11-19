@@ -1,6 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
 
 const PORT = 4321;
+// `wrangler pages dev` serves dist/ with public/_headers applied like Cloudflare Pages.
+const PAGES_PORT = 8788;
 
 export default defineConfig({
   testDir: 'tests/e2e',
@@ -14,17 +16,32 @@ export default defineConfig({
   },
   // iPhone 12 runs on Chromium with the iPhone viewport/UA so CI only needs one browser.
   projects: [
-    { name: 'pixel5', use: { ...devices['Pixel 5'] } },
+    { name: 'pixel5', testIgnore: /admin\.spec/, use: { ...devices['Pixel 5'] } },
     {
       name: 'iphone12',
+      testIgnore: /admin\.spec/,
       use: { ...devices['iPhone 12'], browserName: 'chromium', defaultBrowserType: 'chromium' },
     },
-    { name: 'desktop', use: { ...devices['Desktop Chrome'] } },
+    { name: 'desktop', testIgnore: /admin\.spec/, use: { ...devices['Desktop Chrome'] } },
+    {
+      name: 'headers',
+      testMatch: /admin\.spec/,
+      use: { ...devices['Desktop Chrome'], baseURL: `http://localhost:${PAGES_PORT}` },
+    },
   ],
-  webServer: {
-    command: `npx astro preview --port ${PORT}`,
-    url: `http://localhost:${PORT}/`,
-    reuseExistingServer: !process.env.CI,
-    timeout: 60_000,
-  },
+  webServer: [
+    {
+      command: `npx astro preview --port ${PORT}`,
+      url: `http://localhost:${PORT}/`,
+      reuseExistingServer: !process.env.CI,
+      timeout: 60_000,
+    },
+    {
+      command: `npx wrangler pages dev dist --port ${PAGES_PORT}`,
+      url: `http://localhost:${PAGES_PORT}/`,
+      reuseExistingServer: !process.env.CI,
+      timeout: 120_000,
+      env: { WRANGLER_SEND_METRICS: 'false' },
+    },
+  ],
 });

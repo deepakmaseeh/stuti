@@ -7,13 +7,45 @@
 /* Indic fonts: script glyphs only. Digits and punctuation in Indic lines fall back to
    Instrument Sans (already loaded) instead of a second Latin copy per script. */
 @import '@fontsource/noto-sans-devanagari/devanagari-400.css';
-@import '@fontsource/noto-sans-devanagari/devanagari-700.css';
 @import '@fontsource/noto-sans-tamil/tamil-400.css';
-@import '@fontsource/noto-sans-tamil/tamil-700.css';
 @import '@fontsource/noto-sans-telugu/telugu-400.css';
-@import '@fontsource/noto-sans-telugu/telugu-700.css';
 @import '@fontsource/noto-sans-gurmukhi/gurmukhi-400.css';
-@import '@fontsource/noto-sans-gurmukhi/gurmukhi-700.css';
+
+/* Bold Indic (titles, book names): font-display optional instead of fontsource's swap.
+   On a cold slow load the system Indic font stays for that view instead of the title
+   re-flowing ~0.2 s later (which was the home page LCP); once cached it is used everywhere. */
+@font-face {
+  font-family: 'Noto Sans Devanagari';
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700;
+  src: url('../../node_modules/@fontsource/noto-sans-devanagari/files/noto-sans-devanagari-devanagari-700-normal.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Tamil';
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700;
+  src: url('../../node_modules/@fontsource/noto-sans-tamil/files/noto-sans-tamil-tamil-700-normal.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Telugu';
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700;
+  src: url('../../node_modules/@fontsource/noto-sans-telugu/files/noto-sans-telugu-telugu-700-normal.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans Gurmukhi';
+  font-style: normal;
+  font-display: optional;
+  font-weight: 700;
+  src: url('../../node_modules/@fontsource/noto-sans-gurmukhi/files/noto-sans-gurmukhi-gurmukhi-700-normal.woff2')
+    format('woff2');
+}
 
 /* Reset */
 *,

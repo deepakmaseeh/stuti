@@ -19,18 +19,22 @@ npm run dev            # http://localhost:4321
 
 ## Scripts
 
-| Command                  | What it does                                                                    |
-| ------------------------ | ------------------------------------------------------------------------------- |
-| `npm run dev`            | Build search indexes, then the local dev server                                 |
-| `npm run validate`       | Check every book and song file (schema, numbers, scripts, rights)               |
-| `npm run build`          | Validate, build indexes, static build into `dist/`, font list for downloads     |
-| `npm run preview`        | Serve the built site (the service worker only runs here, not in `dev`)          |
-| `npm run check-precache` | Fail if the offline app shell is over 1.5 MB                                    |
-| `npm test`               | Unit tests (Vitest)                                                             |
-| `npm run test:e2e`       | Browser tests (Playwright) against `npm run preview`; run `npm run build` first |
-| `npm run new-song`       | Create a draft song file that passes validation                                 |
-| `npm run lint`           | ESLint                                                                          |
-| `npm run format`         | Prettier                                                                        |
+| Command                  | What it does                                                                                                                        |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run dev`            | Build search indexes, then the local dev server                                                                                     |
+| `npm run validate`       | Check every book and song file (schema, numbers, scripts, rights)                                                                   |
+| `npm run build`          | Validate, build indexes, static build into `dist/`, font list for downloads                                                         |
+| `npm run preview`        | Serve the built site (the service worker only runs here, not in `dev`)                                                              |
+| `npm run check-precache` | Fail if the offline app shell is over 1.5 MB                                                                                        |
+| `npm run check-budgets`  | Fail if song HTML > 30 KB, song JS > 40 KB or first load > 150 KB (gzip)                                                            |
+| `npm run check-safety`   | Fail on HTML-injection APIs or any third-party script, style or font                                                                |
+| `npm run lhci`           | Lighthouse CI on the built site (`lighthouserc.json` budgets)                                                                       |
+| `npm run check`          | Type-check Astro, TS and TSX (`astro check`)                                                                                        |
+| `npm test`               | Unit tests (Vitest)                                                                                                                 |
+| `npm run test:e2e`       | Browser tests (Playwright) on Pixel 5, iPhone 12, desktop + `_headers` checks under `wrangler pages dev`; run `npm run build` first |
+| `npm run new-song`       | Create a draft song file that passes validation                                                                                     |
+| `npm run lint`           | ESLint                                                                                                                              |
+| `npm run format`         | Prettier                                                                                                                            |
 
 Content tools for digitising hymnbooks (OCR, transliteration, form import) are Python scripts in
 [`tools/`](tools/README.md).
@@ -41,7 +45,43 @@ Astro 5 (static) + Preact islands, plain CSS, MiniSearch, PWA via @vite-pwa/astr
 
 ## Deploy
 
-Cloudflare Pages, connected to this GitHub repo. Step-by-step: `STUTI_FIXES_AND_LAUNCH.md` §3.
+Hosting is Cloudflare Pages (free plan), connected to this GitHub repo. Every push to `main` deploys the live
+site; every pull request gets its own preview URL (use it to proofread on your phone). Full step-by-step guide:
+`STUTI_FIXES_AND_LAUNCH.md` §3.
+
+**Cloudflare Pages settings** (Workers & Pages → Create → Pages → Connect to Git → this repo):
+
+| Setting                | Value           |
+| ---------------------- | --------------- |
+| Production branch      | `main`          |
+| Framework preset       | Astro           |
+| Build command          | `npm run build` |
+| Build output directory | `dist`          |
+
+**Environment variables** (set for both Production and Preview):
+
+| Variable                    | Value                                                                                                |
+| --------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `NODE_VERSION`              | `22`                                                                                                 |
+| `PUBLIC_INCLUDE_DEMO`       | `true` until real books are live; **remove at launch** (also from both workflows and `.env.example`) |
+| `PUBLIC_REPORT_FORM_URL`    | Your Google Form prefill base URL (field IDs go in `src/site.config.ts`)                             |
+| `PUBLIC_CF_ANALYTICS_TOKEN` | Optional cookieless Cloudflare Web Analytics token. Empty = no analytics                             |
+
+None of these are secrets: `PUBLIC_*` values end up in the built pages. The only secret (the GitHub OAuth client
+secret) lives in the auth Worker, see below.
+
+After the first deploy, put the exact site URL (e.g. `https://stuti.pages.dev`) in `src/site.config.ts` → `url` and
+`astro.config.mjs` → `site` (sitemap, canonical links and `robots.txt` use it), and commit.
+
+`public/_headers` sets the security headers (strict Content-Security-Policy site-wide, a relaxed one for `/admin/`
+only) and caching (hashed `/_astro/` files cached for a year, `sw.js` and `/dl/` never cached). Check them locally
+with `npx wrangler pages dev dist`; `tests/e2e/admin.spec.ts` does this automatically.
+
+**Checks on every pull request** (`.github/workflows/`): `validate` (independence check, content validation, unit
+and Python tests, lint, type check, build, precache/budget/safety checks, Lighthouse) and `e2e` (Playwright). Protect
+`main` so both must pass. Dependabot opens weekly update PRs (Astro majors are ignored for v1).
+
+Before launch, work through the **Launch checklist** issue template (Issues → New issue).
 
 ## Editor login for `/admin` (GitHub OAuth on a Cloudflare Worker)
 

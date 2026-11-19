@@ -35,3 +35,4 @@ Stuti · Christian Songbook App · Feature Spec v0.1_files/
 .DS_Store
 Thumbs.db
 *.log
+.lighthouseci/

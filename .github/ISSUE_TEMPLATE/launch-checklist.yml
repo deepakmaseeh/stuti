@@ -1,0 +1,70 @@
+name: Launch checklist
+description: Go-live checks for Stuti (spec §26 and STUTI_FIXES_AND_LAUNCH.md §5). For the maintainer.
+title: 'Launch checklist'
+labels: ['launch']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tick each box only after checking it yourself on the live site (or a preview URL).
+        Steps for each part are in `STUTI_FIXES_AND_LAUNCH.md` §3.
+  - type: checkboxes
+    id: ci
+    attributes:
+      label: Build and checks
+      options:
+        - label: F1–F14 applied; spec is v1.1 with changelog and shows Indic text correctly
+        - label: All CI checks green on `main` (validate, unit, e2e, Lighthouse, precache ≤ 1.5 MB, budgets, safety, independence check)
+        - label: Branch protection on `main` requires `validate` and `e2e`; force pushes blocked
+        - label: Dependabot alerts and weekly updates enabled
+  - type: checkboxes
+    id: content
+    attributes:
+      label: Content and rights
+      options:
+        - label: Real books added with correct numbering; at least 100 reviewed songs per launch language
+        - label: Every published song has rights status `public_domain` or `licensed`, with source recorded
+        - label: Demo books set to `archived`, demo songs removed or `publish:false`
+        - label: '`PUBLIC_INCLUDE_DEMO` removed from Cloudflare env vars, both workflows and `.env.example`; redeployed'
+  - type: checkboxes
+    id: devices
+    attributes:
+      label: Real devices
+      options:
+        - label: 'Android phone: download a book → airplane mode → open by number, by words, and from a shared set'
+        - label: 'iPhone Safari: Add to Home Screen → opens and reads songs offline'
+        - label: Install to home screen works on Android (Chrome install prompt or menu → Install app)
+        - label: 'Keypad search → song open in under 1 s on a mid-range phone'
+        - label: Largest text size readable by an elderly tester; phone font size at max still looks right
+        - label: Dark and high-contrast themes readable in a dim church hall
+        - label: Number keypad works one-handed; screen stays on while a song is open
+  - type: checkboxes
+    id: editing
+    attributes:
+      label: Editing and feedback
+      options:
+        - label: '`/admin/` login works; creating a song in the CMS opens a PR that passes validation'
+        - label: Each language editor is a collaborator (Write) and listed in CODEOWNERS
+        - label: Report-a-mistake opens your Google Form with the song and line filled in; responses go to your Sheet
+        - label: A moderator is assigned per language to check reports weekly
+        - label: 2–3 pilot churches used it for a real Sunday; feedback logged as issues
+        - label: README explains adding a book, adding a song, running tools, deploying and rotating the OAuth secret
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Independence, privacy and accounts
+      options:
+        - label: 'DevTools → Network on Home, a song, Search and Set list: requests go only to your domain (+ static.cloudflareinsights.com if analytics is on)'
+        - label: 'On `/admin/` only: unpkg.com, api.github.com and your `*.workers.dev` auth worker'
+        - label: OAuth client secret only in Cloudflare Worker secrets; nothing secret in the repo or the browser
+        - label: No cookies, ads or trackers
+        - label: 'About page: mission, rights policy summary, Google Form note, contact email for takedowns, credits per book/editor'
+        - label: Custom domain (optional) and Cloudflare Web Analytics (optional) configured, or deliberately skipped
+        - label: All accounts (GitHub, Cloudflare, Google, domain) are in your name with two-factor login on
+  - type: checkboxes
+    id: seo
+    attributes:
+      label: Search engines
+      options:
+        - label: '`site.config.ts` url and `astro.config.mjs` site match the live URL; sitemap-index.xml lists song pages'
+        - label: 'robots.txt blocks /admin/; a song page shows the right title, description and canonical link'
