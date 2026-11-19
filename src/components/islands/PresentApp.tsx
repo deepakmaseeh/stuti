@@ -4,6 +4,8 @@ import type { BookBundle, BookBundleSong } from '../../lib/book-bundle';
 import { expandSections } from '../../lib/pptx-export';
 import { decodeSet } from '../../lib/setlist';
 import { loadNumbers } from '../../lib/search';
+import { LANG_TAG } from '../../lib/scripts';
+import type { Lang } from '../../lib/schema';
 import { setKeepAwake } from '../../lib/wakelock';
 
 type PresentTheme = 'leather' | 'black' | 'white';
@@ -193,7 +195,9 @@ export default function PresentApp() {
     >
       <div class="present__top">
         <span class="present__badge">{slide.badge}</span>
-        <span class="present__song">{slide.title}</span>
+        <span class="present__song" lang={LANG_TAG.n[slide.lang as Lang] ?? 'en'}>
+          {slide.title}
+        </span>
         <span class="present__sec">{slide.label}</span>
         <a
           class="present__exit"
@@ -211,8 +215,16 @@ export default function PresentApp() {
       <div class="present__stage" style={{ transform: `scale(${scale})` }}>
         {slide.lines.map(([n, r, e]) => (
           <p class="present__line">
-            {layers.n && n && <span class="present__n">{n}</span>}
-            {layers.r && r && <span class="present__r">{r}</span>}
+            {layers.n && n && (
+              <span class="present__n" lang={LANG_TAG.n[slide.lang as Lang] ?? 'en'}>
+                {n}
+              </span>
+            )}
+            {layers.r && r && (
+              <span class="present__r" lang={LANG_TAG.r[slide.lang as Lang] ?? 'en'}>
+                {r}
+              </span>
+            )}
             {layers.e && e && <span class="present__e">{e}</span>}
           </p>
         ))}
@@ -235,8 +247,10 @@ export default function PresentApp() {
           ))}
         </div>
         <span class="present__progress">
-          Song {songIndex.cur}/{songIndex.total}
-          {songIndex.nextLabel ? ` · Next: ${songIndex.nextLabel}` : ''}
+          {t('desktop.presentSong', { cur: songIndex.cur, total: songIndex.total })}
+          {songIndex.nextLabel
+            ? ` · ${t('desktop.presentNext', { label: songIndex.nextLabel })}`
+            : ''}
         </span>
         <button
           type="button"

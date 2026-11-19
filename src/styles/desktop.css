@@ -137,10 +137,18 @@
   html[data-desktop='wide'] .desktop-main {
     padding-inline: 2.75rem;
   }
-  html[data-desktop='wide'] .desktop-main > .song,
-  html[data-desktop='wide'] .desktop-main > .app-main-inner {
+  /* Split (900–1279) and wide: use the full main pane, not the mobile 480px column. */
+  html[data-desktop] .desktop-main > .song,
+  html[data-desktop] .desktop-main > .app-main-inner,
+  html[data-desktop] .desktop-main .app-column,
+  html[data-desktop] .desktop-main .song-header__inner,
+  html[data-desktop] .desktop-main .song-toolbar {
+    width: 100%;
     max-width: 70rem;
     margin-inline: auto;
+  }
+  html[data-desktop] .setnav {
+    display: none;
   }
   html[data-desktop='wide'] .desktop-set {
     display: flex;
@@ -443,11 +451,16 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.present__song:lang(hi) {
+  font-family: var(--font-lyric-hi);
+}
 .present__sec {
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 0.75rem;
-  color: oklch(0.8 0.04 70);
+  letter-spacing: 0.14em;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--gold);
+  opacity: 0.9;
 }
 .present__exit {
   color: var(--gold-soft);
@@ -462,7 +475,7 @@
   align-items: center;
   text-align: center;
   padding: 2rem 8vw;
-  gap: 1.25rem;
+  gap: 1.5rem;
 }
 .present__line {
   display: flex;
@@ -474,7 +487,10 @@
   font-size: clamp(30px, 4.4vw, 74px);
   font-weight: 600;
   font-family: var(--font-indic);
-  line-height: 1.35;
+  line-height: 1.45;
+}
+.present__n:lang(hi) {
+  font-family: var(--font-lyric-hi);
 }
 .present__r {
   font-size: clamp(18px, 2.1vw, 34px);

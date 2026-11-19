@@ -17,7 +17,7 @@ const song: BookBundleSong = {
 describe('expandSections', () => {
   it('repeats the chorus after every verse when chorusAfterEachVerse is true', () => {
     const labels = expandSections(song).map((s) => s.label);
-    expect(labels).toEqual(['Verse 1', 'Chorus', 'Chorus', 'Verse 2', 'Chorus']);
+    expect(labels).toEqual(['Verse 1', 'Chorus', 'Verse 2', 'Chorus']);
   });
 
   it('does not repeat when the flag is false', () => {

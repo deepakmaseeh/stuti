@@ -36,17 +36,24 @@
           "n": "मैं चलता चलता रहा यहां वहां, कोई नही",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
         {
           "n": "मैं देखता देखता रहा यहां वहां",
           "r": "",
           "e": ""
-        },
-        {
-          "n": "मैं देखता देखता रहा यहां वहां",
-          "r": "",
-          "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "मैं देखता देखता रहा यहां वहां, कोई नही",
           "r": "",
@@ -86,7 +93,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

@@ -14,14 +14,9 @@
   "aliases": [],
   "sections": [
     {
-      "type": "chorus",
-      "label": "Chorus",
+      "type": "verse",
+      "label": "Verse 1",
       "lines": [
-        {
-          "n": "चमका सितारा देखो, चमका सितारा देखो, चमका सितारा रे",
-          "r": "",
-          "e": ""
-        },
         {
           "n": "देखो आया यीशु जग में, सारे जग का वो राजा है",
           "r": "",
@@ -30,8 +25,19 @@
       ]
     },
     {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "चमका सितारा देखो, चमका सितारा देखो, चमका सितारा रे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
       "type": "verse",
-      "label": "Verse 1",
+      "label": "Verse 2",
       "lines": [
         {
           "n": "स्वर्गीय पिता का आया संदेशा, मरियम जनेगी एक ऐसा बेटा",
@@ -56,14 +62,9 @@
       ]
     },
     {
-      "type": "chorus",
-      "label": "Chorus 2",
+      "type": "verse",
+      "label": "Verse 3",
       "lines": [
-        {
-          "n": "चमका सितारा देखो, चमका सितारा देखो, चमका सितारा रे",
-          "r": "",
-          "e": ""
-        },
         {
           "n": "देखो आया यीशु जग में, सारे जग का वो राजा है",
           "r": "",
@@ -93,7 +94,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

@@ -35,6 +35,7 @@ const books = await Promise.all(
     <span aria-hidden="true">#</span>
     {t('home.searchCta')}
   </a>
+  <p class="search-help home-how-tip">{t('home.howTip')}</p>
 
   <HomeLists client:load />
   <InstallPrompt client:idle />

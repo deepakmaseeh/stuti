@@ -48,7 +48,7 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
   <div class="desktop-shell">
     <aside class="desktop-finder" transition:persist="finder">
       {/* client:only: not in mobile SSR DOM (avoids duplicate keypads with /search/). */}
-      <Finder client:media="(min-width: 900px)" books={books} currentId={currentSongId} />
+      <Finder client:media={`(min-width: ${site.layout.desktopMin}px)`} books={books} currentId={currentSongId} />
     </aside>
     <div class="desktop-main" transition:animate="fade">
       {
@@ -77,9 +77,9 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
     >
     </div>
     <aside class="desktop-set is-drawer" transition:persist="setpanel">
-      <SetPanel client:media="(min-width: 900px)" currentId={currentSongId} />
+      <SetPanel client:media={`(min-width: ${site.layout.desktopMin}px)`} currentId={currentSongId} />
     </aside>
   </div>
   <BottomNav active={active} />
-  <KeyboardShortcuts client:media="(min-width: 900px)" />
+  <KeyboardShortcuts client:media={`(min-width: ${site.layout.desktopMin}px)`} />
 </Base>

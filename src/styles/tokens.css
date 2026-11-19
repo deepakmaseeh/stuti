@@ -19,8 +19,11 @@
   /* Type */
   --font-ui: 'Instrument Sans', system-ui, sans-serif;
   --font-display: 'Domine', Georgia, serif; /* titles + numbers */
+  /* Hindi lyrics/UI script: Serif first (ADR 0005); other Indic stay Sans. */
+  --font-lyric-hi: 'Noto Serif Devanagari', 'Noto Sans Devanagari', var(--font-ui);
   --font-indic:
-    'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Gurmukhi', var(--font-ui);
+    'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu',
+    'Noto Sans Gurmukhi', var(--font-ui);
   --text-sm: 0.875rem; /* 14px: interface minimum */
   --text-base: 1.0625rem; /* 17px */
   --text-lg: 1.25rem;

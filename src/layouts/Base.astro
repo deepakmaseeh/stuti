@@ -63,12 +63,16 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
         self.__stutiInstall = e;
         dispatchEvent(new Event('stuti:installable'));
       });
-      addEventListener('resize', function () {
+      function syncDesktop() {
         const w = window.innerWidth;
         const h = document.documentElement;
         if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
         else h.removeAttribute('data-desktop');
-      });
+      }
+      addEventListener('resize', syncDesktop);
+      // View transitions can remount without a resize; keep panes in sync.
+      document.addEventListener('astro:page-load', syncDesktop);
+      document.addEventListener('astro:after-swap', syncDesktop);
     </script>
     <slot name="head" />
     {analyticsToken && (

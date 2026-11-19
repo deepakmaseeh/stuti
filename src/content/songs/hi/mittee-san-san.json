@@ -31,7 +31,24 @@
           "n": "मोटा बनाया, पतला बनाया",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "मिट्टी सान-सान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "नाटा बनाया, लम्बा बनाया",
           "r": "",
@@ -46,7 +63,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

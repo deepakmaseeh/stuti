@@ -7,16 +7,18 @@ export type BrowseIndex = {
   byTopic: Record<string, string[]>;
 };
 
-/** First grapheme cluster of native title (Indic conjuncts stay whole). */
-export function firstGrapheme(text: string, lang: string): string {
+/**
+ * First base letter for Browse alphabet rows (क ख ग / A B C).
+ * Skips matras and other combining marks so यीशु → य and प्रेम → प, not यी / प्रे.
+ */
+export function firstGrapheme(text: string): string {
   const t = text.trim();
   if (!t) return '';
-  try {
-    const seg = new Intl.Segmenter(lang, { granularity: 'grapheme' });
-    return [...seg.segment(t)][0]?.segment ?? t[0] ?? '';
-  } catch {
-    return [...t][0] ?? '';
-  }
+  const letter = t.match(/\p{L}/u)?.[0] ?? '';
+  if (!letter) return '';
+  // Stable A–Z buckets for English (and other Latin) titles.
+  if (/^\p{Script=Latin}$/u.test(letter)) return letter.toLocaleUpperCase('en');
+  return letter;
 }
 
 /** Title-case a tag for display: "comfort" → "Comfort". */
@@ -33,7 +35,7 @@ export function buildBrowseIndex(songs: Song[], lang: Lang): BrowseIndex {
   const collator = new Intl.Collator(lang);
 
   for (const s of songs) {
-    const letter = firstGrapheme(s.title.native, lang);
+    const letter = firstGrapheme(s.title.native);
     if (letter) (byLetter[letter] ??= []).push(s.id);
     for (const tag of s.tags) {
       const topic = titleCaseTopic(tag);

@@ -41,12 +41,24 @@
           "n": "और जीवन में, सब कुछ मिला",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
         {
           "n": "यीशु मिल गया.........",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "सूली पे ले लिया, पापों को मेरे",
           "r": "",
@@ -66,17 +78,12 @@
           "n": "और जीने का, मकसद मिला",
           "r": "",
           "e": ""
-        },
-        {
-          "n": "यीशु मिल गया.........",
-          "r": "",
-          "e": ""
         }
       ]
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

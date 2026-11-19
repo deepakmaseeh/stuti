@@ -31,7 +31,24 @@
           "n": "मुक्तिदाता की आराधना, तारणहारा की आराधना।",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आराधना हो आराधना प्रभु यीशु की आराधना",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "मेरे मसीहा की आराधना, जीवनदाता की आराधना।",
           "r": "",
@@ -46,7 +63,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

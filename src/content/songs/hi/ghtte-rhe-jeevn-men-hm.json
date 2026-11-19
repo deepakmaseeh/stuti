@@ -29,10 +29,16 @@
       "label": "Chorus",
       "lines": [
         {
-          "n": ". यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा-2",
+          "n": "यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा-2",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "तू नहीं चाहता कोई इंसान पाप में मरे",
           "r": "",
@@ -56,14 +62,9 @@
       ]
     },
     {
-      "type": "chorus",
-      "label": "Chorus 2",
+      "type": "verse",
+      "label": "Verse 3",
       "lines": [
-        {
-          "n": ". यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा-2",
-          "r": "",
-          "e": ""
-        },
         {
           "n": "इस जमीन पर नहीं, न कोई आसमा तले",
           "r": "",
@@ -88,7 +89,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

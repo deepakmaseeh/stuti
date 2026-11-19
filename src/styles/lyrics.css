@@ -40,7 +40,10 @@
 .line .n {
   font-weight: 400;
 }
-.line .n:lang(hi),
+.line .n:lang(hi) {
+  font-family: var(--font-lyric-hi);
+  line-height: var(--lh-indic);
+}
 .line .n:lang(ta),
 .line .n:lang(te),
 .line .n:lang(pa) {

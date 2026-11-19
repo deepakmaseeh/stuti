@@ -9,8 +9,12 @@ export function expandSections(song: BookBundleSong): SlideSec[] {
   const chorus = song.sec.find((s) => s.type === 'chorus' || s.type === 'refrain');
   const out: SlideSec[] = [];
   for (const sec of song.sec) {
+    const isChorus = sec.type === 'chorus' || sec.type === 'refrain';
+    // With the flag, the chorus JSON block is the template only — inject after each verse
+    // (do not also show it as its own in-order slide, which doubled Chorus after Verse 1).
+    if (song.chorusAfterEachVerse && isChorus) continue;
     out.push({ label: sec.label, lines: sec.lines });
-    if (song.chorusAfterEachVerse && chorus && sec.type === 'verse' && sec !== chorus) {
+    if (song.chorusAfterEachVerse && chorus && sec.type === 'verse') {
       out.push({ label: chorus.label, lines: chorus.lines });
     }
   }

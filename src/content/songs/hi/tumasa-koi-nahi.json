@@ -37,7 +37,13 @@
           "n": "तुमसा कोई नहीं, तुमसा कहीं नहीं",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "अब है पूरा यकीन, तुमसा कोई नहीं",
           "r": "",
@@ -66,14 +72,9 @@
       ]
     },
     {
-      "type": "chorus",
-      "label": "Chorus 2",
+      "type": "verse",
+      "label": "Verse 3",
       "lines": [
-        {
-          "n": "तुमसा कोई नहीं, तुमसा कहीं नहीं",
-          "r": "",
-          "e": ""
-        },
         {
           "n": "अब है पूरा यकीन, तुमसा कोई नहीं",
           "r": "",
@@ -83,7 +84,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

@@ -157,6 +157,7 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
 
       {draft.s.length > 0 && (
         <div class="action-bar" style={{ marginTop: '1rem' }}>
+          <p class="search-help">{t('desktop.presentHelp')}</p>
           <a class="btn btn--primary" href={`/present/?set=${encodeURIComponent(code)}&i=0`}>
             {t('desktop.presentSet')}
           </a>
@@ -208,8 +209,7 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
       <div class="set-panel__shortcuts">
         <strong>{t('desktop.shortcuts')}</strong>
         <p>
-          <kbd>0</kbd>–<kbd>9</kbd> number · <kbd>/</kbd> words · <kbd>P</kbd> present · <kbd>S</kbd> set ·{' '}
-          <kbd>?</kbd> help
+          <kbd>0</kbd>–<kbd>9</kbd> number · <kbd>/</kbd> words · <kbd>P</kbd> present · <kbd>S</kbd> set
         </p>
       </div>
     </div>

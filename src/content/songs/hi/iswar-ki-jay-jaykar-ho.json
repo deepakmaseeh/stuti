@@ -31,7 +31,24 @@
           "n": "ऊँचे हो ऐ फाटकों ,अब्दी दरवाजे ऊँचे हो-2",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ईश्वर की जय जयकार हो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "आता है प्रतापी राजा ,कौन है वह प्रतापी राजा",
           "r": "",
@@ -41,7 +58,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

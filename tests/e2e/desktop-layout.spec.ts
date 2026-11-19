@@ -32,6 +32,13 @@ test.describe('desktop layout 1024', () => {
     await page.keyboard.press('Escape');
     await expect(page.locator('.desktop-set.is-open')).toHaveCount(0);
   });
+
+  test('main content is wider than the mobile 480px column', async ({ page }) => {
+    await page.goto('/');
+    await waitHydrated(page);
+    const width = await page.locator('.desktop-main > .app-main-inner').evaluate((el) => el.getBoundingClientRect().width);
+    expect(width).toBeGreaterThan(480);
+  });
 });
 
 test.describe('desktop layout 390', () => {

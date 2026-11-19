@@ -31,7 +31,13 @@
           "n": "यीशु है उसका नाम, यीशु है उसका नाम,",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
         {
           "n": "तो करो जय जयकार",
           "r": "",
@@ -41,7 +47,13 @@
           "n": "पानी पर चलता है, भीड़ को खिलाता है",
           "r": "",
           "e": ""
-        },
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
         {
           "n": "शैतान भी डरता है, यीशु के नाम से",
           "r": "",
@@ -51,7 +63,7 @@
     },
     {
       "type": "verse",
-      "label": "Verse 2",
+      "label": "Verse 3",
       "lines": [
         {
           "n": "क्रूस को उठाया है, मौत को हराया है",
@@ -67,7 +79,7 @@
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

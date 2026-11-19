@@ -54,26 +54,10 @@
           "e": ""
         }
       ]
-    },
-    {
-      "type": "chorus",
-      "label": "Chorus 2",
-      "lines": [
-        {
-          "n": "आ प्रभु यीशु आ, मुझमें हो तेरी महिमा;",
-          "r": "",
-          "e": ""
-        },
-        {
-          "n": "मुझ में हो तेरी महिमा।",
-          "r": "",
-          "e": ""
-        }
-      ]
     }
   ],
   "display": {
-    "chorusAfterEachVerse": false
+    "chorusAfterEachVerse": true
   },
   "author": {
     "name": "Unknown"

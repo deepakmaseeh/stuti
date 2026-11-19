@@ -85,13 +85,15 @@ export default function Finder({ books, currentId = '' }: { books: BookChip[]; c
 
   const browseHits: Hit[] = useMemo(() => {
     if (!meta || !browse) return [];
+    // Wait for a letter or topic — do not dump the whole catalog.
+    if (!letter && !topic) return [];
     let ids: string[] | null = null;
     if (letter) ids = browse.byLetter[letter] ?? [];
     if (topic) {
       const tIds = browse.byTopic[topic] ?? [];
       ids = ids ? ids.filter((id) => tIds.includes(id)) : tIds;
     }
-    if (!ids) ids = Object.keys(meta);
+    if (!ids) return [];
     const hits: Hit[] = [];
     for (const id of ids) {
       const row = meta[id];
@@ -144,6 +146,7 @@ export default function Finder({ books, currentId = '' }: { books: BookChip[]; c
       {tab === 'words' && <WordSearch active autoFocus={false} initialQuery={deep?.q} />}
       {tab === 'browse' && (
         <div class="finder-browse">
+          <p class="search-help">{t('search.browseHelp')}</p>
           <p class="finder-label">{t('desktop.firstLetter')}</p>
           <div class="finder-letters">
             {(browse?.letters ?? []).map((L) => (
@@ -174,18 +177,24 @@ export default function Finder({ books, currentId = '' }: { books: BookChip[]; c
               </div>
             </>
           )}
-          <p class="finder-label">
-            {browseHits.length === 1
-              ? t('desktop.songCount.one')
-              : t('desktop.songCount', { n: browseHits.length })}
-          </p>
-          <div class="finder-list">
-            {browseHits.slice(0, 300).map((hit) => (
-              <div class={hit.id === currentId ? 'finder-row-wrap is-current' : 'finder-row-wrap'}>
-                <SongHitRow hit={hit} />
+          {!letter && !topic ? (
+            <p class="search-help">{t('search.browsePickLetter')}</p>
+          ) : (
+            <>
+              <p class="finder-label">
+                {browseHits.length === 1
+                  ? t('desktop.songCount.one')
+                  : t('desktop.songCount', { n: browseHits.length })}
+              </p>
+              <div class="finder-list">
+                {browseHits.slice(0, 300).map((hit) => (
+                  <div class={hit.id === currentId ? 'finder-row-wrap is-current' : 'finder-row-wrap'}>
+                    <SongHitRow hit={hit} />
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </>
+          )}
         </div>
       )}
     </div>

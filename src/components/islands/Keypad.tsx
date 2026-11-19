@@ -109,6 +109,7 @@ export default function Keypad({ books, active, initial, desktopOnly = false }: 
     };
     addEventListener('keydown', onKey);
     return () => removeEventListener('keydown', onKey);
+    // Re-bind each render so open/type/back see fresh digits/numbers (Finder keyboard entry).
   });
 
   let status: string;
@@ -120,6 +121,7 @@ export default function Keypad({ books, active, initial, desktopOnly = false }: 
 
   return (
     <div class="keypad-panel">
+      {!digits && <p class="search-help">{t('search.numberHelp')}</p>}
       <div class="book-chips" role="group" aria-label={t('search.book')}>
         {order.map((id) => {
           const b = findBook(id)!;

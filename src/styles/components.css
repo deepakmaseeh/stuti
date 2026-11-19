@@ -238,6 +238,10 @@
   gap: 6px;
 }
 .tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   min-height: 44px;
   min-width: 44px;
   padding: 0 10px;
@@ -247,6 +251,14 @@
   font-weight: 600;
   font-size: 0.8125rem;
   white-space: nowrap;
+  color: inherit;
+}
+.tool__icon {
+  flex-shrink: 0;
+  display: block;
+}
+.tool__label {
+  line-height: 1;
 }
 .tool:disabled {
   opacity: 0.45;
@@ -463,6 +475,12 @@
   color: var(--muted);
   font-size: var(--text-sm);
   text-align: center;
+}
+.home-how-tip {
+  margin-top: var(--s2);
+  margin-bottom: var(--s4);
+  max-width: 36rem;
+  margin-inline: auto;
 }
 .search-help a {
   color: var(--ribbon-ink);

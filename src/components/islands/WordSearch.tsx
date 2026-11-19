@@ -76,7 +76,7 @@ export default function WordSearch({ active, autoFocus, initialQuery = '' }: Pro
       {failed ? (
         <p class="search-help">{t('search.loadError')}</p>
       ) : hits === null ? (
-        <p class="search-help">{q.trim() ? t('search.searching') : t('search.empty')}</p>
+        <p class="search-help">{q.trim() ? t('search.searching') : t('search.wordsHelp')}</p>
       ) : hits.length === 0 ? (
         <div class="search-help">
           <p>{t('search.none')}</p>

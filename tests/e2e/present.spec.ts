@@ -7,9 +7,9 @@ test.describe('present mode', () => {
   test('opens a song, advances, blanks, toggles layers, exits', async ({ page }) => {
     await page.goto('/present/?song=hi-aadi-aur-ant-tu-hi-hai');
     await expect(page.locator('.present__stage')).toBeVisible({ timeout: 15_000 });
-    const first = await page.locator('.present__sec').textContent();
+    await expect(page.locator('.present__sec')).toHaveText('Verse 1');
     await page.keyboard.press('PageDown');
-    await expect.poll(async () => page.locator('.present__sec').textContent()).not.toBe(first);
+    await expect(page.locator('.present__sec')).toHaveText('Chorus');
     await page.keyboard.press('b');
     await expect(page.locator('.present.is-blank')).toBeVisible();
     await page.keyboard.press('b');

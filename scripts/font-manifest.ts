@@ -4,7 +4,7 @@ import { pathToFileURL } from 'node:url';
 
 /** Which @fontsource family each language's lyrics use (see --font-indic in tokens.css). */
 const FAMILY: Record<string, string> = {
-  hi: 'noto-sans-devanagari',
+  hi: 'noto-serif-devanagari',
   ta: 'noto-sans-tamil',
   te: 'noto-sans-telugu',
   pa: 'noto-sans-gurmukhi',

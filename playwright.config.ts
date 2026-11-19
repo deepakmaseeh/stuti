@@ -29,8 +29,9 @@ export default defineConfig({
     // Desktop add-on + responsive only. Mobile projects already cover search/song/set/offline/a11y.
     {
       name: 'desktop',
+      // Use (^|[/\\])layout\.spec so desktop-layout.spec.ts is not ignored.
       testIgnore:
-        /admin\.spec|song-page\.spec|word-search\.spec|number-search\.spec|setlist\.spec|offline\.spec|a11y\.spec|layout\.spec/,
+        /admin\.spec|song-page\.spec|word-search\.spec|number-search\.spec|setlist\.spec|offline\.spec|a11y\.spec|(^|[/\\])layout\.spec/,
       use: { ...devices['Desktop Chrome'] },
     },
     {

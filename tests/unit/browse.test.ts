@@ -16,10 +16,12 @@ function makeSong(id: string, lang: 'ta' | 'hi', native: string, tags: string[])
 }
 
 describe('firstGrapheme', () => {
-  it('returns a non-empty first cluster for Indic and Latin titles', () => {
-    expect(firstGrapheme('இயேசுவே', 'ta').length).toBeGreaterThanOrEqual(1);
-    expect(firstGrapheme('यीशु', 'hi').length).toBeGreaterThanOrEqual(1);
-    expect(firstGrapheme('Amazing', 'en')).toBe('A');
+  it('returns the base letter only (no matras) for Indic and Latin titles', () => {
+    expect(firstGrapheme('இயேசுவே')).toBe('இ');
+    expect(firstGrapheme('यीशु')).toBe('य');
+    expect(firstGrapheme('प्रेम')).toBe('प');
+    expect(firstGrapheme('आराधना')).toBe('आ');
+    expect(firstGrapheme('Amazing')).toBe('A');
   });
 });
 
@@ -39,7 +41,19 @@ describe('buildBrowseIndex', () => {
     const idx = buildBrowseIndex(songs, 'ta');
     expect(idx.topics).toEqual(['Comfort', 'Guidance']);
     expect(idx.byTopic.Comfort).toEqual(['ta-a', 'ta-i']);
-    expect(idx.letters.length).toBe(2);
+    expect(idx.letters).toEqual(['அ', 'இ']);
     expect(Object.values(idx.byLetter).flat().sort()).toEqual(['ta-a', 'ta-i']);
+  });
+
+  it('buckets Hindi titles that share a base letter despite different matras', () => {
+    const songs = [
+      makeSong('hi-yi', 'hi', 'यीशु मेरा', ['praise']),
+      makeSong('hi-ye', 'hi', 'येसु नाम', ['praise']),
+      makeSong('hi-pr', 'hi', 'प्रेम से', ['love']),
+    ];
+    const idx = buildBrowseIndex(songs, 'hi');
+    expect(idx.letters).toEqual(['प', 'य']);
+    expect(idx.byLetter['य']!.sort()).toEqual(['hi-ye', 'hi-yi']);
+    expect(idx.byLetter['प']).toEqual(['hi-pr']);
   });
 });

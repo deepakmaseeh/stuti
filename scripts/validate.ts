@@ -242,6 +242,17 @@ export function validateEntries(input: {
     if (data.bibleRefs.length === 0) warn(file, 'w-bible', 'No Bible references');
     if (data.slug !== undefined && data.slug !== s.slug)
       warn(file, 'w-slug', `slug "${data.slug}" differs from the file name "${s.slug}"`);
+    const chorusSecs = data.sections.filter((sec) => sec.type === 'chorus' || sec.type === 'refrain');
+    if (chorusSecs.length > 1)
+      warn(file, 'w-chorus-dup', 'Multiple chorus sections — prefer one chorus + display.chorusAfterEachVerse');
+    if (/^\s*कोरस/u.test(data.title.native))
+      warn(file, 'w-chorus-title', 'Title looks like a chorus header (कोरस…)');
+    if (
+      data.sections.length === 1 &&
+      typeof data.chords === 'string' &&
+      /कोरस|chorus/i.test(data.chords)
+    )
+      warn(file, 'w-flat-chorus', 'Single section but chords mention chorus — check verse/chorus split');
     const fl = lines[0]?.n.trim().toLowerCase();
     if (fl) {
       const other = firstLines.get(fl);
