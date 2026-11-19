@@ -200,9 +200,9 @@ export default function SongToolbar({
           onClick={() => save({ size: Math.max(0, prefs.size - 1) })}
         >
           <Icon label="A−">
-            <path d="M4 20 9 4h2l5 16h-2.2l-1.1-3.5H7.3L6.2 20H4z" />
-            <path d="M7.9 14h4.7" />
-            <path d="M16 12h6" />
+            <path d="M5 20 10 4h2l5 16" />
+            <path d="M7.2 14h7.6" />
+            <path d="M17 12h5" />
           </Icon>
         </button>
         <button
@@ -213,10 +213,10 @@ export default function SongToolbar({
           onClick={() => save({ size: Math.min(SIZE_STEPS - 1, prefs.size + 1) })}
         >
           <Icon label="A+">
-            <path d="M3 20 8 4h2l5 16h-2.2l-1.1-3.5H6.3L5.2 20H3z" />
-            <path d="M6.9 14h4.7" />
-            <path d="M16 9v8" />
-            <path d="M12 13h8" />
+            <path d="M4 20 9 4h2l5 16" />
+            <path d="M6.2 14h7.6" />
+            <path d="M17 9v8" />
+            <path d="M13 13h8" />
           </Icon>
         </button>
         {!isEnglish && (
@@ -263,14 +263,18 @@ export default function SongToolbar({
         >
           {inSet ? (
             <Icon label={t('song.inSet')}>
-              <path d="M8 6h13M8 12h13M8 18h8" />
-              <path d="M3 6h.01M3 12h.01M3 18h.01" />
-              <path d="m15 16 2 2 4-4" />
+              <path d="M9 6h12M9 12h12M9 18h7" />
+              <circle cx="4" cy="6" r="1.2" fill="currentColor" stroke="none" />
+              <circle cx="4" cy="12" r="1.2" fill="currentColor" stroke="none" />
+              <circle cx="4" cy="18" r="1.2" fill="currentColor" stroke="none" />
+              <path d="m14 16 2 2 4-4" />
             </Icon>
           ) : (
             <Icon label={t('song.addSet')}>
-              <path d="M8 6h13M8 12h13M8 18h8" />
-              <path d="M3 6h.01M3 12h.01M3 18h.01" />
+              <path d="M9 6h12M9 12h12M9 18h7" />
+              <circle cx="4" cy="6" r="1.2" fill="currentColor" stroke="none" />
+              <circle cx="4" cy="12" r="1.2" fill="currentColor" stroke="none" />
+              <circle cx="4" cy="18" r="1.2" fill="currentColor" stroke="none" />
               <path d="M19 15v6M16 18h6" />
             </Icon>
           )}
@@ -285,16 +289,16 @@ export default function SongToolbar({
         </button>
         <button type="button" class="tool layout-toggle" onClick={() => window.print()}>
           <Icon label={t('desktop.pdf')}>
-            <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
-            <path d="M14 2v6h6" />
-            <path d="M9 13h6M9 17h4" />
+            <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9z" />
+            <path d="M14 3v6h6" />
+            <path d="M9 13h6M9 17h6" />
           </Icon>
         </button>
         <button type="button" class="tool layout-toggle" onClick={() => void exportPpt()}>
           <Icon label={t('desktop.ppt')}>
-            <rect x="2" y="4" width="20" height="14" rx="2" />
-            <path d="M8 22h8M12 18v4" />
-            <path d="M8 9h3.5a2 2 0 0 1 0 4H8V9z" />
+            <rect x="2" y="3" width="20" height="14" rx="2" />
+            <path d="M8 21h8M12 17v4" />
+            <path d="M7 8h4M7 12h10" />
           </Icon>
         </button>
       </div>
