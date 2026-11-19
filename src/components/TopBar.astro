@@ -27,7 +27,7 @@ const langs = [
       ))
     }
   </div>
-  <TopBarActions client:load />
+  <TopBarActions client:media="(min-width: 900px)" />
 </header>
 <script is:inline>
   // Sync language chips with prefs before the island hydrates.

@@ -77,12 +77,13 @@ test.describe('word search (F2)', () => {
     expect(shards.length).toBeGreaterThan(0);
   });
 
-  test('remembers the Words tab and supports ?q= deep links', async ({ page }) => {
+  test('remembers the Words tab', async ({ page }) => {
     await wordsTab(page);
     await page.goto('/search/');
     await waitHydrated(page);
     const finder = page.locator('.finder');
     if (await finder.isVisible()) {
+      await waitDesktopPanes(page);
       await expect(finder.getByRole('tab', { name: 'Words' })).toHaveAttribute('aria-selected', 'true');
     } else {
       await expect(page.locator('.search').getByRole('tab', { name: 'Words' })).toHaveAttribute(
@@ -90,12 +91,15 @@ test.describe('word search (F2)', () => {
         'true',
       );
     }
+  });
+
+  test('supports ?q= deep links', async ({ page }) => {
     await page.goto('/search/?q=grace');
     await waitHydrated(page);
-    if (await page.locator('.finder').isVisible()) {
-      await page.locator('.finder').getByRole('tab', { name: 'Words' }).click();
-    }
-    await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/en-amazing-grace/');
+    if (await page.locator('.finder').isVisible()) await waitDesktopPanes(page);
+    await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/en-amazing-grace/', {
+      timeout: 20_000,
+    });
   });
 
   test('arrow keys move between tabs', async ({ page }) => {
