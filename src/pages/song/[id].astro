@@ -1,6 +1,5 @@
 ---
-import Base from '../../layouts/Base.astro';
-import BottomNav from '../../components/BottomNav.astro';
+import AppShell from '../../components/AppShell.astro';
 import NumberBadge from '../../components/NumberBadge.astro';
 import OfflineBadge from '../../components/OfflineBadge.astro';
 import LyricSection from '../../components/LyricSection.astro';
@@ -9,11 +8,8 @@ import SongToolbar from '../../components/islands/SongToolbar.tsx';
 import FavStar from '../../components/islands/FavStar.tsx';
 import ReportSheet from '../../components/islands/ReportSheet.tsx';
 import SetNavBar from '../../components/islands/SetNavBar.tsx';
-import SongSidePanel from '../../components/islands/SongSidePanel.tsx';
-import KeyboardShortcuts from '../../components/islands/KeyboardShortcuts.tsx';
-import type { BookChip } from '../../components/islands/Keypad';
 import { reportUrl } from '../../lib/report';
-import { getBooks, getSongs } from '../../lib/content';
+import { getSongs } from '../../lib/content';
 import { safeJsonLd } from '../../lib/jsonld';
 import { LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
 import type { Song } from '../../lib/schema';
@@ -57,119 +53,123 @@ const jsonLd = {
 
 const snapshot = { id: song.id, title: song.title.native, lang: song.lang, badge: badgeText(primary) };
 const numbersData = JSON.stringify(song.numbers);
-const books: BookChip[] = (await getBooks()).map((b) => ({
-  id: b.id,
-  native: b.name.native,
-  en: b.name.en,
-  lang: b.lang,
-  numbering: b.numbering,
-}));
 ---
 
-<Base title={titleTag} description={description} canonicalPath={url} bodyClass="page-song">
+<AppShell
+  title={titleTag}
+  description={description}
+  canonicalPath={url}
+  currentSongId={song.id}
+  hideMobileHeader
+>
   <script slot="head" type="application/ld+json" set:html={safeJsonLd(jsonLd)} />
-  <div class="shell shell--song">
-    <aside class="shell__side">
-      <SongSidePanel client:media="(min-width: 1200px)" books={books} />
-    </aside>
-    <div class="shell__song">
-      <header class="song-header">
-        <div class="app-column song-header__inner">
-          <a
-            class="icon-btn"
-            href={`/books/${primary.book.toLowerCase()}/`}
-            aria-label={t('song.back')}
-            data-back
-          >
-            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
-              <path d="m15 5-7 7 7 7"></path>
-            </svg>
-          </a>
-          <span data-numbers={numbersData} class="song-header__badge">
-            <NumberBadge book={primary.book} number={primary.number} size="header" />
-          </span>
-          <span class="song-header__end">
-            <OfflineBadge />
-            <FavStar client:load snapshot={snapshot} />
-          </span>
-        </div>
-      </header>
-      <script is:inline>
-        (function () {
-          // Badge shows the book the user came from (/b/<book>/<n>/ → ?from=<book>).
-          const from = new URLSearchParams(location.search).get('from');
-          const wrap = document.querySelector('[data-numbers]');
-          if (from && wrap) {
-            const hit = JSON.parse(wrap.getAttribute('data-numbers')).find(function (n) {
-              return n.book.toLowerCase() === from.toLowerCase();
-            });
-            if (hit) {
-              wrap.querySelector('.badge').setAttribute('aria-label', hit.book + ' ' + hit.number);
-              wrap.querySelector('.badge__book').textContent = hit.book;
-              wrap.querySelector('.badge__num').textContent = hit.number;
-            }
-          }
-          const back = document.querySelector('[data-back]');
-          if (back && document.referrer.indexOf(location.origin) === 0 && history.length > 1) {
-            back.addEventListener('click', function (e) {
-              e.preventDefault();
-              history.back();
-            });
-          }
-        })();
-      </script>
 
-      <main id="main" class="app-column song">
-        <h1 class="song__title" lang={LANG_TAG.n[song.lang]}>
-          {song.title.native}
-        </h1>
-        {subtitle && (
-          <p class="song__subtitle" lang="en">
-            {subtitle}
-          </p>
-        )}
-
-        <SongToolbar
-          client:load
-          snapshot={snapshot}
-          isEnglish={isEn}
-          nativeLabel={LANG_NATIVE[song.lang]}
-          nativeLang={LANG_TAG.n[song.lang]}
-          layers={{ r: isEn ? 'missing' : song.layers.roman, e: isEn ? 'missing' : song.layers.en }}
-          share={{ title: song.title.native, text: lines[0]?.n ?? '', url }}
-          books={song.numbers.map((n) => n.book)}
-        />
-
-        <div class:list={['lyrics', { 'is-en': isEn, 'has-r': showR, 'has-e': showE }]}>
-          {song.sections.map((section) => (
-            <LyricSection
-              section={section}
-              lang={song.lang}
-              showRoman={showR}
-              showEnglish={showE}
-              chorusMarker={song.display.chorusAfterEachVerse && hasChorus && section.type === 'verse'}
-            />
-          ))}
-        </div>
-
-        <SongMeta song={song} />
-
-        <ReportSheet
-          client:idle
-          songId={song.id}
-          title={song.title.native}
-          fallbackHref={reportUrl({
-            songId: song.id,
-            title: song.title.native,
-            line: '',
-            correction: '',
-            pageUrl: new URL(url, site.url).href,
-          })}
-        />
-      </main>
-      <SetNavBar client:load />
+  <header class="song-header">
+    <div class="app-column song-header__inner">
+      <a class="icon-btn" href={`/books/${primary.book.toLowerCase()}/`} aria-label={t('song.back')} data-back>
+        <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+          <path d="m15 5-7 7 7 7"></path>
+        </svg>
+      </a>
+      <span data-numbers={numbersData} class="song-header__badge">
+        <NumberBadge book={primary.book} number={primary.number} size="header" />
+      </span>
+      <span class="song-header__end">
+        <OfflineBadge />
+        <FavStar client:load snapshot={snapshot} />
+        <a class="btn btn--primary song-present" href={`/present/?song=${song.id}`}>
+          {t('desktop.present')}
+        </a>
+      </span>
     </div>
+  </header>
+  <script is:inline>
+    (function () {
+      const from = new URLSearchParams(location.search).get('from');
+      const wrap = document.querySelector('[data-numbers]');
+      if (from && wrap) {
+        const hit = JSON.parse(wrap.getAttribute('data-numbers')).find(function (n) {
+          return n.book.toLowerCase() === from.toLowerCase();
+        });
+        if (hit) {
+          wrap.querySelector('.badge').setAttribute('aria-label', hit.book + ' ' + hit.number);
+          wrap.querySelector('.badge__book').textContent = hit.book;
+          wrap.querySelector('.badge__num').textContent = hit.number;
+        }
+      }
+      const back = document.querySelector('[data-back]');
+      if (back && document.referrer.indexOf(location.origin) === 0 && history.length > 1) {
+        back.addEventListener('click', function (e) {
+          e.preventDefault();
+          history.back();
+        });
+      }
+    })();
+  </script>
+
+  <div class="song">
+    <h1 class="song__title" lang={LANG_TAG.n[song.lang]}>
+      {song.title.native}
+    </h1>
+    {
+      subtitle && (
+        <p class="song__subtitle" lang="en">
+          {subtitle}
+        </p>
+      )
+    }
+
+    <SongToolbar
+      client:load
+      snapshot={snapshot}
+      isEnglish={isEn}
+      nativeLabel={LANG_NATIVE[song.lang]}
+      nativeLang={LANG_TAG.n[song.lang]}
+      layers={{ r: isEn ? 'missing' : song.layers.roman, e: isEn ? 'missing' : song.layers.en }}
+      share={{ title: song.title.native, text: lines[0]?.n ?? '', url }}
+      books={song.numbers.map((n) => n.book)}
+    />
+
+    <div class:list={['lyrics', { 'is-en': isEn, 'has-r': showR, 'has-e': showE }]}>
+      {
+        !isEn && (showR || showE) && (
+          <div class="lyrics-cols" aria-hidden="true">
+            <span>{LANG_NATIVE[song.lang]}</span>
+            {showR && <span>{t('song.roman')}</span>}
+            {showE && <span>{t('song.english')}</span>}
+          </div>
+        )
+      }
+      {
+        song.sections.map((section) => (
+          <LyricSection
+            section={section}
+            lang={song.lang}
+            showRoman={showR}
+            showEnglish={showE}
+            chorusMarker={song.display.chorusAfterEachVerse && hasChorus && section.type === 'verse'}
+          />
+        ))
+      }
+    </div>
+
+    <SongMeta song={song} />
+
+    <ReportSheet
+      client:idle
+      songId={song.id}
+      title={song.title.native}
+      fallbackHref={reportUrl({
+        songId: song.id,
+        title: song.title.native,
+        line: '',
+        correction: '',
+        pageUrl: new URL(url, site.url).href,
+      })}
+    />
+    <p class="print-footer">
+      {site.url.replace(/^https?:\/\//, '')} · {badgeText(primary)}
+    </p>
   </div>
-  <BottomNav />
-  <KeyboardShortcuts client:idle />
-</Base>
+  <SetNavBar client:load />
+</AppShell>

@@ -12,7 +12,9 @@ export type Prefs = {
   layout: LyricLayout;
   keepAwake: boolean;
   lastBookId: string;
-  lastTab: 'number' | 'words';
+  lastTab: 'number' | 'words' | 'browse';
+  /** Desktop TopBar language filter: all languages or one code. */
+  langFilter: 'all' | string;
   searchLangs: string[];
 };
 export type SongSnapshot = { id: string; title: string; lang: string; badge: string };
@@ -37,6 +39,7 @@ export const DEFAULT_PREFS: Prefs = {
   keepAwake: false,
   lastBookId: site.defaultBookId,
   lastTab: 'number',
+  langFilter: 'all',
   searchLangs: [...site.languages],
 };
 

@@ -13,6 +13,8 @@ import {
 import { addToDraft, isInDraft, removeFromDraft } from '../../lib/setlist';
 import { showToast } from '../../lib/toast';
 import { isAwake, onWakeChange, setKeepAwake, wakeLockSupported } from '../../lib/wakelock';
+import type { BookBundle } from '../../lib/book-bundle';
+import { downloadPptx } from '../../lib/pptx-export';
 
 type LayerState = 'missing' | 'draft' | 'reviewed';
 type LayerKey = 'n' | 'r' | 'e';
@@ -113,6 +115,7 @@ export default function SongToolbar({
       removeFromDraft(snapshot.id);
       setInSet(false);
       showToast(t('set.removedToast'));
+      dispatchEvent(new Event('stuti:set-changed'));
       return;
     }
     // Remember which book the singer came from so the set shows the number they know.
@@ -121,6 +124,7 @@ export default function SongToolbar({
     if (addToDraft({ id: snapshot.id, ...(book ? { book } : {}) })) {
       setInSet(true);
       showToast(t('set.addedToast'));
+      dispatchEvent(new Event('stuti:set-changed'));
     } else showToast(t('set.fullToast'));
   };
 
@@ -131,6 +135,23 @@ export default function SongToolbar({
   ];
 
   const layoutOn = prefs.layout === 'columns';
+
+  const exportPpt = async () => {
+    showToast(t('desktop.preparingPpt'));
+    try {
+      const book = books[0];
+      if (!book) throw new Error('book');
+      const bundle = (await fetch(`/data/books/${book}.json`).then((r) => {
+        if (!r.ok) throw new Error('fetch');
+        return r.json();
+      })) as BookBundle;
+      const song = bundle.songs[snapshot.id];
+      if (!song) throw new Error('song');
+      await downloadPptx([{ id: snapshot.id, song, layers: prefs.layers }]);
+    } catch {
+      showToast(t('desktop.previewError'));
+    }
+  };
 
   return (
     <div class="toolbar">
@@ -199,6 +220,12 @@ export default function SongToolbar({
         </button>
         <button type="button" class="tool" onClick={() => shareLink(share)}>
           {t('song.share')}
+        </button>
+        <button type="button" class="tool layout-toggle" onClick={() => window.print()}>
+          {t('desktop.pdf')}
+        </button>
+        <button type="button" class="tool layout-toggle" onClick={() => void exportPpt()}>
+          {t('desktop.ppt')}
         </button>
       </div>
       {!supported && (

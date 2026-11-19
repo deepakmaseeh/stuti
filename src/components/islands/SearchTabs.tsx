@@ -14,7 +14,8 @@ const TABS: Tab[] = ['number', 'words'];
 export default function SearchTabs({ books }: { books: BookChip[] }) {
   // Server render: Number tab. The real tab/deep link is applied after mount.
   const [tab, setTab] = useState<Tab>('number');
-  const [deep, setDeep] = useState<Deep | null>(null);
+  /** undefined = not read yet (don't mount Keypad); object = URL/prefs applied once. */
+  const [deep, setDeep] = useState<Deep | undefined>(undefined);
   // Arrow-key tab switching keeps focus on the tabs; clicks and page load focus the search box.
   const [focusInput, setFocusInput] = useState(true);
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -37,7 +38,10 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
         .catch(() => {});
       setTab('number');
     } else if (d.q || p.get('tab') === 'words') setTab('words');
-    else setTab(storage.prefs.get().lastTab);
+    else {
+      const last = storage.prefs.get().lastTab;
+      setTab(last === 'words' ? 'words' : 'number');
+    }
     setDeep(d);
   }, []);
 
@@ -76,16 +80,14 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
         ))}
       </div>
       <div role="tabpanel" id="panel-number" aria-labelledby="tab-number" hidden={tab !== 'number'}>
-        {/* Keyed on the deep link so a ?book=&n= arriving after mount re-seeds the keypad. */}
-        <Keypad
-          key={`${deep?.book}-${deep?.n}`}
-          books={books}
-          active={tab === 'number'}
-          initial={deep ?? undefined}
-        />
+        {deep !== undefined && (
+          <Keypad books={books} active={tab === 'number'} initial={deep} />
+        )}
       </div>
       <div role="tabpanel" id="panel-words" aria-labelledby="tab-words" hidden={tab !== 'words'}>
-        {deep && <WordSearch active={tab === 'words'} autoFocus={focusInput} initialQuery={deep.q} />}
+        {deep !== undefined && (
+          <WordSearch active={tab === 'words'} autoFocus={focusInput} initialQuery={deep.q} />
+        )}
       </div>
     </div>
   );

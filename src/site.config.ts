@@ -20,12 +20,18 @@ export const site = {
     missingSongUrl: 'https://github.com/deepakmaseeh/stuti/issues/new?template=missing-song.yml',
   },
   search: { maxDigits: 4, pageSize: 30, debounceMs: 120 },
-  /** Responsive layout (CSS + progressive enhancement). Phone unchanged below tabletMin. */
+  /**
+   * Desktop add-on breakpoints (STUTI_DESKTOP_ADDON.md).
+   * <900 mobile; 900–1279 Finder+Song (+ Set drawer); ≥1280 three panes.
+   */
   layout: {
-    tabletMin: 768,
-    desktopMin: 1200,
-    sideWidth: 360,
-    tabletContentMax: 720,
+    desktopMin: 900,
+    wideMin: 1280,
+    finderWidth: 310,
+    finderNarrow: 320,
+    setWidth: 320,
+    setDrawer: 340,
+    songContentMax: 1120,
   },
   analyticsToken: import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN ?? '',
   contactEmail: '',

@@ -10,9 +10,14 @@ export type SongPreview = {
   sections: SongPreviewSection[];
 };
 
-/** True when the viewport is wide enough for the two-pane desktop layout. */
+/** True when Finder / Set panes are shown (≥900px per desktop add-on). */
 export function isDesktopViewport(width = typeof window !== 'undefined' ? window.innerWidth : 0): boolean {
   return width >= site.layout.desktopMin;
+}
+
+/** True for the three-pane wide layout (≥1280px). */
+export function isWideViewport(width = typeof window !== 'undefined' ? window.innerWidth : 0): boolean {
+  return width >= site.layout.wideMin;
 }
 
 /** Pull title + lyric text out of a built song page. Used so the preview can re-render as text (no HTML injection). */

@@ -80,17 +80,52 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
 }
 
 /* Desktop: Original / Roman / English side by side, one row per lyric line. */
-@media (min-width: 1200px) {
+@media (min-width: 900px) {
+  .lyrics-cols {
+    display: none;
+    grid-template-columns: 1.35fr 1fr 1fr;
+    gap: 32px;
+    padding: 0 14px 0 calc(3px + 18px);
+    margin: 0 0 0.75rem;
+    border-bottom: 2px solid var(--line);
+    font-size: 0.8125rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  html[data-layout='columns'] .lyrics-cols {
+    display: grid;
+  }
+  html[data-layout='columns'] .lyrics.has-r:not(.has-e) .lyrics-cols,
+  html[data-layout='columns'] .lyrics.has-e:not(.has-r) .lyrics-cols {
+    grid-template-columns: 1.2fr 1fr;
+  }
   html[data-layout='columns'] .line {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.75rem 1.25rem;
+    grid-template-columns: 1.35fr 1fr 1fr;
+    gap: 32px;
     align-items: baseline;
   }
+  html[data-layout='columns'] .lyrics.has-r:not(.has-e) .line,
+  html[data-layout='columns'] .lyrics.has-e:not(.has-r) .line {
+    grid-template-columns: 1.2fr 1fr;
+  }
   html[data-layout='columns'] .line + .line {
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    border-top: 1px solid color-mix(in oklch, var(--line) 70%, transparent);
+    margin-top: 0.35rem;
+  }
+  html[data-layout='columns'] .line .n {
+    font-weight: 500;
+    line-height: 1.7;
+  }
+  html[data-layout='columns'] .line .r {
+    font-size: 0.86em;
+    color: var(--muted);
+  }
+  html[data-layout='columns'] .line .e {
+    font-size: 0.8em;
+    font-style: italic;
+    color: var(--muted);
   }
   /* Collapse unused columns when a layer is hidden or missing on this song. */
   html[data-layout='columns'][data-layers]:not([data-layers~='n']) .line,
@@ -102,6 +137,6 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
   html[data-layout='columns'][data-layers~='r'][data-layers~='e']:not([data-layers~='n'])
     .lyrics.has-r.has-e
     .line {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1.2fr 1fr;
   }
 }

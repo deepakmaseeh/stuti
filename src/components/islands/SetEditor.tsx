@@ -44,7 +44,16 @@ function hitFor(item: SetItem, meta: Record<string, MetaRow>, numbers: NumbersMa
     const n = nums && Object.keys(nums).find((k) => nums[k] === item.id);
     if (n) badge = `${item.book} ${n}`;
   }
-  return { id: item.id, title: row[0], roman: row[1], lang: row[2], badge, score: 0 };
+  return {
+    id: item.id,
+    title: row[0],
+    roman: row[1],
+    lang: row[2],
+    badge,
+    score: 0,
+    firstLine: row[4],
+    tags: row[5],
+  };
 }
 
 export default function SetEditor() {

@@ -39,6 +39,7 @@
     "@preact/signals": "^2.11.4",
     "astro": "^5.18.2",
     "minisearch": "^7.2.0",
+    "pptxgenjs": "^4.0.1",
     "preact": "^10.29.8",
     "qrcode": "^1.5.4",
     "zod": "^3.25.76"
@@ -61,6 +62,7 @@
     "eslint": "^10.15.0",
     "eslint-plugin-astro": "^3.2.1",
     "happy-dom": "^21.0.4",
+    "jszip": "^3.10.2",
     "prettier": "^3.10.1",
     "prettier-plugin-astro": "^1.1.2",
     "tsx": "^4.23.15",

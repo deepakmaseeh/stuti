@@ -21,6 +21,8 @@ type Props = {
   active: boolean;
   /** From the deep link ?book=&n= (already applied once by the parent). */
   initial?: { book?: string; n?: string };
+  /** Finder keypad: ignore keys unless the desktop shell is active (mobile keeps SearchTabs). */
+  desktopOnly?: boolean;
 };
 
 const MAX = site.search.maxDigits;
@@ -28,7 +30,7 @@ const MAX = site.search.maxDigits;
 /** Full navigation: the singer is done typing and wants the song page (toolbar, set, wake lock). */
 const openSong = (id: string, book: string) => location.assign(`${songUrl(id)}?from=${book.toLowerCase()}`);
 
-export default function Keypad({ books, active, initial }: Props) {
+export default function Keypad({ books, active, initial, desktopOnly = false }: Props) {
   const findBook = (id?: string | null) => books.find((b) => b.id.toLowerCase() === id?.toLowerCase());
   const [bookId, setBookId] = useState(
     () => (findBook(initial?.book) ?? findBook(site.defaultBookId) ?? books[0])?.id ?? '',
@@ -82,6 +84,7 @@ export default function Keypad({ books, active, initial }: Props) {
   useEffect(() => {
     if (!active) return;
     const onKey = (e: KeyboardEvent) => {
+      if (desktopOnly && !document.documentElement.hasAttribute('data-desktop')) return;
       const el = e.target as HTMLElement | null;
       if (e.ctrlKey || e.metaKey || e.altKey || el?.closest('input, textarea, select')) return;
       if (/^\d$/.test(e.key)) type(e.key);

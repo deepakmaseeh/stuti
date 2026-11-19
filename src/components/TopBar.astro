@@ -1,0 +1,43 @@
+---
+import TopBarActions from './islands/TopBarActions';
+import { site } from '../site.config';
+import { LANG_NATIVE } from '../lib/scripts';
+import { t } from '../i18n';
+
+const langs = [
+  { id: 'all', label: t('desktop.langAll') },
+  ...site.languages.map((id) => ({
+    id,
+    label: id === 'en' ? 'English' : LANG_NATIVE[id],
+  })),
+];
+---
+
+<header class="topbar" transition:persist="topbar">
+  <a class="topbar__brand" href="/">
+    <span class="topbar__name">{site.name}</span>
+    <span class="topbar__tag">{t('desktop.tagline')}</span>
+  </a>
+  <div class="topbar__langs" role="group" aria-label={t('desktop.languages')} data-lang-filter>
+    {
+      langs.map((l) => (
+        <button type="button" class="topbar__lang" data-lang={l.id} aria-pressed={l.id === 'all' ? 'true' : 'false'}>
+          <span lang={l.id === 'all' || l.id === 'en' ? 'en' : l.id}>{l.label}</span>
+        </button>
+      ))
+    }
+  </div>
+  <TopBarActions client:load />
+</header>
+<script is:inline>
+  // Sync language chips with prefs before the island hydrates.
+  (function () {
+    try {
+      var p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
+      var cur = p.langFilter || 'all';
+      document.querySelectorAll('[data-lang-filter] [data-lang]').forEach(function (btn) {
+        btn.setAttribute('aria-pressed', btn.getAttribute('data-lang') === cur ? 'true' : 'false');
+      });
+    } catch (e) {}
+  })();
+</script>

@@ -16,13 +16,17 @@ export default defineConfig({
   },
   // iPhone 12 runs on Chromium with the iPhone viewport/UA so CI only needs one browser.
   projects: [
-    { name: 'pixel5', testIgnore: /admin\.spec|responsive\.spec/, use: { ...devices['Pixel 5'] } },
+    {
+      name: 'pixel5',
+      testIgnore: /admin\.spec|responsive\.spec|desktop-|columns\.spec|present\.spec|export\.spec/,
+      use: { ...devices['Pixel 5'] },
+    },
     {
       name: 'iphone12',
-      testIgnore: /admin\.spec|responsive\.spec/,
+      testIgnore: /admin\.spec|responsive\.spec|desktop-|columns\.spec|present\.spec|export\.spec/,
       use: { ...devices['iPhone 12'], browserName: 'chromium', defaultBrowserType: 'chromium' },
     },
-    // responsive.spec.ts sets its own 390 / 1024 / 1440 viewports; run it once on Chromium.
+    // responsive + desktop add-on specs set their own viewports; run once on Chromium.
     { name: 'desktop', testIgnore: /admin\.spec/, use: { ...devices['Desktop Chrome'] } },
     {
       name: 'headers',

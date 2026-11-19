@@ -1,7 +1,9 @@
 /**
- * Size budgets from STUTI_BUILD_SPEC.md §19.3, measured on dist/ (gzip level 9):
+ * Size budgets from STUTI_BUILD_SPEC.md §19.3 + STUTI_DESKTOP_ADDON.md §10,
+ * measured on dist/ (gzip level 9):
  *  - every song page HTML ≤ 30 KB
- *  - JS loaded by a song page (scripts + islands + their static imports) ≤ 40 KB
+ *  - JS loaded by a song page (scripts + islands + static imports) ≤ 60 KB
+ *    (pptxgenjs is dynamic-import only and must not count)
  *  - first load of the key pages (HTML + CSS + JS, excluding fonts) ≤ 150 KB
  */
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
@@ -9,7 +11,7 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { gzipSync } from 'node:zlib';
 
-export const BUDGETS = { songHtml: 30_000, songJs: 40_000, firstLoad: 150_000 };
+export const BUDGETS = { songHtml: 30_000, songJs: 60_000, firstLoad: 150_000 };
 const KEY_PAGES = [
   'index.html',
   'search/index.html',

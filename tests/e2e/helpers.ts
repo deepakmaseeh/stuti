@@ -7,3 +7,9 @@ import { expect, type Page } from '@playwright/test';
 export async function waitHydrated(page: Page) {
   await expect(page.locator('astro-island[ssr]:not([client="media"])')).toHaveCount(0);
 }
+
+/** Desktop Finder/SetPanel use client:only — wait until they mount at ≥900px. */
+export async function waitDesktopPanes(page: Page) {
+  await waitHydrated(page);
+  await expect(page.locator('.finder')).toBeVisible({ timeout: 15_000 });
+}

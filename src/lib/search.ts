@@ -11,10 +11,19 @@ export type SearchDoc = {
   aliases: string;
   nums: string;
 };
-/** meta.json value: [native title, roman title, lang, "BOOK NUM"]. */
-export type MetaRow = [string, string, string, string];
+/** meta.json value: [native, roman, lang, "BOOK NUM", firstLineNative, tags[]]. */
+export type MetaRow = [string, string, string, string, string, string[]];
 export type NumbersMap = Record<string, Record<string, string>>;
-export type Hit = { id: string; title: string; roman: string; lang: string; badge: string; score: number };
+export type Hit = {
+  id: string;
+  title: string;
+  roman: string;
+  lang: string;
+  badge: string;
+  score: number;
+  firstLine?: string;
+  tags?: string[];
+};
 
 export const MS_OPTIONS: Options<SearchDoc> = {
   idField: 'id',
@@ -84,7 +93,18 @@ export function parseBookNumber(q: string): { book: string; number: string } | n
 
 const toHit = (id: string, score: number, meta: Record<string, MetaRow>): Hit | null => {
   const row = meta[id];
-  return row ? { id, title: row[0], roman: row[1], lang: row[2], badge: row[3], score } : null;
+  return row
+    ? {
+        id,
+        title: row[0],
+        roman: row[1],
+        lang: row[2],
+        badge: row[3],
+        score,
+        firstLine: row[4],
+        tags: row[5],
+      }
+    : null;
 };
 
 /** Query every loaded shard, merge by score, map ids through meta.json, pin a direct number hit first. */

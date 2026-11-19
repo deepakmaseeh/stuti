@@ -2,21 +2,25 @@
 import Base from '../layouts/Base.astro';
 import BottomNav from './BottomNav.astro';
 import OfflineBadge from './OfflineBadge.astro';
-import DesktopPreview from './islands/DesktopPreview';
+import TopBar from './TopBar.astro';
+import Finder from './islands/Finder';
+import SetPanel from './islands/SetPanel';
 import KeyboardShortcuts from './islands/KeyboardShortcuts';
+import type { BookChip } from './islands/Keypad';
+import { getBooks } from '../lib/content';
 import { site } from '../site.config';
-import { t } from '../i18n';
 
 interface Props {
   title: string;
   description?: string;
   canonicalPath?: string;
   noindex?: boolean;
-  /** Heading shown in the header (defaults to the app name). */
   heading?: string;
   active?: 'home' | 'search' | 'set' | 'offline';
-  /** Desktop ≥1200: show a right-hand song preview pane (search, books, set). */
-  desktopPreview?: boolean;
+  /** Highlight this song in Finder / Set panel. */
+  currentSongId?: string;
+  /** Hide the mobile-only page header (song pages have their own). */
+  hideMobileHeader?: boolean;
 }
 const {
   title,
@@ -25,39 +29,56 @@ const {
   noindex,
   heading = site.name,
   active,
-  desktopPreview = false,
+  currentSongId = '',
+  hideMobileHeader = false,
 } = Astro.props;
+
+const books: BookChip[] = (await getBooks()).map((b) => ({
+  id: b.id,
+  native: b.name.native,
+  en: b.name.en,
+  lang: b.lang,
+  numbering: b.numbering,
+}));
 ---
 
 <Base title={title} description={description} canonicalPath={canonicalPath} noindex={noindex}>
   <slot name="head" slot="head" />
-  <div class:list={['shell', { 'shell--preview': desktopPreview }]}>
-    <header class="app-header">
-      <div class="app-column app-header__inner">
-        <a href="/" class="app-header__name">
-          {heading}
-        </a>
-        <div class="app-header__actions">
-          <OfflineBadge />
-          <slot name="actions" />
-        </div>
-      </div>
-    </header>
-    <div class="shell__body">
-      <main
-        id="main"
-        class:list={['app-column', 'app-main', 'shell__primary']}
-        data-desktop-source={desktopPreview ? '' : undefined}
-      >
+  <TopBar />
+  <div class="desktop-shell">
+    <aside class="desktop-finder" transition:persist="finder">
+      {/* client:only: not in mobile SSR DOM (avoids duplicate keypads with /search/). */}
+      <Finder client:only="preact" books={books} currentId={currentSongId} />
+    </aside>
+    <div class="desktop-main" transition:animate="fade">
+      {
+        !hideMobileHeader && (
+          <header class="app-header">
+            <div class="app-column app-header__inner">
+              <a href="/" class="app-header__name">
+                {heading}
+              </a>
+              <div class="app-header__actions">
+                <OfflineBadge />
+                <slot name="actions" />
+              </div>
+            </div>
+          </header>
+        )
+      }
+      <main id="main" class="app-column app-main app-main-inner">
         <slot />
       </main>
-      {desktopPreview && (
-        <aside class="shell__preview" data-song-preview aria-live="polite">
-          <p class="shell__preview-empty">{t('desktop.pickSong')}</p>
-          <DesktopPreview client:idle />
-        </aside>
-      )}
     </div>
+    <div
+      class="desktop-set-drawer-backdrop"
+      data-close-drawer
+      onclick="this.classList.remove('is-open');document.querySelector('.desktop-set')?.classList.remove('is-open')"
+    >
+    </div>
+    <aside class="desktop-set is-drawer" transition:persist="setpanel">
+      <SetPanel client:only="preact" currentId={currentSongId} />
+    </aside>
   </div>
   <BottomNav active={active} />
   <KeyboardShortcuts client:idle />

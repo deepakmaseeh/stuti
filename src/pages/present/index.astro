@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import PresentApp from '../../components/islands/PresentApp';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+---
+
+<Base title={`${t('desktop.present')} | ${site.name}`} noindex bodyClass="page-present">
+  <PresentApp client:load />
+</Base>

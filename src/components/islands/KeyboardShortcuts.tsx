@@ -8,13 +8,6 @@ function typingInField(el: EventTarget | null): boolean {
   return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT';
 }
 
-/**
- * Global shortcuts (ignored while typing in a field):
- *  - digit → number search with that digit
- *  - / → word search
- *  - ← / → → previous / next in a set
- *  - Esc → close an open sheet/dialog
- */
 export default function KeyboardShortcuts() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -25,36 +18,70 @@ export default function KeyboardShortcuts() {
         if (dlg) {
           e.preventDefault();
           dlg.close();
+          return;
+        }
+        const drawer = document.querySelector('.desktop-set.is-open');
+        if (drawer) {
+          e.preventDefault();
+          drawer.classList.remove('is-open');
+          document.querySelector('.desktop-set-drawer-backdrop')?.classList.remove('is-open');
         }
         return;
       }
 
-      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
-        const btn = document.querySelector<HTMLButtonElement | HTMLAnchorElement>(
-          e.key === 'ArrowLeft' ? '[data-set-prev]' : '[data-set-next]',
-        );
-        if (btn && !btn.hasAttribute('disabled') && !btn.getAttribute('aria-disabled')) {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === '[' || e.key === ']') {
+        const prev = e.key === 'ArrowLeft' || e.key === '[';
+        const btn = document.querySelector<HTMLAnchorElement>(prev ? '[data-set-prev]' : '[data-set-next]');
+        if (btn) {
           e.preventDefault();
           btn.click();
         }
         return;
       }
 
-      if (e.key === '/') {
+      if (e.key === '/' ) {
         e.preventDefault();
-        if (location.pathname.startsWith('/search/')) {
+        if (document.querySelector('.finder')) {
+          document.querySelector<HTMLButtonElement>('.finder__seg button:nth-child(2)')?.click();
+          queueMicrotask(() => document.querySelector<HTMLInputElement>('[data-word-search]')?.focus());
+        } else if (location.pathname.startsWith('/search/')) {
           document.getElementById('tab-words')?.click();
           queueMicrotask(() =>
             document.querySelector<HTMLInputElement>('#panel-words input, [data-word-search]')?.focus(),
           );
-        } else {
-          location.assign('/search/?tab=words');
+        } else location.assign('/search/?tab=words');
+        return;
+      }
+
+      if (e.key === 'p' || e.key === 'P') {
+        const present = document.querySelector<HTMLAnchorElement>('.song-present, a[href^="/present/"]');
+        if (present) {
+          e.preventDefault();
+          location.assign(present.href);
         }
         return;
       }
 
+      if (e.key === 's' || e.key === 'S') {
+        const add = document.querySelector<HTMLButtonElement>('.toolbar .tool[aria-pressed]');
+        // Prefer the + Set button by scanning tools for set labels after hydrate.
+        const setBtn = [...document.querySelectorAll<HTMLButtonElement>('.toolbar .tool')].find((b) =>
+          /set|In set/i.test(b.textContent || ''),
+        );
+        if (setBtn) {
+          e.preventDefault();
+          setBtn.click();
+        }
+        void add;
+        return;
+      }
+
       if (/^\d$/.test(e.key)) {
-        // Keypad on /search/ already handles digits when the Number tab is active.
+        if (document.querySelector('.finder')) {
+          // Let Keypad inside Finder handle digits when Number tab is active.
+          document.querySelector<HTMLButtonElement>('.finder__seg button:nth-child(1)')?.click();
+          return;
+        }
         if (
           location.pathname.startsWith('/search/') &&
           document.getElementById('panel-number')?.getAttribute('hidden') == null
@@ -62,7 +89,6 @@ export default function KeyboardShortcuts() {
           return;
         }
         e.preventDefault();
-        // Only `n` (no `book`) so SearchTabs seeds the keypad instead of auto-opening a song.
         location.assign(`/search/?n=${e.key}`);
       }
     };

@@ -32,10 +32,19 @@ registerRoute(
   new NetworkFirst({ cacheName: 'stuti-data', networkTimeoutSeconds: 3 }),
 );
 
-// Search shards
+// Search shards + book lyric bundles (Present / PPT).
 registerRoute(
-  ({ url }) => url.pathname.startsWith('/search/'),
+  ({ url }) => url.pathname.startsWith('/search/') || url.pathname.startsWith('/data/'),
   new StaleWhileRevalidate({ cacheName: 'stuti-data' }),
+);
+
+// Lazy pptxgenjs chunk: cache after first PPT export.
+registerRoute(
+  ({ url }) => /pptxgen/i.test(url.pathname),
+  new CacheFirst({
+    cacheName: 'stuti-pptx',
+    plugins: [new ExpirationPlugin({ maxEntries: 4 })],
+  }),
 );
 
 // Fonts. ignoreVary: servers send `Vary: Origin`, and the browser's font requests carry an Origin header

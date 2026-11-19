@@ -20,7 +20,6 @@ const entries = await getBookEntries(book.id);
 <AppShell
   title={`${book.name.en} (${book.id}) | ${site.name}`}
   description={`${book.name.native} · ${book.name.en}: ${t('books.count', { n: entries.length })}, numbered like the printed book.`}
-  desktopPreview
 >
   <h1 class="page-title" lang={LANG_TAG.n[book.lang]}>
     {book.name.native}

@@ -1,7 +1,9 @@
 ---
+import { ClientRouter } from 'astro:transitions';
 import '../styles/tokens.css';
 import '../styles/base.css';
 import '../styles/components.css';
+import '../styles/desktop.css';
 import { site } from '../site.config';
 
 interface Props {
@@ -32,16 +34,26 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
     <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <meta name="theme-color" content="#4a1820" />
-    <script is:inline>
+    <ClientRouter />
+    <script is:inline define:vars={{ desktopMin: site.layout.desktopMin, wideMin: site.layout.wideMin }}>
       document.documentElement.classList.add('js');
+      // Before paint: desktop panes vs mobile (STUTI_DESKTOP_ADDON.md).
+      (function () {
+        var w = window.innerWidth;
+        var h = document.documentElement;
+        if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
+        else h.removeAttribute('data-desktop');
+      })();
       try {
         const p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
         const l = p.layers || { n: true, r: true, e: false };
         const h = document.documentElement;
         h.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
-        h.dataset.size = String(p.size == null ? 2 : p.size);
+        // Desktop default lyric size is one step larger (index 3).
+        var sizeDefault = h.dataset.desktop ? 3 : 2;
+        h.dataset.size = String(p.size == null ? sizeDefault : p.size);
         h.dataset.theme = p.theme || 'system';
-        h.dataset.layout = p.layout === 'columns' ? 'columns' : 'stacked';
+        h.dataset.layout = p.layout === 'columns' ? 'columns' : h.dataset.desktop === 'wide' ? 'columns' : 'stacked';
       } catch {
         // Storage blocked or corrupt: keep the server defaults.
       }
@@ -50,6 +62,12 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
         e.preventDefault();
         self.__stutiInstall = e;
         dispatchEvent(new Event('stuti:installable'));
+      });
+      addEventListener('resize', function () {
+        var w = window.innerWidth;
+        var h = document.documentElement;
+        if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
+        else h.removeAttribute('data-desktop');
       });
     </script>
     <slot name="head" />

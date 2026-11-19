@@ -6,20 +6,27 @@ async function openSearch(page: Page, url = '/search/') {
   await waitHydrated(page);
 }
 
+/** Always the /search/ keypad (not the desktop Finder). */
+const panel = (page: Page) => page.locator('#panel-number');
+
 const tap = async (page: Page, digits: string) => {
-  for (const d of digits) await page.locator('.keypad').getByRole('button', { name: d, exact: true }).click();
+  for (const d of digits)
+    await panel(page).locator('.keypad').getByRole('button', { name: d, exact: true }).click();
 };
 
 test.describe('number search (F1)', () => {
   test('Home → Search → 117 → Open shows DT 117', async ({ page }) => {
     await page.goto('/');
-    await page.getByRole('navigation', { name: 'Main' }).getByRole('link', { name: 'Search' }).click();
+    const searchNav = page.getByRole('navigation', { name: 'Main' }).getByRole('link', { name: 'Search' });
+    // Desktop shell hides the bottom nav; go straight to /search/ there.
+    if (await searchNav.isVisible()) await searchNav.click();
+    else await page.goto('/search/');
     await waitHydrated(page);
-    await page.getByRole('button', { name: 'DT', exact: true }).click();
+    await panel(page).getByRole('button', { name: 'DT', exact: true }).click();
     await tap(page, '117');
-    await expect(page.getByTestId('number-status')).toHaveText('இயேசுவே என் துணை');
+    await expect(panel(page).getByTestId('number-status')).toHaveText('இயேசுவே என் துணை');
     const started = Date.now();
-    await page.getByRole('button', { name: 'Open' }).click();
+    await panel(page).getByRole('button', { name: 'Open' }).click();
     await expect(page).toHaveURL(/\/song\/ta-yesuve-en-thunai\/\?from=dt$/);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('இயேசுவே என் துணை');
     expect(Date.now() - started).toBeLessThan(1000);
@@ -28,20 +35,20 @@ test.describe('number search (F1)', () => {
 
   test('wrong number shows the no-match message and Open stays disabled', async ({ page }) => {
     await openSearch(page);
-    await page.getByRole('button', { name: 'DT', exact: true }).click();
+    await panel(page).getByRole('button', { name: 'DT', exact: true }).click();
     await tap(page, '999');
-    await expect(page.getByTestId('number-status')).toHaveText('No song with this number in DT');
-    await expect(page.getByRole('button', { name: 'Open' })).toBeDisabled();
+    await expect(panel(page).getByTestId('number-status')).toHaveText('No song with this number in DT');
+    await expect(panel(page).getByRole('button', { name: 'Open' })).toBeDisabled();
   });
 
   test('physical keyboard: digits, Backspace and Enter', async ({ page }) => {
     await openSearch(page);
-    await page.getByRole('button', { name: 'DH', exact: true }).click();
+    await panel(page).getByRole('button', { name: 'DH', exact: true }).click();
     await page.locator('body').click({ position: { x: 5, y: 300 } });
     await page.keyboard.type('125');
-    await expect(page.getByTestId('number-status')).toHaveText('No song with this number in DH');
+    await expect(panel(page).getByTestId('number-status')).toHaveText('No song with this number in DH');
     await page.keyboard.press('Backspace');
-    await expect(page.getByTestId('number-status')).toHaveText('यीशु मेरा सहारा');
+    await expect(panel(page).getByTestId('number-status')).toHaveText('यीशु मेरा सहारा');
     await page.keyboard.press('Enter');
     await expect(page).toHaveURL(/\/song\/hi-yeshu-mera-sahara\/\?from=dh$/);
   });
@@ -49,18 +56,18 @@ test.describe('number search (F1)', () => {
   test('max 4 digits', async ({ page }) => {
     await openSearch(page);
     await tap(page, '123456');
-    await expect(page.locator('.num-display__digits')).toHaveText('1234');
+    await expect(panel(page).locator('.num-display__digits')).toHaveText('1234');
   });
 
   test('remembers the last used book and puts it first', async ({ page }) => {
     await openSearch(page);
-    await page.getByRole('button', { name: 'DTe', exact: true }).click();
+    await panel(page).getByRole('button', { name: 'DTe', exact: true }).click();
     await openSearch(page);
-    await expect(page.getByRole('button', { name: 'DTe', exact: true })).toHaveAttribute(
+    await expect(panel(page).getByRole('button', { name: 'DTe', exact: true })).toHaveAttribute(
       'aria-pressed',
       'true',
     );
-    await expect(page.locator('.book-chips .chip').first()).toHaveText('DTe');
+    await expect(panel(page).locator('.book-chips .chip').first()).toHaveText('DTe');
   });
 
   test('deep link ?book=&n= opens the song', async ({ page }) => {
@@ -70,11 +77,11 @@ test.describe('number search (F1)', () => {
 
   test('deep link to a missing number stays on the keypad with it typed', async ({ page }) => {
     await openSearch(page, '/search/?book=EH&n=77');
-    await expect(page.getByRole('button', { name: 'EH', exact: true })).toHaveAttribute(
+    await expect(panel(page).getByRole('button', { name: 'EH', exact: true })).toHaveAttribute(
       'aria-pressed',
       'true',
     );
-    await expect(page.getByTestId('number-status')).toHaveText('No song with this number in EH');
+    await expect(panel(page).getByTestId('number-status')).toHaveText('No song with this number in EH');
   });
 
   test('works offline once the number data is loaded', async ({ page, context }) => {
@@ -86,9 +93,9 @@ test.describe('number search (F1)', () => {
     await openSearch(page);
     await loaded;
     await context.setOffline(true);
-    await page.getByRole('button', { name: 'DT', exact: true }).click();
+    await panel(page).getByRole('button', { name: 'DT', exact: true }).click();
     await tap(page, '117');
-    await expect(page.getByTestId('number-status')).toHaveText('இயேசுவே என் துணை');
+    await expect(panel(page).getByTestId('number-status')).toHaveText('இயேசுவே என் துணை');
     await context.setOffline(false);
   });
 });

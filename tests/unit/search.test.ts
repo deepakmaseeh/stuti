@@ -76,12 +76,26 @@ describe('F2 word search acceptance', () => {
 
 describe('generated files', () => {
   it('meta rows carry title, roman, lang and badge', () => {
-    expect(out.meta['ta-yesuve-en-thunai']).toEqual(['இயேசுவே என் துணை', 'Yesuve En Thunai', 'ta', 'DT 117']);
+    expect(out.meta['ta-yesuve-en-thunai']?.slice(0, 4)).toEqual([
+      'இயேசுவே என் துணை',
+      'Yesuve En Thunai',
+      'ta',
+      'DT 117',
+    ]);
+    expect(out.meta['ta-yesuve-en-thunai']?.[4]).toBeTruthy();
+    expect(Array.isArray(out.meta['ta-yesuve-en-thunai']?.[5])).toBe(true);
   });
 
   it('book manifests list book page, song pages and number permalinks', () => {
     const dt = out.manifests.DT!;
-    expect(dt.urls).toEqual(['/books/dt/', '/song/ta-yesuve-en-thunai/', '/b/dt/117/']);
+    expect(dt.urls).toEqual([
+      '/books/dt/',
+      '/data/books/DT.json',
+      '/song/ta-yesuve-en-thunai/',
+      '/b/dt/117/',
+    ]);
+    expect(out.bookBundles.DT).toContain('ta-yesuve-en-thunai');
+    expect(out.browse.ta).toBeTruthy();
     expect(dt.searchIndex).toBe('/search/idx-ta.json');
     expect(dt.version).toMatch(/^[0-9a-f]{12}$/);
     expect(dt.bytes).toBeGreaterThan(0);

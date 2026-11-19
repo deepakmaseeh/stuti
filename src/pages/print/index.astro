@@ -1,0 +1,85 @@
+---
+import Base from '../../layouts/Base.astro';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+---
+
+<Base title={`Print | ${site.name}`} noindex bodyClass="page-print">
+  <main id="main" class="print-set app-column">
+    <p class="muted">{t('desktop.loading')}</p>
+  </main>
+  <script>
+    import { decodeSet } from '../../lib/setlist';
+    import { loadMeta } from '../../lib/search';
+    import type { BookBundle } from '../../lib/book-bundle';
+
+    const root = document.querySelector('.print-set') as HTMLElement;
+    const code = new URLSearchParams(location.search).get('set');
+    if (!code) {
+      root.textContent = 'Missing set.';
+    } else {
+      const set = decodeSet(code);
+      if (!set?.s.length) root.textContent = 'Empty set.';
+      else {
+        const meta = await loadMeta();
+        const books = new Set<string>();
+        for (const item of set.s) {
+          const badge = meta[item.id]?.[3] ?? '';
+          const book = badge.split(' ')[0];
+          if (book) books.add(book);
+        }
+        const bundles = await Promise.all(
+          [...books].map((b) =>
+            fetch(`/data/books/${b}.json`)
+              .then((r) => (r.ok ? (r.json() as Promise<BookBundle>) : null))
+              .catch(() => null),
+          ),
+        );
+        const byId = new Map(
+          bundles.flatMap((b) => (b ? Object.entries(b.songs) : [])),
+        );
+        root.innerHTML = '';
+        for (const item of set.s) {
+          const song = byId.get(item.id);
+          if (!song) continue;
+          const article = document.createElement('article');
+          article.className = 'print-song';
+          article.style.pageBreakAfter = 'always';
+          const h1 = document.createElement('h1');
+          h1.textContent = song.t[0];
+          article.append(h1);
+          for (const sec of song.sec) {
+            const h2 = document.createElement('h2');
+            h2.textContent = sec.label;
+            article.append(h2);
+            for (const [n, r, e] of sec.lines) {
+              const p = document.createElement('p');
+              p.className = 'line';
+              if (n) {
+                const sn = document.createElement('span');
+                sn.className = 'n';
+                sn.textContent = n;
+                p.append(sn);
+              }
+              if (r) {
+                const sr = document.createElement('span');
+                sr.className = 'r';
+                sr.textContent = r;
+                p.append(sr);
+              }
+              if (e) {
+                const se = document.createElement('span');
+                se.className = 'e';
+                se.textContent = e;
+                p.append(se);
+              }
+              article.append(p);
+            }
+          }
+          root.append(article);
+        }
+        queueMicrotask(() => window.print());
+      }
+    }
+  </script>
+</Base>
