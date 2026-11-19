@@ -6,6 +6,9 @@ import LyricSection from '../../components/LyricSection.astro';
 import SongMeta from '../../components/SongMeta.astro';
 import SongToolbar from '../../components/islands/SongToolbar.tsx';
 import FavStar from '../../components/islands/FavStar.tsx';
+import ReportSheet from '../../components/islands/ReportSheet.tsx';
+import SetNavBar from '../../components/islands/SetNavBar.tsx';
+import { reportUrl } from '../../lib/report';
 import { getSongs } from '../../lib/content';
 import { safeJsonLd } from '../../lib/jsonld';
 import { LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
@@ -115,6 +118,7 @@ const numbersData = JSON.stringify(song.numbers);
       nativeLang={LANG_TAG.n[song.lang]}
       layers={{ r: isEn ? 'missing' : song.layers.roman, e: isEn ? 'missing' : song.layers.en }}
       share={{ title: song.title.native, text: lines[0]?.n ?? '', url }}
+      books={song.numbers.map((n) => n.book)}
     />
 
     <div class:list={['lyrics', { 'is-en': isEn, 'has-r': showR, 'has-e': showE }]}>
@@ -131,9 +135,19 @@ const numbersData = JSON.stringify(song.numbers);
 
     <SongMeta song={song} />
 
-    <a class="report-btn" href={site.report.githubIssueUrl} data-report>
-      {t('song.report')}
-    </a>
+    <ReportSheet
+      client:idle
+      songId={song.id}
+      title={song.title.native}
+      fallbackHref={reportUrl({
+        songId: song.id,
+        title: song.title.native,
+        line: '',
+        correction: '',
+        pageUrl: new URL(url, site.url).href,
+      })}
+    />
   </main>
+  <SetNavBar client:load />
   <BottomNav />
 </Base>

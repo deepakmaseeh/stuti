@@ -1,0 +1,40 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import SettingsPanel from '../../components/islands/SettingsPanel';
+import { getSongs } from '../../lib/content';
+import type { Lang } from '../../lib/schema';
+import { appVersion, contentVersion } from '../../lib/version';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+// One real first line per language for the size preview.
+const songs = await getSongs();
+const samples: Partial<Record<Lang, string>> = {};
+for (const s of songs) samples[s.lang] ??= s.sections[0]?.lines[0]?.n;
+---
+
+<AppShell title={`${t('settings.title')} | ${site.name}`} noindex>
+  <h1 class="page-title">{t('settings.title')}</h1>
+  <noscript>
+    <p class="notice">{t('search.noJs')}</p>
+  </noscript>
+  <SettingsPanel client:load languages={[...site.languages]} samples={samples} />
+  <section class="settings__group" aria-labelledby="s-about">
+    <h2 class="group-title" id="s-about">
+      {t('settings.about')}
+    </h2>
+    <dl class="kv">
+      <div>
+        <dt>{t('settings.version')}</dt>
+        <dd>{appVersion}</dd>
+      </div>
+      <div>
+        <dt>{t('settings.contentVersion')}</dt>
+        <dd>{contentVersion}</dd>
+      </div>
+    </dl>
+    <p>
+      <a href="/about/">{t('about.title')}</a>
+    </p>
+  </section>
+</AppShell>

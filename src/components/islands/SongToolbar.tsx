@@ -10,6 +10,7 @@ import {
   type Prefs,
   type SongSnapshot,
 } from '../../lib/storage';
+import { addToDraft, isInDraft, removeFromDraft } from '../../lib/setlist';
 import { showToast } from '../../lib/toast';
 import { isAwake, onWakeChange, setKeepAwake, wakeLockSupported } from '../../lib/wakelock';
 
@@ -23,6 +24,8 @@ export type SongToolbarProps = {
   nativeLang: string;
   layers: { r: LayerState; e: LayerState };
   share: { title: string; text: string; url: string };
+  /** Book codes this song appears in, in `numbers` order. */
+  books: string[];
 };
 
 function applyHtml(prefs: Prefs) {
@@ -38,11 +41,13 @@ export default function SongToolbar({
   nativeLang,
   layers,
   share,
+  books,
 }: SongToolbarProps) {
   // Server render uses defaults; real prefs/support are read after mount so hydration matches.
   const [prefs, setPrefs] = useState<Prefs>(DEFAULT_PREFS);
   const [awake, setAwake] = useState(false);
   const [supported, setSupported] = useState(true);
+  const [inSet, setInSet] = useState(false);
 
   const available: LayerKey[] = [
     'n',
@@ -59,6 +64,7 @@ export default function SongToolbar({
   useEffect(() => {
     const stored = storage.prefs.get();
     setPrefs(stored);
+    setInSet(isInDraft(snapshot.id));
     const canWake = wakeLockSupported();
     setSupported(canWake);
     pushRecent(snapshot);
@@ -99,6 +105,22 @@ export default function SongToolbar({
     } catch {
       showToast(t('song.wakeUnsupported'));
     }
+  };
+
+  const toggleSet = () => {
+    if (inSet) {
+      removeFromDraft(snapshot.id);
+      setInSet(false);
+      showToast(t('set.removedToast'));
+      return;
+    }
+    // Remember which book the singer came from so the set shows the number they know.
+    const from = new URLSearchParams(location.search).get('from')?.toLowerCase();
+    const book = books.find((b) => b.toLowerCase() === from) ?? books[0];
+    if (addToDraft({ id: snapshot.id, ...(book ? { book } : {}) })) {
+      setInSet(true);
+      showToast(t('set.addedToast'));
+    } else showToast(t('set.fullToast'));
   };
 
   const chips: { key: LayerKey; label: string; lang?: string; state?: LayerState }[] = [
@@ -152,6 +174,14 @@ export default function SongToolbar({
           onClick={toggleAwake}
         >
           <span aria-hidden="true">☀</span> {awake ? t('song.screenOn') : t('song.keepAwake')}
+        </button>
+        <button
+          type="button"
+          class={`tool${inSet ? ' tool--on' : ''}`}
+          aria-pressed={inSet ? 'true' : 'false'}
+          onClick={toggleSet}
+        >
+          {inSet ? t('song.inSet') : t('song.addSet')}
         </button>
         <button type="button" class="tool" onClick={() => shareLink(share)}>
           {t('song.share')}

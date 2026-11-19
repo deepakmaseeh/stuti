@@ -1,7 +1,15 @@
 ---
 import AppShell from '../components/AppShell.astro';
+import NumberBadge from '../components/NumberBadge.astro';
+import HomeLists from '../components/islands/HomeLists';
+import { getBookEntries, getBooks } from '../lib/content';
+import { LANG_LABEL, LANG_TAG } from '../lib/scripts';
 import { site } from '../site.config';
 import { t } from '../i18n';
+
+const books = await Promise.all(
+  (await getBooks()).map(async (b) => ({ book: b, count: (await getBookEntries(b.id)).length })),
+);
 ---
 
 <AppShell
@@ -9,27 +17,42 @@ import { t } from '../i18n';
   description="Free, offline Christian hymnal in Hindi, Tamil, Telugu, Punjabi and English, numbered like the printed book."
   active="home"
 >
-  <div class="placeholder">
-    <h1 class="page-title">{site.name}</h1>
-    <p class="names">
-      <span lang="hi">स्तुति</span> · <span lang="ta">துதி</span> · <span lang="te">స్తుతి</span> ·
-      <span lang="pa">ਉਸਤਤ</span>
-    </p>
-    <p class="muted">{site.tagline}</p>
-    <p>
-      <a href="/books/">{t('books.title')}</a>
-    </p>
-  </div>
-</AppShell>
+  <details class="menu" slot="actions">
+    <summary class="icon-btn" aria-label={t('home.menu')}>
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <path d="M12 5h.01M12 12h.01M12 19h.01" stroke-width="3"></path>
+      </svg>
+    </summary>
+    <div class="menu__list">
+      <a href="/settings/">{t('home.settings')}</a>
+      <a href="/about/">{t('home.about')}</a>
+    </div>
+  </details>
 
-<style>
-  .placeholder {
-    display: grid;
-    gap: var(--s3);
-    text-align: center;
-    padding-top: var(--s12);
-  }
-  .names {
-    font-size: var(--text-lg);
-  }
-</style>
+  <h1 class="visually-hidden">{site.name}</h1>
+  <a class="search-cta" href="/search/">
+    <span aria-hidden="true">#</span>
+    {t('home.searchCta')}
+  </a>
+
+  <HomeLists client:load />
+
+  <section aria-labelledby="books-title">
+    <h2 class="group-title" id="books-title">
+      {t('home.books')}
+    </h2>
+    {books.map(({ book, count }) => (
+      <a class="song-row" href={`/books/${book.id.toLowerCase()}/`}>
+        <NumberBadge book="" number={book.id} />
+        <span class="song-row__text">
+          <span class="song-row__title" lang={LANG_TAG.n[book.lang]}>
+            {book.name.native}
+          </span>
+          <span class="song-row__sub">
+            {LANG_LABEL[book.lang]} · {t('books.count', { n: count })}
+          </span>
+        </span>
+      </a>
+    ))}
+  </section>
+</AppShell>

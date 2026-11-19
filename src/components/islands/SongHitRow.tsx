@@ -4,11 +4,11 @@ import type { Hit } from '../../lib/search';
 import { songUrl } from '../../lib/songs';
 
 /** Preact twin of SongRow.astro + NumberBadge.astro for client-rendered lists. */
-export default function SongHitRow({ hit }: { hit: Hit }) {
+export default function SongHitRow({ hit, href }: { hit: Hit; href?: string }) {
   const [book = '', number = ''] = hit.badge.split(' ');
   const lang = hit.lang as Lang;
   return (
-    <a class="song-row" href={songUrl(hit.id)}>
+    <a class="song-row" href={href ?? songUrl(hit.id)}>
       <span class="badge badge--list" role="img" aria-label={hit.badge}>
         <span class="badge__book" aria-hidden="true">
           {book}

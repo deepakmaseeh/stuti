@@ -1,0 +1,83 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import { getBooks } from '../../lib/content';
+import { LANG_LABEL, LANG_TAG } from '../../lib/scripts';
+import { appVersion, contentVersion } from '../../lib/version';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+const books = await getBooks();
+---
+
+<AppShell
+  title={`${t('about.title')} | ${site.name}`}
+  description="Why Stuti exists, which songs it publishes, and how to contact the editors."
+>
+  <article class="prose">
+    <h1 class="page-title">{t('about.title')}</h1>
+    <p>
+      Stuti is a free hymnal for Indian churches. It shows each song in its own script, in Roman letters and
+      with an English meaning, numbered exactly like the printed hymnbook, and it keeps working in church with
+      no signal once a book is downloaded.
+    </p>
+    <p>No ads. No login. No tracking.</p>
+
+    <h2>Which songs we publish</h2>
+    <ul>
+      <li>
+        <strong>Public domain:</strong> the author died more than 60 years ago (Indian copyright law), or the
+        song is traditional and old enough, with evidence.
+      </li>
+      <li>
+        <strong>Licensed:</strong> we have written permission from the author, their family or the publisher,
+        covering this app, offline use, transliteration and translation.
+      </li>
+      <li>
+        Every other song stays unpublished until its rights are checked. Translations and transliterations of
+        a protected song need permission too.
+      </li>
+    </ul>
+    {site.includeDemo && (
+      <p class="notice">This build includes demo texts written for testing. They are not real hymns.</p>
+    )}
+
+    <h2>Hymnbooks</h2>
+    <ul>
+      {books.map((b) => (
+        <li>
+          <a href={`/books/${b.id.toLowerCase()}/`} lang={LANG_TAG.n[b.lang]}>
+            {b.name.native}
+          </a>{' '}
+          · {b.name.en} ({LANG_LABEL[b.lang]}){b.publisher && <> · {b.publisher}</>}
+          {b.edition && <> · {b.edition}</>}
+        </li>
+      ))}
+    </ul>
+
+    <h2>Mistakes and takedown requests</h2>
+    <p>
+      Use “{t('song.report')}” at the bottom of any song. Editors check every report before changing a song.
+      {site.contactEmail ? (
+        <>
+          If you hold the rights to a song and want it removed, write to{' '}
+          <a href={`mailto:${site.contactEmail}`}>{site.contactEmail}</a>. We act within 48 hours.
+        </>
+      ) : (
+        <>
+          If you hold the rights to a song and want it removed, use the same report button and we act within
+          48 hours.
+        </>
+      )}
+    </p>
+
+    <h2>Privacy</h2>
+    <p>
+      Stuti sets no cookies and collects no personal data. Your favourites, sets and settings stay on your
+      phone. Reports are sent through a Google Form (or GitHub, if no form is set up) that you open yourself.
+    </p>
+
+    <p class="muted">
+      Version {appVersion} · content {contentVersion}
+    </p>
+  </article>
+</AppShell>

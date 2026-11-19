@@ -1,0 +1,20 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import SetEditor from '../../components/islands/SetEditor';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+---
+
+<AppShell
+  title={`${t('set.title')} | ${site.name}`}
+  description="Plan Sunday's songs, share them with a link or QR code, and sing through them in order."
+  active="set"
+>
+  <h1 class="visually-hidden">{t('set.title')}</h1>
+  <noscript>
+    <p class="notice">
+      {t('search.noJs')} <a href="/books/">{t('books.title')}</a>
+    </p>
+  </noscript>
+  <SetEditor client:load />
+</AppShell>
