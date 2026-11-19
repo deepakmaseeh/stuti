@@ -1,0 +1,126 @@
+{
+  "slug": "krus-utha-ke-tujhe-chalna-hoga",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "121"
+    }
+  ],
+  "title": {
+    "native": "कोरसः-\tक्रूस उठा के तुझे चलना होगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आज प्रभु को दिल देना होगा -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "राह तू अपनी छोड़ के आजा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नव-जीवन उपहार में ले जा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज प्रभु के लिये क्रूस उठा जा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "दीप तेरा कभी बुझने न पाए,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज्योत मसीह से नेह लगाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज प्रभु की ज्योति पार लगाए।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दूर करेगा गम तेरे दिल का,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाप मिटाके नव-जीवन देगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज प्रभु के लिए आना होगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Krus Utha Ke Tujhe Chalna Hoga.doc",
+    "page": null
+  },
+  "chords": "कोरसः-\tक्रूस उठा के तुझे चलना होगा\nआज प्रभु को दिल देना होगा -2\n\n1.\tराह तू अपनी छोड़ के आजा,\nनव-जीवन उपहार में ले जा\nआज प्रभु के लिये क्रूस उठा जा।\n\n2.\tदीप तेरा कभी बुझने न पाए,\nज्योत मसीह से नेह लगाए\nआज प्रभु की ज्योति पार लगाए।\n\n3.\tदूर करेगा गम तेरे दिल का,\nपाप मिटाके नव-जीवन देगा\nआज प्रभु के लिए आना होगा।",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

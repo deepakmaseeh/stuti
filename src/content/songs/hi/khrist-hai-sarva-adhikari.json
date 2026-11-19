@@ -1,0 +1,103 @@
+{
+  "slug": "khrist-hai-sarva-adhikari",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "110"
+    }
+  ],
+  "title": {
+    "native": "ख्रीष्ट है सर्वाधिकारी ख्रीष्ट है अल्फा ओमेगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ख्रीष्ट है सर्वाधिकारी ख्रीष्ट है अल्फा ओमेगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आदि और अन्त भी ख्रीष्ट है - युगानुयुग भी ख्रीष्ट है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ख्रीष्ट है सर्वाधिकारी।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वास्ते हमें बचाने - प्राण क्रूस पर उसने दिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नम्र और दीन बनकर - पापी उसने बचाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तारण तुम्हारा करने – समय वह दे रहा है -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिन आज है अनुग्रह का अभी उसे अपना लो -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी महिमा के साथ – प्रभु फिर आ रहा है -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो उसकी बाट जोहे - उन्ही को वो ले जाए-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Khrist hai sarva adhikari.docx",
+    "page": null
+  },
+  "chords": "ख्रीष्ट है सर्वाधिकारी ख्रीष्ट है अल्फा ओमेगा\n\nE                                     A\nकोरस:- ख्रीष्ट है सर्वाधिकारी ख्रीष्ट है अल्फा ओमेगा,\n                            B                          E\nआदि और अन्त भी ख्रीष्ट है - युगानुयुग भी ख्रीष्ट है।\n  E\nख्रीष्ट है सर्वाधिकारी।\n\n E            C#m         A                 E\nवास्ते हमें बचाने - प्राण क्रूस पर उसने दिए (2)\n        A          B                         E\nनम्र और दीन बनकर - पापी उसने बचाया (2)\n\n E            C#m        A              E\nतारण तुम्हारा करने – समय वह दे रहा है -2\n        A           B                            E\nदिन आज है अनुग्रह का अभी उसे अपना लो -2\n\n E                   C#m      A              E\nअपनी महिमा के साथ – प्रभु फिर आ रहा है -2\n     A              B                           E\nजो उसकी बाट जोहे - उन्ही को वो ले जाए-2\n\n\n\n\n         (G/6)\n                                                                                                            The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

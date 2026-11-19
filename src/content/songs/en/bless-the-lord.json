@@ -1,0 +1,124 @@
+{
+  "slug": "bless-the-lord",
+  "numbers": [
+    {
+      "book": "TLBE",
+      "number": "2"
+    }
+  ],
+  "title": {
+    "native": "Bless the Lord, O my soul",
+    "roman": "",
+    "en": "Bless the Lord, O my soul"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "O my soul",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Worship His holy name",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing like never before",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "O my soul",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I'll worship Your holy name",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The sun comes up, it's a new day dawning",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "It's time to sing Your song again",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Whatever may pass, and whatever lies before Let me be singing when the evening comes",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bless the Lord……",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You're rich in love, and You're slow to anger Your name is great, and Your heart is kind For all Your goodness I will keep on singing Ten thousand reasons for my heart to find",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bless the Lord……",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And on that day when my strength is failing The end draws near and my time has come Still my soul will sing Your praise unending Ten thousand years and then forevermore",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bless the Lord……",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "imported",
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Bless the Lord.docx",
+    "page": null
+  },
+  "chords": "Bless the Lord, O my soul\nO my soul\nWorship His holy name\nSing like never before\nO my soul\nI'll worship Your holy name\n\nThe sun comes up, it's a new day dawning\nIt's time to sing Your song again\nWhatever may pass, and whatever lies before Let me be singing when the evening comes\nBless the Lord……\n\nYou're rich in love, and You're slow to anger Your name is great, and Your heart is kind For all Your goodness I will keep on singing Ten thousand reasons for my heart to find\nBless the Lord……\n\nAnd on that day when my strength is failing The end draws near and my time has come Still my soul will sing Your praise unending Ten thousand years and then forevermore\nBless the Lord……",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

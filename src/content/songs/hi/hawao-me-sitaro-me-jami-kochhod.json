@@ -1,0 +1,116 @@
+{
+  "slug": "hawao-me-sitaro-me-jami-kochhod",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "75"
+    }
+  ],
+  "title": {
+    "native": "हवाओं में, सितारों में, ज़मीं को छोड़",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः- हवाओं में, सितारों में, ज़मीं को छोड़",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम आसमान चलें यीशु के पीछे हम चलें, हम चलें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "न होगी वहाँ दिन और रातें, हरदम होंगे ख़ुदा के साथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भूलेंगे बीती हुयी बातें यीशु का ही होगा साथ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ज़िन्दा ख़ुदा भी वही है जीवन भी देता वही है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ जीवन जल को पीओ, जीवन की रोटी भी खाओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "उस पर जो विश्वास लायें पापों से छुटकारा पायें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धब्बे सारे मिट जायें दुनिया की बातें न आयें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Hawao me sitaro me jami kochhod.doc",
+    "page": null
+  },
+  "chords": "हवाओं में, सितारों में, ज़मीं को छोड़\n\nकोरसः- हवाओं में, सितारों में, ज़मीं को छोड़\n         हम आसमान चलें यीशु के पीछे हम चलें, हम चलें\n\n1. \tन होगी वहाँ दिन और रातें, हरदम होंगे ख़ुदा के साथ\n    भूलेंगे बीती हुयी बातें यीशु का ही होगा साथ\n\n2. \tज़िन्दा ख़ुदा भी वही है जीवन भी देता वही है\n     आओ जीवन जल को पीओ, जीवन की रोटी भी खाओ\n\n3. \tउस पर जो विश्वास लायें पापों से छुटकारा पायें\n     धब्बे सारे मिट जायें दुनिया की बातें न आयें\n\n\n\n\n\n\n                                                       (F/61)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

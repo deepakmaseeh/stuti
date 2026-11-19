@@ -1,0 +1,78 @@
+{
+  "slug": "iswar-ki-jay-jaykar-ho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "88"
+    }
+  ],
+  "title": {
+    "native": "ईश्वर की जय जयकार हो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "ईश्वर की जय जयकार हो ,जिसका सारा संसार है-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कौन चढेगा उसका पर्वत , जिसका ऊँचा स्थान ह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऊँचे हो ऐ फाटकों ,अब्दी दरवाजे ऊँचे हो-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आता है प्रतापी राजा ,कौन है वह प्रतापी राजा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:iswar ki jay jaykar ho.docx",
+    "page": null
+  },
+  "chords": "ईश्वर की जय जयकार हो\nC                    F                  G      C\nईश्वर की जय जयकार हो ,जिसका सारा संसार है-2\nC              F                G             C\nकौन चढेगा उसका पर्वत , जिसका ऊँचा स्थान ह\nC                  F              G       C\nऊँचे हो ऐ फाटकों ,अब्दी दरवाजे ऊँचे हो-2\nC         F           G           C\nआता है प्रतापी राजा ,कौन है वह प्रतापी राजा (2)\n\n\n\n\n\n\n\n\n\n(A/26)\n                                                                                                           The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "tera-ho-abhishek-aman-ke-rajkumar",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "184"
+    }
+  ],
+  "title": {
+    "native": "तेरा हो अभिषेक, अमन के राजकुमार",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-\tतेरा हो अभिषेक, अमन के राजकुमार।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज हमारे दिल में जनम ले,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हे प्रभु यीशु महान।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "घोर अंधेरा था, राहें उलझी थीं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह ज़मी कुछ थी, आसमां कुछ था,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने आकर फिर संभाला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा प्रेम अपार।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या चढ़ाएँ हम, भेंट में तुझको,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सोना, मुर्र, लोबान, पास न देने को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वर दे ऐसा तुझ पे कर दें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन अपना निसार।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Tera Ho Abhishek Aman Ke Rajkumar.doc",
+    "page": null
+  },
+  "chords": "तेरा हो अभिषेक, अमन के राजकुमार\n\n                       F                C                           F\n     कोरसः-\tतेरा हो अभिषेक, अमन के राजकुमार।\n                 Bb             C\n\t\t      आज हमारे दिल में जनम ले,\n                              F\n\t       \tहे प्रभु यीशु महान।\n\n         F              Bb                    F\nघोर अंधेरा था, राहें उलझी थीं,\n         F                    Bb                      F\n      यह ज़मी कुछ थी, आसमां कुछ था,\n      F               Bb\n      तूने आकर फिर संभाला (2)\n      C           F\n      तेरा प्रेम अपार।\n\n         F              Bb                   F\nक्या चढ़ाएँ हम, भेंट में तुझको,\n     F               Bb                           F\n      सोना, मुर्र, लोबान, पास न देने को,\n         F               Bb\n      वर दे ऐसा तुझ पे कर दें (2)\n         C                  F\n      जीवन अपना निसार।\n                                                                   (G/16)\n                                                                                                                           The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

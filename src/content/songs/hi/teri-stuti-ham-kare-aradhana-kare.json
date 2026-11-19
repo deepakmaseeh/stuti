@@ -1,0 +1,123 @@
+{
+  "slug": "teri-stuti-ham-kare-aradhana-kare",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "196"
+    }
+  ],
+  "title": {
+    "native": "तेरी स्तुति हम करें आराधना करें",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "तेरी स्तुति हम करें आराधना करें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सच्चाई से... सच्चाई से...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इस जहांन में तेरा राज्य हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ प्रभु... तू ही तू...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चाहे जहाँ... हम रहें… वहाँ तेरी स्तुति हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापियों को बचाता तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ यीशु… तू ही तू...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी स्तुति...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुशी और गम में, साथ है तेरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आरम्भ और अन्त में, नाम है तेरा...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "विश्वासियों का सहारा तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ प्रभु ... तू ही तू...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी स्तुति...",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:teri stuti ham kare aradhana kare.docx",
+    "page": null
+  },
+  "chords": "तेरी स्तुति हम करें आराधना करें\nD                       A\nकोरस:- तेरी स्तुति हम करें आराधना करें\n    G   A          D\nसच्चाई से... सच्चाई से...\nBm                             G      A\nइस जहांन में तेरा राज्य हो (2)\n    D               A\nऐ प्रभु... तू ही तू...\n\nD                    Bm       G   A          D\nचाहे जहाँ... हम रहें…  वहाँ तेरी स्तुति हो (2)\n   Bm                    A\nपापियों को बचाता तू (2)\n   D                A\nऐ यीशु… तू ही तू...\n                                    तेरी स्तुति...\n\nD                                Bm\nखुशी और गम में, साथ है तेरा\n  G          A                     D\nआरम्भ और अन्त में, नाम है तेरा...\n Bm                     G       A\nविश्वासियों का सहारा तू (2)\n  D                 A\nऐ प्रभु ... तू ही तू...\n                 तेरी स्तुति...\n                                                                    (C/9)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

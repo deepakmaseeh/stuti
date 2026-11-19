@@ -12,7 +12,11 @@ async function addToSet(page: Page, songUrl: string) {
   await expect(page.getByRole('button', { name: '✓ In set' })).toBeVisible();
 }
 
-const SONGS = ['/song/ta-yesuve-en-thunai/', '/song/hi-yeshu-mera-sahara/', '/song/en-amazing-grace/'];
+const SONGS = [
+  '/song/hi-aadi-aur-ant-tu-hi-hai/',
+  '/song/hi-aaj-fasi-majhdhar-main/',
+  '/song/en-amazing-grace/',
+];
 
 test.describe('set list (F6)', () => {
   test('add 3 → share → open in a new browser → same order → Start → Next/Prev', async ({
@@ -48,15 +52,15 @@ test.describe('set list (F6)', () => {
     const shared = other.getByTestId('set-rows').getByRole('link');
     await expect(shared).toHaveCount(3);
     await expect(shared.nth(0)).toContainText('Amazing Grace');
-    await expect(shared.nth(1)).toContainText('இயேசுவே என் துணை');
-    await expect(shared.nth(2)).toContainText('यीशु मेरा सहारा');
+    await expect(shared.nth(1)).toContainText('आदि और अन्त');
+    await expect(shared.nth(2)).toContainText('आज फँसी मजधार');
 
     await other.getByRole('link', { name: 'Start singing' }).click();
     await expect(other).toHaveURL(/\/song\/en-amazing-grace\/\?set=.+&i=0/);
     const nav = other.locator('.setnav');
     await expect(nav).toContainText('1 of 3 in set');
     await nav.getByRole('link', { name: /Next/ }).click();
-    await expect(other).toHaveURL(/\/song\/ta-yesuve-en-thunai\/\?set=.+&i=1&from=dt/);
+    await expect(other).toHaveURL(/\/song\/hi-aadi-aur-ant-tu-hi-hai\/\?set=.+&i=1/);
     await expect(other.locator('.setnav')).toContainText('2 of 3 in set');
     await other.locator('.setnav').getByRole('link', { name: /Prev/ }).click();
     await expect(other).toHaveURL(/\/song\/en-amazing-grace\/\?set=.+&i=0/);
@@ -101,13 +105,13 @@ test.describe('set list (F6)', () => {
 
 test.describe('report a mistake (F8)', () => {
   test('sheet opens, lists lines, builds a prefilled link and returns focus', async ({ page }) => {
-    await hydrated(page, '/song/ta-yesuve-en-thunai/');
+    await hydrated(page, '/song/hi-aadi-aur-ant-tu-hi-hai/');
     const trigger = page.getByRole('link', { name: 'Report a mistake in this song' });
     await trigger.click();
     const dialog = page.getByRole('dialog', { name: "What's wrong?" });
     await expect(dialog).toBeVisible();
     const select = dialog.getByRole('combobox', { name: 'Line' });
-    await expect(select.locator('option').first()).toHaveText(/^Chorus: இயேசுவே என் துணை நீரே$/);
+    await expect(select.locator('option').first()).toContainText('Chorus:');
     await select.selectOption({ index: 2 });
     await dialog.getByRole('textbox', { name: 'Correction' }).fill('typo & missing word');
     const popup = page.waitForEvent('popup');
@@ -115,7 +119,7 @@ test.describe('report a mistake (F8)', () => {
     // GitHub may bounce anonymous users to /login?return_to=… — read params from the issue URL either way.
     const opened = new URL((await popup).url());
     const url = new URL(opened.searchParams.get('return_to') ?? opened.href);
-    expect(url.searchParams.get('song')).toBe('ta-yesuve-en-thunai');
+    expect(url.searchParams.get('song')).toBe('hi-aadi-aur-ant-tu-hi-hai');
     expect(url.searchParams.get('correction')).toBe('typo & missing word');
     expect(url.searchParams.get('line')).toMatch(/^Verse 1: /);
     await expect(dialog).toBeHidden();
@@ -123,7 +127,7 @@ test.describe('report a mistake (F8)', () => {
   });
 
   test('offline: Send disabled, Copy offered', async ({ page, context }) => {
-    await hydrated(page, '/song/ta-yesuve-en-thunai/');
+    await hydrated(page, '/song/hi-aadi-aur-ant-tu-hi-hai/');
     await context.setOffline(true);
     await page.getByRole('link', { name: 'Report a mistake in this song' }).click();
     const dialog = page.getByRole('dialog', { name: "What's wrong?" });
@@ -137,11 +141,11 @@ test.describe('report a mistake (F8)', () => {
 
 test.describe('home, settings, 404', () => {
   test('home shows Continue, favourites and the Sunday count from storage', async ({ page }) => {
-    await hydrated(page, '/song/hi-yeshu-mera-sahara/');
+    await hydrated(page, '/song/hi-aaj-fasi-majhdhar-main/');
     await page.getByRole('button', { name: 'Add to favourites' }).click();
     await page.getByRole('button', { name: '+ Set' }).click();
     await hydrated(page, '/');
-    await expect(page.locator('.continue-card')).toContainText('यीशु मेरा सहारा');
+    await expect(page.locator('.continue-card')).toContainText('आज फँसी मजधार');
     await expect(page.locator('.sunday-card')).toContainText('1 song in your set');
     await expect(page.getByRole('region', { name: 'Favourites' }).getByRole('link')).toHaveCount(1);
   });

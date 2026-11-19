@@ -5,10 +5,10 @@ import { SongSchema, type Song } from '../../src/lib/schema';
 function makeSong(id: string, lang: 'ta' | 'hi', native: string, tags: string[]): Song {
   const data = SongSchema.parse({
     title: { native, roman: 'X', en: 'X' },
-    numbers: [{ book: 'DT', number: '1' }],
+    numbers: [{ book: 'TLBC', number: '1' }],
     sections: [{ type: 'verse', label: '1', lines: [{ n: native, r: 'x', e: 'x' }] }],
     tags,
-    rights: { status: 'demo' },
+    rights: { status: 'licensed' },
     updated: '2026-01-01',
     publish: true,
   });

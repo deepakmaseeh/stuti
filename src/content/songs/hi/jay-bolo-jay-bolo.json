@@ -1,0 +1,103 @@
+{
+  "slug": "jay-bolo-jay-bolo",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "94"
+    }
+  ],
+  "title": {
+    "native": "जय बोलो जय बोलो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जय बोलो जय बोलो, यीशु मसीहा की जय बोलो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अंधों को आंख दिया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लगड़ों को चला दिया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गूंगों को बोली दिया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बहरों को सुना दिया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोढ़ी को चंगा किया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मूर्दों को जिला दिया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम सबको बचा लिया यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों से छुड़ा लिया यीशु ने",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:jay bolo jay bolo.docx",
+    "page": null
+  },
+  "chords": "जय बोलो जय बोलो\n\n         E                          A      B           E\nकोरस:- जय बोलो जय बोलो, यीशु मसीहा की जय बोलो (2)\n\n\n         E                        A   E\nअंधों को आंख दिया यीशु ने (2)\nE                           A    E\nलगड़ों को चला दिया यीशु ने (2)\n\n E                        A   E\nगूंगों को बोली दिया यीशु ने (2)\nE                         A    E\nबहरों को सुना दिया यीशु ने (2)\n\nE                         A     E\nकोढ़ी को चंगा किया यीशु ने (2)\nE                         A    E\nमूर्दों को जिला दिया यीशु ने (2)\n\nE                           A    E\nहम सबको बचा लिया यीशु ने (2)\nE                        A    E\nपापों से छुड़ा लिया यीशु ने (2)\n                                                    (B/29)\n                                                                                           The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

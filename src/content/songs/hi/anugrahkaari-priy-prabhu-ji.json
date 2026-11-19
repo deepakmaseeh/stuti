@@ -1,0 +1,116 @@
+{
+  "slug": "anugrahkaari-priy-prabhu-ji",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "28"
+    }
+  ],
+  "title": {
+    "native": "अनुग्रहकारी प्रिय प्रभु जी तेरी शरण में हम आते हैं",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "अनुग्रहकारी प्रिय प्रभुजी तेरी शरण में हम आते हैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तन मन धन तुझको भेंट चढ़ाते करते हैं हम तुझे सादर प्रणाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हर दिन तू हमें आशिष देता, गिरने से हमको बचा के तू रखता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन के इस लम्बे सफर में तेरा वचन ही राह दिखाता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "संकट क्लेश तो आते रहेंगे, पर तेरा अनुग्रह काफी है हर पल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम तेरे कदमों में चलते रहेंगे जीत हमारी होगी आखिर जरुर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सेवा यीशु से हमको मिली है, मिट्टी के बर्तन लेकिन खजाना है स्वर्ग का",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "टूट जाये तौभी परवाह नहीं है महिमा हम तुझको देते रहेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Anugrahkaari priy prabhu ji.docx",
+    "page": null
+  },
+  "chords": "अनुग्रहकारी प्रिय प्रभु जी तेरी शरण में हम आते हैं\n\n                   G                    C            D                   G\nकोरस:- अनुग्रहकारी प्रिय प्रभुजी तेरी शरण में हम आते हैं\n         G                        C                     D                    G\n         तन मन धन तुझको भेंट चढ़ाते करते हैं हम तुझे सादर प्रणाम\n\n    G                      C               Am    D         G\n1. हर दिन तू हमें आशिष देता, गिरने से हमको बचा के तू रखता (2)\n    G                     C             D                G\n   जीवन के इस लम्बे सफर में तेरा वचन ही राह दिखाता (2)\n\n     G                     C               Am   D            G\n2. संकट क्लेश तो आते रहेंगे, पर तेरा अनुग्रह काफी है हर पल (2)\n     G                        C           D                     G\n    हम तेरे कदमों में चलते रहेंगे जीत हमारी होगी आखिर जरुर (2)\n\n     G                      C              Am          D                 G\n3. सेवा यीशु से हमको मिली है, मिट्टी के बर्तन लेकिन खजाना है स्वर्ग का (2)\n     G                        C                  D           G\n    टूट जाये तौभी परवाह नहीं है महिमा हम तुझको देते रहेंगे(2)\n\n                                                                 (A/5)\n                                                                                                                  The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

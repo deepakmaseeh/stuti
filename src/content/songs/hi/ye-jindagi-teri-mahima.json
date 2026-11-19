@@ -1,0 +1,103 @@
+{
+  "slug": "ye-jindagi-teri-mahima",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "216"
+    }
+  ],
+  "title": {
+    "native": "ये ज़िन्दगी तेरी महिमा, गाती रहे अब सदा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ये ज़िन्दगी तेरी महिमा, गाती रहे अब सदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब तक जीयूँ तेरी महिमा, करता रहूँ ऐ खुदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये ज़िन्दगी तेरी महिमा…..",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब से है छुआ तू ने मुझे, नई सांस जैसे फिर से आ गई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब से थामा हाथ तेरा, बन्धी राहे जैसे फिर से खुल गई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही प्रभु मेरे यीशु, तेरे सिवा ना होगा कोई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब भी पुकारा मैंने तुझे, मेरी हर दुआ को तूने है सुना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर एक कदम पर साथ रहा, पास तुझको महसूस किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब हो सन्ना तेरी खुदा, ये ज़िन्दगी को तुझको दिया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Ye jindagi Teri Mahima.doc",
+    "page": null
+  },
+  "chords": "ये ज़िन्दगी तेरी महिमा, गाती रहे अब सदा\n\nD                     Bm          G                 A\nकोरस:- ये ज़िन्दगी तेरी महिमा, गाती रहे अब सदा (2)\n                             D      Bm           G       A\nजब तक जीयूँ तेरी महिमा, करता रहूँ ऐ खुदा (2)\nD                     Bm\nये ज़िन्दगी तेरी महिमा…..\n\nD                            Bm           G           A               D\nजब से है छुआ तू ने मुझे, नई सांस जैसे फिर से आ गई\n       D                       Bm             G           A                D\nजब से थामा हाथ तेरा, बन्धी राहे जैसे फिर से खुल गई\n        D         Bm             G                  A\nतू ही प्रभु मेरे यीशु, तेरे सिवा ना होगा कोई (2)\n\nD                          Bm          G                 A         D\nजब भी पुकारा मैंने तुझे, मेरी हर दुआ को तूने है सुना\n       D                              Bm             G            A        D\nहर एक कदम पर साथ रहा, पास तुझको महसूस किया\n       D                Bm                G                     A\nअब हो सन्ना तेरी खुदा, ये ज़िन्दगी को तुझको दिया (2)\n\n\n                                                       (E/24)\n                                                                                              The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

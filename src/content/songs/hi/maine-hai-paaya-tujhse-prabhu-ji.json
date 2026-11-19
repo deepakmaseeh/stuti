@@ -1,0 +1,128 @@
+{
+  "slug": "maine-hai-paaya-tujhse-prabhu-ji",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "126"
+    }
+  ],
+  "title": {
+    "native": "मैंने है पाया तुझसे प्रभु जी",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-\tमैंने है पाया तुझसे प्रभु जी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब कुछ है उत्तम जो मुझे दिया।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन की यात्रा में आज तक चला मैं (2)p",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरे समय मेरा साथ है दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एबेनेजर बनकर तू ही तो प्रभुजी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा सहायक और रक्षक हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आँधी तूफानों के बीच से मैं आया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अन्धकार की शक्तियाँ प्रबल जो थी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पंखों में मुझको छिपा कर प्रभुजी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा सहायक और रक्षक हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुःख की घड़ी जब मुझ पर आई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पास रहकर वह अपना आनन्द दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भय और निराशा के समय में प्रभु जी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही मुझे बड़ा हियाव दिया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Maine Hai Paaya Tujhse Prabhu Ji.doc",
+    "page": null
+  },
+  "chords": "मैंने है पाया तुझसे प्रभु जी\n\n                   Dm             C              Bb\nकोरसः-\tमैंने है पाया तुझसे प्रभु जी\n                   Dm                      C            Dm\n\t      सब कुछ है उत्तम जो मुझे दिया।\n\n         Dm                         C                   Dm\nजीवन की यात्रा में आज तक चला मैं (2)p\n                     C            Dm\n      पूरे समय मेरा साथ है दिया (2)\n         C                     Bb             Dm\n      एबेनेजर बनकर तू ही तो प्रभुजी (2)\n                  C                  Bb     Dm\n      मेरा सहायक और रक्षक हुआ (2)\n\n           Dm                     C                Dm\nआँधी तूफानों के बीच से मैं आया (2)\n                                 C            Dm\n      अन्धकार की शक्तियाँ प्रबल जो थी (2)\n         C                               Bb     Dm\n      पंखों में मुझको छिपा कर प्रभुजी (2)\n                C                   Bb     Dm\n      मेरा सहायक और रक्षक हुआ (2)\n\n         Dm                         C          Dm\nदुःख की घड़ी जब मुझ पर आई (2)\n                                   C          Dm\n      पास रहकर वह अपना आनन्द दिया (2)\n          C                                Bb            Dm\n      भय और निराशा के समय में प्रभु जी (2)\n                    C               Bb     Dm\n      तू ही मुझे बड़ा हियाव दिया  (2)\n                                                                             (D/35)\n                                                                                The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

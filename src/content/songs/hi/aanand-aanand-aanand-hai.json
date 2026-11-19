@@ -1,0 +1,143 @@
+{
+  "slug": "aanand-aanand-aanand-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "7"
+    }
+  ],
+  "title": {
+    "native": "आनन्द आनन्द आनन्द है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आनन्द आनन्द आनन्द है, (2) अब्दी मुहब्बत से हमें प्रेम किया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपना बेटा हमें बना लिया, ये हमारा सौभाग्य है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "हल्लेलुय्याह सदा गायेंगें, (2) हम प्रभु यीशु के लिए।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आनन्द आनन्द आनन्द है, (2) आनन्द के तेल से मस्सा किया है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र स्थान में दाखिल हुए, ये हमारा सौभाग्य है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आनन्द आनन्द आनन्द है, (2) प्रभु की स्तुति करना आनन्द है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु की सेवा करेंगें सदा, ये हमारा सौभाग्य है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "आनन्द आनन्द आनन्द है, (2) प्रभु के आगमन की खुशी है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ले जाएगा हमें ललकार के साथ, ये हमारा सौभाग्य है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "आनन्द आनन्द आनन्द है, (2) सिय्योन जलाल में वास करेंगें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पिता के दाहिने बैठ जायेंगें, ये हमारा सौभाग्य है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aanand, Aanand, Aanand Hai.doc",
+    "page": null
+  },
+  "chords": "आनन्द आनन्द आनन्द है\n\n           Dm           C     Dm\t     Dm   B\t   C         Dm\n   आनन्द आनन्द आनन्द है, (2) अब्दी मुहब्बत से हमें प्रेम किया, (2)\n           Dm  C   Dm     C     Bb        C     Dm\n         अपना बेटा हमें बना लिया, ये हमारा सौभाग्य है। (2)\n    Dm\t     C    Dm      Dm\tC       Dm\nकोरस:-  हल्लेलुय्याह सदा गायेंगें, (2) हम प्रभु यीशु के लिए। (2)\n\nDm\t\t     C    Dm\t  Dm   B\t\t  C        Dm\n1.\tआनन्द आनन्द आनन्द है, (2) आनन्द के तेल से मस्सा किया है, (2)\nDm\t C       Dm    C   Bb        C      Dm\nपवित्र स्थान में दाखिल हुए, ये हमारा सौभाग्य है। (2)\n\nDm\t\t    C    Dm\t  Dm   B\t\t  C        Dm\n2.\tआनन्द आनन्द आनन्द है, (2) प्रभु की स्तुति करना आनन्द है, (2)\nDm    C      Dm C   b        C       Dm\nप्रभु की सेवा करेंगें सदा, ये हमारा सौभाग्य है। (2)\n\nDm\t\t    C     Dm\t Dm     B\t\t C      Dm\n3.\tआनन्द आनन्द आनन्द है, (2) प्रभु के आगमन की खुशी है, (2)\nDm\t  C         Dm     C\t   Bb       C       Dm\nले जाएगा हमें ललकार के साथ, ये हमारा सौभाग्य है। (2)\n\nDm\t\t    C    Dm\tDm       Bb      C     Dm\n4.\tआनन्द आनन्द आनन्द है, (2) सिय्योन जलाल में वास करेंगें, (2)\nDm\t   C    Dm     C  Bb\t\t C     Dm\nपिता के दाहिने बैठ जायेंगें, ये हमारा सौभाग्य है। (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -13,9 +13,9 @@ const rights = (status: 'public_domain' | 'licensed' | 'permission_pending' | 'd
 
 describe('song helpers', () => {
   it('derives id and language from the file path', () => {
-    expect(songIdFromPath('ta/yesuve-en-thunai.json')).toBe('ta-yesuve-en-thunai');
-    expect(songIdFromPath('ta\\yesuve-en-thunai.json')).toBe('ta-yesuve-en-thunai');
-    expect(langOf('ta-yesuve-en-thunai')).toBe('ta');
+    expect(songIdFromPath('hi/aadi-aur-ant-tu-hi-hai.json')).toBe('hi-aadi-aur-ant-tu-hi-hai');
+    expect(songIdFromPath('hi\\aadi-aur-ant-tu-hi-hai.json')).toBe('hi-aadi-aur-ant-tu-hi-hai');
+    expect(langOf('hi-aadi-aur-ant-tu-hi-hai')).toBe('hi');
     expect(langOf('en-amazing-grace')).toBe('en');
     expect(() => langOf('xx-song')).toThrow();
   });
@@ -30,19 +30,19 @@ describe('song helpers', () => {
   });
 
   it('builds URLs', () => {
-    expect(songUrl('ta-yesuve-en-thunai')).toBe('/song/ta-yesuve-en-thunai/');
+    expect(songUrl('hi-aadi-aur-ant-tu-hi-hai')).toBe('/song/hi-aadi-aur-ant-tu-hi-hai/');
     expect(numberUrl('DTe', '45')).toBe('/b/dte/45/');
     expect(numberUrl('KK', '117A')).toBe('/b/kk/117a/');
   });
 
   it('picks the primary number and first line', () => {
     const numbers = [
-      { book: 'DT', number: '117' },
+      { book: 'TLBC', number: '117' },
       { book: 'KK', number: '45' },
     ];
-    expect(primaryNumber({ numbers })).toEqual({ book: 'DT', number: '117' });
+    expect(primaryNumber({ numbers })).toEqual({ book: 'TLBC', number: '117' });
     expect(primaryNumber({ numbers }, 'kk')).toEqual({ book: 'KK', number: '45' });
-    expect(primaryNumber({ numbers }, 'ZZ')).toEqual({ book: 'DT', number: '117' });
+    expect(primaryNumber({ numbers }, 'ZZ')).toEqual({ book: 'TLBC', number: '117' });
     const sections = [{ type: 'verse' as const, label: 'V1', lines: [{ n: 'a', r: 'b', e: 'c' }] }];
     expect(firstLine({ sections })).toEqual({ n: 'a', r: 'b', e: 'c' });
   });

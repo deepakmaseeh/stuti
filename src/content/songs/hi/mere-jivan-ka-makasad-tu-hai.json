@@ -1,0 +1,109 @@
+{
+  "slug": "mere-jivan-ka-makasad-tu-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "139"
+    }
+  ],
+  "title": {
+    "native": "मेरे जीवन का मकसद तू है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मेरे जीवन का मकसद तू है, मेरे जीने का कारण तू है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "मैं जीऊँ या मरुँ, वो तेरे लिए है तू मेरा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे जीवन का मकसद तू है, मेरे जीने का कारण तू है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पिछला सब भूलकर, मैं आगे दौड़ा चलूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो मेरे लिए धन था, उसको मैं त्याग दूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कि मैं पाऊँ उससे पुरस्कार, दौड़ा मैं जाऊँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ पर हुई है कृपा, बेकार न जाने दूँ;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसने मुझे है चुना, उसकी ओर मैं बढ़ूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखूँ तेरी सलीब पर, खिंचा मैं जाऊँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:mere jivan ka makasad tu hai.docx",
+    "page": null
+  },
+  "chords": "मेरे जीवन का मकसद तू है\n\n     G                           C      D                      G\n    मेरे जीवन का मकसद तू है, मेरे जीने का कारण तू है। (2)\n     G              C   D                   D7\n कोरस:-  मैं जीऊँ या मरुँ, वो तेरे लिए है तू मेरा प्रभु\n      G                           C     D                      G\n         मेरे जीवन का मकसद तू है, मेरे जीने का कारण तू है। (2)\n\n G                   C        D           G\nपिछला सब भूलकर, मैं आगे दौड़ा चलूँ\nG                  C      D             G\nजो मेरे लिए धन था, उसको मैं त्याग दूँ।\n G      C                Am    D         G\n कि मैं पाऊँ उससे पुरस्कार, दौड़ा मैं जाऊँ (2)\n\n G                C       D            G\nमुझ पर हुई है कृपा, बेकार न जाने दूँ;\n G                C       D             G\n जिसने मुझे है चुना, उसकी ओर मैं बढ़ूँ।\nG    C           Am  D          G\nदेखूँ तेरी सलीब पर, खिंचा मैं जाऊँ (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

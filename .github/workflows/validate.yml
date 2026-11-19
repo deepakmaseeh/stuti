@@ -14,7 +14,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    env: { PUBLIC_INCLUDE_DEMO: 'true' } # whole job; remove at real launch (STUTI_FIXES_AND_LAUNCH.md §3.7)
+    # Real TLBC catalog — do not enable PUBLIC_INCLUDE_DEMO in production
     steps:
       - uses: actions/checkout@v4
       - name: Independence check (no references to the drafting tool)

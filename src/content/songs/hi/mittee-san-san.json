@@ -1,0 +1,83 @@
+{
+  "slug": "mittee-san-san",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "250"
+    }
+  ],
+  "title": {
+    "native": "मिट्टी सान-सान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मिट्टी सान-सान, मनुष्य बनाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गोरा बनाया, काला बनाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मोटा बनाया, पतला बनाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नाटा बनाया, लम्बा बनाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको बनाया, आपको बनाया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:यहोवा कैसा कुम्हार.docx",
+    "page": null
+  },
+  "chords": "कोरस:- यहोवा कैसा कुम्हार भाईया, यहोवा कैसा कुम्हार (2)\n\n\nमिट्टी सान-सान, मनुष्य बनाया (2)\n\nगोरा बनाया, काला बनाया (2)\n\nमोटा बनाया, पतला बनाया (2)\n\nनाटा बनाया, लम्बा बनाया (2)\n\nमुझको बनाया, आपको बनाया (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "prabhu-mahan-hai-karuna-nidhan",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "154"
+    }
+  ],
+  "title": {
+    "native": "प्रभु महान हे करूणा निधान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-\tप्रभु महान हे करूणा निधान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमारे लिए हुए बलिदान -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हमारे लिए हुए बलिदान कि हम सब पायें जीवनदान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और हो जाऐं उसके समान -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "वह सृजनहारा, तारनहारा है सारी सृष्टि का आधार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और करता हमसे बेहद प्यार -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "वह मुक्ति देता श्राप से, है देता मुक्ति पापों से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और भरता जीवन आशा से -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "हमें वह पास बुलाता है, निकट में अपने रखता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और हम को तृप्त करता है। -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Prabhu Mahan Hai Karuna Nidhan.doc",
+    "page": null
+  },
+  "chords": "प्रभु महान हे करूणा निधान\n\n       D\nकोरसः-\tप्रभु महान हे करूणा निधान\n                A                 D\n      हमारे लिए हुए बलिदान -2\n\n      D                                            A             D\n1.\tहमारे लिए हुए बलिदान कि हम सब पायें जीवनदान\n                    A               D\n      और हो जाऐं उसके समान -2\n\n        D                                        A             D\n2.\tवह सृजनहारा, तारनहारा है सारी सृष्टि का आधार\n                       A               D\n       और करता हमसे बेहद प्यार -2\n\n        D                                    A            D\n3.\tवह मुक्ति देता श्राप से, है देता मुक्ति पापों से\n                      A             D\n  \tऔर भरता जीवन आशा से -2\n\n        D                                       A             D\n4.\tहमें वह पास बुलाता है, निकट में अपने रखता है\n                       A          D\n     और हम को तृप्त करता है। -2\n                                                                  (D/11)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

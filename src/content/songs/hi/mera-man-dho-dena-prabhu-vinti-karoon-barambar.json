@@ -1,0 +1,118 @@
+{
+  "slug": "mera-man-dho-dena-prabhu-vinti-karoon-barambar",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "133"
+    }
+  ],
+  "title": {
+    "native": "मेरा मन धो देना प्रभु बिनती करूँ बारम्बार",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-   मेरा मन धो देना प्रभु बिनती करूँ बारम्बार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मन मेरा हो गया पापों से मैला,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं धोते-धोते हुआ लाचार प्रभु, मैं धोते-धोते हुआ लाचार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु बिनती करूँ बारम्बार।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैंने भूल करी बड़ी भारी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आया नहीं मैं तुम्हारे द्वार प्रभु, आया नहीं मैं तुम्हारे द्वार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु बिनती करूँ बारम्बार।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बाइबल भीतर मैंने पाया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम ही हो दिल के धोवनहार प्रभु, तुम ही हो दिल के धोवनहार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु बिनती करूँ बारम्बार।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दास कहे इस पापी मन को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कृपा कर तुम दीजो निस्तार प्रभु, कृपा कर तुम दीजो निस्तार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Mera Man Dho Dena Prabhu Vinti Karoon Barambar.doc",
+    "page": null
+  },
+  "chords": "मेरा मन धो देना प्रभु बिनती करूँ बारम्बार\n\n        F#m              D         E                  F#m\nकोरसः-   मेरा मन धो देना प्रभु बिनती करूँ बारम्बार (2)\n\n          F#m       D         E         F#m\nमन मेरा हो गया पापों से मैला, (2)\nE                        F#m            E                  D    F#m\n\t    मैं धोते-धोते हुआ लाचार प्रभु, मैं धोते-धोते हुआ लाचार\n           D                  F#m\n       प्रभु बिनती करूँ बारम्बार।\n\n          F#m  D     E        F#m\nमैंने भूल करी बड़ी भारी, (2)\n E                        F#m           E                 D    F#m\n       आया नहीं मैं तुम्हारे द्वार प्रभु, आया नहीं मैं तुम्हारे द्वार\n                 D                  F#m\n       प्रभु बिनती करूँ बारम्बार।\n\n       F#m     D      E   F#m\nबाइबल भीतर मैंने पाया, (2)\nE                        F#m           E                  D    F#m\nतुम ही हो दिल के धोवनहार प्रभु, तुम ही हो दिल के धोवनहार\n                D                  F#m\nप्रभु बिनती करूँ बारम्बार।\n\n        F#m      D         E         F#m\nदास कहे इस पापी मन को, (2)\n        E                        F#m           E                  D    F#m\n       कृपा कर तुम दीजो निस्तार प्रभु, कृपा कर तुम दीजो निस्तार\n                  D                  F#m                                                      (D/30)\n       प्रभु बिनती करूँ बारम्बार।                           The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

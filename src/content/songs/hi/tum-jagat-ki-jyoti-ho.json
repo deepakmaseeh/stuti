@@ -1,0 +1,114 @@
+{
+  "slug": "tum-jagat-ki-jyoti-ho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "204"
+    }
+  ],
+  "title": {
+    "native": "तुम जगत की ज्योति हो, तुम धरा के नमक भी हो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "तुम जगत की ज्योति हो, तुम धरा के नमक भी हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुमको पैदा इसलिये किया, तुमको जीवन इसलिये मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी मर्जी़ कर सको सदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो नगर जो बसे शिखर पर, छिपता ही नहीं, किसी की नज़र",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम्हारे भले काम चमके इस तरह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "पड़ोसी से प्रेम, तुमने सुना है, दुश्मनों से प्रेम मेरा कहना है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तब ही तुम संतान, परमेश्वर समान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आँख के बदले आँख, बुराई का सामना है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फेरो दूसरा गाल सह लो सब अन्याय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसा जीवन ही, पिता को भाता है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Tum jagat ki jyoti ho.docx",
+    "page": null
+  },
+  "chords": "तुम जगत की ज्योति हो, तुम धरा के नमक भी हो\n\n            D                        A              G   A          D\nकोरस:- तुम जगत की ज्योति हो, तुम धरा के नमक भी हो (2)\n\n           D       G                   D            G                  D\n  तुमको पैदा इसलिये किया, तुमको जीवन इसलिये मिला\n  D          A                D\n        उसकी मर्जी़ कर सको सदा\n\n            D       G                 D                    G                  D\n  वो नगर जो बसे शिखर पर, छिपता ही नहीं, किसी की नज़र\n    D              A                    D\n तुम्हारे भले काम चमके इस तरह\n\n            D           G                 D                G                  D\n    3.  पड़ोसी से प्रेम, तुमने सुना है, दुश्मनों से प्रेम मेरा कहना है\n    D              A                    D\n         तब ही तुम संतान, परमेश्वर समान\n\n              D                   G                        D\n आँख के बदले आँख, बुराई का सामना है,\n                    G                         D\n         फेरो दूसरा गाल सह लो सब अन्याय\n    D              A                    D\n         ऐसा जीवन ही, पिता को भाता है।\n\n                                                                          (C/10)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

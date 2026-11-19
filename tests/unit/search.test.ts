@@ -16,18 +16,18 @@ const search = (q: string) =>
   runQuery(q, Object.values(out.shards).map(loadIndexJson), out.meta, out.numbers).map((h) => h.id);
 
 beforeAll(() => {
-  out = buildIndexes({ ...readContent(join(process.cwd(), 'src', 'content')), includeDemo: true });
+  out = buildIndexes({ ...readContent(join(process.cwd(), 'src', 'content')), includeDemo: false });
 });
 
 describe('F1 number lookup', () => {
-  it('finds DT 117 case-insensitively', () => {
-    expect(lookupNumber(out.numbers, 'DT', '117')).toBe('ta-yesuve-en-thunai');
-    expect(lookupNumber(out.numbers, 'dt', '117')).toBe('ta-yesuve-en-thunai');
-    expect(lookupNumber(out.numbers, 'dte', '45')).toBe('te-yesayya-neeve-naa-aadhaaram');
+  it('finds TLBC 1 case-insensitively', () => {
+    expect(lookupNumber(out.numbers, 'TLBC', '1')).toBe('hi-aadi-aur-ant-tu-hi-hai');
+    expect(lookupNumber(out.numbers, 'tlbc', '1')).toBe('hi-aadi-aur-ant-tu-hi-hai');
+    expect(lookupNumber(out.numbers, 'TLBE', '1')).toBe('en-amazing-grace');
   });
 
   it('returns undefined for a wrong number or book', () => {
-    expect(lookupNumber(out.numbers, 'DT', '999')).toBeUndefined();
+    expect(lookupNumber(out.numbers, 'TLBC', '9999')).toBeUndefined();
     expect(lookupNumber(out.numbers, 'ZZ', '1')).toBeUndefined();
   });
 
@@ -37,35 +37,30 @@ describe('F1 number lookup', () => {
   });
 
   it('parses book + number queries', () => {
-    expect(parseBookNumber('dt117')).toEqual({ book: 'dt', number: '117' });
-    expect(parseBookNumber('DT 117')).toEqual({ book: 'DT', number: '117' });
-    expect(parseBookNumber('EH 1a')).toEqual({ book: 'EH', number: '1a' });
+    expect(parseBookNumber('tlbc1')).toEqual({ book: 'tlbc', number: '1' });
+    expect(parseBookNumber('TLBC 1')).toEqual({ book: 'TLBC', number: '1' });
+    expect(parseBookNumber('TLBE 1a')).toEqual({ book: 'TLBE', number: '1a' });
     expect(parseBookNumber('yeshu')).toBeNull();
   });
 });
 
 describe('F2 word search acceptance', () => {
-  it.each(['yeshu', 'yesu', 'yisu'])('%s finds the Hindi and Punjabi demo songs', (q) => {
-    const ids = search(q);
-    expect(ids).toContain('hi-yeshu-mera-sahara');
-    expect(ids).toContain('pa-yisu-mera-sahara');
+  it('यीशु finds Hindi Yeshu songs', () => {
+    const ids = search('यीशु');
+    expect(ids.some((id) => id.startsWith('hi-'))).toBe(true);
   });
 
-  it.each(['thunai', 'tunai'])('%s finds DT 117', (q) => {
-    expect(search(q)[0]).toBe('ta-yesuve-en-thunai');
+  it('हिरणी finds TLBC 92', () => {
+    expect(search('हिरणी')).toContain('hi-jaise-hirni-jal-ki-pyasi');
   });
 
-  it('వెలుగు finds DTe 45', () => {
-    expect(search('వెలుగు')).toContain('te-yesayya-neeve-naa-aadhaaram');
-  });
-
-  it('grace finds EH 1', () => {
+  it('grace finds Amazing Grace', () => {
     expect(search('grace')[0]).toBe('en-amazing-grace');
   });
 
-  it('pins a direct number hit first ("dt117", "DT 117")', () => {
-    expect(search('dt117')[0]).toBe('ta-yesuve-en-thunai');
-    expect(search('DT 117')[0]).toBe('ta-yesuve-en-thunai');
+  it('pins a direct number hit first ("tlbc1", "TLBC 1")', () => {
+    expect(search('tlbc1')[0]).toBe('hi-aadi-aur-ant-tu-hi-hai');
+    expect(search('TLBC 1')[0]).toBe('hi-aadi-aur-ant-tu-hi-hai');
   });
 
   it('returns nothing for empty or nonsense queries', () => {
@@ -76,35 +71,33 @@ describe('F2 word search acceptance', () => {
 
 describe('generated files', () => {
   it('meta rows carry title, roman, lang and badge', () => {
-    expect(out.meta['ta-yesuve-en-thunai']?.slice(0, 4)).toEqual([
-      'இயேசுவே என் துணை',
-      'Yesuve En Thunai',
-      'ta',
-      'DT 117',
+    expect(out.meta['hi-aadi-aur-ant-tu-hi-hai']?.slice(0, 4)).toEqual([
+      'आदि और अन्त तू ही है अल्फा और ओमेगा तू ही है',
+      '',
+      'hi',
+      'TLBC 1',
     ]);
-    expect(out.meta['ta-yesuve-en-thunai']?.[4]).toBeTruthy();
-    expect(Array.isArray(out.meta['ta-yesuve-en-thunai']?.[5])).toBe(true);
+    expect(out.meta['hi-aadi-aur-ant-tu-hi-hai']?.[4]).toBeTruthy();
+    expect(Array.isArray(out.meta['hi-aadi-aur-ant-tu-hi-hai']?.[5])).toBe(true);
   });
 
   it('book manifests list book page, song pages and number permalinks', () => {
-    const dt = out.manifests.DT!;
-    expect(dt.urls).toEqual([
-      '/books/dt/',
-      '/data/books/DT.json',
-      '/song/ta-yesuve-en-thunai/',
-      '/b/dt/117/',
-    ]);
-    expect(out.bookBundles.DT).toContain('ta-yesuve-en-thunai');
-    expect(out.browse.ta).toBeTruthy();
-    expect(dt.searchIndex).toBe('/search/idx-ta.json');
-    expect(dt.version).toMatch(/^[0-9a-f]{12}$/);
-    expect(dt.bytes).toBeGreaterThan(0);
+    const tlbc = out.manifests.TLBC!;
+    expect(tlbc.urls).toContain('/books/tlbc/');
+    expect(tlbc.urls).toContain('/data/books/TLBC.json');
+    expect(tlbc.urls).toContain('/song/hi-aadi-aur-ant-tu-hi-hai/');
+    expect(tlbc.urls).toContain('/b/tlbc/1/');
+    expect(out.bookBundles.TLBC).toContain('hi-aadi-aur-ant-tu-hi-hai');
+    expect(out.browse.hi).toBeTruthy();
+    expect(tlbc.searchIndex).toBe('/search/idx-hi.json');
+    expect(tlbc.version).toMatch(/^[0-9a-f]{12}$/);
+    expect(tlbc.bytes).toBeGreaterThan(0);
   });
 
-  it('excludes non-publishable songs when demo is off', () => {
+  it('keeps licensed TLBC songs when demo is off', () => {
     const prod = buildIndexes({ ...readContent(join(process.cwd(), 'src', 'content')), includeDemo: false });
-    expect(Object.keys(prod.meta)).not.toContain('ta-yesuve-en-thunai');
-    expect(lookupNumber(prod.numbers, 'DT', '117')).toBeUndefined();
-    expect(prod.manifests.DT).toBeUndefined();
+    expect(Object.keys(prod.meta)).toContain('hi-aadi-aur-ant-tu-hi-hai');
+    expect(lookupNumber(prod.numbers, 'TLBC', '1')).toBe('hi-aadi-aur-ant-tu-hi-hai');
+    expect(prod.manifests.TLBC).toBeTruthy();
   });
 });

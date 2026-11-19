@@ -1,0 +1,115 @@
+{
+  "slug": "prathana-me-jo-khuchh-manga",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "159"
+    }
+  ],
+  "title": {
+    "native": "प्रार्थना में जो कुछ माँगा, पूरा किया अरमान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "प्रार्थना में जो कुछ माँगा, पूरा किया अरमान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारी खताएं मान करूँ मैं, तेरा करूँ अब ध्यान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रार्थना में जो कुछ माँगा, पूरा किया अरमान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल में धीमी आवाज़ आई, अपने गुनाहों को मान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान लिया मैंने आवाज़ उसकी, जिसका किया अपमान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ईमान लाये तुझ पे मसीहा, आये तुम्हारे पास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "माफ करो अब पाप हमारे, कर दो लहू से साफ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जाना सभी को आखिर वहीं है, होगा जहाँ इन्साफ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धो दो दिलों को आज हमारे, कर दो लहू से साफ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:prathana me jo khuchh manga.docx",
+    "page": null
+  },
+  "chords": "प्रार्थना में जो कुछ माँगा, पूरा किया अरमान\n\n                 Bm                            A             Bm\n     कोरस:- प्रार्थना में जो कुछ माँगा, पूरा किया अरमान, (2)\n                 Bm                       A   G                Bm\n              सारी खताएं मान करूँ मैं, तेरा करूँ अब ध्यान\n              Bm                            A             Bm\n              प्रार्थना में जो कुछ माँगा, पूरा किया अरमान, (2)\n\n              Bm                                                 F#m\nदिल में धीमी आवाज़ आई, अपने गुनाहों को मान,\nG                  Em                A                    Bm\nजान लिया मैंने आवाज़ उसकी, जिसका किया अपमान\n\n               Bm                                           F#m\n2. ईमान लाये तुझ पे मसीहा, आये तुम्हारे पास\n      G                  Em          A                Bm\n    माफ करो अब पाप हमारे, कर दो लहू से साफ\n\n    Bm                                                  F#m\n3. जाना सभी को आखिर वहीं है, होगा जहाँ इन्साफ\n     G                   Em            A                Bm\n    धो दो दिलों को आज हमारे, कर दो लहू से साफ\n\n                                                              (D/42)\n                                                                      The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

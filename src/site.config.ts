@@ -2,8 +2,8 @@ export const site = {
   name: 'Stuti Christian Song',
   tagline: 'Digital hymnal for Indian churches',
   url: 'https://stuti.deepakmaseeh121.workers.dev',
-  languages: ['hi', 'ta', 'te', 'pa', 'en'] as const,
-  defaultBookId: 'DT',
+  languages: ['hi', 'en'] as const,
+  defaultBookId: 'TLBC',
   includeDemo: import.meta.env.PUBLIC_INCLUDE_DEMO === 'true',
   report: {
     // Google Form prefill. Get entry IDs via Form → ⋮ → "Get pre-filled link".

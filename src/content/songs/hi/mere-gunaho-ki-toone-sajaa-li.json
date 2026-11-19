@@ -1,0 +1,98 @@
+{
+  "slug": "mere-gunaho-ki-toone-sajaa-li",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "137"
+    }
+  ],
+  "title": {
+    "native": "मेरे गुनाहों की तूने सज़ा ली चाबुक की मार से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "कुछ ना किया मैंने कुछ न दिया बदले में प्यार के",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये क्या किया तूने क्यों ये किया, जान देके तूने ये जीवन दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दर्द था मेरा जो तूने सहा, चढ़ के सलीब पे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कर्ज़ा किया तूने मेरा अदा कांटो और कीलों से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिर भी न कम हुआ प्रेम तेरा, जान देके तूने ये जीवन दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मरते हुए माफ़ करके गया ज़ुल्म ओ सितम मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिए तूने खायी सदा दुनियाँ की ठोकरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये क्या किया तूने क्यों ये किया जान देके तूने ये जीवन दिया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:mere gunaho ki toone sajaa li.doc",
+    "page": null
+  },
+  "chords": "मेरे गुनाहों की तूने सज़ा ली चाबुक की मार से\n\nE            A   F#m    B      F#m E\n  मेरे गुनाहों की तूने सज़ा ली चाबुक की मार से\nE        A       F#m        B    F#m E\nकुछ ना किया मैंने कुछ न दिया बदले में प्यार के\nA     B         A       E     A   E         B      E\nये क्या किया तूने क्यों ये किया,  जान देके तूने ये जीवन दिया (2)\n\nE             A  F#m   B    F#m  E\n  दर्द था मेरा जो तूने सहा,  चढ़ के सलीब पे\nE                A  F#m  B     F#m  E\nकर्ज़ा किया  तूने मेरा अदा कांटो और कीलों से\nA          E        A   E   A        E    B       E\nफिर भी न कम हुआ प्रेम तेरा, जान देके तूने ये जीवन दिया (2)\n\nE           A    F#m    B      F#m  E\n  मरते हुए माफ़ करके गया  ज़ुल्म ओ सितम मेरे\nE              A   F#m B   F#m E\nमेरे लिए तूने खायी सदा दुनियाँ की ठोकरे\nA         E       A      E   A        E     B      E\nये क्या किया तूने क्यों ये किया  जान देके तूने ये जीवन दिया (2)\n\n\n\n                                                                     (D/27)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

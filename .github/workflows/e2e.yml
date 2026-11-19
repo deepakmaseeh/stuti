@@ -15,7 +15,6 @@ jobs:
   e2e:
     runs-on: ubuntu-latest
     env:
-      PUBLIC_INCLUDE_DEMO: 'true' # whole job; remove at real launch (STUTI_FIXES_AND_LAUNCH.md §3.7)
       WRANGLER_SEND_METRICS: 'false'
     steps:
       - uses: actions/checkout@v4

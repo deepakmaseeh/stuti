@@ -1,0 +1,123 @@
+{
+  "slug": "shor-duniya-me-ye-ho-gya",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "176"
+    }
+  ],
+  "title": {
+    "native": "शोर दुनिया में ये हो गया",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-   शोर दुनिया में ये हो गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज पैदा मसीह हो गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुनियाँ वालों उठों नींद से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जागने का समय आ गया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गड़रिये रात में भेड़ों को चराते थे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दूत संदेश ये दे गया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज पैदा मसीह हो गया।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग झूम-झूम करके ये गाता था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारी दुनियाँ का नूर आ गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज पैदा मसीह हो गया।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मंजूसी सोना मुर्र लोबान ले के आए थे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्तिदाता यीशु आ गया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज पैदा मसीह हो गया।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Shor duniya me ye ho gya.doc",
+    "page": null
+  },
+  "chords": "शोर दुनिया में ये हो गया\n\n             Em               C-Em\n   कोरसः-   शोर दुनिया में ये हो गया (2)\n                    C      D      Em\n              आज पैदा मसीह हो गया (2)\n                 Em                 C-Em\n              दुनियाँ वालों उठों नींद से (2)\n C       D          Em\n              जागने का समय आ गया है (2)\n\n              Em   C                 Em\nगड़रिये रात में भेड़ों को चराते थे (4)\n   C    D    Em\n             दूत संदेश ये दे गया, (2)\n                       C      D      Em\n             आज पैदा मसीह हो गया।(2)\n\n                Em  C                  Em\nस्वर्ग झूम-झूम करके ये गाता था (4)\n     C          D      Em\n             सारी दुनियाँ का नूर आ गया(2)\n\t             C      D      Em\n             आज पैदा मसीह हो गया।(2)\n                Em  C                  Em\n मंजूसी सोना मुर्र लोबान ले के आए थे (4)\n    C    D       Em\n             मुक्तिदाता यीशु आ गया, (2)\n                       C      D      Em\n             आज पैदा मसीह हो गया।(2)\n\n\n                                                                    (G/14)\n                                                                    The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

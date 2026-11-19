@@ -1,0 +1,93 @@
+{
+  "slug": "tere-pas-aata-hoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "192"
+    }
+  ],
+  "title": {
+    "native": "तेरे पास आता हूँ यीशु तेरे पास",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरे पास आता हूँ यीशु तेरे पास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर पल मेरी हर साँस तेरी महिमा गाती रहे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर दिन मेरी हर बात तेरी स्तुति करती रहे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु आ… यीशु आ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु आ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु आ… यीशु आ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु आ… यीशु आ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Tere Pas Aata Hoon.doc",
+    "page": null
+  },
+  "chords": "तेरे पास आता हूँ यीशु तेरे पास\nD                        A   G           D\nतेरे पास आता हूँ यीशु तेरे पास (2)\nD                     C            G                 D\nहर पल मेरी हर साँस तेरी महिमा गाती रहे\nD                      C             G             D\nहर दिन मेरी हर बात तेरी स्तुति करती रहे\n\nD      A           D     A\nयीशु आ…   यीशु आ…\n\n G\nयीशु आ…\n\nD       A            D     A\nयीशु आ…     यीशु आ…\n\nG   A  D             D     A\nयीशु आ…      यीशु आ…\n\n\n\n\n\n\n                                                                        (C/18)\n                                                                                                                      The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

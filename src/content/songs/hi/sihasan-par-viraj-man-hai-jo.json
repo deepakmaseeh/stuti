@@ -1,0 +1,98 @@
+{
+  "slug": "sihasan-par-viraj-man-hai-jo",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "177"
+    }
+  ],
+  "title": {
+    "native": "सिंहासन पर विराजमान है जो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "उस परमेश्वर की, प्रजा हैं हम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ उसकी स्तुति करें एक साथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छोड़ेगा न कभी, हमारा हाथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके, लहू से धुलकर के हुए हम पवित्र जाति",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो ही, आदर के योग्य परमेश्वर हमारा है स्वामी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सनातन से जो, सनातन तक है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ उसकी स्तुति करें एक साथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छोड़ेगा न कभी हमारा हाथ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Sihasan par Viraj man hai jo - Chord.docx",
+    "page": null
+  },
+  "chords": "सिंहासन पर विराजमान है जो\n\nG             D                          G\nसिंहासन पर विराजमान है जो\nG                    D                 G\nउस परमेश्वर की, प्रजा हैं हम\nG                                    C\nआओ उसकी स्तुति करें एक साथ\nD                            G\nछोड़ेगा न कभी, हमारा हाथ\nG                                                      C\nउसके, लहू से धुलकर के हुए हम पवित्र जाति\nC                                                               G\nवो ही, आदर के योग्य परमेश्वर हमारा है स्वामी\nG                 D                       G\nसनातन से जो, सनातन तक है (2)\nG                                     C\nआओ उसकी स्तुति करें एक साथ\nD                 G\nछोड़ेगा न कभी हमारा हाथ\n\n\n\n\n                                                       (E/44)\n                                                                                                The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

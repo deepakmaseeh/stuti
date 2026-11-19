@@ -1,0 +1,123 @@
+{
+  "slug": "aao-jag-ke-log-sabahi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "11"
+    }
+  ],
+  "title": {
+    "native": "आओ जग के लोग सब ही",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आओ जग के लोग सब ही, यीशु राजा बुलाता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जग में जिसका स्थान नहीं है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जग में जिसका मान नहीं है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राज्य तुम्हें देने के लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु राजा बुलाता है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सिर पर काँटो का ताज निशानी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छाप है उसकी बहती पसली",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छेदे हाथ पसारे हुए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु राजा बुलाता है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ भाईयों आओ बहनों",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आकर उसको परखो देखो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारा भार उठाने के लिये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु राजा बुलाता है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:aao jag ke log sabahi.docx",
+    "page": null
+  },
+  "chords": "आओ जग के लोग सब ही\nकोरस:- आओ जग के लोग सब ही, यीशु राजा बुलाता है (2)\nजग में जिसका स्थान नहीं है (2)\nजग में जिसका मान नहीं है (2)\nराज्य तुम्हें देने के लिए (2)\nयीशु राजा बुलाता है।\n\nसिर पर काँटो का ताज निशानी (2)\nछाप है उसकी बहती पसली (2)\nछेदे हाथ पसारे हुए (2)\nयीशु राजा बुलाता है।\n\nआओ भाईयों आओ बहनों (2)\nआकर उसको परखो देखो (2)\nसारा भार उठाने के लिये (2)\nयीशु राजा बुलाता है।\n\n\n\n\n\n\n\n\n\n                                                            (A/17)\n                                                                                      The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

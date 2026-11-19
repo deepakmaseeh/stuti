@@ -1,0 +1,126 @@
+{
+  "slug": "aaj-ka-din-yahowa-ne",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "5"
+    }
+  ],
+  "title": {
+    "native": "आज का दिन यहोवा ने बनाया है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आज का दिन यहोवा ने बनाया है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम उस में आनन्दित हो, आनन्दित हों।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "C F C 1. आता हूँ तेरे पास, मुझको है तुझसे आस",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको कबूल कर ले, पापों से शुद्ध कर दे।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "प्रभु को महिमा मिले, चाहे हो मेरा अपमान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह बढ़े मैं घटूँ, रहे इसी का ध्यान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जीवन से ज्योति जले, जीवन यह ऐसा बने,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज्योति में चल हम सकें, दुआ है तुझसे यही।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "स्तुति प्रसंशा करें, क्यों न कुछ होता रहे,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस को हम भाते रहें, चाहे जहां भी रहें।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aaj ka din yahowa ne.docx",
+    "page": null
+  },
+  "chords": "आज का दिन यहोवा ने बनाया है\n\n     C                    F         G\n  कोरस:- आज का दिन यहोवा ने बनाया है,\n               F            G             C\n     हम उस में आनन्दित हो, आनन्दित हों।\n\n    C              F                       C                                             1. आता हूँ तेरे पास, मुझको है तुझसे आस\n     C                  F               C G C\n    मुझको कबूल कर ले, पापों से शुद्ध कर दे।\n\n    C                F                       C\n2. प्रभु को महिमा मिले, चाहे हो मेरा अपमान,\n    C          F               C G C\n    वह बढ़े मैं घटूँ, रहे इसी का ध्यान।\n\n    C                F                       C\n3. जीवन से ज्योति जले, जीवन यह ऐसा बने,\n    C                   F               C G C\n    ज्योति में चल हम सकें, दुआ है तुझसे यही।\n\n    C            F                       C\n4. स्तुति प्रसंशा करें, क्यों न कुछ होता रहे,\n    C                 F             C G C\n    उस को हम भाते रहें, चाहे जहां भी रहें।\n\n                                             (A/11)\n                                                                                                  The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

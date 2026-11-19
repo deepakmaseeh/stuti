@@ -1,0 +1,131 @@
+{
+  "slug": "man-to-prabhu-ka-mandir-hain",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "129"
+    }
+  ],
+  "title": {
+    "native": "मन तो प्रभु का मन्दिर है, तन अपना दान करो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "मन तो प्रभु का मन्दिर है, तन अपना दान करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने प्रभु की सेवा में, सब अपना दान करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "है याद तुम्हें जन्में थे तुम पाप के सागर में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और पाने तुम्हें आया, वह पाप के सागर में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस प्यारे प्रभु के नाम के लिये कुछ अपना दान करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "कल तुम जो भटकते थे, अनजान सी राहों में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने बचा लिया, अपने प्यार की बाहों में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो भी मिला है प्रभु में तुम्हें, औरों को दान करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "अन्धकार से जीवन में, वह रोशनी ले आया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस रोशनी में हमने, एक मार्ग नया पाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन तुम्हारा है उसके लिए, जीवन बलिदान करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Man to prabhu ka mandir hain Chords.docx",
+    "page": null
+  },
+  "chords": "मन तो प्रभु का मन्दिर है, तन अपना दान करो\n\n     D                     G   D          A             D\nकोरस:-  मन तो प्रभु का मन्दिर है, तन अपना दान करो\n     D                G    D          A              D\n   अपने प्रभु की सेवा में, सब अपना दान करो।\n\n     D                  G              A          D\n1. है याद तुम्हें जन्में थे तुम पाप के सागर में (2)\n           Bm            G              A         D\n और पाने तुम्हें आया, वह पाप के सागर में (2)\n   D                   G     D            A             D\n उस प्यारे प्रभु के नाम के लिये कुछ अपना दान करो।\n\n\n      D                       G         A             D\n2. कल तुम जो भटकते थे, अनजान सी राहों में (2)\n           Bm          G              A              D\n    यीशु ने बचा लिया, अपने प्यार की बाहों में (2)\n  D                   G        D    A                 D\n जो भी मिला है प्रभु में तुम्हें, औरों को दान करो।\n\n\n       D                    G          A            D\n3. अन्धकार से जीवन में, वह रोशनी ले आया (2)\n          Bm            G           A          D\n   उस रोशनी में हमने, एक मार्ग नया पाया (2)\n\n      D                     G    D          A               D\n   जीवन तुम्हारा है उसके लिए, जीवन बलिदान करो।\n\n\n                                                   (D/22)\n                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

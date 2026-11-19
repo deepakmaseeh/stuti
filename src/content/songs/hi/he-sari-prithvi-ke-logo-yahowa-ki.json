@@ -1,0 +1,113 @@
+{
+  "slug": "he-sari-prithvi-ke-logo-yahowa-ki",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "77"
+    }
+  ],
+  "title": {
+    "native": "हे सारी पृथ्वी के लोगों, यहोवा की स्तुति तुम करो,",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आनन्द करते सम्मुख आओ, जय जयकार सदा करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी स्तुति तुम करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "काम सामर्थी उसने किए है, पापी बचाने हुआ बलिदान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शत्रु के राज्य को तोड़ दिया है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसको तुम सब याद करो, उसकी, उसकी की स्तुति तुम करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम जो प्रभु की निज प्रजा हो, लहू से उसने खरीदा तुम्हें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आत्मा बचाया मण्डली बनाया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी योजना याद करो, उसकी, उसकी, उसकी की स्तुति तुम करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु बुलाता अपनी सेवा में, आज आवाज़ तुम उसकी सुनो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अर्पण कर दो अपने को तुम,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दण्डवत् उसको सब करो, उसकी, उसकी, उसकी की स्तुति तुम करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:He sari prithvi ke logo, yahowa ki.docx",
+    "page": null
+  },
+  "chords": "हे सारी पृथ्वी के लोगों, यहोवा की स्तुति तुम करो,\n\nDm    Bb       Dm                Bb  Dm\nहे सारी पृथ्वी के लोगों, यहोवा की स्तुति तुम करो,\nDm           C       Bb     C             Dm\nआनन्द करते सम्मुख आओ, जय जयकार सदा करो।\nBb     C    Dm\nउसकी स्तुति तुम करो।\n\n        Dm          C     Bb      C             Dm\nकाम सामर्थी उसने किए है, पापी बचाने हुआ बलिदान, (2)\nDm    C        G     Dm\n       शत्रु के राज्य को तोड़ दिया है, (2)\n       Dm   C        Bb  Dm  Bb                   C   Dm\n       उसको तुम सब याद करो, उसकी, उसकी की स्तुति तुम करो।\n\n        Dm             C       Bb    C             Dm\nतुम जो प्रभु की निज प्रजा हो, लहू से उसने खरीदा तुम्हें, (2)\nDm    C        G       Dm\n       आत्मा बचाया मण्डली बनाया, (2)\n        Dm   C       Bb  Dm   Bb                          C     Dm\n       उसकी योजना याद करो, उसकी, उसकी, उसकी की स्तुति तुम करो।\n\n\n        Dm         C      Bb      C                   Dm\nप्रभु बुलाता अपनी सेवा में, आज आवाज़ तुम उसकी सुनो, (2)\nDm  C       G     Dm\n       अर्पण कर दो अपने को तुम, (2)\n        Dm    C       Bb Dm  Bb                            C    Dm\n       दण्डवत् उसको सब करो, उसकी, उसकी, उसकी की स्तुति तुम करो।\n\n                                                                                           (F/55)\n                                                                                              The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "sada-mai-stuti-karunga",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "172"
+    }
+  ],
+  "title": {
+    "native": "सदा मैं स्तुति करुंगा, सदा मैं सेवा करुंगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "सदा मैं स्तुति करुंगा, सदा मैं सेवा करुंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे बचाया यीशु ने, सदा मैं स्तुति करंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे बचाने आया जब मैं गुनाहों में था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग को छोड़कर जगत में आया, मुझे बचाने को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब मैं निराशा में था, तूने मुझे आशा दी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जगत में आया, जीवन को दिया, पवित्र प्रेमी यीशु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रेमी प्रभु यीशु बचाया तू ने मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देता हूं मैं सारा जीवन, सम्पूर्ण आनन्द से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अनादि परमेश्वर, सत्य और जीवन है तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति प्रशंसा करता रहूंगा, तेरे आने समय तक",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:sada mai stuti karunga.docx",
+    "page": null
+  },
+  "chords": "सदा मैं स्तुति करुंगा, सदा मैं सेवा करुंगा\n\n         Bm                D     Bm                  A\nकोरस:- सदा मैं स्तुति करुंगा, सदा मैं सेवा करुंगा\n                              Bm       A                   Bm\n           मुझे बचाया यीशु ने, सदा मैं स्तुति करंगा\n\n        Bm               A  G                     D\nमुझे बचाने आया जब मैं गुनाहों में था (2)\nA                      D                   A            Bm\n       स्वर्ग को छोड़कर जगत में आया, मुझे बचाने को (2)\n\n       Bm                    A   G                  D\nजब मैं निराशा में था, तूने मुझे आशा दी (2)\nA                    D                    A              Bm\n       जगत में आया, जीवन को दिया, पवित्र प्रेमी यीशु (2)\n\n          Bm        A     G                D\nप्रेमी प्रभु यीशु बचाया तू ने मुझे (2)\nA              D             A                Bm\n       देता हूं मैं सारा जीवन, सम्पूर्ण आनन्द से  (2)\n\n           Bm       A        G                         D\nअनादि परमेश्वर, सत्य और जीवन है तू (2)\nA                D               A                   Bm\n       स्तुति प्रशंसा करता रहूंगा, तेरे आने समय तक (2)\n\n\n\n                                                                                                           (E/49)\n                                                                           The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "rajaon-ka-raja-yishu-raja",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "168"
+    }
+  ],
+  "title": {
+    "native": "राजाओं का राजा यीशु राजा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "राजाओं का राजा यीशु राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जगत में राज्य करेगा, हल्लेलूयाह हल्लेलूयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसका धन्यवाद करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा का धन्यवाद करो, क्योंकि वह भला है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी करूणा सदा की है, धन्यवाद करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो ईश्वरों का परमेश्वर है, उसका धन्यवाद करो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी करूणा सदा की है, धन्यवाद करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो प्रभुओं का प्रभु है, उसका धन्यवाद करो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी करूणा सदा की है, धन्यवाद करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Rajaon Ka Raja Yishu Raja.doc",
+    "page": null
+  },
+  "chords": "राजाओं का राजा यीशु राजा\n\n       G                  C            G\n कोरस:-  राजाओं का राजा यीशु राजा\n               G            D7      G                       D\n       जगत में राज्य करेगा, हल्लेलूयाह हल्लेलूयाह\n          D                      G\n       उसका धन्यवाद करो।\n\n       G                    C             D                     G\n यहोवा का धन्यवाद करो, क्योंकि वह भला है,\n          G                    C        D     D7           G\n\t उसकी करूणा सदा की है, धन्यवाद करो।\n\n          G                 C               D                      G\n जो ईश्वरों का परमेश्वर है, उसका धन्यवाद करो,\n      G                   C        D      D7           G\n       उसकी करूणा सदा की है, धन्यवाद करो।\n\n          G                  C           D                     G\n  जो प्रभुओं का प्रभु है, उसका धन्यवाद करो,\n       G                    C         D     D7           G\n        उसकी करूणा सदा की है, धन्यवाद करो।\n\n\n\n                                                                  (E/28)\n                                                                                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

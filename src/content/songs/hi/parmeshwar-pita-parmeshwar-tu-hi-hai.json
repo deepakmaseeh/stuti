@@ -1,0 +1,98 @@
+{
+  "slug": "parmeshwar-pita-parmeshwar-tu-hi-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "151"
+    }
+  ],
+  "title": {
+    "native": "परमेश्वर पिता परमेश्वर तू ही है राजा हमारे जीवन का",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "परमेश्वर पिता परमेश्वर, तू ही है राजा हमारे जीवन का",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन से भी है उत्तम, तेरी करुणा सदा हम पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बंजर ज़मीं से तू उगाता है फसल,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सूखी सूखी नदी नदी से तू बहाता प्रेम जल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये आसमां और ये ज़मी, गाती है तेरी महिमा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमको बनाया तूने अपने रुप में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देकर जीवन भेजा तूने संसार में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये ज़िन्दगी.. मेरी सदा, करती है तेरी महिमा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:parmeshwar pita parmeshwar tu hi hai.docx",
+    "page": null
+  },
+  "chords": "परमेश्वर पिता परमेश्वर तू ही है राजा हमारे जीवन का\n\n           F                C              Bb   C             F\nकोरस:- परमेश्वर पिता परमेश्वर, तू ही है राजा हमारे जीवन का\n            F                C           Bb    C       F\n         जीवन से भी है उत्तम, तेरी करुणा सदा हम पर\n\n       Bb                C          F\nबंजर ज़मीं से तू उगाता है फसल,\n Bb                           C          F\nसूखी सूखी नदी नदी से तू बहाता प्रेम जल\n       Gm          C    Bb     C      F\nये आसमां और ये ज़मी, गाती है तेरी महिमा (2)\n\nBb                  C         F\nहमको बनाया तूने अपने रुप में,\n Bb                 C        F\nदेकर जीवन भेजा तूने संसार में\n      Gm          C     Bb     C      F\nये ज़िन्दगी.. मेरी सदा, करती है तेरी महिमा। (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

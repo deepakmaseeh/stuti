@@ -1,0 +1,137 @@
+{
+  "slug": "he-yishu-mere-raja-main-tujhe-saraahunga",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "80"
+    }
+  ],
+  "title": {
+    "native": "हे यीशु मेरे राजा, मैं तुझको सराहूँगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-  हे यीशु मेरे राजा, मैं तुझको सराहूँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और तेरे नाम को सदा मैं धन्य कहता रहूँगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हर रोज तुझको धन्य कहूँगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति तेरी मैं करता रहूँगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरे कामों का वर्णन करूँगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भलाई तेरी मैं स्मरण करूँगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "उद्धार के गीतें मैं तो गाऊँगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति के नारे सदा मारूँगा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "4 विजय के संगीत जग में सुनाऊँगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन भर उसको मैं तो भजूँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "आशा से भरपूर सदा रहूँगा,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:He Yishu Mere Raja, Main Tujhe Saraahunga.doc",
+    "page": null
+  },
+  "chords": "हे यीशु मेरे राजा, मैं तुझको सराहूँगा\n\n           Em\tD\tEm\nकोरसः-  हे यीशु मेरे राजा, मैं तुझको सराहूँगा (2)\n                  Em                     D        C              D Em\n          और तेरे नाम को सदा मैं धन्य कहता रहूँगा। (2)\n\n             Em        D               Em\n           1.    हर रोज तुझको धन्य कहूँगा, (2)\n  \t\t                 D           Em\n           स्तुति तेरी मैं करता रहूँगा। (2)\n\n           Em     D                  Em\n2.  \t तेरे कामों का वर्णन करूँगा, (2)\n  \t                            D         Em\n           भलाई तेरी मैं स्मरण करूँगा। (2)\n\n              Em           D             Em\n3.\t उद्धार के गीतें मैं तो गाऊँगा, (2)\n\t \t                 D         Em\n           स्तुति के नारे सदा मारूँगा। (2)\n\n                Em          D                     Em\n4     विजय के संगीत जग में सुनाऊँगा, (2)\n\t \t\t           D              Em\n           जीवन भर उसको मैं तो भजूँगा (2)\n\n               Em         D              Em\n5.   \tआशा से भरपूर सदा रहूँगा, (2)\n\t \t         D                  Em\n          अपने प्रभु को आते देखूँगा। (2)                       (F/54)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

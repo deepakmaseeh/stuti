@@ -6,7 +6,7 @@ test.describe('export', () => {
   test.use({ viewport: { width: 1440, height: 900 } });
 
   test('print media hides panes and toolbar', async ({ page }) => {
-    await page.goto('/song/ta-yesuve-en-thunai/');
+    await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
     await waitHydrated(page);
     await page.emulateMedia({ media: 'print' });
     await expect(page.locator('.topbar')).toBeHidden();
@@ -16,7 +16,7 @@ test.describe('export', () => {
   });
 
   test('PPT button downloads a .pptx with slides', async ({ page }) => {
-    await page.goto('/song/ta-yesuve-en-thunai/');
+    await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
     await waitHydrated(page);
     const [download] = await Promise.all([
       page.waitForEvent('download', { timeout: 60_000 }),

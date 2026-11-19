@@ -6,12 +6,12 @@ const PAGES = [
   '/',
   '/search/',
   '/search/?tab=words',
-  '/song/ta-yesuve-en-thunai/',
+  '/song/hi-aaj-fasi-majhdhar-main/',
   '/song/en-amazing-grace/',
-  '/b/dt/117/',
+  '/b/tlbc/1/',
   '/set/',
   '/books/',
-  '/books/dt/',
+  '/books/tlbc/',
   '/downloads/',
   '/settings/',
   '/about/',
@@ -42,7 +42,7 @@ test.describe('accessibility (axe)', () => {
   }
 
   for (const theme of ['dark', 'contrast'] as const) {
-    for (const path of ['/', '/song/ta-yesuve-en-thunai/', '/search/']) {
+    for (const path of ['/', '/song/hi-aadi-aur-ant-tu-hi-hai/', '/search/']) {
       test(`${theme} theme ${path}`, async ({ page }) => {
         await page.addInitScript(
           (t) => localStorage.setItem('stuti:prefs', JSON.stringify({ theme: t })),
@@ -56,7 +56,7 @@ test.describe('accessibility (axe)', () => {
   }
 
   test('report sheet open', async ({ page }) => {
-    await page.goto('/song/ta-yesuve-en-thunai/');
+    await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
     await waitHydrated(page);
     await page.getByRole('link', { name: 'Report a mistake in this song' }).click();
     await expect(page.getByRole('dialog', { name: "What's wrong?" })).toBeVisible();

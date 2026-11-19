@@ -1,0 +1,108 @@
+{
+  "slug": "yahowa-charwaha-mera-koi-ghati-mujhe-nahi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "214"
+    }
+  ],
+  "title": {
+    "native": "यहोवा चरवाहा मेरा कोई घटी मुझे नहीं है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यहोवा चरवाहा मेरा, कोई घटी मुझे नहीं है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हरी चराईयों में मुझें, स्नेह से चराता वह है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मृत्यु के अन्धकार से मैं जो जाता था,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु यीशु करुणा से, तसल्ली मुझे दी है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शत्रुओं के सामने, मेज को बिछाता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु ने जो तैयार की, मन मेरा मगन है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सिर पर वह तेल मला है, अभिषेक मुझे किया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरा भर गया है, और उमड़ भी रहा है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सर्वदा प्रभु के घर में, करूंगा निवास जो मैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करुणा भलाई उसकी, आनन्दित मुझे करती है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yahowa charwaha mera koi ghati mujhe nahi.docx",
+    "page": null
+  },
+  "chords": "यहोवा चरवाहा मेरा कोई घटी मुझे नहीं है\n\nG                                                       C\nकोरस:- यहोवा चरवाहा मेरा, कोई घटी मुझे नहीं है\n         D                             G                       G\nहरी चराईयों में मुझें, स्नेह से चराता वह है।\n\nG                                              C\nमृत्यु के अन्धकार से मैं जो जाता था,\nD                           G                     G\nप्रभु यीशु करुणा से, तसल्ली मुझे दी है।\n\nG                                              C\nशत्रुओं के सामने, मेज को बिछाता है\nD                            G                   G\nप्रभु ने जो तैयार की, मन मेरा मगन है।\n\nG                                                               C\nसिर पर वह तेल मला है, अभिषेक मुझे किया है\nD                               G                      G\nदिल मेरा भर गया है, और उमड़ भी रहा है।\n\nG                                                       C\nसर्वदा प्रभु के घर में, करूंगा निवास जो मैं\nD                               G                         G\nकरुणा भलाई उसकी, आनन्दित मुझे करती है।\n\n                                                        (E/2)\n                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "yeshu-hai-sachcha-gadariya",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "217"
+    }
+  ],
+  "title": {
+    "native": "यीशु है सच्चा गड़रिया, उसकी हम भेडे़ं हैं",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु है सच्चा गड़रिया, उसकी हम भेडे़ं हैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हरी चराइयों में, हमें चराता है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हल्लेलूयाह आमीन (4)...",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मार्गों में मेरी रक्षा वह करता है, हो हो ओ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान के डर से हमें बचाता है हो हो ओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "हमें किसी का डर अब नहीं है, हो हो ओ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्योंकि हमारे साथ यीशु जो है, हो हो ओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मेरे लिए ही खून बहाया है, हो हो ओ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों से मेरे मुझको छुड़ाया है हो हो ओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "घाटी पहाड़ियों से ले चलता है हो हो ओ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहां पे सुखदाई जल के झरने है हो हो ओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yeshu Hai Sachcha Gadariya.doc",
+    "page": null
+  },
+  "chords": "यीशु है सच्चा गड़रिया, उसकी हम भेडे़ं हैं\n\n              D\t\t\t\t\t             A\nकोरस:- यीशु है सच्चा गड़रिया, उसकी हम भेडे़ं हैं\n\t\t                 G     A     D\n         हरी चराइयों में, हमें चराता है,\n                     D            A     D\n         हल्लेलूयाह आमीन (4)...\n\n                 D                                 G\n1.\tमार्गों में मेरी रक्षा वह करता है, हो हो ओ\n      A                        A      D\n     शैतान के डर से हमें बचाता है हो हो ओ\n\n                 D                                 G\n2.\tहमें किसी का डर अब नहीं है, हो हो ओ\n        A                                D\n     क्योंकि हमारे साथ यीशु जो है, हो हो ओ\n\n                 D                           G\n3.\tमेरे लिए ही खून बहाया है, हो हो ओ\n      A               G        A     D\n     पापों से मेरे मुझको छुड़ाया है हो हो ओ\n\n                 D                                  G\n4.\tघाटी पहाड़ियों से ले चलता है हो हो ओ\n        A                            A      D\n     जहां पे सुखदाई जल के झरने है हो हो ओ\n\n\n                                                                    (E/10)\n                                                                                                                         The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

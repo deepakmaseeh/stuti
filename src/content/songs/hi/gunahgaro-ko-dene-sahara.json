@@ -1,0 +1,98 @@
+{
+  "slug": "gunahgaro-ko-dene-sahara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "65"
+    }
+  ],
+  "title": {
+    "native": "गुनहगारों को देने सहारा, आया चरनी में तारणहारा;",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "गुनहगारों को देने सहारा, आया चरनी में तारणहारा;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुँजी प्यारा मसीह हमारा, आया चरनी में तारणहारा ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैदानों में करते रखवाली, चमकी रोशनी खूब निराली ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पैदा हुआ है यीशु जलाली, मरियम की आँखों का तारा ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तीन बादशाह पूरब से आए, सोना मुर्र लोबान वे लाए ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी भेंटें उसको चढ़ाएं, बादशाहों का पालनहारा ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम भी उसके द्वार पे जाएं, अपना जीवन भेंट चढ़ाएं ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी जय और सन्ना गाएं, हमें अपनी जान से प्यारा ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Gunahgaro ko dene sahara.docx",
+    "page": null
+  },
+  "chords": "गुनहगारों को देने सहारा, आया चरनी में तारणहारा;\n\n\n          F                        Bb            C                  F\nकोरस:-  गुनहगारों को देने सहारा, आया चरनी में तारणहारा;\n          F                        Bb            C                  F\n          मुँजी प्यारा मसीह हमारा, आया चरनी में तारणहारा ।\n\n\n         F                       C          Bb            C      F\nमैदानों में करते रखवाली, चमकी रोशनी खूब निराली । (2)\n F                        Bb        C                        F\nपैदा हुआ है यीशु जलाली, मरियम की आँखों का तारा । (2)\n\n\n         F                          C       Bb         C          F\nतीन बादशाह पूरब से आए, सोना मुर्र लोबान वे लाए । (2)\n F              Bb               C                      F\nअपनी भेंटें उसको चढ़ाएं, बादशाहों का पालनहारा । (2)\n\n\n         F                          C                 Bb    C    F\nहम भी उसके द्वार पे जाएं, अपना जीवन भेंट चढ़ाएं । (2)\n F                           Bb           C               F\nउसकी जय और सन्ना गाएं, हमें अपनी जान से प्यारा । (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

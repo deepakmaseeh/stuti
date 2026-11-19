@@ -41,7 +41,7 @@ test.describe('admin (Decap CMS) under the real _headers', () => {
 });
 
 test.describe('site pages under the strict CSP', () => {
-  for (const path of ['/', '/song/ta-yesuve-en-thunai/', '/search/', '/set/', '/settings/']) {
+  for (const path of ['/', '/song/hi-aadi-aur-ant-tu-hi-hai/', '/search/', '/set/', '/settings/']) {
     test(`${path} works with no CSP errors`, async ({ page }) => {
       const errors = collectCspErrors(page);
       const res = await page.goto(path);

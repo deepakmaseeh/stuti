@@ -1,0 +1,98 @@
+{
+  "slug": "parmeshwar-ke-pavitra-vedi-me",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "150"
+    }
+  ],
+  "title": {
+    "native": "कोरस:- परमेश्वर की पवित्र वेदी में, अपने जीवन को मैं चढ़ाता हूँ (2)",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मेरे सारे ह्रदय से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे प्रभु की महिमा हो, मेरे यीशु की प्रशंसा हो, परमेश्वर की पवित्र……",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं उठाता हूँ अपने दोनों हाथ, धन्यवाद की भेंट देने के लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे सारे ह्रदय से (2), तुझको ही महिमा दूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा परमेश्वर, मेरी चट्टान, तेरा वचन मेरी ज्योति",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अंधकार में भी ज्योति बने (2), तेरी सदा जय जयकार हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा यीशु, मेरी आशा, तुझको अर्पण मेरा जीवन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलूँगा मैं तेरे ही साथ, (2) ये समर्पण है यीशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:parmeshwar ke pavitra vedi me.docx",
+    "page": null
+  },
+  "chords": "D                             A                                       D\n      कोरस:- परमेश्वर की पवित्र वेदी में, अपने जीवन को मैं चढ़ाता हूँ (2)\n                    D     G    A    D\n               मेरे सारे ह्रदय से (2)\n                     D         A     G      D   D    A          G      D\n               मेरे प्रभु की महिमा हो, मेरे यीशु की प्रशंसा हो, परमेश्वर की पवित्र……\n\n           D                               G                   A                  D\n मैं उठाता हूँ अपने दोनों हाथ, धन्यवाद की भेंट देने के लिए (2)\n     D    G   A      D       D          A   G      D\n मेरे सारे ह्रदय से (2), तुझको ही महिमा दूँ (2)\n\n     D                        G              A             D\n मेरा परमेश्वर, मेरी चट्टान, तेरा वचन मेरी ज्योति (2)\n      D             G    A       D        D    A     G             D\n अंधकार में भी ज्योति बने (2), तेरी सदा जय जयकार हो (2)\n\n     D                       G               A             D\n मेरा यीशु, मेरी आशा, तुझको अर्पण मेरा जीवन (2)\n          D          G   A     D      D    A   G    D\n   चलूँगा मैं तेरे ही साथ, (2) ये समर्पण है यीशु (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

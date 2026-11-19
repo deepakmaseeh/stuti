@@ -1,0 +1,104 @@
+{
+  "slug": "tujhasa-is-jaha-me-aur-koyi-hai-nahi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "203"
+    }
+  ],
+  "title": {
+    "native": "तुझसा इस जहां में और कोई है नहीं, तुझ बिन आसरा मेरा है ना कहीं।",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "रहूँ तेरी बाहों में प्रियतम मेरे, तू ही मेरा सर्वस्व यीशु मेरे।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आराधना तेरी आराधना, यीशु मेरे, तेरी आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अर्पण करता हूँ खुद को हाथों में तेरे, धो दे मुझको तू प्रभु वचनों से तेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी इच्छा पर ही तू मुझको चला, भर दे पवित्र आत्मा से मुझको ख़ुदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना तेरी आराधना…………………….",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलता मैं रहूँ तेरी राहों पर सदा, बनके रहबर मेरा तू चलना संग ख़ुदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझ पर ही बना रहे मेरा भरोसा, तू मेरी चट्टान, रहूँ तुझ में स्थिर सदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना तेरी आराधना……………………..",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:tujhasa is jaha me aur koyi hai nahi.docx",
+    "page": null
+  },
+  "chords": "C                              Am      C    F                                     C\n      तुझसा इस जहां में और कोई है नहीं, तुझ बिन आसरा मेरा है ना कहीं।\n           C                     Am    C    F                            C\n      रहूँ तेरी बाहों में प्रियतम मेरे, तू ही मेरा सर्वस्व यीशु मेरे।\n      C     G      F       C      Am        G            C\nकोरस:- आराधना तेरी आराधना, यीशु मेरे, तेरी आराधना (2)\n\n      C                               Am    C     F                                    C\nअर्पण करता हूँ खुद को हाथों में तेरे, धो दे मुझको तू प्रभु वचनों से तेरे\n   C                           Am   C      F                                       C\n      तेरी इच्छा पर ही तू मुझको चला, भर दे पवित्र आत्मा से मुझको ख़ुदा\n\n       आराधना तेरी आराधना…………………….\n\n   C                       Am       C   F                                          C\nचलता मैं रहूँ तेरी राहों पर सदा, बनके रहबर मेरा तू चलना संग ख़ुदा\n   C                           Am    C   F                                         C\n      तुझ पर ही बना रहे मेरा भरोसा, तू मेरी चट्टान, रहूँ तुझ में स्थिर सदा\n\n       आराधना तेरी आराधना……………………..\n\n\n\n                                                                                 (C/34)\n                                                                      The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

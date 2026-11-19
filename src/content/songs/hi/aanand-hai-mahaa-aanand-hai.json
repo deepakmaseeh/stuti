@@ -1,0 +1,137 @@
+{
+  "slug": "aanand-hai-mahaa-aanand-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "6"
+    }
+  ],
+  "title": {
+    "native": "आनन्द है महा आनन्द है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आनन्द है महा आनन्द है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आश्चर्यकारी यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे पापों को है क्षमा कर दिया।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सर्वशक्तिमान मेरे सच्चे प्रभु जी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सर्व-सदा स्तुति करूँ मैं तेरी।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मांगने से बढ़कर प्रभु देता है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सामर्थ से बाहर कार्य करता है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "प्रार्थना से पहले उत्तर देता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "माँगते ही वो मेरी सुन लेता है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "प्रार्थना के सारे प्रतिफल,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्यारा प्रभु देता है हल्लेलूयाह। (A/22)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aanand hai mahaa Aanand Hai Chord_s file.doc",
+    "page": null
+  },
+  "chords": "आनन्द है महा आनन्द है\n\nD               Bm     D\nकोरस:- आनन्द है महा आनन्द है, (2)\n         G   Em   D\nआश्चर्यकारी यीशु ने (2)\n     G      A     G             D\nमेरे पापों को है क्षमा कर दिया। (2)\n\n\tD         A                      D\n  1.\tसर्वशक्तिमान मेरे सच्चे प्रभु जी, (2)\n     A                      D\nसर्व-सदा स्तुति करूँ मैं तेरी। (2)\n\nD          A                  D\n  2.\tमांगने से बढ़कर प्रभु देता है, (2)\n              A                  D\nसामर्थ से बाहर कार्य करता है।\n\n\tD            A                D\n  3.\tप्रार्थना से पहले उत्तर देता है (2)\n                     A                  D\nमाँगते ही वो मेरी सुन लेता है।\n\n\t D     A               D\n  4.\tप्रार्थना के सारे प्रतिफल, (2)\n            A                D\n     प्यारा प्रभु देता है हल्लेलूयाह।                          (A/22)\n                                                                                                   The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

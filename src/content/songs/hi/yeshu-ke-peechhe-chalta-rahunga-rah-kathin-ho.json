@@ -1,0 +1,113 @@
+{
+  "slug": "yeshu-ke-peechhe-chalta-rahunga-rah-kathin-ho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "219"
+    }
+  ],
+  "title": {
+    "native": "यीशु के पीछे, चलता रहूँगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु के पीछे, चलता रहूँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राह कठिन हो, मौत भी आवे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल से चाहूँगा, महिमा हो उसकी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरी करूँगा इच्छा भी उसकी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अर्पण.... तुझको ...., जैसे तू चाहे वैसे ही हो जाये ...।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कितने ही हम से आगे गये हैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दौड़ यहाँ की पूरी किये हैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही... निशाना.... उनके समान तू मुझको बना ले",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आगे बढ़ाता प्रेम यीशु का,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सेवा में मुझको आनन्द दिलाता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही..... भरोसा ...... कदमों में तेरे चलना है मुझको।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yeshu ke peechhe chalta rahunga rah kathin ho.docx",
+    "page": null
+  },
+  "chords": "यीशु के पीछे, चलता रहूँगा\n\n          E        A                E\nकोरस:- यीशु के पीछे, चलता रहूँगा\n              B                       E\n         राह कठिन हो, मौत भी आवे\n\n           E          A                     E\nदिल से चाहूँगा, महिमा हो उसकी\n             B                   E\n        पूरी करूँगा इच्छा भी उसकी\n        C#m        B                  A   B        E\n        अर्पण.... तुझको ...., जैसे तू चाहे वैसे ही हो जाये ...।\n\n           E        A                 E\nकितने ही हम से आगे गये हैं\n       B                   E\n         दौड़ यहाँ की पूरी किये हैं\n         C#m        B               A   B            E\n         तू ही... निशाना.... उनके समान तू मुझको बना ले\n\n           E        A          E\nआगे बढ़ाता प्रेम यीशु का,\n       B                    E\n         सेवा में मुझको आनन्द दिलाता\n            C#m        B                    A   B        E\n         तू ही..... भरोसा ...... कदमों में तेरे चलना है मुझको।\n                                                       (E/6)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

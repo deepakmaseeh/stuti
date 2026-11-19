@@ -1,0 +1,108 @@
+{
+  "slug": "prabhu-yeshu-ka-name-hai-sari-jame-par",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "156"
+    }
+  ],
+  "title": {
+    "native": "प्रभु यीशु का नाम है सारी जमीं पर",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः- प्रभु यीशु का नाम है, सारी जमीं पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिससे हम पाते उद्धार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो दुनियाँ में आया लहू बहाया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिदिया जहानं का दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमको बचाने मुक्ति दिलाने,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु सलीब पर मुआ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आसमान के नीचे लोगों के बीच में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोई दूसरा नाम नहीं है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सिर्फ-यीशु का नाम है सारी जमीं पर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिससे हम पाते उद्धार।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:prabhu yeshu ka name hai sari jame par.docx",
+    "page": null
+  },
+  "chords": "प्रभु यीशु का नाम है सारी जमीं पर\n\n          C                        F\nकोरसः- प्रभु यीशु का नाम है, सारी जमीं पर\n          G                   C\n         जिससे हम पाते उद्धार\n\n         C\n वो दुनियाँ में आया लहू बहाया,\n  F                     G\n        फिदिया जहानं का दिया\n          C\n        हमको बचाने मुक्ति दिलाने,\n          G                 C\n        यीशु सलीब पर मुआ।\n\n         C\n आसमान के नीचे लोगों के बीच में,\n   F                    G\n        कोई दूसरा नाम नहीं है\n          C\n        सिर्फ-यीशु का नाम है सारी जमीं पर,\n          G                   C\n        जिससे हम पाते उद्धार।",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

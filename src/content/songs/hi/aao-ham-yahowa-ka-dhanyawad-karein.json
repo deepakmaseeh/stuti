@@ -1,0 +1,113 @@
+{
+  "slug": "aao-ham-yahowa-ka-dhanyawad-karein",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "9"
+    }
+  ],
+  "title": {
+    "native": "आओ हम यहोवा का धन्यवाद करें",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आओ हम यहोवा का धन्यवाद करें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने सारे हृदय से वन्दना करें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके फाटकों में स्तुति करें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और जय ललकारें ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसने बनाया हमें, वो है हमारा आधार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसने दी हमको है श्वांस, वो है हमारा उद्धार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी हो जय जय, हो आराधना,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो है सभों का प्रधान।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने सारे तन मन से हम उसकी महिमा करें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो है शिफा और नजात, उसकी प्रशंसा करें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो है जग का त्राता और तारणहार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aao Ham Yahowa Ka Dhanyawad Karein.doc",
+    "page": null
+  },
+  "chords": "आओ हम यहोवा का धन्यवाद करें\n\n                        A                                D\n             कोरस:- आओ हम यहोवा का धन्यवाद करें\n                       E                            A\n                      अपने सारे हृदय से वन्दना करें,\n                       A                        D\n                      उसके फाटकों में स्तुति करें\n                       E                   A\n                      और जय ललकारें ।\n\n                         A               D       E           A\nजिसने बनाया हमें, वो है हमारा आधार\n  A                  D          E             A\n                     जिसने दी हमको है श्वांस, वो है हमारा उद्धार\n                     A                            D\n                     उसकी हो जय जय, हो आराधना,\n                     E         D\n                     वो है सभों का प्रधान।\n\n                     A                               D   E            A\nअपने सारे तन मन से हम उसकी महिमा करें,\nA                  D               E             A\n                     वो है शिफा और नजात, उसकी प्रशंसा करें,\n                      E                           D\n                     वो है जग का त्राता और तारणहार\n                      A\n                     उसकी हो जय जय सदा                                 (A/10)\n                                                                                                                                                  The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

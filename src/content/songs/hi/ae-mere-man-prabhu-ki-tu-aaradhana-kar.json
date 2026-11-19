@@ -1,0 +1,98 @@
+{
+  "slug": "ae-mere-man-prabhu-ki-tu-aaradhana-kar",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "22"
+    }
+  ],
+  "title": {
+    "native": "ऐ मेरे मन, प्रभु की तू आराधना कर",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ऐ मेरे मन, प्रभु की तू आराधना कर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्योंकि वो भला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उपकार किये हैं तुझ पर, जब तुने नहीं जाना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिर भी गले लगाया, क्योंकि यीशु भला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब जा रहा अंधकार से, हाथ पकड़कर चलाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ले आया उजियाले में, क्योंकि यीशु भला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "विश्वास हीन था तू , विश्वास तुझे दिलाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपना प्यार जताया क्योंकि यीशु भला है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Ae mere man prabhu ki tu Aaradhana kar.docx",
+    "page": null
+  },
+  "chords": "ऐ मेरे मन, प्रभु की तू आराधना कर\n\n          Em          D\nकोरस:- ऐ मेरे मन, प्रभु की तू आराधना कर\n C           Em\nक्योंकि वो भला है\n\nEm             D                        C\nउपकार किये हैं तुझ पर, जब तुने नहीं जाना\n             B                      Em\nफिर भी गले लगाया, क्योंकि यीशु भला है\n\nEm                   D                    C\n जब जा रहा अंधकार से, हाथ पकड़कर चलाया\n               B                       Em\nले आया उजियाले में, क्योंकि यीशु भला है\n\nEm              D                  C\n विश्वास हीन था तू , विश्वास तुझे दिलाया\n              B                 Em\nअपना प्यार जताया क्योंकि यीशु भला है\n\n                                                   (A/39)\n                                              The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

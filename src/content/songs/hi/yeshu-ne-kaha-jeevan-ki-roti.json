@@ -1,0 +1,115 @@
+{
+  "slug": "yeshu-ne-kaha-jeevan-ki-roti",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "231"
+    }
+  ],
+  "title": {
+    "native": "यीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन की रोटी मैं ही हूँ, प्यारों जीवन की रोटी मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "यीशु ने कहा सच्चा गड़रिया सच्चा गड़रिया मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सच्चा गड़रिया मैं ही हूँ प्यारों सच्चा गड़रिया मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने कहा सच्चा गड़रिया, सच्चा गड़रिया मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यीशु ने कहा मार्ग और जीवन, मार्ग और जीवन मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मार्ग और जीवन मैं ही हूँ प्यारों मार्ग और जीवन मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने कहा मार्ग और जीवन, मार्ग और जीवन मैं ही हूँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:yeshu ne kaha jeevan ki roti.docx",
+    "page": null
+  },
+  "chords": "यीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ\n\n           C                         F C                G C  G C\n1.\tयीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ। (2)\n       C               G  C G          F             G   F C\nजीवन की रोटी मैं ही हूँ, प्यारों जीवन की रोटी मैं ही हूँ।\n C                        F C               G  C G C\nयीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ।\n\n C                    F   C            G    C G C\n2.\tयीशु ने कहा सच्चा गड़रिया सच्चा गड़रिया मैं ही हूँ। (2)\n       C              G C G         F              G C G\nसच्चा गड़रिया मैं ही हूँ प्यारों सच्चा गड़रिया मैं ही हूँ।\n C                    F   C             G    C G C\nयीशु ने कहा सच्चा गड़रिया, सच्चा गड़रिया मैं ही हूँ।\n\n C                        F  C               G    C G C\n3.\tयीशु ने कहा मार्ग और जीवन, मार्ग और जीवन मैं ही हूँ। (2)\nC                 G C G        F                 C G C\nमार्ग और जीवन मैं ही हूँ प्यारों मार्ग और जीवन मैं ही हूँ।\n C                         F C              G     C G C\nयीशु ने कहा मार्ग और जीवन, मार्ग और जीवन मैं ही हूँ।\n\n\n\n\n\n                                                      (E/13)\n                                                                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

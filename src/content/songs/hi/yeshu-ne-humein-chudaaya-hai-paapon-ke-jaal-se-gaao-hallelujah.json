@@ -1,0 +1,118 @@
+{
+  "slug": "yeshu-ne-humein-chudaaya-hai-paapon-ke-jaal-se-gaao-hallelujah",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "230"
+    }
+  ],
+  "title": {
+    "native": "यीशु ने हमें छुड़ाया है पापों के जाल से (गाओ हल्लेलूयाह)",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु ने हमें छुड़ाया है पापों के जाल से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने हमें बचाया है शैतान की चाल से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम ने शान्ति पाई है यीशु के नाम से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम ने पाई है क्षमा मुक्ति श्रापों से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब हम न डरेंगे यीशु जो साथ है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान से हम लड़ेंगे यीशु के नाम से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शालोम शांति और सलाम, लाये हैं आपके नाम।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शालोम शांति और सलाम, मेरे यीशु का पैगाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yeshu Ne Humein Chudaaya Hai Paapon Ke Jaal Se (Gaao Hallelujah).doc",
+    "page": null
+  },
+  "chords": "यीशु ने हमें छुड़ाया है पापों के जाल से (गाओ हल्लेलूयाह)\n\n         G            C           D               G\n यीशु ने हमें छुड़ाया है पापों के जाल से\n      G            C           D               G\n       यीशु ने हमें बचाया है शैतान की चाल से\n                    G  D G                         G D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n\n     G               C      D             G\n हम ने शान्ति पाई है यीशु के नाम से\n         G           C         D            G\n       हम ने पाई है क्षमा मुक्ति श्रापों से\n                    G  D G                        G  D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n\n         G            C     D             G\n अब हम न डरेंगे यीशु जो साथ है\n     G                 C     D             G\n       शैतान से हम लड़ेंगे यीशु के नाम से\n                         G  D G                       G  D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n\n         G                       C         D                G\n शालोम शांति और सलाम, लाये हैं आपके नाम।\n          G                       C        D              G\n       शालोम शांति और सलाम, मेरे यीशु का पैगाम\n                         G  D G                       G  D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n                                                                             (E/19)\n                                                                                                                         The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

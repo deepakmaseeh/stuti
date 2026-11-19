@@ -1,0 +1,108 @@
+{
+  "slug": "mukti-dilayei-yishu-naam",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "142"
+    }
+  ],
+  "title": {
+    "native": "मुक्ति दिलाए यीशु नाम",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "मुक्ति दिलाए यीशु नाम, शान्ति दिलाए यीशु नाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चरनी मे तूने जनम लिया यीशु,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रूस पे हुआ कुरबान, क्रूस पे हुआ कुरबान ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रूस पर अपना खून बहाया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारा चुकाया दाम, सारा चुकाया दाम।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु दया का गहरा सागर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु है दाता महान, यीशु है दाता महान ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम सबके पापों को मिटाने,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु हुआ बलिदान, यीशु हुआ बलिदान।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम पर भी यीशु कृपा करना,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Mukti Dilayei Yishu Naam.doc",
+    "page": null
+  },
+  "chords": "मुक्ति दिलाए यीशु नाम\n\n           E                         A      D                         E\n  कोरस:- मुक्ति दिलाए यीशु नाम, शान्ति दिलाए यीशु नाम (2)\n\n\n                 E                  D                E\nचरनी मे तूने जनम लिया यीशु, (2)\n                            A       D                   E\n                 क्रूस पे हुआ कुरबान, क्रूस पे हुआ कुरबान ।\n\n\n                    E                    D           E\nक्रूस पर अपना खून बहाया, (2)\n                                  A       D                E\n           सारा चुकाया दाम, सारा चुकाया दाम।\n\n                       E                    D        E\nयीशु दया का गहरा सागर, (2)\n                                      A        D                 E\n           यीशु है दाता महान, यीशु है दाता महान ।\n\n               E                D              E\nहम सबके पापों को मिटाने, (2)\n                                      A       D                 E\n                  यीशु हुआ बलिदान, यीशु हुआ बलिदान।\n\n                       E                 D              E\nहम पर भी यीशु कृपा करना, (2)\n                                  A      D                E\n           हम हैं पापी नादान, हम हैं पापी नादान।        (G/26)\n                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

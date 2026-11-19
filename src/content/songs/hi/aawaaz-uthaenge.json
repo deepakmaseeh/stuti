@@ -1,0 +1,98 @@
+{
+  "slug": "aawaaz-uthaenge",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "15"
+    }
+  ],
+  "title": {
+    "native": "आवाज उठाएँगे, हम साज बजाएँगे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आवाज़ उठाएँगे, हम साज बजाएँगें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है यीशु महान अपना, यह गीत सुनाएंगे।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "संसार की सुन्दरता में, यह रूप तो तेरा ही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इन चाँद सितारों में, है अक्स तो तेरा ही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा की तेरी बातें, हम सबको बताएँगे। है यीशु महान…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "न देख सका हमको, तू पाप के सागर में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और बन के मनुष्य आया, आकाश से सागर में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्ति का तू दाता है, दुनियाँ को बताएँगे। है यीशु महान…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aawaaz Uthaenge.doc",
+    "page": null
+  },
+  "chords": "आवाज उठाएँगे, हम साज बजाएँगे\n\n       E                               B                E\n  कोरस:-   आवाज़ उठाएँगे, हम साज बजाएँगें\n     A                                  B           E\n             है यीशु महान अपना, यह गीत सुनाएंगे।\n\n          E                                                    A\n संसार की सुन्दरता में, यह रूप तो तेरा ही\n                   B                                   E\n          इन चाँद सितारों में, है अक्स तो तेरा ही\n          E                            B            E\n          महिमा की तेरी बातें, हम सबको बताएँगे। है यीशु महान…\n\n          E                                                   A\n न देख सका हमको, तू पाप के सागर में\n               B                                               E\n          और बन के मनुष्य आया, आकाश से सागर में\n        E                                  B            E\n          मुक्ति का तू दाता है, दुनियाँ को बताएँगे। है यीशु महान…\n\n\n                                                                     (A/9)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

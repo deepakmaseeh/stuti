@@ -1,0 +1,113 @@
+{
+  "slug": "aaj-hamaari-nagari-mein-janma-taaranhara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "4"
+    }
+  ],
+  "title": {
+    "native": "आज हमारी नगरी में जन्मा तारणहारा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः आज हमारी नगरी में, जन्मा तारणहारा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु नाम है उसका, पुत्र है वह ईश्वर का;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह खुशियाँ दिल में समाएं न, आज हमारी...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दूत मिले हैं मेषपाल से, खुशखबरी सुनाने को;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज्ञानियों ने भी देखा है, सुन्दर तारा पूरब में।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कैसी बात है यह अजब, समझ न आये क्या है गजब",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह खुशियाँ दिल में समाएं न, आज हमारी ...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कितना पावन है यह दिवस, जब पापी ईश्वर से मिले;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसने पाया दर्शन प्रभु का, उसके सारे पाप मिटे।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको मिला नया जीवन, मन मेरा हुआ पावन;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह खुशियाँ दिल में समाएं न, आज हमारी...",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aaj Hamaari Nagari Mein Janma Taaranhara.doc",
+    "page": null
+  },
+  "chords": "आज हमारी नगरी में जन्मा तारणहारा\n\n         D                G   D     G      D\nकोरसः आज हमारी नगरी में, जन्मा तारणहारा। (2)\n         D       G      D\n       यीशु नाम है उसका, पुत्र है वह ईश्वर का; (2)\n             G                   A        D\n       यह खुशियाँ दिल में समाएं न, आज हमारी...\n\n        D    G    A  D                G    A    D\n दूत मिले हैं मेषपाल से, खुशखबरी सुनाने को;\n D    G    A    D     G       A       D\n       ज्ञानियों ने भी देखा है, सुन्दर तारा पूरब में।\n         D        G         D                    G        D\n       कैसी बात है यह अजब, समझ न आये क्या है गजब (2)\n             G                   A\n       यह खुशियाँ दिल में समाएं न, आज हमारी ...\n\n       D      G    A         D           G   A        D\n कितना पावन है यह दिवस, जब पापी ईश्वर से मिले;\n D      G    A    D                 G  A    D\n       जिसने पाया दर्शन प्रभु का, उसके सारे पाप मिटे।\n       D              G       D            G        D\n       मुझको मिला नया जीवन, मन मेरा हुआ पावन; (2)\n            G                 A\n       यह खुशियाँ दिल में समाएं न, आज हमारी...\n\n                                                                    (G/3)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

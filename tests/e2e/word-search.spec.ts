@@ -1,7 +1,6 @@
 import { expect, test, type Page } from '@playwright/test';
 import { waitDesktopPanes, waitHydrated } from './helpers';
 
-/** Open the Words UI: Finder on desktop, SearchTabs on phone. */
 async function wordsTab(page: Page) {
   await page.goto('/search/');
   await waitHydrated(page);
@@ -20,42 +19,32 @@ const resultLinks = (page: Page) => page.getByTestId('results').getByRole('link'
 test.describe('word search (F2)', () => {
   test('empty state hint', async ({ page }) => {
     await wordsTab(page);
-    await expect(page.getByText('Type a title or any line. Try: yeshu, thunai, grace')).toBeVisible();
+    await expect(page.getByText(/Type a title or any line/)).toBeVisible();
   });
 
-  for (const q of ['yeshu', 'yesu', 'yisu']) {
-    test(`"${q}" finds the Hindi and Punjabi demo songs`, async ({ page }) => {
-      const input = await wordsTab(page);
-      await input.fill(q);
-      await expect(resultLinks(page).filter({ hasText: 'यीशु मेरा सहारा' })).toHaveCount(1);
-      await expect(resultLinks(page).filter({ hasText: 'ਯਿਸੂ ਮੇਰਾ ਸਹਾਰਾ' })).toHaveCount(1);
-    });
-  }
-
-  for (const q of ['thunai', 'tunai']) {
-    test(`"${q}" finds DT 117 first`, async ({ page }) => {
-      const input = await wordsTab(page);
-      await input.fill(q);
-      await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/ta-yesuve-en-thunai/');
-    });
-  }
-
-  test('Telugu script query finds DTe 45', async ({ page }) => {
+  test('Hindi query finds Yeshu songs', async ({ page }) => {
     const input = await wordsTab(page);
-    await input.fill('వెలుగు');
-    await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/te-yesayya-neeve-naa-aadhaaram/');
+    await input.fill('यीशु');
+    await expect(resultLinks(page).first()).toBeVisible({ timeout: 15_000 });
+    await expect(resultLinks(page).first()).toHaveAttribute('href', /\/song\/hi-/);
   });
 
-  test('"grace" finds EH 1', async ({ page }) => {
+  test('हिरणी finds TLBC 92', async ({ page }) => {
+    const input = await wordsTab(page);
+    await input.fill('हिरणी');
+    await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/hi-jaise-hirni-jal-ki-pyasi/');
+  });
+
+  test('"grace" finds Amazing Grace', async ({ page }) => {
     const input = await wordsTab(page);
     await input.fill('grace');
     await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/en-amazing-grace/');
   });
 
-  test('"dt117" pins the number match first', async ({ page }) => {
+  test('"tlbc1" pins the number match first', async ({ page }) => {
     const input = await wordsTab(page);
-    await input.fill('dt117');
-    await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/ta-yesuve-en-thunai/');
+    await input.fill('tlbc1');
+    await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/hi-aadi-aur-ant-tu-hi-hai/');
   });
 
   test('no result shows "No match" and the report link', async ({ page }) => {
@@ -105,7 +94,6 @@ test.describe('word search (F2)', () => {
   test('arrow keys move between tabs', async ({ page }) => {
     await page.goto('/search/');
     await waitHydrated(page);
-    // Finder uses segment buttons without arrow-key roving; this is SearchTabs-only.
     if (await page.locator('.finder').isVisible()) {
       test.info().annotations.push({ type: 'note', description: 'skipped on desktop Finder' });
       return;

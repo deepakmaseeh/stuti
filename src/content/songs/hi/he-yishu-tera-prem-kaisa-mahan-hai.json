@@ -1,0 +1,63 @@
+{
+  "slug": "he-yishu-tera-prem-kaisa-mahan-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "81"
+    }
+  ],
+  "title": {
+    "native": "सुधार आवश्यक",
+    "roman": "he yishu tera prem kaisa mahan hai",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सुधार आवश्यक — मूल फ़ाइल से पाठ पढ़ा नहीं जा सका",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "permission_pending",
+    "basis": "Needs manual fix (source file unreadable)",
+    "evidence": "",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:He Yishu! Tera Prem Kaisa Mahan Hai.doc",
+    "page": null
+  },
+  "chords": "gs ;h”kq rsjk izse dSlk egku gS\n\nD                                      A G\ngs ;h”kq rsjk izse dSlk egku gS!\nG               A              D        A                  D\nvkdk”k ds rkjs ioZr leqanj Lkc ls egku gSA\n\nD                          G               D                         G               D\nvxE; vkuUn ls g`n; Hkjiwj gS] izHkq dk dk;Z dSlk egku gS\nD          G                A                                            D\ngj ,d fcgku vkSj gj ,d lka>] Lrqfr ds ;ksX; gSA¼2½\n\nD                           G                            D                          G                    D\nladV ds le; esa thou fujk”k gksrk] bZ”oj Ikqdkjrk gWwa n;k eq> ij n”kkZ]\nD             G        A                                              G\nfcurh ls igys og eq> ls dgrk ^^eSa rsjs lkFk gWwa** ¼2½\n\nD                      G                         D                               G                   D\nvWa/ksjh ?kkVh ls] gksdj eq>s tkuk] e`R;q vkSj tksf[ke ls lQj eq>s djuk]\nD          G          A                                                D\npjokgk cudj vxqokbZ djrk] lnk og lkFk jgrk ¼2½\n\nD                          G                            D                       G                       D\nbZ”oj ds Hkou esa] Lrqfr lnk d:Waxk] lEiw.kZ g`n; ls] mldks lnk HktwWaxk]\nD       G              A                                          D\nLrqfr iz”kalk ds ;ksX; bZ”oj gYysyw¸;kg! vkehuA ¼2½\n\n\n\n\n\n\n\n\n\n                                                         (F/56)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": false
+}

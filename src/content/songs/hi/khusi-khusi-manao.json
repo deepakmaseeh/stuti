@@ -1,0 +1,98 @@
+{
+  "slug": "khusi-khusi-manao",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "115"
+    }
+  ],
+  "title": {
+    "native": "खुशी खुशी मनाओ, खुशी खुशी मनाओ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "बोलो बोलो मसीहा की जय जय जय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बोलो बोलो मसीहा की जय जय जय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिए आया, मेरे लिए जीया, मेरे लिए आया, मेरे लिए जीया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिये यीशु ने दुख उठाया। मेरे लिये यीशु ने दुख उठाया।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिये मारा गया, मेरे लिये गाड़ा गया, मेरे लिये मारा गया, मेरे लिये गाड़ा गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिये फिर जी उठा, मेरा है मसीह। मेरे लिये फिर जी उठा, मेरा है मसीहा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं मसीह का हूँ, हम मसीह के हैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुशी खुशी मनाओ........",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:khusi khusi manao.docx",
+    "page": null
+  },
+  "chords": "खुशी खुशी मनाओ, खुशी खुशी मनाओ\n\n G                  D\nखुशी खुशी मनाओ, खुशी खुशी मनाओ\n G                   D\nखुशी खुशी मनाओ, खुशी खुशी मनाओ\n  C           G    C         G\nबोलो बोलो मसीहा की जय जय जय\n C           G     C         G\nबोलो बोलो मसीहा की जय जय जय\n G              D             G              D\nमेरे लिए आया, मेरे लिए जीया, मेरे लिए आया, मेरे लिए जीया\nG         Em  D      G   G       Em     D    G\nमेरे लिये यीशु ने दुख उठाया। मेरे लिये यीशु ने दुख उठाया।\nC                 G                   C                   G\nमेरे लिये मारा गया, मेरे लिये गाड़ा गया, मेरे लिये मारा गया, मेरे लिये गाड़ा गया\nG        Em         D        G   G       Em          D        G\nमेरे लिये फिर जी उठा, मेरा है मसीह। मेरे लिये फिर जी उठा, मेरा है मसीहा।\nG\nमैं मसीह का हूँ, हम मसीह के हैं\nG\nखुशी खुशी मनाओ........\n\n\n\n\n\n\n                                                       (F/7)\n                                                                                                                    The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

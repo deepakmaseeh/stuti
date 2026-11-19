@@ -1,0 +1,104 @@
+{
+  "slug": "jaise-hirni-jal-ki-pyasi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "92"
+    }
+  ],
+  "title": {
+    "native": "जैसे हिरणी शीतल जल की प्यासी",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जैसे हिरणी शीतल जल की प्यासी,  मेरी आत्मा की प्यास है तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु तू मेरी सामर्थ और ढाल,  तू ही प्रभु मेरी आत्मा सम्भाल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जैसे हिरणी शीतल जल की प्यासी, मेरी आत्मा की प्यास है तू,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू मेरी सामर्थ और ढाल, तू ही प्रभु मेरी आत्मा सम्भाल,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:jaise hirni jal ki pyasi.docx",
+    "page": null
+  },
+  "chords": "जैसे हिरणी शीतल जल की प्यासी\n\n                   C   G            Am       C/E        F       G      C  G\n कोरस:- जैसे हिरणी शीतल जल की प्यासी,  मेरी आत्मा की प्यास है तू\n            C    G     Am               F   G   C\n          तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\nG                Am         F            C        F           Dm       E\n     1. यीशु तू मेरी सामर्थ और ढाल,  तू ही प्रभु मेरी आत्मा सम्भाल\n         C    G       Am                F     G   C\n         तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\n         C   G             Am       C/E        F        G   C   G\n        जैसे हिरणी शीतल जल की प्यासी,  मेरी आत्मा की प्यास है तू,\n         C    G       Am                  F    G C\n        तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\n          Am         F            C        F          Dm          E\n        यीशु तू मेरी सामर्थ और ढाल,  तू ही प्रभु मेरी आत्मा सम्भाल,\n        C   G     Am              F   G   E\n        तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\n                                                                        (B/15)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

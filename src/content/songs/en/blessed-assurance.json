@@ -1,0 +1,130 @@
+{
+  "slug": "blessed-assurance",
+  "numbers": [
+    {
+      "book": "TLBE",
+      "number": "3"
+    }
+  ],
+  "title": {
+    "native": "Blessed assurance, Jesus is mine!",
+    "roman": "",
+    "en": "Blessed assurance, Jesus is mine!"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "O what a foretaste of glory divine!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Heir of salvation, purchase of God",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Born of his Spirit, washed in his blood",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "This is my story, this is my song",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Praising my Savior all the day long",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Perfect submission, perfect delight",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Visions of rapture now burst on my sight",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Angels descending bring from above",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Echoes of mercy, whispers of love",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Perfect submission, all is at rest",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I in my Savior am happy and blessed",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Watching and waiting, looking above",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Filled with His goodness, lost in His love",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "imported",
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Blessed assurance.docx",
+    "page": null
+  },
+  "chords": "Blessed assurance, Jesus is mine!\n\n\n            D                           G         D\n Blessed assurance, Jesus is mine!\n                      Bm           E            A\n              O what a foretaste of glory divine!\n                                D          G                  D\n              Heir of salvation, purchase of God\n\t                Em     A                      D\n              Born of his Spirit, washed in his blood\n\nChorus:-\n                  D                         G               D\n       This is my story, this is my song\n                            Bm      E                 A           2\n       Praising my Savior all the day long\n\n                  D                           G           D\n Perfect submission, perfect delight\n                   Bm           E             A\n  Visions of rapture now burst on my sight\n                                D              G                  D\n  Angels descending bring from above\n                             Em        A                   D\n  Echoes of mercy, whispers of love\n\n        D                             G       D\n Perfect submission, all is at rest\n                   Bm              E                A\n       I in my Savior am happy and blessed\n                                  D           G                 D\n      Watching and waiting, looking above\n                                  Em            A                  D\n      Filled with His goodness, lost in His love\n\n\n                                                                                             (G/1)\n                                                                                                 TLBC Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

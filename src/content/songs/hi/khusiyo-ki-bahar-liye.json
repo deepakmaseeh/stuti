@@ -1,0 +1,103 @@
+{
+  "slug": "khusiyo-ki-bahar-liye",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "116"
+    }
+  ],
+  "title": {
+    "native": "खुशियों की बहार लिए, पापी का उद्धार लिए",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "खुशियों की बहार लिए, पापी का उद्धार लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आया है, आया है मेरा मसीहा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसा प्रेम किया उसने ... हा...हा...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग सुख छोड़ा उसने (2) हा...हा...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ पापी को बचाने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आया है, आया है मेरा मसीहा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ हम सब मिलकर गाएं...हा...हा...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तबला, ढफ और झांझ बजाएं...हा...हा...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सबको गीत सुनाएं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Khusiyo ki Bahar liye.docx",
+    "page": null
+  },
+  "chords": "खुशियों की बहार लिए, पापी का उद्धार लिए\n\nकोरस:- खुशियों की बहार लिए, पापी का उद्धार लिए (2)\n         आया है, आया है मेरा मसीहा (2)\n\nऐसा प्रेम किया उसने ... हा...हा...\nस्वर्ग सुख छोड़ा उसने  (2) हा...हा...\nमुझ पापी को बचाने (2)\nआया है, आया है मेरा मसीहा (2)\n\nआओ हम सब मिलकर गाएं...हा...हा...\nतबला, ढफ और झांझ बजाएं...हा...हा...\nसबको गीत सुनाएं (2)\n\n\n\n\n\n\n                                                 (G/28)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

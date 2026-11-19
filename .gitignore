@@ -32,6 +32,10 @@ Stuti · Christian Songbook App · Feature Spec v0.1_files/
 # scratch files from local checks (screenshots, downloaded copies)
 *.tmp.*
 
+# Word → JSON import workspace (source zip + extracted text; song JSON lives in src/content)
+_import/
+songs-*.zip
+
 # OS / editor
 .DS_Store
 Thumbs.db

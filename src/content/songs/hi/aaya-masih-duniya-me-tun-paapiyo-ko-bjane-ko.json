@@ -1,0 +1,132 @@
+{
+  "slug": "aaya-masih-duniya-me-tun-paapiyo-ko-bjane-ko",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "17"
+    }
+  ],
+  "title": {
+    "native": "आया मसीह दुनियाँ में तू पपियों को बचाने को",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आया मसीह दुनियाँ में तू पापियों को बचाने को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करे विश्वास जो यीशु पर, करेगा पार इस दुनियाँ को।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "दुनियाँ पापों में डूब रही थी, सारे गुमराह हो रहे थे,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छोड़ा आसमान बना इंसान, (2) मिली नजात इस दुनियाँ को।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "बैतलहम के मैदानों में, गड़रिये रात सो रहे थे,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सुनी फ़रिश्तों की ज़ुबान, (2) पैदा हुआ ख्रीष्ट निधान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ज्ञानियों ने किताबों में, पाया जनम का एक वर्णन,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चल दिए वो भी ऊँटों पर, (2) अद्भुत तारे का पीछा कर।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "समुंदर की सब लहरों पर, दुनियाँ की हर ज़ुबानों पर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है उसका नाम, है उसका काम, (2) सारा जहाँ लाए ईमान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aaya masih duniya me tun paapiyo ko bjane ko.doc",
+    "page": null
+  },
+  "chords": "आया मसीह दुनियाँ में तू पपियों को बचाने को\n            D              F#m     A            G    A     D\nकोरस-  आया मसीह दुनियाँ में तू पापियों को बचाने को,\n            D          F#m       A            G    A           D\n         करे विश्वास जो यीशु पर, करेगा पार इस दुनियाँ को।\n\n        D        G        Em      D              G   A     D\n1.\tदुनियाँ पापों में डूब रही थी, सारे गुमराह हो रहे थे, (2)\n       D             G             D                     A                 D\n      छोड़ा आसमान बना इंसान, (2) मिली नजात इस दुनियाँ को।\n\n        D        G   Em    D           G    A      D\n2.\tबैतलहम के मैदानों में, गड़रिये रात सो रहे थे, (2)\n        D          G           D                       A        D\n      सुनी फ़रिश्तों की ज़ुबान, (2) पैदा हुआ ख्रीष्ट निधान।\n\n        D       G    Em    D           G    A            D\n3.\t ज्ञानियों ने किताबों में, पाया जनम का एक वर्णन, (2)\n         D         G              D                   A                D\n       चल दिए वो भी ऊँटों पर, (2) अद्भुत तारे का पीछा कर।\n\n         D      G   Em        D                  G   A      D\n4.\t समुंदर की सब लहरों पर, दुनियाँ की हर ज़ुबानों पर, (2)\n         D          G                  D                     A             D\n       है उसका नाम, है उसका काम, (2) सारा जहाँ लाए ईमान।\n                                                              (G/1)\n                                                                                                                          The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

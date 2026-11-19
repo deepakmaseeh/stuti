@@ -1,0 +1,132 @@
+{
+  "slug": "aao-pyaaron-sharan-maish-ki",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "12"
+    }
+  ],
+  "title": {
+    "native": "आओ प्यारो शरण मसीह की",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आओ प्यारो शरण मसीह की,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वही हमारा परमेश्वर है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "वही सबका सृजनहारा, पालनहारा, तारणहारा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग भूलोक पाताल का स्वामी, (2) वही हमारा परमेश्वर है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आत्मा प्रेम दया पवित्र, शक्ति ,जीवन, ज्योति, शान्ति",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और भी गुण, महिमा दिखलाते, (2) वही हमारा परमेश्वर है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "स्वर्ग में महिमा, इच्छा, पूरी, होवे इस भूलोक के अन्दर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शीश नवाऐं जय ललकारें, (2) वही हमारा परमेश्वर है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "दीन के बन्धु, हीन के सिन्धु, हर के प्रभु लाचार के प्रेमी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा उसकी बुद्धि से बाहर, (2) वही हमारा परमेश्वर है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aao Pyaaron Sharan Maish Ki.doc",
+    "page": null
+  },
+  "chords": "आओ प्यारो शरण मसीह की\n\n   C            G             C\n   कोरस:- आओ प्यारो शरण मसीह की, (2)\n    C             G    C\n   वही हमारा परमेश्वर है। (2)\n\n    C     G    C          G            C\n1. वही सबका सृजनहारा, पालनहारा, तारणहारा,\t (2)\n    C            G           C             C          G     C\n   स्वर्ग भूलोक पाताल का स्वामी, (2) वही हमारा परमेश्वर है। (2)\n\n    C     G   C           G              C\n2. आत्मा प्रेम दया पवित्र, शक्ति ,जीवन, ज्योति, शान्ति (2)\n    C               G         C             C          G       C\n    और भी गुण, महिमा दिखलाते, (2) वही हमारा परमेश्वर है। (2)\n\n    C            G      C        G          C\n3. स्वर्ग में महिमा, इच्छा, पूरी, होवे इस भूलोक के अन्दर (2)\n     C             G         C            C          G       C\n    शीश नवाऐं जय ललकारें, (2) वही हमारा परमेश्वर है। (2)\n\n    C       G    C              G           C\n4. दीन के बन्धु, हीन के सिन्धु, हर के प्रभु लाचार के प्रेमी (2)\n    C               G       C          C            G      C\n    महिमा उसकी बुद्धि से बाहर, (2) वही हमारा परमेश्वर है। (2)\n                                                                      (A/15)\n                                                                                                        The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

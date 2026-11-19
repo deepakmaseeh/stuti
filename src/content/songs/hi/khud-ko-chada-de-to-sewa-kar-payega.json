@@ -1,0 +1,103 @@
+{
+  "slug": "khud-ko-chada-de-to-sewa-kar-payega",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "112"
+    }
+  ],
+  "title": {
+    "native": "खुद को चढ़ा दें तो, सेवा कर पाएंगें",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "खुद मर जाए तो, खुद से जी पाएंगे।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रुस उठाने से, भावना बदल जाएगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धीरज रखने पर, शान्ति भी मिल जाएगी।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नाम और आदरमान, यीशु नाम के लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी महिमा करें, दीन और नम्र बनें।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कल की चिन्ता मे, व्याकुल न हो बेटी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब तक संभाला है, आगे संभालेगा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन संचय न करो, चोरी हो जाएगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दे दो प्रभु के लिए, पूरा हो जायेगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Khud Ko Chada De to Sewa Kar Payega.docx",
+    "page": null
+  },
+  "chords": "खुद को चढ़ा दें तो, सेवा कर पाएंगें\nखुद मर जाए तो, खुद से जी पाएंगे।\n\nक्रुस उठाने से, भावना बदल जाएगी\nधीरज रखने पर, शान्ति भी मिल जाएगी।\n\nनाम और आदरमान, यीशु नाम के लिए\nउसकी महिमा करें, दीन और नम्र बनें।\n\nकल की चिन्ता मे, व्याकुल न हो बेटी\nअब  तक संभाला है, आगे संभालेगा।\n\nधन संचय न करो, चोरी हो जाएगा,\nदे दो प्रभु के लिए, पूरा हो जायेगा। (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

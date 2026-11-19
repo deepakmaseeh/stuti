@@ -183,10 +183,8 @@ describe('validate: PUBLIC_INCLUDE_DEMO (F9)', () => {
     expect(run({ songs, includeDemo: true }).errors).toEqual([]);
   });
 
-  it('the real sample content passes only with demo mode on', () => {
+  it('the real TLBC catalog passes with demo mode off', () => {
     const real = readContent(join(__dirname, '..', '..', 'src', 'content'));
-    expect(validateEntries({ ...real, includeDemo: true, today: TODAY }).errors).toEqual([]);
-    const off = validateEntries({ ...real, includeDemo: false, today: TODAY });
-    expect(off.errors.filter((e) => e.rule === '7-rights')).toHaveLength(4);
+    expect(validateEntries({ ...real, includeDemo: false, today: TODAY }).errors).toEqual([]);
   });
 });

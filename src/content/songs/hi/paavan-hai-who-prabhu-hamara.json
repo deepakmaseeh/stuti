@@ -1,0 +1,104 @@
+{
+  "slug": "paavan-hai-who-prabhu-hamara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "148"
+    }
+  ],
+  "title": {
+    "native": "पावन है वो प्रभु हमारा, उसकी जय जयकार करो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "निर्बल का वह बल है न्यारा, उसकी जय जयकार करो,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जय हो, जय हो, जय हो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दीन दुखियों का है वह दाता, भटके हुओं को राह बताता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सीधे मार्ग में हमें चलाता, (2) उसकी जय जयकार करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु हमारा बड़ा महान, निर्बुद्धियों को देता ज्ञान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पतितों का वह बचाता प्राण, (2) उसकी जय जयकार करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु की महिमा अपरम्पार, जग का वह है तारणहार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मानो उसे अपना आधार, (2) उसकी जय जयकार करो।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Paavan Hai Who Prabhu Hamara.doc",
+    "page": null
+  },
+  "chords": "पावन है वो प्रभु हमारा, उसकी जय जयकार करो\n\n           D                       Bm     D        A                D\n            पावन है वो प्रभु हमारा, उसकी जय जयकार करो\n      D                             Bm    D         A                D\n    निर्बल का वह बल है न्यारा, उसकी जय जयकार करो,\n\t D                A          D\nकोरस:-  जय हो, जय हो, जय हो। (2)\n\n     D\t                                       G                   A       D\n दीन दुखियों का है वह दाता, भटके हुओं को राह बताता (2)\nD                G       Em     D                   A     D\n    सीधे मार्ग में हमें चलाता, (2) उसकी जय जयकार करो।\n\n       D\t                G                 A      D\n प्रभु हमारा बड़ा महान, निर्बुद्धियों को देता ज्ञान (2)\n                D                    G       Em     D                 A       D\n    पतितों का वह बचाता प्राण, (2) उसकी जय जयकार करो।\n\n    D                                   G                    A     D\n प्रभु की महिमा अपरम्पार, जग का वह है तारणहार (2)\n           D               G       Em     D                   A     D\n    मानो उसे अपना आधार, (2) उसकी जय जयकार करो।\n\n                               (D/6)\n                                                                            The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

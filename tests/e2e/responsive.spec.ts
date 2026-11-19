@@ -34,7 +34,7 @@ for (const vp of VIEWPORTS) {
     });
 
     test('song page stays readable', async ({ page }) => {
-      await page.goto('/song/ta-yesuve-en-thunai/');
+      await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
       await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
       await expect(page.locator('.lyrics .line').first()).toBeVisible();
       if (vp.width >= 900) {
@@ -47,7 +47,7 @@ for (const vp of VIEWPORTS) {
 
     if (vp.width >= 1280) {
       test('wide layout shows Finder, song and Set panel', async ({ page }) => {
-        await page.goto('/song/ta-yesuve-en-thunai/');
+        await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
         await waitHydrated(page);
         await expect(page.locator('.desktop-finder')).toBeVisible();
         await expect(page.locator('.desktop-set')).toBeVisible();

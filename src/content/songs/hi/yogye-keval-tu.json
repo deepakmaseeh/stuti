@@ -1,0 +1,93 @@
+{
+  "slug": "yogye-keval-tu",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "238"
+    }
+  ],
+  "title": {
+    "native": "योग्य केवल तू, योग्य केवल तू",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "योग्य केवल तू ही प्रभु, मेरे प्रभु यीशु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र केवल तू, पवित्र केवल तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र केवल तू ही प्रभु, मेरे प्रभु यीशु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आदर और महिमा हो तेरी, आदर और महिमा हो तेरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आदर और महिमा हो तेरी प्रभु, मेरे प्रभु यीशु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति प्रशंसा हो तेरी, स्तुति प्रशंसा हो तेरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति प्रशंसा हो तेरी प्रभु, मेरे प्रभु यीशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:yogye keval tu - Chord.docx",
+    "page": null
+  },
+  "chords": "योग्य केवल तू, योग्य केवल तू\n\nG               C    G               D\nयोग्य केवल तू, योग्य केवल तू\nC                G              D            G\nयोग्य केवल तू ही प्रभु, मेरे प्रभु यीशु\n\nG                C    G                D\nपवित्र केवल तू, पवित्र केवल तू\nC                 G              D            G\nपवित्र केवल तू ही प्रभु, मेरे प्रभु यीशु\n\nG                         C          G                        D\nआदर और महिमा हो तेरी, आदर और महिमा हो तेरी\nC                         G                 D            G\nआदर और महिमा हो तेरी प्रभु, मेरे प्रभु यीशु\n\nG                 C          G                 D\nस्तुति प्रशंसा हो तेरी, स्तुति प्रशंसा हो तेरी\nC                 G                 D            G\nस्तुति प्रशंसा हो तेरी प्रभु, मेरे प्रभु यीशु\n\n\n\n\n\n                                                            (F/26)\n                                                                                           The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

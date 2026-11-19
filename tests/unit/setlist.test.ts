@@ -14,8 +14,8 @@ describe('encodeSet / decodeSet', () => {
     t: 'ஞாயிறு ஆராதனை · रविवार',
     d: '2026-11-22',
     s: [
-      { id: 'ta-yesuve-en-thunai', book: 'DT', note: 'key of G' },
-      { id: 'hi-yeshu-mera-sahara' },
+      { id: 'hi-aadi-aur-ant-tu-hi-hai', book: 'TLBC', note: 'key of G' },
+      { id: 'hi-aaj-fasi-majhdhar-main' },
       { id: 'en-amazing-grace', note: 'verse 1 & 3 only' },
     ],
   };

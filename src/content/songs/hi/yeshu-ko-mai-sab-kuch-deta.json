@@ -1,0 +1,142 @@
+{
+  "slug": "yeshu-ko-mai-sab-kuch-deta",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "223"
+    }
+  ],
+  "title": {
+    "native": "यीशु को मैं सब कुछ देता",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु को मैं सब कुछ देता, सब कुछ करता हूँ कुरबान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीऊँगा मैं रोज मसीह में, उस पर रखूँगा ईमान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "सब मैं देता हूँ, सब मैं देता हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझी को मुबारक मुन्जी, सब कुछ देता हूँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "यीशु को मैं सब कुछ देता, झुकता तेरे कदमों पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छोड़ता सारी दुनियाँदारी, मुझे बिल्कुल अपना कर।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु को मैं सब कुछ देता, मुझे ले और अपना कर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दे मकबूलियत की गवाही, हूँ मैं तेरा सरासर।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "यीशु को मैं सब कुछ देता, अभी उसके पाक हुज़ूर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ में भर दे प्यार और कुव्वत, बरकतों से कर मामूर।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "यीशु को मैं सब कुछ देता, रूह की आग अब दिल में है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आह! कमाल नजात की खुशी, सन्ना सन्ना उसकी जय।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yeshu Ko Mai Sab Kuch Deta 06.06.2019.docx",
+    "page": null
+  },
+  "chords": "यीशु को मैं सब कुछ देता\n\n         D               A                 D                 A     D\n यीशु को मैं सब कुछ देता, सब कुछ करता हूँ कुरबान\n  D            A                  D          A      D\n जीऊँगा मैं रोज मसीह में, उस पर रखूँगा ईमान।\n          Bm          G   A            D\nकोरस:-  सब मैं देता हूँ, सब मैं देता हूँ।\n          D           Bm               A               D\n        तुझी को मुबारक मुन्जी, सब कुछ देता हूँ।\n          D              A                  D            A     D\n2. यीशु को मैं सब कुछ देता, झुकता तेरे कदमों पर\nD                 A            D               A      D\nछोड़ता सारी दुनियाँदारी, मुझे बिल्कुल अपना कर।\n       D             A                  D              A       D\nयीशु को मैं सब कुछ देता, मुझे ले और अपना कर\nD                  A             D          A  D\nदे मकबूलियत की गवाही, हूँ मैं तेरा सरासर।\n        D              A\t\t       D             A     D\n4. यीशु को मैं सब कुछ देता, अभी उसके पाक हुज़ूर\nD\t\t\t   A\t\t    D            A     D\nमुझ में भर दे प्यार और कुव्वत, बरकतों से कर मामूर।\n          D\t\t  A                  D                     A      D\n5. यीशु को मैं सब कुछ देता, रूह की आग अब दिल में है\n D                 A                   D           A        D\nआह! कमाल नजात की खुशी, सन्ना सन्ना उसकी जय।\n                                                                       (E/18)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

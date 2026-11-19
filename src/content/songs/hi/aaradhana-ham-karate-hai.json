@@ -1,0 +1,110 @@
+{
+  "slug": "aaradhana-ham-karate-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "13"
+    }
+  ],
+  "title": {
+    "native": "आराधना हम करते हैं",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आराधना हम करते हैं, पूरे दिल और मन से, तेरी महिमा गाते हैं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और हम कहते हैं, दिल से कहते हैं; और हम कहते हैं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आ प्रभु यीशु आ, मुझमें हो तेरी महिमा;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ में हो तेरी महिमा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी शरण में, हम आते है; सारा आदर हम, तुझको देते हैं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और हम कहते हैं, दिल से कहते हैं; और हम कहते हैं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "आ प्रभु यीशु आ, मुझमें हो तेरी महिमा;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ में हो तेरी महिमा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:aaradhana ham karate hai.docx",
+    "page": null
+  },
+  "chords": "आराधना हम करते हैं\n\nC      F  G       C                 F            G           C\nआराधना हम करते हैं, पूरे दिल और मन से, तेरी महिमा गाते हैं। (2)\nC    F         C  F             C        F         G\nऔर हम कहते हैं, दिल से कहते हैं; और हम कहते हैं।\n\n          C         Am     F               C\nकोरस:- आ प्रभु यीशु आ, मुझमें हो तेरी महिमा; (2)\n             F             G\n         मुझ में हो तेरी महिमा।\n\nC   F        G         C           F        G          C\nतेरी शरण में, हम आते है; सारा आदर हम, तुझको देते हैं। (2)\nC    F         C  F             C        F         G\nऔर हम कहते हैं, दिल से कहते हैं; और हम कहते हैं।\n\n          C         Am     F               C\nकोरस:- आ प्रभु यीशु आ, मुझमें हो तेरी महिमा; (2)\n             F             G\n         मुझ में हो तेरी महिमा।",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

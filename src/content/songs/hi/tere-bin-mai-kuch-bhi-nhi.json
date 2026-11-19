@@ -1,0 +1,93 @@
+{
+  "slug": "tere-bin-mai-kuch-bhi-nhi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "188"
+    }
+  ],
+  "title": {
+    "native": "तेरे बिन मैं कुछ भी नहीं",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरे बिन मैं कुछ भी नहीं, ऐ प्रभु यीशु 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे बिन मैं कुछ भी नहीं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु आ - यीशु आ, करुं आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथों को अपने उठाकर तुझे दूं महिमा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "निर्बल हूँ, बल दे मुझको तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है दुआ तुझ से, है दुआ तुझ से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं कुछ भी नहीं बिना तेरे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:tere bin mai kuch bhi nhi.doc",
+    "page": null
+  },
+  "chords": "तेरे बिन मैं कुछ भी नहीं\n\nC                         Am\nतेरे बिन मैं कुछ भी नहीं\n      C                     F\nतेरे बिन मैं कुछ भी नहीं, ऐ प्रभु यीशु\t\t    2\nG                          C\nतेरे बिन मैं कुछ भी नहीं\n\nC                   Am                 F\nयीशु आ - यीशु आ, करुं आराधना\nG                     F                      C\t\t        2\nहाथों को अपने उठाकर तुझे दूं महिमा\n\nC                      Am\nनिर्बल हूँ, बल दे मुझको तू\n    F                     G     \t                2\nहै दुआ तुझ से, है दुआ तुझ से\n F              G                C\nमैं कुछ भी नहीं बिना तेरे (2)\n\n                                                      (C/4)\n                                                                                                      The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

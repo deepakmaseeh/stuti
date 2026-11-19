@@ -1,0 +1,118 @@
+{
+  "slug": "siyon-desh-hamara-hai-desh",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "178"
+    }
+  ],
+  "title": {
+    "native": "सिय्योन देश हमारा है देश",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः- \tसिय्योन देश हमारा है देश",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रहते हैं हम परदेश, जायेंगे हम अपने देश",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाल्लेलूयाह, हाल्लेलूयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मन ना लगायें यहाँ, जाना हैं हमको वहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहाँ के सुखों का अन्त होगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वहाँ के सुखों का अन्त न होगा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुख जो हमारे यहाँ, न होगें फिर वहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे दुःखों का अन्त होगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुःख के ये आँसू यीशु पोंछेगा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आयेगा यीशु यहाँ, ले जायेगा हमको वहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वादा यीशु का पूरा होगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अनन्त जीवन हमको मिलेगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Siyon Desh Hamara Hai Desh.doc",
+    "page": null
+  },
+  "chords": "सिय्योन देश हमारा है देश\n\n             D\nकोरसः- \tसिय्योन देश हमारा है देश\n                             A    G                    D\n             रहते हैं हम परदेश, जायेंगे हम अपने देश\n\t          A                           D\n\t\t हाल्लेलूयाह, हाल्लेलूयाह (2)\n\n       D                  A                         D\n   मन ना लगायें यहाँ, जाना हैं हमको वहाँ (2)\n    G                              D\n       यहाँ के सुखों का अन्त होगा (2)\n         D                    A          D\n       वहाँ के सुखों का अन्त न होगा। (2)\n\n         D                   A                      D\n   दुख जो हमारे यहाँ, न होगें फिर वहाँ (2)\n                              D\n       सारे दुःखों का अन्त होगा (2)\n         D             A                D\n       दुःख के ये आँसू यीशु पोंछेगा। (2)\n\n         D                 A                            D\nआयेगा यीशु यहाँ, ले जायेगा हमको वहाँ (2)\n G                        D\n       वादा यीशु का पूरा होगा, (2)\n          D                A           D\n       अनन्त जीवन हमको मिलेगा। (2)\n                                                                         (E/41)\n                                                                                                                                   The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

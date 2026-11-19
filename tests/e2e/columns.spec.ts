@@ -5,7 +5,7 @@ test.describe('columns layout', () => {
   test.use({ viewport: { width: 1440, height: 900 } });
 
   test('Columns mode aligns native/roman/english on one row', async ({ page }) => {
-    await page.goto('/song/ta-yesuve-en-thunai/');
+    await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
     await waitHydrated(page);
     // Turn English on so three cells are visible for the alignment check.
     const enChip = page.locator('.toolbar').getByRole('button', { name: /^English/ });

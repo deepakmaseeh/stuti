@@ -1,0 +1,108 @@
+{
+  "slug": "taarif-taarif-mil-ke-karo-saare-taarif",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "182"
+    }
+  ],
+  "title": {
+    "native": "तारीफ, तारीफ, तारीफ, मिल के करो सारे तारीफ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः-  तारीफ, तारीफ, तारीफ, मिल के करो सारे तारीफ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु की जो है प्यारा मुंजी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसने ही हम सबको बनाया, जो कुछ दिखता उसने रचाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे जहाँ का वह शाहंशाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों से है पाक वह करता, सारी खताएं माफ वह करता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे रोगों को करता चंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी मौत से ज़िन्दगी है पाई, आशा नई एक उसने दिलाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बैठेंगे तख्त पर फतहमन्द ही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम्द ओ सन्ना हम मिलके करेंगे, सदा वहाँ पर उसी को ताकेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गीत नया वहां गाएंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Taarif Taarif Mil Ke Karo Saare Taarif.doc",
+    "page": null
+  },
+  "chords": "तारीफ, तारीफ, तारीफ, मिल के करो सारे तारीफ\n\n           D             G    A                       D\n कोरसः-  तारीफ, तारीफ, तारीफ, मिल के करो सारे तारीफ (2)\n              D                 A        D\n           यीशु की जो है प्यारा मुंजी (2)\n\n     D                           A      G                  A         D\n  उसने ही हम सबको बनाया, जो कुछ दिखता उसने रचाया (2)\n                                A      D\n        सारे जहाँ का वह शाहंशाह (2)\n\n       D                            A     G              A              D\nपापों से है पाक वह करता, सारी खताएं माफ वह करता (2)\n                               A      D\n         सारे रोगों को करता चंगा (2)\n\n         D                               A     G                A          D\nउसकी मौत से ज़िन्दगी है पाई, आशा नई एक उसने दिलाई (2)\n                         A           D\n         बैठेंगे तख्त पर फतहमन्द ही (2)\n\n           D                                 A   G                 A           D\nहम्द ओ सन्ना हम मिलके करेंगे, सदा वहाँ पर उसी को ताकेंगे (2)\n               A   D\n         गीत नया वहां गाएंगे (2)\n                                                                 (C/12)\n                                                                                                          The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

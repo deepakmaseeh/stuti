@@ -1,0 +1,98 @@
+{
+  "slug": "uske-phaatakon-me-praves",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "209"
+    }
+  ],
+  "title": {
+    "native": "उसके फाटको में प्रवेश करूंगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "उसके फाटको में प्रवेश करूंगा धन्यवाद के साथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके आंगनों में स्तुति करूंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं कहूंगा यह दिन यहोवा ने बनाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं खुश हूं कि उसने आनन्दित किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनन्दित किया मुझे आनन्दित किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं खुश हूं उसने आनन्दित किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनन्दित किया आनन्दित किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं खुश हूं कि उसने आनन्दित किया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Uske Phaatakon Me praves.doc",
+    "page": null
+  },
+  "chords": "उसके फाटको में प्रवेश करूंगा\n\n               D                                 G                   D\nकोरस:-  उसके फाटको में प्रवेश करूंगा धन्यवाद के साथ\n\t     D              G                 D\n          उसके आंगनों में स्तुति करूंगा\n\t     D                     G       D          Bm\n         मैं कहूंगा यह दिन यहोवा ने बनाया\n\t    G                   A                       D\n   \t    मैं खुश हूं कि उसने आनन्दित किया\n              G    D        Bm\n         आनन्दित किया मुझे आनन्दित किया\n              G                     A         D-G-D\n         मैं खुश हूं उसने आनन्दित किया\n                               G     D             Bm\n         आनन्दित किया आनन्दित किया\n         G                     A                       D\n         मैं खुश हूं कि उसने आनन्दित किया\n\n\n\n\n                                                           (A/28)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

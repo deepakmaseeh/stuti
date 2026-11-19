@@ -1,0 +1,98 @@
+{
+  "slug": "jo-krus-pe-kurba-hai-wo-mera-masiha-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "106"
+    }
+  ],
+  "title": {
+    "native": "जो क्रूस पे कुरबां है, वो मेरा मसीहा है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जो क्रूस पे कुरबां है, वो मेरा मसीहा है; हर ज़ख्म जो उसका है;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह मेरे गुनाह का है, वह मेरे गुनाह का है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इस दुनियाँ में ले आए, मेरे ही गुनाह उसको; मेरे ही गुनाह उसको",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये ज़ुल्म सितम उस पर, मैंने ही कराया है- मैंने ही कराया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इन्सान है वह कामिल, और सच्चा ख़ुदा वह है; और सच्चा ख़ुदा वह है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह प्यार का दरिया है, सच्चाई का रास्ता है- सच्चाई का रास्ता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देने को मुझे जीवन, खुद मौत सही उसने; खुद मौत सही उसने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या खूब है कुरबानी, क्या प्यार अनोखा है- क्या प्यार अनोखा है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:jo krus pe kurba hai wo mera masiha hai.docx",
+    "page": null
+  },
+  "chords": "जो क्रूस पे कुरबां है, वो मेरा मसीहा है\n\n    F             Dm          Bb     F         F                  Bb\nकोरस:- जो क्रूस पे कुरबां है, वो मेरा मसीहा है; हर ज़ख्म जो उसका है;\n           C           F             C          F\n    वह मेरे गुनाह का है, वह मेरे गुनाह का है\n\n F                  Dm                  Bb     C              F\nइस दुनियाँ में ले आए, मेरे ही गुनाह उसको; मेरे ही गुनाह उसको\nF                Bb       C          F       C          F\n          ये ज़ुल्म सितम उस पर, मैंने ही कराया है- मैंने ही कराया है\n\n F                Dm                       Bb     C                F\nइन्सान है वह कामिल, और सच्चा ख़ुदा वह है; और सच्चा ख़ुदा वह है\n F               Bb       C            F        C            F\n          वह प्यार का दरिया है, सच्चाई का रास्ता है- सच्चाई का रास्ता है\n\n F              Dm                    Bb    C               F\nदेने को मुझे जीवन, खुद मौत सही उसने; खुद मौत सही उसने\n  F                 Bb   C           F         C            F\n    क्या खूब है कुरबानी, क्या प्यार अनोखा है- क्या प्यार अनोखा है",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

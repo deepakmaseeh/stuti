@@ -1,0 +1,111 @@
+{
+  "slug": "jay-jay-naam-yeshu-naam",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "95"
+    }
+  ],
+  "title": {
+    "native": "जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "बलहीन का सहारा, पापियों का दोस्त है तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू है कितना प्यारा, शब्द न कैसे बताऊँ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तुझ में बना रहूँ तो, अमृत फल लाऊँ मैं;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाऊँ तेरी जय सदा तो, तुझ सा बन जाऊँ मैं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तू ही है जो मुझको बुलाता, देता है जीवन जल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी शक्ति पाऊँ सदा, योजना है सफल",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Jay jay naam yeshu naam.docx",
+    "page": null
+  },
+  "chords": "जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम\n\n    D                        A                  D\n कोरस:- जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम (4)\n\n     D          G     D                G        D\n1. बलहीन का सहारा, पापियों का दोस्त है तू\n     D           G                          A\n   यीशु तू है कितना प्यारा, शब्द न कैसे बताऊँ।\n\n     D       G         D                  G    D\n2. तुझ में बना रहूँ तो, अमृत फल लाऊँ मैं;\n     D           G                              A\n    गाऊँ तेरी जय सदा तो, तुझ सा बन जाऊँ मैं।\n\n    D             G             D            G        D\n3. तू ही है जो मुझको बुलाता, देता है जीवन जल\n    D           G                          A\n   तेरी शक्ति पाऊँ सदा, योजना है सफल\n\n\n\n\n\n                                                              (B/7)\n                                                                                                          The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "too-hee-shara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "257"
+    }
+  ],
+  "title": {
+    "native": "तू ही सहारा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तू ही सहारा, तू ही भरोसा, संगीत तू ही, तू ही है भाषा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाऊँ मैं गीत तेरे, गाऊँ तेरी शान में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आवाज़ गूंजे मेरी, धरती और आसमान में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे दम से है ये दुनियाँ, और कुछ भी जानू ना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चारों तरफ है मेरे, तेरे प्रशंसा का गान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मुझको यहां लाया, यही है मेरा ठिकाना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरे वचनों से, भर जाए जीवन मेरा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:सारे जग में तेरी प्रशंसा.docx",
+    "page": null
+  },
+  "chords": "सारे जग में तेरी प्रशंसा, यीशु ही जीवन, यीशु ही आशा,\n\n   तू ही सहारा, तू ही भरोसा,  संगीत तू ही, तू ही है भाषा\n\nगाऊँ मैं गीत तेरे, गाऊँ तेरी शान में,\n\nआवाज़ गूंजे मेरी, धरती और आसमान में,\n\nतेरे दम से है ये दुनियाँ, और कुछ भी जानू ना (2)\n\nचारों तरफ है मेरे, तेरे प्रशंसा का गान,\n\nतू मुझको यहां लाया, यही है मेरा ठिकाना\n\nयीशु तेरे वचनों से, भर जाए जीवन मेरा (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

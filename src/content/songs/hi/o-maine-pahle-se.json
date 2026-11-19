@@ -1,0 +1,108 @@
+{
+  "slug": "o-maine-pahle-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "147"
+    }
+  ],
+  "title": {
+    "native": "ओ मैंने पहले से कह दइ मसीह",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ओ मैंने पहले से कह दइ मसीह मरियम को जायो रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मसीह मरियम को जायो रे मसीह मरियम को जायो रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग लोक से चला फ़रिश्ता डिग मरियम के रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मरियम से वो यूँ कर बोला तेरे बेटा होगा रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ मैंने पहले से कह........",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये सुन कर के मरियम बोली सुनो फ़रिश्ता रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ब्याह हुआ न अब लो मेरा कैसे होगा रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ मैंने पहले से कह........",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये सुनकर के फ़रिश्ता बोला मैं समझाऊँ रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुदाबाप की कुदरत तोह पे साया डाले रे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:o MAINE PAHLE SE.docx",
+    "page": null
+  },
+  "chords": "ओ मैंने पहले से कह दइ मसीह\n\n          D      Bm   A   D            Bm              A    D\nकोरस:- ओ मैंने पहले से कह दइ मसीह मरियम को जायो रे (2)\n         D      G                    D        Em                  A\n         मसीह मरियम को जायो रे मसीह मरियम को जायो रे\n\n            A                D               G                D\n स्वर्ग लोक से चला फ़रिश्ता डिग मरियम के रे (2)\n       G            D                 Em            A\n       मरियम से वो यूँ कर बोला तेरे बेटा होगा रे\n         D       Bm    A  D\n          ओ मैंने पहले से कह........\n\n           A            \t             G              D\n  ये सुन कर के मरियम बोली सुनो फ़रिश्ता रे (2)\n  G              D               Em        A\n  ब्याह हुआ न अब लो मेरा कैसे होगा रे\n    D         Bm  A  D\n           ओ मैंने पहले से कह........\n\n           A            \t              G            D\n ये सुनकर के फ़रिश्ता बोला मैं समझाऊँ रे (2)\n            G            D         Em                  A\n            खुदाबाप की कुदरत तोह पे साया डाले रे\n               D       Bm  A  D\n           ओ मैंने पहले से कह.......                            (G/32)\n                                                                            The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

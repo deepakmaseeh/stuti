@@ -1,0 +1,103 @@
+{
+  "slug": "halleluyah-stuti-gaayein-hum",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "69"
+    }
+  ],
+  "title": {
+    "native": "हाल्लेलुयाह स्तुति गाएं हम",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः- हाल्लेलुयाह स्तुति गाएं हम  (गाएं हम )",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु की स्तुति गाएं हम (गाएं हम )",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हा.......हाल्लेलुयाह.........हाल्लेलुयाह………हाल्लेलुयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रूस पर बलि द्वारा ,अपना लहू बहाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाप को हटा कर माफ है किया हमको बचा लिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु के पास आओ, और मुक्ति को अपनाओ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शान्ति वह देगा ,साथ अपना लेगा कभी नहीं छोड़ेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इस जीवन भर मैं ,सदा तुझको याद करूँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा वचन पढ़कर, तेरी इच्छा जान कर आगे ही बढ़ता रहूँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Halleluyah Stuti Gaayein Hum.doc",
+    "page": null
+  },
+  "chords": "हाल्लेलुयाह स्तुति गाएं हम\n\nEm          D           Em\nकोरसः- हाल्लेलुयाह स्तुति गाएं हम  (गाएं हम )\n         Em        D          Em\nयीशु की स्तुति गाएं हम (गाएं हम )\nEm            D                      Em                  C      Em\nहा.......हाल्लेलुयाह.........हाल्लेलुयाह………हाल्लेलुयाह (2)\n\nEm                                D     Em\nक्रूस पर बलि द्वारा ,अपना लहू बहाया (2)\n      Em                   D        C             Em\n पाप को हटा कर माफ है किया हमको बचा लिया (2)\n\nEm                              D               Em\nयीशु के पास आओ, और मुक्ति को अपनाओ (2)\n      Em                  D              C               Em\n शान्ति वह देगा ,साथ अपना लेगा कभी नहीं छोड़ेगा (2)\n\nEm                            D               Em\nइस जीवन भर मैं ,सदा तुझको याद करूँगा (2)\n      Em                     D                 C                 Em\n तेरा वचन पढ़कर, तेरी इच्छा जान कर आगे ही बढ़ता रहूँगा (2)\n\n\n\n\n                                                                               (F/62)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

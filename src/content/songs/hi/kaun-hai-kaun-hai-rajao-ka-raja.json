@@ -1,0 +1,104 @@
+{
+  "slug": "kaun-hai-kaun-hai-rajao-ka-raja",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "109"
+    }
+  ],
+  "title": {
+    "native": "कौन है कौन है राजाओं का राजा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "कौन है कौन है राजाओं का राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कौन है कौन है दुनियाँ का बादशाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु है उसका नाम, यीशु है उसका नाम,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो करो जय जयकार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पानी पर चलता है, भीड़ को खिलाता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान भी डरता है, यीशु के नाम से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "क्रूस को उठाया है, मौत को हराया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अनुग्रह से उसके हमने, उद्धार पाया है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:kaun hai kaun hai rajao ka raja.docx",
+    "page": null
+  },
+  "chords": "कौन है कौन है राजाओं का राजा\n\n                  E                        A                     E\nकोरस:- कौन है कौन है राजाओं का राजा\n        E                     A                   E\n         कौन है कौन है दुनियाँ का बादशाह\n         A                 B         F#m                B\n         यीशु है उसका नाम, यीशु है उसका नाम,\n         B  E    A        E\n        तो करो जय जयकार (4)\n\n        A                   E      A                     E\n पानी पर चलता है, भीड़ को खिलाता है (2)\n  E            C#m       E                B\n         शैतान भी डरता है, यीशु के नाम से (2)\n\n             A                 E      A                  E\n2.   क्रूस को उठाया है, मौत को हराया है (2)\n  E            C#m             E             B\n        अनुग्रह से उसके हमने, उद्धार पाया है (2)\n\n\n                                                      (A/44)\n                                                                                               The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

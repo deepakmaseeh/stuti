@@ -1,0 +1,63 @@
+{
+  "slug": "ho-jai-jaikar-jai-jaikar-karein",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "82"
+    }
+  ],
+  "title": {
+    "native": "सुधार आवश्यक",
+    "roman": "ho jai jaikar jai jaikar karein",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सुधार आवश्यक — मूल फ़ाइल से पाठ पढ़ा नहीं जा सका",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "permission_pending",
+    "basis": "Needs manual fix (source file unreadable)",
+    "evidence": "",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Ho Jai Jaikar, Jai Jaikar, Karein.doc",
+    "page": null
+  },
+  "chords": "gks t; t;dkj] t; t;dkj djsa\n\t\t     Em                    G\t\t\tD\tEm\ndksjl%& gks t; t;dkj] t; t;dkj djsa\n\n     Em          D\t     Em\t               Em           D            Em\nog gS gekjk jktk jktk ikiksa ls gedks cpkrk cpkrk]\nD                        \tC\t              D\t\t       B\n\tge ij viuh d:.kk djrk] vkSj djrk midkj\n   Em          \t\tG    \t     D                         Em\n\tD;ksa u ml ij ru eu okjsa ns viuk vf/kdkj\n\n   Em            D\t         Em              Em            D\t         Em\nLoxZ gS mldk flagklu] i`Foh cuh gS vklu vklu]\n D                        \tC\t              D\t\t       B\n\tvkdk”k mldh efgek crk, gLrdyk dks fn[kk,]\n    Em          \t\tG    \t     D                         Em\n\tlkjh i`Foh mldh jpuk mldk gh gS izrki\n\n\tEm            D\t         Em              Em            D\t         Em\nml ij ftldk Hkjkslk] og rks dHkh u fxjsxk fxjsxk]\n    D                      C\t              D\t\t B\n\tPkkgs chekjh pkgs xjhch pkgs gks vkdky]\n    Em          \t         G    \t       D                      Em\n lc ladV esa lc d’Vksa esa oks jgsxk lkFkA\n\n                                            (F/50)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": false
+}

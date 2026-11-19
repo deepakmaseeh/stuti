@@ -1,0 +1,108 @@
+{
+  "slug": "aaya-hai-yishu-aaya-hai-mukt-le-saath-aaya-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "16"
+    }
+  ],
+  "title": {
+    "native": "आया है यीशु आया है, मुक्त ले साथ आया है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः\tओहो आया है यीशु आया है (2) मुक्त ले साथ आया है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जंगल में मंगल दूत मिल गाते (2) जय जय हो प्रभु जय जय हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शान्ति मेल लाया है(2) ओहो आया.......",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरब देश से चले मजूंसी, (2)तारे से देखो तारे से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पता यीशु का पाया है (2) ओहो आया.......",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यरूशलेम जा पूछन लगे, (2) किस घर जी राजा किस घर जी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुकत का राजा आया है(2)ओहो आया.......",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखन गडरिये चले रात में (2) दूतों से सुनके दूतों से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मसीह मरियम का जाया है(2)ओहो आया.......",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दास सुना जब प्रेम मसीह का (2)तन मन से लोगों, तन मन से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aaya Hai Yishu Aaya Hai, Mukt Le Saath Aaya Hai.doc",
+    "page": null
+  },
+  "chords": "आया है यीशु आया है, मुक्त ले साथ आया है\n             G     D   C        G                  C        D   G\nकोरसः\tओहो आया है यीशु आया है (2) मुक्त ले साथ आया है। (2)\n\n                  G         C                G         D        C           G\nजंगल में मंगल दूत मिल गाते (2) जय जय हो प्रभु जय जय हो (2)\n  G     C     D  G\n \t शान्ति मेल लाया है(2) ओहो आया.......\n\n           G   C                G       D  C        G\nपूरब देश से चले मजूंसी, (2)तारे से देखो तारे से (2)\nG     C      D    G\n  पता यीशु का पाया है (2) ओहो आया.......\n\n           G   C               G         D         C       G\nयरूशलेम जा पूछन लगे, (2) किस घर जी राजा किस घर जी\n G       C      D    G\n       मुकत का राजा आया है(2)ओहो आया.......\n\n           G      C           G            D     C     G\nदेखन गडरिये चले रात में (2) दूतों से सुनके दूतों से (2)\n   G       C           D   G\n       मसीह मरियम का जाया है(2)ओहो आया.......\n\n           G     C              G            D       C     G\nदास सुना जब प्रेम मसीह का (2)तन मन से लोगों, तन मन से (2)\n           G        C       D  G\n       शरण यीशु की आया है (2)ओहो आया.......     (G/2)\n                                                                                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

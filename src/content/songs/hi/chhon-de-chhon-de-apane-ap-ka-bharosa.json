@@ -1,0 +1,110 @@
+{
+  "slug": "chhon-de-chhon-de-apane-ap-ka-bharosa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "48"
+    }
+  ],
+  "title": {
+    "native": "छोड़ दे, छोड़ दे, अपने आप का भरोसा,",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "छोड़ दे, छोड़ दे, अपने आप का भरोसा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कर मसीह पर भरोसा, वो तुझे जानता है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "दो-चार दिन की है तेरी, यह रंग, रूप और यह जवानी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह धन-दौलत और शौहरत, हो जाएगी एक दिन फानी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलने वाली साँसें भी ठहर जाऐंगें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "दुनियाँ की ताकत का, तू कभी भी भरोसा न कर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह झूठा प्यारा झूठा जग सारा, किसी पर भरोसा न कर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कच्चे धागों का यह बंधन टूट जाएगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:chhon de chhon de apane ap ka bharosa.docx",
+    "page": null
+  },
+  "chords": "छोड़ दे, छोड़ दे, अपने आप का भरोसा,\n\n\nकोरस:- छोड़ दे, छोड़ दे, अपने आप का भरोसा,\n          कर मसीह पर भरोसा, वो तुझे जानता है\n\n1. दो-चार दिन की है तेरी, यह रंग, रूप और यह जवानी,\n   यह धन-दौलत और शौहरत, हो जाएगी एक दिन फानी,\n   चलने वाली साँसें भी ठहर जाऐंगें\n\n2. दुनियाँ की ताकत का, तू कभी भी भरोसा न कर,\n    यह झूठा प्यारा झूठा जग सारा, किसी पर भरोसा न कर,\n     कच्चे धागों का यह बंधन टूट जाएगा\n\n\n\n\n\n\n\n                                          The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

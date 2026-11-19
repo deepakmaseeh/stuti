@@ -10,10 +10,9 @@ const PAGES = [
   '/about/',
   '/no-connection/',
   '/books/',
-  '/books/dt/',
-  '/song/ta-yesuve-en-thunai/',
-  '/song/hi-yeshu-mera-sahara/',
-  '/song/te-yesayya-neeve-naa-aadhaaram/',
+  '/books/tlbc/',
+  '/song/hi-aadi-aur-ant-tu-hi-hai/',
+  '/song/hi-aaj-fasi-majhdhar-main/',
   '/song/en-amazing-grace/',
 ];
 

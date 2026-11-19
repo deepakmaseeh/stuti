@@ -1,0 +1,127 @@
+{
+  "slug": "aavegee-tagee-aasman-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "259"
+    }
+  ],
+  "title": {
+    "native": "आवेगी ताज़गी आसमान से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आवेगी ताज़गी आसमान से, भेजेगा जिसको मसीह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "बरकत की बारिश, बरकत की बारिश भरपूर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रहम की बूँदे टपकती, पर बारिश हमको ज़रूर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, होगी नई कूव्वत ज़रूर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वादी पहाड़ और मैदान पर, जब बारिश होगी भरपूर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, काश अभी पावें हम सब,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू ताज़गी अब बख्श दे, वायदे को पूरा कर अब",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, भेज उसे अभी, हाँ अब,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मानते गुनाह जब हम अपने, दे बारिश यीशु ऐ रब्ब",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:होवेगी बरकत की बारिश.docx",
+    "page": null
+  },
+  "chords": "होवेगी बरकत की बारिश, वायदा पुर प्यार है सही,\n\n\nहोवेगी बरकत की बारिश, वायदा पुर प्यार है सही,\nआवेगी ताज़गी आसमान से, भेजेगा जिसको मसीह\n\n    कोरस:-  बरकत की बारिश, बरकत की बारिश भरपूर,\n      रहम की बूँदे टपकती, पर बारिश हमको ज़रूर\n\n2.  होवेगी बरकत की बारिश, होगी नई कूव्वत ज़रूर,\n     वादी पहाड़ और मैदान पर, जब बारिश होगी भरपूर\n\n3.  होवेगी बरकत की बारिश, काश अभी पावें हम सब,\n     यीशु तू ताज़गी अब बख्श दे, वायदे को पूरा कर अब\n\n4.  होवेगी बरकत की बारिश, भेज उसे अभी, हाँ अब,\n     मानते गुनाह जब हम अपने, दे बारिश यीशु ऐ रब्ब\n\n\n\n\n\n\n\n                                                                                (F/66)\n                                                             The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

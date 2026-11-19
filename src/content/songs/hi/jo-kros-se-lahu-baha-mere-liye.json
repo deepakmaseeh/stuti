@@ -1,0 +1,141 @@
+{
+  "slug": "jo-kros-se-lahu-baha-mere-liye",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "105"
+    }
+  ],
+  "title": {
+    "native": "जो क्रूस से लहू बहा, मेरे लिए",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जो क्रूस से लहू बहा, मेरे लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "काफी है वह मेरे गुनाह, धोने के लिये",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जो क्रूस से लहू बहा मेरे लिए",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "दुखों को मेरे वो उठा लिया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपराधों के कारण वो, घायल हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरी शान्ति के लिये उस पर ताड़ना पड़ी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके कोड़े खाने से ही, क्षमा मैं पाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो क्रूस से लहू...................",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "प्याले को उसने उठाकर कहा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लहू की यही एक नई वाचा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है बहाया ये लहू, तेरे गुनाह के लिये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इस में से जो भी पीयेगा, कभी न मरेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो क्रूस से लहू...................",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Jo kros se lahu baha mere liye.docx",
+    "page": null
+  },
+  "chords": "जो क्रूस से लहू बहा, मेरे लिए\n\n  F          C   Bb   C    F\n          जो क्रूस से लहू बहा, मेरे लिए (2)\n F           Bb         C          F\nकाफी है वह मेरे गुनाह, धोने के लिये (2)\n F           C   Bb C    F\nकोरस:- जो क्रूस से लहू बहा मेरे लिए (2)\n\n F                 Bb\n1. दुखों को मेरे वो उठा लिया,\n    C        Gm    C             F\nअपराधों के कारण वो, घायल हुआ\nF               C         Bb C       F\nमेरी शान्ति के लिये उस पर ताड़ना पड़ी (2)\nF           Bb          C           F\nउसके कोड़े खाने से ही, क्षमा मैं पाया (2)\n F          C\n  जो क्रूस से लहू...................\n\nF                 Bb\n2.  प्याले को उसने उठाकर कहा,\n      C      Gm          C    F\nमेरे लहू की यही एक नई वाचा\nF            C  Bb C           F\nहै बहाया ये लहू, तेरे गुनाह के लिये (2)\nF                Bb       C         F\nइस में से जो भी पीयेगा, कभी न मरेगा (2)\n F           C\nजो क्रूस से लहू...................",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

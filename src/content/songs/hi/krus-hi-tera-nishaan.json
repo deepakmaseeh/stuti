@@ -1,0 +1,172 @@
+{
+  "slug": "krus-hi-tera-nishaan",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "120"
+    }
+  ],
+  "title": {
+    "native": "क्रूस ही तेरा निशान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "क्रूस ही तेरा निशान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रूस ही तेरा निशान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आगे बढ़-ऐ-जवान!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पीछे न हटना कभी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु है तेरी चट्टान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "नैय्या तेरी मझधार में डूबी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कौन लगाएगा पार?",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "केवल यीशु हो सकता है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी नैय्या का पतवार।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरे ही खातिर आया जगत में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझको बचाने को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे लिए ही यीशु ने खोला,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्ति के द्वार को।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सबके लिए है सुसंदेशा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके ही प्यार का,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सबके दिलों का प्यारा मसीह है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राजा है शांति का।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Krus Hi Tera Nishaan.doc",
+    "page": null
+  },
+  "chords": "dzwl gh rsjk fu”kku\ndksjl%&\n\tdzwl gh rsjk fu”kku\n\tvkxs c/kkj esa Mwch]\ndkSu yxk,xk ikj\\\ndsoy ;h”kq gks ldrk gS]\nrsjh uS¸;k dk irokjA\n\nrsjs gh [kkfrj vk;k txr esa]\nrq>dks cpkus dks]\nrsjs fy, gh ;h”kq us [kksyk]\neqfDr ds }kj dksA\n\nlcds fy, gS lqlans”kk]\nmlds gh I;kj dk]\nlcds fnyksa dk I;kjk elhg gS]\njktk gS “kkafr dkA\n\n\nक्रूस ही तेरा निशान\nकोरसः-\n\tक्रूस ही तेरा निशान\n\tआगे बढ़-ऐ-जवान!\n\tपीछे न हटना कभी,\n\tयीशु है तेरी चट्टान।\n\n1.\tनैय्या तेरी मझधार में डूबी,\nकौन लगाएगा पार?\nकेवल यीशु हो सकता है,\nतेरी नैय्या का पतवार।\n\n2.\tतेरे ही खातिर आया जगत में,\nतुझको बचाने को,\nतेरे लिए ही यीशु ने खोला,\nमुक्ति के द्वार को।\n\n3.\tसबके लिए है सुसंदेशा,\nउसके ही प्यार का,\nसबके दिलों का प्यारा मसीह है,\nराजा है शांति का।",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "teri-aradhna-karoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "194"
+    }
+  ],
+  "title": {
+    "native": "तेरी आराधना करूँ, तेरी आराधना करूँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "तेरी आराधना करूँ, तेरी आराधना करूँ,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाप क्षमा कर जीवन दे दे, दया की याचना करूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही महान सर्वशक्तिमान, तू ही है मेरे जीवन का संगीत",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हृदय के तार छेड़े झंनकार, (2) तेरी आराधना है मधुर गीत",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन से मेरे तू महिमा पाए, एक ही कामना करूँ। तेरी आराधना....",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सृष्टि के हर एक कण-कण में, छाया है तेरी ही महिमा का राज",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पक्षी भी करते हैं तेरी प्रशंसा,(2)हर पल सुनाते हैं आनन्द का राग",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरी भी भक्ति तुझे ग्रहण हो, हृदय से प्रार्थना करूँ। तेरी आराधना....",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Teri Aradhna Karoon.doc",
+    "page": null
+  },
+  "chords": "तेरी आराधना करूँ, तेरी आराधना करूँ\n\n          Em                           Am\n कोरस:- तेरी आराधना करूँ, तेरी आराधना करूँ,\n                    D             C               D    C     D\n          पाप क्षमा कर जीवन दे दे, दया की याचना करूँ\n\n      Em       C             D            Em\nतू ही महान सर्वशक्तिमान, तू ही है मेरे जीवन का संगीत (2)\n      Em        A   D   Em C             D        Em\n      हृदय के तार छेड़े झंनकार, (2) तेरी आराधना है मधुर गीत (2)\n                                                  Am\n      जीवन से मेरे तू महिमा पाए, एक ही कामना करूँ। तेरी आराधना....\n\n      Em               C            D                Em\nसृष्टि के हर एक कण-कण में, छाया है तेरी ही महिमा का राज (2)\n    Em          A  D  Em  C               D                       Em\n      पक्षी भी करते हैं तेरी प्रशंसा,(2)हर पल सुनाते हैं आनन्द का राग (2)\n                                               Am\n      मेरी भी भक्ति तुझे ग्रहण हो, हृदय से प्रार्थना करूँ। तेरी आराधना....\n\n\n\n\n\n                                                 (C/16)\n                                                                                                               The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

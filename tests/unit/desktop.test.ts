@@ -35,12 +35,12 @@ describe('parseSongHtml', () => {
   </body></html>`;
 
   it('extracts title, subtitle and lyric lines as text', () => {
-    const song = parseSongHtml(html, '/song/ta-yesuve-en-thunai/');
+    const song = parseSongHtml(html, '/song/hi-aadi-aur-ant-tu-hi-hai/');
     expect(song).toMatchObject({
       title: 'இயேசுவே என் துணை',
       titleLang: 'ta',
       subtitle: 'Yesuve En Thunai',
-      url: '/song/ta-yesuve-en-thunai/',
+      url: '/song/hi-aadi-aur-ant-tu-hi-hai/',
     });
     expect(song!.sections).toHaveLength(2);
     expect(song!.sections[0]).toMatchObject({

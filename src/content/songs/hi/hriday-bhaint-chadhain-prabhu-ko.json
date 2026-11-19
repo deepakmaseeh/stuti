@@ -1,0 +1,137 @@
+{
+  "slug": "hriday-bhaint-chadhain-prabhu-ko",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "85"
+    }
+  ],
+  "title": {
+    "native": "हृदय भेंट चढ़ाएँ प्रभु को",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः- \tहृदय भेंट चढ़ाएँ प्रभु को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति प्रशंसा करें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम सब सन्त मिलकर।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "पाप का भार उठाने, आया मसीह जग में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापियों के सब पाप मिटाने,(2) जीवन सनातन दिया।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "संकट, क्लेश उठाया, नम्र और दीन बनकर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "द्वार उद्धार का खोला प्रभु जी,(2) सनातन आशा दी।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "आश्चर्य स्वर्गीय प्रेम, हम पापियों के लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिर मत जाना पापी जगत में,(2) पाप में न फँसकर।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "अर्पण करते हैं तुझको, आत्मा प्राण देह भी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रक्षा करो प्रभु इस जीवन की,(2) विनती हमारी यही।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Hriday Bhaint Chadhain Prabhu Ko.doc",
+    "page": null
+  },
+  "chords": "हृदय भेंट चढ़ाएँ प्रभु को\n\n                  G                 C\nकोरसः- \tहृदय भेंट चढ़ाएँ प्रभु को,\n         D                     G\n           स्तुति प्रशंसा करें,\n                  G    D                     G\n           हम सब सन्त मिलकर।\n\n         G                     D                              G\n1.\tपाप का भार उठाने, आया मसीह जग में (2)\n      C                    G                         D        G    D    G\n      पापियों के सब पाप मिटाने,(2) जीवन सनातन दिया।\n\n           G                     D                                  G\n2.\tसंकट, क्लेश उठाया, नम्र और दीन बनकर (2)\n          C                   G                               D    G    D   G\n      द्वार उद्धार का खोला प्रभु जी,(2) सनातन आशा दी।\n\n         G                   D                              G\n3.\tआश्चर्य स्वर्गीय प्रेम, हम पापियों के लिए (2)\n      C                   G                               D   G     D     G\n     फिर मत जाना पापी जगत में,(2) पाप में न फँसकर।\n\n      G                    D                               G\n4.\tअर्पण करते हैं तुझको, आत्मा प्राण देह भी (2)\n          C                        G                    D          G    D   G\n      रक्षा करो प्रभु इस जीवन की,(2) विनती हमारी यही।\n                                                                          (F/51)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

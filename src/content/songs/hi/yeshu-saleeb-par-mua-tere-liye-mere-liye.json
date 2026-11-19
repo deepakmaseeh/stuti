@@ -1,0 +1,98 @@
+{
+  "slug": "yeshu-saleeb-par-mua-tere-liye-mere-liye",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "232"
+    }
+  ],
+  "title": {
+    "native": "यीशु सलीब पर मुआ तेरे लिए मेरे लिए",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु सलीब पर मुआ, तेरे लिए मेरे लिए;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कैसा महान दुःख सहा, तेरे लिए मेरे लिए।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नदियाँ वो कैसी खून की, ख्रीष्ट के क्रूस से बह गई,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धुल गये पाप, मिट गये दाग, (2) यीशु ख्रीष्ट के लहू से।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धो डालो आज पापों को, दिल से मिटा दो दागों को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हो जाओ साफ तन-मन से आज (2) यीशु ख्रीष्ट के लहू से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मारा गया था क्रूस पर, छेदा गया था क्रूस पर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं भी बचा और तुम भी बचो, (2) यहोवा की सजाओं से।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yeshu Saleeb Par Mua, Tere Liye Mere Liye.doc",
+    "page": null
+  },
+  "chords": "यीशु सलीब पर मुआ तेरे लिए मेरे लिए\n                       A           D    A             E    A\n         कोरस:-  यीशु सलीब पर मुआ, तेरे लिए मेरे लिए;\n                                     D     A             E    A\n          कैसा महान दुःख सहा, तेरे लिए मेरे लिए।\n\n     A               D    E                           A\n नदियाँ वो कैसी खून की, ख्रीष्ट के क्रूस से बह गई, (2)\n      A              E                     A             E   A\n    धुल गये पाप, मिट गये दाग, (2) यीशु ख्रीष्ट के लहू से।\n\n    A                  D  E                        D   A\n धो डालो आज पापों को, दिल से मिटा दो दागों को, (2)\n    A                  E                      A            E   A\n    हो जाओ साफ तन-मन से आज (2) यीशु ख्रीष्ट के लहू से (2)\n\n    A                D  E                   D  A\n मारा गया था क्रूस पर, छेदा गया था क्रूस पर, (2)\n     A              E                        A             E   A\n    मैं भी बचा और तुम भी बचो, (2) यहोवा की सजाओं से।\n\n\n\n\n\n\n                                                                      (E/16)\n                                                                                                                                   The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

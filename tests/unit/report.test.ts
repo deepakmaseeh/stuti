@@ -2,11 +2,11 @@ import { describe, expect, it } from 'vitest';
 import { reportText, reportUrl, type ReportConfig, type ReportInput } from '../../src/lib/report';
 
 const input: ReportInput = {
-  songId: 'ta-yesuve-en-thunai',
+  songId: 'hi-aadi-aur-ant-tu-hi-hai',
   title: 'இயேசுவே என் துணை',
   line: 'Verse 1: வழி தெரியாத நேரத்தில்',
   correction: 'Should be "நேரத்திலே" & not "நேரத்தில்" #2 ?x=1',
-  pageUrl: 'https://stuti.pages.dev/song/ta-yesuve-en-thunai/',
+  pageUrl: 'https://stuti.pages.dev/song/hi-aadi-aur-ant-tu-hi-hai/',
 };
 
 const fields = {

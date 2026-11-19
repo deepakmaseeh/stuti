@@ -1,0 +1,118 @@
+{
+  "slug": "e-duniya-ke-logo-uchi-awaj",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "56"
+    }
+  ],
+  "title": {
+    "native": "ए दुनियां के लोगों, ऊँची आवाज़ करो,",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "गाओ ख़ुशी के गीत, उसका गुणगान करो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इबादत करो उसकी, इबादत करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "याद रखो कि वही एक ख़ुदा है, हम को ये जीवन उसी ने दिया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस चारागाह से हम सब हैं आये, हम्दो सन्ना के हम गीत गाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रब का तुम शुक्र करो, ऊँची आवाज़ करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाओ ख़ुशी के गीत, उसका गुणगान करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इबादत करो उसकी इबादत करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नामे खुदावंद कितना मुबारक, मेरा खुदावंद कितना भला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रहमत है उसकी सदियों पुरानी, वफ़ा का असर से यही सिलसिला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस पर ईमान धरो, उसके घर आओ चलो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाओ ख़ुशी के गीत, उसका गुणगान करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इबादत करो उसकी इबादत करो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:e duniya ke logo uchi awaj.docx",
+    "page": null
+  },
+  "chords": "ए दुनियां के लोगों, ऊँची आवाज़ करो,\n\n      Em             D       Em               D\nए दुनियां के लोगों, ऊँची आवाज़ करो,\nC                  D        C      D       Em\nगाओ ख़ुशी के गीत, उसका गुणगान करो,\n    D                              Em\nइबादत करो उसकी, इबादत करो (2)\n\n             Em     C        D          Em     D            C      D         Em\nयाद रखो कि वही एक ख़ुदा है, हम को ये जीवन उसी ने दिया है\nEm     C      D               Em     D    C        D          Em\nउस चारागाह से हम सब हैं आये, हम्दो सन्ना के हम गीत गाए\nEm                 D      Em               D\nरब का तुम शुक्र करो, ऊँची आवाज़ करो\n       C                  D     C        D        Em\n      गाओ ख़ुशी के गीत, उसका गुणगान करो\n          D                             Em\n     इबादत करो उसकी इबादत करो (2)\n\n        Em       C     D      Em       D         C    D        Em\nनामे खुदावंद कितना मुबारक, मेरा खुदावंद कितना भला है\nEm            C    D       Em    D          C          D            Em\n     रहमत है उसकी सदियों पुरानी, वफ़ा का असर से यही सिलसिला है\n            Em         D    Em                  D\n उस पर ईमान धरो, उसके घर आओ चलो\n      C                  D    C        D        Em\n गाओ ख़ुशी के गीत, उसका गुणगान करो\n             D                            Em\n     इबादत करो उसकी इबादत करो (2)\n                                                                         (A/41)\n                                                                                                                                    The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

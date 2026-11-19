@@ -1,0 +1,103 @@
+{
+  "slug": "bolo-yeshu-mashih-ki-jay",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "45"
+    }
+  ],
+  "title": {
+    "native": "कोरस:- बोलो यीशु मसीह की जय (4)",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "बोलो बोलो बोलो सारे बोलो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बोलो बोलो बोलो मिलकर बोलो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बोलो यीशु मसीह की जय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु का प्यार लै भारी लै भारी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु की सामर्थ लै भारी लै भारी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बोलो यीशु मसीह की जय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु का प्रेम लै भारी लै भारी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु का ज्योति लै भारी लै भारी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बोलो यीशु मसीह की जय",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:bolo yeshu mashih ki jay.docx",
+    "page": null
+  },
+  "chords": "कोरस:- बोलो यीशु मसीह की जय (4)\n\nबोलो बोलो बोलो सारे बोलो\nबोलो बोलो बोलो मिलकर बोलो (2)\nबोलो यीशु मसीह की जय (2)\n\nयीशु का प्यार लै भारी लै भारी\nयीशु की सामर्थ लै भारी लै भारी\n\nबोलो यीशु मसीह की जय (4)\n\nयीशु का प्रेम लै भारी लै भारी\nयीशु का ज्योति लै भारी लै भारी\n\nबोलो यीशु मसीह की जय (4)\n\n\n\n\n\n\n\n\n\n\n\n\n\n(D/46)\nThe Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

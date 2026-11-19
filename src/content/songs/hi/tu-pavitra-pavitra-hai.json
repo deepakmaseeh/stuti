@@ -1,0 +1,103 @@
+{
+  "slug": "tu-pavitra-pavitra-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "200"
+    }
+  ],
+  "title": {
+    "native": "तू पवित्र पवित्र है, तू पवित्र पवित्र है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "तू पवित्र पवित्र है, तू पवित्र पवित्र है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू सच्चा है प्रभू, तू जीवनदाता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू पवित्र पवित्र है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू सामर्थी भय योग्य है, तू स्वर्ग में विराजमान है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू सच्चा है प्रभु। ..",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू करुणा निधान है प्रभु, तू अत्यंत महान है प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू सच्चा है प्रभु। …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू अधर्मों को क्षमा करता है, सारे पापों को क्षमा करता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू सच्चा है प्रभु। …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:tu pavitra pavitra hai.docx",
+    "page": null
+  },
+  "chords": "तू पवित्र पवित्र है, तू पवित्र पवित्र है\n\nEm       D   Em             D    Em\nकोरस:- तू पवित्र पवित्र है, तू पवित्र पवित्र है\n    C         D                 Em\nतू सच्चा है प्रभू, तू जीवनदाता है\nEm       D    Em\nतू पवित्र पवित्र है\n\nEm         D        Em                D         Em\nतू सामर्थी भय योग्य है, तू स्वर्ग में विराजमान है (2)\n   C          D\nतू सच्चा है प्रभु। ..\n\nEm           D      Em                 D       Em\nतू करुणा निधान है प्रभु, तू अत्यंत महान है प्रभु\n   C          D\nतू सच्चा है प्रभु। …\n\nEm              D         Em                     D         Em\nतू अधर्मों को क्षमा करता है, सारे पापों को क्षमा करता है\n  C            D\nतू सच्चा है प्रभु। …\n                                                (C/6)\n                                                                                                                The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

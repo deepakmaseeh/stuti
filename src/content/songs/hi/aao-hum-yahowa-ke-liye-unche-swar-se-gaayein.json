@@ -1,0 +1,116 @@
+{
+  "slug": "aao-hum-yahowa-ke-liye-unche-swar-se-gaayein",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "10"
+    }
+  ],
+  "title": {
+    "native": "आओ हम यहोवा के लिए ऊँचे स्वर से गाएँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आओ हम यहोवा के लिए, ऊँचे स्वर से गाएँ,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी मुक्ति की चट्टान का, जय जयकार करें।-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "धन्यवाद करते हुए, उसके सन्मुख आये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भजन गाते हुए, उसका जय जयकार करें।-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "क्योंकि यहोवा, महान ईश्वर है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे देवताओं के ऊपर, महान राजा है।-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "क्योंकि, वह हमारा, परमेश्वर है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और हम उसकी प्रजा, उसके राज्य की भेड़ें हैं।-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aao Hum Yahowa Ke Liye Unche Swar Se Gaayein.doc",
+    "page": null
+  },
+  "chords": "आओ हम यहोवा के लिए ऊँचे स्वर से गाएँ\n\nF                                       Bb\nकोरस:- आओ हम यहोवा के लिए, ऊँचे स्वर से गाएँ,\n                     C                       F\nअपनी मुक्ति की चट्टान का, जय जयकार करें।-2\n\nF               Bb         C      F\n      1. धन्यवाद करते हुए, उसके सन्मुख आये\nF           Bb          C            F\nभजन गाते हुए, उसका जय जयकार करें।-2\n\nF        Bb     C       F\n     2. क्योंकि यहोवा, महान ईश्वर है,\nF          Bb             C         F\nसारे देवताओं के ऊपर, महान राजा है।-2\n\nF              Bb     C     F\n     3. क्योंकि, वह हमारा, परमेश्वर है,\nF                  Bb          C             F\nऔर हम उसकी प्रजा, उसके राज्य की भेड़ें हैं।-2\n                                                                  (A/21)\n                                                                                                                      The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

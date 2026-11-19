@@ -1,0 +1,98 @@
+{
+  "slug": "karte-hai-teri-ham-stuti",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "108"
+    }
+  ],
+  "title": {
+    "native": "करते हैं तेरी हम स्तुति",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "करते हैं तेरी हम स्तुति, हृदय की गहराईयों से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू ही है, तू ही है हमारा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा हो तेरी, महिमा हो तेरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऊँचा और ऊँचा, सबसे ऊँचा, रहे तेरा नाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आत्मा और सच्चाईयों से, तेरी आराधना करेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू ही है, तू ही है हमारा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा हो तेरी, महिमा हो तेरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऊँचा और ऊँचा, सबसे ऊँचा रहे, तेरा नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:karte hai teri ham stuti.docx",
+    "page": null
+  },
+  "chords": "करते हैं तेरी हम स्तुति\n\nC                        Am   C                   Am\nकरते हैं तेरी हम स्तुति, हृदय की गहराईयों से (2)\nDm      Bb         G                  C\nयीशु तू ही है, तू ही है हमारा प्रभु (2)\nC             Am    G              C\nमहिमा हो तेरी, महिमा हो तेरी (2)\nDm           Bb    G                             C\nऊँचा और ऊँचा, सबसे ऊँचा, रहे तेरा नाम (2)\n\n C                         Am    C                   Am\nआत्मा और सच्चाईयों से, तेरी आराधना करेंगे (2)\n Dm     Bb         G                C\nयीशु तू ही है, तू ही है हमारा प्रभु (2)\n C            Am    G              C\nमहिमा हो तेरी, महिमा हो तेरी (2)\n Dm           Bb    G                            C\nऊँचा और ऊँचा, सबसे ऊँचा रहे, तेरा नाम (2)\n\n\n\n\n\n\n                                                        (A/31)\n                                                                                                              The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

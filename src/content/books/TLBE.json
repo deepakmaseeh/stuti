@@ -1,0 +1,14 @@
+{
+  "id": "TLBE",
+  "name": {
+    "native": "TLBC English",
+    "en": "The Lucknow Baptist Church · English"
+  },
+  "lang": "en",
+  "edition": "",
+  "publisher": "The Lucknow Baptist Church",
+  "description": "English songs used at The Lucknow Baptist Church.",
+  "order": 2,
+  "numbering": "numeric",
+  "status": "active"
+}

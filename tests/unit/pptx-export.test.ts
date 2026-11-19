@@ -4,8 +4,8 @@ import { expandSections } from '../../src/lib/pptx-export';
 
 const song: BookBundleSong = {
   t: ['Title', 'Roman', 'English'],
-  nums: [['DT', '1']],
-  lang: 'ta',
+  nums: [['TLBC', '1']],
+  lang: 'hi',
   chorusAfterEachVerse: true,
   sec: [
     { type: 'verse', label: 'Verse 1', lines: [['v1n', 'v1r', 'v1e']] },

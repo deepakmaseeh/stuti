@@ -1,0 +1,14 @@
+{
+  "id": "TLBC",
+  "name": {
+    "native": "TLBC हिंदी गीत",
+    "en": "The Lucknow Baptist Church"
+  },
+  "lang": "hi",
+  "edition": "",
+  "publisher": "The Lucknow Baptist Church",
+  "description": "Hindi songs used at The Lucknow Baptist Church.",
+  "order": 1,
+  "numbering": "numeric",
+  "status": "active"
+}

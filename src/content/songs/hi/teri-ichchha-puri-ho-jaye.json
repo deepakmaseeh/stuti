@@ -1,0 +1,88 @@
+{
+  "slug": "teri-ichchha-puri-ho-jaye",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "195"
+    }
+  ],
+  "title": {
+    "native": "तेरी इच्छा पूरी हो जाये, हाथों में तेरे जीवन है ये",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरी इच्छा पूरी हो जाये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथों में तेरे जीवन है ये,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं मिट्टी हूँ तू है कुम्हार, मुझको उठा मुझको बना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी मर्जी से मैं चलता रहा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझको कभी भी अपना न कहा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लेकिन प्रभु आज से मैं, अपने क्रूस को ले लेता हूं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Teri ichchha Puri Ho Jaye.doc",
+    "page": null
+  },
+  "chords": "तेरी इच्छा पूरी हो जाये, हाथों में तेरे जीवन है ये\n\n      D                       G\nतेरी इच्छा पूरी हो जाये\n         A              D\n      हाथों में तेरे जीवन है ये,\n              G             D                 A             D\n      मैं मिट्टी हूँ तू है कुम्हार, मुझको उठा मुझको बना (2)\n\n      D                                 G\nअपनी मर्जी से मैं चलता रहा,\n               A                  D\n      तुझको कभी भी अपना न कहा,\n            G                D             A               D\n     लेकिन प्रभु आज से मैं, अपने क्रूस को ले लेता हूं। (2)\n\n\n\n\n\n\n\n                                                                    (C/19)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "tumasa-koi-nahi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "206"
+    }
+  ],
+  "title": {
+    "native": "तुमसा कोई नहीं, तुमसा कहीं नहीं",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "अब है पूरा यकीन, तुमसा कोई नहीं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु मसीह हो महिमा तेरी, गाएं आसमां गाएं यह ज़मीं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "तुमसा कोई नहीं, तुमसा कहीं नहीं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब है पूरा यकीन, तुमसा कोई नहीं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अंधेरों में तू रोशनी है, तू ही मंजिल तू रास्ता भी है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू है जहाँ न कुछ कमी है, तेरा ही नाम ज़िन्दगी है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाले लू याह, हाले लू याह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाले लू याह, हाले लू याह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "तुमसा कोई नहीं, तुमसा कहीं नहीं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब है पूरा यकीन, तुमसा कोई नहीं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:tumasa koi nahi.docx",
+    "page": null
+  },
+  "chords": "C             Dm        F   G    C\nतुमसा कोई नहीं, तुमसा कहीं नहीं\nC               Dm       F    G     C\nअब  है पूरा यकीन, तुमसा कोई नहीं\nAm    Em       F      C     Am     Em   F         C\nयीशु मसीह हो महिमा तेरी, गाएं आसमां गाएं यह ज़मीं (2)\n            C             Dm        F   G    C\n      कोरस:-    तुमसा कोई नहीं, तुमसा कहीं नहीं\n           C               Dm       F    G     C\n        अब  है पूरा यकीन, तुमसा कोई नहीं\nAm             F      G                      C    C E Am\nअंधेरों में तू रोशनी है, तू ही मंजिल तू रास्ता भी है\nAm                   F     G                       C E Am\nतू है जहाँ न कुछ कमी है, तेरा ही नाम ज़िन्दगी है\nAm      Em     F      C\nहाले लू याह, हाले लू याह\nAm      Em     F      G\nहाले लू याह, हाले लू याह\n            C             Dm        F   G    C\n      कोरस:-    तुमसा कोई नहीं, तुमसा कहीं नहीं\n           C               Dm       F    G     C\n        अब  है पूरा यकीन, तुमसा कोई नहीं",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "jindgi-meri-badal-gai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "103"
+    }
+  ],
+  "title": {
+    "native": "जिन्दगी मेरी बदल गई",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जिन्दगी मेरी बदल गई, जब से मसीह को पाया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खिल गई हैं कलियाँ नई, यीशु बहार लाया है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जीवन है क्या पल ही दो पल का, किसने है जाना होगा क्या कल का",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "घड़ियाँ सुनहरी फिर न लौटेंगी (2) मुक्ति और जीवन वह लाया है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मार्ग में हमारे वह दर्शक रहेगा, कदम डगमगाये हाथ वो थामेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भटके हुओं को राह दिखाने (2) इस धरती पर वह आया है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जीवन की रोटी और अमृत जल को, कैसी भरपूरी से देता वह हमको",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लहू बहाकर पाप हमारा (2) प्यारे प्रभु ने उठाया है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Jindgi meri Badal gai.docx",
+    "page": null
+  },
+  "chords": "जिन्दगी मेरी बदल गई\n          F                    C    Bb       C             F\n  कोरस:- जिन्दगी मेरी बदल गई, जब से मसीह को पाया है\n            F                      C       Bb      C       F\n    खिल गई हैं कलियाँ नई, यीशु बहार लाया है\n\n  F                                    Bb      C                 F\n1. जीवन है क्या पल ही दो पल का, किसने है जाना होगा क्या कल का (2)\n   Bb           C               F           C                         F\n घड़ियाँ सुनहरी फिर न लौटेंगी (2) मुक्ति और जीवन वह लाया है\n\n F                                      Bb          C                F\n2. मार्ग में हमारे वह दर्शक रहेगा, कदम डगमगाये हाथ वो थामेगा (2)\n Bb     C                  F            C                      F\n भटके हुओं को राह दिखाने (2) इस धरती पर वह आया है\n\n F                                            Bb      C                    F\n3. जीवन की रोटी और अमृत जल को, कैसी भरपूरी से देता वह हमको (2)\n Bb       C            F           C                F\n लहू बहाकर पाप हमारा (2) प्यारे प्रभु ने उठाया है\n\n\n\n                                                              (B/9)\n                                                                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

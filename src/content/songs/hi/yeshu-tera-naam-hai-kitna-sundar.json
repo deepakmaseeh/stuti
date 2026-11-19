@@ -1,0 +1,110 @@
+{
+  "slug": "yeshu-tera-naam-hai-kitna-sundar",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "233"
+    }
+  ],
+  "title": {
+    "native": "यीशु तेरा नाम है कितना सुन्दर",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु तेरा नाम है कितना सुन्दर,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरा नाम है कितना पावन।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझमें मिली है हमको क्षमा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझमें मिला है नया जीवन।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तुझमें मिली है हमको कृपा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझमें हुए हैं हम पावन।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तुझमें मिली है हमको मुक्ति,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझमें मिला है अनंत जीवन।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:yeshu Tera Naam Hai Kitna Sundar.doc",
+    "page": null
+  },
+  "chords": "यीशु तेरा नाम है कितना सुन्दर\n\n              E           A      B           E\nकोरस:- यीशु तेरा नाम है कितना सुन्दर,\n           E            A      B           E\n        यीशु तेरा नाम है कितना पावन।\n\n            E                     A\nतुझमें मिली है हमको क्षमा,\n              A                        E\n        तुझमें मिला है नया जीवन।\n\n          E                      A\n    2. तुझमें मिली है हमको कृपा,\n        A                    E\n        तुझमें हुए हैं हम पावन।\n\n          E                      A\n    3. तुझमें मिली है हमको मुक्ति,\n           A                         E\n        तुझमें मिला है अनंत जीवन।\n\n\n\n                                                                           (E/15)\n                                                                                                                       The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

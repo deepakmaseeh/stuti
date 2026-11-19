@@ -1,0 +1,108 @@
+{
+  "slug": "anand-hi-anand-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "25"
+    }
+  ],
+  "title": {
+    "native": "आनन्द ही आनन्द है, मेरे यीशु के चरणों में",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आनन्द ही आनन्द है, मेरे यीशु के चरणों में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनन्द ही आनन्द है, मेरे यीशु के चरणों में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाप मेरा क्षमा किया, श्राप मेरा हटा दिया;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु के रक्त द्वारा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नया जीवन यीशु में, अनन्त जीवन यीशु में;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु मसीह के द्वारा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नयी आशा मिली है, स्वर्ग में हम जाएंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु मसीह के द्वारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग में हम रहेंगे महिमा हम करेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनन्द मनाएंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:anand hi anand hai.docx",
+    "page": null
+  },
+  "chords": "आनन्द ही आनन्द है, मेरे यीशु के चरणों में\n\n      G                     D                          G\n कोरस:-    आनन्द ही आनन्द है, मेरे यीशु के चरणों में\n      G                    D                          G\n     आनन्द ही आनन्द है, मेरे यीशु के चरणों में\n\n     G\nपाप मेरा क्षमा किया, श्राप मेरा हटा दिया;\nD              C\nयीशु के रक्त द्वारा।\nC\nनया जीवन यीशु में, अनन्त जीवन यीशु में;\nD               G\nयीशु मसीह के द्वारा।\n\nG\nनयी आशा मिली है, स्वर्ग में हम जाएंगे\nD               C\nयीशु मसीह के द्वारा\nC\nस्वर्ग में हम रहेंगे महिमा हम करेंगे\nD            G\nआनन्द मनाएंगे",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "he-yishu-mahaan-he-yishu-mahaan-teri-jai-teri-jai-teri-jai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "79"
+    }
+  ],
+  "title": {
+    "native": "हे यीशु महान, हे यीशु महान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "ः हे यीशु महान, हे यीशु महान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी जय, तेरी जय, तेरी जय।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तू कितना दयालु है प्रेमी पिता,  तेरे प्रेम की गहराई है अथाह,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दी तूने गुनाहगारों को जान, (2) तेरी जय तेरी जय तेरी जय",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "जब तेरी प्रशंसा करने चले, जब तेरे गुणों को गिनने चले",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा हो ना सका कभी हमसे बयान, (2) तेरी जय तेरी जय तेरी जय",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हर दिल में तेरा है मान बड़ा, पाने का तुझे अरमान बड़ा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हे यीशु महान तू कितना महान, (2) तेरी जय तेरी जय तेरी जय",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:He Yishu Mahaan, He Yishu Mahaan (Teri Jai, Teri Jai, Teri Jai).doc",
+    "page": null
+  },
+  "chords": "हे यीशु महान, हे यीशु महान\n\n D\t              A\nकोरसः हे यीशु महान, हे यीशु महान,\nD\t   A\t     D\n        तेरी जय, तेरी जय, तेरी जय।\n\n     D\t            Bm\t   D      \t\t     Bm       D\n1.  तू कितना दयालु है प्रेमी पिता,  तेरे प्रेम की गहराई है अथाह, (2)\n     G      A    G         D     G           A      D\n    दी तूने गुनाहगारों को जान, (2) तेरी जय तेरी जय तेरी जय\n\n      D\t            Bm\t   D      \t       Bm     D\n2.  जब तेरी प्रशंसा करने चले, जब तेरे गुणों को गिनने चले (2)\n       G       A       G        D                 G          A      D\n     तेरा हो ना सका कभी हमसे बयान, (2) तेरी जय तेरी जय तेरी जय\n\n      D\t          Bm    D      \t             Bm     D\n3.  हर दिल में तेरा है मान बड़ा, पाने का तुझे अरमान बड़ा (2)\n         G     A     G          D              G          A        D\n     हे यीशु महान तू कितना महान, (2) तेरी जय तेरी जय तेरी जय\n\n\n\n\n                                                                 (F/53)\n                                                                                                                  The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

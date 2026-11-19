@@ -1,0 +1,119 @@
+{
+  "slug": "yeshu-tune-mere-liye-kurbani-chadayi",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "237"
+    }
+  ],
+  "title": {
+    "native": "यीशु तू  ने मेरे लिए कुर्बानी चढ़ाई।",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु तू ने मेरे लिए कुर्बानी चढ़ाई।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रूस पर यीशु तू ने, अपनी जान चढ़ाई;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान चढ़ाई, जान चढ़ाई।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने लहू से तू ने, मेरी जान कमाई;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान कमाई, जान कमाई।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज्योति अपनी तू ने मुझ में आ चमकाई,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ चमकाई, आ चमकाई।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब पापों से तू ने, मुझको दी रिहाई;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दी रिहाई, दी रिहाई।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "क्यों न गाऊँ यीशु, तेरी नित्य बड़ाई;",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नित्य बड़ाई, नित्य बड़ाई।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:yeshu tune mere liye kurbani chadayi.docx",
+    "page": null
+  },
+  "chords": "यीशु तू  ने मेरे लिए कुर्बानी चढ़ाई।\n\n            Em                     D          Em\nकोरस:- यीशु तू ने मेरे लिए कुर्बानी चढ़ाई। (2)\n\n     Em             C   D                    Em\nक्रूस पर यीशु तू ने, अपनी जान चढ़ाई; (2)\n    Em             C  D Em\n   जान चढ़ाई, जान चढ़ाई। (2)\n\n     Em            C  D                 Em\nअपने लहू से तू ने, मेरी जान कमाई; (2)\nEm              C    D  Em\n    जान कमाई, जान कमाई। (2)\n\n     Em             C  D                   Em\nज्योति अपनी तू ने मुझ में आ चमकाई, (2)\nEm             C   D Em\n   आ चमकाई, आ चमकाई। (2)\n\n     Em            C D                   Em\nसब पापों से तू ने, मुझको दी रिहाई; (2)\n    Em         C  D Em\n   दी रिहाई, दी रिहाई। (2)\n\n   Em             C   D               Em\n5.क्यों न गाऊँ यीशु, तेरी नित्य बड़ाई; (2)\n    Em            C   D   Em\n   नित्य बड़ाई, नित्य बड़ाई। (2)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

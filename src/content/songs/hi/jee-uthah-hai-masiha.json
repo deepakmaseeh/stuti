@@ -1,0 +1,109 @@
+{
+  "slug": "jee-uthah-hai-masiha",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "99"
+    }
+  ],
+  "title": {
+    "native": "जी उठा है मसीहा, जी उठा है मसीहा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जी उठा है मसीहा, जी उठा है मसीहा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जी उठा है मसीहा, वो मरके जी उठा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मौत का बन्धन तोड़कर, मेरा मसीह जी उठा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम गुनाहगारों के लिए, कुर्बान यीशु हुआ है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी शक्ति महिमा से, तीसरे दिन जी उठा है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जी उठा है मसीहा....",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरा यीशु बादलों पर, फिर से आने वाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुरही फूंकी जब जायेगी, होगें क्या तुम भी वहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जी उठा है मसीहा....",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Jee uthah hai masiha.docx",
+    "page": null
+  },
+  "chords": "जी उठा है मसीहा, जी उठा है मसीहा\n\n Am                                     C\n कोरस:- जी उठा है मसीहा, जी उठा है मसीहा\n      G                            F     Am\n जी उठा है मसीहा, वो मरके जी उठा है\n G         F       G                            Am\n मौत का बन्धन तोड़कर, मेरा मसीह जी उठा है (2)\n\n Am   F    G              Am      F\n हम गुनाहगारों के लिए, कुर्बान यीशु हुआ है,\n                         G                              Am\n अपनी शक्ति महिमा से, तीसरे दिन जी उठा है।\n Am\n जी उठा है मसीहा....\n\n Am   F     G          Am       F\n2. मेरा यीशु बादलों पर, फिर से आने वाला है\n                    G                        Am\n तुरही फूंकी जब जायेगी, होगें क्या तुम भी वहाँ\n Am\n जी उठा है मसीहा....\n\n                                                    (B/23)\n                                                                                               The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

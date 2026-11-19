@@ -1,0 +1,83 @@
+{
+  "slug": "aaradhna-ho-aaradhna",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "14"
+    }
+  ],
+  "title": {
+    "native": "आराधना हो आराधना प्रभु यीशु की आराधना",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आराधना हो आराधना प्रभु यीशु की आराधना।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शान्ति दाता की आराधना, मुक्तिदाता की आराधना।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्तिदाता की आराधना, तारणहारा की आराधना।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे मसीहा की आराधना, जीवनदाता की आराधना।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवित प्रभु की आराधना, सच्चे प्रभु की आराधना।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Aaradhna Ho aaradhna.docx",
+    "page": null
+  },
+  "chords": "आराधना हो आराधना प्रभु यीशु की आराधना\n\nE                 A      B             E\nआराधना हो आराधना प्रभु यीशु की आराधना।\n\nE                     B        A              E\nशान्ति दाता की आराधना, मुक्तिदाता की आराधना।\n\nE                   B        A             E\nमुक्तिदाता की आराधना, तारणहारा की आराधना।\n\nE                    B        A              E\nमेरे मसीहा की आराधना, जीवनदाता की आराधना।\n\nE                     B       A              E\nजीवित प्रभु की आराधना, सच्चे प्रभु की आराधना।\n\n\n\n\n\n\n                                                                  (A/23)",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

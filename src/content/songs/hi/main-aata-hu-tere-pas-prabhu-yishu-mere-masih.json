@@ -1,0 +1,98 @@
+{
+  "slug": "main-aata-hu-tere-pas-prabhu-yishu-mere-masih",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "125"
+    }
+  ],
+  "title": {
+    "native": "मैं आता हूँ तेरे पास प्रभु यीशु मेरे मसी",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "मैं आता हूँ तेरे पास प्रभु यीशु मेरे मसीह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे पापों के लिए ही, उद्धार दे दे मसीह।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग धाम छोड़ के आया, उद्धार देने मसीह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चरणों में तेरे मैं आता, तुझको ये दिल देता मसीह।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे पापों से छुड़ाने, लहु क्रूस पर बहा दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कितना गहरा प्यार किया है, मैं भुला ना सकूँगा मसीह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे पापों से छुड़ा ले, अपने राज्य में ले ले",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ जाओ मेरी ज़िन्दगी में, मेरी ज़िन्दगी तेरी मसीह।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Main Aata Hu Tere Pas Prabhu Yishu Mere Masih.doc",
+    "page": null
+  },
+  "chords": "मैं आता हूँ तेरे पास प्रभु यीशु मेरे मसी\n\n            D                  G           A             D\n   कोरस:- मैं आता हूँ तेरे पास प्रभु यीशु मेरे मसीह\n                    A              Em           A        D\n            मेरे पापों के लिए ही, उद्धार दे दे मसीह।\n\n          D                         G       A            D\n  स्वर्ग धाम छोड़ के आया, उद्धार देने मसीह  (2)\n     E                 Em            A                   D\n       चरणों में तेरे मैं आता, तुझको ये दिल देता मसीह। (2)\n\n       D                    G           A                  D\nमुझे पापों से छुड़ाने, लहु क्रूस पर बहा दिया (2)\n           E                 Em            A                   D\n       कितना गहरा प्यार किया है, मैं भुला ना सकूँगा मसीह (2)\n\n      D                    G                 A          D\nमुझे पापों से छुड़ा ले, अपने राज्य में ले ले (2)\n      E                    Em          A                 D\n       आ जाओ मेरी ज़िन्दगी में, मेरी ज़िन्दगी तेरी मसीह। (2)\n\n                                                          (D/19)\n                                                                                                                 The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

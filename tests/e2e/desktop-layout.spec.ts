@@ -5,7 +5,7 @@ test.describe('desktop layout 1440', () => {
   test.use({ viewport: { width: 1440, height: 900 } });
 
   test('three panes visible; no horizontal scroll', async ({ page }) => {
-    await page.goto('/song/ta-yesuve-en-thunai/');
+    await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
     await waitDesktopPanes(page);
     await expect(page.locator('html')).toHaveAttribute('data-desktop', 'wide');
     await expect(page.locator('.desktop-finder')).toBeVisible();

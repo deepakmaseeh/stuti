@@ -1,0 +1,113 @@
+{
+  "slug": "tu-mera-sharan-sthan-tu-mera-gadh",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "199"
+    }
+  ],
+  "title": {
+    "native": "तू मेरा शरणस्थान, तू मेरा गढ़ है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "संकट में मेरा गढ़ मेरा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना करूँ मैं पूरे दिल से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं तुझको ढूँढूंगा सम्पूर्ण हृदय से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी सेवा करूँगा तन मन और धन से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं हूँ यहाँ प्रभु, मैं हूँ यहाँ प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उद्धारक मेरा तूं, मेरी चंगाई है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "संकट में सामर्थ है, मेरा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना करूँ मैं………",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मेरा चरवाहा, मुझको चरायेगा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको संभालेगा, मेरा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना करूँ मैं………",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:tu mera Sharan sthan tu mera gadh chord.doc",
+    "page": null
+  },
+  "chords": "तू मेरा शरणस्थान, तू मेरा गढ़ है\n\nEm              Am   D          Em\nतू मेरा शरणस्थान, तू मेरा गढ़ है\nEm              Am   D   Em\nसंकट में मेरा गढ़ मेरा प्रभु\nEm          Am                 D\nआराधना करूँ मैं पूरे दिल से\n             G               D\nमैं तुझको ढूँढूंगा सम्पूर्ण हृदय से\nEm           Am                            D\nतेरी सेवा करूँगा तन मन और धन से\nD      Em          Em    Am   D\nमैं हूँ यहाँ प्रभु,  मैं हूँ यहाँ प्रभु (8)\n\nउद्धारक मेरा तूं, मेरी चंगाई है,\n  संकट में सामर्थ है, मेरा प्रभु\n  आराधना करूँ मैं………\nतू मेरा चरवाहा, मुझको चरायेगा,\n     मुझको संभालेगा, मेरा प्रभु\n  आराधना करूँ मैं………\n\n                                                   (C/7)\n                                                                                                                  The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

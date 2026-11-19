@@ -1,0 +1,115 @@
+{
+  "slug": "yeshu-ka-hath-hatho-me-leke",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "218"
+    }
+  ],
+  "title": {
+    "native": "यीशु का हाथ हाथों में लेके, तूफानी लहरों पर मैं चलूँगा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु का हाथ हाथों में लेके, तूफानी लहरों पर मैं चलूँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हो चाहे सामने कैसी भी मुश्किल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं न डरुँगा मैं न डरुँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "राहों में हो काँटे या अन्धेरा, न कोई साथी अकेला चलूँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान के तीर घायल भी कर दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं न डरुँगा मैं न डरुँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरे लिए जिसने दी जिन्दगानी, मैं उसकी सेवा सदा ही करुँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यदि जाए जान उसकी लगन में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं डरुँगा मैं न डरुँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:Yeshu Ka Hath Hatho me Leke.doc",
+    "page": null
+  },
+  "chords": "यीशु का हाथ हाथों में लेके, तूफानी लहरों पर मैं चलूँगा\n\n                      E                  B       A        B                         E\nकोरस:- यीशु का हाथ हाथों में लेके, तूफानी लहरों पर मैं चलूँगा (2)\n                C#m\n   हो चाहे सामने कैसी भी मुश्किल\n     B       A    B         E\n       मैं न डरुँगा मैं न डरुँगा\n\n  E        A                         C#m              B         E\n  1. राहों में हो काँटे या अन्धेरा, न कोई साथी अकेला चलूँगा (2)\n       E                  B           A\n     शैतान के तीर घायल भी कर दे\n       B            C#m     E\n मैं न डरुँगा मैं न डरुँगा\n\n E                     A                 C#m             B         E\n2.  मेरे लिए जिसने दी जिन्दगानी, मैं उसकी सेवा सदा ही करुँगा (2)\n  E                  B           A\n यदि जाए जान उसकी लगन में,\n  B        C#m     E\n मैं डरुँगा मैं न डरुँगा\n\n\n\n\n\n                                                                 (E/4)\n                                                                                          The Lucknow Baptist Church Lucknow",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

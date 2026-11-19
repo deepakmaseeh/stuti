@@ -7,14 +7,14 @@ test.describe('desktop finder', () => {
   test('keyboard digits open a song; Finder stays mounted', async ({ page }) => {
     await page.goto('/');
     await waitDesktopPanes(page);
-    await page.keyboard.type('117');
+    await page.keyboard.type('1');
     await page.keyboard.press('Enter');
-    await expect(page).toHaveURL(/\/song\/ta-yesuve-en-thunai\//, { timeout: 15_000 });
+    await expect(page).toHaveURL(/\/song\/hi-aadi-aur-ant-tu-hi-hai\//, { timeout: 15_000 });
     await expect(page.locator('.finder')).toBeVisible();
   });
 
   test('language filter and Browse letter work', async ({ page }) => {
-    await page.goto('/song/ta-yesuve-en-thunai/');
+    await page.goto('/song/hi-aadi-aur-ant-tu-hi-hai/');
     await waitDesktopPanes(page);
     await page.locator('.finder [role="tab"]').nth(2).click();
     await expect(page.locator('.finder-browse')).toBeVisible({ timeout: 10_000 });

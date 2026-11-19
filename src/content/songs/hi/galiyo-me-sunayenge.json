@@ -1,0 +1,99 @@
+{
+  "slug": "galiyo-me-sunayenge",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "60"
+    }
+  ],
+  "title": {
+    "native": "गलियों में सुनाएंगे, घर-घर में बताएंगे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "केवल यीशु राजा है, यीशु मुक्तिदाता है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जयजयकार यीशु है भला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय जयकार यीशु है महान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय जयकार वह धर्मी और पाक",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय जयकार वह सर्वशक्तिमान।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कांटो बीच गाते गुलाब, पक्षी करते स्तुति गान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिर क्यों ना हम गाए आज, वह हमारा शरणस्थान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown"
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "TLBC church song sheet collection",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "",
+    "checkedOn": ""
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "import:galiyo me sunayenge.docx",
+    "page": null
+  },
+  "chords": "गलियों में सुनाएंगे, घर-घर में बताएंगे\n      केवल यीशु राजा है, यीशु मुक्तिदाता है।\n\nकोरस:- जयजयकार यीशु है भला\n         जय जयकार यीशु है महान\n         जय जयकार वह धर्मी और पाक\n         जय जयकार वह सर्वशक्तिमान।\n\nकांटो बीच गाते गुलाब, पक्षी करते स्तुति गान\n      फिर क्यों ना हम गाए आज, वह हमारा शरणस्थान।",
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}
