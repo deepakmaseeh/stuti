@@ -42,8 +42,9 @@ test.describe('song page', () => {
 
   test('layer toggles persist across reload', async ({ page }) => {
     await gotoHydrated(page, HI);
-    const roman = page.getByRole('button', { name: 'Roman' });
-    const english = page.getByRole('button', { name: /English/ });
+    const tools = page.locator('.toolbar');
+    const roman = tools.getByRole('button', { name: 'Roman' });
+    const english = tools.getByRole('button', { name: /^English/ });
     await expect(roman).toHaveAttribute('aria-pressed', 'true');
     await expect(english).toHaveAttribute('aria-pressed', 'false');
     await expect(page.locator('.line .e').first()).toBeHidden();
@@ -58,22 +59,23 @@ test.describe('song page', () => {
     await expect(page.locator('html')).toHaveAttribute('data-layers', 'n e');
     await expect(page.locator('.line .e').first()).toBeVisible();
     await expect(page.locator('.line .r').first()).toBeHidden();
-    await expect(page.getByRole('button', { name: /English/ })).toHaveAttribute('aria-pressed', 'true');
+    await expect(tools.getByRole('button', { name: /^English/ })).toHaveAttribute('aria-pressed', 'true');
   });
 
   test('at least one layer always stays on', async ({ page }) => {
     await gotoHydrated(page, HI);
-    const roman = page.getByRole('button', { name: 'Roman' });
+    const tools = page.locator('.toolbar');
+    const roman = tools.getByRole('button', { name: 'Roman' });
     await roman.click();
     await expect(roman).toHaveAttribute('aria-pressed', 'false');
-    const native = page.getByRole('button', { name: 'हिन्दी' });
+    const native = tools.getByRole('button', { name: 'हिन्दी' });
     await native.click();
     await expect(native).toHaveAttribute('aria-pressed', 'true');
   });
 
   test('A+ to the maximum size: no overlapping lines, no horizontal scroll', async ({ page }) => {
     await gotoHydrated(page, HI);
-    await page.getByRole('button', { name: /English/ }).click();
+    await page.locator('.toolbar').getByRole('button', { name: /^English/ }).click();
     const larger = page.getByRole('button', { name: 'Larger text' });
     while (await larger.isEnabled()) await larger.click();
     await expect(page.locator('html')).toHaveAttribute('data-size', '5');

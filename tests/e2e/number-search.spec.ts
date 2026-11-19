@@ -6,8 +6,8 @@ async function openSearch(page: Page, url = '/search/') {
   await waitHydrated(page);
 }
 
-/** Always the /search/ keypad (not the desktop Finder). */
-const panel = (page: Page) => page.locator('#panel-number');
+/** Mobile SearchTabs keypad, or desktop Finder keypad. */
+const panel = (page: Page) => page.locator('#panel-number .keypad-panel, .finder .keypad-panel').first();
 
 const tap = async (page: Page, digits: string) => {
   for (const d of digits)
@@ -22,6 +22,9 @@ test.describe('number search (F1)', () => {
     if (await searchNav.isVisible()) await searchNav.click();
     else await page.goto('/search/');
     await waitHydrated(page);
+    await expect(panel(page).getByRole('button', { name: 'DT', exact: true })).toBeVisible({
+      timeout: 15_000,
+    });
     await panel(page).getByRole('button', { name: 'DT', exact: true }).click();
     await tap(page, '117');
     await expect(panel(page).getByTestId('number-status')).toHaveText('இயேசுவே என் துணை');

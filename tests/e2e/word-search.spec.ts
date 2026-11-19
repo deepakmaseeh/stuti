@@ -1,10 +1,17 @@
 import { expect, test, type Page } from '@playwright/test';
-import { waitHydrated } from './helpers';
+import { waitDesktopPanes, waitHydrated } from './helpers';
 
+/** Open the Words UI: Finder on desktop, SearchTabs on phone. */
 async function wordsTab(page: Page) {
   await page.goto('/search/');
   await waitHydrated(page);
-  await page.getByRole('tab', { name: 'Words' }).click();
+  const finder = page.locator('.finder');
+  if (await finder.isVisible()) {
+    await waitDesktopPanes(page);
+    await finder.getByRole('tab', { name: 'Words' }).click();
+  } else {
+    await page.locator('.search').getByRole('tab', { name: 'Words' }).click();
+  }
   return page.getByRole('searchbox', { name: 'Words' });
 }
 
@@ -63,10 +70,8 @@ test.describe('word search (F2)', () => {
     page.on('request', (r) => {
       if (/\/search\/idx-/.test(r.url())) shards.push(r.url());
     });
-    await page.goto('/search/');
-    await waitHydrated(page);
+    await wordsTab(page);
     expect(shards).toEqual([]);
-    await page.getByRole('tab', { name: 'Words' }).click();
     await page.getByRole('searchbox', { name: 'Words' }).fill('grace');
     await expect(resultLinks(page).first()).toBeVisible();
     expect(shards.length).toBeGreaterThan(0);
@@ -75,17 +80,38 @@ test.describe('word search (F2)', () => {
   test('remembers the Words tab and supports ?q= deep links', async ({ page }) => {
     await wordsTab(page);
     await page.goto('/search/');
-    await expect(page.getByRole('tab', { name: 'Words' })).toHaveAttribute('aria-selected', 'true');
+    await waitHydrated(page);
+    const finder = page.locator('.finder');
+    if (await finder.isVisible()) {
+      await expect(finder.getByRole('tab', { name: 'Words' })).toHaveAttribute('aria-selected', 'true');
+    } else {
+      await expect(page.locator('.search').getByRole('tab', { name: 'Words' })).toHaveAttribute(
+        'aria-selected',
+        'true',
+      );
+    }
     await page.goto('/search/?q=grace');
+    await waitHydrated(page);
+    if (await page.locator('.finder').isVisible()) {
+      await page.locator('.finder').getByRole('tab', { name: 'Words' }).click();
+    }
     await expect(resultLinks(page).first()).toHaveAttribute('href', '/song/en-amazing-grace/');
   });
 
   test('arrow keys move between tabs', async ({ page }) => {
     await page.goto('/search/');
     await waitHydrated(page);
-    await page.getByRole('tab', { name: 'Number' }).focus();
+    // Finder uses segment buttons without arrow-key roving; this is SearchTabs-only.
+    if (await page.locator('.finder').isVisible()) {
+      test.info().annotations.push({ type: 'note', description: 'skipped on desktop Finder' });
+      return;
+    }
+    await page.locator('.search').getByRole('tab', { name: 'Number' }).focus();
     await page.keyboard.press('ArrowRight');
-    await expect(page.getByRole('tab', { name: 'Words' })).toBeFocused();
-    await expect(page.getByRole('tab', { name: 'Words' })).toHaveAttribute('aria-selected', 'true');
+    await expect(page.locator('.search').getByRole('tab', { name: 'Words' })).toBeFocused();
+    await expect(page.locator('.search').getByRole('tab', { name: 'Words' })).toHaveAttribute(
+      'aria-selected',
+      'true',
+    );
   });
 });

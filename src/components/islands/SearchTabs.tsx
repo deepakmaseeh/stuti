@@ -3,6 +3,7 @@ import { t } from '../../i18n';
 import { loadNumbers, lookupNumber } from '../../lib/search';
 import { songUrl } from '../../lib/songs';
 import { storage, updatePrefs } from '../../lib/storage';
+import { site } from '../../site.config';
 import Keypad, { type BookChip } from './Keypad';
 import WordSearch from './WordSearch';
 
@@ -13,12 +14,21 @@ const TABS: Tab[] = ['number', 'words'];
 
 export default function SearchTabs({ books }: { books: BookChip[] }) {
   // Server render: Number tab. The real tab/deep link is applied after mount.
+  const [desktop, setDesktop] = useState(false);
   const [tab, setTab] = useState<Tab>('number');
   /** undefined = not read yet (don't mount Keypad); object = URL/prefs applied once. */
   const [deep, setDeep] = useState<Deep | undefined>(undefined);
   // Arrow-key tab switching keeps focus on the tabs; clicks and page load focus the search box.
   const [focusInput, setFocusInput] = useState(true);
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
+
+  useEffect(() => {
+    const mq = matchMedia(`(min-width: ${site.layout.desktopMin}px)`);
+    const sync = () => setDesktop(mq.matches);
+    sync();
+    mq.addEventListener('change', sync);
+    return () => mq.removeEventListener('change', sync);
+  }, []);
 
   useEffect(() => {
     const p = new URLSearchParams(location.search);
@@ -57,6 +67,11 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
     e.preventDefault();
     choose(tab === 'number' ? 'words' : 'number', true);
   };
+
+  // Desktop shell already has Finder; avoid a second Number/Words UI (and duplicate a11y roles).
+  if (desktop) {
+    return <p class="notice muted">{t('desktop.useFinder')}</p>;
+  }
 
   return (
     <div class="search">
