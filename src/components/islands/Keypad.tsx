@@ -32,21 +32,34 @@ const openSong = (id: string, book: string) => location.assign(`${songUrl(id)}?f
 
 export default function Keypad({ books, active, initial, desktopOnly = false }: Props) {
   const findBook = (id?: string | null) => books.find((b) => b.id.toLowerCase() === id?.toLowerCase());
-  const [bookId, setBookId] = useState(
-    () => (findBook(initial?.book) ?? findBook(site.defaultBookId) ?? books[0])?.id ?? '',
-  );
+  // Resolve the book once at mount so a late prefs read cannot overwrite a chip the user already tapped.
+  const [bookId, setBookId] = useState(() => {
+    const fromUrl = findBook(initial?.book);
+    if (fromUrl) return fromUrl.id;
+    try {
+      const last = findBook(storage.prefs.get().lastBookId);
+      if (last) return last.id;
+    } catch {
+      /* private mode */
+    }
+    return (findBook(site.defaultBookId) ?? books[0])?.id ?? '';
+  });
   const [digits, setDigits] = useState(() => (initial?.n ?? '').replace(/\D/g, '').slice(0, MAX));
   const [variant, setVariant] = useState<string | null>(null);
-  const [order, setOrder] = useState(books.map((b) => b.id));
+  const [order] = useState(() => {
+    try {
+      const last = findBook(storage.prefs.get().lastBookId);
+      if (last) return [last.id, ...books.map((b) => b.id).filter((id) => id !== last.id)];
+    } catch {
+      /* private mode */
+    }
+    return books.map((b) => b.id);
+  });
   const [numbers, setNumbers] = useState<NumbersMap | null>(null);
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [failed, setFailed] = useState(false);
 
   useEffect(() => {
-    const last = findBook(storage.prefs.get().lastBookId);
-    // Last-used book first; the rest keep the book `order`.
-    if (last) setOrder([last.id, ...books.map((b) => b.id).filter((id) => id !== last.id)]);
-    if (last && !initial?.book) setBookId(last.id);
     Promise.all([loadNumbers(), loadMeta()])
       .then(([n, m]) => {
         setNumbers(n);

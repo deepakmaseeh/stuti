@@ -39,6 +39,9 @@ describe('check-safety: sources', () => {
     expect(
       scanSource([{ path: 'public/admin/index.html', text: '<script src="https://unpkg.com/decap-cms">' }]),
     ).toEqual([]);
+    expect(
+      scanSource([{ path: 'src/pages/admin/index.astro', text: '<script src="https://unpkg.com/decap-cms">' }]),
+    ).toEqual([]);
   });
 });
 

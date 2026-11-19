@@ -47,7 +47,8 @@ export function scanSource(files: TextFile[]): Finding[] {
   const out: Finding[] = [];
   for (const f of files) {
     const p = f.path.replace(/\\/g, '/');
-    if (p.startsWith('public/admin/') || p === 'public/_headers') continue;
+    // /admin is allowed Decap from unpkg (public shell + Astro route for `astro dev`).
+    if (p.startsWith('public/admin/') || p.startsWith('src/pages/admin/') || p === 'public/_headers') continue;
     if (p.startsWith('src/')) for (const r of SOURCE_RULES) out.push(...lines(f.text, r.re, p, r.message));
     out.push(...lines(f.text, TRACKERS, p, 'third-party tracker, font or CDN host'));
   }
