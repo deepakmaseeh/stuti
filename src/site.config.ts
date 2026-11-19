@@ -1,7 +1,7 @@
 export const site = {
-  name: 'Stuti',
+  name: 'Stuti Christian Song',
   tagline: 'Digital hymnal for Indian churches',
-  url: 'https://stuti.pages.dev',
+  url: 'https://stuti.deepakmaseeh121.workers.dev',
   languages: ['hi', 'ta', 'te', 'pa', 'en'] as const,
   defaultBookId: 'DT',
   includeDemo: import.meta.env.PUBLIC_INCLUDE_DEMO === 'true',

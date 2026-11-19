@@ -5,14 +5,14 @@ backend:
   name: github
   repo: deepakmaseeh/stuti
   branch: main
-  base_url: https://stuti-cms-auth.OWNER.workers.dev
+  base_url: https://stuti-cms-auth.deepakmaseeh121.workers.dev
   squash_merges: true
 # Only used on localhost with `npx decap-server` (see CONTRIBUTING.md); ignored on the live site.
 local_backend: true
 publish_mode: editorial_workflow
 media_folder: public/uploads
 public_folder: /uploads
-site_url: https://stuti.pages.dev
+site_url: https://stuti.deepakmaseeh121.workers.dev
 locale: en
 
 # YAML helper: the song form, shared by the 5 song collections below.

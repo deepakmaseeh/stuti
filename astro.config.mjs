@@ -5,7 +5,7 @@ import AstroPWA from '@vite-pwa/astro';
 
 // Keep `site` equal to site.config.ts → url (spec §2).
 export default defineConfig({
-  site: 'https://stuti.pages.dev',
+  site: 'https://stuti.deepakmaseeh121.workers.dev',
   output: 'static',
   trailingSlash: 'always',
   build: { format: 'directory' },
