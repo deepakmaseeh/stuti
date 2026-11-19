@@ -139,7 +139,18 @@ export default function SongToolbar({
 
   const Icon = ({ children, label }: { children: ComponentChildren; label: string }) => (
     <>
-      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" class="tool__icon">
+      <svg
+        viewBox="0 0 24 24"
+        width="20"
+        height="20"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        class="tool__icon"
+      >
         {children}
       </svg>
       <span class="tool__label">{label}</span>
@@ -189,10 +200,9 @@ export default function SongToolbar({
           onClick={() => save({ size: Math.max(0, prefs.size - 1) })}
         >
           <Icon label="A−">
-            <path
-              d="M5 18h2.2l.7-2h3.2l.7 2H14l-3.2-9H8.2L5 18zm3.4-3.6 1.1-3.2 1.1 3.2H8.4zM16 11h6v2h-6z"
-              fill="currentColor"
-            />
+            <path d="M4 20 9 4h2l5 16h-2.2l-1.1-3.5H7.3L6.2 20H4z" />
+            <path d="M7.9 14h4.7" />
+            <path d="M16 12h6" />
           </Icon>
         </button>
         <button
@@ -203,10 +213,10 @@ export default function SongToolbar({
           onClick={() => save({ size: Math.min(SIZE_STEPS - 1, prefs.size + 1) })}
         >
           <Icon label="A+">
-            <path
-              d="M4 18h2.2l.7-2h3.2l.7 2H13l-3.2-9H6.8L4 18zm3.4-3.6 1.1-3.2 1.1 3.2H7.4zM16 8h2v3h3v2h-3v3h-2v-3h-3v-2h3V8z"
-              fill="currentColor"
-            />
+            <path d="M3 20 8 4h2l5 16h-2.2l-1.1-3.5H6.3L5.2 20H3z" />
+            <path d="M6.9 14h4.7" />
+            <path d="M16 9v8" />
+            <path d="M12 13h8" />
           </Icon>
         </button>
         {!isEnglish && (
@@ -219,14 +229,15 @@ export default function SongToolbar({
           >
             {layoutOn ? (
               <Icon label={t('song.layoutColumns')}>
-                <path
-                  d="M4 5h5v14H4V5zm6 0h5v14h-5V5zm6 0h4v14h-4V5z"
-                  fill="currentColor"
-                />
+                <rect x="3" y="4" width="5" height="16" rx="1" />
+                <rect x="10" y="4" width="5" height="16" rx="1" />
+                <rect x="17" y="4" width="4" height="16" rx="1" />
               </Icon>
             ) : (
               <Icon label={t('song.layoutStacked')}>
-                <path d="M4 5h16v4H4V5zm0 5h16v4H4v-4zm0 5h16v4H4v-4z" fill="currentColor" />
+                <rect x="3" y="4" width="18" height="4" rx="1" />
+                <rect x="3" y="10" width="18" height="4" rx="1" />
+                <rect x="3" y="16" width="18" height="4" rx="1" />
               </Icon>
             )}
           </button>
@@ -240,10 +251,8 @@ export default function SongToolbar({
           onClick={toggleAwake}
         >
           <Icon label={awake ? t('song.screenOn') : t('song.keepAwake')}>
-            <path
-              d="M12 4.5 13.8 9H19l-4.1 3 1.6 4.8L12 14.2 7.5 16.8 9.1 12 5 9h5.2L12 4.5z"
-              fill="currentColor"
-            />
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
           </Icon>
         </button>
         <button
@@ -254,42 +263,38 @@ export default function SongToolbar({
         >
           {inSet ? (
             <Icon label={t('song.inSet')}>
-              <path
-                d="M5 6h11v2H5V6zm0 5h11v2H5v-2zm0 5h8v2H5v-2zm12.2-1.3 1.4-1.4 2.1 2.1 3.5-3.5 1.4 1.4-4.9 4.9-3.5-3.5z"
-                fill="currentColor"
-              />
+              <path d="M8 6h13M8 12h13M8 18h8" />
+              <path d="M3 6h.01M3 12h.01M3 18h.01" />
+              <path d="m15 16 2 2 4-4" />
             </Icon>
           ) : (
             <Icon label={t('song.addSet')}>
-              <path
-                d="M5 6h11v2H5V6zm0 5h11v2H5v-2zm0 5h8v2H5v-2zm13-6h2v3h3v2h-3v3h-2v-3h-3v-2h3V10z"
-                fill="currentColor"
-              />
+              <path d="M8 6h13M8 12h13M8 18h8" />
+              <path d="M3 6h.01M3 12h.01M3 18h.01" />
+              <path d="M19 15v6M16 18h6" />
             </Icon>
           )}
         </button>
         <button type="button" class="tool" onClick={() => shareLink(share)}>
           <Icon label={t('song.share')}>
-            <path
-              d="M18 16a3 3 0 0 0-2.2 1l-6.3-3.3a3.1 3.1 0 0 0 0-1.4L15.8 9A3 3 0 1 0 14 7a3 3 0 0 0 .1.7L8 11a3 3 0 1 0 0 2l6.1 3.2A3 3 0 1 0 18 16z"
-              fill="currentColor"
-            />
+            <circle cx="18" cy="5" r="3" />
+            <circle cx="6" cy="12" r="3" />
+            <circle cx="18" cy="19" r="3" />
+            <path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4" />
           </Icon>
         </button>
         <button type="button" class="tool layout-toggle" onClick={() => window.print()}>
           <Icon label={t('desktop.pdf')}>
-            <path
-              d="M7 3h7l5 5v13a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm7 1.5V9h4.5L14 4.5zM8 12h8v1.5H8V12zm0 3.5h8V17H8v-1.5zm0 3.5h5V21H8v-2z"
-              fill="currentColor"
-            />
+            <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
+            <path d="M14 2v6h6" />
+            <path d="M9 13h6M9 17h4" />
           </Icon>
         </button>
         <button type="button" class="tool layout-toggle" onClick={() => void exportPpt()}>
           <Icon label={t('desktop.ppt')}>
-            <path
-              d="M3 5h18v12H3V5zm2 2v8h14V7H5zm3 11h8v2H8v-2zM8 9h4.5a2.2 2.2 0 0 1 0 4.4H10V15H8V9zm2 1.5v1.4h2.3a.7.7 0 0 0 0-1.4H10z"
-              fill="currentColor"
-            />
+            <rect x="2" y="4" width="20" height="14" rx="2" />
+            <path d="M8 22h8M12 18v4" />
+            <path d="M8 9h3.5a2 2 0 0 1 0 4H8V9z" />
           </Icon>
         </button>
       </div>
