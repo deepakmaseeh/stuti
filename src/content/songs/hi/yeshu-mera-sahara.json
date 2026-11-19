@@ -1,0 +1,92 @@
+{
+  "slug": "yeshu-mera-sahara",
+  "numbers": [
+    {
+      "book": "DH",
+      "number": "12"
+    }
+  ],
+  "title": {
+    "native": "यीशु मेरा सहारा",
+    "roman": "Yeshu Mera Sahara",
+    "en": "Jesus, My Support"
+  },
+  "aliases": [
+    "yesu",
+    "yisu",
+    "sahara"
+  ],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यीशु मेरा सहारा है",
+          "r": "Yeshu mera sahara hai",
+          "e": "Jesus is my support"
+        },
+        {
+          "n": "अंधेरे में उजियारा है",
+          "r": "Andhere mein ujiyara hai",
+          "e": "He is light in the darkness"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जब राह न सूझे, वह हाथ थामे",
+          "r": "Jab raah na soojhe, voh haath thaame",
+          "e": "When I cannot see the way, He holds my hand"
+        },
+        {
+          "n": "हर डर को वह दूर भगाए",
+          "r": "Har dar ko voh door bhagaaye",
+          "e": "He drives every fear away"
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सुबह-शाम मैं उसके गीत गाऊँ",
+          "r": "Subah-shaam main uske geet gaaoon",
+          "e": "Morning and evening I sing His songs"
+        },
+        {
+          "n": "उसके प्रेम में जीवन बिताऊँ",
+          "r": "Uske prem mein jeevan bitaaoon",
+          "e": "I spend my life in His love"
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": true
+  },
+  "author": {
+    "name": "Demo text"
+  },
+  "year": 2026,
+  "bibleRefs": [
+    "Psalm 23:4"
+  ],
+  "tags": [
+    "comfort"
+  ],
+  "rights": {
+    "status": "demo",
+    "basis": "Written for the prototype"
+  },
+  "layers": {
+    "roman": "reviewed",
+    "en": "draft"
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

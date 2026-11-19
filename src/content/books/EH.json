@@ -1,0 +1,12 @@
+{
+  "id": "EH",
+  "name": {
+    "native": "English Hymns",
+    "en": "English Hymns"
+  },
+  "lang": "en",
+  "edition": "Public domain selection",
+  "order": 5,
+  "numbering": "numeric",
+  "status": "active"
+}

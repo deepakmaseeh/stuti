@@ -7,9 +7,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "astro dev",
+    "validate": "tsx --env-file-if-exists=.env scripts/validate.ts",
+    "prebuild": "npm run validate",
     "build": "astro build",
     "preview": "astro preview",
-    "test": "vitest run --passWithNoTests",
+    "test": "vitest run",
     "format": "prettier -w .",
     "lint": "eslint ."
   },

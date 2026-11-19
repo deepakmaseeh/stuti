@@ -1,0 +1,77 @@
+{
+  "slug": "jesus-loves-me",
+  "numbers": [
+    {
+      "book": "EH",
+      "number": "2"
+    }
+  ],
+  "title": {
+    "native": "Jesus Loves Me",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [
+    "this i know"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Jesus loves me! This I know,"
+        },
+        {
+          "n": "For the Bible tells me so;"
+        },
+        {
+          "n": "Little ones to Him belong;"
+        },
+        {
+          "n": "They are weak, but He is strong."
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "Yes, Jesus loves me!"
+        },
+        {
+          "n": "Yes, Jesus loves me!"
+        },
+        {
+          "n": "Yes, Jesus loves me!"
+        },
+        {
+          "n": "The Bible tells me so."
+        }
+      ]
+    }
+  ],
+  "author": {
+    "name": "Anna B. Warner",
+    "born": 1827,
+    "died": 1915
+  },
+  "year": 1860,
+  "bibleRefs": [
+    "Mark 10:14"
+  ],
+  "tags": [
+    "children"
+  ],
+  "rights": {
+    "status": "public_domain",
+    "basis": "Author died 1915"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

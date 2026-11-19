@@ -1,0 +1,59 @@
+{
+  "slug": "amazing-grace",
+  "numbers": [
+    {
+      "book": "EH",
+      "number": "1"
+    }
+  ],
+  "title": {
+    "native": "Amazing Grace",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [
+    "how sweet the sound"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Amazing grace! How sweet the sound"
+        },
+        {
+          "n": "That saved a wretch like me!"
+        },
+        {
+          "n": "I once was lost, but now am found;"
+        },
+        {
+          "n": "Was blind, but now I see."
+        }
+      ]
+    }
+  ],
+  "author": {
+    "name": "John Newton",
+    "born": 1725,
+    "died": 1807
+  },
+  "year": 1779,
+  "bibleRefs": [
+    "Ephesians 2:8"
+  ],
+  "tags": [
+    "grace"
+  ],
+  "rights": {
+    "status": "public_domain",
+    "basis": "Author died 1807"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

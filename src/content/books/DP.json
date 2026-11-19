@@ -1,0 +1,12 @@
+{
+  "id": "DP",
+  "name": {
+    "native": "ਡੈਮੋ ਪੰਜਾਬੀ ਗੀਤ",
+    "en": "Demo Punjabi Geet"
+  },
+  "lang": "pa",
+  "edition": "Demo 2026",
+  "order": 4,
+  "numbering": "numeric",
+  "status": "demo"
+}

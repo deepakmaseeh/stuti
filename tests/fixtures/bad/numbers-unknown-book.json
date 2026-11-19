@@ -1,0 +1,46 @@
+{
+  "numbers": [
+    {
+      "book": "ZZ",
+      "number": "1"
+    }
+  ],
+  "title": {
+    "native": "நல்ல பாடல்",
+    "roman": "Nalla Paadal",
+    "en": "A Good Song"
+  },
+  "aliases": [
+    "nalla"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "இயேசுவே என் துணை",
+          "r": "Yesuve en thunai",
+          "e": "Jesus, my companion"
+        }
+      ]
+    }
+  ],
+  "author": {
+    "name": "Test Author",
+    "died": 1900
+  },
+  "bibleRefs": [
+    "Psalm 1:1"
+  ],
+  "rights": {
+    "status": "public_domain",
+    "basis": "Test fixture"
+  },
+  "layers": {
+    "roman": "reviewed",
+    "en": "reviewed"
+  },
+  "updated": "2026-01-01",
+  "publish": true
+}

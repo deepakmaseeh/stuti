@@ -1,0 +1,11 @@
+{
+  "numbers": [{ "book": "EB", "number": "1" }],
+  "title": { "native": "Test Hymn" },
+  "aliases": ["holy"],
+  "sections": [{ "type": "verse", "label": "Verse 1", "lines": [{ "n": "Holy, holy, holy" }] }],
+  "author": { "name": "Old Author", "died": 1850 },
+  "bibleRefs": ["Revelation 4:8"],
+  "rights": { "status": "public_domain" },
+  "updated": "2026-01-01",
+  "publish": true
+}
