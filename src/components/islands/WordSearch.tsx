@@ -59,6 +59,7 @@ export default function WordSearch({ active, autoFocus, initialQuery = '' }: Pro
         <input
           ref={input}
           class="search-input"
+          data-word-search
           type="search"
           inputMode="search"
           enterKeyHint="search"

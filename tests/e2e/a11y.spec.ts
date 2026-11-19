@@ -1,5 +1,6 @@
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 const PAGES = [
   '/',
@@ -20,7 +21,7 @@ const PAGES = [
 
 /** Axe with every rule on; the gate is zero serious or critical violations (spec §19.2). */
 async function seriousViolations(page: Page) {
-  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+  await waitHydrated(page);
   const { violations } = await new AxeBuilder({ page }).analyze();
   return violations
     .filter((v) => v.impact === 'serious' || v.impact === 'critical')
@@ -56,7 +57,7 @@ test.describe('accessibility (axe)', () => {
 
   test('report sheet open', async ({ page }) => {
     await page.goto('/song/ta-yesuve-en-thunai/');
-    await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(page);
     await page.getByRole('link', { name: 'Report a mistake in this song' }).click();
     await expect(page.getByRole('dialog', { name: "What's wrong?" })).toBeVisible();
     expect(await seriousViolations(page)).toEqual([]);

@@ -133,7 +133,7 @@ a {
   line-height: var(--lh-latin);
 }
 
-/* Layout: mobile-first, centred 480px column on wider screens */
+/* Layout: mobile-first. Phone ≤480px column; tablet/desktop widen via media queries in components.css. */
 .app-column {
   width: 100%;
   max-width: 480px;

@@ -1,8 +1,9 @@
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 async function wordsTab(page: Page) {
   await page.goto('/search/');
-  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+  await waitHydrated(page);
   await page.getByRole('tab', { name: 'Words' }).click();
   return page.getByRole('searchbox', { name: 'Words' });
 }
@@ -63,7 +64,7 @@ test.describe('word search (F2)', () => {
       if (/\/search\/idx-/.test(r.url())) shards.push(r.url());
     });
     await page.goto('/search/');
-    await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(page);
     expect(shards).toEqual([]);
     await page.getByRole('tab', { name: 'Words' }).click();
     await page.getByRole('searchbox', { name: 'Words' }).fill('grace');
@@ -81,7 +82,7 @@ test.describe('word search (F2)', () => {
 
   test('arrow keys move between tabs', async ({ page }) => {
     await page.goto('/search/');
-    await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(page);
     await page.getByRole('tab', { name: 'Number' }).focus();
     await page.keyboard.press('ArrowRight');
     await expect(page.getByRole('tab', { name: 'Words' })).toBeFocused();

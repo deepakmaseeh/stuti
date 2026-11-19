@@ -41,6 +41,7 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
         h.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
         h.dataset.size = String(p.size == null ? 2 : p.size);
         h.dataset.theme = p.theme || 'system';
+        h.dataset.layout = p.layout === 'columns' ? 'columns' : 'stacked';
       } catch {
         // Storage blocked or corrupt: keep the server defaults.
       }

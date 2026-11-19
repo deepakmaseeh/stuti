@@ -62,11 +62,11 @@ export default function SetNavBar() {
   return (
     <nav class="setnav" aria-label={set.t}>
       {i > 0 ? (
-        <a class="setnav__btn" href={songInSetUrl(set, code, i - 1)} rel="prev">
+        <a class="setnav__btn" href={songInSetUrl(set, code, i - 1)} rel="prev" data-set-prev>
           ‹ {t('set.prev')}
         </a>
       ) : (
-        <a class="setnav__btn" href={`/set/#s=${code}`}>
+        <a class="setnav__btn" href={`/set/#s=${code}`} data-set-prev>
           ‹ {t('nav.set')}
         </a>
       )}
@@ -79,11 +79,11 @@ export default function SetNavBar() {
         )}
       </span>
       {i < n - 1 ? (
-        <a class="setnav__btn setnav__btn--next" href={songInSetUrl(set, code, i + 1)} rel="next">
+        <a class="setnav__btn setnav__btn--next" href={songInSetUrl(set, code, i + 1)} rel="next" data-set-next>
           {t('set.next')} ›
         </a>
       ) : (
-        <a class="setnav__btn" href={`/set/#s=${code}`}>
+        <a class="setnav__btn" href={`/set/#s=${code}`} data-set-next>
           {t('nav.set')} ›
         </a>
       )}

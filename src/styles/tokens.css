@@ -106,6 +106,26 @@ html[data-size='5'] {
   --lyric-size: 1.875rem;
 }
 
+/* Tablet+: default lyric size is one step larger (size 2 reads as former size 3, etc.). */
+@media (min-width: 768px) {
+  html[data-size='0'] {
+    --lyric-size: 1.125rem;
+  }
+  html[data-size='1'] {
+    --lyric-size: 1.25rem;
+  }
+  html[data-size='2'] {
+    --lyric-size: 1.4375rem;
+  }
+  html[data-size='3'] {
+    --lyric-size: 1.625rem;
+  }
+  html[data-size='4'],
+  html[data-size='5'] {
+    --lyric-size: 1.875rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;

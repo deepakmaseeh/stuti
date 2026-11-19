@@ -20,6 +20,13 @@ export const site = {
     missingSongUrl: 'https://github.com/deepakmaseeh/stuti/issues/new?template=missing-song.yml',
   },
   search: { maxDigits: 4, pageSize: 30, debounceMs: 120 },
+  /** Responsive layout (CSS + progressive enhancement). Phone unchanged below tabletMin. */
+  layout: {
+    tabletMin: 768,
+    desktopMin: 1200,
+    sideWidth: 360,
+    tabletContentMax: 720,
+  },
   analyticsToken: import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN ?? '',
   contactEmail: '',
 } as const;

@@ -1,11 +1,12 @@
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 const HI = '/song/hi-yeshu-mera-sahara/';
 
 /** Astro removes the `ssr` attribute from an island once it has hydrated. */
 async function gotoHydrated(page: Page, url: string) {
   await page.goto(url);
-  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+  await waitHydrated(page);
 }
 
 async function expectNoOverlapOrHScroll(page: Page) {

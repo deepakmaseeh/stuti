@@ -1,4 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 // Runs in the "headers" project against `wrangler pages dev dist`, which applies public/_headers
 // exactly like Cloudflare Pages does (every matching rule, `!` removes inherited headers).
@@ -48,7 +49,7 @@ test.describe('site pages under the strict CSP', () => {
       expect(csp).toContain("frame-ancestors 'none'");
       expect(csp).not.toContain('unpkg.com');
       expect(res!.headers()['x-frame-options']).toBe('DENY');
-      await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+      await waitHydrated(page);
       expect(errors).toEqual([]);
     });
   }

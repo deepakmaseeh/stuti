@@ -1,4 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 // Same format as encodeSet() in src/lib/setlist.ts (which needs Astro's env, so it can't be imported here).
 const encodeSet = (set: object) => Buffer.from(JSON.stringify(set)).toString('base64url');
@@ -23,7 +24,7 @@ test.describe('offline (F5/F14)', () => {
 
   async function downloadDT(page: Page) {
     await page.goto('/downloads/');
-    await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(page);
     const row = page.locator('[data-book="DT"]');
     await row.getByRole('button', { name: 'Download' }).click();
     await expect(row.getByTestId('dl-status')).toBeVisible({ timeout: 15_000 });

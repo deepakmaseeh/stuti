@@ -31,6 +31,7 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
       loadNumbers()
         .then((map) => {
           const id = lookupNumber(map, d.book!, d.n!);
+          // Full navigation (not the desktop preview pane): deep links and offline must land on the song page.
           if (id) location.replace(`${songUrl(id)}?from=${d.book!.toLowerCase()}`);
         })
         .catch(() => {});

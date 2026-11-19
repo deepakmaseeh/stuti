@@ -1,8 +1,9 @@
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 async function hydrated(page: Page, url: string) {
   await page.goto(url);
-  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+  await waitHydrated(page);
 }
 
 async function addToSet(page: Page, songUrl: string) {
@@ -42,7 +43,7 @@ test.describe('set list (F6)', () => {
     const ctx = await browser.newContext();
     const other = await ctx.newPage();
     await other.goto(shareUrl.replace(/^https?:\/\/[^/]+/, 'http://localhost:4321'));
-    await expect(other.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(other);
     await expect(other.getByText(/^Shared set:/)).toBeVisible();
     const shared = other.getByTestId('set-rows').getByRole('link');
     await expect(shared).toHaveCount(3);
@@ -111,7 +112,9 @@ test.describe('report a mistake (F8)', () => {
     await dialog.getByRole('textbox', { name: 'Correction' }).fill('typo & missing word');
     const popup = page.waitForEvent('popup');
     await dialog.getByRole('button', { name: 'Send to editors' }).click();
-    const url = new URL((await popup).url());
+    // GitHub may bounce anonymous users to /login?return_to=… — read params from the issue URL either way.
+    const opened = new URL((await popup).url());
+    const url = new URL(opened.searchParams.get('return_to') ?? opened.href);
     expect(url.searchParams.get('song')).toBe('ta-yesuve-en-thunai');
     expect(url.searchParams.get('correction')).toBe('typo & missing word');
     expect(url.searchParams.get('line')).toMatch(/^Verse 1: /);
@@ -156,7 +159,7 @@ test.describe('home, settings, 404', () => {
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'contrast');
     await page.reload();
     await expect(page.locator('html')).toHaveAttribute('data-theme', 'contrast');
-    await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(page);
     await page.getByRole('button', { name: 'Clear my data' }).click();
     const dialog = page.getByRole('dialog', { name: 'Clear my data' });
     await dialog.getByRole('button', { name: 'Clear my data' }).click();

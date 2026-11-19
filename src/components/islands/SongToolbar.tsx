@@ -32,6 +32,7 @@ function applyHtml(prefs: Prefs) {
   const h = document.documentElement;
   h.dataset.layers = (['n', 'r', 'e'] as const).filter((k) => prefs.layers[k]).join(' ') || 'n';
   h.dataset.size = String(prefs.size);
+  h.dataset.layout = prefs.layout === 'columns' ? 'columns' : 'stacked';
 }
 
 export default function SongToolbar({
@@ -129,6 +130,8 @@ export default function SongToolbar({
     ...(layers.e !== 'missing' ? [{ key: 'e' as const, label: t('song.english'), state: layers.e }] : []),
   ];
 
+  const layoutOn = prefs.layout === 'columns';
+
   return (
     <div class="toolbar">
       {!isEnglish && chips.length > 1 && (
@@ -165,9 +168,20 @@ export default function SongToolbar({
         >
           <span aria-hidden="true">A+</span>
         </button>
+        {!isEnglish && (
+          <button
+            type="button"
+            class={layoutOn ? 'tool layout-toggle tool--on' : 'tool layout-toggle'}
+            aria-pressed={layoutOn ? 'true' : 'false'}
+            title={t('song.layoutHint')}
+            onClick={() => save({ layout: layoutOn ? 'stacked' : 'columns' })}
+          >
+            {layoutOn ? t('song.layoutColumns') : t('song.layoutStacked')}
+          </button>
+        )}
         <button
           type="button"
-          class={`tool${awake ? ' tool--on' : ''}`}
+          class={awake ? 'tool tool--on' : 'tool'}
           aria-pressed={awake ? 'true' : 'false'}
           disabled={!supported}
           title={supported ? undefined : t('song.wakeUnsupported')}
@@ -177,7 +191,7 @@ export default function SongToolbar({
         </button>
         <button
           type="button"
-          class={`tool${inSet ? ' tool--on' : ''}`}
+          class={inSet ? 'tool tool--on' : 'tool'}
           aria-pressed={inSet ? 'true' : 'false'}
           onClick={toggleSet}
         >

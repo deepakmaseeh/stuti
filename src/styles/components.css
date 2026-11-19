@@ -1216,3 +1216,169 @@ input[type='range'] {
   opacity: 1;
   transform: translate(-50%, 0);
 }
+
+/* ---------- Responsive: tablet (768–1199) and desktop (≥1200) ---------- */
+/* Phone keeps the fixed bottom nav and 480px column. */
+
+.shell {
+  min-height: 100dvh;
+}
+.shell__body {
+  display: block;
+}
+.shell__preview,
+.shell__side {
+  display: none;
+}
+.shell__preview-empty {
+  margin: var(--s8) var(--s4);
+  color: var(--muted);
+  text-align: center;
+  font-size: var(--text-lg);
+}
+.shell__preview-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--s3);
+  margin-bottom: var(--s4);
+  padding-bottom: var(--s3);
+  border-bottom: 1px solid var(--line);
+}
+.shell__preview-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-xl);
+  margin: 0;
+}
+.shell__preview-sub {
+  color: var(--muted);
+  font-size: var(--text-sm);
+  margin: var(--s1) 0 0;
+}
+.layout-toggle {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* Bottom nav becomes a top bar; content widens to 720px. */
+  body {
+    padding-top: calc(56px + env(safe-area-inset-top));
+  }
+  .bottom-nav {
+    inset: 0 0 auto 0;
+    max-width: 720px;
+    border-top: none;
+    border-bottom: 1px solid var(--line);
+    padding: var(--s1) var(--s2);
+  }
+  .nav-hidden .bottom-nav {
+    transform: translateY(-110%);
+  }
+  .app-column {
+    max-width: 720px;
+  }
+  .app-main {
+    padding-bottom: var(--s8);
+  }
+  .song-header {
+    top: calc(56px + env(safe-area-inset-top));
+  }
+  .setnav {
+    /* Set prev/next stays at the bottom on tablet. */
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: calc(52px + env(safe-area-inset-top));
+  }
+  .bottom-nav {
+    max-width: none;
+    width: 100%;
+  }
+  .app-header__inner,
+  .app-column {
+    max-width: none;
+  }
+  .app-main {
+    max-width: none;
+    padding-bottom: var(--s8);
+  }
+
+  /* List pages (search, books, set): primary list left, song preview right. */
+  .shell--preview .shell__body {
+    display: grid;
+    grid-template-columns: 360px minmax(0, 1fr);
+    align-items: start;
+    min-height: calc(100dvh - 52px - env(safe-area-inset-top));
+  }
+  .shell--preview .shell__primary {
+    position: sticky;
+    top: calc(52px + env(safe-area-inset-top));
+    max-height: calc(100dvh - 52px - env(safe-area-inset-top));
+    overflow: auto;
+    max-width: 360px;
+    margin-inline: 0;
+    padding-inline: var(--s4);
+    border-right: 1px solid var(--line);
+    background: var(--page);
+  }
+  .shell--preview .shell__preview {
+    display: block;
+    min-width: 0;
+    padding: var(--s5) var(--s6) var(--s8);
+  }
+  .shell--preview .shell__preview.is-filled .shell__preview-empty {
+    display: none;
+  }
+
+  /* Song page: tools left, lyrics right. */
+  .shell--song {
+    display: grid;
+    grid-template-columns: 360px minmax(0, 1fr);
+    align-items: start;
+  }
+  .shell--song .shell__side {
+    display: block;
+    position: sticky;
+    top: calc(52px + env(safe-area-inset-top));
+    max-height: calc(100dvh - 52px - env(safe-area-inset-top));
+    overflow: auto;
+    padding: var(--s4);
+    border-right: 1px solid var(--line);
+    background: var(--page);
+  }
+  .shell--song .shell__song {
+    min-width: 0;
+  }
+  .shell--song .song-header__inner,
+  .shell--song .song {
+    max-width: 52rem;
+    margin-inline: auto;
+  }
+
+  .layout-toggle {
+    display: inline-flex;
+  }
+
+  .song-side__label {
+    margin: 0 0 var(--s3);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--muted);
+  }
+  .song-side__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--s3);
+    margin-top: var(--s5);
+    padding-top: var(--s4);
+    border-top: 1px solid var(--line);
+  }
+  .song-side__links a {
+    font-weight: 600;
+    color: var(--ribbon-ink);
+  }
+}

@@ -1,11 +1,15 @@
 import { site } from '../site.config';
 
 export type Theme = 'system' | 'light' | 'dark' | 'contrast';
+/** Song layer arrangement on wide screens; stacked is always used below desktop. */
+export type LyricLayout = 'stacked' | 'columns';
 export type Prefs = {
   v: 1;
   layers: { n: boolean; r: boolean; e: boolean };
   size: number;
   theme: Theme;
+  /** Side-by-side layers on ≥1200px; ignored on phone/tablet. */
+  layout: LyricLayout;
   keepAwake: boolean;
   lastBookId: string;
   lastTab: 'number' | 'words';
@@ -29,6 +33,7 @@ export const DEFAULT_PREFS: Prefs = {
   layers: { n: true, r: true, e: false },
   size: 2,
   theme: 'system',
+  layout: 'stacked',
   keepAwake: false,
   lastBookId: site.defaultBookId,
   lastTab: 'number',

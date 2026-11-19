@@ -19,6 +19,7 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
   title={`${t('search.title')} | ${site.name}`}
   description="Find a hymn by its number in your printed book, or by any word in any script."
   active="search"
+  desktopPreview
 >
   <h1 class="visually-hidden">{t('search.title')}</h1>
   <noscript>

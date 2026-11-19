@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 const PAGES = [
   '/',
@@ -21,7 +22,7 @@ test.describe('no sideways scrolling', () => {
   for (const path of PAGES) {
     test(path, async ({ page }) => {
       await page.goto(path);
-      await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+      await waitHydrated(page);
       const { scroll, client } = await page.evaluate(() => ({
         scroll: document.documentElement.scrollWidth,
         client: document.documentElement.clientWidth,

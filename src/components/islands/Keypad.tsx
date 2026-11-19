@@ -25,6 +25,7 @@ type Props = {
 
 const MAX = site.search.maxDigits;
 
+/** Full navigation: the singer is done typing and wants the song page (toolbar, set, wake lock). */
 const openSong = (id: string, book: string) => location.assign(`${songUrl(id)}?from=${book.toLowerCase()}`);
 
 export default function Keypad({ books, active, initial }: Props) {

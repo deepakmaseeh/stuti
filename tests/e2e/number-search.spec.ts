@@ -1,8 +1,9 @@
 import { expect, test, type Page } from '@playwright/test';
+import { waitHydrated } from './helpers';
 
 async function openSearch(page: Page, url = '/search/') {
   await page.goto(url);
-  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+  await waitHydrated(page);
 }
 
 const tap = async (page: Page, digits: string) => {
@@ -13,7 +14,7 @@ test.describe('number search (F1)', () => {
   test('Home → Search → 117 → Open shows DT 117', async ({ page }) => {
     await page.goto('/');
     await page.getByRole('navigation', { name: 'Main' }).getByRole('link', { name: 'Search' }).click();
-    await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+    await waitHydrated(page);
     await page.getByRole('button', { name: 'DT', exact: true }).click();
     await tap(page, '117');
     await expect(page.getByTestId('number-status')).toHaveText('இயேசுவே என் துணை');

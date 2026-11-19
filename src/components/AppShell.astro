@@ -2,7 +2,10 @@
 import Base from '../layouts/Base.astro';
 import BottomNav from './BottomNav.astro';
 import OfflineBadge from './OfflineBadge.astro';
+import DesktopPreview from './islands/DesktopPreview';
+import KeyboardShortcuts from './islands/KeyboardShortcuts';
 import { site } from '../site.config';
+import { t } from '../i18n';
 
 interface Props {
   title: string;
@@ -12,25 +15,50 @@ interface Props {
   /** Heading shown in the header (defaults to the app name). */
   heading?: string;
   active?: 'home' | 'search' | 'set' | 'offline';
+  /** Desktop ≥1200: show a right-hand song preview pane (search, books, set). */
+  desktopPreview?: boolean;
 }
-const { title, description, canonicalPath, noindex, heading = site.name, active } = Astro.props;
+const {
+  title,
+  description,
+  canonicalPath,
+  noindex,
+  heading = site.name,
+  active,
+  desktopPreview = false,
+} = Astro.props;
 ---
 
 <Base title={title} description={description} canonicalPath={canonicalPath} noindex={noindex}>
   <slot name="head" slot="head" />
-  <header class="app-header">
-    <div class="app-column app-header__inner">
-      <a href="/" class="app-header__name">
-        {heading}
-      </a>
-      <div class="app-header__actions">
-        <OfflineBadge />
-        <slot name="actions" />
+  <div class:list={['shell', { 'shell--preview': desktopPreview }]}>
+    <header class="app-header">
+      <div class="app-column app-header__inner">
+        <a href="/" class="app-header__name">
+          {heading}
+        </a>
+        <div class="app-header__actions">
+          <OfflineBadge />
+          <slot name="actions" />
+        </div>
       </div>
+    </header>
+    <div class="shell__body">
+      <main
+        id="main"
+        class:list={['app-column', 'app-main', 'shell__primary']}
+        data-desktop-source={desktopPreview ? '' : undefined}
+      >
+        <slot />
+      </main>
+      {desktopPreview && (
+        <aside class="shell__preview" data-song-preview aria-live="polite">
+          <p class="shell__preview-empty">{t('desktop.pickSong')}</p>
+          <DesktopPreview client:idle />
+        </aside>
+      )}
     </div>
-  </header>
-  <main id="main" class="app-column app-main">
-    <slot />
-  </main>
+  </div>
   <BottomNav active={active} />
+  <KeyboardShortcuts client:idle />
 </Base>
