@@ -1,0 +1,16 @@
+---
+import { t } from '../i18n';
+---
+
+<span class="offline-badge" data-offline-badge hidden>
+  {t('offline.badge')}
+</span>
+
+<script>
+  // navigator.onLine + events; a tiny script instead of a hydrated island.
+  const badges = document.querySelectorAll<HTMLElement>('[data-offline-badge]');
+  const update = () => badges.forEach((b) => (b.hidden = navigator.onLine));
+  update();
+  addEventListener('online', update);
+  addEventListener('offline', update);
+</script>

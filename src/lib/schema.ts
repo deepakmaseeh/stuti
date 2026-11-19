@@ -1,7 +1,7 @@
 import { z } from 'zod';
+import { LANGS, type Lang } from './langs';
 
-export const LANGS = ['en', 'hi', 'ta', 'te', 'pa'] as const;
-export type Lang = (typeof LANGS)[number];
+export { LANGS, type Lang };
 export const LangSchema = z.enum(LANGS);
 
 export const BOOK_ID_RE = /^[A-Za-z]{1,6}$/;

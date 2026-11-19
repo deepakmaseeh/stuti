@@ -7,6 +7,7 @@
   --ribbon: oklch(0.55 0.19 25); /* CTA (Open, Start singing), chorus rule */
   --ribbon-ink: var(--ribbon); /* ribbon-coloured TEXT (section labels, markers): lighter in dark themes */
   --ok: oklch(0.55 0.09 175); /* offline-ready, saved, keep-awake on */
+  --ok-ink: oklch(0.47 0.09 175); /* ok-coloured TEXT: lighter in dark themes */
   --warn: oklch(0.62 0.15 60); /* draft layer, permission pending */
   --paper: oklch(0.985 0.004 15); /* app background */
   --page: oklch(0.995 0.002 15); /* cards/sheets */
@@ -57,6 +58,7 @@ html[data-theme='dark'] {
   --muted: oklch(0.74 0.02 40);
   --line: oklch(0.32 0.02 15);
   --ribbon-ink: oklch(0.72 0.15 25);
+  --ok-ink: oklch(0.75 0.1 175);
 }
 
 /* Keep in sync with html[data-theme='dark'] (CSS can't reference another selector's values) */
@@ -69,6 +71,7 @@ html[data-theme='dark'] {
     --muted: oklch(0.74 0.02 40);
     --line: oklch(0.32 0.02 15);
     --ribbon-ink: oklch(0.72 0.15 25);
+    --ok-ink: oklch(0.75 0.1 175);
   }
 }
 

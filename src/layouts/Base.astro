@@ -27,6 +27,8 @@ const canonical = new URL(canonicalPath ?? Astro.url.pathname, site.url).href;
     <link rel="canonical" href={canonical} />
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <meta name="theme-color" content="#4a1820" />
     <script is:inline>
       document.documentElement.classList.add('js');
@@ -40,10 +42,21 @@ const canonical = new URL(canonicalPath ?? Astro.url.pathname, site.url).href;
       } catch {
         // Storage blocked or corrupt: keep the server defaults.
       }
+      // Chrome fires this early; keep it for InstallPrompt, which decides when (and if) to offer it.
+      addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        self.__stutiInstall = e;
+        dispatchEvent(new Event('stuti:installable'));
+      });
     </script>
     <slot name="head" />
   </head>
   <body class={bodyClass}>
     <slot />
+    <script>
+      import { registerServiceWorker } from '../lib/pwa';
+      // No service worker in `astro dev` (devOptions.enabled is false).
+      if (import.meta.env.PROD) registerServiceWorker();
+    </script>
   </body>
 </html>

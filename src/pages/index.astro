@@ -2,6 +2,7 @@
 import AppShell from '../components/AppShell.astro';
 import NumberBadge from '../components/NumberBadge.astro';
 import HomeLists from '../components/islands/HomeLists';
+import InstallPrompt from '../components/islands/InstallPrompt';
 import { getBookEntries, getBooks } from '../lib/content';
 import { LANG_LABEL, LANG_TAG } from '../lib/scripts';
 import { site } from '../site.config';
@@ -36,6 +37,7 @@ const books = await Promise.all(
   </a>
 
   <HomeLists client:load />
+  <InstallPrompt client:idle />
 
   <section aria-labelledby="books-title">
     <h2 class="group-title" id="books-title">

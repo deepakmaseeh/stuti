@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import BottomNav from './BottomNav.astro';
+import OfflineBadge from './OfflineBadge.astro';
 import { site } from '../site.config';
 
 interface Props {
@@ -23,6 +24,7 @@ const { title, description, canonicalPath, noindex, heading = site.name, active 
         {heading}
       </a>
       <div class="app-header__actions">
+        <OfflineBadge />
         <slot name="actions" />
       </div>
     </div>

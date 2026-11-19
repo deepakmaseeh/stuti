@@ -4,14 +4,16 @@
 @import '@fontsource/instrument-sans/600.css';
 @import '@fontsource/instrument-sans/700.css';
 @import '@fontsource/domine/700.css';
-@import '@fontsource/noto-sans-devanagari/400.css';
-@import '@fontsource/noto-sans-devanagari/700.css';
-@import '@fontsource/noto-sans-tamil/400.css';
-@import '@fontsource/noto-sans-tamil/700.css';
-@import '@fontsource/noto-sans-telugu/400.css';
-@import '@fontsource/noto-sans-telugu/700.css';
-@import '@fontsource/noto-sans-gurmukhi/400.css';
-@import '@fontsource/noto-sans-gurmukhi/700.css';
+/* Indic fonts: script glyphs only. Digits and punctuation in Indic lines fall back to
+   Instrument Sans (already loaded) instead of a second Latin copy per script. */
+@import '@fontsource/noto-sans-devanagari/devanagari-400.css';
+@import '@fontsource/noto-sans-devanagari/devanagari-700.css';
+@import '@fontsource/noto-sans-tamil/tamil-400.css';
+@import '@fontsource/noto-sans-tamil/tamil-700.css';
+@import '@fontsource/noto-sans-telugu/telugu-400.css';
+@import '@fontsource/noto-sans-telugu/telugu-700.css';
+@import '@fontsource/noto-sans-gurmukhi/gurmukhi-400.css';
+@import '@fontsource/noto-sans-gurmukhi/gurmukhi-700.css';
 
 /* Reset */
 *,
@@ -75,6 +77,20 @@ a {
 :lang(pa) {
   font-family: var(--font-indic);
   line-height: var(--lh-indic);
+}
+/* Own script first: digits and punctuation then come from the font already loaded for that script,
+   instead of downloading another script's Latin subset (and failing offline). */
+:lang(hi) {
+  --font-indic: 'Noto Sans Devanagari', var(--font-ui);
+}
+:lang(ta) {
+  --font-indic: 'Noto Sans Tamil', var(--font-ui);
+}
+:lang(te) {
+  --font-indic: 'Noto Sans Telugu', var(--font-ui);
+}
+:lang(pa) {
+  --font-indic: 'Noto Sans Gurmukhi', var(--font-ui);
 }
 /* :lang(hi) also matches hi-Latn: romanised text goes back to the UI font */
 :lang(hi-Latn),

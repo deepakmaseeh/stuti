@@ -35,7 +35,7 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
         })
         .catch(() => {});
       setTab('number');
-    } else if (d.q) setTab('words');
+    } else if (d.q || p.get('tab') === 'words') setTab('words');
     else setTab(storage.prefs.get().lastTab);
     setDeep(d);
   }, []);

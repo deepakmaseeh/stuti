@@ -1,0 +1,23 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import DownloadsPanel, { type DlBook } from '../../components/islands/DownloadsPanel';
+import { getBooks } from '../../lib/content';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+const books: DlBook[] = (await getBooks()).map((b) => ({
+  id: b.id,
+  native: b.name.native,
+  en: b.name.en,
+  lang: b.lang,
+}));
+---
+
+<AppShell title={`${t('dl.title')} | ${site.name}`} description={t('dl.intro')} active="offline" noindex>
+  <h1 class="page-title">{t('dl.title')}</h1>
+  <p class="page-sub">{t('dl.intro')}</p>
+  <noscript>
+    <p class="notice">{t('search.noJs')}</p>
+  </noscript>
+  <DownloadsPanel client:load books={books} />
+</AppShell>

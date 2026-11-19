@@ -1,4 +1,5 @@
-import { LANGS, type Lang, type SongData } from './schema';
+import { LANGS, type Lang } from './langs';
+import type { SongData } from './schema';
 
 type SongLike = Pick<SongData, 'publish' | 'rights' | 'sections' | 'numbers'>;
 

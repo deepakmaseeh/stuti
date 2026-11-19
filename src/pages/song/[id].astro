@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import BottomNav from '../../components/BottomNav.astro';
 import NumberBadge from '../../components/NumberBadge.astro';
+import OfflineBadge from '../../components/OfflineBadge.astro';
 import LyricSection from '../../components/LyricSection.astro';
 import SongMeta from '../../components/SongMeta.astro';
 import SongToolbar from '../../components/islands/SongToolbar.tsx';
@@ -72,7 +73,10 @@ const numbersData = JSON.stringify(song.numbers);
       <span data-numbers={numbersData} class="song-header__badge">
         <NumberBadge book={primary.book} number={primary.number} size="header" />
       </span>
-      <FavStar client:load snapshot={snapshot} />
+      <span class="song-header__end">
+        <OfflineBadge />
+        <FavStar client:load snapshot={snapshot} />
+      </span>
     </div>
   </header>
   <script is:inline>

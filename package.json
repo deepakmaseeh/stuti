@@ -11,6 +11,8 @@
     "indexes": "tsx --env-file-if-exists=.env scripts/build-indexes.ts",
     "prebuild": "npm run validate && npm run indexes",
     "build": "astro build",
+    "postbuild": "tsx scripts/font-manifest.ts",
+    "check-precache": "tsx scripts/check-precache.ts",
     "preview": "astro preview",
     "test": "vitest run",
     "test:e2e": "playwright test",
