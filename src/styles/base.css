@@ -1,0 +1,95 @@
+/* Self-hosted fonts (no Google Fonts calls). @fontsource uses unicode-range,
+   so a page only downloads the scripts it actually shows. */
+@import '@fontsource/instrument-sans/400.css';
+@import '@fontsource/instrument-sans/600.css';
+@import '@fontsource/instrument-sans/700.css';
+@import '@fontsource/domine/700.css';
+@import '@fontsource/noto-sans-devanagari/400.css';
+@import '@fontsource/noto-sans-devanagari/700.css';
+@import '@fontsource/noto-sans-tamil/400.css';
+@import '@fontsource/noto-sans-tamil/700.css';
+@import '@fontsource/noto-sans-telugu/400.css';
+@import '@fontsource/noto-sans-telugu/700.css';
+@import '@fontsource/noto-sans-gurmukhi/400.css';
+@import '@fontsource/noto-sans-gurmukhi/700.css';
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+body {
+  min-height: 100dvh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--text-base);
+  font-weight: 400;
+  line-height: var(--lh-latin);
+  -webkit-font-smoothing: antialiased;
+}
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+button {
+  cursor: pointer;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  overflow-wrap: break-word;
+}
+a {
+  color: inherit;
+}
+:focus-visible {
+  outline: 3px solid var(--ribbon);
+  outline-offset: 2px;
+}
+
+/* Indic text: generous line-height so vowel signs never clip */
+:lang(hi),
+:lang(ta),
+:lang(te),
+:lang(pa) {
+  font-family: var(--font-indic);
+  line-height: var(--lh-indic);
+}
+
+/* Layout: mobile-first, centred 480px column on wider screens */
+.app-column {
+  width: 100%;
+  max-width: 480px;
+  margin-inline: auto;
+  padding-inline: var(--s4);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

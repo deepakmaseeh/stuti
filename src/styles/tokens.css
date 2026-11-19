@@ -1,0 +1,96 @@
+:root {
+  /* Color: every color has one job */
+  --leather: oklch(0.36 0.11 15); /* primary: badges, active chips, primary surfaces */
+  --leather-deep: oklch(0.27 0.08 15); /* header/cover, app frame */
+  --gold: oklch(0.8 0.12 82); /* numbers on leather, star */
+  --gold-soft: oklch(0.9 0.07 85); /* text on leather */
+  --ribbon: oklch(0.55 0.19 25); /* CTA (Open, Start singing), chorus rule, section labels */
+  --ok: oklch(0.55 0.09 175); /* offline-ready, saved, keep-awake on */
+  --warn: oklch(0.62 0.15 60); /* draft layer, permission pending */
+  --paper: oklch(0.985 0.004 15); /* app background */
+  --page: oklch(0.995 0.002 15); /* cards/sheets */
+  --ink: oklch(0.27 0.02 15); /* text */
+  --muted: oklch(0.48 0.03 15); /* secondary text (≥ 4.5:1 on paper) */
+  --line: oklch(0.91 0.012 15); /* borders */
+  --card: oklch(0.97 0.006 15); /* key/tool backgrounds */
+
+  /* Type */
+  --font-ui: 'Instrument Sans', system-ui, sans-serif;
+  --font-display: 'Domine', Georgia, serif; /* titles + numbers */
+  --font-indic:
+    'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Gurmukhi', var(--font-ui);
+  --text-sm: 0.875rem; /* 14px: interface minimum */
+  --text-base: 1.0625rem; /* 17px */
+  --text-lg: 1.25rem;
+  --text-xl: 1.625rem;
+  --text-2xl: 2rem;
+  --lyric-size: 1.25rem; /* 20px at default; set by data-size */
+  --lh-indic: 1.75;
+  --lh-latin: 1.5;
+
+  /* Space (4px base) */
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s6: 24px;
+  --s8: 32px;
+  --s12: 48px;
+
+  /* Shape & motion */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 14px;
+  --r-xl: 22px;
+  --r-pill: 999px;
+  --tap: 48px; /* minimum touch target */
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur: 220ms;
+}
+
+html[data-theme='dark'] {
+  --paper: oklch(0.19 0.015 15);
+  --page: oklch(0.22 0.015 15);
+  --card: oklch(0.24 0.02 15);
+  --ink: oklch(0.93 0.01 60);
+  --muted: oklch(0.74 0.02 40);
+  --line: oklch(0.32 0.02 15);
+}
+
+/* Keep in sync with html[data-theme='dark'] (CSS can't reference another selector's values) */
+@media (prefers-color-scheme: dark) {
+  html[data-theme='system'] {
+    --paper: oklch(0.19 0.015 15);
+    --page: oklch(0.22 0.015 15);
+    --card: oklch(0.24 0.02 15);
+    --ink: oklch(0.93 0.01 60);
+    --muted: oklch(0.74 0.02 40);
+    --line: oklch(0.32 0.02 15);
+  }
+}
+
+html[data-theme='contrast'] {
+  --paper: #fff;
+  --page: #fff;
+  --card: #f2f2f2;
+  --ink: #000;
+  --muted: #222;
+  --line: #000;
+  --ribbon: oklch(0.45 0.2 25);
+  --leather: oklch(0.3 0.1 15);
+}
+
+/* rem so lyric sizes grow with the phone's font setting (html stays at font-size: 100%) */
+html[data-size='0'] { --lyric-size: 1rem; }
+html[data-size='1'] { --lyric-size: 1.125rem; }
+html[data-size='2'] { --lyric-size: 1.25rem; }
+html[data-size='3'] { --lyric-size: 1.4375rem; }
+html[data-size='4'] { --lyric-size: 1.625rem; }
+html[data-size='5'] { --lyric-size: 1.875rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

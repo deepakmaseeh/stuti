@@ -1,0 +1,9 @@
+node_modules
+dist
+.astro
+public/search
+public/dl
+package-lock.json
+STUTI_BUILD_SPEC.md
+STUTI_FIXES_AND_LAUNCH.md
+*.html
