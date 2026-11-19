@@ -1,0 +1,30 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import SearchTabs from '../../components/islands/SearchTabs';
+import type { BookChip } from '../../components/islands/Keypad';
+import { getBooks } from '../../lib/content';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+
+const books: BookChip[] = (await getBooks()).map((b) => ({
+  id: b.id,
+  native: b.name.native,
+  en: b.name.en,
+  lang: b.lang,
+  numbering: b.numbering,
+}));
+---
+
+<AppShell
+  title={`${t('search.title')} | ${site.name}`}
+  description="Find a hymn by its number in your printed book, or by any word in any script."
+  active="search"
+>
+  <h1 class="visually-hidden">{t('search.title')}</h1>
+  <noscript>
+    <p class="search-help">
+      {t('search.noJs')} <a href="/books/">{t('books.title')}</a>
+    </p>
+  </noscript>
+  <SearchTabs client:load books={books} />
+</AppShell>

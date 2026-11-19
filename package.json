@@ -6,9 +6,10 @@
   "description": "Stuti: free, offline-first digital hymnal for Indian churches",
   "license": "MIT",
   "scripts": {
-    "dev": "astro dev",
+    "dev": "npm run indexes && astro dev",
     "validate": "tsx --env-file-if-exists=.env scripts/validate.ts",
-    "prebuild": "npm run validate",
+    "indexes": "tsx --env-file-if-exists=.env scripts/build-indexes.ts",
+    "prebuild": "npm run validate && npm run indexes",
     "build": "astro build",
     "preview": "astro preview",
     "test": "vitest run",

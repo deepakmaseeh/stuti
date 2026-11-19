@@ -76,6 +76,14 @@ a {
   font-family: var(--font-indic);
   line-height: var(--lh-indic);
 }
+/* :lang(hi) also matches hi-Latn: romanised text goes back to the UI font */
+:lang(hi-Latn),
+:lang(ta-Latn),
+:lang(te-Latn),
+:lang(pa-Latn) {
+  font-family: var(--font-ui);
+  line-height: var(--lh-latin);
+}
 
 /* Layout: mobile-first, centred 480px column on wider screens */
 .app-column {

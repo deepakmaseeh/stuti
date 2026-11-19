@@ -17,7 +17,9 @@ export const site = {
     },
     // Fallback when formUrl is empty: GitHub issue form
     githubIssueUrl: 'https://github.com/OWNER/stuti/issues/new?template=lyric-correction.yml',
+    missingSongUrl: 'https://github.com/OWNER/stuti/issues/new?template=missing-song.yml',
   },
+  search: { maxDigits: 4, pageSize: 30, debounceMs: 120 },
   analyticsToken: import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN ?? '',
   contactEmail: '',
 } as const;
