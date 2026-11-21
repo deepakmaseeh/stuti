@@ -458,9 +458,25 @@ export function updateSet(
   return next;
 }
 
+/** Index to insert a song into a section: after the heading, before the next heading (C19). */
+export function insertIndexForSection(items: WorshipSetItem[], headingUid: string | null | undefined): number {
+  if (!headingUid) {
+    // Default: first section if present, else end
+    const firstH = items.findIndex((x) => x.kind === 'heading');
+    if (firstH < 0) return items.length;
+    return insertIndexForSection(items, items[firstH]!.uid);
+  }
+  const start = items.findIndex((x) => x.kind === 'heading' && x.uid === headingUid);
+  if (start < 0) return items.length;
+  let end = start + 1;
+  while (end < items.length && items[end]!.kind !== 'heading') end++;
+  return end;
+}
+
 export function addSongToSet(
   setId: string,
   song: { songId: string; book?: string; note?: string; key?: string },
+  opts?: { afterHeadingUid?: string | null },
 ): boolean {
   const set = getSet(setId);
   if (!set) return false;
@@ -474,7 +490,10 @@ export function addSongToSet(
     ...(song.note ? { note: song.note } : {}),
     ...(song.key ? { key: song.key } : {}),
   };
-  updateSet(setId, { items: [...set.items, item] });
+  const at = insertIndexForSection(set.items, opts?.afterHeadingUid);
+  const items = [...set.items];
+  items.splice(at, 0, item);
+  updateSet(setId, { items });
   return true;
 }
 

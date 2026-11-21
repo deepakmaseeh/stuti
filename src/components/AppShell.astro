@@ -22,6 +22,9 @@ interface Props {
   currentSongId?: string;
   /** Hide the mobile-only page header (song pages have their own). */
   hideMobileHeader?: boolean;
+  bodyClass?: string;
+  /** Hide phone tab bar (set editor sticky bar — C24). */
+  hideBottomNav?: boolean;
 }
 const {
   title,
@@ -32,6 +35,8 @@ const {
   active,
   currentSongId = '',
   hideMobileHeader = false,
+  bodyClass,
+  hideBottomNav = false,
 } = Astro.props;
 
 const books: BookChip[] = (await getBooks()).map((b) => ({
@@ -43,7 +48,13 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
 }));
 ---
 
-<Base title={title} description={description} canonicalPath={canonicalPath} noindex={noindex}>
+<Base
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  noindex={noindex}
+  bodyClass={[bodyClass, hideBottomNav ? 'hide-bottom-nav' : ''].filter(Boolean).join(' ') || undefined}
+>
   <slot name="head" slot="head" />
   <TopBar />
   <div class="desktop-shell">
@@ -82,6 +93,6 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
       <SetPanel client:media={`(min-width: ${site.layout.desktopMin}px)`} currentId={currentSongId} />
     </aside>
   </div>
-  <BottomNav active={active} />
+  {!hideBottomNav && <BottomNav active={active} />}
   <KeyboardShortcuts client:media={`(min-width: ${site.layout.desktopMin}px)`} />
 </Base>

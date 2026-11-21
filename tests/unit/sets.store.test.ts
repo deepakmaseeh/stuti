@@ -12,12 +12,14 @@ import {
   getActiveSet,
   getSet,
   hydrateSets,
+  insertIndexForSection,
   migrateFromV1,
   moveItemInSet,
   nextChristmas,
   nextEaster,
   SETS_KEY,
   setActive,
+  templateHeadings,
   undoDeleteSet,
   updateSet,
 } from '../../src/lib/sets';
@@ -33,6 +35,27 @@ describe('sets v2 store', () => {
     expect(s.v).toBe(2.1);
     expect(getActiveSet()?.id).toBe(s.id);
     expect(getSet(s.id)?.title).toContain('Sunday Morning');
+  });
+
+  it('inserts multi-add songs into the target section (C18/C19)', () => {
+    const s = createSet({
+      date: '2026-11-22',
+      items: templateHeadings('sunday_morning'),
+    });
+    const praise = getSet(s.id)!.items.find((x) => x.kind === 'heading' && x.text === 'Praise')!;
+    const closing = getSet(s.id)!.items.find((x) => x.kind === 'heading' && x.text === 'Closing')!;
+    expect(insertIndexForSection(getSet(s.id)!.items, praise.uid)).toBeGreaterThan(
+      getSet(s.id)!.items.findIndex((x) => x.uid === praise.uid),
+    );
+    addSongToSet(s.id, { songId: 'hi-a', book: 'TLBC' }, { afterHeadingUid: praise.uid });
+    addSongToSet(s.id, { songId: 'hi-b', book: 'TLBC' }, { afterHeadingUid: praise.uid });
+    addSongToSet(s.id, { songId: 'hi-c', book: 'TLBC' }, { afterHeadingUid: closing.uid });
+    const items = getSet(s.id)!.items;
+    const praiseIdx = items.findIndex((x) => x.uid === praise.uid);
+    const sermonIdx = items.findIndex((x) => x.kind === 'heading' && x.text === 'Sermon');
+    const inPraise = items.slice(praiseIdx + 1, sermonIdx).filter((x) => x.kind === 'song');
+    expect(inPraise.map((x) => (x.kind === 'song' ? x.songId : ''))).toEqual(['hi-a', 'hi-b']);
+    expect(items.filter((x) => x.kind === 'song' && x.songId === 'hi-c').length).toBe(1);
   });
 
   it('adds songs, headings, reorders, updates key/note/verses', () => {

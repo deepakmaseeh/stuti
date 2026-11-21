@@ -69,6 +69,7 @@
   border-top: 1px solid var(--line);
   transition: transform var(--dur) var(--ease);
 }
+.hide-bottom-nav .bottom-nav,
 .nav-hidden .bottom-nav {
   transform: translateY(110%);
 }
@@ -1858,6 +1859,46 @@ select.field__input { appearance: none; background-image: linear-gradient(45deg,
   gap: 0.15rem;
 }
 .set-editor-v2__empty { margin: var(--s5) 0; }
+.set-editor-v2__spacer { height: 96px; }
+.set-editor-v2__keys,
+.set-editor-v2__verses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin: 0.35rem 0;
+}
+.set-editor-v2__keys .chip,
+.set-editor-v2__verses .chip {
+  min-height: 32px;
+  min-width: 2rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: inherit;
+  cursor: pointer;
+}
+.set-editor-v2__keys .chip.is-on,
+.set-editor-v2__verses .chip.is-on {
+  background: var(--leather, #2e1418);
+  border-color: var(--leather, #2e1418);
+  color: var(--gold, #e9c46a);
+}
+.set-editor-v2__heading.is-target {
+  outline: 2px solid color-mix(in oklab, var(--ribbon) 55%, transparent);
+  outline-offset: -2px;
+}
+.set-editor-v2__add-here {
+  list-style: none;
+  padding: 0.15rem var(--s4) 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+.set-editor-v2__add-here .btn { font-size: 0.8rem; }
+.hide-bottom-nav .set-editor-v2__bar {
+  bottom: env(safe-area-inset-bottom);
+}
 .set-editor-v2__bar {
   position: fixed;
   left: 0;
