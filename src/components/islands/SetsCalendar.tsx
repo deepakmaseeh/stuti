@@ -42,12 +42,21 @@ export default function SetsCalendar({
     else onMonthChange(year, month + 1);
   };
 
+  const todayIso = (() => {
+    const n = new Date();
+    return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+  })();
+
   const cells: Array<{ day?: number; iso?: string }> = [];
   for (let i = 0; i < firstDow; i++) cells.push({});
   for (let d = 1; d <= dim; d++) {
     const iso = `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
     cells.push({ day: d, iso });
   }
+
+  const agenda = [...byDay.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .flatMap(([, list]) => list);
 
   return (
     <div class="sets-cal">
@@ -68,8 +77,15 @@ export default function SetsCalendar({
         ))}
         {cells.map((c, i) => {
           const daySets = c.iso ? byDay.get(c.iso) ?? [] : [];
+          const classes = [
+            c.day ? 'sets-cal__cell' : 'sets-cal__cell sets-cal__cell--empty',
+            daySets.length ? 'has-set' : '',
+            c.iso === todayIso ? 'sets-cal__cell--today' : '',
+          ]
+            .filter(Boolean)
+            .join(' ');
           return (
-            <div class={c.day ? 'sets-cal__cell' : 'sets-cal__cell sets-cal__cell--empty'} key={i}>
+            <div class={classes} key={i}>
               {c.day ? <span class="sets-cal__day">{c.day}</span> : null}
               {daySets.map((s) => (
                 <a
@@ -85,6 +101,18 @@ export default function SetsCalendar({
           );
         })}
       </div>
+      {agenda.length ? (
+        <ul class="sets-cal__agenda">
+          {agenda.map((s) => (
+            <li key={s.id}>
+              <a href={`/sets/edit/?id=${encodeURIComponent(s.id)}`}>
+                <strong>{s.date.slice(8)}</strong> {s.title}
+                <span class="muted"> · {songItems(s).length}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : null}
     </div>
   );
 }
