@@ -2,7 +2,6 @@ import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
 import { loadMeta, loadNumbers, type MetaRow, type NumbersMap } from '../../lib/search';
 import {
-  encodeForPresent,
   encodeWorshipSet,
   getActiveSet,
   hydrateSets,
@@ -15,8 +14,8 @@ import {
   type WorshipSet,
 } from '../../lib/sets';
 import { formatSetDate } from '../../lib/setlist';
-import type { BookBundle } from '../../lib/book-bundle';
-import { downloadPptx } from '../../lib/pptx-export';
+import type { BookBundle, BookBundleSong } from '../../lib/book-bundle';
+import { downloadSetPptx } from '../../lib/export/pptx';
 import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
 import QrSheet from './QrSheet';
@@ -77,8 +76,6 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
   const songs = songItems(active);
   const code = encodeWorshipSet(active);
   const shareUrl = setShareUrl(code);
-  const presentCode = encodeForPresent(active);
-
   const badgeFor = (songId: string, book?: string) => {
     const row = meta?.[songId];
     if (!row) return book ?? '';
@@ -90,19 +87,26 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
   };
 
   const exportPpt = async () => {
-    showToast(t('desktop.preparingPpt'));
+    showToast(t('set.pptBuilding'));
     try {
-      const book = songs[0]?.book ?? site.defaultBookId;
-      const bundle = (await fetch(`/data/books/${book}.json`).then((r) => r.json())) as BookBundle;
-      await downloadPptx(
-        songs
-          .map((s) => ({
-            id: s.songId,
-            song: bundle.songs[s.songId]!,
-            layers: { n: true, r: true, e: false },
-          }))
-          .filter((x) => x.song),
+      const bookIds = [...new Set(songs.map((s) => s.book || site.defaultBookId))];
+      const bundles = await Promise.all(
+        bookIds.map((b) =>
+          fetch(`/data/books/${b}.json`)
+            .then((r) => (r.ok ? (r.json() as Promise<BookBundle>) : null))
+            .catch(() => null),
+        ),
       );
+      const byId: Record<string, BookBundleSong | undefined> = {};
+      for (const bundle of bundles) {
+        if (!bundle) continue;
+        Object.assign(byId, bundle.songs);
+      }
+      await downloadSetPptx(active, byId, {
+        layers: { n: true, r: true, e: false },
+        onProgress: (msg) => showToast(msg),
+      });
+      showToast(t('set.pptDone'));
     } catch {
       showToast(t('desktop.previewError'));
     }
@@ -162,7 +166,7 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
       <div class="set-panel__actions">
         <a
           class="btn btn--primary"
-          href={songs[0] ? `/present/?set=${encodeURIComponent(presentCode)}&i=0` : undefined}
+          href={songs[0] ? `/present/?id=${encodeURIComponent(active.id)}&i=0` : undefined}
           title={t('desktop.presentHelp')}
         >
           ▶ {t('desktop.presentSet')}

@@ -204,6 +204,8 @@
   "set.partialAdded": "Added {n}. Not found: {list}",
   "set.calendarFile": "Add to calendar (.ics)",
   "set.print": "Print order of service",
+  "set.pptBuilding": "Building slides…",
+  "set.pptDone": "Downloaded ✓",
   "set.saveCopy": "Save a copy",
   "set.sharedTitle": "Shared set",
   "set.redirecting": "Opening your sets…",

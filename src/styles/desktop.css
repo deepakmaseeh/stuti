@@ -478,6 +478,16 @@ html[data-desktop] .song-header__search {
 .present:not(.is-chrome-hidden) {
   cursor: default;
 }
+.present.is-whiteout .present__stage {
+  visibility: hidden;
+}
+.present.is-whiteout::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  z-index: 5;
+}
 .present.is-blank .present__stage {
   visibility: hidden;
 }
