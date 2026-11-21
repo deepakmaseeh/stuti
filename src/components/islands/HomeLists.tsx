@@ -1,7 +1,15 @@
 import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
 import type { Hit } from '../../lib/search';
-import { getActiveSet, hydrateSets, songItems } from '../../lib/sets';
+import {
+  getActiveSet,
+  hydrateSets,
+  listenSetsChanged,
+  serviceLabel,
+  songItems,
+  type WorshipSet,
+} from '../../lib/sets';
+import { formatSetDate } from '../../lib/setlist';
 import { storage, type DownloadRecord, type SongSnapshot } from '../../lib/storage';
 import { LANG_TAG } from '../../lib/scripts';
 import type { Lang } from '../../lib/schema';
@@ -11,11 +19,11 @@ import SongHitRow from './SongHitRow';
 type State = {
   recent: SongSnapshot[];
   favs: SongSnapshot[];
-  setCount: number;
   downloads: Record<string, DownloadRecord>;
+  active?: WorshipSet;
 };
 
-const EMPTY: State = { recent: [], favs: [], setCount: 0, downloads: {} };
+const EMPTY: State = { recent: [], favs: [], downloads: {} };
 const toHit = (s: SongSnapshot): Hit => ({
   id: s.id,
   title: s.title,
@@ -25,22 +33,21 @@ const toHit = (s: SongSnapshot): Hit => ({
   score: 0,
 });
 
-/**
- * Personal lists from localStorage. The server render is the empty state a first-time visitor sees,
- * so there is no layout shift for them; returning users get their lists right after hydration.
- */
 export default function HomeLists() {
   const [s, setS] = useState<State>(EMPTY);
 
   useEffect(() => {
     hydrateSets();
-    const active = getActiveSet();
-    setS({
-      recent: storage.recent.get().items,
-      favs: storage.favs.get().items,
-      setCount: active ? songItems(active).length : 0,
-      downloads: storage.downloads.get(),
-    });
+    const refresh = () => {
+      setS({
+        recent: storage.recent.get().items,
+        favs: storage.favs.get().items,
+        downloads: storage.downloads.get(),
+        active: getActiveSet(),
+      });
+    };
+    refresh();
+    return listenSetsChanged(refresh);
   }, []);
 
   const continueSong = s.recent[0];
@@ -49,6 +56,9 @@ export default function HomeLists() {
     .map((d) => d.updated)
     .sort()
     .at(-1);
+  const active = s.active;
+  const songs = active ? songItems(active) : [];
+  const first = songs[0];
 
   return (
     <div class="home-lists">
@@ -83,12 +93,52 @@ export default function HomeLists() {
         </a>
       )}
 
-      <a class="sunday-card" href="/sets/">
-        <span class="sunday-card__label">{t('home.sunday')}</span>
-        <span class="sunday-card__text">
-          {s.setCount ? t('home.sundayCount', { n: s.setCount }) : t('home.sundayEmpty')}
-        </span>
-      </a>
+      {active ? (
+        <div class="sunday-card">
+          <span class="sunday-card__label">{t('set.thisSunday')}</span>
+          <div class="sunday-card__title">{active.title}</div>
+          <div class="sunday-card__text">
+            {formatSetDate(active.date)}
+            {active.time ? ` · ${active.time}` : ''} · {serviceLabel(active.service)}
+            {active.leader ? ` · ${active.leader}` : ''} ·{' '}
+            {songs.length === 1 ? t('set.songs.one') : t('set.songs', { n: songs.length })}
+          </div>
+          {first ? (
+            <div class="sunday-card__songs">
+              First: {first.book ? `${first.book} ` : ''}
+              {first.songId.replace(/^(en|hi|ta|te|pa)-/, '').replace(/-/g, ' ')}
+            </div>
+          ) : null}
+          <div class="sunday-card__acts">
+            {first ? (
+              <a
+                class="btn btn--primary"
+                href={`/song/${first.songId}/?set=${encodeURIComponent(active.id)}&i=0`}
+                data-astro-reload
+              >
+                ▶ {t('set.startSinging')}
+              </a>
+            ) : null}
+            <a class="btn" href={`/sets/edit/?id=${encodeURIComponent(active.id)}`}>
+              Edit
+            </a>
+            <a class="btn" href={`/sets/print/?id=${encodeURIComponent(active.id)}`}>
+              PDF
+            </a>
+            <a class="btn" href="/sets/">
+              All sets
+            </a>
+          </div>
+        </div>
+      ) : (
+        <a class="sunday-card" href="/sets/">
+          <span class="sunday-card__label">{t('home.sunday')}</span>
+          <div class="sunday-card__title">{t('home.sundayEmpty')}</div>
+          <div class="sunday-card__acts">
+            <span class="btn btn--primary">+ {t('set.newSet')}</span>
+          </div>
+        </a>
+      )}
 
       <section aria-labelledby="favs-title">
         <h2 class="group-title" id="favs-title">

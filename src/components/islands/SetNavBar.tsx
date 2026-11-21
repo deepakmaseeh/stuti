@@ -121,10 +121,18 @@ export default function SetNavBar() {
         </a>
       )}
       <span class="setnav__mid">
-        <span class="setnav__count">{t('set.of', { i: i + 1, n })}</span>
+        <span class="setnav__count">
+          {t('set.of', { i: i + 1, n })}
+          {songs[i]?.key ? (
+            <>
+              {' '}
+              · <b>Key {songs[i]!.key}</b>
+            </>
+          ) : null}
+        </span>
         {nextRow && (
           <span class="setnav__next" lang={LANG_TAG.n[nextRow[2] as Lang]}>
-            {nextRow[0]}
+            Next: {nextRow[0]}
           </span>
         )}
       </span>

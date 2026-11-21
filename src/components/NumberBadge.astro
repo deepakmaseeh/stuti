@@ -6,11 +6,17 @@ interface Props {
   id?: string;
 }
 const { book, number, size = 'list', id } = Astro.props;
+const isBookCode = !/^\d+$/.test(number) && number.length <= 5;
 ---
 
-<span class={`badge badge--${size}`} id={id} role="img" aria-label={`${book} ${number}`}>
+<span
+  class={`badge badge--${size}${isBookCode ? ' badge--book' : ''}`}
+  id={id}
+  role="img"
+  aria-label={`${book} ${number}`.trim()}
+>
   <span class="badge__book" aria-hidden="true">
-    {book}
+    {(book || 'BOOK').slice(0, 5)}
   </span>
   <span class="badge__num" aria-hidden="true">
     {number}

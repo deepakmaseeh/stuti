@@ -2,14 +2,14 @@ import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
 import { storage, updatePrefs, type Theme } from '../../lib/storage';
 import { isAwake, setKeepAwake, wakeLockSupported } from '../../lib/wakelock';
-import { getActiveSet, hydrateSets, listenSetsChanged, songItems } from '../../lib/sets';
+import { getActiveSet, hydrateSets, listenSetsChanged, songItems, type WorshipSet } from '../../lib/sets';
 
 const THEMES: Theme[] = ['light', 'dark', 'contrast', 'system'];
 
 export default function TopBarActions() {
   const [theme, setTheme] = useState<Theme>('system');
   const [awake, setAwake] = useState(false);
-  const [count, setCount] = useState(0);
+  const [active, setActive] = useState<WorshipSet | undefined>();
   const [offlineReady, setOfflineReady] = useState(false);
 
   useEffect(() => {
@@ -17,10 +17,7 @@ export default function TopBarActions() {
     const p = storage.prefs.get();
     setTheme(p.theme);
     setAwake(isAwake());
-    const refresh = () => {
-      const active = getActiveSet();
-      setCount(active ? songItems(active).length : 0);
-    };
+    const refresh = () => setActive(getActiveSet());
     refresh();
     setOfflineReady(Object.keys(storage.downloads.get()).length > 0);
 
@@ -64,6 +61,13 @@ export default function TopBarActions() {
     document.querySelector('.desktop-set-drawer-backdrop')?.classList.add('is-open');
   };
 
+  const count = active ? songItems(active).length : 0;
+  const shortTitle = active?.title
+    ? active.title.length > 22
+      ? `${active.title.slice(0, 20)}…`
+      : active.title
+    : t('nav.sets');
+
   return (
     <div class="topbar__acts">
       {offlineReady && (
@@ -85,11 +89,15 @@ export default function TopBarActions() {
       <button type="button" class="topbar__btn" onClick={cycleTheme} title={t('desktop.theme')}>
         ◐ {t('desktop.theme')}
       </button>
-      <a class="topbar__btn" href="/sets/">
-        ≡ {t('nav.sets')} ({count})
-      </a>
-      <button type="button" class="topbar__btn topbar__set" onClick={openDrawer}>
-        {t('desktop.thisSunday')}
+      <button
+        type="button"
+        class="topbar__setpill"
+        onClick={openDrawer}
+        title={active ? `${active.title} · ${count} songs` : t('desktop.thisSunday')}
+      >
+        <span class="topbar__setpill-dot" aria-hidden="true" />
+        <b>{shortTitle}</b>
+        <span>({count})</span>
       </button>
     </div>
   );

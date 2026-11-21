@@ -2,13 +2,18 @@
   /* Color: every color has one job */
   --leather: oklch(0.36 0.11 15); /* primary: badges, active chips, primary surfaces */
   --leather-deep: oklch(0.27 0.08 15); /* header/cover, app frame */
+  --leather-ink: oklch(0.22 0.06 15);
   --gold: oklch(0.8 0.12 82); /* numbers on leather, star */
   --gold-soft: oklch(0.9 0.07 85); /* text on leather */
+  --gold-ink: oklch(0.5 0.1 75);
   --ribbon: oklch(0.55 0.19 25); /* CTA (Open, Start singing), chorus rule */
   --ribbon-ink: var(--ribbon); /* ribbon-coloured TEXT (section labels, markers): lighter in dark themes */
+  --ribbon-tint: oklch(0.95 0.03 20);
   --ok: oklch(0.55 0.09 175); /* offline-ready, saved, keep-awake on */
   --ok-ink: oklch(0.47 0.09 175); /* ok-coloured TEXT: lighter in dark themes */
+  --ok-tint: oklch(0.95 0.03 175);
   --warn: oklch(0.62 0.15 60); /* draft layer, permission pending */
+  --warn-tint: oklch(0.96 0.04 80);
   --paper: oklch(0.985 0.004 15); /* app background */
   --page: oklch(0.995 0.002 15); /* cards/sheets */
   --ink: oklch(0.27 0.02 15); /* text */

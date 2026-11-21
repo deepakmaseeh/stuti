@@ -175,14 +175,21 @@
   }
   /* B1: SetNavBar stays visible in set mode on desktop (sticky above content bottom). */
   html[data-desktop] .setnav {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
     position: sticky;
-    bottom: 0;
+    bottom: 0.75rem;
     z-index: 15;
     max-width: none;
     margin-inline: 0;
-    border-top: 1px solid var(--line);
-    background: var(--paper);
+    border: 0;
+    background: var(--leather-deep);
+    color: var(--gold-soft);
+    border-radius: 14px;
+    padding: 8px;
+    box-shadow: 0 8px 24px oklch(0.2 0.05 15 / 0.25);
   }
   html[data-desktop] .home-search,
   html[data-desktop] .home-how-tip {

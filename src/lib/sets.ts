@@ -5,6 +5,8 @@
 import { signal } from '@preact/signals';
 import { site } from '../site.config';
 import { decodeSet as decodeV1Set, encodeSet as encodeV1Set, formatSetDate, nextSunday } from './setlist';
+
+export { nextSunday, formatSetDate };
 import type { SetList } from './storage';
 import {
   bridgeSet,

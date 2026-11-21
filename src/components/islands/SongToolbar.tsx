@@ -310,7 +310,7 @@ export default function SongToolbar({
           onClick={toggleSet}
         >
           {inSet ? (
-            <Icon label={t('song.inSetNamed', { title: shortSetTitle(activeSet?.title) })}>
+            <Icon label="✓ In set">
               <path d="M9 6h11M9 12h11M9 18h7" />
               <path d="M4 6h.01M4 12h.01M4 18h.01" />
               <path d="m14.5 16 2 2 3.5-3.5" />

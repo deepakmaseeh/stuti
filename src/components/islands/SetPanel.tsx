@@ -166,25 +166,29 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
       <div class="set-panel__actions">
         <a
           class="btn btn--primary"
-          href={songs[0] ? `/present/?id=${encodeURIComponent(active.id)}&i=0` : undefined}
-          title={t('desktop.presentHelp')}
+          href={songs[0] ? songInWorshipSetUrl(active, 0) : '/sets/'}
+          data-astro-reload
         >
-          ▶ {t('desktop.presentSet')}
-        </a>
-        <div class="set-panel__action-row">
-          <button type="button" class="btn btn--secondary" onClick={() => setQrOpen(true)}>
-            {t('desktop.qrCong')}
-          </button>
-          <a class="btn btn--secondary" href={`/sets/print/?id=${encodeURIComponent(active.id)}`}>
-            {t('desktop.pdf')}
-          </a>
-          <button type="button" class="btn btn--secondary" onClick={() => void exportPpt()}>
-            {t('desktop.ppt')}
-          </button>
-        </div>
-        <a class="btn btn--ghost" href={songs[0] ? songInWorshipSetUrl(active, 0) : '/sets/'} data-astro-reload>
           ▶ {t('set.start')}
         </a>
+        <div class="set-panel__action-row">
+          <a
+            class="btn btn--secondary"
+            href={songs[0] ? `/present/?id=${encodeURIComponent(active.id)}&i=0` : undefined}
+            title={t('desktop.presentHelp')}
+          >
+            Present
+          </a>
+          <a class="btn btn--secondary" href={`/sets/print/?id=${encodeURIComponent(active.id)}`}>
+            PDF
+          </a>
+          <button type="button" class="btn btn--secondary" onClick={() => void exportPpt()}>
+            PPT
+          </button>
+          <button type="button" class="btn btn--secondary" onClick={() => setQrOpen(true)}>
+            QR
+          </button>
+        </div>
       </div>
 
       {qrOpen ? (

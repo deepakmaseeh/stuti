@@ -9,72 +9,121 @@ import {
   pastSets,
   serviceLabel,
   songItems,
+  undoDeleteSet,
   upcomingSets,
   type WorshipSet,
 } from '../../lib/sets';
-import { formatSetDate } from '../../lib/setlist';
+import { loadMeta, type MetaRow } from '../../lib/search';
 import { showToast } from '../../lib/toast';
 import NewSetDialog from './NewSetDialog';
 import SetsCalendar from './SetsCalendar';
 
 type Tab = 'list' | 'calendar';
 
-function SetCard({ set, past }: { set: WorshipSet; past?: boolean }) {
-  const n = songItems(set).length;
+function dateParts(iso: string) {
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(y!, (m ?? 1) - 1, d ?? 1);
+  const weekday = new Intl.DateTimeFormat('en-IN', { weekday: 'short' }).format(dt).toUpperCase();
+  const month = new Intl.DateTimeFormat('en-IN', { month: 'short' }).format(dt).toUpperCase();
+  return { weekday, day: String(d).padStart(2, '0'), month };
+}
+
+function SetCard({
+  set,
+  past,
+  next,
+  meta,
+}: {
+  set: WorshipSet;
+  past?: boolean;
+  next?: boolean;
+  meta: Record<string, MetaRow> | null;
+}) {
+  const songs = songItems(set);
+  const n = songs.length;
+  const parts = dateParts(set.date);
+  const preview = songs
+    .slice(0, 4)
+    .map((s) => {
+      const title = meta?.[s.songId]?.[0] ?? s.songId;
+      const badge = meta?.[s.songId]?.[3] ?? s.book ?? '';
+      const short = title.length > 18 ? `${title.slice(0, 16)}…` : title;
+      return badge ? `${badge.split(/\s+/).pop()} ${short}` : short;
+    })
+    .join(' · ');
+  const today = new Date().toISOString().slice(0, 10);
+  const isThisSunday = !past && set.date >= today && set.date <= addDays(today, 6);
+
+  const editHref = `/sets/edit/?id=${encodeURIComponent(set.id)}`;
+  const singHref = songs[0] ? `/song/${songs[0].songId}/?set=${encodeURIComponent(set.id)}&i=0` : editHref;
+
   return (
-    <article class={past ? 'sets-card sets-card--past' : 'sets-card'}>
-      <a class="sets-card__main" href={`/sets/edit/?id=${encodeURIComponent(set.id)}`}>
-        <h3 class="sets-card__title">{set.title}</h3>
-        <p class="sets-card__meta">
-          {formatSetDate(set.date)} · {serviceLabel(set.service)} ·{' '}
-          {n === 1 ? t('set.songs.one') : t('set.songs', { n })}
-        </p>
+    <article class={['scard', next ? 'scard--next' : '', past ? 'scard--past' : ''].filter(Boolean).join(' ')}>
+      <a class="scard__date" href={editHref} aria-label={set.date}>
+        <i>{parts.weekday}</i>
+        <b>{parts.day}</b>
+        <i>{parts.month}</i>
       </a>
-      <div class="sets-card__acts">
-        <a class="btn btn--secondary btn--small" href={`/sets/edit/?id=${encodeURIComponent(set.id)}`}>
-          {t('set.open')}
+      <a class="scard__body" href={editHref}>
+        <h3>{set.title}</h3>
+        <div class="scard__meta">
+          {isThisSunday ? <span class="pill pill--red">This Sunday</span> : null}
+          <span class="pill">{serviceLabel(set.service)}</span>
+          {set.time ? `${set.time} · ` : ''}
+          {set.leader ? `${set.leader} · ` : ''}
+          {n === 1 ? t('set.songs.one') : t('set.songs', { n })}
+        </div>
+        {preview ? <div class="scard__songs hi">{preview}{n > 4 ? ` · +${n - 4}` : ''}</div> : null}
+      </a>
+      <div class="scard__acts">
+        {!past && songs[0] ? (
+          <a class="btn btn--primary btn--small" href={singHref} data-astro-reload>
+            ▶ Sing
+          </a>
+        ) : null}
+        <a class="btn btn--secondary btn--small" href={editHref}>
+          Edit
         </a>
         <button
           type="button"
-          class="icon-btn"
-          aria-label={t('set.useAgain')}
-          title={t('set.useAgain')}
-          onClick={() => {
-            const copy = duplicateSet(set.id);
-            if (copy) {
-              showToast(t('set.duplicated'));
-              location.href = `/sets/edit/?id=${encodeURIComponent(copy.id)}`;
-            }
-          }}
-        >
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-            <path d="M17 3v4h4" stroke-linecap="round" stroke-linejoin="round" />
-            <path d="M7 21a8 8 0 0 1 0-16h10l4 4" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
-        </button>
-        <button
-          type="button"
-          class="icon-btn"
+          class="btn btn--secondary btn--small btn--icon"
           aria-label={t('set.delete')}
           title={t('set.delete')}
           onClick={() => {
+            if (!confirm(`Delete “${set.title}”?`)) return;
             deleteSet(set.id);
-            showToast(t('set.deleted'));
+            showToast(`${t('set.deleted')} · ${t('set.undo')}`);
+            const undo = () => {
+              undoDeleteSet();
+              removeEventListener('click', onToast);
+            };
+            const onToast = (e: Event) => {
+              const el = e.target as HTMLElement;
+              if (el.closest('#toast')) undo();
+            };
+            addEventListener('click', onToast, { once: true });
+            setTimeout(() => removeEventListener('click', onToast), 4000);
           }}
         >
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
-            <path d="M4 7h16M9 7V5h6v2M8 7l1 12h6l1-12" stroke-linecap="round" stroke-linejoin="round" />
-          </svg>
+          ⋯
         </button>
       </div>
     </article>
   );
 }
 
+function addDays(iso: string, days: number): string {
+  const [y, m, d] = iso.split('-').map(Number);
+  const dt = new Date(y!, (m ?? 1) - 1, d ?? 1);
+  dt.setDate(dt.getDate() + days);
+  return `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
+}
+
 export default function SetsHome() {
   const [tab, setTab] = useState<Tab>('list');
   const [sets, setSets] = useState<WorshipSet[]>([]);
   const [dialog, setDialog] = useState(false);
+  const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [month, setMonth] = useState(() => {
     const d = new Date();
     return { y: d.getFullYear(), m: d.getMonth() };
@@ -84,6 +133,7 @@ export default function SetsHome() {
     hydrateSets();
     const refresh = () => setSets(getSets());
     refresh();
+    loadMeta().then(setMeta).catch(() => {});
     return listenSetsChanged(refresh);
   }, []);
 
@@ -108,8 +158,14 @@ export default function SetsHome() {
           <button type="button" class="btn btn--primary" onClick={() => setDialog(true)}>
             + {t('set.newSet')}
           </button>
-          <button type="button" class="btn btn--secondary" onClick={useLastWeek}>
-            {t('set.useLastWeek')}
+          <button
+            type="button"
+            class="btn btn--secondary"
+            onClick={useLastWeek}
+            disabled={!past.length}
+            title={!past.length ? t('set.noPast') : undefined}
+          >
+            {t('set.copyLastSunday')}
           </button>
         </div>
         <div class="sets-home__tabs" role="tablist">
@@ -144,19 +200,33 @@ export default function SetsHome() {
       ) : (
         <>
           <section class="sets-section">
-            <h2>{t('sets.upcoming')}</h2>
+            <div class="sets-section__head">
+              <h2>{t('sets.upcoming')}</h2>
+              <span>{upcoming.length}</span>
+            </div>
             {upcoming.length === 0 ? (
-              <p class="muted">{t('sets.emptyUpcoming')}</p>
+              <div class="sets-empty">{t('sets.emptyUpcoming')}</div>
             ) : (
-              upcoming.map((s) => <SetCard key={s.id} set={s} />)
+              <div class="slist">
+                {upcoming.map((s, i) => (
+                  <SetCard key={s.id} set={s} next={i === 0} meta={meta} />
+                ))}
+              </div>
             )}
           </section>
           <section class="sets-section">
-            <h2>{t('sets.past')}</h2>
+            <div class="sets-section__head">
+              <h2>{t('sets.past')}</h2>
+              <span>{past.length}</span>
+            </div>
             {past.length === 0 ? (
-              <p class="muted">{t('sets.emptyPast')}</p>
+              <div class="sets-empty">{t('sets.emptyPast')}</div>
             ) : (
-              past.map((s) => <SetCard key={s.id} set={s} past />)
+              <div class="slist">
+                {past.map((s) => (
+                  <SetCard key={s.id} set={s} past meta={meta} />
+                ))}
+              </div>
             )}
           </section>
         </>

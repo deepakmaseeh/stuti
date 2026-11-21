@@ -75,9 +75,22 @@ export default function DownloadsPanel({ books }: { books: DlBook[] }) {
     void refreshEstimate();
   };
 
+  const savedCount = Object.keys(saved).length;
+
   return (
     <div class="downloads">
       {!online && <p class="notice">{t('dl.offlineNote')}</p>}
+      <div class="downloads__status">
+        <span class="okt" aria-hidden="true">
+          {savedCount ? '✓' : '○'}
+        </span>
+        <div style="font-size:14px">
+          <b>{savedCount ? 'Ready for church without signal' : 'Download books for offline use'}</b>
+          <br />
+          {savedCount} of {books.length} books saved
+          {est ? ` · ${formatBytes(est.usage)}` : ''}
+        </div>
+      </div>
       <ul class="dl-list">
         {books.map((b) => {
           const rec = saved[b.id];
@@ -86,20 +99,24 @@ export default function DownloadsPanel({ books }: { books: DlBook[] }) {
           const busy = row?.progress != null;
           const hasUpdate = !!rec && !!m && m.version !== rec.version;
           const bytes = m?.bytes ?? rec?.bytes;
+          const label = LANG_LABEL[b.lang] ?? b.lang;
           return (
             <li class="dl-row" key={b.id} data-book={b.id}>
+              <span class="badge badge--book" role="img" aria-label={b.id}>
+                <span class="badge__book">{label.slice(0, 8).toUpperCase()}</span>
+                <span class="badge__num">{b.id}</span>
+              </span>
               <div class="dl-row__info">
                 <span class="dl-row__title" lang={LANG_TAG.n[b.lang]}>
                   {b.native}
                 </span>
                 <span class="muted">
-                  {b.id} · {LANG_LABEL[b.lang]}
-                  {bytes ? ` · ${formatBytes(bytes)}` : ''}
+                  {bytes ? `${formatBytes(bytes)}` : b.en}
+                  {busy ? ` · Downloading ${Math.round((row.progress ?? 0) * 100)}%` : ''}
                 </span>
-                {rec && !busy && (
-                  <span class="dl-row__status" data-testid="dl-status">
-                    <span class="nowrap">✓ {t('dl.savedOn', { date: rec.at.slice(0, 10) })}</span> ·{' '}
-                    <span class="nowrap">{t('dl.updatedOn', { date: rec.updated })}</span>
+                {rec && !busy && !hasUpdate && (
+                  <span class="dl-row__status okt" data-testid="dl-status">
+                    ✓ Saved
                   </span>
                 )}
                 {busy && (
@@ -112,9 +129,6 @@ export default function DownloadsPanel({ books }: { books: DlBook[] }) {
                     aria-label={b.native}
                   >
                     <span class="dl-progress__bar" style={{ width: `${Math.round(row.progress! * 100)}%` }} />
-                    <span class="dl-progress__text">
-                      {t('dl.saving', { p: Math.round(row.progress! * 100) })}
-                    </span>
                   </span>
                 )}
                 {row?.error && (
@@ -124,15 +138,20 @@ export default function DownloadsPanel({ books }: { books: DlBook[] }) {
                 )}
               </div>
               <div class="dl-row__actions">
-                {!rec && (
+                {!rec && !busy && (
                   <button
                     type="button"
                     class="btn btn--primary btn--compact"
-                    disabled={busy || !online}
+                    disabled={!online}
                     onClick={() => download(b)}
                   >
                     {t('dl.download')}
                   </button>
+                )}
+                {busy && (
+                  <span class="muted" style="font-size:14px">
+                    …
+                  </span>
                 )}
                 {hasUpdate && (
                   <button
@@ -144,11 +163,10 @@ export default function DownloadsPanel({ books }: { books: DlBook[] }) {
                     {t('dl.update')}
                   </button>
                 )}
-                {rec && (
+                {rec && !busy && (
                   <button
                     type="button"
                     class="btn btn--small"
-                    disabled={busy}
                     onClick={() => remove(b)}
                     aria-label={`${t('dl.remove')}: ${b.native}`}
                   >
