@@ -1,0 +1,106 @@
+{
+  "slug": "svrg-esee-sundr-jga-mera-yeeshu-rhta-vhan",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "318"
+    }
+  ],
+  "title": {
+    "native": "स्वर्ग एसी सुंदर जगा… मेरा यीशु रहता वहाँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "स्वर्ग एसी सुंदर जगा… मेरा यीशु रहता वहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह… 3 … मेरा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "पाप नही वहा शाप नही…हालेलुयाह… 3 … मेरा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 3",
+      "lines": [
+        {
+          "n": "भुख नही वहा प्यास नही…हालेलुयाह…3… मेरा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 4",
+      "lines": [
+        {
+          "n": "रोग नही वहा दु:ख नही…हालेलुयाह…3 … मेरा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-79"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#79",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#79",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

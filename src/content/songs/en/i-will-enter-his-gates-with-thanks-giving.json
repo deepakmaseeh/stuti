@@ -1,0 +1,106 @@
+{
+  "slug": "i-will-enter-his-gates-with-thanks-giving",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "26"
+    }
+  ],
+  "title": {
+    "native": "I will enter his gates with thanks giving",
+    "roman": "",
+    "en": "I will enter his gates with thanks giving"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I will enter his gates with thanks giving",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "in my heart,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I will enter his courts with praise",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I will say this the day that the lord has",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "made",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I will rejoice for he has made me glad",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He has made me glad, He has made me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "glad",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I will rejoice for he has made me glad (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#26",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#26",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

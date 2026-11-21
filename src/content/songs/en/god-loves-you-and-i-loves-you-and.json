@@ -1,0 +1,91 @@
+{
+  "slug": "god-loves-you-and-i-loves-you-and",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "27"
+    }
+  ],
+  "title": {
+    "native": "God loves you and I loves you and",
+    "roman": "",
+    "en": "God loves you and I loves you and"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "God loves you and I loves you and",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "that’s the way it should be (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I may be very sad, you may be very sad",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "that’s not the way it should be",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We must love others like sisters and",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "brothers like that’s the way it should be (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#27",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#27",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "he-hmare-bap-too-jo-aasman-men-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "331"
+    }
+  ],
+  "title": {
+    "native": "हे हमारे बाप तू जो आसमान में है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हे हमारे बाप तू जो आसमान में है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा नाम पाक माना जाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा बादशाहत आए",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "जैसे तेरी मर्जी… आसमान में पूरी होती",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वैसे ही तेरी मर्जी… जगत में पूरी हो जाए",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "रोज की रोटी हमारी… आज हमको दे दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन की रोटी तू है… तू ही हमारा बल है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "जिस तरह हम अपने… अपराधी को माफ करते",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस तरह ही हमारे… अपराध को माफ कर दे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "हमे अज्,ामाइशों में… जाने तू न दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बल्कि बुराई से बचा… तेरी राह में चला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "क्योंकि आसमानी बादशाह… और कदरत",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारा जमीन का जलाल है… हमेशा तेरा आमीन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-94"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#94",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#94",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

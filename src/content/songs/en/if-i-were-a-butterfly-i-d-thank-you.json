@@ -1,0 +1,177 @@
+{
+  "slug": "if-i-were-a-butterfly-i-d-thank-you",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "73"
+    }
+  ],
+  "title": {
+    "native": "If I were a butterfly, I‘d thank you",
+    "roman": "",
+    "en": "If I were a butterfly, I‘d thank you"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "If I were a butterfly, I‘d thank you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord for giving me wings",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If I were a robin on the tree, I thank",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "you lord that I could sing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If I were a fish in the sea, I wriggle",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "my tail and I’ll giggle with gee",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "But I just thank you father for",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "making me me me me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For you gave me your heart, you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "gave me your smile",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You gave me lord Jesus, and made",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "me your child",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And I just thank you father for",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "making me me me me",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "If I were a elephant, I thank you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord by raising my trunk",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If I were a kangaroo, you know",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I’d hop right upto you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If I were an octopus, I thank you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord for my fine looks",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "But I just thank you father for",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "making me me me me",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#73",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#73",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

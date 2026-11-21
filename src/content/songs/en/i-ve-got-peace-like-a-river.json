@@ -1,0 +1,118 @@
+{
+  "slug": "i-ve-got-peace-like-a-river",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "37"
+    }
+  ],
+  "title": {
+    "native": "I’ve got peace like a river",
+    "roman": "",
+    "en": "I’ve got peace like a river"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I’ve got peace like a river (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I’ve got peace like a river in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "soul",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "I’ve got joy like a fountain (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I’ve got joy like a fountain in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "soul",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "I’ve got love like an ocean (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I’ve got love like an ocean in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "soul",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#37",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#37",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

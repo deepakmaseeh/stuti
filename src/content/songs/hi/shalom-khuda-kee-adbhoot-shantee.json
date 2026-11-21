@@ -1,0 +1,161 @@
+{
+  "slug": "shalom-khuda-kee-adbhoot-shantee",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "308"
+    }
+  ],
+  "title": {
+    "native": "शालोम खुदा की अद्भूत शांती",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "शालोम खुदा की अद्भूत शांती",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ में आई है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शालोम मसीह की अद्भूत शांती",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ में आई है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "थोडे ही समय की कष्टी यहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारी भलाईयाँ मिलेगी वहाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब येशु बादलो पर आयेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमको प्रातीफल वही वह देगा … शालोम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यहोवा जो मेरे हरदम साथ है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कुच भी अनर्थों से मै न डरू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हे येशु तुने मुझे छुनलीया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हरदम मैं तेरी आराधना करू … शालोम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "न चाहीये मुझे संसार की क्षान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नही यहाँ का वह इज्जत और मान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु से मिले मुझे स्वीकॄती",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग के मिले वह आनंद खुशी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-65"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#65",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#65",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

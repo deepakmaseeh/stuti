@@ -1,0 +1,110 @@
+{
+  "slug": "yeshu-kee-jy-jy-bolo-5",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "293"
+    }
+  ],
+  "title": {
+    "native": "येशु की जय जय बोलो… 5",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु की जय जय बोलो… 5",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "शांति मुक्ति हमें देने आया… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुख और कष्ट खुद लेने आया… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह आमेन… 3",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "आओ प्यारो उसे अपनाओ… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपना बोझ उसे दिए जाओ… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह आमेन… 3",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-45"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#45",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#45",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

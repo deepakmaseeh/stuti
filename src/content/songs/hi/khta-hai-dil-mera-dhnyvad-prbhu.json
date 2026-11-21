@@ -1,0 +1,105 @@
+{
+  "slug": "khta-hai-dil-mera-dhnyvad-prbhu",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "297"
+    }
+  ],
+  "title": {
+    "native": "कहता है दिल मेरा धन्यवाद प्रभु",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "कहता है दिल मेरा धन्यवाद प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "किये तूने कार्य महान मेरे प्रभु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तूने चुना एक निर्बल को… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कैसे कहूँ धन्यवाद मेरे प्रभु… 2… कहता है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तूने दिया जीवन नया… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लाखो बार धन्यवाद मेरे प्रभु…2… कहता है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-52"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#52",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#52",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

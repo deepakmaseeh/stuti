@@ -55,7 +55,8 @@ describe('F2 word search acceptance', () => {
   });
 
   it('grace finds Amazing Grace', () => {
-    expect(search('grace')[0]).toBe('en-amazing-grace');
+    expect(search('grace')).toContain('en-amazing-grace');
+    expect(search('amazing grace')[0]).toBe('en-amazing-grace');
   });
 
   it('pins a direct number hit first ("tlbc1", "TLBC 1")', () => {

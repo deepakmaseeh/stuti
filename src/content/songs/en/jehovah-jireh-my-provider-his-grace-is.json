@@ -1,0 +1,116 @@
+{
+  "slug": "jehovah-jireh-my-provider-his-grace-is",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "71"
+    }
+  ],
+  "title": {
+    "native": "Jehovah Jireh, my provider his grace is",
+    "roman": "",
+    "en": "Jehovah Jireh, my provider his grace is"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Jehovah Jireh, my provider his grace is",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "sufficient",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For me, for me, for me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jehovah Jireh, my provider his grace is",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "sufficient for me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "My God shall supply all my needs",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "according to his riches in glory",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He gives his angles charge over me,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jehovah Jireh cares for me, for me, for",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jehovah Jireh cares for me",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#71",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#71",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

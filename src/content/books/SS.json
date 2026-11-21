@@ -1,0 +1,14 @@
+{
+  "id": "SS",
+  "name": {
+    "native": "Sunday School",
+    "en": "Sunday School Songs"
+  },
+  "lang": "en",
+  "edition": "",
+  "publisher": "Jehovah Jireh Prayer House",
+  "description": "English Sunday-school songs (regional lyrics omitted).",
+  "order": 3,
+  "numbering": "numeric",
+  "status": "active"
+}

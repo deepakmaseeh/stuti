@@ -6,6 +6,7 @@ import LyricSection from '../../components/LyricSection.astro';
 import SongMeta from '../../components/SongMeta.astro';
 import SongToolbar from '../../components/islands/SongToolbar.tsx';
 import FavStar from '../../components/islands/FavStar.tsx';
+import MobileSearchMenu from '../../components/islands/MobileSearchMenu';
 import ReportSheet from '../../components/islands/ReportSheet.tsx';
 import SetNavBar from '../../components/islands/SetNavBar.tsx';
 import { reportUrl } from '../../lib/report';
@@ -13,6 +14,7 @@ import { getSongs } from '../../lib/content';
 import { safeJsonLd } from '../../lib/jsonld';
 import { LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
 import type { Song } from '../../lib/schema';
+import { shouldShowChorusMarker } from '../../lib/chorus';
 import { badgeText, primaryNumber, songUrl } from '../../lib/songs';
 import { site } from '../../site.config';
 import { t } from '../../i18n';
@@ -29,7 +31,6 @@ const showE = !isEn && song.layers.en !== 'missing';
 const primary = primaryNumber(song);
 const url = songUrl(song.id);
 const lines = song.sections.flatMap((s) => s.lines);
-const hasChorus = song.sections.some((s) => s.type === 'chorus' || s.type === 'refrain');
 
 const titleTag = isEn
   ? `${song.title.native} hymn lyrics | ${site.name}`
@@ -75,6 +76,9 @@ const numbersData = JSON.stringify(song.numbers);
         <NumberBadge book={primary.book} number={primary.number} size="header" />
       </span>
       <span class="song-header__end">
+        <span class="song-header__search">
+          <MobileSearchMenu client:load />
+        </span>
         <OfflineBadge />
         <FavStar client:load snapshot={snapshot} />
         <a class="btn btn--primary song-present" href={`/present/?song=${song.id}`}>
@@ -141,13 +145,13 @@ const numbersData = JSON.stringify(song.numbers);
         )
       }
       {
-        song.sections.map((section) => (
+        song.sections.map((section, index) => (
           <LyricSection
             section={section}
             lang={song.lang}
             showRoman={showR}
             showEnglish={showE}
-            chorusMarker={song.display.chorusAfterEachVerse && hasChorus && section.type === 'verse'}
+            chorusMarker={shouldShowChorusMarker(song.sections, index, !!song.display.chorusAfterEachVerse)}
           />
         ))
       }

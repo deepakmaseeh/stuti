@@ -1,0 +1,101 @@
+{
+  "slug": "with-jesus-in-my-boat",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "80"
+    }
+  ],
+  "title": {
+    "native": "With Jesus in my boat",
+    "roman": "",
+    "en": "With Jesus in my boat"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "With Jesus in my boat",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I can smile in the storm",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Smile in the storm, smile in the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "strom",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "With Jesus in my boat",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I can smile in the storm",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "When I’m sailing boat,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "When I’m sailing boat (3)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#80",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#80",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

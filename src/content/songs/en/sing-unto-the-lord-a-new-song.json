@@ -1,0 +1,146 @@
+{
+  "slug": "sing-unto-the-lord-a-new-song",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "134"
+    }
+  ],
+  "title": {
+    "native": "Sing unto the lord a new song -",
+    "roman": "",
+    "en": "Sing unto the lord a new song -"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "bÍ³ bÍ&î<+ ç¿=Ôáï bÍ³ ` bÍ³ bÍ&î<+ ÖÈqTý²s",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": ">=|Î <ûeÚ&T ` kþïçÔáVQ&T (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "^ÔY >±jûT+¹> ` w§ ¹¿*jûT ` qjáÖ ^ÔY >±jûT+¹>",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "w§ ¹¿*jûT (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "zV² eTVäH ` dTïÜ ¿£¹s+¹> (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "Sing unto the lord a new song -",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "sing unto the lord all the earth",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The lord is great – great and to",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "be praised (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#134",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#134",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

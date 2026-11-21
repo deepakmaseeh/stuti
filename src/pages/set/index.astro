@@ -1,6 +1,5 @@
 ---
 import AppShell from '../../components/AppShell.astro';
-import SetEditor from '../../components/islands/SetEditor';
 import { site } from '../../site.config';
 import { t } from '../../i18n';
 ---
@@ -8,13 +7,30 @@ import { t } from '../../i18n';
 <AppShell
   title={`${t('set.title')} | ${site.name}`}
   description="Plan Sunday's songs, share them with a link or QR code, and sing through them in order."
-  active="set"
+  active="sets"
 >
-  <h1 class="visually-hidden">{t('set.title')}</h1>
+  <p class="notice">{t('set.redirecting')}</p>
+  <script is:inline>
+    (function () {
+      var code = new URLSearchParams(location.hash.slice(1)).get('s');
+      if (code) {
+        location.replace('/sets/view/#s=' + encodeURIComponent(code));
+        return;
+      }
+      try {
+        var raw = localStorage.getItem('stuti:sets:v2');
+        if (raw) {
+          var store = JSON.parse(raw);
+          if (store && store.activeId) {
+            location.replace('/sets/edit/?id=' + encodeURIComponent(store.activeId));
+            return;
+          }
+        }
+      } catch (e) {}
+      location.replace('/sets/');
+    })();
+  </script>
   <noscript>
-    <p class="notice">
-      {t('search.noJs')} <a href="/books/">{t('books.title')}</a>
-    </p>
+    <p><a href="/sets/">{t('sets.title')}</a></p>
   </noscript>
-  <SetEditor client:load />
 </AppShell>

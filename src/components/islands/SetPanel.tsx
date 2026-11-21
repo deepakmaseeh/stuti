@@ -1,50 +1,33 @@
 import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
-import { loadMeta, loadNumbers, type Hit, type MetaRow, type NumbersMap } from '../../lib/search';
+import { loadMeta, loadNumbers, type MetaRow, type NumbersMap } from '../../lib/search';
 import {
-  encodeSet,
-  formatSetDate,
-  getDraft,
-  moveItem,
-  saveDraft,
+  encodeForPresent,
+  encodeWorshipSet,
+  getActiveSet,
+  hydrateSets,
+  listenSetsChanged,
+  removeItem,
   setShareUrl,
-  songInSetUrl,
-  type SetItem,
-  type SetList,
-} from '../../lib/setlist';
+  songInWorshipSetUrl,
+  songItems,
+  updateSet,
+  type WorshipSet,
+} from '../../lib/sets';
+import { formatSetDate } from '../../lib/setlist';
 import type { BookBundle } from '../../lib/book-bundle';
 import { downloadPptx } from '../../lib/pptx-export';
 import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
-import SongHitRow from './SongHitRow';
 import QrSheet from './QrSheet';
-
-function hitFor(item: SetItem, meta: Record<string, MetaRow>, numbers: NumbersMap): Hit | null {
-  const row = meta[item.id];
-  if (!row) return null;
-  let badge = row[3];
-  if (item.book) {
-    const nums = numbers[item.book];
-    const n = nums && Object.keys(nums).find((k) => nums[k] === item.id);
-    if (n) badge = `${item.book} ${n}`;
-  }
-  return { id: item.id, title: row[0], roman: row[1], lang: row[2], badge, score: 0 };
-}
-
-function nextSunday(): string {
-  const d = new Date();
-  d.setDate(d.getDate() + ((7 - d.getDay()) % 7 || 7));
-  return d.toISOString().slice(0, 10);
-}
 
 export default function SetPanel({ currentId = '' }: { currentId?: string }) {
   const [desktop, setDesktop] = useState(false);
-  const [draft, setDraft] = useState<SetList>(() => getDraft());
+  const [active, setActive] = useState<WorshipSet | undefined>();
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [numbers, setNumbers] = useState<NumbersMap>({});
   const [qrOpen, setQrOpen] = useState(false);
-
-  const refresh = () => setDraft(getDraft());
+  const [currentIndex, setCurrentIndex] = useState(-1);
 
   useEffect(() => {
     const mq = matchMedia(`(min-width: ${site.layout.desktopMin}px)`);
@@ -56,6 +39,13 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
 
   useEffect(() => {
     if (!desktop) return;
+    hydrateSets();
+    const refresh = () => {
+      setActive(getActiveSet());
+      const p = new URLSearchParams(location.search);
+      const i = Number(p.get('i') ?? -1);
+      setCurrentIndex(Number.isInteger(i) ? i : -1);
+    };
     refresh();
     Promise.all([loadMeta(), loadNumbers()])
       .then(([m, n]) => {
@@ -63,155 +53,139 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
         setNumbers(n);
       })
       .catch(() => {});
-    const onChange = () => refresh();
-    addEventListener('stuti:set-changed', onChange);
-    addEventListener('storage', onChange);
+    const off = listenSetsChanged(refresh);
+    document.addEventListener('astro:page-load', refresh);
     return () => {
-      removeEventListener('stuti:set-changed', onChange);
-      removeEventListener('storage', onChange);
+      off();
+      document.removeEventListener('astro:page-load', refresh);
     };
   }, [desktop]);
 
-  const update = (next: SetList) => {
-    setDraft(saveDraft(next));
-    dispatchEvent(new Event('stuti:set-changed'));
+  if (!desktop) return null;
+
+  if (!active) {
+    return (
+      <div class="set-panel">
+        <p class="muted">{t('desktop.setEmpty')}</p>
+        <a class="btn btn--primary" href="/sets/">
+          {t('set.newSet')}
+        </a>
+      </div>
+    );
+  }
+
+  const songs = songItems(active);
+  const code = encodeWorshipSet(active);
+  const shareUrl = setShareUrl(code);
+  const presentCode = encodeForPresent(active);
+
+  const badgeFor = (songId: string, book?: string) => {
+    const row = meta?.[songId];
+    if (!row) return book ?? '';
+    if (book && numbers[book]) {
+      const n = Object.keys(numbers[book]!).find((k) => numbers[book]![k] === songId);
+      if (n) return `${book} ${n}`;
+    }
+    return row[3];
   };
 
-  const code = encodeSet(draft);
-  const shareUrl = setShareUrl(code);
-  const date = draft.d || nextSunday();
-
-  if (!desktop) return null;
+  const exportPpt = async () => {
+    showToast(t('desktop.preparingPpt'));
+    try {
+      const book = songs[0]?.book ?? site.defaultBookId;
+      const bundle = (await fetch(`/data/books/${book}.json`).then((r) => r.json())) as BookBundle;
+      await downloadPptx(
+        songs
+          .map((s) => ({
+            id: s.songId,
+            song: bundle.songs[s.songId]!,
+            layers: { n: true, r: true, e: false },
+          }))
+          .filter((x) => x.song),
+      );
+    } catch {
+      showToast(t('desktop.previewError'));
+    }
+  };
 
   return (
     <div class="set-panel">
       <div class="set-panel__ribbon">
-        <div class="set-panel__ribbon-label">{t('desktop.thisSunday')}</div>
+        <div class="set-panel__ribbon-label">{formatSetDate(active.date)}</div>
         <input
           class="set-panel__title"
           aria-label={t('set.titleLabel')}
-          value={draft.t}
+          value={active.title}
           maxLength={80}
-          onInput={(e) => update({ ...draft, t: e.currentTarget.value })}
+          onInput={(e) => updateSet(active.id, { title: e.currentTarget.value })}
         />
         <div class="set-panel__meta">
-          {draft.s.length === 1
-            ? t('desktop.songCount.one')
-            : t('desktop.songCount', { n: draft.s.length })}
+          {songs.length === 1 ? t('desktop.songCount.one') : t('desktop.songCount', { n: songs.length })}
           {' · '}
-          {formatSetDate(date)}
+          <a href={`/sets/edit/?id=${encodeURIComponent(active.id)}`}>{t('set.editSet')}</a>
         </div>
       </div>
 
-      {draft.s.length === 0 ? (
-        <p class="muted">{t('desktop.setEmpty')}</p>
-      ) : (
-        <ol class="set-rows">
-          {draft.s.map((item, i) => {
-            const hit = meta ? hitFor(item, meta, numbers) : null;
+      <div class="set-panel__list">
+        {active.items.map((it) => {
+          if (it.kind === 'heading') {
             return (
-              <li class={`set-row${item.id === currentId ? ' is-current' : ''}`} key={`${item.id}-${i}`}>
-                <span class="set-row__num" aria-hidden="true">
-                  {i + 1}
-                </span>
-                <div class="set-row__main">
-                  {hit ? (
-                    <SongHitRow hit={hit} href={songInSetUrl(draft, code, i)} />
-                  ) : (
-                    <p class="muted">{item.id}</p>
-                  )}
-                </div>
-                <div class="set-row__ctrl">
-                  <button
-                    type="button"
-                    class="mini-btn"
-                    aria-label={t('set.moveUp')}
-                    disabled={i === 0}
-                    onClick={() => update({ ...draft, s: moveItem(draft.s, i, i - 1) })}
-                  >
-                    ▲
-                  </button>
-                  <button
-                    type="button"
-                    class="mini-btn"
-                    aria-label={t('set.moveDown')}
-                    disabled={i === draft.s.length - 1}
-                    onClick={() => update({ ...draft, s: moveItem(draft.s, i, i + 1) })}
-                  >
-                    ▼
-                  </button>
-                  <button
-                    type="button"
-                    class="mini-btn"
-                    aria-label={t('set.remove')}
-                    onClick={() => update({ ...draft, s: draft.s.filter((_, k) => k !== i) })}
-                  >
-                    ✕
-                  </button>
-                </div>
-              </li>
+              <p class="set-panel__heading" key={it.uid}>
+                {it.text}
+              </p>
             );
-          })}
-        </ol>
-      )}
+          }
+          const songIndex = songs.findIndex((s) => s.uid === it.uid);
+          const title = meta?.[it.songId]?.[0] ?? it.songId;
+          const isCurrent = songIndex === currentIndex || it.songId === currentId;
+          return (
+            <div class={isCurrent ? 'set-panel__row is-current' : 'set-panel__row'} key={it.uid}>
+              <a class="set-panel__song" href={songInWorshipSetUrl(active, songIndex)} data-astro-reload>
+                <span class="set-panel__ord">{songIndex + 1}</span>
+                <span class="set-panel__badge">{badgeFor(it.songId, it.book)}</span>
+                <span class="set-panel__name">{title}</span>
+                {it.key ? <span class="set-panel__key">{it.key}</span> : null}
+              </a>
+              <button
+                type="button"
+                class="icon-btn"
+                aria-label={t('set.remove')}
+                onClick={() => removeItem(active.id, it.uid)}
+              >
+                ×
+              </button>
+            </div>
+          );
+        })}
+      </div>
 
-      {draft.s.length > 0 && (
-        <div class="action-bar" style={{ marginTop: '1rem' }}>
-          <p class="search-help">{t('desktop.presentHelp')}</p>
-          <a class="btn btn--primary" href={`/present/?set=${encodeURIComponent(code)}&i=0`}>
-            {t('desktop.presentSet')}
-          </a>
+      <div class="set-panel__actions">
+        <a
+          class="btn btn--primary"
+          href={songs[0] ? `/present/?set=${encodeURIComponent(presentCode)}&i=0` : undefined}
+          title={t('desktop.presentHelp')}
+        >
+          ▶ {t('desktop.presentSet')}
+        </a>
+        <div class="set-panel__action-row">
           <button type="button" class="btn btn--secondary" onClick={() => setQrOpen(true)}>
             {t('desktop.qrCong')}
           </button>
-          <button
-            type="button"
-            class="btn btn--secondary"
-            onClick={() => {
-              void (async () => {
-                showToast(t('desktop.preparingPpt'));
-                try {
-                  const books = new Set(draft.s.map((s) => (meta?.[s.id]?.[3] ?? '').split(' ')[0]).filter(Boolean));
-                  const bundles = await Promise.all(
-                    [...books].map((b) =>
-                      fetch(`/data/books/${b}.json`).then((r) =>
-                        r.ok ? (r.json() as Promise<BookBundle>) : null,
-                      ),
-                    ),
-                  );
-                  const byId = new Map(bundles.flatMap((b) => (b ? Object.entries(b.songs) : [])));
-                  const songs = draft.s
-                    .map((item) => {
-                      const song = byId.get(item.id);
-                      return song ? { id: item.id, song } : null;
-                    })
-                    .filter((x): x is { id: string; song: NonNullable<typeof x>['song'] } => !!x);
-                  if (!songs.length) throw new Error('empty');
-                  await downloadPptx(songs, {
-                    fileName: `Stuti-Set-${date}.pptx`,
-                  });
-                } catch {
-                  showToast(t('desktop.previewError'));
-                }
-              })();
-            }}
-          >
-            {t('desktop.ppt')}
-          </button>
-          <a class="btn btn--secondary" href={`/print/?set=${encodeURIComponent(code)}`}>
+          <a class="btn btn--secondary" href={`/sets/print/?id=${encodeURIComponent(active.id)}`}>
             {t('desktop.pdf')}
           </a>
+          <button type="button" class="btn btn--secondary" onClick={() => void exportPpt()}>
+            {t('desktop.ppt')}
+          </button>
         </div>
-      )}
-
-      <QrSheet open={qrOpen} onClose={() => setQrOpen(false)} url={shareUrl} title={draft.t} />
-
-      <div class="set-panel__shortcuts">
-        <strong>{t('desktop.shortcuts')}</strong>
-        <p>
-          <kbd>0</kbd>–<kbd>9</kbd> number · <kbd>/</kbd> words · <kbd>P</kbd> present · <kbd>S</kbd> set
-        </p>
+        <a class="btn btn--ghost" href={songs[0] ? songInWorshipSetUrl(active, 0) : '/sets/'} data-astro-reload>
+          ▶ {t('set.start')}
+        </a>
       </div>
+
+      {qrOpen ? (
+        <QrSheet open={true} url={shareUrl} title={active.title} onClose={() => setQrOpen(false)} />
+      ) : null}
     </div>
   );
 }

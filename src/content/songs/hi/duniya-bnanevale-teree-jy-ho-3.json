@@ -1,0 +1,167 @@
+{
+  "slug": "duniya-bnanevale-teree-jy-ho-3",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "290"
+    }
+  ],
+  "title": {
+    "native": "दुनिया बनानेवाले तेरी जय हो…3",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "दुनिया बनानेवाले तेरी जय हो…3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय हो सदा के लिए…4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तुम्हारे कहने से दुनिया बनि",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम्हारे कहने से आंधी थमी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम्हारे जैसा चित्रकार कोई नही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ मेरे प्यारे पिता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दुनिया सजानेवाले तेरी जय हौ…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुनिया रचानेवाले तेरी जय हौ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय हो सदा के लिए…4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "येशु को तू ने कुर्बान कीया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाँपो को मेरे स्वीकार कीया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम्हारे जैसा कोई और नही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ मेरे प्यारे पिता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "दुनिया बचानेवाले तेरी जय हौ…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुनिया रचानेवाले तेरी जय हौ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय हो सदा के लिए…4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-37"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#37",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#37",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

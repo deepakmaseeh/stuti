@@ -1,0 +1,96 @@
+{
+  "slug": "gathe-hai-bajathe-hai",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "114"
+    }
+  ],
+  "title": {
+    "native": "Gathe hai Bajathe hai",
+    "roman": "",
+    "en": "Gathe hai Bajathe hai"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Gathe hai Bajathe hai",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Kushiya hum manathe hai",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Kuyonki yeshu hamare sath hai",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Usne hum ho banaya",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Usne hum ko banaya",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Usne sab ko banaya",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Vah yeshu hamare sath hai",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#114",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#114",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

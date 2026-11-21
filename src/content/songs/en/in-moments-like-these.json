@@ -1,0 +1,111 @@
+{
+  "slug": "in-moments-like-these",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "64"
+    }
+  ],
+  "title": {
+    "native": "In moments like these",
+    "roman": "",
+    "en": "In moments like these"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "In moments like these,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I sing out a song,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I sing out a love song to Jesus!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In moments like these,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I lift up my hands,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I lift up my hands to the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Singing I love you lord,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Singing I love you lord,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Singing I love you lord,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I love you",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#64",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#64",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

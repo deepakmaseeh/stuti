@@ -1,0 +1,125 @@
+{
+  "slug": "yeeshu-bula-rha-2-tera-nam-le-lekr",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "317"
+    }
+  ],
+  "title": {
+    "native": "यीशु बुला रहा… 2 तेरा नाम ले लेकर",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु बुला रहा… 2 तेरा नाम ले लेकर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझे यीशु बुला रहा… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "क्या पायेगा तू … जीत कर ईस दुनिया को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या लाभ होगा… खो कर आत्मा को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू आजा यीशु के पास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझे यीशु बुला रहा… 2 … यीशु बुला रहा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "चोर आया चोरी करने… घात हत्या करने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु आया जीवन देने… बहुतायत का जीवन देने… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू आजा यीशु के पास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझे यीशु बुला रहा… 2 … यीशु बुला रहा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-78"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#78",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#78",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

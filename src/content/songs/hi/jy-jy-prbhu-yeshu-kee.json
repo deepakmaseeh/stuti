@@ -1,0 +1,213 @@
+{
+  "slug": "jy-jy-prbhu-yeshu-kee",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "291"
+    }
+  ],
+  "title": {
+    "native": "जय जय प्रभु येशु की",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जय जय प्रभु येशु की",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय जय प्रभु येशु की",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमको बचाने आया जगत में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी स्तुति करो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "हा… हा… हा… हा… हा… हालेलुयाह…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हो… हो… हो… हो… हो… होसन्ना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ला… ला… ला… ला… ला… ला…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह आमेन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "खून की धारा बहती सूली से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसमें धूले सब पाप",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धोलो तुम भी अपने हॄदय को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसमें रहे ना दाग",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ग्रहण करो तुम आज येशु को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खून की बहती धार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसको बनालो खेवन हारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नैया लगालो पार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "वापस आता मेरा प्रभुजी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ले जायेगा साथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आशा मेरी अब तो यही है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलो तुम मेरे साथ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "हर दम होंगे साथ येशु के",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुशी और शांति आराम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आयेगा वो लेने तुमको",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रहना तुम तैयार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-43"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#43",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#43",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

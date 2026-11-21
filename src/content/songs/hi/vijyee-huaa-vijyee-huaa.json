@@ -1,0 +1,125 @@
+{
+  "slug": "vijyee-huaa-vijyee-huaa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "289"
+    }
+  ],
+  "title": {
+    "native": "विजयी हुआ…विजयी हुआ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "विजयी हुआ…विजयी हुआ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मेरा विजयी हुआ॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान हरा हुआ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मेरा विजयी हुआ॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "येशुने क्रुसपर… शैतान के सिर को कुचल दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मॄत्यु पर विजयी होकर…हमे विजय जीवन दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह…हालेलुयाह…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "शत्रुओं के हर एक शक्ती पर…अधिकार हमे दिया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येहोवा निस्सी हमारा है… जय देनेवाला…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह…हालेलुयाह…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-36"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#36",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#36",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

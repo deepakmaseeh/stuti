@@ -1,0 +1,155 @@
+{
+  "slug": "yhova-yire-data-mere",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "362"
+    }
+  ],
+  "title": {
+    "native": "यहोवा यिरे… दाता मेरे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यहोवा यिरे… दाता मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू काफी है मेरे लिए…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा राफा… तू करता चंगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मिली चंगाई घाव से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा शम्मा… तू संग रहता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर जरूरत पूरी करता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू काफी है … 3 मेरे लिए…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यहोवा एलोहिम… सॄजन हारे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब रचा वचन से तेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा एलशड,ाय… तू सर्वशक्तीमान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे जैसा नही कोई और",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा शालोम तू शान्ती दाता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू शान्ती दी है मन में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू काफी है … 3 मेरे लिए…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा यिरे… दाता मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू काफी है मेरे लिए…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-33"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#33",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#33",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

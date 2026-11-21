@@ -1,0 +1,91 @@
+{
+  "slug": "i-am-free-i-am-free-i-am-free-to-be",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "28"
+    }
+  ],
+  "title": {
+    "native": "I am free, I am free, I am free to be",
+    "roman": "",
+    "en": "I am free, I am free, I am free to be"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I am free, I am free, I am free to be",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the servant of the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "taught me how to praise him,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He taught me how to sing a song,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He taught me how to love I am free",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "to be the servant of the lord",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#28",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#28",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

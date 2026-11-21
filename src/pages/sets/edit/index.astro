@@ -1,0 +1,15 @@
+---
+import AppShell from '../../../components/AppShell.astro';
+import SetEditorV2 from '../../../components/islands/SetEditorV2';
+import { site } from '../../../site.config';
+import { t } from '../../../i18n';
+---
+
+<AppShell
+  title={`${t('set.editSet')} | ${site.name}`}
+  description="Edit a worship set: songs, headings, keys, and share."
+  active="sets"
+>
+  <h1 class="visually-hidden">{t('set.editSet')}</h1>
+  <SetEditorV2 client:load />
+</AppShell>

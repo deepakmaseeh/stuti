@@ -1,0 +1,192 @@
+{
+  "slug": "come-and-go-with-me-to-my",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "12"
+    }
+  ],
+  "title": {
+    "native": "Come and go with me to my",
+    "roman": "",
+    "en": "Come and go with me to my"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Come and go with me to my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To my fathers house, to my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Come and go with me to my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "There is Joy, Joy, Joy",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Every things all right in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "There is room for all in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "There is no more pain in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "There is no more death in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fathers house",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "Jesus is the way to my fathers",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "house",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "Accept Jesus Christ you will be",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "going there",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#12",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#12",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

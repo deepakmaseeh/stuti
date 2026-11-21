@@ -1,0 +1,106 @@
+{
+  "slug": "i-will-sing-of-the-mercies-of-the-lord",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "8"
+    }
+  ],
+  "title": {
+    "native": "I will sing of the mercies of the lord",
+    "roman": "",
+    "en": "I will sing of the mercies of the lord"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I will sing of the mercies of the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "forever, I will sing, I will sing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I will sing of the mercies of the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Forever, I will sing of the mercies of the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "With my mouth will I make know",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thy faithfulness, Thy faithfulness",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "With my mouth will I make know",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thy faithfulness, to all generations",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#8",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#8",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

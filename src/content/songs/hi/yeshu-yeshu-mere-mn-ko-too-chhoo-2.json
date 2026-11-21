@@ -1,0 +1,145 @@
+{
+  "slug": "yeshu-yeshu-mere-mn-ko-too-chhoo-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "364"
+    }
+  ],
+  "title": {
+    "native": "येशु येशु… मेरे मन को तू छू … 2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु येशु… मेरे मन को तू छू … 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे दिल करे बस तेरी आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ सुनले टूटे मन की तू प्राार्थना …2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ जा धु ले मेरी रूह … … … येशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ये जमीन तेरी पैंरो की हे जगह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और आसमान में हे तेरा हाथ फैला … 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे आनेसे ये धरती हुई पवित्र",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे आनेसे पहले था मैला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ जा धु ले मेरी रूह … … … येशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तु ने नही लिये ये हजारो जमन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा एक जमन नही था हजारो से कम … 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु ने जो इस धरती पर रखा कदम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये धरती रज गई बनके एक दुल्हन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमे कब ले जाएँगा संग",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-35"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#35",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#35",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

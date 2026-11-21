@@ -1,0 +1,91 @@
+{
+  "slug": "god-is-good-all-the-time-he-puts-a",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "93"
+    }
+  ],
+  "title": {
+    "native": "God is good all the time, he puts a",
+    "roman": "",
+    "en": "God is good all the time, he puts a"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "God is good all the time, he puts a",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "song of praise in the hearts of mine,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "God is good all the time",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Though the darkest night, his light",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "will shine",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "God is good, God is good all the time",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#93",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#93",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

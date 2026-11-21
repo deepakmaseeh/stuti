@@ -1,0 +1,160 @@
+{
+  "slug": "mn-mndir-men-yeshu-aaya",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "277"
+    }
+  ],
+  "title": {
+    "native": "मन मंदिर में येशु आया",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मन मंदिर में येशु आया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरा खुशियों से भर गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह॥हालेलुयाह॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह॥हालेलुयाह॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आतमा से भर के स्तुति करे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी जयजयकार करें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसने नया जीवन दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरा खुशियों से भर गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "धन्यवाद येशु का करते रहें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आशीषों से भरते रहें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मंदिर येशु से भर गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरा खुशियों से भर गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जब से आया येशु मन में मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दूर हुए गम दिल से मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान का डर दिल से गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरा खुशियों से भर गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-23"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#23",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#23",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

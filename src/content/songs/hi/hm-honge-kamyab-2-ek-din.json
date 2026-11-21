@@ -1,0 +1,156 @@
+{
+  "slug": "hm-honge-kamyab-2-ek-din",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "309"
+    }
+  ],
+  "title": {
+    "native": "हम होंगे कामयाब …2 एक दिन",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हम होंगे कामयाब …2 एक दिन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "हम होंगे कामयाब एक दिन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ॥हो ॥मन में है विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरा है विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम होंगे कामयाब …एक दिन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हम चलेंगे साथ साथ …2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम चलेंगे साथ साथ एक दिन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ॥हो ॥मन में है विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरा है विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम चलेंगे साथ साथ …एक दिन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "होगी शांति चारों तरफ …2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "होगी शांति चारों तरफ एक दिन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ॥हो ॥मन में है विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरा है विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "होगी शांति चारों तरफ एक दिन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-66"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#66",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#66",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

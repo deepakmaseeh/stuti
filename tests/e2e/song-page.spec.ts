@@ -101,4 +101,14 @@ test.describe('song page', () => {
     await page.goto('/b/tlbc/3/');
     await expect(page).toHaveURL(/\/song\/hi-aaj-fasi-majhdhar-main\/\?from=tlbc$/);
   });
+
+  test('toolbar tools and Present show on mobile', async ({ page }) => {
+    await gotoHydrated(page, HI);
+    const tools = page.locator('.toolbar .tools');
+    await expect(tools.getByRole('button', { name: 'Smaller text' })).toBeVisible();
+    await expect(tools.getByRole('button', { name: /Add set|In set/ })).toBeVisible();
+    await expect(tools.getByRole('button', { name: 'Share' })).toBeVisible();
+    await expect(page.locator('.song-present')).toBeVisible();
+    await expect(page.locator('.song-present')).toHaveAttribute('href', /\/present\/\?song=/);
+  });
 });

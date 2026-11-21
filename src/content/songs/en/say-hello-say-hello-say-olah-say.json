@@ -1,0 +1,137 @@
+{
+  "slug": "say-hello-say-hello-say-olah-say",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "101"
+    }
+  ],
+  "title": {
+    "native": "Say Hello, say Hello, Say Olah, Say",
+    "roman": "",
+    "en": "Say Hello, say Hello, Say Olah, Say"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Say Hello, say Hello, Say Olah, Say",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jambo, Bondiah, Aloha, Namasthe",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Say Shalom tho… Ikenahova",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We have come in the name of the lord,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To share with you his holy word",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Song 102",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Its me, its me, it’s me alone",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Standing in the need of prayer",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Not my father, Not my mother",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "That is me alone standing in the need of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "prayer",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Not my brother, Not my sister",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "That is me alone standing in the need of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "prayer",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#101",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#101",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

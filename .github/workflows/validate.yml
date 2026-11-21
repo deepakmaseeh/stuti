@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Independence check (no references to the drafting tool)
         run: |
-          if git grep -n -i "click""up" -- . ':!STUTI_FIXES_AND_LAUNCH.md' ':!STUTI_BUILD_SPEC.md' ':!AGENTS.md'; then
+          if git grep -n -i "click""up" -- . ':!STUTI_FIXES_AND_LAUNCH.md' ':!STUTI_BUILD_SPEC.md' ':!STUTI_SETLISTS_AND_FIXES.md' ':!AGENTS.md'; then
             echo "Found a reference to the drafting tool. The app must be independent."; exit 1
           fi
       - uses: actions/setup-node@v4

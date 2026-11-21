@@ -1,0 +1,138 @@
+{
+  "slug": "shepherd-of-my-soul",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "52"
+    }
+  ],
+  "title": {
+    "native": "Shepherd of my soul",
+    "roman": "",
+    "en": "Shepherd of my soul"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Shepherd of my soul",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I give you full control",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Where ever you may lead I will follow",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I have made a choice",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To listen to your voice",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Where ever you may lead I will go",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Be it in a quiet pasture",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Or by a gently stream",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The shepherd of my soul is by my side",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Should I face a mighty mountain",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Or a valley dark and deep",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The shepherd of my soul will be my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "guide",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#52",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#52",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

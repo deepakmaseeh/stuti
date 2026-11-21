@@ -1,0 +1,92 @@
+{
+  "slug": "every-promise-in-the-book-is-mine",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "106"
+    }
+  ],
+  "title": {
+    "native": "Every promise in the book is mine",
+    "roman": "",
+    "en": "Every promise in the book is mine"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Every promise in the book is mine,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Every chapter, every verse, every",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "line,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "All the blessings of his love divine,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Every promise in the book is mine",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#106",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#106",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

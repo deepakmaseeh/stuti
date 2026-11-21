@@ -1,0 +1,97 @@
+{
+  "slug": "thank-you-thank-you-jesus",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "160"
+    }
+  ],
+  "title": {
+    "native": "Thank you thank you Jesus",
+    "roman": "",
+    "en": "Thank you thank you Jesus"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "e+<H\\T jûTdT, e+<H\\T jûTdT, e+<H\\T jûTdT",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "úÅ£L (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "<óq«y< Þø, <óq«y< Þø, <óq«y< Þø ÔáTCÙ¿Ã(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Thank you thank you Jesus, (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thank you, Thank you Jesus in my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "heart",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#160",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#160",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

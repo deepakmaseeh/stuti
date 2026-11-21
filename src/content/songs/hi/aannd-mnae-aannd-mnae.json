@@ -1,0 +1,132 @@
+{
+  "slug": "aannd-mnae-aannd-mnae",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "305"
+    }
+  ],
+  "title": {
+    "native": "आनंद मनाए॥ आनंद मनाए",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आनंद मनाए॥ आनंद मनाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनंद मनाए येशु में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "हालेलुयाह आमेन हालेलुयाह॥॥4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आनंद है अब आनंद है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे आनंद मेरे जीवन में॥| हालेलुायाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दुख नही अब दर्द नही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे आनंद मेरे जीवन में॥| हालेलुायाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "बिमारी नही अब उदासी नही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे आनंद मेरे जीवन में॥| हालेलुायाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-61"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#61",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#61",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

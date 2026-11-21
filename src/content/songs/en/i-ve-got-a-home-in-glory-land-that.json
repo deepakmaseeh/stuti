@@ -1,0 +1,108 @@
+{
+  "slug": "i-ve-got-a-home-in-glory-land-that",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "63"
+    }
+  ],
+  "title": {
+    "native": "I’ve got a home in glory land that",
+    "roman": "",
+    "en": "I’ve got a home in glory land that"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I’ve got a home in glory land that",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "outstands the sun (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Way beyond the blue",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Do lord, O do lord, O do",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "remember me",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "I took Jesus as my savior you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "take him too",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#63",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#63",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

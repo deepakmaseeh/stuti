@@ -1,0 +1,146 @@
+{
+  "slug": "yhova-nissee-yhova-nissee-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "285"
+    }
+  ],
+  "title": {
+    "native": "यहोवा निस्सी॥ यहोवा निस्सी॥ 2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "यहोवा निस्सी॥ यहोवा निस्सी॥ 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा निस्सी॥ यहोवा निस्सी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य तेरा नाम…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य धन्य धन्य तेरा नाम… हालेलुयाह… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "शत्रुओं की सेना को हराता तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय का झण्डा है हमारा तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य धन्य धन्य तेरा नाम … यहोवा निस्सी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "शैतान के सिर को कुचल के तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मॄत्यु पर जयवंत हुआ है तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य धन्य धन्य तेरा नाम … यहोवा निस्सी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जल के उत्सव में लिए चलाता तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सुगंध वचन हमसे है फैलाता तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य धन्य धन्य तेरा नाम … यहोवा निस्सी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-31"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#31",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#31",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

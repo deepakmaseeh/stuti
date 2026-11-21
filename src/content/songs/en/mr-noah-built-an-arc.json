@@ -1,0 +1,132 @@
+{
+  "slug": "mr-noah-built-an-arc",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "42"
+    }
+  ],
+  "title": {
+    "native": "Mr. Noah built an arc",
+    "roman": "",
+    "en": "Mr. Noah built an arc"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Mr. Noah built an arc",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "People thought him quiet a rot",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Mr. Noah pleaded them so",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In to the arc they would not go",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Down came the rain and torrent (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And only eight were saved",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Animals went in two by two",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The bear and the giraffe and the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "kangaroo",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Quickly they were stored away",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For the dark and dreadful day",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "When you see the rainbow (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Remember God is love",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#42",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#42",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "jy-denevale-prbhu-yeshu-ko-kotee-kotee-dhnyvad",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "265"
+    }
+  ],
+  "title": {
+    "native": "जय देनेवाले प्रभु येशु को…कोटी कोटी धन्यवाद",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जय देनेवाले प्रभु येशु को…कोटी कोटी धन्यवाद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन देनेवाले प्रभु येशु को…जीवन भर धन्यवाद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह हालेलुयाह गायेंगे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आत्मा से भरकर गायेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु जीन्दा है… वह आनेवाला है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "शान्ति देनेवाले प्रभु येशु को…कोटी कोटी धन्यवाद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्ति देनेवाले प्रभु येशु को… जीवन भर धन्यवाद",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "छुटकारा देनेवाले प्रभु येशु को… कोटी कोटी धन्यवाद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चंगा करनेवाले प्रभु येशु को… जीवन भर धन्यवाद",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-6"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#6",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#6",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

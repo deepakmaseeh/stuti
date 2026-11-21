@@ -1,0 +1,137 @@
+{
+  "slug": "yeshu-nam-men-uddhar-hmko-hallelooyah",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "284"
+    }
+  ],
+  "title": {
+    "native": "येशु नाम में उद्धार हमको ॥हाल्लेलूयाह",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु नाम में उद्धार हमको ॥हाल्लेलूयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु येशु नाम में अनंत जीवन ॥हाल्लेलूयाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "राजाओं का राजा येशु॥हाल्लेलूयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभुओं का प्रभु येशु॥हाल्लेलूयाह …येशु नाम में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "चंगा करनेवाला येशु॥हाल्लेलूयाह …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छुटकारा देनेवाला येशु॥हाल्लेलूयाह येशु नाम में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "अद,भुत करनेवाला येशु॥हाल्लेलूयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शांति देनेवाला येशु॥हाल्लेलूयाह …येशु नाम में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "मुक्ति का है मार्ग येशु॥हाल्लेलूयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वर्ग का है द्वारा येशु॥हाल्लेलूयाह…येशु नाम में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-30"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#30",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#30",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

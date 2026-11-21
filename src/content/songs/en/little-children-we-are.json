@@ -1,0 +1,122 @@
+{
+  "slug": "little-children-we-are",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "90"
+    }
+  ],
+  "title": {
+    "native": "Little children we are",
+    "roman": "",
+    "en": "Little children we are"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Little children we are",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Little mistakes we make",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "May days go by,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Many wring routs we take",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Confused we may be,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Concentrated we should be",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Cleansed of all our sins",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Whom do we go to",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Whom do we look at",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Our Jesus the lord,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Our rock and redeemer",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#90",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#90",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

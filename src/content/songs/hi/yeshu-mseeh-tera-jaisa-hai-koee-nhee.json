@@ -1,0 +1,147 @@
+{
+  "slug": "yeshu-mseeh-tera-jaisa-hai-koee-nhee",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "270"
+    }
+  ],
+  "title": {
+    "native": "येशु मसीह॥ तेरा जैसा है कोई नही",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु मसीह देता खुशी… करे महिमा उसकी…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पैदा हुआ… बना इनसान… देखो भागा शैतान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाओ हाल्लेलुयाह… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाओ हाल्लेलुयाह… आमेन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "नारे लगाओ…जय गीत गाओ…शैतान हुआ परेशान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ताली बजाओ… नाचो गाओ… देखो भागा शैतान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "गिरनेवालों… उठो चलो… येशु बुलाता तुम्हे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छोड दो डरना…अब क्या हैे मरना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हुआ है जिंदा येशु मसीह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "झुक जायेगा… आसमान एक दिन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु राजा होगा बादलों पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखेगी दुनियाँ शान मसीह की",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जुबान पे होगा ये गीत सभी के",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-13",
+    "ccf-42"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#13",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#13",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

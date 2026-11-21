@@ -1,0 +1,126 @@
+{
+  "slug": "nare-lgaon-aur-gao-re",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "264"
+    }
+  ],
+  "title": {
+    "native": "नारे लगाओं और गाओ रे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "नारे लगाओं और गाओ रे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "झंडा मसीह का फैलाओ रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह॥ हालेलुयाह… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "लम्बा सफर जिंदगी का…सच्चाई कोई न जाने रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आंखे ऊपर तो लगाओ…येशुके पास तुम आओ रे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "जीवन से उल्झा हुआ राही…येशुके पास तुम आओ रे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गंदगी ये राहे सब छोडा… जिंदगी में अब कुछ जोडो रे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "येशु का जन्म हुआ है… पापों का अंत हुआ है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुशियाँ वो बाट रहा है… प्रेम की धारा वही है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-5"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#5",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#5",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

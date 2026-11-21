@@ -1,0 +1,81 @@
+{
+  "slug": "monday-to-saturday-study-and-play-i",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "72"
+    }
+  ],
+  "title": {
+    "native": "Monday to saturday  study and play, I",
+    "roman": "",
+    "en": "Monday to saturday  study and play, I"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Monday to saturday study and play, I",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "do my homework everyday,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "When sunday comes I only do this, I run",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "to church I’ll sing and worship CHRIST",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#72",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#72",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

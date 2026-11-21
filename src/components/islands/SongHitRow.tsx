@@ -4,11 +4,20 @@ import type { Hit } from '../../lib/search';
 import { songUrl } from '../../lib/songs';
 
 /** Preact twin of SongRow.astro + NumberBadge.astro for client-rendered lists. */
-export default function SongHitRow({ hit, href }: { hit: Hit; href?: string }) {
+export default function SongHitRow({
+  hit,
+  href,
+  onSelect,
+}: {
+  hit: Hit;
+  href?: string;
+  /** When set, row is a button that picks the song instead of navigating. */
+  onSelect?: (hit: Hit) => void;
+}) {
   const [book = '', number = ''] = hit.badge.split(' ');
   const lang = hit.lang as Lang;
-  return (
-    <a class="song-row" href={href ?? songUrl(hit.id)}>
+  const body = (
+    <>
       <span class="badge badge--list" role="img" aria-label={hit.badge}>
         <span class="badge__book" aria-hidden="true">
           {book}
@@ -27,6 +36,20 @@ export default function SongHitRow({ hit, href }: { hit: Hit; href?: string }) {
           </span>
         )}
       </span>
+    </>
+  );
+
+  if (onSelect) {
+    return (
+      <button type="button" class="song-row song-row--btn" onClick={() => onSelect(hit)}>
+        {body}
+      </button>
+    );
+  }
+
+  return (
+    <a class="song-row" href={href ?? songUrl(hit.id)} data-astro-reload>
+      {body}
     </a>
   );
 }

@@ -74,6 +74,12 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
   display: none;
 }
 
+.line .repeat {
+  color: var(--muted);
+  font-weight: 600;
+  font-size: 0.85em;
+  white-space: nowrap;
+}
 .chorus-marker {
   margin-top: -0.5rem;
   font-family: var(--font-ui);

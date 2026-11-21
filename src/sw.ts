@@ -7,26 +7,47 @@ import { ExpirationPlugin } from 'workbox-expiration';
 
 declare let self: ServiceWorkerGlobalScope;
 
-// Ignore ALL query params when matching precached pages (/search/?book=..., /set/?..)
+// Assets only in precache — NOT HTML shells. Precaching index/search HTML caused
+// CacheFirst hits that served yesterday's page (missing toolbar / old Browse UI)
+// until a hard refresh. Navigations use NetworkFirst below instead.
 precacheAndRoute(self.__WB_MANIFEST, { ignoreURLParametersMatching: [/.*/] });
 cleanupOutdatedCaches();
-// Control the page that installed us on the very first visit (later updates still wait for the user's "Update").
 clientsClaim();
 
-// Song + book pages: network first (fresh when online), cache when offline.
-// "Download book" puts pages into this same cache name, saved under clean URLs (no query).
-// ignoreSearch: /song/<id>/?set=…&i=2 must find the copy saved as /song/<id>/.
+// Activate immediately when the page asks (auto-update from pwa.ts).
+self.addEventListener('message', (event) => {
+  if (event.data?.type === 'SKIP_WAITING') void self.skipWaiting();
+});
+
+// Drop the HTML page cache on every new worker so a deploy cannot leave
+// stale song/search documents around after "Download book" / prior visits.
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    (async () => {
+      await caches.delete('stuti-pages');
+      await self.clients.claim();
+    })(),
+  );
+});
+
+// Song + book + app pages: prefer network so deploys show up without refresh.
+// Short timeout still allows offline when the book was downloaded into this cache.
 registerRoute(
   ({ request, url }) => request.mode === 'navigate' && !url.pathname.startsWith('/admin/'),
   new NetworkFirst({
     cacheName: 'stuti-pages',
-    networkTimeoutSeconds: 3,
+    networkTimeoutSeconds: 4,
     matchOptions: { ignoreSearch: true, ignoreVary: true },
+    plugins: [
+      {
+        cacheWillUpdate: async ({ response }) =>
+          response && response.ok && response.type === 'basic' ? response : null,
+      },
+    ],
   }),
 );
 
-// Book manifests: network first so "Update available" compares against the live version,
-// not a stale cached copy (stale-while-revalidate would always answer with the old one first).
+// Book manifests: network first so "Update available" compares against the live version.
 registerRoute(
   ({ url }) => url.pathname.startsWith('/dl/'),
   new NetworkFirst({ cacheName: 'stuti-data', networkTimeoutSeconds: 3 }),
@@ -47,8 +68,7 @@ registerRoute(
   }),
 );
 
-// Fonts. ignoreVary: servers send `Vary: Origin`, and the browser's font requests carry an Origin header
-// that the copies saved by "Download book" (plain fetch) don't, so a strict match would always miss.
+// Fonts. ignoreVary: servers send `Vary: Origin`.
 registerRoute(
   ({ request }) => request.destination === 'font',
   new CacheFirst({
@@ -60,12 +80,7 @@ registerRoute(
 
 setCatchHandler(async ({ request }) => {
   if (request.mode === 'navigate') {
-    // The PWA integration precaches pages under their directory URL, not index.html.
     return (await matchPrecache('/no-connection/')) ?? Response.error();
   }
   return Response.error();
-});
-
-self.addEventListener('message', (event) => {
-  if (event.data?.type === 'SKIP_WAITING') void self.skipWaiting();
 });

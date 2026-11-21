@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
 import type { Hit } from '../../lib/search';
-import { getDraft } from '../../lib/setlist';
+import { getActiveSet, hydrateSets, songItems } from '../../lib/sets';
 import { storage, type DownloadRecord, type SongSnapshot } from '../../lib/storage';
 import { LANG_TAG } from '../../lib/scripts';
 import type { Lang } from '../../lib/schema';
@@ -33,10 +33,12 @@ export default function HomeLists() {
   const [s, setS] = useState<State>(EMPTY);
 
   useEffect(() => {
+    hydrateSets();
+    const active = getActiveSet();
     setS({
       recent: storage.recent.get().items,
       favs: storage.favs.get().items,
-      setCount: getDraft().s.length,
+      setCount: active ? songItems(active).length : 0,
       downloads: storage.downloads.get(),
     });
   }, []);
@@ -81,7 +83,7 @@ export default function HomeLists() {
         </a>
       )}
 
-      <a class="sunday-card" href="/set/">
+      <a class="sunday-card" href="/sets/">
         <span class="sunday-card__label">{t('home.sunday')}</span>
         <span class="sunday-card__text">
           {s.setCount ? t('home.sundayCount', { n: s.setCount }) : t('home.sundayEmpty')}

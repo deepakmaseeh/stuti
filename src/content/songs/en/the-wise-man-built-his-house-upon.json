@@ -1,0 +1,173 @@
+{
+  "slug": "the-wise-man-built-his-house-upon",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "48"
+    }
+  ],
+  "title": {
+    "native": "The wise man built his house upon",
+    "roman": "",
+    "en": "The wise man built his house upon"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "The wise man built his house upon",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the rock (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And the rains came tumbling down",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The rains came down and the floods",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "came up (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And the house on the rock was firm",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "The foolish man built his house upon",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the sand (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And the rains came tumbling down",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The rains came down and the floods",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "came up (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And the house on the sand was",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "smashed",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "So build your life on lord Jesus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Christ (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And the blessings will come",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "down",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The blessings will come down",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "and the praise go up (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "So build your life on lord",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#48",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#48",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

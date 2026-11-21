@@ -1,0 +1,121 @@
+{
+  "slug": "besharon-ka-ek-shara-vo-hai-mera-yeshu-pyara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "286"
+    }
+  ],
+  "title": {
+    "native": "बेसहारों का एक सहारा… वो है मेरा येशु प्यारा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "बेसहारों का एक सहारा… वो है मेरा येशु प्यारा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बेसहारों का…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "निराश क्यौं होते हो… आशा क्यों खोते हो… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ आओ येशु पास…पाओ तुम छुटकारा… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "खतरों से क्यों डरते हो…आगे क्यों नही बढते हो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाओ पाओ येशु से … शक्ति और सहारा… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "जीवन की इस नैय्या को…गर दोगे तुम येशु को…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पार लगाएगा इसको… जहाँ मंजिल है…तुम्हारा…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-32"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#32",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#32",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -11,11 +11,23 @@ import {
   type Prefs,
   type SongSnapshot,
 } from '../../lib/storage';
-import { addToDraft, isInDraft, removeFromDraft } from '../../lib/setlist';
+import {
+  addSongToSet,
+  createSet,
+  getActiveSet,
+  getSets,
+  hydrateSets,
+  isSongInActive,
+  listenSetsChanged,
+  removeSongFromActive,
+  setActive,
+  type WorshipSet,
+} from '../../lib/sets';
 import { showToast } from '../../lib/toast';
 import { isAwake, onWakeChange, setKeepAwake, wakeLockSupported } from '../../lib/wakelock';
 import type { BookBundle } from '../../lib/book-bundle';
 import { downloadPptx } from '../../lib/pptx-export';
+import Sheet from './Sheet';
 
 type LayerState = 'missing' | 'draft' | 'reviewed';
 type LayerKey = 'n' | 'r' | 'e';
@@ -27,7 +39,6 @@ export type SongToolbarProps = {
   nativeLang: string;
   layers: { r: LayerState; e: LayerState };
   share: { title: string; text: string; url: string };
-  /** Book codes this song appears in, in `numbers` order. */
   books: string[];
 };
 
@@ -47,11 +58,13 @@ export default function SongToolbar({
   share,
   books,
 }: SongToolbarProps) {
-  // Server render uses defaults; real prefs/support are read after mount so hydration matches.
   const [prefs, setPrefs] = useState<Prefs>(DEFAULT_PREFS);
   const [awake, setAwake] = useState(false);
   const [supported, setSupported] = useState(true);
   const [inSet, setInSet] = useState(false);
+  const [activeSet, setActiveSet] = useState<WorshipSet | undefined>();
+  const [pickOpen, setPickOpen] = useState(false);
+  const [ready, setReady] = useState(false);
 
   const available: LayerKey[] = [
     'n',
@@ -66,21 +79,27 @@ export default function SongToolbar({
   };
 
   useEffect(() => {
+    hydrateSets();
     const stored = storage.prefs.get();
     setPrefs(stored);
-    setInSet(isInDraft(snapshot.id));
+    const syncInSet = () => {
+      setInSet(isSongInActive(snapshot.id));
+      setActiveSet(getActiveSet());
+    };
+    syncInSet();
     const canWake = wakeLockSupported();
     setSupported(canWake);
     pushRecent(snapshot);
     const nudge = storage.installNudge.get();
     storage.installNudge.set({ ...nudge, songOpens: (nudge.songOpens ?? 0) + 1 });
 
-    const off = onWakeChange(setAwake);
+    const offWake = onWakeChange(setAwake);
     setAwake(isAwake());
-    const fromSet = new URLSearchParams(location.search).has('set');
+    const params = new URLSearchParams(location.search);
+    const fromSet = params.has('set') || params.has('shared');
     if (canWake && (fromSet || stored.keepAwake)) setKeepAwake(true).catch(() => {});
+    setReady(true);
 
-    // Song page only: hide the bottom nav on scroll down, show on scroll up.
     let lastY = scrollY;
     const onScroll = () => {
       const y = scrollY;
@@ -90,15 +109,17 @@ export default function SongToolbar({
       }
     };
     addEventListener('scroll', onScroll, { passive: true });
+    const offSets = listenSetsChanged(syncInSet);
     return () => {
-      off();
+      offWake();
+      offSets();
       removeEventListener('scroll', onScroll);
     };
-  }, []);
+  }, [snapshot.id]);
 
   const toggleLayer = (k: LayerKey) => {
     const next = { ...prefs.layers, [k]: !prefs.layers[k] };
-    if (!available.some((a) => next[a])) return; // at least one visible layer stays on
+    if (!available.some((a) => next[a])) return;
     save({ layers: next });
   };
 
@@ -111,22 +132,49 @@ export default function SongToolbar({
     }
   };
 
-  const toggleSet = () => {
-    if (inSet) {
-      removeFromDraft(snapshot.id);
-      setInSet(false);
-      showToast(t('set.removedToast'));
-      dispatchEvent(new Event('stuti:set-changed'));
+  const bookForAdd = () => {
+    const from = new URLSearchParams(location.search).get('from')?.toLowerCase();
+    return books.find((b) => b.toLowerCase() === from) ?? books[0];
+  };
+
+  const addToSet = (set: WorshipSet) => {
+    const book = bookForAdd();
+    setActive(set.id);
+    if (!addSongToSet(set.id, { songId: snapshot.id, ...(book ? { book } : {}) })) {
+      showToast(t('set.fullToast'));
       return;
     }
-    // Remember which book the singer came from so the set shows the number they know.
-    const from = new URLSearchParams(location.search).get('from')?.toLowerCase();
-    const book = books.find((b) => b.toLowerCase() === from) ?? books[0];
-    if (addToDraft({ id: snapshot.id, ...(book ? { book } : {}) })) {
-      setInSet(true);
-      showToast(t('set.addedToast'));
-      dispatchEvent(new Event('stuti:set-changed'));
-    } else showToast(t('set.fullToast'));
+    setInSet(true);
+    setActiveSet(getActiveSet());
+    setPickOpen(false);
+    showToast(t('set.addedToToast', { title: set.title }));
+  };
+
+  const toggleSet = () => {
+    if (inSet) {
+      removeSongFromActive(snapshot.id);
+      setInSet(false);
+      showToast(t('set.removedToast'));
+      return;
+    }
+    hydrateSets();
+    const sets = getSets();
+    const active = getActiveSet();
+    if (sets.length > 1) {
+      setPickOpen(true);
+      return;
+    }
+    if (active) {
+      addToSet(active);
+      return;
+    }
+    const created = createSet({ makeActive: true });
+    addToSet(created);
+  };
+
+  const shortSetTitle = (title?: string) => {
+    if (!title) return t('set.newSet');
+    return title.length > 18 ? `${title.slice(0, 16)}…` : title;
   };
 
   const chips: { key: LayerKey; label: string; lang?: string; state?: LayerState }[] = [
@@ -141,11 +189,11 @@ export default function SongToolbar({
     <>
       <svg
         viewBox="0 0 24 24"
-        width="20"
-        height="20"
+        width="22"
+        height="22"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
+        stroke-width="1.75"
         stroke-linecap="round"
         stroke-linejoin="round"
         aria-hidden="true"
@@ -175,7 +223,7 @@ export default function SongToolbar({
   };
 
   return (
-    <div class="toolbar">
+    <div class={ready ? 'toolbar toolbar--ready' : 'toolbar'}>
       {!isEnglish && chips.length > 1 && (
         <div class="chips" role="group" aria-label={t('song.layers')}>
           {chips.map((c) => (
@@ -194,30 +242,25 @@ export default function SongToolbar({
       <div class="tools">
         <button
           type="button"
-          class="tool"
+          class="tool tool--size"
           aria-label={t('song.smaller')}
           disabled={prefs.size <= 0}
           onClick={() => save({ size: Math.max(0, prefs.size - 1) })}
         >
-          <Icon label="A−">
-            <path d="M5 20 10 4h2l5 16" />
-            <path d="M7.2 14h7.6" />
-            <path d="M17 12h5" />
-          </Icon>
+          <span class="tool__size" aria-hidden="true">
+            A−
+          </span>
         </button>
         <button
           type="button"
-          class="tool"
+          class="tool tool--size"
           aria-label={t('song.larger')}
           disabled={prefs.size >= SIZE_STEPS - 1}
           onClick={() => save({ size: Math.min(SIZE_STEPS - 1, prefs.size + 1) })}
         >
-          <Icon label="A+">
-            <path d="M4 20 9 4h2l5 16" />
-            <path d="M6.2 14h7.6" />
-            <path d="M17 9v8" />
-            <path d="M13 13h8" />
-          </Icon>
+          <span class="tool__size" aria-hidden="true">
+            A+
+          </span>
         </button>
         {!isEnglish && (
           <button
@@ -244,61 +287,61 @@ export default function SongToolbar({
         )}
         <button
           type="button"
-          class={awake ? 'tool tool--on' : 'tool'}
+          class={awake ? 'tool tool--on tool-keep-awake' : 'tool tool-keep-awake'}
           aria-pressed={awake ? 'true' : 'false'}
           disabled={!supported}
           title={supported ? undefined : t('song.wakeUnsupported')}
           onClick={toggleAwake}
         >
           <Icon label={awake ? t('song.screenOn') : t('song.keepAwake')}>
-            <circle cx="12" cy="12" r="4" />
-            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+            <circle cx="12" cy="12" r="3.5" />
+            <path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.5 1.5M18.3 18.3l1.5 1.5M2.5 12h2M19.5 12h2M4.2 19.8l1.5-1.5M18.3 5.7l1.5-1.5" />
           </Icon>
         </button>
         <button
           type="button"
-          class={inSet ? 'tool tool--on' : 'tool'}
+          class={inSet ? 'tool tool--on tool--set' : 'tool tool--set'}
           aria-pressed={inSet ? 'true' : 'false'}
+          title={
+            inSet
+              ? t('song.inSetNamed', { title: activeSet?.title ?? t('set.title') })
+              : t('song.addSetTo', { title: shortSetTitle(activeSet?.title) })
+          }
           onClick={toggleSet}
         >
           {inSet ? (
-            <Icon label={t('song.inSet')}>
-              <path d="M9 6h12M9 12h12M9 18h7" />
-              <circle cx="4" cy="6" r="1.2" fill="currentColor" stroke="none" />
-              <circle cx="4" cy="12" r="1.2" fill="currentColor" stroke="none" />
-              <circle cx="4" cy="18" r="1.2" fill="currentColor" stroke="none" />
-              <path d="m14 16 2 2 4-4" />
+            <Icon label={t('song.inSetNamed', { title: shortSetTitle(activeSet?.title) })}>
+              <path d="M9 6h11M9 12h11M9 18h7" />
+              <path d="M4 6h.01M4 12h.01M4 18h.01" />
+              <path d="m14.5 16 2 2 3.5-3.5" />
             </Icon>
           ) : (
-            <Icon label={t('song.addSet')}>
-              <path d="M9 6h12M9 12h12M9 18h7" />
-              <circle cx="4" cy="6" r="1.2" fill="currentColor" stroke="none" />
-              <circle cx="4" cy="12" r="1.2" fill="currentColor" stroke="none" />
-              <circle cx="4" cy="18" r="1.2" fill="currentColor" stroke="none" />
+            <Icon label={t('song.addSetTo', { title: shortSetTitle(activeSet?.title) })}>
+              <path d="M9 6h11M9 12h11M9 18h7" />
+              <path d="M4 6h.01M4 12h.01M4 18h.01" />
               <path d="M19 15v6M16 18h6" />
             </Icon>
           )}
         </button>
         <button type="button" class="tool" onClick={() => shareLink(share)}>
           <Icon label={t('song.share')}>
-            <circle cx="18" cy="5" r="3" />
-            <circle cx="6" cy="12" r="3" />
-            <circle cx="18" cy="19" r="3" />
-            <path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4" />
+            <circle cx="18" cy="5" r="2.5" />
+            <circle cx="6" cy="12" r="2.5" />
+            <circle cx="18" cy="19" r="2.5" />
+            <path d="m8.6 13.4 6.7 3.9M15.3 6.7l-6.7 3.9" />
           </Icon>
         </button>
         <button type="button" class="tool layout-toggle" onClick={() => window.print()}>
           <Icon label={t('desktop.pdf')}>
             <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9z" />
             <path d="M14 3v6h6" />
-            <path d="M9 13h6M9 17h6" />
+            <path d="M9 13h6M9 17h5" />
           </Icon>
         </button>
         <button type="button" class="tool layout-toggle" onClick={() => void exportPpt()}>
           <Icon label={t('desktop.ppt')}>
-            <rect x="2" y="3" width="20" height="14" rx="2" />
+            <rect x="2" y="4" width="20" height="13" rx="2" />
             <path d="M8 21h8M12 17v4" />
-            <path d="M7 8h4M7 12h10" />
           </Icon>
         </button>
       </div>
@@ -307,6 +350,29 @@ export default function SongToolbar({
           {t('song.keepAwake')}: {t('song.wakeUnsupported')}
         </p>
       )}
+
+      <Sheet open={pickOpen} onClose={() => setPickOpen(false)} title={t('song.pickSet')} id="pick-set">
+        <ul class="set-pick-list">
+          {getSets().map((s) => (
+            <li key={s.id}>
+              <button type="button" class="set-pick-list__btn" onClick={() => addToSet(s)}>
+                <span class="set-pick-list__title">{s.title}</span>
+                <span class="set-pick-list__meta">
+                  {s.date}
+                  {s.id === activeSet?.id ? ` · ${t('set.open')}` : ''}
+                </span>
+              </button>
+            </li>
+          ))}
+        </ul>
+        <button
+          type="button"
+          class="btn btn--primary"
+          onClick={() => addToSet(createSet({ makeActive: true }))}
+        >
+          {t('song.newSetForAdd')}
+        </button>
+      </Sheet>
     </div>
   );
 }

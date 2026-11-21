@@ -1,0 +1,144 @@
+{
+  "slug": "blind-man-stood-by-the-road-he-cried",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "96"
+    }
+  ],
+  "title": {
+    "native": "Blind man stood by the road he cried",
+    "roman": "",
+    "en": "Blind man stood by the road he cried"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Blind man stood by the road he cried",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh – oh – oh – oh show me the way",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "La – la – la la la – la – la – la",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Women stood by the well she cried",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh – oh – oh – oh show me the truth",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "La – la – la la la – la – la – la",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Lazarus stood by the grave he cried",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh – oh – oh – oh show me the life",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "La – la – la la la – la – la – la",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "Jesus upon the cross he cried",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh – oh – oh – oh I am the way .. I",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "am the truth … I am the life",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "La – la – la la la – la – la – la",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#96",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#96",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

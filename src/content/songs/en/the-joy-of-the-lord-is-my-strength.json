@@ -1,0 +1,96 @@
+{
+  "slug": "the-joy-of-the-lord-is-my-strength",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "108"
+    }
+  ],
+  "title": {
+    "native": "The joy of the Lord is my strength",
+    "roman": "",
+    "en": "The joy of the Lord is my strength"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "The joy of the Lord is my strength",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "(3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The joy of the Lord is my Strength",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He gives me living waters",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I say – Ha Ha Ha",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I say – Ho Ho Ho",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I say – La La La",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#108",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#108",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "i-ll-be-walking-walking-talking",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "46"
+    }
+  ],
+  "title": {
+    "native": "I’ll be walking, walking, talking",
+    "roman": "",
+    "en": "I’ll be walking, walking, talking"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I’ll be walking, walking, talking,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "talking, living, living day by day (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "In the light of the lord shining like a star",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "brighter than light house for my lord",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Jesus set me free put a light in me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "shining brighter than day",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "I’ll be walking, walking, talking,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "talking, living, living day by day (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#46",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#46",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

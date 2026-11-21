@@ -121,7 +121,7 @@ export default function Keypad({ books, active, initial, desktopOnly = false }: 
 
   return (
     <div class="keypad-panel">
-      {!digits && <p class="search-help">{t('search.numberHelp')}</p>}
+      <p class="search-help keypad-help">{digits ? '\u00a0' : t('search.numberHelp')}</p>
       <div class="book-chips" role="group" aria-label={t('search.book')}>
         {order.map((id) => {
           const b = findBook(id)!;

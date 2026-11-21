@@ -1,0 +1,106 @@
+{
+  "slug": "i-am-the-god-that-healeth-thee",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "87"
+    }
+  ],
+  "title": {
+    "native": "I am the God that healeth thee",
+    "roman": "",
+    "en": "I am the God that healeth thee"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I am the God that healeth thee,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am the lord, your healer, I sent my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "word and healed your disease,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am the lord, your healer.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You are the God that healeth me,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You are the lord, my healer, you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "sent your word and healed my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "disease,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You are the lord my healer.",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#87",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#87",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

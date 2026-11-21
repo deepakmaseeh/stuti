@@ -1,0 +1,157 @@
+{
+  "slug": "shoony-se-lekr-toone-mujhe",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "351"
+    }
+  ],
+  "title": {
+    "native": "शून्य से लेकर॥तूने मुझे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "शून्य से लेकर॥तूने मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रच लिया अपने ही रूप में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रेम किया है… अनंत प्रेम से मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिया पुत्र मेरे मुक्ति के लिए",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "अनोखा प्यार है तेरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करूँगा स्तुति मैं सर्वदा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जग मे आया येशु स्वर्ग छोडके",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा सारा दर्द सह लिय उसने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोडे खाके क्रुस उठाय येशुने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे मुक्ति और चंगाई देदी है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "अन्न वस्त्र और सभी आशिषे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "दी तूने मुझे भरपूरी से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खतरों और सब मुसीबतों में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आँख की पुतली जैसे सँभाला मुझे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-18"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#18",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#18",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

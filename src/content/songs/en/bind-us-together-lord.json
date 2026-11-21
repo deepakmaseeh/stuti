@@ -1,0 +1,151 @@
+{
+  "slug": "bind-us-together-lord",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "56"
+    }
+  ],
+  "title": {
+    "native": "Bind us together, lord",
+    "roman": "",
+    "en": "Bind us together, lord"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Bind us together, lord,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bind us together",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "With cords that cannot be broken",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bind us together, lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bind us together, lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Bind us together with love",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "There is only one God",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "There is only one king",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "There is only one body",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "That is why we sing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We for glory of God",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Purchased by his precious son",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Born with a right to be clean",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For Jesus the victory has won",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We are the family of God",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We are his promise divine",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We are his chosen desire",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "We are the glorious new wine",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#56",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#56",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

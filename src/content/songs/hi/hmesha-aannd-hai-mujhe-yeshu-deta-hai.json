@@ -1,0 +1,156 @@
+{
+  "slug": "hmesha-aannd-hai-mujhe-yeshu-deta-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "298"
+    }
+  ],
+  "title": {
+    "native": "हमेशा आनंद है… मुझे येशु देता है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हमेशा आनंद है… मुझे येशु देता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आओ मिलकर उसकी स्तुति करे हम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाल्लेलुयाह… आनंद है… 4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "अपने पंको तले मुझको छिपाकर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "संभालता रहेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसका वचन है… आत्मा का तलवार…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मार्ग भी वही है… हाल्लेलुयाह आनंद है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हर रास्ते में मुझको बचाने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फरिश्ते मेरे लिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ना लगे पत्थर पा^वों मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथो में उठायेंगे… हाल्लेलुयाह आनंद है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सिंह के ऊपर… साँप के ऊपर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलते जायेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान के शक्तियों को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीतने का अधिकार मुझको है… हाल्लेलुयाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-53"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#53",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#53",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

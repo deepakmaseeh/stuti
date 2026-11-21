@@ -35,6 +35,8 @@ Stuti · Christian Songbook App · Feature Spec v0.1_files/
 # Word → JSON import workspace (source zip + extracted text; song JSON lives in src/content)
 _import/
 songs-*.zip
+Song.zip
+*.pdf
 
 # OS / editor
 .DS_Store

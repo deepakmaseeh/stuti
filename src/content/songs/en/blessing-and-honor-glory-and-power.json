@@ -1,0 +1,165 @@
+{
+  "slug": "blessing-and-honor-glory-and-power",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "7"
+    }
+  ],
+  "title": {
+    "native": "Blessing and Honor, Glory and Power",
+    "roman": "",
+    "en": "Blessing and Honor, Glory and Power"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Blessing and Honor, Glory and Power",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Be unto the ancient of days.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "From every nations, all of creation, bow",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "before the ancient of days.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Every tongue in heaven and earth, shall",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "declare your glory,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Every knee shall bow at your throne,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In worship, you will be exalted O God,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And your kingdom shall not pass away",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "O Ancient of days",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Your kingdom shall reign over all the",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "earth, all the earth",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing unto the ancient of days.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For none can compare to your matchless",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "worth, matchless worth",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing unto the ancient of days",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#7",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#7",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

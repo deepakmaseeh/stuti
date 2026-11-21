@@ -1,0 +1,131 @@
+{
+  "slug": "god-will-make-a-way-where-there",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "77"
+    }
+  ],
+  "title": {
+    "native": "God will make a way, where there",
+    "roman": "",
+    "en": "God will make a way, where there"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "God will make a way, where there",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "seems to be no way",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He works in ways we cannot wee, he",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "will make a way for me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He will be my guide, hold me closely to",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "his side",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "With love and strength for each new day",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He will make a way, he will make a way",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "By a roadway in the wilderness, he’ll",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lead me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And rivers in the desert will I see",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "heaven and earth will fade",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "But his word will still remain, he will do",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "some thing new today",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#77",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#77",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

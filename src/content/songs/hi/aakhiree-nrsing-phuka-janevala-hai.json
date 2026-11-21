@@ -1,0 +1,156 @@
+{
+  "slug": "aakhiree-nrsing-phuka-janevala-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "315"
+    }
+  ],
+  "title": {
+    "native": "आखिरी नरसिंग फुका जानेवाला है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आखिरी नरसिंग फुका जानेवाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा मेरा सबका यीशु आनेवाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु कहा होगा … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "पहले तो मसिह में मुर्दे जी उठेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बाकी जो हम जिन्दा है बदल जायेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पल भर में यह देखो सब कुछ होनेवाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु कहा होगा … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरे दिल के सारे गम बढते जायेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बित गए जो लम्हें तेरे पास न आयेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुनिया में तु तन्हा ही रह जानेवाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु कहा होगा … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तेरी दौलत तेरी शौहरत काम न आएगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह सब चीजे प्यारे तेरे साथ न आयेगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब चीजो का खत्मा जल्दी होनेवाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु कहा होगा … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-76"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#76",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#76",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

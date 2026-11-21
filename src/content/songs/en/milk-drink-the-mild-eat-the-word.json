@@ -1,0 +1,116 @@
+{
+  "slug": "milk-drink-the-mild-eat-the-word",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "36"
+    }
+  ],
+  "title": {
+    "native": "Milk drink the mild, Eat the word",
+    "roman": "",
+    "en": "Milk drink the mild, Eat the word"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Milk drink the mild, Eat the word",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "and get stronger",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Mr. postman sent to me ye … ye …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ye",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "A copy of a bible ye … ye … ye…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Read the bible to get stronger,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Can’t wait any longer",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Shoobi, shoobab, shoobi shoobab,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ye … ye … ye",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Shoobi, shoobab, shoobi shoobab,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ye … ye … ye MILK",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#36",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#36",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

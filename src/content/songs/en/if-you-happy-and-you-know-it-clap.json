@@ -1,0 +1,171 @@
+{
+  "slug": "if-you-happy-and-you-know-it-clap",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "2"
+    }
+  ],
+  "title": {
+    "native": "If you happy and you know it clap",
+    "roman": "",
+    "en": "If you happy and you know it clap"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "If you happy and you know it clap",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "your hands (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If you happy and you know it and",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "you really want to show",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If you happy and you know it clap",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "your hands",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "If you happy and you know it stamp",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "your fingers",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "If you happy and you know it stamp",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "your thighs",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "If you happy and you know it stamp",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "your legs",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "If you happy and you know it say",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "amen",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "If you happy and you know it do all",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "five",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#2",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#2",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

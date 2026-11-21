@@ -1,0 +1,91 @@
+{
+  "slug": "i-am-a-blessing-i-am-a-blessing",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "78"
+    }
+  ],
+  "title": {
+    "native": "I am a blessing, I am a blessing",
+    "roman": "",
+    "en": "I am a blessing, I am a blessing"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I am a blessing, I am a blessing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am a blessing to the nation of the earth",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Arise, O’ children of all the nations",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Let us join our hands together",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To live a life, worth of blessing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Let the blessings of god flow through us",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#78",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#78",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

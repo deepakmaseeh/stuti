@@ -1,0 +1,179 @@
+{
+  "slug": "prbhu-prmeshvr-raj-krta",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "324"
+    }
+  ],
+  "title": {
+    "native": "प्रभु परमेश्वर राज करता",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्रभु परमेश्वर राज करता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे प्रााणी स्तुति गाओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मगन होवे आओं करे आराधना उसकी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनन्द से करो ललकार… आआ उसक शरण",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "राजाओं का राजा … जय हो जय हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभुओं का प्रभु … जय हो जय हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सदा तू रहता … जय हो जय हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिर से तू आता … जय हो जय हो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "नरसिंगा फूकते हुए आआ सतुति करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारंगी आर वीणा से प्रभु की स्तुति करो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "स्तुति आर गुणगान के साथ उसके द्वार चले",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसका नाम ऊँचा हो धन्यवाद करे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "ऊँचे स्वर के झांझ के साथ उसकी स्तुति करो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे प्रााणी मिलकर हम यीशु की स्तुति करो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "प्रभु अपना सब से भला… वह है करूणानिधान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ईमानदार पीढी से पीढी तक ईमानदार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-85"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#85",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#85",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

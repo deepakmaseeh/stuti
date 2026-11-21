@@ -1,0 +1,14 @@
+---
+import AppShell from '../../../components/AppShell.astro';
+import SetsView from '../../../components/islands/SetsView';
+import { site } from '../../../site.config';
+import { t } from '../../../i18n';
+---
+
+<AppShell
+  title={`${t('set.sharedTitle')} | ${site.name}`}
+  description="Open a shared worship set and save a copy."
+  active="sets"
+>
+  <SetsView client:load />
+</AppShell>

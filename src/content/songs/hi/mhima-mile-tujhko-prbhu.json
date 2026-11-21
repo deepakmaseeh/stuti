@@ -1,0 +1,148 @@
+{
+  "slug": "mhima-mile-tujhko-prbhu",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "366"
+    }
+  ],
+  "title": {
+    "native": "महिमा मिले तुझको प्रभु",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "महिमा मिले तुझको प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा तुझको प्रभु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरा नाम महान और सबसे ऊंचा है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "महिमा मिले तुझको प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा तुझको प्रभु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "पावन कहते तुझको प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पावन तुझको प्रभु॥॥| तेरा नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "आदर देते तुझको प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आदर तुझको प्रभु॥॥|तेरा नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "येशु किर्तीे तुझको प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तुझको प्रभु॥॥|तेरा नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "dedication",
+    "ccf-3"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#3",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#3",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

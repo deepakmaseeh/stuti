@@ -1,0 +1,136 @@
+{
+  "slug": "yeshu-jinda-huaa-aao-sbse-khe",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "295"
+    }
+  ],
+  "title": {
+    "native": "येशु जिंदा हुआ… आओ सबसे कहे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु जिंदा हुआ… आओ सबसे कहे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनंद आनंद से… नाचते गाते हुए…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "दुनिया में आया… लहु बहाया… मरा मेरे लिये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तिसरे दिन जी उठा… शैतान पर… विजय हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बंधन को तोड दिया … यीशु जिंदा हुआ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जो कोई आये उद्धार पाये… येशु है दया सागर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथों से छुता… गले से लगाता…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुशियों से है भरता… यीशु जिदा हुआ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सोनेवालो उठो चलो… येशु है आनेवाला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तैयारी करो… पवित्र बनो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जाना है उसके साथ… यीशु जिंदा हुआ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-47"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#47",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#47",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

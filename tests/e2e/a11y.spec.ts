@@ -5,7 +5,7 @@ import { waitHydrated } from './helpers';
 const PAGES = [
   '/',
   '/search/',
-  '/search/?tab=words',
+  '/search/?tab=songs',
   '/song/hi-aaj-fasi-majhdhar-main/',
   '/song/en-amazing-grace/',
   '/b/tlbc/1/',

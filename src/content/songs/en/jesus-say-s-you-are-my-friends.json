@@ -1,0 +1,118 @@
+{
+  "slug": "jesus-say-s-you-are-my-friends",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "69"
+    }
+  ],
+  "title": {
+    "native": "Jesus say’s you are my friends",
+    "roman": "",
+    "en": "Jesus say’s you are my friends"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Jesus say’s you are my friends",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If you do what ever I say",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "John 15:14 says John 15:14 says",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "you are friends of mine",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "He said you’r not my servant’s",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "but friends",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "So thank you Jesus I say",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "He died for you and me, so thank",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "you Jesus I say",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#69",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#69",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

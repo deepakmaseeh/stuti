@@ -1,0 +1,105 @@
+{
+  "slug": "aadr-ke-yogy-hai-mhima-ke-yogy-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "274"
+    }
+  ],
+  "title": {
+    "native": "आदर के योग्य है… महिमा के योग्य है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आदर के योग्य है… महिमा के योग्य है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति के योग्य है वो… … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेमने के खून से… छुडाया मुझे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आत्मा को आजादी दी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "आदर के योग्य है… महिमा के योग्य है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति के योग्य है वो… … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-17"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#17",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#17",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

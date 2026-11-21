@@ -1,0 +1,146 @@
+{
+  "slug": "yeshu-nasree-mere-yeshu-nasree",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "299"
+    }
+  ],
+  "title": {
+    "native": "येशु नासरी मेरे येशु नासरी",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु नासरी मेरे येशु नासरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन में मेरे तेरी इच्छा हो पूरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया…हालेलुया…हालेलुया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया…हालेलुया…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरा गवाह बनकर जीना है मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा और प्राशंसा सब देना है तुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी ही सेवा में उमर बिताऊँ सारी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मैं घटू और मुझमें तु बढता जाना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन है तेरी स्तुती आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी ही आत्मा की मुझमे हो भर पूरी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "मैंने चख कर देखा तू कैसा है भला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे नाम से जो भी मांगा वो मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम दोनो के बीच में कभी रहे ना दूरी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-54"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#54",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#54",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "aaradhna-prbhu-aaradhna-2-2-2-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "353"
+    }
+  ],
+  "title": {
+    "native": "आराधना प्रभु आराधना… 2… 2… 2… 2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "आराधना प्रभु आराधना… 2… 2… 2… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… हालेलुयाह…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "परम पिताची आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना… 2… 2… 2… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… हालेलुयाह…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 3",
+      "lines": [
+        {
+          "n": "प्रभु येशुची आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना… 2… 2… 2… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… हालेलुयाह…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 4",
+      "lines": [
+        {
+          "n": "पवित्र आत्माची आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना… 2… 2… 2… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… हालेलुयाह…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 5",
+      "lines": [
+        {
+          "n": "पवित्र त्रयत्याची आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना प्रभु आराधना… 2… 2… 2… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… हालेलुयाह…2… 2…2… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-22"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#22",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#22",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

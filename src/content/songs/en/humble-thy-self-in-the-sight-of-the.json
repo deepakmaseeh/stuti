@@ -1,0 +1,106 @@
+{
+  "slug": "humble-thy-self-in-the-sight-of-the",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "51"
+    }
+  ],
+  "title": {
+    "native": "Humble thy self in the sight of the",
+    "roman": "",
+    "en": "Humble thy self in the sight of the"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Humble thy self in the sight of the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Humble thy self in the sight of the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And he shall lift you up higher and",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "higher",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And he shall lift you up",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Up in to heaven and he shall lift you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "up",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#51",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#51",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

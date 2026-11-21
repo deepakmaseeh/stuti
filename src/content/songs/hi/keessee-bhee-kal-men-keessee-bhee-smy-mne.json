@@ -1,0 +1,163 @@
+{
+  "slug": "keessee-bhee-kal-men-keessee-bhee-smy-mne",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "337"
+    }
+  ],
+  "title": {
+    "native": "कीस्सी भी काल में… कीस्सी भी समय मंे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "कीस्सी भी काल में… कीस्सी भी समय मंे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद के साथ स्तुती करू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तेरी आराधना सदा मैं करू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर समय तेरी महिमा करू",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आदि भी तु है… अन्त भी तु है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज्योती भी तु है … मेरा बन्त भी है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ऊँचाई में तु … गहराई में तु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भीमारी में तु … मेरा मार्ग में भी तु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "दुख के समय… मेरा आनन्द भी है तु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कष्ट के समय… मेरा प्राीय भी है तु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "छुटकारा भी तु… मेरा चरवाहा भी तु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आदर भी तु… मेरी महीमा भी तु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "मेरा प्रभु भी तु… ,मेरा जीवन भी तु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राजा भी राज… मेरा सरवस्ट भी तु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-101"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#101",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#101",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

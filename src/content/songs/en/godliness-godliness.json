@@ -1,0 +1,119 @@
+{
+  "slug": "godliness-godliness",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "43"
+    }
+  ],
+  "title": {
+    "native": "Godliness, Godliness",
+    "roman": "",
+    "en": "Godliness, Godliness"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Godliness, Godliness,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Godliness, Godliness (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "It holds the promise for the present",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And also promise for life to come (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "You make a start a brand new start",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "for it to stay until the last",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "Godliness, Godliness, Godliness,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Godliness (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#43",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#43",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

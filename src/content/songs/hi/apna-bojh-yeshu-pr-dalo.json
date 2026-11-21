@@ -1,0 +1,93 @@
+{
+  "slug": "apna-bojh-yeshu-pr-dalo",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "287"
+    }
+  ],
+  "title": {
+    "native": "अपना बोझ येशु पर डालो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "अपना बोझ येशु पर डालो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तुमसे प्यार करता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऊँचा॥|ऊँचा॥|ऊँचा॥|ऊँचा॥|ऊँचा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऊँचा॥|ऊँचा॥|येशु को उठाओ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नीचा॥नीचा॥नीचा॥नीचा॥नीचा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नीचा॥नीचा॥शैतान को दबाओ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-34"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#34",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#34",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

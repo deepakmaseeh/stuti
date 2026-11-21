@@ -1,0 +1,101 @@
+{
+  "slug": "looking-unto-jesus",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "81"
+    }
+  ],
+  "title": {
+    "native": "Looking unto Jesus",
+    "roman": "",
+    "en": "Looking unto Jesus"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Looking unto Jesus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The author of our faith",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Looking unto Jesus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The finisher of our faith",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus is my example,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus is my strength,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus is my teacher,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus is my savior",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#81",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#81",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

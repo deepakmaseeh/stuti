@@ -1,0 +1,186 @@
+{
+  "slug": "dhnyvad-kee-vedi-bnae",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "328"
+    }
+  ],
+  "title": {
+    "native": "धन्यवाद की वेदि बनाए",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "धन्यवाद की वेदि बनाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य प्रभु किया भलाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके बेशुमार दानों को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गिन गिन के गाऊँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद पिता… धन्य तू ही है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान देकर मुझे प्यार किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ को धो के पाप दूर किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चुनलिया मुझ को अपनेलिए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ को सेवा अब तूने दिया … धन्यवाद पिता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "अपने सुन्दर वचन को दिय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रूस पर तूने बहाया लहु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू लहु मे छिपाके मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बैरियों से बचाया मुझे … धन्यवाद पिता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "अन्धकार के राज दूर किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने लिया अब अधिकार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मौल लिया है उसी ने तुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वारिस से बनगया तू उस के … धन्यवाद पिता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "आखें दी मुझे तू ने प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "होंठ स्तुति के मुझे तू ने दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सेवा के लिए हाथ दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दाड,ने के लिए पैर दिया … धन्यवाद पिता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-89"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#89",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#89",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
 import { storage, updatePrefs, type Theme } from '../../lib/storage';
 import { isAwake, setKeepAwake, wakeLockSupported } from '../../lib/wakelock';
-import { getDraft } from '../../lib/setlist';
+import { getActiveSet, hydrateSets, listenSetsChanged, songItems } from '../../lib/sets';
 
 const THEMES: Theme[] = ['light', 'dark', 'contrast', 'system'];
 
@@ -13,10 +13,15 @@ export default function TopBarActions() {
   const [offlineReady, setOfflineReady] = useState(false);
 
   useEffect(() => {
+    hydrateSets();
     const p = storage.prefs.get();
     setTheme(p.theme);
     setAwake(isAwake());
-    setCount(getDraft().s.length);
+    const refresh = () => {
+      const active = getActiveSet();
+      setCount(active ? songItems(active).length : 0);
+    };
+    refresh();
     setOfflineReady(Object.keys(storage.downloads.get()).length > 0);
 
     const onLang = (e: Event) => {
@@ -29,14 +34,11 @@ export default function TopBarActions() {
       });
       dispatchEvent(new CustomEvent('stuti:lang-filter', { detail: { lang: id } }));
     };
-    const onSet = () => setCount(getDraft().s.length);
     addEventListener('click', onLang);
-    addEventListener('stuti:set-changed', onSet);
-    addEventListener('storage', onSet);
+    const off = listenSetsChanged(refresh);
     return () => {
       removeEventListener('click', onLang);
-      removeEventListener('stuti:set-changed', onSet);
-      removeEventListener('storage', onSet);
+      off();
     };
   }, []);
 
@@ -73,7 +75,7 @@ export default function TopBarActions() {
       {wakeLockSupported() && (
         <button
           type="button"
-          class="topbar__btn"
+          class="topbar__btn topbar-keep-awake"
           aria-pressed={awake ? 'true' : 'false'}
           onClick={toggleAwake}
         >
@@ -83,8 +85,11 @@ export default function TopBarActions() {
       <button type="button" class="topbar__btn" onClick={cycleTheme} title={t('desktop.theme')}>
         ◐ {t('desktop.theme')}
       </button>
+      <a class="topbar__btn" href="/sets/">
+        ≡ {t('nav.sets')} ({count})
+      </a>
       <button type="button" class="topbar__btn topbar__set" onClick={openDrawer}>
-        ≡ {t('nav.set')} ({count})
+        {t('desktop.thisSunday')}
       </button>
     </div>
   );

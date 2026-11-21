@@ -1,0 +1,174 @@
+{
+  "slug": "mere-dil-men-nya-gana-mujhe-yeshu-deta-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "301"
+    }
+  ],
+  "title": {
+    "native": "मेरे दिल में नया गाना… मुझे येशु देता है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मेरे दिल में नया गाना… मुझे येशु देता है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ॥हाँ हाँ आनन्द से गाऊँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन भर अपने… येशु की स्ताुदि करूँगा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "पापों की गन्दगी से… मुझै उठाया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिया उसने नया गीत… मेरे जीवन में …आनंद से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "कीच से उसने मेरे प्रााण को… खींच के निकाला…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खून से उसने बदबू सारी…बिल्कुल दूर किया…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "माता पिता भाई बहन… सब कुछ वही है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "निन्दा लेकर उसकी महिमा… करता रहँुगा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "इस जहाँ की मुसीबतें… क्या॥ करेंेगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उस जहाँ की जिन्दगी पर…आशा रखता हूँ …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "संकट के समय में … मैंने तुझे पुकारा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "निकट आकर येशुने मुझको…जल्दी संभाला…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "मेरे लिए जल्दी वह … आने वाला है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके साथ हमेशा मैं … गाता रहँुगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-56"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#56",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#56",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

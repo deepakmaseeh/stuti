@@ -1,0 +1,83 @@
+{
+  "slug": "yeshu-nam-kee-jy-jey-ho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "272"
+    }
+  ],
+  "title": {
+    "native": "येशु नाम की जय जेय हो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु नाम की जय जेय हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु नाम की जय जेय हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके मार खाने से मैं चंगा हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु नाम की जय जेय हो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-15"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#15",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#15",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

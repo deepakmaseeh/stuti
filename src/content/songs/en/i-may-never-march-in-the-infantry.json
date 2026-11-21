@@ -1,0 +1,91 @@
+{
+  "slug": "i-may-never-march-in-the-infantry",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "29"
+    }
+  ],
+  "title": {
+    "native": "I may never march in the infantry",
+    "roman": "",
+    "en": "I may never march in the infantry"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I may never march in the infantry",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ride on the cavalry, shoot in",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "artillery.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I may never fly over my enemy but",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am in the lords army",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am in the lord’s army yes sir (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#29",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#29",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

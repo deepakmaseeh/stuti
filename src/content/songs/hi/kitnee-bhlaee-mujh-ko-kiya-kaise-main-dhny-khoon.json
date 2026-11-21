@@ -1,0 +1,142 @@
+{
+  "slug": "kitnee-bhlaee-mujh-ko-kiya-kaise-main-dhny-khoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "322"
+    }
+  ],
+  "title": {
+    "native": "कितनी भलाई मुझ को किया … कैसे मैं धन्य कहूँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "कितनी भलाई मुझ को किया … कैसे मैं धन्य कहूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु कैसे मैं धन्य कहूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य राजा… 2 धन्यवाद हो सदा तेरी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "हाथों में थामकर… पुतली की नाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रात और दिन को रक्षा किया … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दीनता में पड,ा था… दया से याद किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सदा मैं स्तुति करूँगा … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "पापों में डुबा था… आशा भी नही था…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे रक्षा किया अनुग्रह से … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "जो कुछ तू ने … मेरे लिए किया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कैसे मैं वर्णन करू … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-83"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#83",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#83",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

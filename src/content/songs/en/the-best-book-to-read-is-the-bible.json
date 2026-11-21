@@ -1,0 +1,148 @@
+{
+  "slug": "the-best-book-to-read-is-the-bible",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "3"
+    }
+  ],
+  "title": {
+    "native": "The best book to read is the bible",
+    "roman": "",
+    "en": "The best book to read is the bible"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "The best book to read is the bible (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If you read it every day, it will help",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "you all the way",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh the best book to read is the bible",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "The best friend to have is Jesus (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He will hear you when you call,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He will keep you best of all",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh the best friend to have is",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "The best thing to do is to trust",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "him (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "If you trust him till the end, he",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "will keep you all the time",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh the best thing to do is trust",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "him",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#3",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#3",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

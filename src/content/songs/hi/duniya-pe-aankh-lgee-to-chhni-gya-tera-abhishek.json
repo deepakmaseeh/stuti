@@ -1,0 +1,142 @@
+{
+  "slug": "duniya-pe-aankh-lgee-to-chhni-gya-tera-abhishek",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "332"
+    }
+  ],
+  "title": {
+    "native": "दुनिया पे आंख लगी तो… छनि गया तेरा अभिषेक",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "दुनिया पे आंख लगी तो… छनि गया तेरा अभिषेक",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लोगो पर आस लगी तो… हाय गया तेरा आभिषेक",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तो सम्भाल… तू सम्भाल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाए हुए अभिषेक को तू सम्भाल",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "फंस न जाना अभिमान में…वह गरीबी साथ लायेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पड न जाना धन के मोह में…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझको पाताल में ले जायेगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "नाशवान दौलत से… अपने लिए मित्र बना ले",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब तू स्चदेश जायेगा… तो स्वागत सम्मान पाएगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "बुलाहट में बने रहो तो… अभिषेक को बचा रखोगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बुलाता जो वफादार है… तुझे हर दिन सम्भालेगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-95"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#95",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#95",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

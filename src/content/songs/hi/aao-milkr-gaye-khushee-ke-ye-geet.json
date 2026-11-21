@@ -1,0 +1,110 @@
+{
+  "slug": "aao-milkr-gaye-khushee-ke-ye-geet",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "312"
+    }
+  ],
+  "title": {
+    "native": "आओ मिलकर गाये… खुशी के ये गीत",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आओ मिलकर गाये… खुशी के ये गीत…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… हालेलुया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया… आमेन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "गीत हम गाते है… उसके चरणों में…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दुनिया को कह देंगे… येशु हमारा राजा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-73"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#73",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#73",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

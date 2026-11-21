@@ -1,0 +1,103 @@
+{
+  "slug": "oh-who-can-make-a-butterfly",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "103"
+    }
+  ],
+  "title": {
+    "native": "Oh’ who can make a butterfly",
+    "roman": "",
+    "en": "Oh’ who can make a butterfly"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Oh’ who can make a butterfly",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I know I cant can you?",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh’ who can make a butterfly?",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I know I cant but god this true?",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Oh’ who can make a peacock?",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Oh’ who can make our hearts clean",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#103",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#103",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

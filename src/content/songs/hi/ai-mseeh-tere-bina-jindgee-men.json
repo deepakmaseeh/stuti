@@ -1,0 +1,120 @@
+{
+  "slug": "ai-mseeh-tere-bina-jindgee-men",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "276"
+    }
+  ],
+  "title": {
+    "native": "ऐ मसीह तेरे बिना जिंदगी में",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "ऐ मसीह तेरे बिना जिंदगी में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है ना कोई खुशी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू आ॥ मेरे दिल में समा जा॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे बिना जिंदगी है सुनी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ मसीह…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "गम के बदलों का… छाया अंधेरा था…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने आकर मुझे… जीवन दिया … तू आ॥मेरे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ऐ मसीह तूने क्रूस पर जान अपनी दी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ताकि जिससें मिले मुझको नई जिदगी…तू आ॥मेरे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-21"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#21",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#21",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

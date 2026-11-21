@@ -1,0 +1,137 @@
+{
+  "slug": "yeshu-aap-rhenge-sath-hm-kbhee-na-honge-nirash",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "262"
+    }
+  ],
+  "title": {
+    "native": "येशु आप रहेंगे साथ… हम कभी ना होंगे निराश",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु आप रहेंगे साथ… हम कभी ना होंगे निराश",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आप सब कुछ संभालेंगे…येशु सब कुछ संभालेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "शांति दाता आप ही तो है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सर्व शक्तिमान आप ही तो है …येशु आप रहेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "चमत्कार करते आप ही तो है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सम्मती देते आप ही तो है … येशु आप रहेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "माता पिता आप ही तो है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देता सहारा आप ही तो है … येशु आप रहेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "गम में उजाला आप ही तो है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्ति के दाता आप ही तो है …येशु आप रहेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-3"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#3",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#3",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

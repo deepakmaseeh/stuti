@@ -1,0 +1,131 @@
+{
+  "slug": "clap-your-hands-all-ye-people-shout",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "55"
+    }
+  ],
+  "title": {
+    "native": "Clap your hands all ye people, shout",
+    "roman": "",
+    "en": "Clap your hands all ye people, shout"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Clap your hands all ye people, shout",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "unto the God with a voice of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "triumph!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Clap your hands all you people,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "shout unto god with a voice of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "praise!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Hosanna! Hosanna!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Shout unto god with a voice of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "triumph!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Shout unto God with a voice of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "triumph!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Praise him! Praise him!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Shout unto the lord with a voice of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "praise",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#55",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#55",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

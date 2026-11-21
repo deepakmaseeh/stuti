@@ -1,0 +1,106 @@
+{
+  "slug": "do-you-love-my-jesus",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "33"
+    }
+  ],
+  "title": {
+    "native": "Do you love my Jesus?",
+    "roman": "",
+    "en": "Do you love my Jesus?"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Do you love my Jesus?",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I love him, I love him, I love him",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Aha … ha … ha",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Praise for the father, praise for the son",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Praise for the Holy Ghost I am born",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "again",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Do you love my Jesus?",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I love him, I love him, I love him",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Ahey… hey… hey",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#33",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#33",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

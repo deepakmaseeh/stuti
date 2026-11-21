@@ -39,17 +39,22 @@ export default function KeyboardShortcuts() {
         return;
       }
 
-      if (e.key === '/' ) {
+      if (e.key === '/') {
         e.preventDefault();
         if (document.querySelector('.finder')) {
-          document.querySelector<HTMLButtonElement>('.finder__seg button:nth-child(2)')?.click();
-          queueMicrotask(() => document.querySelector<HTMLInputElement>('[data-word-search]')?.focus());
-        } else if (location.pathname.startsWith('/search/')) {
-          document.getElementById('tab-words')?.click();
-          queueMicrotask(() =>
-            document.querySelector<HTMLInputElement>('#panel-words input, [data-word-search]')?.focus(),
+          const songsTab = [...document.querySelectorAll<HTMLButtonElement>('.finder__seg button')].find((b) =>
+            /songs/i.test(b.textContent || ''),
           );
-        } else location.assign('/search/?tab=words');
+          songsTab?.click();
+          queueMicrotask(() =>
+            document.querySelector<HTMLInputElement>('.song-list-panel input')?.focus(),
+          );
+        } else if (location.pathname.startsWith('/search/')) {
+          document.getElementById('tab-songs')?.click();
+          queueMicrotask(() =>
+            document.querySelector<HTMLInputElement>('#panel-songs input, .song-list-panel input')?.focus(),
+          );
+        } else location.assign('/search/?tab=songs');
         return;
       }
 
@@ -78,8 +83,21 @@ export default function KeyboardShortcuts() {
 
       if (/^\d$/.test(e.key)) {
         if (document.querySelector('.finder')) {
-          // Let Keypad inside Finder handle digits when Number tab is active.
-          document.querySelector<HTMLButtonElement>('.finder__seg button:nth-child(1)')?.click();
+          const numberTab = [...document.querySelectorAll<HTMLButtonElement>('.finder__seg button')].find((b) =>
+            /number/i.test(b.textContent || ''),
+          );
+          const already = numberTab?.getAttribute('aria-selected') === 'true';
+          if (!already) numberTab?.click();
+          // Forward the digit into the keypad after the Number tab mounts.
+          queueMicrotask(() => {
+            document
+              .querySelector<HTMLButtonElement>(`.finder .keypad button.key:not(.key--fn):not(.key--open)`)
+              ?.parentElement?.querySelectorAll('button.key')
+              .forEach((btn) => {
+                if (btn.textContent?.trim() === e.key) (btn as HTMLButtonElement).click();
+              });
+          });
+          e.preventDefault();
           return;
         }
         if (

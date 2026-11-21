@@ -1,0 +1,117 @@
+{
+  "slug": "blessed-be-the-name-of-the-lord",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "59"
+    }
+  ],
+  "title": {
+    "native": "Blessed be the name of the lord",
+    "roman": "",
+    "en": "Blessed be the name of the lord"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Blessed be the name of the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Blessed be the name of the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Blessed be the name of the lord most",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "high!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The name of the lord is strong tower!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The righteous run into it and they are",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "saved!",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Glory to the name of the lord! ...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Holy is the name of the lord! …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Honour to the name of the lord! …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#59",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#59",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

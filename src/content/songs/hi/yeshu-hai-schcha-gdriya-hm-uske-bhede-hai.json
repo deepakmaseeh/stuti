@@ -1,0 +1,121 @@
+{
+  "slug": "yeshu-hai-schcha-gdriya-hm-uske-bhede-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "311"
+    }
+  ],
+  "title": {
+    "native": "येशु है सच्चा गडरिया… हम उसके भेडे है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु है सच्चा गडरिया… हम उसके भेडे है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हरी चराईयों में… हमे चराता है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "वादी पहाडी में ले चलता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ पर सुखदायी झरने बहते है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "संकट मे मेरी रक्षा वो करता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान के हाथों से हमे छुडाता है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "हमको किसी का अब तो डर नही है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्योंकि ये्रशु जो मेरा साथी है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-71"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#71",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#71",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "i-will-dance-i-will-sing-to-be-mad",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "99"
+    }
+  ],
+  "title": {
+    "native": "I will dance I will sing to be mad",
+    "roman": "",
+    "en": "I will dance I will sing to be mad"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I will dance I will sing to be mad",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "for my king",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Nothing lord is hindering the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "passion in my soul",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I’ll",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "become",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "even",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "more",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "undignified than this",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Na na na na na na na hey (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Na na na na",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#99",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#99",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "dekhoo-teree-mhima-yhee-hai-meree-aasha",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "363"
+    }
+  ],
+  "title": {
+    "native": "देखू तेरी महिमा… यही है मेरी आशा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "देखू तेरी महिमा… यही है मेरी आशा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रहे पाऊ तेरे आँगने में…ये ही है मेरी अभिलाषा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना तेरी ही हो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आदर महिमा… स्तुती धन्यवाद…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सामर्थ सर्व अधिकार…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा है… येशु तेरा है… प्रभु तेरा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ला… ला… ला… ला… ला… 8",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मैं योग्य नही… आऊ तेरे पास…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ को तु कर दे प्रभु पास… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे कॄस के पावन लहू से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धुल जाए प्रभु पाप…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हमे कभी शक्ती नही है… करूणा तेरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या मैं कहु शबद नही… करूणा तेरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बचते काम तेरी महिमा… बन जाऊ मैं तेरी साथ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-34"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#34",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#34",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

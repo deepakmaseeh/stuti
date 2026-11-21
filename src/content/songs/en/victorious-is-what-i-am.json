@@ -1,0 +1,86 @@
+{
+  "slug": "victorious-is-what-i-am",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "60"
+    }
+  ],
+  "title": {
+    "native": "Victorious is what I am",
+    "roman": "",
+    "en": "Victorious is what I am"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Victorious is what I am",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Victorious I always be",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For the lord fights my battle",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "My weapons are his",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I’ll sing to the lord I am victorious",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#60",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#60",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "run-run-run-the-race-to-win-win",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "18"
+    }
+  ],
+  "title": {
+    "native": "Run, Run, Run the race – to Win, Win",
+    "roman": "",
+    "en": "Run, Run, Run the race – to Win, Win"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Run, Run, Run the race – to Win, Win,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Win the prize",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Which Christ has won for me run with",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "all your might",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Look straight a head towards the goal",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To Jesus Christ, who’s gone before",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In his steps you’ll need to go, so RUN,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "RUN, RUN",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#18",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#18",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

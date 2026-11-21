@@ -1,0 +1,106 @@
+{
+  "slug": "i-am-special-love-accepted-and-protected",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "76"
+    }
+  ],
+  "title": {
+    "native": "I am special love accepted and protected",
+    "roman": "",
+    "en": "I am special love accepted and protected"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I am special love accepted and protected",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am the apple of his eye",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am special love accepted and special",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "love protected",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And I need not have to cry",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He called me from the world began",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He called me by my name",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "His love will never change from time",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "His love will never never change",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#76",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#76",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

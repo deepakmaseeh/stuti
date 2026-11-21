@@ -12,13 +12,14 @@ export type Prefs = {
   layout: LyricLayout;
   keepAwake: boolean;
   lastBookId: string;
-  lastTab: 'number' | 'words' | 'browse';
+  lastTab: 'number' | 'words' | 'browse' | 'songs';
   /** Desktop TopBar language filter: all languages or one code. */
   langFilter: 'all' | string;
   searchLangs: string[];
 };
 export type SongSnapshot = { id: string; title: string; lang: string; badge: string };
 export type RecentItem = SongSnapshot & { at: string };
+export type RecentLetter = { script: string; letter: string; at: string };
 export type SetItem = { id: string; note?: string; book?: string };
 export type SetList = { v: 1; t: string; d?: string; s: SetItem[] };
 export type SavedSet = SetList & { code: string; savedAt: string };
@@ -26,6 +27,7 @@ export type DownloadRecord = { version: string; updated: string; bytes: number; 
 
 export const MAX_FAVS = 500;
 export const MAX_RECENT = 10;
+export const MAX_RECENT_LETTERS = 8;
 export const MAX_SETS = 20;
 export const MAX_SET_SONGS = 30;
 export const SIZE_STEPS = 6;
@@ -38,7 +40,7 @@ export const DEFAULT_PREFS: Prefs = {
   layout: 'stacked',
   keepAwake: false,
   lastBookId: site.defaultBookId,
-  lastTab: 'number',
+  lastTab: 'browse',
   langFilter: 'all',
   searchLangs: [...site.languages],
 };
@@ -76,6 +78,11 @@ function slot<T>(key: string, fallback: () => T, isValid: (x: unknown) => boolea
 const prefsSlot = slot<Prefs>('prefs', () => DEFAULT_PREFS, isObj);
 const favsSlot = slot<{ v: 1; items: SongSnapshot[] }>('favs', () => ({ v: 1, items: [] }), isV1List);
 const recentSlot = slot<{ v: 1; items: RecentItem[] }>('recent', () => ({ v: 1, items: [] }), isV1List);
+const recentLettersSlot = slot<{ v: 1; items: RecentLetter[] }>(
+  'recentLetters',
+  () => ({ v: 1, items: [] }),
+  isV1List,
+);
 const setsSlot = slot<{ v: 1; items: SavedSet[] }>('sets', () => ({ v: 1, items: [] }), isV1List);
 
 export const storage = {
@@ -89,6 +96,7 @@ export const storage = {
   },
   favs: favsSlot,
   recent: recentSlot,
+  recentLetters: recentLettersSlot,
   draftSet: slot<SetList | null>(
     'draftSet',
     () => null,
@@ -101,6 +109,7 @@ export const storage = {
     () => ({ songOpens: 0 }),
     isObj,
   ),
+  tour: slot<{ dismissedAt?: string }>('tour', () => ({}), isObj),
 };
 
 export function updatePrefs(patch: Partial<Prefs>): Prefs {
@@ -127,6 +136,14 @@ export function pushRecent(snap: SongSnapshot): void {
     ...storage.recent.get().items.filter((r) => r.id !== snap.id),
   ];
   storage.recent.set({ v: 1, items: items.slice(0, MAX_RECENT) });
+}
+
+export function pushRecentLetter(script: string, letter: string): void {
+  const items = [
+    { script, letter, at: new Date().toISOString() },
+    ...storage.recentLetters.get().items.filter((r) => !(r.script === script && r.letter === letter)),
+  ];
+  storage.recentLetters.set({ v: 1, items: items.slice(0, MAX_RECENT_LETTERS) });
 }
 
 export function clearAllData(): void {

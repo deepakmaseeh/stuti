@@ -1,14 +1,16 @@
 ---
 import TopBarActions from './islands/TopBarActions';
+import { getBooks } from '../lib/content';
 import { site } from '../site.config';
 import { LANG_NATIVE } from '../lib/scripts';
 import { t } from '../i18n';
 
+const publishedLangs = [...new Set((await getBooks()).map((b) => b.lang))];
 const langs = [
   { id: 'all', label: t('desktop.langAll') },
-  ...site.languages.map((id) => ({
+  ...publishedLangs.map((id) => ({
     id,
-    label: id === 'en' ? 'English' : LANG_NATIVE[id],
+    label: id === 'en' ? 'English' : LANG_NATIVE[id as keyof typeof LANG_NATIVE] ?? id,
   })),
 ];
 ---
@@ -18,6 +20,18 @@ const langs = [
     <span class="topbar__name">{site.name}</span>
     <span class="topbar__tag">{t('desktop.tagline')}</span>
   </a>
+  <nav class="topbar__nav" aria-label="Desktop">
+    <a class="topbar__nav-link" href="/">{t('nav.home')}</a>
+    <a class="topbar__nav-link" href="/sets/">{t('nav.sets')}</a>
+    <a class="topbar__nav-link" href="/downloads/">{t('nav.offline')}</a>
+    <details class="topbar__more menu">
+      <summary class="topbar__nav-link" aria-label={t('home.menu')}>⋯</summary>
+      <div class="menu__list">
+        <a href="/settings/">{t('home.settings')}</a>
+        <a href="/about/">{t('home.about')}</a>
+      </div>
+    </details>
+  </nav>
   <div class="topbar__langs" role="group" aria-label={t('desktop.languages')} data-lang-filter>
     {
       langs.map((l) => (
@@ -27,10 +41,9 @@ const langs = [
       ))
     }
   </div>
-  <TopBarActions client:media="(min-width: 900px)" />
+  <TopBarActions client:media={`(min-width: ${site.layout.desktopMin}px)`} />
 </header>
 <script is:inline>
-  // Sync language chips with prefs before the island hydrates.
   (function () {
     try {
       const p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
@@ -41,5 +54,10 @@ const langs = [
     } catch {
       /* prefs missing or blocked */
     }
+    var path = location.pathname;
+    document.querySelectorAll('.topbar__nav-link[href]').forEach(function (a) {
+      var href = a.getAttribute('href') || '';
+      if (href === '/' ? path === '/' : path.indexOf(href) === 0) a.setAttribute('aria-current', 'page');
+    });
   })();
 </script>

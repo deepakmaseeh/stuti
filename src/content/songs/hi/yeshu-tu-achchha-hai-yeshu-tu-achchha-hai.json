@@ -1,0 +1,156 @@
+{
+  "slug": "yeshu-tu-achchha-hai-yeshu-tu-achchha-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "275"
+    }
+  ],
+  "title": {
+    "native": "येशु तु अच्छा है॥येशु तु अच्छा है॥",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु तु अच्छा है॥येशु तु अच्छा है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तु अच्छा है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "येशु मेरे लिए आया॥येशु मेरे लिएा जिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मेरे लिए मरा॥येशु मेरे लिएा जी उठा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मेरे पापों को तुने क्षमा किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे मुक्ति दिलाया॥मुझे शान्ति दिलाया॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "मुझे चंगा किया॥मुझे शक्ति दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे जीवन दिलाया॥मुझे खुशीयं^ा दिलाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु बहूत अच्छा है॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-18"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#18",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#18",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

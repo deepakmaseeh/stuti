@@ -3,26 +3,72 @@ import { t } from '../../i18n';
 import type { Lang } from '../../lib/schema';
 import { LANG_TAG } from '../../lib/scripts';
 import { loadMeta, type MetaRow } from '../../lib/search';
-import { decodeSet, songInSetUrl, type SetList } from '../../lib/setlist';
+import {
+  decodeWorshipSet,
+  getSet,
+  hydrateSets,
+  songInWorshipSetUrl,
+  songItems,
+  type WorshipSet,
+} from '../../lib/sets';
+import { decodeSet } from '../../lib/setlist';
 
 const SWIPE_MIN = 60;
 
-/** Prev / "2 of 5 · next title" / Next above the bottom nav when the song was opened from a set. */
+type Ctx = { set: WorshipSet; i: number; sharedCode?: string };
+
+function readCtx(): Ctx | null {
+  const p = new URLSearchParams(location.search);
+  const i = Number(p.get('i') ?? 0);
+  if (!Number.isInteger(i) || i < 0) return null;
+
+  const setId = p.get('set');
+  // v2: stored set id (UUID or id-… fallback), not a long base64 share blob
+  if (setId && (setId.startsWith('id-') || /^[0-9a-f]{8}-[0-9a-f-]{4,}$/i.test(setId))) {
+    hydrateSets();
+    const set = getSet(setId);
+    const songs = set ? songItems(set) : [];
+    if (set && songs.length && i < songs.length) return { set, i };
+  }
+  // Any short set id that exists locally
+  if (setId && setId.length < 80 && !setId.includes('.')) {
+    hydrateSets();
+    const set = getSet(setId);
+    const songs = set ? songItems(set) : [];
+    if (set && songs.length && i < songs.length) return { set, i };
+  }
+
+  const shared = p.get('shared');
+  if (shared) {
+    const set = decodeWorshipSet(shared);
+    const songs = set ? songItems(set) : [];
+    if (set && songs.length && i < songs.length) return { set, i, sharedCode: shared };
+  }
+
+  // Legacy v1: ?set=<base64 share code>
+  if (setId && decodeSet(setId)) {
+    const set = decodeWorshipSet(setId);
+    const songs = set ? songItems(set) : [];
+    if (set && songs.length && i < songs.length) return { set, i, sharedCode: setId };
+  }
+  return null;
+}
+
+/** Prev / "2 of 5" / Next when the song was opened from a set. */
 export default function SetNavBar() {
-  const [ctx, setCtx] = useState<{ set: SetList; code: string; i: number } | null>(null);
+  const [ctx, setCtx] = useState<Ctx | null>(null);
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
 
   useEffect(() => {
-    const p = new URLSearchParams(location.search);
-    const code = p.get('set');
-    const set = code ? decodeSet(code) : null;
-    const i = Number(p.get('i') ?? 0);
-    if (!code || !set || !set.s.length || !Number.isInteger(i) || i < 0 || i >= set.s.length) return;
-    setCtx({ set, code, i });
-    document.body.classList.add('has-setnav');
-    loadMeta()
-      .then(setMeta)
-      .catch(() => {});
+    const sync = () => {
+      const next = readCtx();
+      setCtx(next);
+      document.body.classList.toggle('has-setnav', !!next);
+    };
+    sync();
+    loadMeta().then(setMeta).catch(() => {});
+    document.addEventListener('astro:page-load', sync);
+    return () => document.removeEventListener('astro:page-load', sync);
   }, []);
 
   useEffect(() => {
@@ -31,6 +77,12 @@ export default function SetNavBar() {
     if (!lyrics) return;
     let x0 = 0;
     let y0 = 0;
+    const songs = songItems(ctx.set);
+    const go = (to: number) => {
+      if (to >= 0 && to < songs.length) {
+        location.assign(songInWorshipSetUrl(ctx.set, to, ctx.sharedCode));
+      }
+    };
     const down = (e: TouchEvent) => {
       x0 = e.touches[0]!.clientX;
       y0 = e.touches[0]!.clientY;
@@ -38,7 +90,6 @@ export default function SetNavBar() {
     const up = (e: TouchEvent) => {
       const dx = e.changedTouches[0]!.clientX - x0;
       const dy = e.changedTouches[0]!.clientY - y0;
-      // Horizontal swipes only: ignore anything that was mostly a vertical scroll.
       if (Math.abs(dx) < SWIPE_MIN || Math.abs(dx) < Math.abs(dy) * 1.5) return;
       go(dx < 0 ? ctx.i + 1 : ctx.i - 1);
     };
@@ -51,22 +102,21 @@ export default function SetNavBar() {
   }, [ctx]);
 
   if (!ctx) return null;
-  const { set, code, i } = ctx;
-  const n = set.s.length;
-  function go(to: number) {
-    if (to >= 0 && to < n) location.assign(songInSetUrl(set, code, to));
-  }
-  const next = set.s[i + 1];
-  const nextRow = next ? meta?.[next.id] : undefined;
+  const songs = songItems(ctx.set);
+  const n = songs.length;
+  const { set, i, sharedCode } = ctx;
+  const next = songs[i + 1];
+  const nextRow = next ? meta?.[next.songId] : undefined;
+  const backHref = sharedCode ? `/sets/view/#s=${sharedCode}` : `/sets/edit/?id=${set.id}`;
 
   return (
-    <nav class="setnav" aria-label={set.t}>
+    <nav class="setnav" aria-label={set.title}>
       {i > 0 ? (
-        <a class="setnav__btn" href={songInSetUrl(set, code, i - 1)} rel="prev" data-set-prev>
+        <a class="setnav__btn" href={songInWorshipSetUrl(set, i - 1, sharedCode)} rel="prev" data-set-prev data-astro-reload>
           ‹ {t('set.prev')}
         </a>
       ) : (
-        <a class="setnav__btn" href={`/set/#s=${code}`} data-set-prev>
+        <a class="setnav__btn" href={backHref} data-set-prev data-astro-reload>
           ‹ {t('nav.set')}
         </a>
       )}
@@ -79,11 +129,17 @@ export default function SetNavBar() {
         )}
       </span>
       {i < n - 1 ? (
-        <a class="setnav__btn setnav__btn--next" href={songInSetUrl(set, code, i + 1)} rel="next" data-set-next>
+        <a
+          class="setnav__btn setnav__btn--next"
+          href={songInWorshipSetUrl(set, i + 1, sharedCode)}
+          rel="next"
+          data-set-next
+          data-astro-reload
+        >
           {t('set.next')} ›
         </a>
       ) : (
-        <a class="setnav__btn" href={`/set/#s=${code}`} data-set-next>
+        <a class="setnav__btn" href={backHref} data-set-next data-astro-reload>
           {t('nav.set')} ›
         </a>
       )}

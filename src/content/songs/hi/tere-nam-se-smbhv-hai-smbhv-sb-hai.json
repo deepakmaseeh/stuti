@@ -1,0 +1,157 @@
+{
+  "slug": "tere-nam-se-smbhv-hai-smbhv-sb-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "326"
+    }
+  ],
+  "title": {
+    "native": "तेरे नाम से सम्भव है… सम्भव सब है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरे नाम से सम्भव है… सम्भव सब है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे सामने सम्भव है सम्भव है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझ से होगा… सब कुछ होगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "असम्भव कुछ भी है नही …तुझ से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे वचन से तूफान रूक गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी नजर से पतरस लोट आया … तुझ से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तबिता मरी थी… दुआ से जी उठी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लकवे से एनियास चंगा हो चला… तुझ से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मछली के मूँह से सिक्का है मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गदही के मुँह से बोली हैनिकला…तुझ से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "पैरो हो खडा पौलुस ने जब कहा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लंगडा चल पडा… लुस्त्रा नगर में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "जवान यूतुखुस भी नींद से गिर पडा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पालुस के दुआ से फिर से जी उठा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-87"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#87",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#87",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

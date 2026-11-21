@@ -1,0 +1,157 @@
+{
+  "slug": "krta-hoon-main-teree-chinta-too-kyon-chinta-krta-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "354"
+    }
+  ],
+  "title": {
+    "native": "करता हूँ मैं तेरी चिंता… तू क्यों चिंता करता है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "करता हूँ मैं तेरी चिंता… तू क्यों चिंता करता है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आसुवोंकि खातिरों में… हाथ न छोडुंगा तेरा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरी महिमा तु देखेगा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "खुद, को मेरे हाथों मे देदे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे शक्ति मैं तुझको देता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलाऊंगा तुझे मैं मेरा कॄपा में… करता हू^",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सभी तुझको भूलेंगा तोभी…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या मैं तुझको भूलूंगा कभी…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने हाथों में तुझे ुउट्टाकर…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चलाऊंगा हरदिन तुझे इस जहाँ में… करता हू^",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "अब्रााहाम का मैं परमेश्वर हूँ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अद्भूत कार्य क्यों न करूँगा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लाल सागर में रस्था दिया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आजदिन में करने का योग्य मैं हूँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-23"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#23",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#23",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

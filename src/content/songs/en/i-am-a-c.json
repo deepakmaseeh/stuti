@@ -1,0 +1,96 @@
+{
+  "slug": "i-am-a-c",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "79"
+    }
+  ],
+  "title": {
+    "native": "I am a C",
+    "roman": "",
+    "en": "I am a C"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I am a C",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am a C-H",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am a C-H-R-I-S-T-I-A-N",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And I have C-H-R-I-S-T",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In my H-E-A-R-T",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And I will L-I-V-E E-T-E-R-N-A-L-",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "L-Y",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#79",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#79",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

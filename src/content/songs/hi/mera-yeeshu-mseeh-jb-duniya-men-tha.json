@@ -1,0 +1,155 @@
+{
+  "slug": "mera-yeeshu-mseeh-jb-duniya-men-tha",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "319"
+    }
+  ],
+  "title": {
+    "native": "मेरा यीशु मसीह जब दुनिया में था",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मेरा यीशु मसीह जब दुनिया में था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसने अच्छे अच्छे काम किये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कभी भीड को खिलाया… कभी मुर्दो को जिलाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और रोगों को चंगा किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय जयकार… जय जयकार…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु के लिये जय जयकार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "भीड थी पांच हजार… चेले थे बिलकुल लाचार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उनको सूझा न कोई उपाय",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एक लडका वहाँ आया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मछली पाँच रोटी लाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने दिया सबको खिला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "चारा दिन का बदन… आती उसमें से दुगंध",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लोगों को ना था कोई विश्वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने पुकारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लाजार बाहर निकल आ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने दिया लाजार को जिला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-80"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#80",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#80",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

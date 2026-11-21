@@ -1,0 +1,179 @@
+{
+  "slug": "abba-pita-hai-premee-prmeshvr",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "321"
+    }
+  ],
+  "title": {
+    "native": "अब्बा पिता है… प्रेमी परमेश्वर",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "अब्बा पिता है… प्रेमी परमेश्वर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दयालु तारणहार… त्रिएक परमेश्वर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "खोए हुए थे…भटके हुए थे…ढूंढते हमे आया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गले लगाया… चूमा है हमको … शरण में ले आया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद … प्रभु धन्यवाद … … अब्बा पिता है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हम तो दलित थे…हम तो पतित थे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ड,ाली नजर ओ नाथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ढ,ाढ,स बढ,ाया…आसु को पोंछा…थामा हमारा हाथ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "धन्यवाद … प्रभु धन्यवाद … … अब्बा पिता है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "दल दल की कीच में…हम तो पड,े थे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने निकाला हमे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कलवरी खून से हमे खरीदा… अपना बनय हमे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद … प्रभु धन्यवाद … … अब्बा पिता है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "हर दम हमारे साथ रहकर… हमे संभालता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अटल प्रभु जो अनंत प्रेमी… महिम के योग्य है तू",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "धन्यवाद … प्रभु धन्यवाद … … अब्बा पिता है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-82"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#82",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#82",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

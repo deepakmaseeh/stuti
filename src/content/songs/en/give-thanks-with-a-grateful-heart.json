@@ -1,0 +1,101 @@
+{
+  "slug": "give-thanks-with-a-grateful-heart",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "58"
+    }
+  ],
+  "title": {
+    "native": "Give thanks with a grateful heart",
+    "roman": "",
+    "en": "Give thanks with a grateful heart"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Give thanks with a grateful heart,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Give thanks to the holy one",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Give thanks because he’s given Jesus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Christ, his son,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And now let the weak say I am strong,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Let the poor say I am rich",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Because of what the lord has done for",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "us, give thanks",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#58",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#58",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

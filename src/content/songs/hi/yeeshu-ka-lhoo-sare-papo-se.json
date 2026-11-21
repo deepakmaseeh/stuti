@@ -1,0 +1,161 @@
+{
+  "slug": "yeeshu-ka-lhoo-sare-papo-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "361"
+    }
+  ],
+  "title": {
+    "native": "यीशु का लहू … सारे पापो से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु का लहू … सारे पापो से …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शुद्ध करता हमे …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उद्धार देता… शान्ति दे्ता …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अनंत जीवन भी देता…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ऐसा कभी ना सोचा मन में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बेकार का है जीवन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खरीदी है हमें उसने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने लहू का मोल देकर… यीशु का लहू",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ना ही हम खुद के ना दुनिया के",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम तो है यीशु मसीह के",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम विश्वासी इस जहाँ से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गवाह है उसके लहू के … यीशु का लहू",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "पवित्र स्थान में जायेंगे हम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके लहू के ही द्वारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमारा यीशु है प्यारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो ही है भोर का तारा … यीशु का लहू",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-31"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#31",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#31",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

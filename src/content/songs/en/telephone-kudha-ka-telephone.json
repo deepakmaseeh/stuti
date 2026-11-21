@@ -1,0 +1,106 @@
+{
+  "slug": "telephone-kudha-ka-telephone",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "110"
+    }
+  ],
+  "title": {
+    "native": "Telephone – Kudha ka Telephone",
+    "roman": "",
+    "en": "Telephone – Kudha ka Telephone"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Telephone – Kudha ka Telephone",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Aaya mera naam",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Aaya merae naam",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Usne jo telephone gumaiya",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Mera oh number jo Aaya (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Hello ……This is jesus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Marg sathya aur jeevan maih he ho",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Ho maine sunliya",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Maine sunliya",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#110",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#110",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

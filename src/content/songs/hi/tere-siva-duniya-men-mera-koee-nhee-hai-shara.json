@@ -1,0 +1,110 @@
+{
+  "slug": "tere-siva-duniya-men-mera-koee-nhee-hai-shara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "342"
+    }
+  ],
+  "title": {
+    "native": "तेरे सिवा… दुनिया में मेरा… कोई नही है सहारा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरे सिवा… दुनिया में मेरा… कोई नही है सहारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोई नही है सहारा…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोई नही है हमारा…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सुख और दु:ख में… रहता है तू प्रभु…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बे सहारों का तू ही है सहारा… तू ही है सहारा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जीवन के पथ पर… ले चल प्रभु तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी राहों में मुझे चलना सिखादे…चलना सिखादे…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-7"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#7",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#7",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

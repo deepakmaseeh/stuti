@@ -1,0 +1,101 @@
+{
+  "slug": "abba-father-let-me-be-yours-and-yours",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "66"
+    }
+  ],
+  "title": {
+    "native": "Abba father, let me be yours and yours",
+    "roman": "",
+    "en": "Abba father, let me be yours and yours"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Abba father, let me be yours and yours",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "alone",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "May my will forever be, ever more your",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "own",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Never let my heart grow cold, never let",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "me go",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Abba father, let me be yours and yours",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "alone",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#66",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#66",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

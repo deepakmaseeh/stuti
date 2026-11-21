@@ -1,0 +1,200 @@
+{
+  "slug": "asnbhv-kuchh-bhee-nhee-tujh-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "323"
+    }
+  ],
+  "title": {
+    "native": "असंभव कुछ भी नही … तुझ से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "असंभव कुछ भी नही … तुझ से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "असंभव कुछ भी नही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब कुछ सिरजा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब में राज करता है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "स्तुति जब शुरू किए है… दुशमन अपने में ही…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लडकर मारे गए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझ से होगा … सब कुछ होगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "एक लाठी ले निकला… जो याकूब को तू ने…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बड,ाया है बड,ी भीड, में … तुझ से होगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "विधवा की आसू पे… बेटे के लाश तू ने…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथों से जिन्दा किया … तुझ से होगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "इसहाक की प्रार्थना से… रिबका जो बांझ थी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जुडवे को जन्म दे दिया… तुझ से होगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "सुन्दर नाम के फाटक में… जन्म से जो लंगड,ा था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चल पड,ा है यीशु नाम से… तुझ से होगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "एलियाह के कहने से… विधवा के घर में कभी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आटा तेल कम न हुआ…तुझ से होगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 8",
+      "lines": [
+        {
+          "n": "प्राार्थनावीर दनिएल को… सिंहो के मूँह से तू ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हानि होने से बचाया … तुझ से होगा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-84"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#84",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#84",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

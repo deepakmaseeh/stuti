@@ -1,0 +1,131 @@
+{
+  "slug": "mere-sath-rehna-mere-yeeshu",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "333"
+    }
+  ],
+  "title": {
+    "native": "मेरे साथ रेहना मेरे यीशु",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मेरे साथ रेहना मेरे यीशु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं तेरे बीना जीना पाऊंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाल्लेलुया हाल्लेलुया हाल्लेलुया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाल्लेलुया हाल्लेलुया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "प्राार्थना के समय मेरे प्रभु तुम बनो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वचनों के समय मेरे गुरू तुम बनो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "असुवों के समय मेरी माता तुम बनो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "डर के समय में मेरीे पिता तुम बनो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "अन्धकार के समय मेरी ज्योती तुम बनो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "निराश के समय मेरी आशा तुम बनो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-97"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#97",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#97",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

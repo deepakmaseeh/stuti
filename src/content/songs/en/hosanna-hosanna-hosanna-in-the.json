@@ -1,0 +1,123 @@
+{
+  "slug": "hosanna-hosanna-hosanna-in-the",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "1"
+    }
+  ],
+  "title": {
+    "native": "Hosanna, Hosanna, Hosanna in the",
+    "roman": "",
+    "en": "Hosanna, Hosanna, Hosanna in the"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Hosanna, Hosanna, Hosanna in the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "highest! (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Lord we lift up your name!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "With our hearts full of praise!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Be exalted, O lord our God! Hosanna",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "in the highest!",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Glory, Glory, Glory to the kings of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "kings!",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Jesus, Jesus, Jesus is the prince of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "peace!",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#1",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#1",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

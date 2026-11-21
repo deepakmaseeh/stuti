@@ -1,0 +1,159 @@
+{
+  "slug": "sheep-oh-sheep-do-you-know-my",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "14"
+    }
+  ],
+  "title": {
+    "native": "Sheep Oh Sheep do you know my",
+    "roman": "",
+    "en": "Sheep Oh Sheep do you know my"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Sheep Oh Sheep do you know my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "voice",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yes my lord I know your voice",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I know your voice by the reading of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the word",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yes my lord I know your voice",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Sheep Oh Sheep do you know the road",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yes my lord I know the road",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I know the road by the blood stains on",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the way",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yes my lord I know the road",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Sheep Oh Sheep do you follow me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yes my lord I’ll follow thee",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "I’ll follow thee where ever you may",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lead",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yes my lord I’ll follow thee",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#14",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#14",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

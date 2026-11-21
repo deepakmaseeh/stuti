@@ -1,0 +1,146 @@
+{
+  "slug": "teree-kpa-teree-dya",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "343"
+    }
+  ],
+  "title": {
+    "native": "तेरी कॄपा॥ तेरी दया",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरी कॄपा॥ तेरी दया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा अनुग्रह मुझ पर हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मेरे॥येशु मेरे॥येशु मेरे॥येशु मेरे॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मैं पापी था॥पापों के राहो में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मैं भटका करता था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैने वही किया मेरे येशु जो तेरी नजरों में बुरा था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी नजर॥मुझ पर हुई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ पापी को तुने किया क्षमा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "येशु मुझे॥ तेरे मिलने से मुझको",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीने की चाहत हुई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आई खुशियाँ जीवन में मेरे उम्मीद फिर जाग उठी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब से मसीह॥मुझको मिले॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बदल गई मेरी ये जिन्दगी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-8"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#8",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#8",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

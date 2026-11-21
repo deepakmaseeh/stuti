@@ -1,0 +1,111 @@
+{
+  "slug": "crazy-about-you-crazy-about-you",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "116"
+    }
+  ],
+  "title": {
+    "native": "CRAZY about you, CRAZY about you",
+    "roman": "",
+    "en": "CRAZY about you, CRAZY about you"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "CRAZY about you, CRAZY about you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I lost my mind I know its true,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "But I know that I am crazy bout you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "CRAZY about you (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You touch my body I am crazy about",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You save my soul I am crazy about you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "My joy is over flowing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "My joy is over flowing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am crazy about you",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#116",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#116",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "yeshu-ne-hme-chhudaya-hai-papon-ke-jal-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "266"
+    }
+  ],
+  "title": {
+    "native": "येशु ने हमे छुडाया है… पापों के जाल से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "येशु ने हमे छुडाया है… पापों के जाल से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु ने हमे बचाया है… शैतान के चाल से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो गाओ हालेलुयाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हमने शांति पाई है… येशु के नाम से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमने पाई है क्षमा… मुक्ति श्राप से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब हम ना डरेंगे… येशु जो साथ है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शैतान से हम लढेंगे… येशु के नाम से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शालोम शांति और सलाम… लाये है आपके नाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शालोम शांति और सलाम… ये है येशु का पे नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-8",
+    "ccf-39"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#8",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#8",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

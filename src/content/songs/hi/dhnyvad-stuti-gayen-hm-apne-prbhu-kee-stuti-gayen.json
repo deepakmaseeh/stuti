@@ -1,0 +1,157 @@
+{
+  "slug": "dhnyvad-stuti-gayen-hm-apne-prbhu-kee-stuti-gayen",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "279"
+    }
+  ],
+  "title": {
+    "native": "धन्यवाद स्तुति गायें…हम अपने प्रभु की स्तुति गायें",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "धन्यवाद स्तुति गायें…हम अपने प्रभु की स्तुति गायें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हलेलुयाह स्तुति गायें …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम अपने प्रभु की स्तुति गायें …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "वो अच्छा है॥भला है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा येशु अच्छा है… मेरे लिये पर्याप्त है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "येरीहो जैसी बाध आए तो… अगुवाई येशु करेगा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "डरेंगे नही… घबरायेंगे नही…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति से हम जय पायेंगे ॥ धन्यवाद",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "लाल समुद्र जैसी आजमाइशें हो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तेरे आगे चलेगा… विXवास से आगे बढो तुम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "समुद्र में रास्ते खुलेगा ॥ धन्यवाद",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "शरीर प्रााण और आत्मा भी॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुश्किल में पड जाये तो… स्तुति गीतो को गाने से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से सामर्थ मिलेगी ॥ धन्यवाद",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-25"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#25",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#25",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

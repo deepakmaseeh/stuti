@@ -1,0 +1,141 @@
+{
+  "slug": "tune-mujhe-aage-pichhe-gher-rkha-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "336"
+    }
+  ],
+  "title": {
+    "native": "तुने मुझे आगे पिछे घेर रखा है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तुने मुझे आगे पिछे घेर रखा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने हाथ मुझ पर रखे रखा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी आत्मा से भागकर मैं कहाँ जाऊ … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आकाश में जाऊँ तो… वहाँ तू है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आधोलो में बिचाऊं तो… वहाँ भी तू है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी आत्मा से भागकर मैं कहाँ जाऊ … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "लहरें पर चलू तो… वहाँ तू है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूफान में जाऊ तो… वहाँ भी तू है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी आत्मा से भागकर मैं कहाँ जाऊ … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "समुद्र के पार करू तो… वहाँ भी तू है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अंधकार में छिपाऊ तो… वहाँ भी तू है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी आत्मा से भागकर मैं कहाँ जाऊ … 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-100"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#100",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#100",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -259,6 +259,13 @@ export function validateEntries(input: {
       if (other) warn(file, 'w-duplicate', `Same first line as ${other} (possible duplicate)`);
       else firstLines.set(fl, file);
     }
+    for (const line of lines) {
+      const n = line.n.trim();
+      if (/^[,.;:!?،；。\-–—]/.test(n) || /^;-/.test(n)) {
+        warn(file, 'w-leading-punct', `Line starts with punctuation: "${n.slice(0, 40)}"`);
+        break;
+      }
+    }
   }
 
   // ---- Summary per book ----

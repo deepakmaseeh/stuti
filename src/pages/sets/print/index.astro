@@ -1,0 +1,30 @@
+---
+import AppShell from '../../../components/AppShell.astro';
+import SetsPrint from '../../../components/islands/SetsPrint';
+import { site } from '../../../site.config';
+import { t } from '../../../i18n';
+---
+
+<AppShell
+  title={`${t('set.print')} | ${site.name}`}
+  description="Printable order of service."
+  active="sets"
+>
+  <SetsPrint client:load />
+</AppShell>
+
+<style is:global>
+  @media print {
+    .topbar,
+    .bottom-nav,
+    .no-print,
+    .desktop-rail,
+    .desktop-set {
+      display: none !important;
+    }
+    .sets-print {
+      max-width: none;
+      padding: 0;
+    }
+  }
+</style>

@@ -1,0 +1,146 @@
+{
+  "slug": "mera-hero-yeshu-mera-hero",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "113"
+    }
+  ],
+  "title": {
+    "native": "Mera Hero, Yeshu mera Hero",
+    "roman": "",
+    "en": "Mera Hero, Yeshu mera Hero"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Mera Hero, Yeshu mera Hero",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Ye jeevan mujko diya hai",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main uske peeche chalunga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main uske geeth gaonga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Kuyke woh mera Hero (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sharuk nahi hero",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sachin nahi hero",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus he mera Hero",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main uske peeche chalunga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main uske geeth gaonga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Kuyke woh mera Hero (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Shaithanke sath nahi",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Duniya ke sath nahi",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main yeshu ke sath chelunga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main uske peeche chalunga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Main uske geeth gaonga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Kuyke woh mera Hero (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#113",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#113",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

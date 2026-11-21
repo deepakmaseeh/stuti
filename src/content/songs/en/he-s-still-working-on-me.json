@@ -1,0 +1,196 @@
+{
+  "slug": "he-s-still-working-on-me",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "88"
+    }
+  ],
+  "title": {
+    "native": "He’s still working on me",
+    "roman": "",
+    "en": "He’s still working on me"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "He’s still working on me,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To make me what I ought to be",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "It took him just a week to make the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "moon and the stars",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The sun and the earth and Jupiter and",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "mars",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "How loving and patient he must be!",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He’s still working on me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "There really ought to be, a sign up on",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "my heart",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Don’t",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "judge",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "him",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "yet",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "there’s",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "unfinished part",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "(but) I’ll be perfect just according to",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "his plan",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Fashioned by the masters loving hand",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "The mirror of his word, reflections",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "that I see",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Makes me wonder why he never gave",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "up on me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He loves me as I am and helps me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "when I pray",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Remember he’s the potter I am the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "clay",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#88",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#88",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

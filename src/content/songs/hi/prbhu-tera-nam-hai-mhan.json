@@ -1,0 +1,118 @@
+{
+  "slug": "prbhu-tera-nam-hai-mhan",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "302"
+    }
+  ],
+  "title": {
+    "native": "प्रभु तेरा नाम है महान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्रभु तेरा नाम है महान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तेरी स्तुति मैं गाऊँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तेरा नाम है महान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तेरी स्तुति मैं गाऊँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु आया स्वर्ग से धरतीपर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको राह दिखाने को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धरती से क्रुस पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा कर्ज चुकाने को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्रुस से कब्रा मे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कब्रा से आसमान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तेरा नाम है महान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-57"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#57",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#57",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

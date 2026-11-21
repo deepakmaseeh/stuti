@@ -1,0 +1,81 @@
+{
+  "slug": "let-us-all-together-let-us-all-together",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "32"
+    }
+  ],
+  "title": {
+    "native": "Let us all together, let us all together",
+    "roman": "",
+    "en": "Let us all together, let us all together"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Let us all together, let us all together",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing and praise and worship the lord (4)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Let us all together, let us all together",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing and praise and worship the lord",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#32",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#32",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

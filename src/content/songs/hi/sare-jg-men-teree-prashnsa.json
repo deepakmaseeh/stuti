@@ -1,0 +1,125 @@
+{
+  "slug": "sare-jg-men-teree-prashnsa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "334"
+    }
+  ],
+  "title": {
+    "native": "सारे जग में तेरी प्राशंसा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सारे जग में तेरी प्राशंसा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ही जीवन… यीशु ही आशा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ही सहारा… तु ही भरोसा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "संगीत तू ही… तू ही है भाषा …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "गाऊ मैं गीत तेरे… गाऊ तेरी शरण में…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आवाज गुंजे मेरी… धरती और आसमान में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे गम से है ये दुनिया…और कुछ भी जानो ना…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "चाररो तरफ है मेरी… तेरी प्राशंसा का गाना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मुझे लाया है यहाँ… यही है मेरा ठिकाना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरे वचनों से ही भर जाये… जीवन मेरा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-98"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#98",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#98",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

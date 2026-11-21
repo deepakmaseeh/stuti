@@ -1,0 +1,135 @@
+{
+  "slug": "yeshu-nam-gate-rhenge-sath-sath-hm-chlte-rhenge",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "282"
+    }
+  ],
+  "title": {
+    "native": "येशु नाम गाते रहेंगे… साथ साथ हम चलते रहेंगे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "येशु नाम गाते रहेंगे… साथ साथ हम चलते रहेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इस जीवन के अन्त तक हम…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी साथ ही रहेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह…10",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "वह नाम में शांती… वह नाम में मुक्ति…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह नाम को हम करते है भक्ति",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र है… येशु का नाम…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महान है… येशु का नाम…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तु ही है दाता… तु ही है त्राता…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तु ही हमारा स्वर्गीय पिता…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र है… येशु का नाम…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महान है… येशु का नाम…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-28"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#28",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#28",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

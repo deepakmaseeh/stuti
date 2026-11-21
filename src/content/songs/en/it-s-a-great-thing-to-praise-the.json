@@ -1,0 +1,113 @@
+{
+  "slug": "it-s-a-great-thing-to-praise-the",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "16"
+    }
+  ],
+  "title": {
+    "native": "It’s a great thing to praise the",
+    "roman": "",
+    "en": "It’s a great thing to praise the"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "It’s a great thing to praise the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "lord (3)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Walking in the light of the lord.",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Walk, walk, walk, walk in the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "light (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Walking in the light of the lord.",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "It’s a great thing to love the lord",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "It’s a great thing to serve the lord",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#16",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#16",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

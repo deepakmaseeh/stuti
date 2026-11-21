@@ -1,0 +1,136 @@
+{
+  "slug": "ha-ha-kitna-aannd",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "307"
+    }
+  ],
+  "title": {
+    "native": "हा॥ हा॥ कितना आनंद",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हा॥ हा॥ कितना आनंद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हा॥ हा॥ कितना आनंद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमे प्रभु येशु से मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब सबको यहाँ… ये करे हम बयाँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कैसे ये फूल मन का खिला… हा॥ हा॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "स्वीकार हमको किया… और प्यार हमको दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों की दरियाओं से… तूने पार हमको किया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हम तो भूले भटके थे… हमें सीधे रास्ते पे लाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सुख चैन चाहा था जो… प्रभु चरणों में हमने पाया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सुनके तेरे वचनों को… जीवन सफल हो गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीना रहा इक तरफ… मरना सरल हो गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-64"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#64",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#64",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

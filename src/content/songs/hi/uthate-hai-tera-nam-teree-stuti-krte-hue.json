@@ -1,0 +1,115 @@
+{
+  "slug": "uthate-hai-tera-nam-teree-stuti-krte-hue",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "344"
+    }
+  ],
+  "title": {
+    "native": "उठाते है तेरा नाम॥तेरी स्तुति करते हुए",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "उठाते है तेरा नाम॥तेरी स्तुति करते हुए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "घुटनों पर हम आकर …करते है तुझसे प्राार्थना…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मिलकर हम गाये… प्रभु की स्तुति हो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलकर हम गाये॥हाल्लेलुयाह…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाल्लेलुयाह… हाल्लेलुयाह…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "आयेगा मेरा येशु… हमे लेने एक दिन…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जायेंगे हम उसके संग…जहाँ पर होगा अनंत जीवन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलकर हम गाये॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-10"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#10",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#10",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

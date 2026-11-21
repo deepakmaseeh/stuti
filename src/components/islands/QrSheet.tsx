@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
 import { t } from '../../i18n';
+import { MAX_SHARE_URL, truncateShareUrl } from '../../lib/sets';
 import { copyText, shareLink } from '../../lib/share';
 import Sheet from './Sheet';
 
@@ -56,9 +57,10 @@ export default function QrSheet({ open, onClose, url, title }: Props) {
           {imgSrc && <img src={imgSrc} width={180} height={180} alt={t('qr.alt')} />}
         </div>
         <p class="qr__scan">{t('set.scan')}</p>
-        <p class="qr__url" data-testid="share-url">
-          {url}
+        <p class="qr__url" data-testid="share-url" title={url}>
+          {truncateShareUrl(url)}
         </p>
+        {url.length > MAX_SHARE_URL && <p class="notice">{t('set.tooLong')}</p>}
         <div class="form__actions">
           <button type="button" class="btn btn--secondary" onClick={() => copyText(url)}>
             {t('qr.copy')}

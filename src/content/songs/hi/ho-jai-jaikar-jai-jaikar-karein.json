@@ -18,7 +18,80 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "हो जय जयकार जय जयकार करें",
+          "n": "हो जय जयकार जय जयकार करे …2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "वो है हमारा राजा…दु:ख संकट से बचाता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम पर अपनी करूणा करता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और करता उपकार…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्यों न उसपर तन मन हारे दे अपना अधिकार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "उसपर जिसका भरोसा…वो तो कभी ना गिरेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चाहे बीमारी॥चाहे गरीबी॥ चाहे आकाल",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब संकट से सब कष्टों से हो जायेगा पार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "स्वर्ग है उसका सिहासन…पॄथ्वी बनि है आसन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आकाश उसकी महिमा बताये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हस्त कला को दिखाये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारी सृष्टि उसकी रचना उसका ही है प्राताप",
           "r": "",
           "e": ""
         }
@@ -36,7 +109,10 @@
   "year": null,
   "bibleRefs": [],
   "tags": [
-    "tlbc"
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-19"
   ],
   "rights": {
     "status": "permission_pending",
@@ -51,7 +127,7 @@
     "en": "missing"
   },
   "source": {
-    "scan": "import:Ho Jai Jaikar, Jai Jaikar, Karein.doc",
+    "scan": "ccf-hindi-song-book.md#19",
     "page": null
   },
   "chords": "gks t; t;dkj] t; t;dkj djsa\n\t\t     Em                    G\t\t\tD\tEm\ndksjl%& gks t; t;dkj] t; t;dkj djsa\n\n     Em          D\t     Em\t               Em           D            Em\nog gS gekjk jktk jktk ikiksa ls gedks cpkrk cpkrk]\nD                        \tC\t              D\t\t       B\n\tge ij viuh d:.kk djrk] vkSj djrk midkj\n   Em          \t\tG    \t     D                         Em\n\tD;ksa u ml ij ru eu okjsa ns viuk vf/kdkj\n\n   Em            D\t         Em              Em            D\t         Em\nLoxZ gS mldk flagklu] i`Foh cuh gS vklu vklu]\n D                        \tC\t              D\t\t       B\n\tvkdk”k mldh efgek crk, gLrdyk dks fn[kk,]\n    Em          \t\tG    \t     D                         Em\n\tlkjh i`Foh mldh jpuk mldk gh gS izrki\n\n\tEm            D\t         Em              Em            D\t         Em\nml ij ftldk Hkjkslk] og rks dHkh u fxjsxk fxjsxk]\n    D                      C\t              D\t\t B\n\tPkkgs chekjh pkgs xjhch pkgs gks vkdky]\n    Em          \t         G    \t       D                      Em\n lc ladV esa lc d’Vksa esa oks jgsxk lkFkA\n\n                                            (F/50)",

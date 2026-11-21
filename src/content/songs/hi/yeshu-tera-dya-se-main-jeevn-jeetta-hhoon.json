@@ -1,0 +1,137 @@
+{
+  "slug": "yeshu-tera-dya-se-main-jeevn-jeetta-hhoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "338"
+    }
+  ],
+  "title": {
+    "native": "येशु तेरा दया से… मैं जीवन जीत्ता हहूँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु तेरा दया से… मैं जीवन जीत्ता हहूँ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तेरी कॄपा से… मैं आगे पड,ता हूँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "धन्यवाद… धन्यवाद…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तेरा धन्ुयवाद…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "फूलों में रंग तू निराला…पंक्ष्ी को गाणा तूने सिखाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सागर से गहरा प्यार तेरा… आसमानों से तू है ऊँचा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "भोजन से तॄप्त करता… तन को कपड,ा से टपता…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे सारे दुख दर्द को… ऋत्य में बदल देत्ता…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "तू है यहोवा शालोम… शान्ति देनेवाला…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू है यहोवा निस्सी… जय हरदम देनेवाला…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-103"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#103",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#103",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "my-father-is-rich-in-houses-and-land",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "74"
+    }
+  ],
+  "title": {
+    "native": "My father is rich in houses and land",
+    "roman": "",
+    "en": "My father is rich in houses and land"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "My father is rich in houses and land",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "he holdeth the wealth of the world",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "in his hand",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Of rubies and diamonds of silver",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "and gold",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "His offers I full his riches untold",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For I am a child of the king (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For Jesus my savior I am a child of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the king",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "A tent or a cottage O why should I",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "care",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "There building a palace over there",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Though exile from home",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "But still may I sing all glory to God",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am a child of the king",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For I am a child of the king (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For Jesus my savior I am a child of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the king",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#74",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#74",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

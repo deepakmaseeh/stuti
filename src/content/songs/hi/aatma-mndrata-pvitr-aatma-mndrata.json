@@ -1,0 +1,141 @@
+{
+  "slug": "aatma-mndrata-pvitr-aatma-mndrata",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "283"
+    }
+  ],
+  "title": {
+    "native": "आत्मा मण्डराता…पवित्र आत्मा मण्डराता",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आत्मा मण्डराता…पवित्र आत्मा मण्डराता…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पेन्टेकोस्ट के दिन समान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आत्मा मण्डराता…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "अन्धे देखते है… बहरे सुनते है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मसीह के नाम से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भिमारी चंगा पाते… आत्मा मण्डराता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "लंगडे चलते है॥गुंगे बोलते है॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मसीह के नाम से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भिमारी चंगा पाते… आत्मा मण्डराता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "पापी क्षमा पाते… भिमारी चंगा पाते…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मसीह के नाम से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भिमारी चंगा पाते… आत्मा मण्डराता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-29"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#29",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#29",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

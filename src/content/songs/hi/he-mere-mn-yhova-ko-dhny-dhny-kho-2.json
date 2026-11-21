@@ -1,0 +1,161 @@
+{
+  "slug": "he-mere-mn-yhova-ko-dhny-dhny-kho-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "320"
+    }
+  ],
+  "title": {
+    "native": "हे मेरे मन यहोवा को धन्य धन्य कहो … 2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हे मेरे मन यहोवा को धन्य धन्य कहो … 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो कुछ भी मुझ में है यहोवा को धन्य धन्य कहे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "वही तेरे अधमों को क्षमा करता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे सब रोगों को चंगा करता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह … हालेलुया …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वही तो तेरे प्रााण को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नाश होने से बचाता है …2 … हे मेरे मन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सत्यनाश के गढ, गढ, से मुझे निकाला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दल दल की कींच से मुझे उभारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह … हालेलुया …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे पैरों को दॄढ, किया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चट्टान पर खदा किया है … 2 … हे मेरे मन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "हे यहोवा के दूतों उसको धन्य कहो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हे सारी सृष्टि उसको धन्य कहो धन्य हो धन्य हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसके राज्य के सब स्थानों में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा को धन्य कहो … हे मेरे मन",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-81"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#81",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#81",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

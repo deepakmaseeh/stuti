@@ -1,0 +1,157 @@
+{
+  "slug": "seeyon-men-prbhu-kee-hove-jyjykar",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "269"
+    }
+  ],
+  "title": {
+    "native": "सीयोन में प्रभु की होवे जयजयकार",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सीयोन में प्रभु की होवे जयजयकार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आसमान के आसमान में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाये परम्पार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "स्तुति और महिमा पराक्रम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "विजय हम्हारे मसिह येशु का है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह आमेन…3",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "जिन्दा है॥प्रभु जिन्दा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा येशु मसिह जिन्दा है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मारा गया था…गाडा गया था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिस्रो दिन जी उठा है …|सीयोन में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सुन्दर है अधी सुन्दर है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हजारो में वो प्रिाय है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारोन का गुलाब है…भोर का तारा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लाखो में वो मेरा प्रिाय है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-11"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#11",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#11",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

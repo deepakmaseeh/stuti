@@ -1,0 +1,121 @@
+{
+  "slug": "shaitan-ka-samna-kro-bhagega-3",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "292"
+    }
+  ],
+  "title": {
+    "native": "शैतान का सामना करो भागेगा… 3",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "शैतान का सामना करो भागेगा… 3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तो पहले से हारा हुआ है…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "येशु की स्तुति करो भागेगा… 3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तो पहले से हारा हुआ है…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "येशु से प्राार्थना करो भागेगा… 3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तो पहले से हारा हुआ है…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "येशु की सेवा करो भागेगा… 3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तो पहले से हारा हुआ है…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-44"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#44",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#44",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

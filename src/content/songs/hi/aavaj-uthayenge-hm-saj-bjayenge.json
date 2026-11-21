@@ -1,0 +1,141 @@
+{
+  "slug": "aavaj-uthayenge-hm-saj-bjayenge",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "263"
+    }
+  ],
+  "title": {
+    "native": "आवाज उठायेंगे… हम साज बजायेंगे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आवाज उठायेंगे… हम साज बजायेंगे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हे येशु महान अपना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यह गीत सुनायेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "संसार की सुन्दरता में…ये रूप जो तेरा ही…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इन चाँद सितारों में… है अक्स जो तेरा ही…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा की तेरी बाते… हम सबको बतायेंगे…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दिल तेरा खजाना है… एक पाक मोहब्बत का…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहाँ पा न सका कोई…सागर है तू उलफत का…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम तेरी मोहब्बत से… दिल अपना सजायेंगे…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "न देख सका हमको… तू पाप के सागर में…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और बन के मनुष्य आया…आकाश से सागर में…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्ति का तू दाता है… दुनिया को बतायेंगे…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-4"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#4",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#4",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

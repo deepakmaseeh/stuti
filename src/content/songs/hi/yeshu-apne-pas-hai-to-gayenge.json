@@ -1,0 +1,131 @@
+{
+  "slug": "yeshu-apne-pas-hai-to-gayenge",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "304"
+    }
+  ],
+  "title": {
+    "native": "येशु अपने पास है तो… गायेंगे",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु अपने पास है तो… गायेंगे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु के जय के नारे॥ लगायेंगे॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "गायेंगे ॥गायेंगे ॥गायेंगे॥ 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय के नारे हम॥ लगायेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "येशु का है सहारा॥ अब दूर नही किनारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "डरते ना लहरो से हम… आगे खडी बाहारे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्वागत करे उजीयारे… जो नीकले अंधेरो से हम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "ये चंद्रमा वो तारे… ये जीव जन्तु न्यारे…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो रंग जिंदगी के सारे…येशु ने इन्हे बनाया… और",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रेम से सजाया… वो देखो नजारे प्यारे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-60"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#60",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#60",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

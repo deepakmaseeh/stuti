@@ -1,0 +1,120 @@
+{
+  "slug": "prbhu-tera-pyar-sagr-se-bhee-ghra",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "352"
+    }
+  ],
+  "title": {
+    "native": "प्रभु तेरा प्यार… सागर से भी गहरा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्रभु तेरा प्यार… सागर से भी गहरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू है महान… आसमानो से भी ऊँचा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे विचार… सागर की रेत से ज्यादा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तेरा दिल… सृष्टि से भी है बडा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "प्रभु मैं तुझसे प्यार करूँ… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी आराधना मैं करूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ… रा… ध… ना…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तू ही है महान… तू है महान…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सिर्फ तू और कोई नही… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-21"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#21",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#21",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

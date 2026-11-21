@@ -1,0 +1,18 @@
+---
+import { LANG_TAG } from '../lib/scripts';
+import type { Lang } from '../lib/schema';
+import { splitRepeatMarker } from '../lib/lyric-line';
+
+interface Props {
+  text: string;
+  layer: 'n' | 'r' | 'e';
+  lang: Lang;
+}
+const { text, layer, lang } = Astro.props;
+const { text: body, times } = splitRepeatMarker(text);
+const langAttr = layer === 'e' ? 'en' : layer === 'r' ? LANG_TAG.r[lang] : LANG_TAG.n[lang];
+---
+
+<span class={layer} lang={langAttr}>
+  {body}{times ? <span class="repeat" title={`×${times}`}> ×{times}</span> : null}
+</span>

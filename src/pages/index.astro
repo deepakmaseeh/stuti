@@ -2,6 +2,7 @@
 import AppShell from '../components/AppShell.astro';
 import NumberBadge from '../components/NumberBadge.astro';
 import HomeLists from '../components/islands/HomeLists';
+import FirstVisitTour from '../components/islands/FirstVisitTour';
 import InstallPrompt from '../components/islands/InstallPrompt';
 import { getBookEntries, getBooks } from '../lib/content';
 import { LANG_LABEL, LANG_TAG } from '../lib/scripts';
@@ -31,13 +32,17 @@ const books = await Promise.all(
   </details>
 
   <h1 class="visually-hidden">{site.name}</h1>
-  <a class="search-cta" href="/search/">
-    <span aria-hidden="true">#</span>
-    {t('home.searchCta')}
-  </a>
+  <div class="home-search home-search--compact">
+    <div class="home-search__shortcuts">
+      <a href="/search/?tab=browse">{t('desktop.browse')}</a>
+      <a href="/search/?tab=number">{t('search.number')}</a>
+      <a href="/search/?tab=songs">{t('search.songs')}</a>
+    </div>
+  </div>
   <p class="search-help home-how-tip">{t('home.howTip')}</p>
 
   <HomeLists client:load />
+  <FirstVisitTour client:idle />
   <InstallPrompt client:idle />
 
   <section aria-labelledby="books-title">

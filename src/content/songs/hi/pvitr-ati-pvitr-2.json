@@ -1,0 +1,136 @@
+{
+  "slug": "pvitr-ati-pvitr-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "365"
+    }
+  ],
+  "title": {
+    "native": "पवित्र अति पवित्र॥| 2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "पवित्र अति पवित्र॥| 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है सेनाओं का प्रभु॥|2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र अति पवित्र॥| 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है सेनाओं का प्रभु॥|2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "यशाया ने देखा प्रभु को ऊँचाई पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बैठा सिंहासन पर राजाओं का राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी महिमा से मंदिर भर गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दूतों ने कहा ॥॥॥॥॥॥| पवित्र॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यूहन्ना ने देखा प्रभु को टापू पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुर्दा सा गिर पडा उसके चरणों पर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दीपों में दिखा मानव पुत्र के समान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और ऊँचा ऊँचा रहे तेरा नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "dedication",
+    "ccf-2",
+    "ccf-10"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#2",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#2",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

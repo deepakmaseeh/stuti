@@ -1,0 +1,100 @@
+{
+  "slug": "he-svrgiy-pita-tera-nam-kee-stutee-ho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "359"
+    }
+  ],
+  "title": {
+    "native": "हे स्वर्गिय पिता … तेरा नाम की स्तुती हो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हे स्वर्गिय पिता … तेरा नाम की स्तुती हो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हे जीवन दात्ता… तेरा सम्मुख आते है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आराधना… हो ॥ आराधना…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरा सिवा कोई नही… आराधना के योग्य",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे सम्मान कोई नही… स्वर्ग में या पॄथ्वी में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-29"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#29",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#29",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

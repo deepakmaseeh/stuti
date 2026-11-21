@@ -4,6 +4,10 @@
     {
       "book": "TLBC",
       "number": "17"
+    },
+    {
+      "book": "XMAS",
+      "number": "2"
     }
   ],
   "title": {
@@ -105,7 +109,8 @@
   "year": null,
   "bibleRefs": [],
   "tags": [
-    "tlbc"
+    "tlbc",
+    "christmas"
   ],
   "rights": {
     "status": "licensed",

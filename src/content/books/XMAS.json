@@ -1,0 +1,14 @@
+{
+  "id": "XMAS",
+  "name": {
+    "native": "क्रिसमस गीत",
+    "en": "Christmas Songs"
+  },
+  "lang": "hi",
+  "edition": "",
+  "publisher": "The Lucknow Baptist Church",
+  "description": "Christmas and nativity songs from the TLBC collection.",
+  "order": 4,
+  "numbering": "numeric",
+  "status": "active"
+}

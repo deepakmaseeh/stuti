@@ -1,0 +1,97 @@
+{
+  "slug": "oh-when-the-saints-go-marching-in",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "112"
+    }
+  ],
+  "title": {
+    "native": "Oh when the saints go marching in",
+    "roman": "",
+    "en": "Oh when the saints go marching in"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Oh when the saints go marching in",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh when the saints go marching in",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Lord I want to be in that number",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh when the saints go marching in",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Oh when the saints began to sing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh when the sun began to shine",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#112",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#112",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "i-come-to-my-savior-with-sorrows-for",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "67"
+    }
+  ],
+  "title": {
+    "native": "I come to my savior with sorrows for",
+    "roman": "",
+    "en": "I come to my savior with sorrows for"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I come to my savior with sorrows for",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "my sin",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "For I can do nothing, to make me clean",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "within (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I may be poor in spirit, but my father is",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "rich in love",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "And out of his goodness, shall bless me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "from above (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#67",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#67",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

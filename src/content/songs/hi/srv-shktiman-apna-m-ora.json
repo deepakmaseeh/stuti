@@ -1,0 +1,147 @@
+{
+  "slug": "srv-shktiman-apna-m-ora",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "339"
+    }
+  ],
+  "title": {
+    "native": "सर्व शक्तिमान अपना म्,ोरा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सर्व शक्तिमान अपना म्,ोरा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मॄत्युजय महान जीवन मेरा… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ… हा… हा… यह आश्चर्य है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ… हो… हो… यह सच ही तो है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "जानी है एक बडी बात… पाया है एक बड,ा धन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ही रक्षक है… यीशु ही राजा है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "शन्ति और सर्वानन्द… उ,मंड, रहा दिल में मेरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों को धो ड,ाला… मुझको किया निड,र",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "परलोक में नाम मेरा… लिख ड,ाला यीशु ने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु नाम सुबह शाम… हो मेरा ये ही काम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "गाव से गाव बोलूँगा… सुनले जहाँ सुनाऊँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु मेरा जीवित है… जल्दी वो आयेगा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-104"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#104",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#104",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

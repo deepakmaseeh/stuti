@@ -1,0 +1,19 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import SetsHome from '../../components/islands/SetsHome';
+import { site } from '../../site.config';
+import { t } from '../../i18n';
+---
+
+<AppShell
+  title={`${t('sets.title')} | ${site.name}`}
+  description="Plan worship sets by date, share them, and sing through them in order."
+  active="sets"
+>
+  <noscript>
+    <p class="notice">
+      {t('search.noJs')} <a href="/books/">{t('books.title')}</a>
+    </p>
+  </noscript>
+  <SetsHome client:load />
+</AppShell>

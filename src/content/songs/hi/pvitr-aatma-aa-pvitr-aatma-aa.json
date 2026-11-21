@@ -1,0 +1,158 @@
+{
+  "slug": "pvitr-aatma-aa-pvitr-aatma-aa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "369"
+    }
+  ],
+  "title": {
+    "native": "पवित्र आत्मा आ॥पवित्र आत्मा आ॥",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "पवित्र आत्मा आ॥पवित्र आत्मा आ॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमे ले जाओ येशु के चरणोां में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र आत्मा आ॥",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सिर्फ तेरे लिए॥येशु तेरे लिए ॥3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं हाथ उठाता हहूँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "घुटने टिकाकर॥ सर झुकाकर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथ उठाता हैं तेरे लिए",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सिर्फ तेरे लिए॥येशु तेरे लिए ॥3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं सर झुकाता हहूँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "येशु ही मार्ग है॥ येशु ही सत्य है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु ही जीवन है॥ येशु मेरा प्रभु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "सिर्फ तेरे लिए॥येशु तेरे लिए ॥3",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं हाथ उठाता हहूँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "dedication",
+    "ccf-7"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#7",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#7",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

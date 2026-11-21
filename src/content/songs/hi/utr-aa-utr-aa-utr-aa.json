@@ -1,0 +1,157 @@
+{
+  "slug": "utr-aa-utr-aa-utr-aa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "371"
+    }
+  ],
+  "title": {
+    "native": "उतर आ…उतर आ…उतर आ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "उतर आ…उतर आ…उतर आ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ रूहे पाक उतर आ॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उतर आ…उतर आ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आसमानी खुशी से भर दे मुझको",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गीत नया दिल में ला… 2… उतार आ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "अमॄत जल प्रभु मुझको पिला दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरे की प्यास बुझा दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चश्मा बनके उतर आ… … उतार आ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "आसमानी रोटी॥| मुझको खिला दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कमजेर दिल को तगडा बना दे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भरपूर जीवन दिला… … उतार आ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "पाक रूह आ मेरे दिल के अंदर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बन जाऊ मैं तेरा मंदिर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी राह दिखा… … उतार आ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "dedication",
+    "ccf-9"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#9",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#9",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

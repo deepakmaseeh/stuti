@@ -1,0 +1,158 @@
+{
+  "slug": "ati-sheeghra-hee-tl-jaygee-ye-tkleephe-do-din-ka",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "325"
+    }
+  ],
+  "title": {
+    "native": "अति शीघ्रा ही टल जायगी…ये तकलीफे दो दिन का",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "अति शीघ्रा ही टल जायगी…ये तकलीफे दो दिन का",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ना होना निराश तू … ना होना निराश",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "भीतरी मनुष्य के दिन ब दिन",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नया बनने की रूत है अभी… ना होना निराश",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "अपरम्पार महिमा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इसी में हमको मिलेगी … ना होना निराश",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "देखी दुनिया से मोह नही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अनदखी स्वर्ग पे आँख लगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "न होंगे निराश… हम न होंगे निराश",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "यीशु की खातिर मरना पड,े",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो ये हमारा सौभाग्य है… ना होंगे निराश",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "महाराजा यीशु आयेंगे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तब हम खुशियाँ मनायेंगे… ना होंगे निराश",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-86"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#86",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#86",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

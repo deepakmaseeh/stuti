@@ -1,0 +1,137 @@
+{
+  "slug": "yhova-chrvah-hai-mera-mujhe-koee-ghtee-nhee-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "296"
+    }
+  ],
+  "title": {
+    "native": "यहोवा चरवाह है मेरा… मुझे कोई घटी नही है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यहोवा चरवाह है मेरा… मुझे कोई घटी नही है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हरी चराईयों में मुझे… स्नेह से चराता वो है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मॄत्यु के अंधकार से… मैं जो जाता था…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु येशु करूणा से… तसल्ली मुझे दी है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "शत्रुओं के सामने… मेज को बिछाता है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु ने जो तैयार की…मन मेरा मगन रहा है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सिरपर वह तेल मला है…अभिषेक मुझे किया है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल मेरा भर गया है… और उमड भी रहा है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "सर्वदा प्रभु के घर में… करूणा निवास जो मैं…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करूणा भलाई उसकी… आनंदित मुझे करती है…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-50"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#50",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#50",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

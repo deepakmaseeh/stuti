@@ -1,0 +1,91 @@
+{
+  "slug": "alive-alive-alive-for-ever-more",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "25"
+    }
+  ],
+  "title": {
+    "native": "Alive, Alive, Alive for ever more",
+    "roman": "",
+    "en": "Alive, Alive, Alive for ever more"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Alive, Alive, Alive for ever more",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "My Jesus is alive, alive for ever more (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing hallelujah, sing hallelujah, my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus is alive for ever more",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sing hallelujah, sing hallelujah, my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus is alive …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#25",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#25",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -31,7 +31,7 @@ export default defineConfig({
       name: 'desktop',
       // Use (^|[/\\])layout\.spec so desktop-layout.spec.ts is not ignored.
       testIgnore:
-        /admin\.spec|song-page\.spec|word-search\.spec|number-search\.spec|setlist\.spec|offline\.spec|a11y\.spec|(^|[/\\])layout\.spec/,
+        /admin\.spec|song-page\.spec|songs-list\.spec|number-search\.spec|setlist\.spec|offline\.spec|a11y\.spec|(^|[/\\])layout\.spec/,
       use: { ...devices['Desktop Chrome'] },
     },
     {

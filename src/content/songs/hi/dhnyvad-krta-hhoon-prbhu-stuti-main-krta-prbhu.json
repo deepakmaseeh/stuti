@@ -1,0 +1,153 @@
+{
+  "slug": "dhnyvad-krta-hhoon-prbhu-stuti-main-krta-prbhu",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "327"
+    }
+  ],
+  "title": {
+    "native": "धन्यवाद करता हहूँ प्रभु … सतुति मैं करता प्रभु",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "धन्यवाद करता हहूँ प्रभु … सतुति मैं करता प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य … यीशु राजा… धन्य … यीशु राजा…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "अब तक संभाला… धन्य राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नया दिन दिखाया धन्य राजा…धन्य …यीशु राजा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "शरणश्थान गढ, है मेरा धन्य राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराम शन्ति दता…धन्य राजा…धन्य …यीशु राजा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "संकट में रक्षा की धन्य राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चमत्कार किया है…धन्य राजा…धन्य …यीशु राजा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "मुझको उठाया है… धन्य राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चंगा किया है… धन्य राजा… धन्य … यीशु राजा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "मेरा तू मित्र बना धन्य राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "माता सा प्यार दिया…धन्य राजा…धन्य…यीशु राजा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-88"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#88",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#88",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

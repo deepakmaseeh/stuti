@@ -1,0 +1,96 @@
+{
+  "slug": "thank-you-for-the-world-so-sweet",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "92"
+    }
+  ],
+  "title": {
+    "native": "Thank you for the world so sweet",
+    "roman": "",
+    "en": "Thank you for the world so sweet"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Thank you for the world so sweet",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Oh… Ho",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thank you for the food we eat",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Yum… Yum",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thank you for the birds that linga",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ringa ring",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thank you lord for everything",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#92",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#92",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "yeshu-prbhu-hai-vo-prbhu-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "341"
+    }
+  ],
+  "title": {
+    "native": "येशु प्रभु है…वो प्रभु है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु प्रभु है…वो प्रभु है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो मुर्दो से जी उठा है… और वो प्रभु है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर एक घुटना टिकेगा… हर एक जबान कहेगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कि येशु ख्रीस्त प्रभु है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-6"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#6",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#6",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

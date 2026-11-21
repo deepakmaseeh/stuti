@@ -1,0 +1,121 @@
+{
+  "slug": "wake-up-in-the-morning-and-go-for-a",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "41"
+    }
+  ],
+  "title": {
+    "native": "Wake up in the morning and go for a",
+    "roman": "",
+    "en": "Wake up in the morning and go for a"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Wake up in the morning and go for a",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "jog",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Brush up on the push-ups or take out a",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "dog",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "It’s good to sweat a little on the track",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "everyday",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "But hear what the bible says",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Godliness, Godliness",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Good for everything and it keeps up the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "best",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Godliness, Godliness",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Now and for ever it spells success",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#41",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#41",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

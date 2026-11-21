@@ -1,0 +1,151 @@
+{
+  "slug": "aannd-hee-aannd-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "294"
+    }
+  ],
+  "title": {
+    "native": "आनंद ही आनंद है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आनंद ही आनंद है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे येशु के चरणों में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "पाप मेरा क्षमा हुआ… श्राप मेरा निकल गया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु के रक्त द्दारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नया जीवन येशु में… कॄपा जीवन येशु में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र आत्मा द्दारा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "बाजे के शब्द में… दुतों की सेना में",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आयेगा येशु राजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्षणमात्र में हम रूपांतर होकर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा में जायेंगे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "सर्वशक्तिमान येशु… विजय का दाता…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जय देनेवाला है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एक कंठ से हम… होसन्ना गाकर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब को बतायेंगे हम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-46"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#46",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#46",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "i-am-happy",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "11"
+    }
+  ],
+  "title": {
+    "native": "I am HAPPY",
+    "roman": "",
+    "en": "I am HAPPY"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I am HAPPY,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am SINGING,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I an CHRISTIAN,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I KNOW my LORD,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He is in my HEART, he lives",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ETERNALLY.",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#11",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#11",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

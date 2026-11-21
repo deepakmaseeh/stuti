@@ -1,0 +1,99 @@
+{
+  "slug": "usne-dakhrs-aur-tel-undela",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "273"
+    }
+  ],
+  "title": {
+    "native": "उसने दाखरस और तेल उंडेला",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "उसने दाखरस और तेल उंडेला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरी आत्मा को चंगा किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येरीहो के किनारे अधमुआ पडा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसने दाखरस और तेल उंडेला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "येशु येशु येश… मैंने उसे पा लिया … 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैंने येशु को पा लिया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-16"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#16",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#16",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

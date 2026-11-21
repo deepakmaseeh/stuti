@@ -1,0 +1,81 @@
+{
+  "slug": "on-whose-side-i-m-leaning-on",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "54"
+    }
+  ],
+  "title": {
+    "native": "On whose side I’m leaning on",
+    "roman": "",
+    "en": "On whose side I’m leaning on"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "On whose side I’m leaning on (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Leaning on the lords side",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jumping on, Walking on, Running on,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Sleeping on",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#54",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#54",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

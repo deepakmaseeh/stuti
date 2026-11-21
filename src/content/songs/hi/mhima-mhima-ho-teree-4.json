@@ -1,0 +1,130 @@
+{
+  "slug": "mhima-mhima-ho-teree-4",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "306"
+    }
+  ],
+  "title": {
+    "native": "महिमा महिमा हो तेरी… 4",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "महिमा महिमा हो तेरी… 4",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तेरी महिमा… करता हूँ मैं सर्वदा… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरे लिए जिऊँगा… तेरे लिए मरूँगा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे लिए येशु हर दर्द सहुँगा…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पर मैं तेरे वचनों को बांटताही रहुँगा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा महिमा हो तेरी… 4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरे मार खाने से… तेरे गाडे जाने से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मौत पर भी विजय पाने से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सबका हुआ है उद्धार… सबको मिली है नई ज्ींदगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "महिमा महिमा हो तेरी… 4",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु तेरी महिमा… करता हूँ मैं सर्वदा… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-63"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#63",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#63",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,161 @@
+{
+  "slug": "peter-andrew-james-and-john",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "100"
+    }
+  ],
+  "title": {
+    "native": "Peter, Andrew, James and John",
+    "roman": "",
+    "en": "Peter, Andrew, James and John"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Peter, Andrew, James and John",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "in the same boat (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Out on a deep blue see",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Fished all the night but they",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "caught no fishes (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Christ the lord came into the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "same boat (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "Cast your nets on the right said",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "Then their nets were full of",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fishes (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "Jesus said I’ll make you fishers",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "fishers of men instead of fishes",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#100",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#100",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

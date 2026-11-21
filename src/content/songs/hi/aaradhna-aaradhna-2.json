@@ -1,0 +1,177 @@
+{
+  "slug": "aaradhna-aaradhna-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "346"
+    }
+  ],
+  "title": {
+    "native": "आराधना ॥|आराधना… 2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आराधना ॥|आराधना… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे येशु तेरे लिए …2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरे लहू से … तूने हमारा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उद्धार है किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राजा के जैसे…याजक के जैसे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने हमको बनाया… आराधना…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "प्राकाश दिखाता… मेरा सहायक…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उत्साहित प्रभु है तू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रेम और सामर्थ … अग्नि से तेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमारा तू अभिषेक कर… आराधना…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "आनेवाला… राजा हमारा…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू है सदा प्रभु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे नाम की स्तुति… तेरा राज्य आये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी इच्छा पूरि हो… आराधना…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "अद्रभुत और पवित्र… तेरा चमत्कार…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कितना है महान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु तेरा मार्ग है निराला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जैसी सच्ची ज्योति… आराधना,…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-12"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#12",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#12",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

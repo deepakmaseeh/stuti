@@ -1,0 +1,137 @@
+{
+  "slug": "in-his-times-in-his-times",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "70"
+    }
+  ],
+  "title": {
+    "native": "In his times, In his times",
+    "roman": "",
+    "en": "In his times, In his times"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "In his times, In his times",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He makes all things beautiful,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In his times",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Lord, please show me every day",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "As you’re teaching me your way",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "That you do just what you say",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "In his times",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "In your time, In your time",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You make all things beautiful, In",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "your time",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Lord, my life to you I bring, may",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "each song I have to sing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Be to you a lovely thing in your",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "time",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#70",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#70",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

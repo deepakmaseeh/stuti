@@ -48,6 +48,32 @@
     font-size: 0.875rem;
     color: oklch(0.85 0.05 70);
   }
+  .topbar__nav {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .topbar__nav-link {
+    color: var(--gold-soft);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.35rem 0.65rem;
+    border-radius: 8px;
+    list-style: none;
+    cursor: pointer;
+  }
+  .topbar__nav-link[aria-current='page'] {
+    box-shadow: inset 0 -2px 0 var(--gold);
+    color: var(--gold);
+  }
+  .topbar__more {
+    position: relative;
+  }
+  .topbar__more .menu__list {
+    right: 0;
+    left: auto;
+  }
   .topbar__langs {
     display: flex;
     flex: 1;
@@ -147,8 +173,29 @@
     max-width: 70rem;
     margin-inline: auto;
   }
+  /* B1: SetNavBar stays visible in set mode on desktop (sticky above content bottom). */
   html[data-desktop] .setnav {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+    z-index: 15;
+    max-width: none;
+    margin-inline: 0;
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+  }
+  html[data-desktop] .home-search,
+  html[data-desktop] .home-how-tip {
     display: none;
+  }
+  html[data-desktop] .tool-keep-awake {
+    display: none !important;
+  }
+  .topbar-keep-awake {
+    display: none;
+  }
+  html[data-desktop] .topbar-keep-awake {
+    display: inline-flex;
   }
   html[data-desktop='wide'] .desktop-set {
     display: flex;
@@ -384,23 +431,30 @@
 }
 
 .song-present {
-  display: none;
-  margin-left: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-left: 0.25rem;
+  padding-inline: 0.75rem;
   text-decoration: none;
+  font-size: 0.8125rem;
+}
+html[data-desktop] .song-header__search {
+  display: none;
 }
 @media (min-width: 900px) {
   .song-present {
-    display: inline-flex;
-    align-items: center;
     min-height: 48px;
+    margin-left: 0.5rem;
     padding-inline: 1rem;
+    font-size: inherit;
   }
   .song-header__badge .badge--header {
-    width: 92px;
-    height: 84px;
+    width: 64px;
+    min-height: 52px;
   }
   .song-header__badge .badge__num {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
   .song__title {
     font-size: 2.25rem;

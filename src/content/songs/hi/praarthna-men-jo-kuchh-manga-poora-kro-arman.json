@@ -1,0 +1,142 @@
+{
+  "slug": "praarthna-men-jo-kuchh-manga-poora-kro-arman",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "367"
+    }
+  ],
+  "title": {
+    "native": "प्राार्थना में जो कुछ माँगा… पूरा करो अरमान",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्राार्थना में जो कुछ माँगा… पूरा करो अरमान…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारी खताएँ मानता हूँ … तेरा करू अब ध्यान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "दिल में धीमी आवाज आई…अपने गुनाहों को मान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान लिया मैंने आवाज उसकी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "जिसका किया अपमान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "ईमान लाए तुझ पे मसीहा… आए तुम्हारे पास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "माफ करो अब पाप हमारे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कर दो लहू से साफ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "जाना सभी को आखिर वहाँ पे…होगा जहाँ इन्साफ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धो दे दिलों का आज हमारे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कर दे लहू से साफ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "dedication",
+    "ccf-5"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#5",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#5",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

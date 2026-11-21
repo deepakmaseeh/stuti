@@ -1,6 +1,7 @@
 ---
 import AppShell from '../../components/AppShell.astro';
 import SongRow from '../../components/SongRow.astro';
+import BookDownloadButton from '../../components/islands/BookDownloadButton';
 import { getBookEntries, getBooks } from '../../lib/content';
 import { LANG_LABEL, LANG_TAG } from '../../lib/scripts';
 import type { Book } from '../../lib/schema';
@@ -28,6 +29,7 @@ const entries = await getBookEntries(book.id);
     {book.name.en} · {LANG_LABEL[book.lang]}
     {book.edition && ` · ${book.edition}`} · {t('books.count', { n: entries.length })}
   </p>
+  <BookDownloadButton client:idle bookId={book.id} lang={book.lang} />
   <div class="book-list">
     {entries.map(({ number, song }) => (
       <SongRow

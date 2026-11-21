@@ -1,0 +1,143 @@
+{
+  "slug": "jaise-mata-snbhaltee-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "347"
+    }
+  ],
+  "title": {
+    "native": "जैसे माता संभालती है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जैसे माता संभालती है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वैसे येशु संभालेगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "हालेलुयाह॥हालेलुयाह॥2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सीने से लगायेगा॥चिंता सब हटायेगा…जैसे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हाथ धर के ले जायेगा॥",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चट,टान पर चढायेगा॥|…जैसे माता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "मेरा कारण वो घायल हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे पापों को उठा लिया॥|…जैसे माता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "कभी भी ना छोडेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कभी भी ना त्यागेगा॥|…जैसे माता",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-13"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#13",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#13",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

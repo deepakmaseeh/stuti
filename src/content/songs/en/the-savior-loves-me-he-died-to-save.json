@@ -1,0 +1,102 @@
+{
+  "slug": "the-savior-loves-me-he-died-to-save",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "115"
+    }
+  ],
+  "title": {
+    "native": "The savior loves me, he died to save",
+    "roman": "",
+    "en": "The savior loves me, he died to save"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "The savior loves me, he died to save",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He lives in glory my Lord and King",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "One day he’ll come to take me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "home",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "To live with him for evermore",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "(repeat last 2 lines)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#115",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#115",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

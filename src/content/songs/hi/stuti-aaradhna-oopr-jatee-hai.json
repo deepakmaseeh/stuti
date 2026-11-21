@@ -1,0 +1,114 @@
+{
+  "slug": "stuti-aaradhna-oopr-jatee-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "355"
+    }
+  ],
+  "title": {
+    "native": "स्तुति आराधना ऊपर जाती है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "स्तुति आराधना ऊपर जाती है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आशीष देखो नीचे आती है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु हमारा कितना महाान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखो हमसे करता है प्यार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलु हालेलुायाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "बिन्ती और प्राार्थना ऊपर जाती है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उत्तर लेकर नीचे आती है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु हमारा कितना महाान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखो हमसे करता है प्यार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-24"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#24",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#24",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,166 @@
+{
+  "slug": "sare-sshti-ke-malik-tumhee-ho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "340"
+    }
+  ],
+  "title": {
+    "native": "सारे सृष्टि के मालिक तुम्ही हो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सारे सृष्टि के मालिक तुम्ही हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे सृष्टि के रक्षक तुम्ही हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करते है तुझको सादर प्राणाम्",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "गाते है तेरे ही गुणगान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हा…हा…हा॥हालेलुयाह",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सारे सृष्टि को तेरा सहारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सरे संकट से हमको बचना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे हाथों में जीवन हमारा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी राहो पर हमको चलाना",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हम है तेरे हाथो की रचना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम पर रहे तेरी करूणा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तन मन धन हमारा तेरा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इन्हे शैतान को छुने न देना",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "अब दूर नही है किनारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धीरज को हमारे बढाना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन की हमारी इस नैया को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भव सागर में खोने न देना",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-3"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#3",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#3",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

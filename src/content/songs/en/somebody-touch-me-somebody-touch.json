@@ -1,0 +1,86 @@
+{
+  "slug": "somebody-touch-me-somebody-touch",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "9"
+    }
+  ],
+  "title": {
+    "native": "Somebody touch me somebody touch",
+    "roman": "",
+    "en": "Somebody touch me somebody touch"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Somebody touch me somebody touch",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "me",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Somebody touch my soul",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "When I was praying, praying to Jesus,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jesus touch my soul",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#9",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#9",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

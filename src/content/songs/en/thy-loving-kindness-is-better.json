@@ -1,0 +1,139 @@
+{
+  "slug": "thy-loving-kindness-is-better",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "30"
+    }
+  ],
+  "title": {
+    "native": "Thy loving kindness is better",
+    "roman": "",
+    "en": "Thy loving kindness is better"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Thy loving kindness is better",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "than life (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "My lips shall praise thee, thus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "will I bless thee",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Thy loving kindness is better",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "than life",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "I’ll lift my hands up unto thy",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "name",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "O lord I love thee with all my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "heart",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "O lord I’ll serve thee with all my",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "heart",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#30",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#30",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -9,6 +9,10 @@ export default defineConfig({
   output: 'static',
   trailingSlash: 'always',
   build: { format: 'directory' },
+  redirects: {
+    '/song/hi-aao-pyaaron-sharan-maish-ki': '/song/hi-aao-pyaaron-sharan-masih-ki/',
+    '/song/hi-aao-pyaaron-sharan-maish-ki/': '/song/hi-aao-pyaaron-sharan-masih-ki/',
+  },
   integrations: [
     preact(),
     sitemap({
@@ -38,23 +42,18 @@ export default defineConfig({
         ],
         shortcuts: [
           { name: 'Search by number', url: '/search/' },
-          { name: 'Sunday set', url: '/set/' },
+          { name: 'Sunday set', url: '/sets/' },
         ],
       },
       injectManifest: {
         // Latin subsets only; Indic fonts come with their book (dl/fonts.json, scripts/font-manifest.ts).
+        // Do not precache app HTML shells — NetworkFirst navigation keeps deploys fresh.
+        // Keep offline fallback + shell data/assets only.
         globPatterns: [
           '_astro/**/*.{js,css}',
           '_astro/**/instrument-sans-latin-{400,600,700}-normal.*.woff2',
           '_astro/**/domine-latin-700-normal.*.woff2',
-          'index.html',
-          'search/index.html',
-          'set/index.html',
-          'downloads/index.html',
-          'settings/index.html',
-          'about/index.html',
           'no-connection/index.html',
-          'books/index.html',
           'search/numbers.json',
           'search/meta.json',
           'icons/*.png',

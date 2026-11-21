@@ -14,8 +14,8 @@
   "aliases": [],
   "sections": [
     {
-      "type": "chorus",
-      "label": "Chorus",
+      "type": "verse",
+      "label": "Verse 1",
       "lines": [
         {
           "n": "जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम",
@@ -25,8 +25,19 @@
       ]
     },
     {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "- जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम (4)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
       "type": "verse",
-      "label": "Verse 1",
+      "label": "Verse 2",
       "lines": [
         {
           "n": "बलहीन का सहारा, पापियों का दोस्त है तू",
@@ -42,7 +53,7 @@
     },
     {
       "type": "verse",
-      "label": "Verse 2",
+      "label": "Verse 3",
       "lines": [
         {
           "n": "तुझ में बना रहूँ तो, अमृत फल लाऊँ मैं;",
@@ -58,7 +69,7 @@
     },
     {
       "type": "verse",
-      "label": "Verse 3",
+      "label": "Verse 4",
       "lines": [
         {
           "n": "तू ही है जो मुझको बुलाता, देता है जीवन जल",
@@ -99,7 +110,7 @@
     "en": "missing"
   },
   "source": {
-    "scan": "import:Jay jay naam yeshu naam.docx",
+    "scan": "enrich-from-zip:Jai jai naam yeshu naam.docx",
     "page": null
   },
   "chords": "जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम\n\n    D                        A                  D\n कोरस:- जय जय नाम यीशु नाम गाऊँ मैं सुबह-शाम (4)\n\n     D          G     D                G        D\n1. बलहीन का सहारा, पापियों का दोस्त है तू\n     D           G                          A\n   यीशु तू है कितना प्यारा, शब्द न कैसे बताऊँ।\n\n     D       G         D                  G    D\n2. तुझ में बना रहूँ तो, अमृत फल लाऊँ मैं;\n     D           G                              A\n    गाऊँ तेरी जय सदा तो, तुझ सा बन जाऊँ मैं।\n\n    D             G             D            G        D\n3. तू ही है जो मुझको बुलाता, देता है जीवन जल\n    D           G                          A\n   तेरी शक्ति पाऊँ सदा, योजना है सफल\n\n\n\n\n\n                                                              (B/7)\n                                                                                                          The Lucknow Baptist Church Lucknow",

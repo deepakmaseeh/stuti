@@ -1,0 +1,133 @@
+{
+  "slug": "i-have-the-joy-joy-joy-joy-down-in",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "40"
+    }
+  ],
+  "title": {
+    "native": "I have the Joy, Joy, Joy, Joy down in",
+    "roman": "",
+    "en": "I have the Joy, Joy, Joy, Joy down in"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "I have the Joy, Joy, Joy, Joy down in",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "my heart (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Where down in my heart(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "I",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "have",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "peace",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "that",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "passes",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "understanding down in my heart (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "I have the love of Jesus love of Jesus",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "down in my heart (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#40",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#40",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

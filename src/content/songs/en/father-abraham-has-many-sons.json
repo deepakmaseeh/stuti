@@ -1,0 +1,108 @@
+{
+  "slug": "father-abraham-has-many-sons",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "4"
+    }
+  ],
+  "title": {
+    "native": "Father Abraham has many sons",
+    "roman": "",
+    "en": "Father Abraham has many sons"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Father Abraham has many sons",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Many sons has father Abraham,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am one of them so are you so,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "let us praise the lord",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Right hand, Left hand, Right",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "leg, Left leg, Nod your head,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Turn around and sit down",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#4",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#4",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

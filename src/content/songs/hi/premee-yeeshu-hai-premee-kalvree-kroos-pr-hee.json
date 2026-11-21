@@ -1,0 +1,137 @@
+{
+  "slug": "premee-yeeshu-hai-premee-kalvree-kroos-pr-hee",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "360"
+    }
+  ],
+  "title": {
+    "native": "प्रेमी… यीशु है प्रेम्ी… कालवरी क्रूस पर ही",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्रेमी… यीशु है प्रेम्ी… कालवरी क्रूस पर ही",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सबको चुकाया दाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "प्यासा प्यासा कहा… तेरा दु:ख को सहलीया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों को उठाया… छुटकारा मुझको दिया…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरी घायल को देखता हू… आँसु बहता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा पवित्र लहु से … चंगाई पाता हूँ…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "प्यार की हाथों में… कांटों के घायल है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शरण में आता हूँ… संपूर्ण जीवन पाने",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "सीने से बहती नदी… उसमें नहा ले सभी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मानव पावे प्यार … मुFत में पावे उद्धार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-30"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#30",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#30",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

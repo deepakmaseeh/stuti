@@ -1,0 +1,130 @@
+{
+  "slug": "aannd-umndta-hai-aannd-umndta-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "310"
+    }
+  ],
+  "title": {
+    "native": "आनंद उमंडता है… आनंद उमंडता है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आनंद उमंडता है… आनंद उमंडता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनंद उमंडता है… हाल्लेलुयाह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु ने मुझे बचाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों को धोया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनंद उमंडताह है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "राह छोडकर मै चल पडा… पापों के राहो में मै चला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "फिर भी उसने संभाला… मुझे आके बचाया…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इतना अच्छा येशु मेरा हो गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "पापों में रहनेवाला… दो जग में चलनेवाला…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु के पास तुम आओ…मुक्ति को अपनाओ…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उद्धार करता है… अपना प्यारा है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-69"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#69",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#69",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

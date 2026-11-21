@@ -4,6 +4,7 @@ import BottomNav from './BottomNav.astro';
 import OfflineBadge from './OfflineBadge.astro';
 import TopBar from './TopBar.astro';
 import Finder from './islands/Finder';
+import MobileSearchMenu from './islands/MobileSearchMenu';
 import SetPanel from './islands/SetPanel';
 import KeyboardShortcuts from './islands/KeyboardShortcuts';
 import type { BookChip } from './islands/Keypad';
@@ -16,7 +17,7 @@ interface Props {
   canonicalPath?: string;
   noindex?: boolean;
   heading?: string;
-  active?: 'home' | 'search' | 'set' | 'offline';
+  active?: 'home' | 'search' | 'set' | 'sets' | 'offline';
   /** Highlight this song in Finder / Set panel. */
   currentSongId?: string;
   /** Hide the mobile-only page header (song pages have their own). */
@@ -50,7 +51,7 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
       {/* client:only: not in mobile SSR DOM (avoids duplicate keypads with /search/). */}
       <Finder client:media={`(min-width: ${site.layout.desktopMin}px)`} books={books} currentId={currentSongId} />
     </aside>
-    <div class="desktop-main" transition:animate="fade">
+    <div class="desktop-main" transition:animate="none">
       {
         !hideMobileHeader && (
           <header class="app-header">
@@ -59,6 +60,7 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
                 {heading}
               </a>
               <div class="app-header__actions">
+                <MobileSearchMenu client:load />
                 <OfflineBadge />
                 <slot name="actions" />
               </div>

@@ -8,7 +8,7 @@ export default function SongSidePanel({ books }: { books: BookChip[] }) {
       <p class="song-side__label">{t('desktop.jumpNumber')}</p>
       <Keypad books={books} active />
       <nav class="song-side__links" aria-label={t('desktop.more')}>
-        <a href="/search/?tab=words">{t('search.words')}</a>
+        <a href="/search/?tab=songs">{t('search.songs')}</a>
         <a href="/books/">{t('books.title')}</a>
         <a href="/set/">{t('nav.set')}</a>
       </nav>

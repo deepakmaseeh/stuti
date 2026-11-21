@@ -1,0 +1,131 @@
+{
+  "slug": "rooh-aa-rooh-aa-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "349"
+    }
+  ],
+  "title": {
+    "native": "रूह आ… रूह आ … …2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "रूह आ… रूह आ … …2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रूहे पाक खुदावन्त आ रूह आ… रूह आ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान जिस्म और रूह मे तु बसजा… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ… रूह आ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "रूह के शोले लपक लपक जब आते है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बंधन सारे टूटक गिरते जाते है… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "बारीश होगी रूहे पाक के बादल से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धूल जायेंगे मैल ये मन के अम्दर से… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "रूह के सूरत में येशु जब आयेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तहस नहस होगा शैतान हिल जायेगा… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-16"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#16",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#16",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

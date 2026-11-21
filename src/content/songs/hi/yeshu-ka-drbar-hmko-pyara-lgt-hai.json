@@ -1,0 +1,121 @@
+{
+  "slug": "yeshu-ka-drbar-hmko-pyara-lgt-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "314"
+    }
+  ],
+  "title": {
+    "native": "येशु का दरबार हमको… प्यारा लगत है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु का दरबार हमको… प्यारा लगत है…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्यारा लगत है… दुलारा लगत है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "येशु के दरबार में… कौन कौन आए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अंधे लुले लाचार… हमको प्यारा लगत है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "येशु के दरबार में… क्या क्या मिलत है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शांती और मुक्ति उद्धार… हमको प्यारा लगत है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "येशु के दरबार में… क्या क्या मिलत है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुरख और पंडित गवार… हमको प्यारा लगत है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-75"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#75",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#75",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

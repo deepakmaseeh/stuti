@@ -1,0 +1,130 @@
+{
+  "slug": "pyar-kroonga-aur-bhee-yeeshu-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "358"
+    }
+  ],
+  "title": {
+    "native": "प्यार करूँगा… और भी यीशु से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्यार करूँगा… और भी यीशु से …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना और भी गहराई से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरे मन से आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरे बल से प्रेम भी करू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आराधना … आराधना… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "एबनेज्,ार हो … तु एबनेज्,ार हो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब तक तू सहारा मेरा … … पूरे मन से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एलरोई … एलरोई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "याद किया धन्यवाद प्रभु … … पूरे मन से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यहोवा राफा … यहोवा राफा …",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चंगा किया … धन्यवाद प्रभु … … पूरे मन से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "worship",
+    "ccf-28"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#28",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#28",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

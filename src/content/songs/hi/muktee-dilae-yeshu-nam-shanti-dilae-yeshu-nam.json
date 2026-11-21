@@ -1,0 +1,169 @@
+{
+  "slug": "muktee-dilae-yeshu-nam-shanti-dilae-yeshu-nam",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "303"
+    }
+  ],
+  "title": {
+    "native": "मुक्ती दिलाए येशु नाम… शांति दिलाए येशु नाम",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मुक्ती दिलाए येशु नाम… शांति दिलाए येशु नाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुक्ती दिलाए येशु नाम… शांति दिलाए येशु नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "चरणों मे तुने जनम लिया येशु",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सूलीपे किया विश्राम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "येशु दया का गहरा सागर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु है दाता महान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "हम पर भी येशु कॄपा करना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम है पापी निहार",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "हम सबके पापों को मिटाने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु हुआ बलिदान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "क्रुस पर अपना खून बहाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारा चुकाया दाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "क्रूस पर ही येशु विजयी हुआ है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देने को अनंत जीवदान",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-58"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#58",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#58",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "jump-jump-jump-in-to-the",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "97"
+    }
+  ],
+  "title": {
+    "native": "Jump, jump, jump in to the",
+    "roman": "",
+    "en": "Jump, jump, jump in to the"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "Jump, jump, jump in to the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Light, light, light",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Run, run, run away from",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "what’s not right",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Jump, jump, jump out of the",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Dark, dark, dark",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Run to Jesus give him your heart",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "He is the light (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "I am the light (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "You are the light (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#97",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#97",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

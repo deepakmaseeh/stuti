@@ -4,22 +4,31 @@ import { loadNumbers, lookupNumber } from '../../lib/search';
 import { songUrl } from '../../lib/songs';
 import { storage, updatePrefs } from '../../lib/storage';
 import { site } from '../../site.config';
+import BrowsePanel from './BrowsePanel';
 import Keypad, { type BookChip } from './Keypad';
-import WordSearch from './WordSearch';
+import SongListPanel from './SongListPanel';
 
-type Tab = 'number' | 'words';
+type Tab = 'browse' | 'number' | 'songs';
 type Deep = { book?: string; n?: string; q?: string };
 
-const TABS: Tab[] = ['number', 'words'];
+const TABS: Tab[] = ['browse', 'number', 'songs'];
+
+function tabLabel(id: Tab) {
+  if (id === 'browse') return t('desktop.browse');
+  if (id === 'number') return t('search.number');
+  return t('search.songs');
+}
+
+function normalizeTab(raw: string | undefined): Tab {
+  if (raw === 'number') return 'number';
+  if (raw === 'songs' || raw === 'words') return 'songs';
+  return 'browse';
+}
 
 export default function SearchTabs({ books }: { books: BookChip[] }) {
-  // Server render: Number tab. The real tab/deep link is applied after mount.
   const [desktop, setDesktop] = useState(false);
-  const [tab, setTab] = useState<Tab>('number');
-  /** undefined = not read yet (don't mount Keypad); object = URL/prefs applied once. */
+  const [tab, setTab] = useState<Tab>('browse');
   const [deep, setDeep] = useState<Deep | undefined>(undefined);
-  // Arrow-key tab switching keeps focus on the tabs; clicks and page load focus the search box.
-  const [focusInput, setFocusInput] = useState(true);
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   useEffect(() => {
@@ -38,26 +47,22 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
       q: p.get('q') ?? undefined,
     };
     if (d.book && d.n) {
-      // /search/?book=DT&n=117 opens the song straight away when the number exists.
       loadNumbers()
         .then((map) => {
           const id = lookupNumber(map, d.book!, d.n!);
-          // Full navigation (not the desktop preview pane): deep links and offline must land on the song page.
           if (id) location.replace(`${songUrl(id)}?from=${d.book!.toLowerCase()}`);
         })
         .catch(() => {});
       setTab('number');
-    } else if (d.q || p.get('tab') === 'words') setTab('words');
-    else {
-      const last = storage.prefs.get().lastTab;
-      setTab(last === 'words' ? 'words' : 'number');
-    }
+    } else if (d.q || p.get('tab') === 'words' || p.get('tab') === 'songs') setTab('songs');
+    else if (p.get('tab') === 'number') setTab('number');
+    else if (p.get('tab') === 'browse') setTab('browse');
+    else setTab(normalizeTab(storage.prefs.get().lastTab));
     setDeep(d);
   }, []);
 
   const choose = (next: Tab, focus = false) => {
     setTab(next);
-    setFocusInput(!focus);
     updatePrefs({ lastTab: next });
     if (focus) tabRefs.current[TABS.indexOf(next)]?.focus();
   };
@@ -65,17 +70,18 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
   const onKeyDown = (e: KeyboardEvent) => {
     if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
     e.preventDefault();
-    choose(tab === 'number' ? 'words' : 'number', true);
+    const i = TABS.indexOf(tab);
+    const next = TABS[(i + (e.key === 'ArrowRight' ? 1 : TABS.length - 1)) % TABS.length]!;
+    choose(next, true);
   };
 
-  // Desktop shell already has Finder; avoid a second Number/Words UI (and duplicate a11y roles).
   if (desktop) {
     return <p class="notice muted">{t('desktop.useFinder')}</p>;
   }
 
   return (
     <div class="search">
-      <div class="segmented" role="tablist" aria-label={t('search.title')} onKeyDown={onKeyDown}>
+      <div class="segmented segmented--3" role="tablist" aria-label={t('search.title')} onKeyDown={onKeyDown}>
         {TABS.map((id, i) => (
           <button
             ref={(el) => {
@@ -90,19 +96,20 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
             class="segmented__btn"
             onClick={() => choose(id)}
           >
-            {t(id === 'number' ? 'search.number' : 'search.words')}
+            {tabLabel(id)}
           </button>
         ))}
+      </div>
+      <div role="tabpanel" id="panel-browse" aria-labelledby="tab-browse" hidden={tab !== 'browse'}>
+        <BrowsePanel active={tab === 'browse'} />
       </div>
       <div role="tabpanel" id="panel-number" aria-labelledby="tab-number" hidden={tab !== 'number'}>
         {deep !== undefined && (
           <Keypad books={books} active={tab === 'number'} initial={deep} />
         )}
       </div>
-      <div role="tabpanel" id="panel-words" aria-labelledby="tab-words" hidden={tab !== 'words'}>
-        {deep !== undefined && (
-          <WordSearch active={tab === 'words'} autoFocus={focusInput} initialQuery={deep.q} />
-        )}
+      <div role="tabpanel" id="panel-songs" aria-labelledby="tab-songs" hidden={tab !== 'songs'}>
+        <SongListPanel active={tab === 'songs'} />
       </div>
     </div>
   );

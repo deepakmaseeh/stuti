@@ -1,0 +1,169 @@
+{
+  "slug": "my-jesus-my-savior",
+  "numbers": [
+    {
+      "book": "SS",
+      "number": "83"
+    }
+  ],
+  "title": {
+    "native": "My Jesus, My savior",
+    "roman": "",
+    "en": "My Jesus, My savior"
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "My Jesus, My savior,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Lord there is none like you",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "All of my days, I want to praise,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "the wonders of mighty love",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "My comfort, My shelter,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Tower of refuge and strength,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Let every breath all that I am",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Never cease to worship you",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Shout to the lord all the earth let us sing",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Power and majesty praise to the king",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Mountains bow down, and the seas will",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "roar",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "At the sound of your name",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "I’ll sing for the joy at the works of your",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "hand",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Forever I’ll love you, forever I’ll stand",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Nothing compares to the promise that I",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "have in you",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "sunday-school",
+    "children"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "147343845-sunday-school-song-lyrics.md#83",
+    "holder": "Jehovah Jireh Prayer House",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "147343845-sunday-school-song-lyrics.md#83",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,177 @@
+{
+  "slug": "dhny-dhny-yeshu-ko-dhny-kho",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "313"
+    }
+  ],
+  "title": {
+    "native": "धन्य धन्य येशु को धन्य कहो",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "धन्य धन्य येशु को धन्य कहो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "स्तुति योग्य प्रभु को धन्य कहो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सेनाओं का यहोवा पवित्र है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सेनाओं का यहोवा उद्धारख है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सेनाओं का यहोवा महाराजा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसी राजा के बेठे है धन्य कहो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "पापों का क्षमा किया… धन्य कहो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "श्रापों से छुडालीया… धन्य कहो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रोगों का चंगा किया… धन्य कहो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मधुर गीतों के साथ उस्से… धन्य कहो",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "परिक्षा में संभाला… धन्य कहो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "परिश्रम में विश्राम दिया… धन्य कहो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कष्टों से छुडाया… धन्य कहो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी शांति से भर दिया… धन्य कहो…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "सुबे शाम हमेशा… धन्य कहो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रात और दिन को… धन्य कहो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी जीवन को दे दिया… धन्य कहो…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और सदा जीवित है… धन्य कहो…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-74"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#74",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#74",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

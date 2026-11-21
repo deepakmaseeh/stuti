@@ -1,0 +1,141 @@
+{
+  "slug": "yeshu-mera-hath-na-chhodega-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "267"
+    }
+  ],
+  "title": {
+    "native": "येशु मेरा हाथ ना छोडेगा …2",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु मेरा हाथ ना छोडेगा …2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बडी आंधी आने से… बडा तूफान आने से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मेरा हाथ ना छोडेगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मैं भी उसका हाथ ना छोडूंगा…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बडी आंधी आने से… बडा तूफान आने से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं भी उसका हाथ ना छोडूंगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मेरा दिया जलता रहेगा…2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बडी आंधी आने से… बडा तूफान आने से…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा दिया जलता रहेगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "येशु मेरा हाथ ना छोडेगा …2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चाहे दुनिया छोड दे… अपने मुह भी मोड ले…",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "येशु मेरा हाथ ना छोडेगा …2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-9"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#9",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#9",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

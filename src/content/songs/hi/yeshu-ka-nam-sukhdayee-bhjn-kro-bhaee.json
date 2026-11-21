@@ -1,0 +1,158 @@
+{
+  "slug": "yeshu-ka-nam-sukhdayee-bhjn-kro-bhaee",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "288"
+    }
+  ],
+  "title": {
+    "native": "येशु का नाम सुखदायी भजन करो भाई",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "येशु का नाम सुखदायी भजन करो भाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन दो दिन का…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ये जीवन है माटी का पुतला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पानी पडत धुल जाई॥ भजन करो भाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन दो दिन का…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ये जीवन है फूलों का माला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धूप लगत मुरजाई॥ भजन करो भाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन दो दिन का…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "ये जीवन है चंदन की लकडी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आग लगत जल जाई॥ भजन करो भाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन दो दिन का…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "ये जीवन है कागज की टुकडा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हवा लगत उड जाई॥ भजन करो भाई",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन दो दिन का…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-35",
+    "ccf-40"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#35",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#35",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "prbhu-mera-jeevn",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "300"
+    }
+  ],
+  "title": {
+    "native": "प्रभु मेरा जीवन ॥",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "प्रभु मेरा जीवन ॥|",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने कितने आशीेषों से भरा॥|",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इसलिए मैं कहता हहूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से प्यार है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इसलिए मैं कहता हहूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से प्यार है मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और ऊँचा ऊँचा रहे तेरा नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "praise",
+    "ccf-55"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Church licensed collection for Stuti",
+    "evidence": "ccf-hindi-song-book.md#55",
+    "holder": "The Lucknow Baptist Church / CCF Ambernath",
+    "checkedBy": "import-md-books",
+    "checkedOn": "2026-11-21"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "ccf-hindi-song-book.md#55",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}
