@@ -1,0 +1,100 @@
+{
+  "slug": "aatma-pvitr-aatma-mujhko-too-ye-sikha",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "373"
+    }
+  ],
+  "title": {
+    "native": "आत्मा पवित्र आत्मा मुझको तू ये सिखा",
+    "roman": "Aatma Pavitra Aatma Mujhko Tu Yeh Sikha",
+    "en": ""
+  },
+  "aliases": [
+    "Aatma Pavitra Aatma Mujhko Tu Yeh Sikha"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आत्मा पवित्र आत्मा मुझको तू ये सिखा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा दिल तू बदल मुझे एक नई सृष्टि बना",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मुझको तू सिखा, कैसे घुटनों पे आऊं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको तू सिखा, कैसे आंसू बहाऊं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको तू सिखा, कैसे हाथ उठाऊं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको तू सिखा, कैसे स्तुति मै गाऊँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Aatma Pavitra Aatma Mujhko Tu Yeh Sikha.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "he-yeeshu-data-mere-khuda",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "389"
+    }
+  ],
+  "title": {
+    "native": "हे यीशु दाता, मेरे खुदा",
+    "roman": "hey yeshu data",
+    "en": ""
+  },
+  "aliases": [
+    "hey yeshu data"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हे यीशु दाता, मेरे खुदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करता हूँ स्तुति, आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "घुटनों से ऊँचा, कमर से भी ज़्यादा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझमें डूबूं यही, ख्वाहिश मेरी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरे प्रेम की, ऊँचाई को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चौड़ाई और गहराई को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जानू प्रभु बस यही, ख्वाहिश मेरी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "अपनी आग से, भर मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी शक्ति से, भर मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने जीवन से, भर मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे काम के लिए",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "प्रभु तेरा प्रेम, तेरे समान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रहता सदा, एक समान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर हाल में, वो कभी,बदलता नहीं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:hey yeshu data.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

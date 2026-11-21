@@ -1,0 +1,109 @@
+{
+  "slug": "aashchry-tere-jg-men-itne",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "432"
+    }
+  ],
+  "title": {
+    "native": "आश्चर्य तेरे जग में इतने",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आश्चर्य तेरे जग में इतने",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "कैसे मै तेरी महिमा गाऊं, शब्द भी कम पड़ जाएंलिखने बैठू तेरी बातें, कागज में ना समाएं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "- आश्चर्य तेरे जग में इतने, कैसे मै इनको बयान करू (2)तेरी प्रशंसा करू। ............... (2) धन्यवाद कहूं। .................... (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "474027512128500किससे करू मै तेरी तुलना, कौन है तेरे समान तूफ़ान भी सुनकर तेरी माने, सागर भी हट जाएं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आश्चर्य तेरे जग में इतने...........",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मै लायक नहीं, अर्पण मेरे, कुबूल कर ले,अनुग्रह से मुझको सम्पूर्ण कर दे।यीशु आ ........... ( 4 )",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आश्चर्य तेरे जग में इतने...........",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:आश्चर्य तेरे जग में इतने.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "bhr-do-prbhu-is-munh-ko-stuti-ke-geeton-se",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "438"
+    }
+  ],
+  "title": {
+    "native": "भर दो प्रभु इस मुँह को स्तुति के गीतों से",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "भर दो प्रभु इस मुँह को स्तुति के गीतों से",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "भर दो प्रभु इस मुँह को स्तुति के गीतों से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मंदिर हम हैं तेरे लिए महिमा हो इस जीवन से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आँखे तेरी है सारे जग में क्या कोई छिप सकता तुझ से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अग्नि समान अंतर भेदी और ज्ञानी है सबसे -भर दो प्रभु…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सारे विश्व में तू हाज़िर है कोने कोने को छान लेता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर मनुष्य की गति को तू जानता क्योँकि ऊपर है सबसे -भर दो प्रभु…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तेरा प्रेम अदभुत सनातन का है नहीं चाहता कोई नाश हो जाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आया इसलिए तू इस जग में प्राण देकर बचाया दंड से-भर दो प्रभु…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:भर दो प्रभु इस मुँह को स्तुति के गीतों से.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "halat-bdl-jaten-hain",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "445"
+    }
+  ],
+  "title": {
+    "native": "हालात बदल जातें हैं",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "-904876-295275हालात बदल जातें हैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "0हालात बदल जातें हैं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "हालात बदल जाते है -२ यीशु तेरे आने से –(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे आने से, तेरे आने से, तेरे आने से, आने से, आने से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोड़ों से चलनी हुआ, ज़ख्मों से चूर हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सूली की राहों पर, गम से न ढाल हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बीमार शिफ़ा पाते हैं-२ यीशु तेरे आने से-(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यायिर की बेटी को, यीशु ने जिंदा किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुर्दा लाज़र को, यीशु ने जिंदा किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुर्दे भी जी उठते हैं -२ यीशु तेरे आने से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सूली पे डाकू को, यीशु ने माफ़ किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खून की धारा से , सबको साफ़ किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बदकार बदल जाते हैं-2 यीशु तेरे आने से-(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:हालात बदल जाते है.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

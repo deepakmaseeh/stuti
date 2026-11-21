@@ -1,0 +1,167 @@
+{
+  "slug": "aavaj-aasman-pe-goonj-rhee-hai-ye",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "383"
+    }
+  ],
+  "title": {
+    "native": "आवाज़ आसमां पे, गूंज रही है ये",
+    "roman": "Daud bhi dekho yahowa ke bhawan mai",
+    "en": ""
+  },
+  "aliases": [
+    "Daud bhi dekho yahowa ke bhawan mai"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आवाज़ आसमां पे, गूंज रही है ये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पवित्र पवित्र पवित्र तू ही तो यहोवा …… 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "दूतों ने मिलकर फिर इक नया गीत ऊंचे सुरो में है गाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो ही नया गीत बनके मेरा मीत मेरे लबों पे है आया …… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या साज वो बजाते है और क्या उनको बजाने वाले है …… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तख़्त जलाली है जिसका लगा, वो तू ही तो यहोवा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आवाज़ आसमां पे …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "दाऊद भी देखो यहोवा के आंगन में झूम झूम कर गाए",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी परस्तिश में ऐसा वो नाचे की पाव भी थमने न पाएं …… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं भी दाऊद के जैसे गाऊंगा मैं भी उसकी परस्तिश में नाचुंगा …… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लबों पे है जिसकी सना, वो तू ही तो यहोवा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आवाज़ आसमां पे …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "अदभुत अनुग्रह हवाओं में फैला है कैसा है अदभुत नज़ारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मूसा के पास देखो बैठा एलिशा और यूसुफ है कितना प्यारा …… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहां सजदो पे सजदे होते है सब घुटने जहां पर झुकते है …… 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसकी मुहब्बत में दिल मेरा डूबा, वो तू ही तो यहोवा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आवाज़ आसमां पे …",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Daud bhi dekho yahowa ke bhawan mai.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

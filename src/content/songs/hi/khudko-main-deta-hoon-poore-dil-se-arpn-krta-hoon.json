@@ -1,0 +1,126 @@
+{
+  "slug": "khudko-main-deta-hoon-poore-dil-se-arpn-krta-hoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "396"
+    }
+  ],
+  "title": {
+    "native": "खुदको मैं देता हूँ, पूरे दिल से अर्पण करता हूँ",
+    "roman": "KHUDKO MAI DETA HUN PURE DIL SE ARPAN KARTA HUN",
+    "en": ""
+  },
+  "aliases": [
+    "KHUDKO MAI DETA HUN PURE DIL SE ARPAN KARTA HUN"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "खुदको मैं देता हूँ, पूरे दिल से अर्पण करता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कुम्हार के हाथो मे बर्तन समान, मुझको बना दे तू मेरे प्रभु।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं थक न जाऊं प्रभु, इस ज़िन्दगी में कभी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जब तक ये जान है प्रभु, संग तेरे रहना है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "अनुग्रह दे तेरी आत्मा से, ताकी बना रहू मैं सर्वदा। (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आपनी जान दी है तुने, यीशु मैं तेरा हूँ।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पीछे न हट जाऊं मैं, ऐसा दे सामर्थ प्रभु। (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "उद्धार की घोषणा करने, सामर्थ से मुझको तू भर दे प्रभु। (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वचनो पर स्थिर रहूँ मैं, यीशु तेरे आने तक।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझसे लिपटा रहूँ मैं, यीशु तू काफ़ी मुझे। (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:KHUDKO MAI DETA HUN PURE DIL SE ARPAN KARTA HUN.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

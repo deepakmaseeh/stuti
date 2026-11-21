@@ -1,0 +1,151 @@
+{
+  "slug": "kuchh-nheen-kuchh-nheen-chahie-khuda",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "399"
+    }
+  ],
+  "title": {
+    "native": "कुछ नहीं, कुछ नहीं चाहिए खुदा",
+    "roman": "Kuch Nahi kuch nahi chahiye",
+    "en": ""
+  },
+  "aliases": [
+    "Kuch Nahi kuch nahi chahiye"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "कुछ नहीं, कुछ नहीं चाहिए खुदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बस तू ही तू चाहिए -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मेरा पिता, मैं तेरा बेटा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये रिश्ता काफी है मुझे -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कुछ नहीं, कुछ नहीं चाहिए खुदा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तू चले, तो फिर मैं चलूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू रुके, तो मैं भी रुकूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू कहे, वो ही मैं सुनूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिखाए जो मुझे वो देखूं -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कुछ नहीं, कुछ नहीं चाहिए खुदा…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरा लहू यीशु तेरा लहू,तेरा लहू पाक करता हैतेरा लहू कुव्वत देता है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे लहू की धार से,मिटते गुनाह और खिलते हैं फूलतेरा लहू यीशु तेरा लहू,धोकर के साफ करता है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे लहू में जो छिपे,किसी भी बला से कभी न डरेतेरा लहू यीशु तेरा लहु,तेरा लहू हिम्मत देता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा लहू ढाल और किला,सबकी पनाह बस तू आसरातेरा लहू यीशु तेरा लहू,दिल में सुकून भरता है।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे लहू के झरनों से ज्ख्म तोक्या मिटे नासूर भीतेरा लहू यीशु तेरा लहूमरहम का काम करता है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Kuch Nahi kuch nahi chahiye.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

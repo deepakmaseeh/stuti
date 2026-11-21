@@ -1,0 +1,150 @@
+{
+  "slug": "tujhse-milee-hai-jindgee-dhnyvad-kroon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "434"
+    }
+  ],
+  "title": {
+    "native": "- तुझसे मिली है जिंदगी, धन्यवाद करूँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "- तुझसे मिली है जिंदगी, धन्यवाद करूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "439674010160000दुनिया की राहों में खो गया था, प्रभु ने बचा लिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पास आकर गले लगाकर, मुझे जिवन दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझसे मिली है जिंदगी, धन्यवाद करूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "46194828826500उसका वचन सुनकर मैंने, प्रभु को ग्रहण किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चरणों में आकर, मुझको मिली है, खुशियाँ प्रेम अपार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझसे मिली है जिंदगी, धन्यवाद करूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "431800011366500जब जब मैने तुझको पुकारा, तूने मेरी सुन ली है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हाथ पकड़कर संग चलकर, प्रभु ने राह दिखाई है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझसे मिली है जिंदगी, धन्यवाद करूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:तुझसे मिली है जिदंगी.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

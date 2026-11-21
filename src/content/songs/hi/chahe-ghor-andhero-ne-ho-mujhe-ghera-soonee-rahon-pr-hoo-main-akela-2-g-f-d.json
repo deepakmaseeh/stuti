@@ -1,0 +1,100 @@
+{
+  "slug": "chahe-ghor-andhero-ne-ho-mujhe-ghera-soonee-rahon-pr-hoo-main-akela-2-g-f-d",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "378"
+    }
+  ],
+  "title": {
+    "native": "चाहे घोर अंधेरो ने हो मुझे घेरा, सूनी राहों पर हू मैं अकेला - 2 G F D",
+    "roman": "Chahe Ghor Andhero Ne Ho",
+    "en": ""
+  },
+  "aliases": [
+    "Chahe Ghor Andhero Ne Ho"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "चाहे घोर अंधेरो ने हो मुझे घेरा, सूनी राहों पर हू मैं अकेला - 2 G F D",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं ना डरूँगा, मैं ना डरूँगा……",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मेरा बल, तू मेरी ढाल....... यीशु तू ही मेरी चट्टान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "निराशाओं ने हो जब घेरा, उलझनों में पड़ा मन मेरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं ना डरूँगा, मैं ना डरूँगा……",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मेरा बल, तू मेरी ढाल....... यीशु तू ही मेरी चट्टान।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Chahe Ghor Andhero Ne Ho (G Chord).docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

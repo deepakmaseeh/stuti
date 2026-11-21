@@ -1,0 +1,168 @@
+{
+  "slug": "hr-museebt-men-sbko-snbhala",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "382"
+    },
+    {
+      "book": "XMAS",
+      "number": "12"
+    }
+  ],
+  "title": {
+    "native": "हर मुसीबत में सबको संभाला",
+    "roman": "Rakhwala Yeshu Hai Rakhwala",
+    "en": ""
+  },
+  "aliases": [
+    "Rakhwala Yeshu Hai Rakhwala"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हर मुसीबत में सबको संभाला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "रखवाला…... यीशु है रखवाला - 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रखवाला…. आ...आ...आ... - 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ओ रखवाला रखवाला ….रखवाला ……",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रखवाला यीशु है रखवाला।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर मुसीबत में सबको संभाला - 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हर मुसीबत में वो काम आया मुझे -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मरते- मरते यीशु ने बचाया मुझे - 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मरते- मरते यीशु ने बचाया मुझे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "जब मसीहा का दीदार हो जायेगा – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा बिगड़ा हुआ काम बन जायेगा-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा बिगड़ा हुआ काम बन जायेगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "वो धरती का राजा वो सरकार है-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह निराला मसीहा का दरबार है-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह निराला मसीहा का दरबार है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip",
+    "christmas"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Rakhwala Yeshu Hai Rakhwala.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

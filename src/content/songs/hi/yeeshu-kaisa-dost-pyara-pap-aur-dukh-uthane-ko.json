@@ -1,0 +1,136 @@
+{
+  "slug": "yeeshu-kaisa-dost-pyara-pap-aur-dukh-uthane-ko",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "423"
+    }
+  ],
+  "title": {
+    "native": "यीशु कैसा दोस्त प्यारा, पाप और दुख उठाने को,",
+    "roman": "Yeshu Kaisa dost pyar",
+    "en": ""
+  },
+  "aliases": [
+    "Yeshu Kaisa dost pyar"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु कैसा दोस्त प्यारा, पाप और दुख उठाने को,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी शरण हम ले सकते, हम पर दुख का भार जब हो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कितना सुख हम उससे पाते, कितने दुख से बचते भी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो हम सभी को ले जाके, प्रभु को बताते ही।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "क्या परीक्षा में हम पड़े, व्याकुलता भी हो हमें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आशा प्रभु ही पर रख के, उससे जाके सब कहें।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सच्चा मित्र ऐसा कौन है, जो संभालें दुखों से,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारी निर्बलता वह जानता, उससे जाके सब कहें।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "क्या हम दबतें भारी बोझ से, बल भी जाता सब रहा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्यारा प्रभु है सहारा, उससे जा के सब कहें।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "क्या अनाथ और मित्र-हीन है, उससे जाके सब कहें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी गोद में वा उठा के, शांति देगा वह हमें।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Yeshu Kaisa dost pyar.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

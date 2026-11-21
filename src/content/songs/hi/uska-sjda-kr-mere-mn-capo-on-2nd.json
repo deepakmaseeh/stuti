@@ -1,0 +1,133 @@
+{
+  "slug": "uska-sjda-kr-mere-mn-capo-on-2nd",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "420"
+    }
+  ],
+  "title": {
+    "native": "उसका सजदा कर…. मेरे मन Capo on 2nd",
+    "roman": "Uska Sajda Kar",
+    "en": ""
+  },
+  "aliases": [
+    "Uska Sajda Kar"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "उसका सजदा कर…. मेरे मन Capo on 2nd",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "उसका सजदा कर…. मेरे मन, येशु नाम की स्तुति कर।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पहले से बढ़कर … मे..रे मन, येशु नाम की स्तुति कर।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सूर्य ऊगा एक नया दिन आया, फिर आया समय, तेरा गीत गाऊँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चाहे जो भी हो, और होता रहे अब, गाता रहूंगा जब तक शाम हो जाए।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तू प्रेम का धनी और क्रोध में है धीमा, बड़ा है नाम तेरी बड़ी दया।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी भलाई सदा गाता रहूँ मैं, हजारों वजह मेरे दिल में है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "और जिस दिन मेरा बल घट जाएं, अंत हो करीब, सब थम जाएं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तब भी मेरा प्राण ये गाता रहेगा, हजारों वर्ष और सर्वदा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Uska Sajda Kar.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

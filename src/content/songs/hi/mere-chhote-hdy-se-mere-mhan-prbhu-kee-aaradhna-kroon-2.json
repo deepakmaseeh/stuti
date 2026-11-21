@@ -1,0 +1,138 @@
+{
+  "slug": "mere-chhote-hdy-se-mere-mhan-prbhu-kee-aaradhna-kroon-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "390"
+    }
+  ],
+  "title": {
+    "native": "मेरे छोटे हृदय से, मेरे महान प्रभु की आराधना करूँ-2",
+    "roman": "Hosanna Hosanna yahudiyo ki raja ko",
+    "en": ""
+  },
+  "aliases": [
+    "Hosanna Hosanna yahudiyo ki raja ko"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मेरे छोटे हृदय से, मेरे महान प्रभु की आराधना करूँ-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "टूटे हुए कुंड को मेरे कुंभार के पास लाकर ठीक करने की विनती करूँ- 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "हो सन्ना....... हो सन्ना........ यहूदियों के राजा को",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हो सन्ना....... हो सन्ना........ आनेवाले राजा को",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मिट्टी से बनाया गया हूँ, फिर मिट्टी में जा मिलूँ- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझ मिट्टी को, महिमा में बदलने तेरे महिमा को त्याग दिया- 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "कदम लड़खड़ाते समय में, तेरी कृपा संभाला मुझे- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे कदम सिद्ध करके, तेरी सेवा में कृपा से चलाया मुझे- 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "इस संसार की यात्रा में, मेरे जीवन की सपना है- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे अंतिम स्वास, जाने तक, तेरे नाम को प्रकाशित करूँ- 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Hosanna Hosanna yahudiyo ki raja ko.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

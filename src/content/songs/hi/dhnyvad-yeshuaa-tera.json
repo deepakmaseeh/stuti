@@ -1,0 +1,112 @@
+{
+  "slug": "dhnyvad-yeshuaa-tera",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "386"
+    }
+  ],
+  "title": {
+    "native": "धन्यवाद येशुआ तेरा",
+    "roman": "Dhanyawad yeshuaa",
+    "en": ""
+  },
+  "aliases": [
+    "Dhanyawad yeshuaa"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "धन्यवाद येशुआ तेरा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरी हर चाहत को, पूरा तूने है किया येशुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर भूख मेरी, तूने है जाना,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "धन्यवाद येशुआ तेरा, धन्यवाद येशुआ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "मेरी सोच से परे, आश्चर्य कामो से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कठिनाइयों में सब, उजडा लगे पर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Dhanyawad yeshuaa.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

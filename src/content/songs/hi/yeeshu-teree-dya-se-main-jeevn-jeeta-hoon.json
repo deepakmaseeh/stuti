@@ -1,0 +1,161 @@
+{
+  "slug": "yeeshu-teree-dya-se-main-jeevn-jeeta-hoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "440"
+    }
+  ],
+  "title": {
+    "native": "यीशु तेरी दया से, मैं जीवन जीता हूँ",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "32723347429500 यीशु तेरी दया से, मैं जीवन जीता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरी कृपा से, मैं आगे बढ़ता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "- धन्यवाद...धन्यवाद...यीशु तेरी धन्यवाद (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "39376368064500फूलों में रंग तुने डाला, पंछी को गाना तुने शिखाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सागर से गहरा प्यार तेरा, आसमानों से तुं है उँचा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "39719257429500भोजन से तृप्त करता, तन को मेरे कपड़ो से ढकता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे सारे दु:ख दर्द को, नृत्य में बदल देता है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "34747206921500तुं है यहोवा सालोम, शांति देनेवाला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुं है यहोवा नीस्सी, जय हरदम देनेवाला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "यीशु तेरी दया से, मैं जीवन जीता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरी कृपा से, अब तक मरा नहीं जींदा हूं मैं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद....(2), राजा तेरा धन्यवाद (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद....(2), यीशु तेरा धन्यवाद (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद....(2), पिता तेरा धन्यवाद (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद....(2), यीशु तेरा धन्यवाद (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:यीशु तेरी दया से.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "chata-hoon-main-dhnyvad-prbhu",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "377"
+    }
+  ],
+  "title": {
+    "native": "चढ़ाता हूँ मैं धन्यवाद प्रभु।",
+    "roman": "Chadhata Hu Main Dhanyavad Prabhu",
+    "en": ""
+  },
+  "aliases": [
+    "Chadhata Hu Main Dhanyavad Prabhu"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "चढ़ाता हूँ मैं धन्यवाद प्रभु।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "चढ़ाता हूँ मैं धन्यवाद प्रभु क्रूस के उस प्रेम के लिये,मारा गया और गाड़ा गया था, जी उठा मेरे लिये।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "काँटों का ताज पहना तूने सिर पर, हाथ पाँव ठोंके क्रूस पर तेरे,हुआ था बलि मेमने की नाई, सहा सब मेरे लिये। - 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "दुःख सहा तूने कि शांति मैं पाऊँ, क्रूस पर चढ़ा मेरे लिये,मृत्यु को सहा मैं जीवन पाऊँ, कैसा प्रेम मेरे लिये।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "देखता हूँ महिमित स्वर्ग मेरा, न पाया गुण से यह मेरे। ख़ुशी के आसू के साथ भजूं मैं, यह सब दान मेरे लिये।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Chadhata Hu Main Dhanyavad Prabhu.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

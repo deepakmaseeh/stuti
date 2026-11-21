@@ -1,0 +1,94 @@
+{
+  "slug": "yeeshu-mera-chrvaha-main-uska-gun-gata-hoon-chhotee-uskee-bhe-uske-peechhe-jata",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "424"
+    }
+  ],
+  "title": {
+    "native": "यीशु मेरा चरवाहा, मैं उसका गुण गाता हूं,छोटी उसकी भेड़ उसके पीछे जाता हूं।",
+    "roman": "Yeshu mera charwaha mein uska gun gata hun",
+    "en": ""
+  },
+  "aliases": [
+    "Yeshu mera charwaha mein uska gun gata hun"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु मेरा चरवाहा, मैं उसका गुण गाता हूं,छोटी उसकी भेड़ उसके पीछे जाता हूं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हरियाली चारागाह मुझे चराता है और निर्मल सोतों से मुझे पिलाता है, वह आगे आगे चलता है, रक्षा भी करता जाता है, उसकी मधुर वाणी से मैं तृप्त हो जाता हूं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मौत की घाटी से मुझे ले जाता है, जंगल के खतरों से मुझे बचाता है, वह मरहम पट्टी करता है, ढाढ़स भी मुझे देता है, उसकी प्रेम सेवा से मैं आनन्द पाता हूं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुश्मन के सामने वह मेज़ बिछाता है, कटोरा आनन्द से उमड़ा जाता है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वह पाक पवित्र करता है, आत्मा का दान देता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी रोज सहायता से मैं जय पता हूँ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Yeshu mera charwaha mein uska gun gata hun.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

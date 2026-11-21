@@ -1,0 +1,139 @@
+{
+  "slug": "eeshvr-pita-ne-sare-jgt-se-aisa-prem-kiya",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "392"
+    }
+  ],
+  "title": {
+    "native": "ईश्वर पिता ने सारे जगत से, ऐसा प्रेम किया",
+    "roman": "Ishwar pita ne sare jagat se",
+    "en": ""
+  },
+  "aliases": [
+    "Ishwar pita ne sare jagat se"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "ईश्वर पिता ने सारे जगत से, ऐसा प्रेम किया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ईश्वर पिता ने सारे जगत से, ऐसा प्रेम किया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापों से हमको मुक्ति दिलाने, यीशु मसीह को दिया-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे जगत में, एक अजब सा छाया था अँधियारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राहें नहीं थी मंज़िल नहीं थी, इंसान था बेसहारा...2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सत्य वही है रास्ता वही है, सब की शरण है वही",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "आओं थके और बेचैन लोगों, आराम देगा वही...2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "लाएगा जो भी ईमान उस पर, बर्बाद होगा नहीं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "जीवन मिलेगा उसको सदा का, दिल में रहेगा मसीह...2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Ishwar pita ne sare jagat se.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

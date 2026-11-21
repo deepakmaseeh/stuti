@@ -1,0 +1,128 @@
+{
+  "slug": "chkhkr-mainne-jana-hai-yhova-kaisa-hai-bhla",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "379"
+    }
+  ],
+  "title": {
+    "native": "चखकर मैंने जाना है, यहोवा कैसा है भला",
+    "roman": "Chakkar maine jana hai yahowa kaisa hai bhala",
+    "en": ""
+  },
+  "aliases": [
+    "Chakkar maine jana hai yahowa kaisa hai bhala"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "चखकर मैंने जाना है, यहोवा कैसा है भला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उद्धारकर्ता की शरण में, मैं आकर धन्य हुआ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन भर मैं तेरी, स्तुति सदा करूँगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उत्तम पदार्थों से, तूने मुझको है तृप्त किया। चखकर…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "जीवन भर मैं तेरी, करूणा को ना भूलूँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "संकट में जब मैं पड़ा, तूने आकर सहारा दिया। चखकर…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "प्रतिकूल परिस्थिति में, सामर्थ मैंने तेरी देखी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "अपने वायदों को तूने, मेरे जीवन में पूरा किया। चखकर…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Chakkar maine jana hai yahowa kaisa hai bhala.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

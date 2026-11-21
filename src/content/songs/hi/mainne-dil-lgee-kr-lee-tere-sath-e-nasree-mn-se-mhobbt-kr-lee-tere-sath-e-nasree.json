@@ -1,0 +1,126 @@
+{
+  "slug": "mainne-dil-lgee-kr-lee-tere-sath-e-nasree-mn-se-mhobbt-kr-lee-tere-sath-e-nasree",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "404"
+    }
+  ],
+  "title": {
+    "native": "मैंने दिल लगी कर ली, तेरे साथ ए नासरी, मन से महोब्बत कर ली, तेरे साथ ए नासरी",
+    "roman": "Maine dil lagi karli",
+    "en": ""
+  },
+  "aliases": [
+    "Maine dil lagi karli"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मैंने दिल लगी कर ली, तेरे साथ ए नासरी, मन से महोब्बत कर ली, तेरे साथ ए नासरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल लगा लिया मैंने, तेरे साथ हां मैंने, अपना तुझे माना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मन से मोहब्बत कर ली, तेरे साथ ए नासरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैंने दिल-लगी कर ली…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरा नाम सबसे मीठा है, शहद से भी मीठा है- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझको लगन लग गई, तेरे साथ ए नासरी- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल लगा लिया मैंने…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरा हाथ मेरी डोर है, मेरा ना कोई ओर है- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान तेरे नाम कर दी, मेरे प्यारे ए नासरी- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल लगा लिया मैंने…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Maine dil lagi karli.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

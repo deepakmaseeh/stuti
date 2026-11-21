@@ -1,0 +1,155 @@
+{
+  "slug": "mainne-dhoondha-ye-sara-jhan-tere-jaisa-na-koee-mila",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "403"
+    }
+  ],
+  "title": {
+    "native": "मैंने ढूंढा ये सारा जहां, तेरे जैसा ना कोई मिला",
+    "roman": "Maine dhunda ye sara jahan",
+    "en": ""
+  },
+  "aliases": [
+    "Maine dhunda ye sara jahan"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मैंने ढूंढा ये सारा जहां, तेरे जैसा ना कोई मिला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मैंने ढूंढा ये सारा जहां, तेरे जैसा ना कोई मिला – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैंने ढूंढा ये सारा जहां, तेरे जैसा ना कोई मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे गुनाहों से मुझको बचाने, तूने खुदा अपनी जिंदगी थी वारी – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने कर दी है कीमत अदा, तेरे जैसा ना कोई मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुनिया के आगे दुहाई बहुत दी, आँसू के बिन ना मिला मुझको कुछ भी",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तुझको मिला जब मै तब तुझको जाना, तब तेरे आगे जो मैंने दुआ की – 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तूने सुन ली है मेरी दुआ, तेरे जैसा ना कोई मिला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "हसरत को पूरी तूने किया है, जो मैंने मांगा वो तूने दिया है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "देके सुकून मेरी ज़िंदगी को तूने, मेरा हर एक बोझ तूने लिया है – 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "मेरी खुशियों की तू है वजह, तेरे जैसा ना कोई मिला",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Maine dhunda ye sara jahan.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

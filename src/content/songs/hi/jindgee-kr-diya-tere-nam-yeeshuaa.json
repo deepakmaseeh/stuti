@@ -1,0 +1,142 @@
+{
+  "slug": "jindgee-kr-diya-tere-nam-yeeshuaa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "429"
+    }
+  ],
+  "title": {
+    "native": "ज़िंदगी कर दिया तेरे नाम यीशुआ।",
+    "roman": "Zindagi Kar Diya Tere Naam Yeshua",
+    "en": ""
+  },
+  "aliases": [
+    "Zindagi Kar Diya Tere Naam Yeshua"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "ज़िंदगी कर दिया तेरे नाम यीशुआ।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ज़िंदगी ये मेरी है तेरी ही अमानत, जब तलक साँस है, मैं करू तेरी इबादत,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज़िंदगी कर दिया तेरे नाम यीशुआ, ज़िंदगी कर दिया तेरे नाम। - 4",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "चला जा रहा था, गुमनामियों में, ना थी कोई ज़िंदगी, ये मेरी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वीरानियाँ थी तन्हाईयां थी, मुश्किल मे थी ज़िंदगी ये मेरी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू जो मिला है ऐसे मसीहा, जैसे मिली रोशनी -- 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाने से तुझको पा लिया सबकुछ, अब है ना कोई कमी - कमी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल भी है तेरा, धड़कन भी तेरी, सांसें भी है अब तेरी, बस तेरी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब जो चल रहा हूँ, तेरी दया है, तेरा अनुग्रह महान। -- 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "मेरा आग़ाज़ तू है, मेरा अंजाम तू है, तू मेरा रहनुमा, मेरा रहबर भी तू है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा जीना भी तू है, और मरना भी तू है, मेरे सांसो का चलना भी, बस तू ही तू है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हां बस तू ही तू है।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Zindagi Kar Diya Tere Naam Yeshua.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

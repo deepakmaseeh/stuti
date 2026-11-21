@@ -1,0 +1,141 @@
+{
+  "slug": "yeeshu-tere-kreeb-aane-se-indgee-meree-bdl-gyee-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "426"
+    }
+  ],
+  "title": {
+    "native": "यीशु तेरे करीब आने से, ज़िन्दगी मेरी बदल गयी – 2",
+    "roman": "Yeshu Tere kareeb",
+    "en": ""
+  },
+  "aliases": [
+    "Yeshu Tere kareeb"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु तेरे करीब आने से, ज़िन्दगी मेरी बदल गयी – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने मुझे है बचाया ,तूने मुझे सहलाया – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं धन्यवाद करता रहूंगा, यीशु धन्यवाद करता रहूंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं धन्यवाद करता रहूंगा, यीशु धन्यवाद करता रहूंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद, धन्यवाद, धन्यवाद, धन्यवाद -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मैं जो पापों में डूबा हुआ था, और जो तुझसे दूर हुआ था -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने मुझे है छुड़ाया, अपनी राह पर चलाया -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं धन्यवाद करता रहूंगा, यीशु धन्यवाद करता रहूंगा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद, धन्यवाद, धन्यवाद, धन्यवाद -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यीशु ने ऐसा प्रेम जताया, मुझको अपना बेटा बनाया -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपना लहू बहाया, जीवन नया दिलाया -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं धन्यवाद करता रहूंगा, यीशु धन्यवाद करता रहूंगा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद, धन्यवाद, धन्यवाद, धन्यवाद -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Yeshu Tere kareeb.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

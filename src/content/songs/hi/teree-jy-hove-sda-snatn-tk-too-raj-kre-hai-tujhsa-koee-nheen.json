@@ -1,0 +1,154 @@
+{
+  "slug": "teree-jy-hove-sda-snatn-tk-too-raj-kre-hai-tujhsa-koee-nheen",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "415"
+    }
+  ],
+  "title": {
+    "native": "तेरी जय होवे सदा, सनातन तक तू राज करे, है तुझसा कोई नहीं।",
+    "roman": "Teri Jay Hove Sada",
+    "en": ""
+  },
+  "aliases": [
+    "Teri Jay Hove Sada"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "तेरी जय होवे सदा, सनातन तक तू राज करे, है तुझसा कोई नहीं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरी जय होवे सदा, सनातन तक तू राज करे, है तुझसा कोई नहीं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सिंहासन पे विराजमान, धरती गाये तेरी गुणगान, है तुझसा कोई नहीं।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "घुटनो पे,…. आते है, जय तेरी गाते है।-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तू महान ...महान ...महान ...है -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है तुझसा कोई नहीं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "परमेश्वर है तू, जग उद्धार है तू, सृष्टि का रचियता खुदा मेरा तू -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अल्फा है तू, ओमेगा भी तू, सारे मंडल का बादशाह है तू।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "जिसने देखा, यीशु तेरी ओर, पायेगा शिफा, तुझसे वो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यहोवा राफा, एलोहीम है तू, संग रहनेवाला खुदा है तू।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "तू महान ...महान ...महान ...है -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "है तुझसा कोई नहीं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Teri Jay Hove Sada (Tu Mahan Mahan Hai).docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

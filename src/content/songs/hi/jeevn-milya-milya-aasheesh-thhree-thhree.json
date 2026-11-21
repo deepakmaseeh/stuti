@@ -1,0 +1,162 @@
+{
+  "slug": "jeevn-milya-milya-aasheesh-thhree-thhree",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "394"
+    }
+  ],
+  "title": {
+    "native": "जीवन मिलया मिलया, आशीष ठहरी ठहरी",
+    "roman": "Jeevan Milya milya",
+    "en": ""
+  },
+  "aliases": [
+    "Jeevan Milya milya"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जीवन मिलया मिलया, आशीष ठहरी ठहरी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बरकत आयी आयी ऐ खुदा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बंधन टूटे टूटे, गम भी छूटे छूटे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आँसू सूखे सूखे ऐ खुदा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरी ढाल वो बन जाता, ख्याल रखता हर पल का",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे दुख सुख का साथी मेरे साथ साथ चलता",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ना मैं रूकना रुकना ना मैं थकना थकना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करूँगा महिमा महिमा ऐ खुदा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ईमान जो मैनें किया हाथ तेरा थमा लिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूने मुझ पे तरस किया मुझे चंगा कर दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आनन्द पाया पाया तू जबसे आया आया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुश्मन हारे हारे ऐ खुदा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "यीशु जीवन का सागर भरपूरी देता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुझे बेटा बनाकर वो आशीष वो देता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "न कोई तुझसा मिलया न कोई तुझसा होगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू सबसे सुन्दर सुन्दर ऐ खुदा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Jeevan Milya milya.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

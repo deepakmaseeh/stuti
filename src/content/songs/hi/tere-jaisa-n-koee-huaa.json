@@ -1,0 +1,127 @@
+{
+  "slug": "tere-jaisa-n-koee-huaa",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "414"
+    }
+  ],
+  "title": {
+    "native": "तेरे जैसा न कोई हुआ।)",
+    "roman": "Tere Jaisa Na Koi Huwa",
+    "en": ""
+  },
+  "aliases": [
+    "Tere Jaisa Na Koi Huwa"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "(तेरे जैसा न कोई हुआ।)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तेरे जैसा न कोई हुआ, तेरा जैसा न कोई होगा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू है महान, यीशु तू सबसे भला। – 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मुझको तूने जिन्दगी दी है, मेरे पापों से रिहा करके 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खून बहाया तूने, मुझको बचाया तूने, - 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल से कहता हूँ, तेरा शुक्रिया।……….. यीशु तू है महान…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "जीवन में तूने बरकत दी है, दिल की ख्वाईश पूरी की है -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो कुछ माँगा तुझसे, पूरा किया है - 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दिल से कहता हूँ, तेरा शुक्रिया। ……….. यीशु तू है महान…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Tere Jaisa Na Koi Huwa.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

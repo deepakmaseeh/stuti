@@ -1,0 +1,150 @@
+{
+  "slug": "yeeshu-mil-gya-mujhko-yeeshu-mil-gya-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "425"
+    }
+  ],
+  "title": {
+    "native": "यीशु मिल गया मुझको यीशु मिल गया -2",
+    "roman": "Yeshu Mil Gaya Mujhko",
+    "en": ""
+  },
+  "aliases": [
+    "Yeshu Mil Gaya Mujhko"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु मिल गया मुझको यीशु मिल गया -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तो जीवन में सब कुछ मिला -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "भटक रहा था मैं, अंधेरी राह पर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तन्हा अकेला, जाता किधर? -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "खोजते मुझको यीशु चला आया -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "और जीवन में सब कुछ मिला -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 7",
+      "lines": [
+        {
+          "n": "सूली पे ले लिया, पापों को मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जान दे दी बदले, जान के मेरे -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तोड़े सारे बंधन आज़ाद है किया -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और जीने का मकसद मिला -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Yeshu Mil Gaya Mujhko.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

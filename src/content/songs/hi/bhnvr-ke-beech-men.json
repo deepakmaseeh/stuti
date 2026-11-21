@@ -1,0 +1,112 @@
+{
+  "slug": "bhnvr-ke-beech-men",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "380"
+    }
+  ],
+  "title": {
+    "native": "भंवर के बीच में",
+    "roman": "Chattan Song",
+    "en": ""
+  },
+  "aliases": [
+    "Chattan Song"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "भंवर के बीच में",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "भंवर के बीच में तू कहता है थम जा, तू मेरी ताकत है तू ही मेरा ईमान।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "​बीते कल में तू साथ मेरे था, आज भी मेरे साथ है खड़ा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "उठते हुए उफ्फानो में, तू ही मेरी चट्टान,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "बीमारियों में तू कहता है उठ जा, यहोवा राफा तू ही मेरी शिफा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "​बीते कल में तू साथ मेरे था, आज भी मेरे साथ है खड़ा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Chattan Song.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

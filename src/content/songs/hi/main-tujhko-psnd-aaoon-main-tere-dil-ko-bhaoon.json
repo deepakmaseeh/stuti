@@ -1,0 +1,169 @@
+{
+  "slug": "main-tujhko-psnd-aaoon-main-tere-dil-ko-bhaoon",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "374"
+    }
+  ],
+  "title": {
+    "native": "मैं तुझको पसंद आऊं, मैं तेरे दिल को भाऊं,",
+    "roman": "Aisa mujhko bana",
+    "en": ""
+  },
+  "aliases": [
+    "Aisa mujhko bana"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मैं तुझको पसंद आऊं, मैं तेरे दिल को भाऊं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसा मुझको बना, ऐसा मुझको बना -(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरे अंदर तेरी आदतों को भर दे,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे अंदर तेरी चाहतों को भर दे -(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "(मैं तुझको पसंद आऊं…)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मैं ना करूँ मेरे मन की, दौडू़ तेरी मर्जी को -(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लग जाए ऐसी लत तेरी कुछ और ना अब रिझाये",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तेरी हर ख्वाहिश को, मैं अपनी आदत बना लूं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसा मुझको बना, ऐसा मुझको बना -(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "ऐसा तू भर दे -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसा तू भर दे मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुद सा बना दे -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुद सा बना दे मुझे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 6",
+      "lines": [
+        {
+          "n": "तेरी हर ख्वाहिश को, मैं अपनी आदत बना लूं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसा मुझको बना, ऐसा मुझको बना -(2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Aisa mujhko bana.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

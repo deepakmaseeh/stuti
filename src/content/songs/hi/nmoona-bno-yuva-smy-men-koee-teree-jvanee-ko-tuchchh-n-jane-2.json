@@ -1,0 +1,94 @@
+{
+  "slug": "nmoona-bno-yuva-smy-men-koee-teree-jvanee-ko-tuchchh-n-jane-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "406"
+    }
+  ],
+  "title": {
+    "native": "नमूना बनो युवा समय में ,कोई तेरी जवानी को तुच्छ न जाने -2",
+    "roman": "Namuna bano yuva samay mein",
+    "en": ""
+  },
+  "aliases": [
+    "Namuna bano yuva samay mein"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "नमूना बनो युवा समय में ,कोई तेरी जवानी को तुच्छ न जाने -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चाल से चलन से नमूना बनो ,युवा समय में -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रार्थना करने में नमूना बनो ,युवा समय में -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "संगती करने में नमूना बनो ,युवा समय में -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वचन पढ़ने में नमूना बनो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "युवा समय में -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Namuna bano yuva samay mein.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

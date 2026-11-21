@@ -1,0 +1,162 @@
+{
+  "slug": "dil-men-bsa-liya-hai-tujhko",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "418"
+    }
+  ],
+  "title": {
+    "native": "दिल में बसा लिया है तुझको",
+    "roman": "Teri tarif ho",
+    "en": ""
+  },
+  "aliases": [
+    "Teri tarif ho"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "दिल में बसा लिया है तुझको",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रूह में समा लिया है तुझको -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, तेरी तारीफ हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, ऐ यीशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मेरे लिए तू मरा, सूली पे था तू चढ़ा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू कैसा पिया, लहू से मोल लिया -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, तेरी तारीफ हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, ऐ यीशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "वंदना हो अब तेरी, आराधना हो अब तेरी -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आशा यही नासरी, पूजा करूं मैं तेरी -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, तेरी तारीफ हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, ऐ यीशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तू है सुकून मेरा, तू ही है मेरी शिफा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जीवन बसर साथ हो, यही है मेरी दुआ -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, तेरी तारीफ हो",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी तारीफ हो, ऐ यीशु",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Teri tarif ho.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

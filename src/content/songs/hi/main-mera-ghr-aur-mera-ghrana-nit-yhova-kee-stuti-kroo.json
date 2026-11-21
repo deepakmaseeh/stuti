@@ -1,0 +1,142 @@
+{
+  "slug": "main-mera-ghr-aur-mera-ghrana-nit-yhova-kee-stuti-kroo",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "387"
+    }
+  ],
+  "title": {
+    "native": "मैं मेरा घर और मेरा घराना, नित यहोवा की स्तुति करू",
+    "roman": "Ebenezere",
+    "en": ""
+  },
+  "aliases": [
+    "Ebenezere"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मैं मेरा घर और मेरा घराना, नित यहोवा की स्तुति करू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "माँ के समान तूने प्यार किया, हर दर्द को तूने सहलाया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एबेनेज़र, एबेनेज़र, तूने मुझे संभाला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एबेनेज़र, एबेनेज़र, तूने मुझे बचाया है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य धन्य धन्यवाद, अब्बा पिता तेरा धन्यवाद",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्य धन्य धन्यवाद, गले से लगाया धन्यवाद",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "टूटे हुए मन को तूने सवारा, खुशियों से है भरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे हर दुखो को तूने उठाया, मैं धन्यवाद करता रहूँगा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "सब नामो से ऊँचा तेरा ही नाम, मांगने से ज्यादा मिला",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने हाथो से मुझको बुनाया, तेरी राहों पर चलना सिखाया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "ज्ञानिओं के बीच तेरी बुलाहट, मुझ मूर्खता को जीवन दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं योग्य नहीं हु प्रभुजी, अपना बेटा मुझको बनाया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Ebenezere.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

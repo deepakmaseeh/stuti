@@ -1,0 +1,101 @@
+{
+  "slug": "shahon-ka-shah-hai-tu-khuda-tera-n-koee-mukabla-tera-hee-tt-rhe-sbse-ooncha",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "388"
+    }
+  ],
+  "title": {
+    "native": "शाहों का शाह है तु खुदा तेरा न कोई मुकाबला तेरा ही तख़्त रहे, सबसे ऊँचा",
+    "roman": "Hazaro zubane gaye",
+    "en": ""
+  },
+  "aliases": [
+    "Hazaro zubane gaye"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सारी सृष्टि पर, तेरा अधिकार, तू राजाधिराज है प्रभु तुझसे हैं ज़मीं, तुझसे आसमां, जग का तू मालिक प्रभु करते हैं सजदा, इबादत हो तेरी सदा -2हज़ारों जुबानें गाएं, तेरा ही नाम दोहराएं यीशु तू पवित्र है…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ऊँच-नीच का, न कोई वजूद, तेरे राज्य में, तेरे राज्य में हर किसी का है, स्वागत यहां, तेरे राज्य में, तेरे राज्य में तेरी रहमत में ही, तू लेता है सबको करीब हज़ारों जुबानें गाएं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरा ही नाम दोहराएं यीशु तू पवित्र है…2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "शाहों का शाह है तु खुदा तेरा न कोई मुकाबला तेरा ही तख़्त रहे, सबसे ऊँचा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हज़ारों जुबानें गाएं, तेरा ही नाम दोहराएं यीशु तू पवित्र है ….. 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Hazaro zubane gaye.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

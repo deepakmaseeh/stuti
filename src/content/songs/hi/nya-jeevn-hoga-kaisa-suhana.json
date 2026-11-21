@@ -1,0 +1,138 @@
+{
+  "slug": "nya-jeevn-hoga-kaisa-suhana",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "408"
+    }
+  ],
+  "title": {
+    "native": "नया जीवन होगा कैसा सुहाना,",
+    "roman": "Naya Jeeavan Hoga Kaisa Suhana",
+    "en": ""
+  },
+  "aliases": [
+    "Naya Jeeavan Hoga Kaisa Suhana"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "नया जीवन होगा कैसा सुहाना,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ तुम रहोगे.. वहाँ मैं रहूँगा... अनंत जीवन होगा। – 2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "दुनिया की ये शाम ढल जायेगी, कैसा सुहाना आलौकिक दिन होगा – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ तुम रहोगे.. वहाँ मैं रहूँगा... अनंत जीवन होगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "यीशु महिमा की धूम मचेगी, कैसा निराला ईश्वरीय दिन होगा। -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ तुम रहोगे.. वहाँ मैं रहूँगा... अनंत जीवन होगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "हाल्लेलुयाह हाल्लेलुयाह.... कैसा मनोरम आनंदमय दिन होगा। -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ योहन गाएगा, वहाँ पतरस नाचेगा....अनंत जीवन होगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "नरसिंघा जब फुका जाएगा, हम सब के सब पल में बदल जायेंगे। -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "राजा यीशु आएगा, हम को लेने आएगा...अनन्त जीवन होगा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Naya Jeeavan Hoga Kaisa Suhana.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "tootkr-bikhrne-n-dega-mujhe",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "419"
+    }
+  ],
+  "title": {
+    "native": "टूटकर बिखरने न देगा मुझे",
+    "roman": "Tootkar bikharne na dega mujhe",
+    "en": ""
+  },
+  "aliases": [
+    "Tootkar bikharne na dega mujhe"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "टूटकर बिखरने न देगा मुझे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "टूटकर बिखरने न देगा मुझे यीशु मसीह का प्यार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसने अकेला न छोड़ा मुझे कैसा अनोखा प्यार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "माँ की तरह मुझे थामेगा वो गिरने न देगा मुझे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे आँखों के आंसू को पोंछेगा वो बाहों में लेगा मुझे",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मेरी निर्बलता में मेरी सामर्थ यीशु मसीह का प्यार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसने अकेला न छोड़ा मुझे कैसा अनोखा प्यार",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशुआ आ आ यीशुआ आ आ यीशुआ आ आ",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Tootkar bikharne na dega mujhe.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

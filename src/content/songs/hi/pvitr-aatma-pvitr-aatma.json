@@ -1,0 +1,99 @@
+{
+  "slug": "pvitr-aatma-pvitr-aatma",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "409"
+    }
+  ],
+  "title": {
+    "native": "पवित्र आत्मा, पवित्र आत्मा",
+    "roman": "Pavitr atma mujhe le jao",
+    "en": ""
+  },
+  "aliases": [
+    "Pavitr atma mujhe le jao"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "पवित्र आत्मा, पवित्र आत्मा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "G Cसिर्फ तेरे लिये, यीशु तेरे लिये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सिर्फ तेरे लिये, यीशु तेरे लिये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सिर्फ तेरे लिये, यीशु तेरे लिये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं हाथ उठाता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "घुटने टिका कर, सर झुका कर, हाथ उठाता तेरे लियेसिर्फ तेरे लिये, यीशु तेरे लिये-3मैं सर झुकाता हूँ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ही मार्ग है, यीशु ही सत्य है",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Pavitr atma mujhe le jao.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

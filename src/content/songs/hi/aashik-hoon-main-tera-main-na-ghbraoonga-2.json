@@ -1,0 +1,105 @@
+{
+  "slug": "aashik-hoon-main-tera-main-na-ghbraoonga-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "401"
+    }
+  ],
+  "title": {
+    "native": "आशिक हूँ मैं तेरा, मैं ना घबराऊंगा (2)",
+    "roman": "Mai ashiq tera yeshu",
+    "en": ""
+  },
+  "aliases": [
+    "Mai ashiq tera yeshu"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आशिक हूँ मैं तेरा, मैं ना घबराऊंगा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू मेरा जिन्दा खुदा, तू ही तो मेरा मसीहा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दाऊद की तरह मैं नाचूँगा... यीशु... (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आज तो मैं यीशु, कुछ ऐसा गाऊंगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज तो मैं यीशु, कुछ ऐसा नाचुंगा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "शांति का राजा तू बादशाह मौत को तूने हरा दिया (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू-जो ज़िंदा है मैं झूमंगा...येशु... (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Mai ashiq tera yeshu.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

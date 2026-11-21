@@ -1,0 +1,136 @@
+{
+  "slug": "jaise-mata-smbhaltee-hai-vaise-yeeshu-smbhalega-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "433"
+    }
+  ],
+  "title": {
+    "native": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुयाह, हालेलुयाह, हालेलुयाह, हालेलुयाह (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "सीने से लगाएगा, चिन्ता सब मिटाएगा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "हाथ पकड़ के चलाएगा, चट्टान पर चढ़ाएगा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मेरे कारण घायल हुआ, मेरे पापों को उठा लिया (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "कभी भी ना छोड़ेगा, कभी भी ना त्यागेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:जैसे माता सम्भालती है.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

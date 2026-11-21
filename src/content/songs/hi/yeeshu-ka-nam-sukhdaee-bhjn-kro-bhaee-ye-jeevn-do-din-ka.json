@@ -1,0 +1,107 @@
+{
+  "slug": "yeeshu-ka-nam-sukhdaee-bhjn-kro-bhaee-ye-jeevn-do-din-ka",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "422"
+    }
+  ],
+  "title": {
+    "native": "यीशु का नाम सुखदाई, भजन करो भाई, ये जीवन दो दिन का",
+    "roman": "Yeshu ka naam sukdai",
+    "en": ""
+  },
+  "aliases": [
+    "Yeshu ka naam sukdai"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु का नाम सुखदाई, भजन करो भाई, ये जीवन दो दिन का",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ये जीवन है, माटी का पुतला,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये जीवन है, चंदन की लकड़ी,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "ये जीवन है, घास का तिनका,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "ये जीवन है, कागज की पुड़िया,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Yeshu ka naam sukdai.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

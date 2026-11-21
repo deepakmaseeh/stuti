@@ -1,0 +1,198 @@
+{
+  "slug": "dekhe-hain-tere-aashchry-ke-kam-hmne",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "384"
+    }
+  ],
+  "title": {
+    "native": "देखे हैं तेरे, आश्चर्य के काम हमने,",
+    "roman": "dekhe hai ascharya",
+    "en": ""
+  },
+  "aliases": [
+    "dekhe hai ascharya"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "देखे हैं तेरे, आश्चर्य के काम हमने,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखी है तेरी वफ़ादारी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "C दिल है यह कहता, है धन्य तू, येशु मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "F Gतुझमें पिता की देखी, महिमा सारी –2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमको चलाया संग तेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Am Gशुक्रगुज़ार हूँ मैं, शादमान हूँ मैं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Dm Cहासिल हूँ मैं तेरे प्यार का –2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं क्या और मेरा घराना तेरे सामने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "G Cजो प्यार करता तू इस कदर –2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "C Fपहचान मेरी, येशु, तेरी पहचान से",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "G Cतू रखता है हमें बेफिक्र –2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे बिना कुछ नहीं, मेरा सब कुछ तू ही",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "Am Gशुक्रगुज़ार हूँ मैं, शादमान हूँ मैं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Dm Cहासिल हूँ मैं तेरे प्यार का –2C Fतुझसे ही पाया है, तेरे लिए ही यह सब",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "C Fमेरी तो चाहत है, तू ही बस येशु मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "G Cमेरी ज़िंदगी हो तुझे कबूल – x2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे बिना कुछ नहीं, मेरा सब कुछ तू ही",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "Am Gशुक्रगुज़ार हूँ मैं, शादमान हूँ मैं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Dm Cहासिल हूँ मैं तेरे प्यार का –2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "तेरी सच्चाई है अबद तक, हा अबद तक",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "Am Gशुक्रगुज़ार हूँ मैं, शादमान हूँ मैं,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "Dm Cहासिल हूँ मैं तेरे प्यार का –2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:dekhe hai ascharya.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

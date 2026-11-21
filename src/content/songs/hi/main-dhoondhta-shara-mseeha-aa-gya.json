@@ -1,0 +1,168 @@
+{
+  "slug": "main-dhoondhta-shara-mseeha-aa-gya",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "402"
+    }
+  ],
+  "title": {
+    "native": "मैं ढूँढता सहारा मसीहा आ गया",
+    "roman": "Mai Dhonta sahara",
+    "en": ""
+  },
+  "aliases": [
+    "Mai Dhonta sahara"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "मैं ढूँढता सहारा मसीहा आ गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "मैं ढूँढता सहारा मसीहा आ गया-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे बोझ को उठाकर मेरे साथ चल दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं ढूँढता सहारा मसीहा आ गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "गुनाहों से जिंदगी मेरी हो रही थी जो खतम-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मसीहा ने अपने खून से धो दिए गुनाह मेरे-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे बोझ को उठाकर मेरे साथ चल दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं ढूँढता सहारा मसीहा आ गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "मेरे दिल को घायल कर दिया काई बार दुष्ट ने-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मसीहा ने अपने प्यार से भर दिए जाखम मेरे-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे बोझ को उठाकर मेरे साथ चल दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं ढूँढता सहारा मसीहा आ गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 5",
+      "lines": [
+        {
+          "n": "मसीहा बना सहारा, मसीहा बना हमारा-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मसीहा ने अब खुशी से भर दिए दिल मेरे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे बोझ को उठाकर मेरे साथ चल दिया",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं ढूँढता सहारा मसीहा आ गया",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Mai Dhonta sahara.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

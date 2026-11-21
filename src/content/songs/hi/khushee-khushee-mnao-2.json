@@ -1,0 +1,89 @@
+{
+  "slug": "khushee-khushee-mnao-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "397"
+    }
+  ],
+  "title": {
+    "native": "खुशी खुशी मनाओ – 2",
+    "roman": "Khushi khushi manao",
+    "en": ""
+  },
+  "aliases": [
+    "Khushi khushi manao"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "खुशी खुशी मनाओ – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बोलो बोलो मसीहा की जय जय जय – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिये आया, मेरे लिये जीया – 2, मेरे लिये यीशु ने दुःख उठाया – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे लिये मारा गया, मेरे लिये गाड़ा गया – 2, मेरे लिये फिर जी उठा, मेरा है मसीह – 2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मैं मसीह का हूँ, हम मसीह के हैं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Khushi khushi manao.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "aaj-mere-dil-men-ushee-hai-bat-koee-aisee-huee-hai-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "372"
+    }
+  ],
+  "title": {
+    "native": "आज मेरे दिल में ख़ुशी है, बात कोई ऐसी हुई है। --(2)",
+    "roman": "Aaj Mere Dil Me Khushi Hai Aaya Masih",
+    "en": ""
+  },
+  "aliases": [
+    "Aaj Mere Dil Me Khushi Hai Aaya Masih"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आज मेरे दिल में ख़ुशी है, बात कोई ऐसी हुई है। --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आया मसीह, आया मसीह,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आया मसीह, आया मसीह,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ख़ुशी मिलने लगी मुस्कुराने लगा, --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आज दिल से हर एक बोझ जाने लगा --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "रूह में एक नया गीत गाने लगा, --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "नया आनंद आनंद छाने लगा। --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यही तो है, यही तो है,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यही तो है येशु की अब्दी ख़ुशी ।................... आया मसीह..........",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "हाथ रुकते नहीं पैर थकते नहीं, --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चल पड़े है कदम अब ये रुकते नहीं --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "साथ में है मसीहा तो डरते नहीं --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम अंधेरों की राहों में चलते नहीं। --(2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमें मिली, हमें मिली,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हमें मिली, है आज नई रोशनी। ....................आया मसीह....",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Aaj Mere Dil Me Khushi Hai Aaya Masih.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

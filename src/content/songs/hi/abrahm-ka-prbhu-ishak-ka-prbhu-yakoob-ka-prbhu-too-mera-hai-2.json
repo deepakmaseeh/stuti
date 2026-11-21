@@ -1,0 +1,155 @@
+{
+  "slug": "abrahm-ka-prbhu-ishak-ka-prbhu-yakoob-ka-prbhu-too-mera-hai-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "430"
+    }
+  ],
+  "title": {
+    "native": "अब्राहम का प्रभु, इसहाक का प्रभु, याकूब का प्रभु, तू मेरा है (2)",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "chorus",
+      "label": "Chorus",
+      "lines": [
+        {
+          "n": "अब्राहम का प्रभु, इसहाक का प्रभु, याकूब का प्रभु, तू मेरा है (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू कभी न छोड़ेगा, तू कभी ना ठुकरायेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू मेरा है, तू मेरा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब्राहम का प्रभु, इसहाक का प्रभु, याकूब का प्रभु, तू मेरा है (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "- तू कभी न छोड़ेगा, तू कभी ना ठकरायेगा, तू मेरा है, तू मेरा है (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 2",
+      "lines": [
+        {
+          "n": "442468015367000जिसके हाथ में मेरा कल, जिसके हाथ में मेरा आज",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "और आने वाला कल, वो मेरा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "- तू कभी न छोड़ेगा, तू कभी ना ठकरायेगा, तू मेरा है, तू मेरा है (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "chorus",
+      "label": "Chorus 3",
+      "lines": [
+        {
+          "n": "410845013906500नदिया मुझे डूबा न सके, अग्नि मुझे ज़ला न सके",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरा हाथ जो तूने थामा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "- तू कभी न छोड़ेगा, तू कभी ना ठकरायेगा, तू मेरा है, तू मेरा है (3)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "जो आदि में था, जो शब्द खुद़ा संग था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो शब्द, खुदा ही था",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो मेरा है, वो मेरा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अब्राहम का प्रभु................",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:अब्राहम का प्रभु.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

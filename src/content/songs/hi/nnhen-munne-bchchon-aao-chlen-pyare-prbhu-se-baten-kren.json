@@ -1,0 +1,137 @@
+{
+  "slug": "nnhen-munne-bchchon-aao-chlen-pyare-prbhu-se-baten-kren",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "407"
+    }
+  ],
+  "title": {
+    "native": "नन्हें मुन्ने बच्चों आओ चलें, प्यारे प्रभु से बातें करें,",
+    "roman": "Nanhe munne bachche aao chale",
+    "en": ""
+  },
+  "aliases": [
+    "Nanhe munne bachche aao chale"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "नन्हें मुन्ने बच्चों आओ चलें, प्यारे प्रभु से बातें करें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलके चले, मिलके चलें, प्यारे प्रभु से बातें करें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "छोटा प्यारा यीशु कभी न लड़ा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम भी किसी से कभी न लड़े",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलके चले, मिलके चलें, प्यारे प्रभु से बातें करें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "कितनी अच्छी चीजें, वह देता हमें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "छोटा सा दिल भी उसी को दे दें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलके चले, मिलके चलें, प्यारे प्रभु से बातें करें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "प्यार से बुलाता है, यीशु तुम्हें,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उछलते और कूदते और गाते चलें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलके चले, मिलके चलें, प्यारे प्रभु से बातें करें",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Nanhe munne bachche aao chale.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

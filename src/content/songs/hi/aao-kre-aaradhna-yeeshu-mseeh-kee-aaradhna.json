@@ -1,0 +1,140 @@
+{
+  "slug": "aao-kre-aaradhna-yeeshu-mseeh-kee-aaradhna",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "431"
+    }
+  ],
+  "title": {
+    "native": "आओ करे आराधना यीशु मसीह की आराधना",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आओ करे आराधना यीशु मसीह की आराधना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो है मेरा खुदा वो है सबका खुदा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया, हालेलुया हालेलुया, हालेलुया (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "सृष्टि को रचने वाला वोही हम सबका रखवाला वोही (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "उसकी महिमा करे, उसकी महिमा करे (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया, हालेलुया हालेलुया, हालेलुया (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "उसके लहू से मिलती शिफा, पापों से सबको मिलती क्षमा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मिलता है जीवन नया (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया, हालेलुया हालेलुया, हालेलुया (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "चाहे जमीन हो या असमान, कोइ नहीं उसके समान (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो है ज़िंदा ख़ुदा, वो है ज़िंदा ख़ुदा (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हालेलुया, हालेलुया हालेलुया, हालेलुया (2)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:आओ करे आराधना यीशु मसीह की आराधना.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

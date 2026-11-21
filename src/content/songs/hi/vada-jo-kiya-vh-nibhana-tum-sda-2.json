@@ -1,0 +1,146 @@
+{
+  "slug": "vada-jo-kiya-vh-nibhana-tum-sda-2",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "421"
+    }
+  ],
+  "title": {
+    "native": "वादा जो किया, वह निभाना तुम सदा -2",
+    "roman": "Vaada Jo Kiya",
+    "en": ""
+  },
+  "aliases": [
+    "Vaada Jo Kiya"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "वादा जो किया, वह निभाना तुम सदा -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिस तरह मेरे परमेश्वर ने है साथ तुमको दिया -2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "स्वार्थ न हो शर्त न हो प्यार ऐसा करो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर कमी को प्यार से तुम दिल से पूरा करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर ख़ुशी हर गम में भी तुम दोनों साथ रहो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हर कदम पे बनके ताकत साथ चलते रहो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जो गलती हो अगर माफ़ कर दो उस तरह",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिस तरह मेरे परमेश्वर ने है माफ़ तुमको किया।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "आरज़ू है घर तुम्हारा प्यार से ही बने,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ज़िन्दगी में अब तुम्हारे खुदा ही पहले रहे।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सारे सपने सारे अरमां साथ पूरे करो एक हुए हो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "एक रहोगे ये आज वादा करो।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "करो इतना प्यार तूम जो कभी न हो ख़त्म,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिस तरह मेरे परमेश्वर ने है प्यार तुमसे किया।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Vaada Jo Kiya.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

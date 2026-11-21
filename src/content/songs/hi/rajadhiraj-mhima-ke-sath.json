@@ -1,0 +1,114 @@
+{
+  "slug": "rajadhiraj-mhima-ke-sath",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "412"
+    }
+  ],
+  "title": {
+    "native": "राजाधिराज, महिमा के साथ",
+    "roman": "Rajadhiraj Mahima ke sath",
+    "en": ""
+  },
+  "aliases": [
+    "Rajadhiraj Mahima ke sath"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "राजाधिराज, महिमा के साथ",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आ रहा है मेघों पर होके सवार-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुसीबत निंदा-दुःखों का सिलसिला,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खत्म होने का समय आ गया-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे प्रिय का जलाली चेहरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखने का अब समय आ गया-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सब दुःखों से परे – अनंत वास में,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ले जाने के लिये वो आ रहा है-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपने प्रिय के साथ, करने सदा का वास",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हम जाने वाले हैं, रहें हर पल तैयार-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Rajadhiraj Mahima ke sath.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

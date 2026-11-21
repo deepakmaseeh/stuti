@@ -1,0 +1,125 @@
+{
+  "slug": "kitna-hseen-vada-ye-kiya-khudavnd-ne",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "398"
+    }
+  ],
+  "title": {
+    "native": "कितना हसीन वादा ये,किया खुदावंद ने",
+    "roman": "Kitna haseen wada ye",
+    "en": ""
+  },
+  "aliases": [
+    "Kitna haseen wada ye"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "कितना हसीन वादा ये,किया खुदावंद ने",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "कितना हसीन वादा ये, किया खुदावंद ने -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ दो या तीन जमा हों, मैं हूँ हाज़िर उनमें -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझे अकेला ना छोड़ूँ मैं, रूह अपनी भेजूँ -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुझे अनाथ भी, ना छोड़ूँ, एक मददगार भेजूँ -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु के सिवा ये, बात कही किसने,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ दो या तीन जमा हों, मैं हूँ हाज़िर उनमें…..",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दस्तक वो देता है चाहे, हर दिल में आना -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "भरता उसको रूह से अपनी, जिसने उसे जाना -2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिसका बने है माली वो, कलियाँ लगे खिलने",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जहाँ दो या तीन जमा हों, मैं हूँ हाज़िर उनमें…..",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Kitna haseen wada ye.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

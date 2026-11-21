@@ -1,0 +1,141 @@
+{
+  "slug": "teree-stooti-hm-kren-aaradhna-kren",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "416"
+    }
+  ],
+  "title": {
+    "native": "तेरी स्तूति हम करें आराधना करें",
+    "roman": "Teri stuti main karu",
+    "en": ""
+  },
+  "aliases": [
+    "Teri stuti main karu"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "346710013525600तेरी स्तूति हम करें आराधना करें",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सच्चाई से... सच्चाई से...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "इस जहांन में तेरा राज्य हो-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ प्रभू... तू ही तू...",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "चाहे जहाँ... हम रहें… वहाँ तेरी स्तुती हो-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापियों को बचाता तू-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ यीशु… तू ही तू...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी स्तुति...",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "32099257810500खुशी और गम में, साथ है तेरा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आरम्भ और अन्त में, नाम है तेरा...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "विश्वासियों का सहारा तू-2",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐ प्रभू ... तू ही तू...",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी स्तुति...",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Teri stuti main karu chord - Copy.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

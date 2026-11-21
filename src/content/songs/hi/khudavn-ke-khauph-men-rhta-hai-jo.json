@@ -1,0 +1,157 @@
+{
+  "slug": "khudavn-ke-khauph-men-rhta-hai-jo",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "395"
+    }
+  ],
+  "title": {
+    "native": "खुदावन के खौफ में रहता है जो)",
+    "roman": "Khudawand Ke Khauf Me Rehta Hai Jo",
+    "en": ""
+  },
+  "aliases": [
+    "Khudawand Ke Khauf Me Rehta Hai Jo"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "(खुदावन के खौफ में रहता है जो)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "खुदावंद के खौफ में रहता है जो, उसकी राहों पे चलता है जो,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी मेहनत का फल वो पायेगा, अपनी मेहनत का फल वो पायेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "होगा वो मुबारक बरकत पायेगा,…. मुबारक हो सख्स है मुबारक",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "खुदावंद के खौफ में रहता है जो, उसकी राहों पे चलता है जो…",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "तेरी पत्नी तेरे घर के अंदर, मेवादार दाखलता जैसी रहेगी,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरे दस्तरखान पे तेरी औलाद, जैतुन के पौधों की मानिंद रहेगी",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसी बरकत उसी को मिलेगी, जो कि खुदा से डरता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी मेहनत का फल वो पायेगा, अपनी मेहनत का फल वो पायेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "होगा वो मुबारक बरकत पायेगा,…. मुबारक हो सख्स है मुबारक",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "खुदावंद सिय्योन से तुझे बरकत दे, और तू हमेशा भलाई देखे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखे तू बच्चों के बच्चों को, सलामती जिनकी हमेशा रहे",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ऐसी बरकत उसी को मिलेगी, जो कि खुदा से डरता है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अपनी मेहनत का फल वो पायेगा, अपनी मेहनत का फल वो पायेगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "होगा वो मुबारक बरकत पायेगा,…. मुबारक हो सख्स है मुबारक",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Khudawand Ke Khauf Me Rehta Hai Jo.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

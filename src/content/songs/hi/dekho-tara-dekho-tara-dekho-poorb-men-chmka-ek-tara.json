@@ -1,0 +1,151 @@
+{
+  "slug": "dekho-tara-dekho-tara-dekho-poorb-men-chmka-ek-tara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "385"
+    }
+  ],
+  "title": {
+    "native": "देखो तारा, देखो तारा, देखो पूरब में चमका एक तारा,",
+    "roman": "Dekho tara dekho tara",
+    "en": ""
+  },
+  "aliases": [
+    "Dekho tara dekho tara"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "देखो तारा, देखो तारा, देखो पूरब में चमका एक तारा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जन्म है येशु हमारा, हो देखो जन्म है येशु हमारा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरब में देखो चमका एक तारा, जन्म है देखो यीशु हमारा।",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पूरब में देखो चमका एक तारा, जन्म है देखो यीशु हमारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "देखो पूरब में, देखो पूरब में, देखो पूरब में, चमका एक तारा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जन्म है येशु हमारा, देखो जन्म है येशु हमारा।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "वो तारा जिसमें मिलती है शांति, वो तारा जिसमें मिलती है चंगाई।,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तारा देता पापों से मुक्ति, वो तारा जिसे मिलती है शक्ति",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वो तारा देता पापों से मुक्ति, वो तारा जिसे मिलती है शक्ति",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "वही तारा, वही तारा, वही तारा है येशु हमारा है, सबका वो पालनहारा,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हो देखो सबका वो पालनहार,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "मिलने को देखो ज्ञानी है आये, साथ वो अपने भेंट भी लाये",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सोना, लोबान, सोना, लोबान,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "सोना, लोबान गंधरास वो लाये, येशु का दर्शन वो पाये,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "हो देखो येशु का दर्शन वो पाये।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Dekho tara dekho tara.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

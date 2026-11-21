@@ -1,0 +1,110 @@
+{
+  "slug": "na-to-bl-se-na-shkti-se-pr-teree-aatma-ke-dvara",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "405"
+    }
+  ],
+  "title": {
+    "native": "ना तो बल से ना शक्ति से, पर तेरी आत्मा के द्वारा",
+    "roman": "Na toh Bal Se Na Shakti Se",
+    "en": ""
+  },
+  "aliases": [
+    "Na toh Bal Se Na Shakti Se"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "ना तो बल से ना शक्ति से, पर तेरी आत्मा के द्वारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ना तो बल से ना शक्ति से, पर तेरी आत्मा के द्वारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये पहाड़ टल जाएगा, ये पहाड़ टल जाएगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये पहाड़ टल जाएगा, पर तेरी आत्मा के द्वारा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "ना तो बल से ना शक्ति से, पर तेरी आत्मा के द्वारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ना तो बल से ना शक्ति से, पर तेरी आत्मा के द्वारा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये पहाड़ टल जाएगा, ये पहाड़ टल जाएगा",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "ये पहाड़ टल जाएगा, पर तेरी आत्मा के द्वारा",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Na toh Bal Se Na Shakti Se.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

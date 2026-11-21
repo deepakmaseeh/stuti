@@ -1,0 +1,108 @@
+{
+  "slug": "yeeshu-tera-nam-sbse-ooncha-hai",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "441"
+    }
+  ],
+  "title": {
+    "native": "यीशु तेरा नाम सबसे ऊँचा है",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "यीशु तेरा नाम सबसे ऊँचा है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "जिस नाम में है मुक्ति, जिस नाम में है शक्तिजिस नाम में है शांति, देता वो नाम चंगाईजिस नाम में है ज़िन्दगी, यीशु है वो नामजिस नाम में है बंदगी, यीशु है वो नाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरा नाम सबसे ऊँचा है (4)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पाप से, अन्धकार से; संसार से, है छुड़ाता।वो नाम है जो भटकों को, राह भी है दिखाता।जिस नाम में रौशनी यीशु है वो नामजिस नाम में है ज़िन्दगी, यीशु है वो नामयीशु तेरा नाम सबसे ऊँचा है (4)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बिमारी से गरीबी से, श्रापों से है छुड़ातावो नाम है जो अन्धो को रौशनी भी है देताजिस नाम में है ज़िन्दगी, यीशु है वो नामजिस नाम में है बंदगी, यीशु है वो नाम",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "393700028003500शालोम शांति और सलाम, लाये हैं आपके नाम। शालोम शांति और सलाम, मेरे यीशु का पैगाम",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तेरा नाम सबसे ऊँचा है (8)",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:येशु तेरा नाम सबसे ऊँचा है.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

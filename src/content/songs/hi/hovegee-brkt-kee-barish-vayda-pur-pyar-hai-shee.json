@@ -1,0 +1,117 @@
+{
+  "slug": "hovegee-brkt-kee-barish-vayda-pur-pyar-hai-shee",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "391"
+    }
+  ],
+  "title": {
+    "native": "होवेगी बरकत की बारिश, वायदा पुर प्यार है सही,",
+    "roman": "Howaigi barkat ki barish",
+    "en": ""
+  },
+  "aliases": [
+    "Howaigi barkat ki barish"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, वायदा पुर प्यार है सही,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "बरकत की बारिश, बरकत की बारिश भरपूर,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, होगी नई कूव्वत ज़रूर,",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, काश अभी पावें हम सब,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु तू ताज़गी अब बख्श दे, वायदे को पूरा कर अब",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 4",
+      "lines": [
+        {
+          "n": "होवेगी बरकत की बारिश, भेज उसे अभी, हाँ अब,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मानते गुनाह जब हम अपने, दे बारिश यीशु ऐ रब्ब",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Howaigi barkat ki barish.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "aashchry-tere-jg-men-itne-kaise-main-inko-byan-kroo",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "376"
+    }
+  ],
+  "title": {
+    "native": "आश्चर्य तेरे जग में इतने, कैसे मैं इनको बयान करू",
+    "roman": "Ashcharya Tere Jag Me Itne Kaise Mai Inko Bayaan Karun",
+    "en": ""
+  },
+  "aliases": [
+    "Ashcharya Tere Jag Me Itne Kaise Mai Inko Bayaan Karun"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "आश्चर्य तेरे जग में इतने, कैसे मैं इनको बयान करू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कैसे मैं तेरी महिमा गाऊं, शब्द भी कम पड़ जाएं",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "लिखने बैठू तेरी बातें, कागज में ना समाएं।-2",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "आश्चर्य तेरे जग में इतने, कैसे मैं इनको बयान करू-2 C D C D G",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तेरी प्रशंसा करू, तेरी प्रशंसा करू",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "धन्यवाद कहूं- धन्यवाद कहूं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "किससे करू मैं तेरी तुलना, कौन है तेरे समान",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तूफान भी सुनकर तेरी मानें, सागर भी हट जाएं।",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Ashcharya Tere Jag Me Itne Kaise Mai Inko Bayaan Karun.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

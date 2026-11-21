@@ -1,0 +1,116 @@
+{
+  "slug": "raho-men-kante-agr-ho-rukna-nheen-chlte-jana",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "411"
+    }
+  ],
+  "title": {
+    "native": "राहो में कांटे अगर हो, रुकना नहीं, चलते जाना",
+    "roman": "Raho mein kaante agar ho",
+    "en": ""
+  },
+  "aliases": [
+    "Raho mein kaante agar ho"
+  ],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "राहो में कांटे अगर हो, रुकना नहीं, चलते जाना",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "राहो में कांटे अगर हो, रुकना नहीं, चलते जानायीशु तेरे साथ है, ये तू विश्वास करना",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "संसार के अंत तक, वो तेरे साथ है",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "आंधी आने दो, या आने दो तूफानआंधी आने दो, या आने दो तूफानवो नईया क्या डूबेगी, जिसमें है यीशु महान?",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दुख से भरी है जिंदगी, मुसीबत भरे रास्ते हैंदुख से भरी है जिंदगी, मुसीबत भरे रास्ते हैंदुःख दूर हो जाएंगे तेरे, अगर तू यीशु के साथ हैं",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 3",
+      "lines": [
+        {
+          "n": "अगर मौत का डर सताए तुझे, सलीब पर तू गौर कर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अगर मौत का डर सताए तुझे, सलीब पर तू गौर कर",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "यीशु ने मौत को जीत लिया हैं, उसपर तू विश्वास कर",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:Raho mein kaante agar ho.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}

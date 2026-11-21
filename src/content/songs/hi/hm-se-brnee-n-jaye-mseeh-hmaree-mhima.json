@@ -1,0 +1,148 @@
+{
+  "slug": "hm-se-brnee-n-jaye-mseeh-hmaree-mhima",
+  "numbers": [
+    {
+      "book": "TLBC",
+      "number": "444"
+    }
+  ],
+  "title": {
+    "native": "हम से बरनी न जाये मसीह हमारी महिमा",
+    "roman": "",
+    "en": ""
+  },
+  "aliases": [],
+  "sections": [
+    {
+      "type": "verse",
+      "label": "Verse 1",
+      "lines": [
+        {
+          "n": "हम से बरनी न जाये मसीह हमारी महिमा |",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम स्वर्ग छोड़कर आये,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तुम मुक्ति पदारथ लाये,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पापी लिए बचाये |",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "अन्धो को आँखें दिना,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "कोढ़िन को चंगा कीना,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मुर्दे दिए जिलाये |",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "पानी पर चल दिखलाया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ने हवा को डांट थमाया,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "चेले लिए बचाये |",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे पाप क्षमा सब कीना,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "मेरे दिल में दर्शन दीना,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "प्रभु से दिया मिलाये |",
+          "r": "",
+          "e": ""
+        }
+      ]
+    },
+    {
+      "type": "verse",
+      "label": "Verse 2",
+      "lines": [
+        {
+          "n": "तू ने क्रूस पर बर्छी खाई,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "तू ने अमृत धार बहाई,",
+          "r": "",
+          "e": ""
+        },
+        {
+          "n": "दास सदा गुड गाये |",
+          "r": "",
+          "e": ""
+        }
+      ]
+    }
+  ],
+  "display": {
+    "chorusAfterEachVerse": false
+  },
+  "author": {
+    "name": "Unknown",
+    "born": null,
+    "died": null
+  },
+  "composer": null,
+  "tune": null,
+  "year": null,
+  "bibleRefs": [],
+  "tags": [
+    "tlbc",
+    "bhajan",
+    "imported-zip"
+  ],
+  "rights": {
+    "status": "licensed",
+    "basis": "Used by The Lucknow Baptist Church",
+    "evidence": "Song.zip church lyric sheet",
+    "holder": "The Lucknow Baptist Church",
+    "checkedBy": "import-zip-new-tlbc",
+    "checkedOn": "2026-11-19"
+  },
+  "layers": {
+    "roman": "missing",
+    "en": "missing"
+  },
+  "source": {
+    "scan": "song-zip:हम से बरनी न जाये मसीह हमारी महिमा.docx",
+    "page": null
+  },
+  "chords": null,
+  "media": {
+    "youtube": null
+  },
+  "updated": "2026-11-19",
+  "publish": true
+}
