@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "On whose side I’m leaning on (2)",
+          "n": "On whose side I’m leaning on",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Leaning on the lords side",

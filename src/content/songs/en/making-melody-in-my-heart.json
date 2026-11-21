@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "Making melody in my heart (3)",
+          "n": "Making melody in my heart",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         },
         {
           "n": "Unto the kings of kings",

@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "that’s the way it should be (2)",
+          "n": "that’s the way it should be",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "I may be very sad, you may be very sad",
@@ -43,9 +44,10 @@
           "e": ""
         },
         {
-          "n": "brothers like that’s the way it should be (2)",
+          "n": "brothers like that’s the way it should be",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

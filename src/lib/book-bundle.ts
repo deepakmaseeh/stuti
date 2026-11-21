@@ -24,7 +24,10 @@ export function songToBundleEntry(song: Song): BookBundleSong {
     sec: song.sections.map((s) => ({
       type: s.type,
       label: s.label,
-      lines: s.lines.map((l) => [l.n, l.r ?? '', l.e ?? ''] as [string, string, string]),
+      lines: s.lines.map((l) => {
+        const n = l.x && l.x > 1 ? `${l.n} (${l.x})` : l.n;
+        return [n, l.r ?? '', l.e ?? ''] as [string, string, string];
+      }),
     })),
   };
 }

@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "I’ll say yes to the lord (2)",
+          "n": "I’ll say yes to the lord",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "No more no way but yes lord",
@@ -48,9 +49,10 @@
           "e": ""
         },
         {
-          "n": "I’ll say yes to the lord (2)",
+          "n": "I’ll say yes to the lord",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "No more no way but yes lord",

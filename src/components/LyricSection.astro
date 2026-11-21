@@ -18,7 +18,7 @@ const isChorus = section.type === 'chorus' || section.type === 'refrain';
   <h2 class="sec__label">{section.label}</h2>
   {section.lines.map((line) => (
     <p class="line">
-      <LyricLine text={line.n} layer="n" lang={lang} />
+      <LyricLine text={line.n} layer="n" lang={lang} times={line.x} />
       {showRoman && line.r ? <LyricLine text={line.r} layer="r" lang={lang} /> : null}
       {showEnglish && line.e ? <LyricLine text={line.e} layer="e" lang={lang} /> : null}
     </p>

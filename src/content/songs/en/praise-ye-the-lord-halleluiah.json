@@ -18,24 +18,28 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "Praise ye the lord Halleluiah (3)",
+          "n": "Praise ye the lord Halleluiah",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         },
         {
-          "n": "Stuthinchudi Halleluiah (3)",
+          "n": "Stuthinchudi Halleluiah",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         },
         {
-          "n": "Dhanyavad karo Halleluiah (3)",
+          "n": "Dhanyavad karo Halleluiah",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         },
         {
-          "n": "China cha cha cho Halleluiah (3)",
+          "n": "China cha cha cho Halleluiah",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         }
       ]
     }

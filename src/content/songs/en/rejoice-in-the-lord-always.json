@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "And again I say Rejoice (2)",
+          "n": "And again I say Rejoice",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Rejoice, Rejoice and again I say",
@@ -39,9 +40,10 @@
       "label": "Verse 2",
       "lines": [
         {
-          "n": "Rejoice (2)",
+          "n": "Rejoice",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

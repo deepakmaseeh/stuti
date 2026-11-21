@@ -53,9 +53,10 @@
           "e": ""
         },
         {
-          "n": "When I’m sailing boat (3)",
+          "n": "When I’m sailing boat",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         }
       ]
     }

@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "God’s love is so wonderful (2)",
+          "n": "God’s love is so wonderful",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "So … wonderful love",

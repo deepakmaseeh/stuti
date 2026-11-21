@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "In the name of Jesus (2)",
+          "n": "In the name of Jesus",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "We have the victory. Halleluiah",
@@ -28,9 +29,10 @@
           "e": ""
         },
         {
-          "n": "In the name of Jesus (2)",
+          "n": "In the name of Jesus",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Satan will have to flee.",

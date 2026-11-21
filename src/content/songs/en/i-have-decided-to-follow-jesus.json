@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "I have decided to follow Jesus (3)",
+          "n": "I have decided to follow Jesus",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         },
         {
           "n": "No turning back, No turning back",

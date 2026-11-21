@@ -43,9 +43,10 @@
           "e": ""
         },
         {
-          "n": "I am in the lord’s army yes sir (2)",
+          "n": "I am in the lord’s army yes sir",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

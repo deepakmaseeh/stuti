@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "Godliness, Godliness (2)",
+          "n": "Godliness, Godliness",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     },
@@ -39,9 +40,10 @@
           "e": ""
         },
         {
-          "n": "And also promise for life to come (2)",
+          "n": "And also promise for life to come",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     },
@@ -71,9 +73,10 @@
           "e": ""
         },
         {
-          "n": "Godliness (2)",
+          "n": "Godliness",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

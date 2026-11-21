@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "jûTdT H #ûsTT $&Te&T (2)",
+          "n": "jûTdT H #ûsTT $&Te&T",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "ÔáTbÍqT ¹sÐH >±* ýñºH jûTdT H #îsTT $&Te&T",
@@ -34,9 +35,10 @@
       "label": "Verse 2",
       "lines": [
         {
-          "n": "He will never let go my hands (2)",
+          "n": "He will never let go my hands",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Though the storms may come",

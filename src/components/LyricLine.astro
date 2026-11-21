@@ -7,9 +7,12 @@ interface Props {
   text: string;
   layer: 'n' | 'r' | 'e';
   lang: Lang;
+  times?: number;
 }
-const { text, layer, lang } = Astro.props;
-const { text: body, times } = splitRepeatMarker(text);
+const { text, layer, lang, times: timesProp } = Astro.props;
+const parsed = splitRepeatMarker(text);
+const body = parsed.text;
+const times = timesProp && timesProp > 1 ? timesProp : parsed.times;
 const langAttr = layer === 'e' ? 'en' : layer === 'r' ? LANG_TAG.r[lang] : LANG_TAG.n[lang];
 ---
 

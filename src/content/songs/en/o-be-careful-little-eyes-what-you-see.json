@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "O’ be careful little eyes what you see (2)",
+          "n": "O’ be careful little eyes what you see",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "For the father up above, he is looking",

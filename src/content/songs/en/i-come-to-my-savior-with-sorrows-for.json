@@ -33,9 +33,10 @@
           "e": ""
         },
         {
-          "n": "within (2)",
+          "n": "within",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "I may be poor in spirit, but my father is",
@@ -53,9 +54,10 @@
           "e": ""
         },
         {
-          "n": "from above (2)",
+          "n": "from above",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

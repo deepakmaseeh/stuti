@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "talking, living, living day by day (2)",
+          "n": "talking, living, living day by day",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     },
@@ -71,9 +72,10 @@
           "e": ""
         },
         {
-          "n": "talking, living, living day by day (2)",
+          "n": "talking, living, living day by day",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

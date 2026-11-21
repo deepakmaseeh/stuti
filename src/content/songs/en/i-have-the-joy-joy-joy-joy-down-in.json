@@ -23,14 +23,16 @@
           "e": ""
         },
         {
-          "n": "my heart (2)",
+          "n": "my heart",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
-          "n": "Where down in my heart(2)",
+          "n": "Where down in my heart",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     },
@@ -69,9 +71,10 @@
           "e": ""
         },
         {
-          "n": "understanding down in my heart (2)",
+          "n": "understanding down in my heart",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     },
@@ -85,9 +88,10 @@
           "e": ""
         },
         {
-          "n": "down in my heart (2)",
+          "n": "down in my heart",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "The best book to read is the bible (2)",
+          "n": "The best book to read is the bible",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "If you read it every day, it will help",
@@ -44,9 +45,10 @@
       "label": "Verse 2",
       "lines": [
         {
-          "n": "The best friend to have is Jesus (2)",
+          "n": "The best friend to have is Jesus",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "He will hear you when you call,",
@@ -80,9 +82,10 @@
           "e": ""
         },
         {
-          "n": "him (2)",
+          "n": "him",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "If you trust him till the end, he",

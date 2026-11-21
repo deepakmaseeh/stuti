@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "lord (3)",
+          "n": "lord",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 3
         },
         {
           "n": "Walking in the light of the lord.",
@@ -38,9 +39,10 @@
           "e": ""
         },
         {
-          "n": "light (2)",
+          "n": "light",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Walking in the light of the lord.",

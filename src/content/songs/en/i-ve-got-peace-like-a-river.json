@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "I’ve got peace like a river (2)",
+          "n": "I’ve got peace like a river",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "I’ve got peace like a river in my",
@@ -39,9 +40,10 @@
       "label": "Verse 2",
       "lines": [
         {
-          "n": "I’ve got joy like a fountain (2)",
+          "n": "I’ve got joy like a fountain",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "I’ve got joy like a fountain in my",
@@ -60,9 +62,10 @@
       "label": "Verse 3",
       "lines": [
         {
-          "n": "I’ve got love like an ocean (2)",
+          "n": "I’ve got love like an ocean",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "I’ve got love like an ocean in my",

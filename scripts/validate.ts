@@ -14,6 +14,7 @@ import {
 } from '../src/lib/schema';
 import { LATIN_ONLY, SCRIPT_RE } from '../src/lib/scripts';
 import { isPublishable } from '../src/lib/songs';
+import { hasEmbeddedRepeat, stripLeadingBullet } from '../src/lib/lyric-line';
 
 export type FileEntry = { relPath: string; raw: string };
 export type Issue = { file: string; rule: string; message: string };
@@ -207,6 +208,15 @@ export function validateEntries(input: {
         err(file, '6-layers', `${where}: missing "r" (layers.roman is "${data.layers.roman}")`);
       if (data.layers.en !== 'missing' && !l.e)
         err(file, '6-layers', `${where}: missing "e" (layers.en is "${data.layers.en}")`);
+      // C36 / C42 / C43 lyric hygiene (errors block publish; title clones warn — common in chorus opens)
+      if (/^[-–—•]\s+/u.test(l.n))
+        err(file, '36-bullet', `${where}: leading bullet — strip or run lyric fix`);
+      if (hasEmbeddedRepeat(l.n))
+        err(file, '36-repeat', `${where}: embedded "(N)" mid-line — split and use line.x`);
+      if (/\(\d+\)/u.test(l.n) && !l.x)
+        warn(file, '36-repeat', `${where}: "(N)" in text — prefer line.x repeat badge`);
+      if (stripLeadingBullet(l.n) === data.title.native.trim())
+        warn(file, '36-title-verse', `${where}: line identical to title`);
     });
 
     // Rule 7: rights gate

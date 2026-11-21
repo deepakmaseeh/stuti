@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "cares for you (2)",
+          "n": "cares for you",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Higher, Higher, Higher, Higher, Higher",
@@ -33,9 +34,10 @@
           "e": ""
         },
         {
-          "n": "Higher, Higher, lift Jesus Higher (2)",
+          "n": "Higher, Higher, lift Jesus Higher",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Lower, Lower, Lower, Lower, Lower",

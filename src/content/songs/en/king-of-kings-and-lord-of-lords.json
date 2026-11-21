@@ -23,9 +23,10 @@
           "e": ""
         },
         {
-          "n": "glory hallelujah (2)",
+          "n": "glory hallelujah",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "Jesus",
@@ -53,9 +54,10 @@
           "e": ""
         },
         {
-          "n": "hallelujah (2)",
+          "n": "hallelujah",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }

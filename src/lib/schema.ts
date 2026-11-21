@@ -24,6 +24,8 @@ const LineSchema = z.object({
   n: z.string().min(1),
   r: z.string().default(''),
   e: z.string().default(''),
+  /** Repeat count shown as ×N badge (C43). */
+  x: z.number().int().min(2).max(9).optional(),
 });
 
 const SectionSchema = z.object({

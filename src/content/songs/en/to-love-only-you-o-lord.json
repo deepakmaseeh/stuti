@@ -18,9 +18,10 @@
       "label": "Verse 1",
       "lines": [
         {
-          "n": "To love only you O’ Lord (2)",
+          "n": "To love only you O’ Lord",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
           "n": "To love only you O’lord",

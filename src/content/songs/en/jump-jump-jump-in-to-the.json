@@ -53,19 +53,22 @@
           "e": ""
         },
         {
-          "n": "He is the light (2)",
+          "n": "He is the light",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
-          "n": "I am the light (2)",
+          "n": "I am the light",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         },
         {
-          "n": "You are the light (2)",
+          "n": "You are the light",
           "r": "",
-          "e": ""
+          "e": "",
+          "x": 2
         }
       ]
     }
