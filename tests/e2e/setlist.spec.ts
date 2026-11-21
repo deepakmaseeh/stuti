@@ -67,7 +67,7 @@ test.describe('set list 2.0 (F6)', () => {
     });
     expect(id).toBeTruthy();
     await hydrated(page, `/sets/edit/?id=${encodeURIComponent(id)}`);
-    await page.locator('.set-editor-v2__note').first().fill('key of G');
+    await page.locator('.set-editor-v2__fields .field__input').first().fill('key of G');
     await page.locator('.set-editor-v2__row').getByRole('button', { name: 'Remove' }).click();
     await expect(page.getByText('Add songs with + Set on any song page.')).toBeVisible();
   });
