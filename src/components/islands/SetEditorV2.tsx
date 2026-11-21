@@ -5,7 +5,6 @@ import { loadMeta, loadNumbers, type MetaRow, type NumbersMap } from '../../lib/
 import {
   addHeading,
   addSongToSet,
-  encodeForPresent,
   encodeWorshipSet,
   getSet,
   hydrateSets,
@@ -158,9 +157,8 @@ export default function SetEditorV2() {
   const code = encodeWorshipSet(set);
   const shareUrl = setShareUrl(code);
   const shareTooLong = shareUrl.length > MAX_SHARE_URL;
-  const presentCode = encodeForPresent(set);
   const startHref = songs[0] ? songInWorshipSetUrl(set, 0) : undefined;
-  const presentHref = songs[0] ? `/present/?set=${encodeURIComponent(presentCode)}&i=0` : undefined;
+  const presentHref = songs[0] ? `/present/?id=${encodeURIComponent(set.id)}&i=0` : undefined;
 
   const badgeFor = (songId: string, book?: string) => {
     const row = meta?.[songId];
