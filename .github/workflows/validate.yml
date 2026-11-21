@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     # Real TLBC catalog — do not enable PUBLIC_INCLUDE_DEMO in production
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Independence check (no references to the drafting tool)
         run: |
           if git grep -n -i "click""up" -- . ':!STUTI_FIXES_AND_LAUNCH.md' ':!STUTI_BUILD_SPEC.md' ':!STUTI_SETLISTS_AND_FIXES.md' ':!AGENTS.md'; then
