@@ -1,6 +1,7 @@
 ---
 import AppShell from '../../../components/AppShell.astro';
 import SetsPrint from '../../../components/islands/SetsPrint';
+import '../../../styles/print.css';
 import { site } from '../../../site.config';
 import { t } from '../../../i18n';
 ---
@@ -9,22 +10,8 @@ import { t } from '../../../i18n';
   title={`${t('set.print')} | ${site.name}`}
   description="Printable order of service."
   active="sets"
+  bodyClass="print-oos-page"
 >
+  <h1 class="visually-hidden">{t('set.print')}</h1>
   <SetsPrint client:load />
 </AppShell>
-
-<style is:global>
-  @media print {
-    .topbar,
-    .bottom-nav,
-    .no-print,
-    .desktop-rail,
-    .desktop-set {
-      display: none !important;
-    }
-    .sets-print {
-      max-width: none;
-      padding: 0;
-    }
-  }
-</style>
