@@ -1,11 +1,20 @@
 /**
- * Set Lists 2.0 — single localStorage store for worship sets.
- * @see STUTI_SETLISTS_AND_FIXES.md §2, docs/adr/0008-setlists-v2.md
+ * Set Lists 2.0 / v2.1 — localStorage store for worship sets.
+ * @see STUTI_UI_CORRECTIONS_v1.4.md §3, STUTI_SETLISTS_AND_FIXES.md §2
  */
 import { signal } from '@preact/signals';
 import { site } from '../site.config';
 import { decodeSet as decodeV1Set, encodeSet as encodeV1Set, formatSetDate, nextSunday } from './setlist';
 import type { SetList } from './storage';
+import {
+  bridgeSet,
+  legacyItemsToRows,
+  migrateSet,
+  migrateStore,
+  type BridgedWorshipSet,
+  type SetRow,
+  type WorshipSetV21,
+} from './sets/schema';
 
 export const MAX_SET_ITEMS = 60;
 export const MAX_WORSHIP_SETS = 200;
@@ -39,27 +48,81 @@ export type SetHeadingItem = { kind: 'heading'; uid: string; text: string };
 
 export type WorshipSetItem = SetSongItem | SetHeadingItem;
 
-export type WorshipSet = {
-  v: 2;
-  id: string;
-  title: string;
-  date: string;
-  time?: string;
-  service: ServiceType;
-  leader?: string;
-  notes?: string;
-  items: WorshipSetItem[];
-  createdAt: string;
-  updatedAt: string;
-  source?: 'mine' | 'shared';
-  sharedFrom?: string;
-};
+/** Bridged v2.1 set: rows are canonical; items kept for existing islands. */
+export type WorshipSet = BridgedWorshipSet & { service: ServiceType };
 
 export type SetsStore = {
-  v: 2;
+  v: 2.1;
   activeId?: string;
   sets: WorshipSet[];
 };
+
+function asService(s: string): ServiceType {
+  const allowed: ServiceType[] = [
+    'sunday_morning',
+    'sunday_evening',
+    'prayer',
+    'youth',
+    'christmas',
+    'easter',
+    'good_friday',
+    'wedding',
+    'funeral',
+    'other',
+  ];
+  return (allowed.includes(s as ServiceType) ? s : 'other') as ServiceType;
+}
+
+function toBridged(raw: unknown): WorshipSet {
+  const b = bridgeSet(migrateSet(raw));
+  return { ...b, service: asService(b.service) };
+}
+
+function toPersisted(set: WorshipSet): WorshipSetV21 {
+  const rows: SetRow[] =
+    set.rows?.length || !set.items?.length
+      ? (set.rows ?? [])
+      : legacyItemsToRows(set.items);
+  return {
+    v: 2.1,
+    id: set.id,
+    title: set.title,
+    date: set.date,
+    ...(set.time ? { time: set.time } : {}),
+    service: set.service,
+    ...(set.leader ? { leader: set.leader } : {}),
+    ...(set.preacher ? { preacher: set.preacher } : {}),
+    ...(set.notes ? { notes: set.notes } : {}),
+    rows: rows.slice(0, MAX_SET_ITEMS),
+    updatedAt: Date.parse(set.updatedAt) || Date.now(),
+    createdAt: Date.parse(set.createdAt) || Date.now(),
+    ...(set.source ? { source: set.source } : {}),
+    ...(set.sharedFrom ? { sharedFrom: set.sharedFrom } : {}),
+  };
+}
+
+function withSyncedRows(partial: { items?: WorshipSetItem[]; rows?: SetRow[] }): {
+  rows: SetRow[];
+  items: WorshipSetItem[];
+} {
+  if (partial.rows) {
+    const tmp = bridgeSet({
+      v: 2.1,
+      id: 'x',
+      title: 'x',
+      date: '2026-01-01',
+      service: 'other',
+      rows: partial.rows,
+      updatedAt: 0,
+    });
+    return { rows: partial.rows, items: tmp.items };
+  }
+  if (partial.items) {
+    const rows = legacyItemsToRows(partial.items);
+    return { rows, items: partial.items };
+  }
+  return { rows: [], items: [] };
+}
 
 const SERVICE_LABELS: Record<ServiceType, string> = {
   sunday_morning: 'Sunday Morning',
@@ -132,7 +195,7 @@ export function defaultDateForService(service: ServiceType, today = new Date()):
 }
 
 export function emptyStore(): SetsStore {
-  return { v: 2, sets: [] };
+  return { v: 2.1, sets: [] };
 }
 
 function readRaw(): SetsStore | null {
@@ -141,9 +204,13 @@ function readRaw(): SetsStore | null {
     if (!raw) return null;
     const parsed: unknown = JSON.parse(raw);
     if (!parsed || typeof parsed !== 'object') return null;
-    const o = parsed as SetsStore;
-    if (o.v !== 2 || !Array.isArray(o.sets)) return null;
-    return o;
+    const migrated = migrateStore(parsed);
+    if (!Array.isArray(migrated.sets)) return null;
+    return {
+      v: 2.1,
+      ...(migrated.activeId ? { activeId: migrated.activeId } : {}),
+      sets: migrated.sets.map((s) => toBridged(s)),
+    };
   } catch {
     return null;
   }
@@ -169,7 +236,12 @@ function ensureSetsChannel(): BroadcastChannel | undefined {
 
 function writeStore(store: SetsStore): void {
   try {
-    localStorage.setItem(SETS_KEY, JSON.stringify(store));
+    const persisted = {
+      v: 2.1 as const,
+      ...(store.activeId ? { activeId: store.activeId } : {}),
+      sets: store.sets.map(toPersisted),
+    };
+    localStorage.setItem(SETS_KEY, JSON.stringify(persisted));
   } catch {
     /* quota / private */
   }
@@ -191,25 +263,21 @@ function broadcast(): void {
 
 /** Convert a v1 SetList into a WorshipSet. */
 export function v1ToWorshipSet(list: SetList, id = uid()): WorshipSet {
-  const now = new Date().toISOString();
-  const date = list.d && /^\d{4}-\d{2}-\d{2}$/.test(list.d) ? list.d : nextSunday();
-  return {
-    v: 2,
-    id,
-    title: list.t || defaultTitle('other', date),
-    date,
-    service: 'other',
-    items: list.s.map((s) => ({
-      kind: 'song' as const,
-      uid: uid(),
-      songId: s.id,
-      ...(s.book ? { book: s.book } : {}),
-      ...(s.note ? { note: s.note } : {}),
-    })),
-    createdAt: now,
-    updatedAt: now,
-    source: 'mine',
-  };
+  return toBridged(
+    migrateSet(
+      {
+        v: 1,
+        t: list.t || defaultTitle('other', list.d && /^\d{4}-\d{2}-\d{2}$/.test(list.d) ? list.d : nextSunday()),
+        d: list.d && /^\d{4}-\d{2}-\d{2}$/.test(list.d) ? list.d : nextSunday(),
+        s: list.s.map((s) => ({
+          id: s.id,
+          ...(s.book ? { book: s.book } : {}),
+          ...(s.note ? { note: s.note } : {}),
+        })),
+      },
+      id,
+    ),
+  );
 }
 
 export function migrateFromV1(): SetsStore {
@@ -253,7 +321,7 @@ export function migrateFromV1(): SetsStore {
   }
 
   const store: SetsStore = {
-    v: 2,
+    v: 2.1,
     sets: sets.slice(0, MAX_WORSHIP_SETS),
     ...(sets[0] ? { activeId: sets[0].id } : {}),
   };
@@ -336,8 +404,9 @@ export function createSet(partial: {
   const service = partial.service ?? 'sunday_morning';
   const date = partial.date ?? defaultDateForService(service);
   const now = new Date().toISOString();
+  const synced = withSyncedRows({ items: (partial.items ?? []).slice(0, MAX_SET_ITEMS) });
   const set: WorshipSet = {
-    v: 2,
+    v: 2.1,
     id: uid(),
     title: partial.title ?? defaultTitle(service, date),
     date,
@@ -345,7 +414,8 @@ export function createSet(partial: {
     service,
     ...(partial.leader ? { leader: partial.leader } : {}),
     ...(partial.notes ? { notes: partial.notes } : {}),
-    items: (partial.items ?? []).slice(0, MAX_SET_ITEMS),
+    rows: synced.rows,
+    items: synced.items,
     createdAt: now,
     updatedAt: now,
     source: partial.source ?? 'mine',
@@ -359,17 +429,26 @@ export function createSet(partial: {
   return set;
 }
 
-export function updateSet(id: string, patch: Partial<Omit<WorshipSet, 'v' | 'id' | 'createdAt'>>): WorshipSet | undefined {
+export function updateSet(
+  id: string,
+  patch: Partial<Omit<WorshipSet, 'v' | 'id' | 'createdAt'>> & { rows?: SetRow[] },
+): WorshipSet | undefined {
   const store = ensureHydrated();
   const i = store.sets.findIndex((s) => s.id === id);
   if (i < 0) return undefined;
   const prev = store.sets[i]!;
+  const synced = withSyncedRows({
+    items: patch.items ?? prev.items,
+    rows: patch.rows ?? (patch.items ? undefined : prev.rows),
+  });
   const next: WorshipSet = {
     ...prev,
     ...patch,
-    items: (patch.items ?? prev.items).slice(0, MAX_SET_ITEMS),
+    service: asService(String(patch.service ?? prev.service)),
+    rows: synced.rows.slice(0, MAX_SET_ITEMS),
+    items: synced.items.slice(0, MAX_SET_ITEMS),
     updatedAt: new Date().toISOString(),
-    v: 2,
+    v: 2.1,
     id: prev.id,
     createdAt: prev.createdAt,
   };
@@ -610,18 +689,18 @@ export function decodeWorshipSet(code: string): WorshipSet | null {
         ...(Array.isArray(row[3]) ? { verses: row[3].filter((n) => Number.isInteger(n)) } : {}),
       });
     }
-    return {
-      v: 2,
+    return toBridged({
+      v: 2.1,
       id: uid(),
       title: s.t.slice(0, 80),
       date: /^\d{4}-\d{2}-\d{2}$/.test(s.d) ? s.d : nextSunday(),
       service: (s.svc as ServiceType) || 'other',
-      items,
-      createdAt: now,
-      updatedAt: now,
+      rows: legacyItemsToRows(items),
+      updatedAt: Date.parse(now) || Date.now(),
+      createdAt: Date.parse(now) || Date.now(),
       source: 'shared',
       sharedFrom: code.slice(0, 32),
-    };
+    });
   } catch {
     return null;
   }

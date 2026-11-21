@@ -30,7 +30,7 @@ beforeEach(() => {
 describe('sets v2 store', () => {
   it('creates a set and makes it active', () => {
     const s = createSet({ service: 'sunday_morning', date: '2026-12-06' });
-    expect(s.v).toBe(2);
+    expect(s.v).toBe(2.1);
     expect(getActiveSet()?.id).toBe(s.id);
     expect(getSet(s.id)?.title).toContain('Sunday Morning');
   });

@@ -1,6 +1,6 @@
 # Rules for AI coding agents
 
-The full specification is `STUTI_BUILD_SPEC.md` (v1.1). Override order: `STUTI_SETLISTS_AND_FIXES.md` > `STUTI_DESKTOP_ADDON.md` > `STUTI_FIXES_AND_LAUNCH.md` > `STUTI_BUILD_SPEC.md`. Read the active override files before writing code.
+The full specification is `STUTI_BUILD_SPEC.md` (v1.1). Override order: `STUTI_UI_CORRECTIONS_v1.4.md` > `STUTI_SETLISTS_AND_FIXES.md` > `STUTI_DESKTOP_ADDON.md` > `STUTI_FIXES_AND_LAUNCH.md` > `STUTI_BUILD_SPEC.md`. Read the active override files before writing code.
 
 1. Follow the spec exactly: stack (Astro 5 static + Preact islands + plain CSS + MiniSearch + @vite-pwa/astro injectManifest + Decap CMS + Cloudflare Pages), file structure (§4), data schema (§5), routes (§7), features & acceptance (§8), design tokens (§9), screens (§10).
 2. Work phase by phase (§21). Do only the current phase. At the end of each phase: run `npm run validate`, `npm test`, `npm run build` (and e2e when available), fix failures, then print a short report: files created/changed, commands run + results, what is NOT done yet, and any deviation from the spec with the reason.
@@ -14,4 +14,5 @@ The full specification is `STUTI_BUILD_SPEC.md` (v1.1). Override order: `STUTI_S
 10. Use the latest Astro 5.x (do not upgrade to 6). For other packages use the latest stable versions compatible with Astro 5. Check Cloudflare Pages free-tier limits before starting; record what you checked in docs/adr/0001-versions.md.
 11. Do not add analytics, ads, trackers, external fonts or CDNs (except Decap CMS script on /admin and optional Cloudflare Web Analytics).
 12. Commit after each phase with message "phase N: <summary>".
-13. The app is fully independent. No ClickUp code, SDK, API, links, logos, logins, webhooks, analytics or file URLs anywhere in the repo or the running app. CI must fail if the word 'clickup' appears in any tracked file other than the instruction files (STUTI_BUILD_SPEC.md, STUTI_FIXES_AND_LAUNCH.md, STUTI_SETLISTS_AND_FIXES.md, AGENTS.md), see STUTI_FIXES_AND_LAUNCH.md §2.
+13. The app is fully independent. No ClickUp code, SDK, API, links, logos, logins, webhooks, analytics or file URLs anywhere in the repo or the running app. CI must fail if the word 'clickup' appears in any tracked file other than the instruction files (STUTI_BUILD_SPEC.md, STUTI_FIXES_AND_LAUNCH.md, STUTI_SETLISTS_AND_FIXES.md, STUTI_UI_CORRECTIONS_v1.4.md, AGENTS.md), see STUTI_FIXES_AND_LAUNCH.md §2.
+14. Phase 4d UI work follows `STUTI_UI_CORRECTIONS_v1.4.md`. Commit after each step with `4d-<step>: <summary>`.
