@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
+import { Pencil, Play, Plus, Trash2 } from 'lucide-preact';
 import { t } from '../../i18n';
 import {
   deleteSet,
@@ -33,11 +34,13 @@ function SetCard({
   past,
   next,
   meta,
+  onAskDelete,
 }: {
   set: WorshipSet;
   past?: boolean;
   next?: boolean;
   meta: Record<string, MetaRow> | null;
+  onAskDelete: (set: WorshipSet) => void;
 }) {
   const songs = songItems(set);
   const n = songs.length;
@@ -78,37 +81,67 @@ function SetCard({
       <div class="scard__acts">
         {!past && songs[0] ? (
           <a class="btn btn--primary btn--small" href={singHref} data-astro-reload>
-            ▶ Sing
+            <Play size={16} strokeWidth={1.75} aria-hidden="true" /> Sing
           </a>
         ) : null}
-        <a class="btn btn--secondary btn--small" href={editHref}>
-          Edit
+        <a class="btn btn--secondary btn--small btn--icon" href={editHref} aria-label="Edit" title="Edit">
+          <Pencil size={16} strokeWidth={1.75} aria-hidden="true" />
         </a>
         <button
           type="button"
           class="btn btn--secondary btn--small btn--icon"
           aria-label={t('set.delete')}
           title={t('set.delete')}
-          onClick={() => {
-            if (!confirm(`Delete “${set.title}”?`)) return;
-            deleteSet(set.id);
-            showToast(`${t('set.deleted')} · ${t('set.undo')}`);
-            const undo = () => {
-              undoDeleteSet();
-              removeEventListener('click', onToast);
-            };
-            const onToast = (e: Event) => {
-              const el = e.target as HTMLElement;
-              if (el.closest('#toast')) undo();
-            };
-            addEventListener('click', onToast, { once: true });
-            setTimeout(() => removeEventListener('click', onToast), 4000);
-          }}
+          onClick={() => onAskDelete(set)}
         >
-          ⋯
+          <Trash2 size={16} strokeWidth={1.75} aria-hidden="true" />
         </button>
       </div>
     </article>
+  );
+}
+
+function DeleteSetDialog({
+  set,
+  onClose,
+  onConfirm,
+}: {
+  set: WorshipSet;
+  onClose: () => void;
+  onConfirm: () => void;
+}) {
+  useEffect(() => {
+    document.body.classList.add('modal-open');
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    addEventListener('keydown', onKey);
+    return () => {
+      document.body.classList.remove('modal-open');
+      removeEventListener('keydown', onKey);
+    };
+  }, [onClose]);
+
+  return (
+    <div class="modal modal--center" role="dialog" aria-modal="true" aria-labelledby="delete-set-title">
+      <div class="modal__backdrop" onClick={onClose} />
+      <div class="modal__card">
+        <header class="modal__head">
+          <h2 id="delete-set-title">{t('set.deleteTitle')}</h2>
+        </header>
+        <div class="modal__body">
+          <p class="modal__sub">{t('set.deleteBody', { title: set.title })}</p>
+        </div>
+        <div class="modal__actions">
+          <button type="button" class="btn btn--ghost" onClick={onClose}>
+            {t('set.cancel')}
+          </button>
+          <button type="button" class="btn btn--primary" onClick={onConfirm}>
+            {t('set.deleteConfirm')}
+          </button>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -119,10 +152,25 @@ function addDays(iso: string, days: number): string {
   return `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`;
 }
 
+function toastWithUndo() {
+  showToast(`${t('set.deleted')} · ${t('set.undo')}`);
+  const undo = () => {
+    undoDeleteSet();
+    removeEventListener('click', onToast);
+  };
+  const onToast = (e: Event) => {
+    const el = e.target as HTMLElement;
+    if (el.closest('#toast')) undo();
+  };
+  addEventListener('click', onToast, { once: true });
+  setTimeout(() => removeEventListener('click', onToast), 4000);
+}
+
 export default function SetsHome() {
   const [tab, setTab] = useState<Tab>('list');
   const [sets, setSets] = useState<WorshipSet[]>([]);
   const [dialog, setDialog] = useState(false);
+  const [pendingDelete, setPendingDelete] = useState<WorshipSet | null>(null);
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [month, setMonth] = useState(() => {
     const d = new Date();
@@ -150,13 +198,20 @@ export default function SetsHome() {
     if (copy) location.href = `/sets/edit/?id=${encodeURIComponent(copy.id)}`;
   };
 
+  const confirmDelete = () => {
+    if (!pendingDelete) return;
+    deleteSet(pendingDelete.id);
+    setPendingDelete(null);
+    toastWithUndo();
+  };
+
   return (
     <div class="sets-home">
       <header class="sets-home__head">
         <h1>{t('sets.title')}</h1>
         <div class="sets-home__toolbar">
           <button type="button" class="btn btn--primary" onClick={() => setDialog(true)}>
-            + {t('set.newSet')}
+            <Plus size={18} strokeWidth={1.75} aria-hidden="true" /> {t('set.newSet')}
           </button>
           <button
             type="button"
@@ -209,7 +264,7 @@ export default function SetsHome() {
             ) : (
               <div class="slist">
                 {upcoming.map((s, i) => (
-                  <SetCard key={s.id} set={s} next={i === 0} meta={meta} />
+                  <SetCard key={s.id} set={s} next={i === 0} meta={meta} onAskDelete={setPendingDelete} />
                 ))}
               </div>
             )}
@@ -224,7 +279,7 @@ export default function SetsHome() {
             ) : (
               <div class="slist">
                 {past.map((s) => (
-                  <SetCard key={s.id} set={s} past meta={meta} />
+                  <SetCard key={s.id} set={s} past meta={meta} onAskDelete={setPendingDelete} />
                 ))}
               </div>
             )}
@@ -239,6 +294,14 @@ export default function SetsHome() {
           location.href = `/sets/edit/?id=${encodeURIComponent(id)}`;
         }}
       />
+
+      {pendingDelete ? (
+        <DeleteSetDialog
+          set={pendingDelete}
+          onClose={() => setPendingDelete(null)}
+          onConfirm={confirmDelete}
+        />
+      ) : null}
     </div>
   );
 }

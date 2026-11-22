@@ -6,7 +6,7 @@ import LyricSection from '../../components/LyricSection.astro';
 import SongMeta from '../../components/SongMeta.astro';
 import SongToolbar from '../../components/islands/SongToolbar.tsx';
 import FavStar from '../../components/islands/FavStar.tsx';
-import MobileSearchMenu from '../../components/islands/MobileSearchMenu';
+import ThemeToggle from '../../components/islands/ThemeToggle';
 import ReportSheet from '../../components/islands/ReportSheet.tsx';
 import SetNavBar from '../../components/islands/SetNavBar.tsx';
 import { reportUrl } from '../../lib/report';
@@ -76,12 +76,9 @@ const numbersData = JSON.stringify(song.numbers);
         <NumberBadge book={primary.book} number={primary.number} size="header" />
       </span>
       <span class="song-header__end">
-        <span class="song-header__search">
-          <MobileSearchMenu client:load />
-        </span>
-        <OfflineBadge />
-        <FavStar client:load snapshot={snapshot} />
-        <a class="btn btn--primary song-present" href={`/present/?song=${song.id}`}>
+        <ThemeToggle client:load compact />
+        <FavStar client:load snapshot={snapshot} data-feature="favourite" />
+        <a class="btn btn--primary song-present" href={`/present/?song=${song.id}`} data-feature="present">
           {t('desktop.present')}
         </a>
       </span>

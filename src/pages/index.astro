@@ -19,48 +19,34 @@ const books = await Promise.all(
   description="Free, offline Christian hymnal in Hindi, Tamil, Telugu, Punjabi and English, numbered like the printed book."
   active="home"
 >
-  <details class="menu" slot="actions">
-    <summary class="icon-btn" aria-label={t('home.menu')}>
-      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-        <path d="M12 5h.01M12 12h.01M12 19h.01" stroke-width="3"></path>
-      </svg>
-    </summary>
-    <div class="menu__list">
-      <a href="/settings/">{t('home.settings')}</a>
-      <a href="/about/">{t('home.about')}</a>
-    </div>
-  </details>
-
   <h1 class="visually-hidden">{site.name}</h1>
-  <div class="home-search home-search--compact">
-    <div class="home-search__shortcuts">
-      <a href="/search/?tab=browse">{t('desktop.browse')}</a>
-      <a href="/search/?tab=number">{t('search.number')}</a>
-      <a href="/search/?tab=songs">{t('search.songs')}</a>
-    </div>
-  </div>
-  <p class="search-help home-how-tip">{t('home.howTip')}</p>
 
+  {/* Home = This Sunday + Your songs + Hymnbooks only (FINAL_UI_SPEC §5). No search chips/tips. */}
   <HomeLists client:load />
   <FirstVisitTour client:idle />
   <InstallPrompt client:idle />
 
-  <section aria-labelledby="books-title">
-    <h2 class="group-title" id="books-title">
-      {t('home.books')}
-    </h2>
-    {books.map(({ book, count }) => (
-      <a class="song-row" href={`/books/${book.id.toLowerCase()}/`}>
-        <NumberBadge book="" number={book.id} />
-        <span class="song-row__text">
-          <span class="song-row__title" lang={LANG_TAG.n[book.lang]}>
-            {book.name.native}
+  <section class="home-books" aria-labelledby="books-title">
+    <div class="home-books__head">
+      <h2 class="group-title" id="books-title">
+        {t('home.books')}
+      </h2>
+      <a class="home-books__offline" href="/downloads/" data-feature="offline">{t('nav.offline')}</a>
+    </div>
+    <div class="home-books__grid">
+      {books.map(({ book, count }) => (
+        <a class="book-card" href={`/books/${book.id.toLowerCase()}/`}>
+          <NumberBadge book="" number={book.id} />
+          <span class="book-card__text">
+            <span class="book-card__title" lang={LANG_TAG.n[book.lang]}>
+              {book.name.native}
+            </span>
+            <span class="book-card__sub">
+              {LANG_LABEL[book.lang]} · {t('books.count', { n: count })}
+            </span>
           </span>
-          <span class="song-row__sub">
-            {LANG_LABEL[book.lang]} · {t('books.count', { n: count })}
-          </span>
-        </span>
-      </a>
-    ))}
+        </a>
+      ))}
+    </div>
   </section>
 </AppShell>
