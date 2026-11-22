@@ -83,11 +83,35 @@
 
 /* ---- Dialogs (C04/C15) ---- */
 .modal__card {
-  width: min(540px, calc(100vw - 2rem));
+  /* Prefer % over 100vw — vw can exceed the visible layout width in DevTools device mode. */
+  width: min(540px, 100%);
+  max-width: 100%;
   border-radius: 18px;
   box-shadow: 0 30px 80px oklch(0.2 0.05 15 / 0.35);
   overflow: hidden;
   padding: 0;
+}
+.tour-dialog .modal__head {
+  padding: 24px 24px 8px;
+}
+.tour-dialog .modal__body {
+  padding: 8px 24px 4px;
+}
+.tour-dialog .modal__actions {
+  padding: 16px 24px 24px;
+  justify-content: space-between;
+  background: var(--page);
+}
+.tour-dialog__badge {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.tour-dialog__actions .btn--ghost {
+  order: -1;
 }
 .modal__head {
   padding: 22px 24px 6px;
@@ -95,7 +119,7 @@
 .modal__head h2 {
   margin: 0;
   font: 700 22px/1.2 var(--font-display);
-  color: var(--leather);
+  color: var(--ink);
 }
 .modal__head p,
 .modal__sub {
@@ -216,7 +240,7 @@
   text-align: center;
   color: var(--muted);
   font-size: 14px;
-  background: #fff;
+  background: var(--page);
 }
 .slist {
   display: flex;
@@ -228,10 +252,11 @@
   grid-template-columns: 64px minmax(0, 1fr) auto;
   gap: 14px;
   align-items: center;
-  background: #fff;
+  background: var(--page);
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 14px;
+  min-width: 0;
 }
 .scard--next {
   border-color: var(--ribbon);
@@ -264,18 +289,23 @@
 }
 .scard__body {
   min-width: 0;
+  overflow: hidden;
   text-decoration: none;
   color: inherit;
 }
 .scard__body h3 {
   margin: 0;
   font: 700 17px/1.3 var(--font-display);
-  color: var(--leather);
+  color: var(--ink);
+  overflow-wrap: break-word;
+  word-break: normal;
+  hyphens: none;
 }
 .scard__meta {
   font-size: 14px;
   color: var(--muted);
   margin-top: 2px;
+  overflow-wrap: break-word;
 }
 .scard__songs {
   font-size: 14px;
@@ -284,6 +314,57 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.scard__acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.scard__acts .btn--icon {
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+@media (max-width: 640px) {
+  .scard {
+    grid-template-columns: 56px minmax(0, 1fr);
+    grid-template-areas:
+      'date body'
+      'acts acts';
+    gap: 12px;
+    align-items: start;
+  }
+  .scard__date {
+    grid-area: date;
+    width: 56px;
+    height: 62px;
+  }
+  .scard__date b {
+    font-size: 22px;
+  }
+  .scard__body {
+    grid-area: body;
+  }
+  .scard__body h3 {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+  }
+  .scard__acts {
+    grid-area: acts;
+    justify-content: stretch;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .scard__acts .btn {
+    flex: 1 1 auto;
+  }
+  .scard__acts .btn--icon {
+    flex: 0 0 40px;
+  }
 }
 .pill {
   display: inline-block;
@@ -299,13 +380,6 @@
   background: var(--ribbon-tint);
   color: var(--ribbon);
 }
-.scard__acts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  justify-content: flex-end;
-}
-
 /* ---- Home This Sunday (C07/C09) ---- */
 .sunday-card {
   display: block;
@@ -461,15 +535,24 @@
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  color: var(--ribbon);
+  color: var(--ribbon-ink);
   font-weight: 600;
   margin: -6px 0 14px;
 }
+/* Chorus tint follows --ribbon-tint (darkened in dark theme) so lyric ink stays readable. */
 .sec--chorus {
-  background: var(--ribbon-tint);
+  background: var(--chorus-bg, var(--ribbon-tint));
   border-left: 4px solid var(--ribbon);
   border-radius: 0 12px 12px 0;
   padding: 10px 16px;
+  color: var(--ink);
+}
+.sec--chorus .line .n {
+  color: var(--ink);
+}
+.sec--chorus .line .r,
+.sec--chorus .line .e {
+  color: var(--muted);
 }
 
 /* ---- Offline rows (C47) ---- */

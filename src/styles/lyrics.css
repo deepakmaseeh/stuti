@@ -12,7 +12,8 @@
   padding: var(--s3) var(--s4);
   border-left: 4px solid var(--ribbon);
   border-radius: 0 var(--r-md) var(--r-md) 0;
-  background: color-mix(in oklch, var(--ribbon) 7%, var(--paper));
+  background: var(--chorus-bg, var(--ribbon-tint));
+  color: var(--ink);
 }
 .sec__label {
   margin-bottom: var(--s2);

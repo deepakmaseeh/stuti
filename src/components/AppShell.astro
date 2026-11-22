@@ -1,15 +1,15 @@
 ---
 import Base from '../layouts/Base.astro';
 import BottomNav from './BottomNav.astro';
-import OfflineBadge from './OfflineBadge.astro';
 import TopBar from './TopBar.astro';
 import Finder from './islands/Finder';
-import MobileSearchMenu from './islands/MobileSearchMenu';
 import SetPanel from './islands/SetPanel';
 import KeyboardShortcuts from './islands/KeyboardShortcuts';
+import ThemeToggle from './islands/ThemeToggle';
 import type { BookChip } from './islands/Keypad';
 import { getBooks } from '../lib/content';
 import { site } from '../site.config';
+import { t } from '../i18n';
 
 interface Props {
   title: string;
@@ -18,12 +18,9 @@ interface Props {
   noindex?: boolean;
   heading?: string;
   active?: 'home' | 'search' | 'set' | 'sets' | 'offline';
-  /** Highlight this song in Finder / Set panel. */
   currentSongId?: string;
-  /** Hide the mobile-only page header (song pages have their own). */
   hideMobileHeader?: boolean;
   bodyClass?: string;
-  /** Hide phone tab bar (set editor sticky bar — C24). */
   hideBottomNav?: boolean;
 }
 const {
@@ -59,7 +56,6 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
   <TopBar />
   <div class="desktop-shell">
     <aside class="desktop-finder" transition:persist="finder">
-      {/* client:only: not in mobile SSR DOM (avoids duplicate keypads with /search/). */}
       <Finder client:media={`(min-width: ${site.layout.desktopMin}px)`} books={books} currentId={currentSongId} />
     </aside>
     <div class="desktop-main" transition:animate="none">
@@ -71,8 +67,19 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
                 {heading}
               </a>
               <div class="app-header__actions">
-                <MobileSearchMenu client:load />
-                <OfflineBadge />
+                <ThemeToggle client:load compact />
+                <details class="menu">
+                  <summary class="icon-btn" aria-label={t('home.menu')} data-feature="settings">
+                    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                      <path d="M12 5h.01M12 12h.01M12 19h.01" stroke-width="3"></path>
+                    </svg>
+                  </summary>
+                  <div class="menu__list">
+                    <a href="/settings/" data-feature="settings">{t('home.settings')}</a>
+                    <a href="/about/">{t('home.about')}</a>
+                    <slot name="menu-extra" />
+                  </div>
+                </details>
                 <slot name="actions" />
               </div>
             </div>

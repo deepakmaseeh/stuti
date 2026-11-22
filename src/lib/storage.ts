@@ -1,4 +1,5 @@
 import { site } from '../site.config';
+import { applyPrefs } from './prefs';
 
 export type Theme = 'system' | 'light' | 'dark' | 'contrast';
 /** Song layer arrangement on wide screens; stacked is always used below desktop. */
@@ -115,6 +116,10 @@ export const storage = {
 export function updatePrefs(patch: Partial<Prefs>): Prefs {
   const next = { ...storage.prefs.get(), ...patch };
   storage.prefs.set(next);
+  if (typeof document !== 'undefined') {
+    applyPrefs(document.documentElement, next);
+    dispatchEvent(new CustomEvent('stuti:prefs', { detail: next }));
+  }
   return next;
 }
 

@@ -13,7 +13,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--s2);
   min-height: 56px;
+  min-width: 0;
 }
 .app-header__name {
   font-family: var(--font-display);
@@ -21,15 +23,20 @@
   font-size: 1.25rem;
   text-decoration: none;
   color: var(--gold-soft);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .app-header__actions {
   display: flex;
   align-items: center;
   gap: var(--s2);
+  flex-shrink: 0;
 }
 .app-main {
   padding-top: var(--s4);
-  padding-bottom: calc(96px + env(safe-area-inset-bottom));
+  padding-bottom: calc(var(--tabbar-h, 64px) + env(safe-area-inset-bottom, 0px) + 16px);
 }
 .page-title {
   font-family: var(--font-display);
@@ -57,17 +64,28 @@
 /* ---------- Bottom nav ---------- */
 .bottom-nav {
   position: fixed;
-  inset: auto 0 0 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   z-index: 20;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--s1);
-  max-width: 480px;
+  width: 100%;
+  max-width: min(480px, 100%);
   margin-inline: auto;
-  padding: var(--s1) var(--s2) calc(var(--s1) + env(safe-area-inset-bottom));
+  padding: var(--s1) max(var(--s2), env(safe-area-inset-right, 0px))
+    calc(var(--s1) + env(safe-area-inset-bottom)) max(var(--s2), env(safe-area-inset-left, 0px));
+  box-sizing: border-box;
   background: var(--page);
   border-top: 1px solid var(--line);
   transition: transform var(--dur) var(--ease);
+}
+/* Medium: full-width bar (R7), not a floating pill */
+@media (min-width: 600px) and (max-width: 899.98px) {
+  .bottom-nav {
+    max-width: none;
+  }
 }
 .hide-bottom-nav .bottom-nav,
 .nav-hidden .bottom-nav {
@@ -872,15 +890,20 @@ textarea.field__input {
 /* ---------- Set nav on song pages ---------- */
 .setnav {
   position: fixed;
-  inset: auto 0 calc(68px + env(safe-area-inset-bottom)) 0;
+  left: 0;
+  right: 0;
+  bottom: calc(68px + env(safe-area-inset-bottom));
   z-index: 19;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: var(--s2);
-  max-width: 480px;
+  width: 100%;
+  max-width: min(480px, 100%);
   margin-inline: auto;
-  padding: var(--s1) var(--s2);
+  padding: var(--s1) max(var(--s2), env(safe-area-inset-right, 0px)) var(--s1)
+    max(var(--s2), env(safe-area-inset-left, 0px));
+  box-sizing: border-box;
   background: var(--leather-deep);
   color: var(--gold-soft);
   border-radius: var(--r-md) var(--r-md) 0 0;

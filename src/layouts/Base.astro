@@ -10,7 +10,6 @@ import { site } from '../site.config';
 interface Props {
   title: string;
   description?: string;
-  /** Path for <link rel="canonical"> (defaults to the current path). */
   canonicalPath?: string;
   noindex?: boolean;
   bodyClass?: string;
@@ -18,12 +17,11 @@ interface Props {
 
 const { title, description = site.tagline, canonicalPath, noindex = false, bodyClass } = Astro.props;
 const canonical = new URL(canonicalPath ?? Astro.url.pathname, site.url).href;
-// Optional cookieless Cloudflare Web Analytics: nothing is loaded unless the token is set at build time.
 const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyticsToken : '';
 ---
 
 <!doctype html>
-<html lang="en" data-theme="system" data-size="2">
+<html lang="en" data-theme="system" data-scheme="light" data-size="2">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -36,44 +34,67 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
     <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <meta name="theme-color" content="#4a1820" />
     <ClientRouter />
+    {/* Theme must be re-applied on every view-transition swap (FINAL_UI_SPEC §3). */}
     <script is:inline define:vars={{ desktopMin: site.layout.desktopMin, wideMin: site.layout.wideMin }}>
-      document.documentElement.classList.add('js');
-      // Before paint: desktop panes vs mobile (STUTI_DESKTOP_ADDON.md).
-      (function () {
-        const w = window.innerWidth;
-        const h = document.documentElement;
-        if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
-        else h.removeAttribute('data-desktop');
+      (() => {
+        const KEY = 'stuti:prefs';
+        const TC = { light: '#4a1820', dark: '#1a0f11', contrast: '#000000' };
+        const mq = matchMedia('(prefers-color-scheme: dark)');
+        const read = () => {
+          try {
+            return JSON.parse(localStorage.getItem(KEY) || '{}');
+          } catch {
+            return {};
+          }
+        };
+        const desk = (root) => {
+          const w = innerWidth;
+          if (w >= desktopMin) root.dataset.desktop = w >= wideMin ? 'wide' : 'split';
+          else delete root.dataset.desktop;
+        };
+        const apply = (root = document.documentElement) => {
+          const p = read();
+          const chosen = p.theme || 'system';
+          const scheme = chosen === 'system' ? (mq.matches ? 'dark' : 'light') : chosen;
+          desk(root);
+          root.dataset.theme = chosen;
+          root.dataset.scheme = scheme === 'contrast' ? 'contrast' : scheme;
+          root.style.colorScheme = scheme === 'light' ? 'light' : 'dark';
+          const l = p.layers || { n: true, r: true, e: false };
+          root.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
+          root.dataset.size = String(p.size ?? (root.dataset.desktop ? 3 : 2));
+          root.dataset.layout =
+            p.layout === 'columns' || root.dataset.desktop === 'wide' ? 'columns' : 'stacked';
+          const m = root.ownerDocument.querySelector('meta[name="theme-color"]');
+          if (m) m.content = TC[scheme === 'contrast' ? 'contrast' : scheme] || TC.light;
+          root.classList.add('js');
+        };
+        apply();
+        if (!window.__stutiPrefsBound) {
+          window.__stutiPrefsBound = true;
+          document.addEventListener('astro:before-swap', (e) => {
+            apply(e.newDocument.documentElement);
+          });
+          document.addEventListener('astro:after-swap', () => apply());
+          document.addEventListener('astro:page-load', () => apply());
+          addEventListener('storage', (e) => {
+            if (e.key === KEY) apply();
+          });
+          addEventListener('stuti:prefs', () => apply());
+          mq.addEventListener('change', () => apply());
+          addEventListener('resize', () => apply());
+          addEventListener('pageshow', (e) => {
+            if (e.persisted) apply();
+          });
+        }
       })();
-      try {
-        const p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
-        const l = p.layers || { n: true, r: true, e: false };
-        const h = document.documentElement;
-        h.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
-        // Desktop default lyric size is one step larger (index 3).
-        const sizeDefault = h.dataset.desktop ? 3 : 2;
-        h.dataset.size = String(p.size == null ? sizeDefault : p.size);
-        h.dataset.theme = p.theme || 'system';
-        h.dataset.layout = p.layout === 'columns' ? 'columns' : h.dataset.desktop === 'wide' ? 'columns' : 'stacked';
-      } catch {
-        // Storage blocked or corrupt: keep the server defaults.
-      }
-      // Chrome fires this early; keep it for InstallPrompt, which decides when (and if) to offer it.
+    </script>
+    <script is:inline>
       addEventListener('beforeinstallprompt', (e) => {
         e.preventDefault();
         self.__stutiInstall = e;
         dispatchEvent(new Event('stuti:installable'));
       });
-      function syncDesktop() {
-        const w = window.innerWidth;
-        const h = document.documentElement;
-        if (w >= desktopMin) h.setAttribute('data-desktop', w >= wideMin ? 'wide' : 'split');
-        else h.removeAttribute('data-desktop');
-      }
-      addEventListener('resize', syncDesktop);
-      // View transitions can remount without a resize; keep panes in sync.
-      document.addEventListener('astro:page-load', syncDesktop);
-      document.addEventListener('astro:after-swap', syncDesktop);
     </script>
     <slot name="head" />
     {analyticsToken && (
@@ -89,7 +110,6 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
     <slot />
     <script>
       import { registerServiceWorker } from '../lib/pwa';
-      // No service worker in `astro dev` (devOptions.enabled is false).
       if (import.meta.env.PROD) registerServiceWorker();
     </script>
   </body>

@@ -1,18 +1,8 @@
 ---
 import TopBarActions from './islands/TopBarActions';
-import { getBooks } from '../lib/content';
+import ThemeToggle from './islands/ThemeToggle';
 import { site } from '../site.config';
-import { LANG_NATIVE } from '../lib/scripts';
 import { t } from '../i18n';
-
-const publishedLangs = [...new Set((await getBooks()).map((b) => b.lang))];
-const langs = [
-  { id: 'all', label: t('desktop.langAll') },
-  ...publishedLangs.map((id) => ({
-    id,
-    label: id === 'en' ? 'English' : LANG_NATIVE[id as keyof typeof LANG_NATIVE] ?? id,
-  })),
-];
 ---
 
 <header class="topbar" transition:persist="topbar">
@@ -23,37 +13,22 @@ const langs = [
   <nav class="topbar__nav" aria-label="Desktop">
     <a class="topbar__nav-link" href="/">{t('nav.home')}</a>
     <a class="topbar__nav-link" href="/sets/">{t('nav.sets')}</a>
-    <a class="topbar__nav-link" href="/downloads/">{t('nav.offline')}</a>
+    <a class="topbar__nav-link" href="/downloads/" data-feature="offline">{t('nav.offline')}</a>
     <details class="topbar__more menu">
-      <summary class="topbar__nav-link" aria-label={t('home.menu')}>⋯</summary>
+      <summary class="topbar__nav-link" aria-label={t('home.menu')} data-feature="settings">⋯</summary>
       <div class="menu__list">
-        <a href="/settings/">{t('home.settings')}</a>
+        <a href="/settings/" data-feature="settings">{t('home.settings')}</a>
         <a href="/about/">{t('home.about')}</a>
       </div>
     </details>
   </nav>
-  <div class="topbar__langs" role="group" aria-label={t('desktop.languages')} data-lang-filter>
-    {
-      langs.map((l) => (
-        <button type="button" class="topbar__lang" data-lang={l.id} aria-pressed={l.id === 'all' ? 'true' : 'false'}>
-          <span lang={l.id === 'all' || l.id === 'en' ? 'en' : l.id}>{l.label}</span>
-        </button>
-      ))
-    }
+  <div class="topbar__acts-inline">
+    <ThemeToggle client:media={`(min-width: ${site.layout.desktopMin}px)`} compact />
+    <TopBarActions client:media={`(min-width: ${site.layout.desktopMin}px)`} />
   </div>
-  <TopBarActions client:media={`(min-width: ${site.layout.desktopMin}px)`} />
 </header>
 <script is:inline>
   (function () {
-    try {
-      const p = JSON.parse(localStorage.getItem('stuti:prefs') || '{}');
-      const cur = p.langFilter || 'all';
-      document.querySelectorAll('[data-lang-filter] [data-lang]').forEach(function (btn) {
-        btn.setAttribute('aria-pressed', btn.getAttribute('data-lang') === cur ? 'true' : 'false');
-      });
-    } catch {
-      /* prefs missing or blocked */
-    }
     var path = location.pathname;
     document.querySelectorAll('.topbar__nav-link[href]').forEach(function (a) {
       var href = a.getAttribute('href') || '';

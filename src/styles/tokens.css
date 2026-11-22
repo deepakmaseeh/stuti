@@ -1,100 +1,109 @@
-:root {
-  /* Color: every color has one job */
-  --leather: oklch(0.36 0.11 15); /* primary: badges, active chips, primary surfaces */
-  --leather-deep: oklch(0.27 0.08 15); /* header/cover, app frame */
+:root,
+[data-scheme='light'] {
+  color-scheme: light;
+  --leather: oklch(0.36 0.11 15);
+  --leather-deep: oklch(0.27 0.08 15);
   --leather-ink: oklch(0.22 0.06 15);
-  --gold: oklch(0.8 0.12 82); /* numbers on leather, star */
-  --gold-soft: oklch(0.9 0.07 85); /* text on leather */
+  --gold: oklch(0.8 0.12 82);
+  --gold-soft: oklch(0.9 0.07 85);
   --gold-ink: oklch(0.5 0.1 75);
-  --ribbon: oklch(0.55 0.19 25); /* CTA (Open, Start singing), chorus rule */
-  --ribbon-ink: var(--ribbon); /* ribbon-coloured TEXT (section labels, markers): lighter in dark themes */
+  --ribbon: oklch(0.55 0.19 25);
+  --ribbon-ink: var(--ribbon);
   --ribbon-tint: oklch(0.95 0.03 20);
-  --ok: oklch(0.55 0.09 175); /* offline-ready, saved, keep-awake on */
-  --ok-ink: oklch(0.47 0.09 175); /* ok-coloured TEXT: lighter in dark themes */
+  --chorus-bg: oklch(0.95 0.03 20);
+  --ok: oklch(0.55 0.09 175);
+  --ok-ink: oklch(0.47 0.09 175);
   --ok-tint: oklch(0.95 0.03 175);
-  --warn: oklch(0.62 0.15 60); /* draft layer, permission pending */
+  --warn: oklch(0.62 0.15 60);
   --warn-tint: oklch(0.96 0.04 80);
-  --paper: oklch(0.985 0.004 15); /* app background */
-  --page: oklch(0.995 0.002 15); /* cards/sheets */
-  --ink: oklch(0.27 0.02 15); /* text */
-  --muted: oklch(0.48 0.03 15); /* secondary text (≥ 4.5:1 on paper) */
-  --line: oklch(0.91 0.012 15); /* borders */
-  --card: oklch(0.97 0.006 15); /* key/tool backgrounds */
+  --paper: oklch(0.985 0.004 15);
+  --page: oklch(0.995 0.002 15);
+  --ink: oklch(0.27 0.02 15);
+  --muted: oklch(0.48 0.03 15);
+  --line: oklch(0.91 0.012 15);
+  --card: oklch(0.97 0.006 15);
+  --bar: oklch(0.27 0.08 15);
 
-  /* Type */
   --font-ui: 'Instrument Sans', system-ui, sans-serif;
-  --font-display: 'Domine', Georgia, serif; /* titles + numbers */
-  /* Hindi lyrics/UI script: Serif first (ADR 0005); other Indic stay Sans. */
+  --font-display: 'Domine', Georgia, serif;
   --font-lyric-hi: 'Noto Serif Devanagari', 'Noto Sans Devanagari', var(--font-ui);
   --font-indic:
     'Noto Serif Devanagari', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu',
     'Noto Sans Gurmukhi', var(--font-ui);
-  --text-sm: 0.875rem; /* 14px: interface minimum */
-  --text-base: 1.0625rem; /* 17px */
+  --text-sm: 0.875rem;
+  --text-base: 1.0625rem;
   --text-lg: 1.25rem;
   --text-xl: 1.625rem;
   --text-2xl: 2rem;
-  --lyric-size: 1.25rem; /* 20px at default; set by data-size */
+  --lyric-size: 1.25rem;
   --lh-indic: 1.75;
   --lh-latin: 1.5;
 
-  /* Space (4px base) */
   --s1: 4px;
   --s2: 8px;
   --s3: 12px;
   --s4: 16px;
+  --s5: 20px;
   --s6: 24px;
   --s8: 32px;
   --s12: 48px;
 
-  /* Shape & motion */
   --r-sm: 8px;
   --r-md: 12px;
   --r-lg: 14px;
   --r-xl: 22px;
   --r-pill: 999px;
-  --tap: 48px; /* minimum touch target */
+  --tap: 48px;
+  --tabbar-h: 64px;
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
   --dur: 220ms;
 }
 
-html[data-theme='dark'] {
-  --paper: oklch(0.19 0.015 15);
-  --page: oklch(0.22 0.015 15);
-  --card: oklch(0.24 0.02 15);
+[data-scheme='dark'] {
+  color-scheme: dark;
+  --paper: oklch(0.17 0.02 15);
+  --page: oklch(0.21 0.025 15);
+  --card: oklch(0.25 0.03 15);
   --ink: oklch(0.93 0.01 60);
-  --muted: oklch(0.74 0.02 40);
-  --line: oklch(0.32 0.02 15);
+  --muted: oklch(0.72 0.02 40);
+  --line: oklch(0.32 0.03 15);
+  --leather: oklch(0.42 0.11 15);
+  --leather-deep: oklch(0.14 0.03 15);
+  --gold: oklch(0.82 0.12 82);
+  --gold-soft: oklch(0.82 0.08 85);
+  --ribbon: oklch(0.66 0.17 25);
   --ribbon-ink: oklch(0.72 0.15 25);
+  --ribbon-tint: oklch(0.26 0.05 20);
+  --chorus-bg: oklch(0.26 0.05 20);
   --ok-ink: oklch(0.75 0.1 175);
+  --ok-tint: oklch(0.28 0.04 175);
+  --bar: oklch(0.14 0.03 15);
 }
 
-/* Keep in sync with html[data-theme='dark'] (CSS can't reference another selector's values) */
-@media (prefers-color-scheme: dark) {
-  html[data-theme='system'] {
-    --paper: oklch(0.19 0.015 15);
-    --page: oklch(0.22 0.015 15);
-    --card: oklch(0.24 0.02 15);
-    --ink: oklch(0.93 0.01 60);
-    --muted: oklch(0.74 0.02 40);
-    --line: oklch(0.32 0.02 15);
-    --ribbon-ink: oklch(0.72 0.15 25);
-    --ok-ink: oklch(0.75 0.1 175);
-  }
+[data-scheme='contrast'] {
+  color-scheme: dark;
+  --paper: #000;
+  --page: #000;
+  --card: #111;
+  --ink: #fff;
+  --muted: #e6e6e6;
+  --line: #fff;
+  --leather: #000;
+  --leather-deep: #000;
+  --gold: #ffd54a;
+  --gold-soft: #ffd54a;
+  --ribbon: #ff6b5b;
+  --ribbon-ink: #ff6b5b;
+  --ribbon-tint: #1a1a1a;
+  --chorus-bg: #1a1a1a;
+  --bar: #000;
 }
 
-html[data-theme='contrast'] {
-  --paper: #fff;
-  --page: #fff;
-  --card: #f2f2f2;
-  --ink: #000;
-  --muted: #222;
-  --line: #000;
-  --ribbon: oklch(0.45 0.2 25);
-  --leather: oklch(0.3 0.1 15);
+input[type='radio'],
+input[type='checkbox'] {
+  accent-color: var(--ribbon);
 }
 
-/* rem so lyric sizes grow with the phone's font setting (html stays at font-size: 100%) */
 html[data-size='0'] {
   --lyric-size: 1rem;
 }
@@ -114,7 +123,6 @@ html[data-size='5'] {
   --lyric-size: 1.875rem;
 }
 
-/* Tablet+: default lyric size is one step larger (size 2 reads as former size 3, etc.). */
 @media (min-width: 768px) {
   html[data-size='0'] {
     --lyric-size: 1.125rem;

@@ -69,9 +69,12 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  overflow-x: clip;
 }
 body {
   min-height: 100dvh;
+  max-width: 100%;
+  overflow-x: clip;
   background: var(--paper);
   color: var(--ink);
   font-family: var(--font-ui);
@@ -145,9 +148,196 @@ a {
 /* Layout: mobile-first. Phone ≤480px column; tablet/desktop widen via media queries in components.css. */
 .app-column {
   width: 100%;
-  max-width: 480px;
+  max-width: min(480px, 100%);
   margin-inline: auto;
-  padding-inline: var(--s4);
+  padding-inline: max(var(--s4), env(safe-area-inset-left, 0px))
+    max(var(--s4), env(safe-area-inset-right, 0px));
+  box-sizing: border-box;
+  min-width: 0;
+}
+.desktop-shell,
+.desktop-main {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow-x: clip;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+@media (max-width: 379px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+.row-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  gap: 6px;
+}
+.row-scroll::-webkit-scrollbar {
+  display: none;
+}
+.app-main {
+  padding-bottom: calc(var(--tabbar-h, 64px) + env(safe-area-inset-bottom, 0px));
+}
+@media (min-width: 900px) {
+  .app-main {
+    padding-bottom: 24px;
+  }
+}
+.home-books__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: var(--s6);
+}
+.home-books__head .group-title {
+  margin: 0;
+}
+.home-books__offline {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--ribbon-ink);
+  text-decoration: none;
+}
+.home-books__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: var(--s3);
+}
+.book-card {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-width: 0;
+  padding: 12px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--line);
+  background: var(--page);
+  text-decoration: none;
+  color: inherit;
+}
+.book-card__text {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+.book-card__title {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.book-card__sub {
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+.your-songs__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.your-songs__tabs {
+  display: flex;
+  gap: 4px;
+  padding: 3px;
+  border-radius: 999px;
+  background: var(--card);
+}
+.your-songs__tabs button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  padding: 6px 12px;
+  border-radius: 999px;
+  min-height: 36px;
+}
+.your-songs__tabs button.is-active {
+  background: var(--page);
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--line);
+}
+.your-songs__more {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 600;
+  color: var(--ribbon-ink);
+  text-decoration: none;
+}
+.topbar__acts-inline {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+.search-mode-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.search-mode-row .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.search-block__input {
+  display: block;
+  margin-bottom: 10px;
+}
+.search-block__filters {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.filter-select select {
+  appearance: none;
+  min-height: 40px;
+  max-width: 100%;
+  padding: 6px 28px 6px 10px;
+  border-radius: 10px;
+  border: 1.5px solid var(--line);
+  background: var(--page)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E")
+    no-repeat right 8px center;
+  color: var(--ink);
+  font: inherit;
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+.chip.is-on {
+  background: var(--leather);
+  border-color: var(--leather);
+  color: var(--gold-soft);
+}
+.sunday-card__acts .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+@media (max-width: 379px) {
+  .sunday-card__acts .btn--primary {
+    font-size: 0;
+  }
+  .sunday-card__acts .btn--primary svg {
+    margin: 0;
+  }
+  .sunday-card__acts .btn--primary::after {
+    content: 'Sing';
+    font-size: var(--text-sm);
+  }
 }
 
 .visually-hidden {
