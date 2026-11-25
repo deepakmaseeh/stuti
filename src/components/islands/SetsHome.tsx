@@ -34,26 +34,22 @@ function SetCard({
   past,
   next,
   meta,
+  openId,
+  onToggle,
   onAskDelete,
 }: {
   set: WorshipSet;
   past?: boolean;
   next?: boolean;
   meta: Record<string, MetaRow> | null;
+  openId: string | null;
+  onToggle: (id: string) => void;
   onAskDelete: (set: WorshipSet) => void;
 }) {
   const songs = songItems(set);
   const n = songs.length;
   const parts = dateParts(set.date);
-  const preview = songs
-    .slice(0, 4)
-    .map((s) => {
-      const title = meta?.[s.songId]?.[0] ?? s.songId;
-      const badge = meta?.[s.songId]?.[3] ?? s.book ?? '';
-      const short = title.length > 18 ? `${title.slice(0, 16)}…` : title;
-      return badge ? `${badge.split(/\s+/).pop()} ${short}` : short;
-    })
-    .join(' · ');
+  const expanded = openId === set.id;
   const today = new Date().toISOString().slice(0, 10);
   const isThisSunday = !past && set.date >= today && set.date <= addDays(today, 6);
 
@@ -61,27 +57,43 @@ function SetCard({
   const singHref = songs[0] ? `/song/${songs[0].songId}/?set=${encodeURIComponent(set.id)}&i=0` : editHref;
 
   return (
-    <article class={['scard', next ? 'scard--next' : '', past ? 'scard--past' : ''].filter(Boolean).join(' ')}>
-      <a class="scard__date" href={editHref} aria-label={set.date}>
+    <article
+      class={[
+        'scard',
+        next ? 'scard--next' : '',
+        past ? 'scard--past' : '',
+        expanded ? 'scard--open' : 'scard--closed',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+    >
+      <button
+        type="button"
+        class="scard__date"
+        aria-label={set.date}
+        onClick={() => onToggle(set.id)}
+      >
         <i>{parts.weekday}</i>
         <b>{parts.day}</b>
         <i>{parts.month}</i>
-      </a>
-      <a class="scard__body" href={editHref}>
+      </button>
+      <button type="button" class="scard__body" onClick={() => onToggle(set.id)}>
         <h3>{set.title}</h3>
         <div class="scard__meta">
-          {isThisSunday ? <span class="pill pill--red">This Sunday</span> : null}
-          <span class="pill">{serviceLabel(set.service)}</span>
-          {set.time ? `${set.time} · ` : ''}
-          {set.leader ? `${set.leader} · ` : ''}
-          {n === 1 ? t('set.songs.one') : t('set.songs', { n })}
+          {isThisSunday ? 'This Sunday' : serviceLabel(set.service)}
+          {set.time ? ` · ${set.time}` : ''}
         </div>
-        {preview ? <div class="scard__songs hi">{preview}{n > 4 ? ` · +${n - 4}` : ''}</div> : null}
-      </a>
+      </button>
       <div class="scard__acts">
         {!past && songs[0] ? (
-          <a class="btn btn--primary btn--small" href={singHref} data-astro-reload>
-            <Play size={16} strokeWidth={1.75} aria-hidden="true" /> Sing
+          <a
+            class="btn btn--primary btn--small btn--icon"
+            href={singHref}
+            data-astro-reload
+            aria-label="Sing"
+            title="Sing"
+          >
+            <Play size={18} strokeWidth={1.75} aria-hidden="true" />
           </a>
         ) : null}
         <a class="btn btn--secondary btn--small btn--icon" href={editHref} aria-label="Edit" title="Edit">
@@ -97,6 +109,29 @@ function SetCard({
           <Trash2 size={16} strokeWidth={1.75} aria-hidden="true" />
         </button>
       </div>
+      {expanded ? (
+        <div class="scard__expand">
+          <div class="scard__meta">
+            <span class="pill">{serviceLabel(set.service)}</span>
+            {set.time ? `${set.time} · ` : ''}
+            {set.leader ? `${set.leader} · ` : ''}
+            {n === 1 ? t('set.songs.one') : t('set.songs', { n })}
+          </div>
+          <ul class="scard__songlist">
+            {songs.slice(0, 12).map((s) => {
+              const title = meta?.[s.songId]?.[0] ?? s.songId;
+              const badge = meta?.[s.songId]?.[3] ?? s.book ?? '';
+              return (
+                <li key={s.id}>
+                  {badge ? `${badge} · ` : ''}
+                  {title}
+                  {s.key ? ` · ${s.key}` : ''}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ) : null}
     </article>
   );
 }
@@ -171,6 +206,7 @@ export default function SetsHome() {
   const [sets, setSets] = useState<WorshipSet[]>([]);
   const [dialog, setDialog] = useState(false);
   const [pendingDelete, setPendingDelete] = useState<WorshipSet | null>(null);
+  const [openId, setOpenId] = useState<string | null>(null);
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [month, setMonth] = useState(() => {
     const d = new Date();
@@ -264,7 +300,15 @@ export default function SetsHome() {
             ) : (
               <div class="slist">
                 {upcoming.map((s, i) => (
-                  <SetCard key={s.id} set={s} next={i === 0} meta={meta} onAskDelete={setPendingDelete} />
+                  <SetCard
+                    key={s.id}
+                    set={s}
+                    next={i === 0}
+                    meta={meta}
+                    openId={openId}
+                    onToggle={(id) => setOpenId((cur) => (cur === id ? null : id))}
+                    onAskDelete={setPendingDelete}
+                  />
                 ))}
               </div>
             )}
@@ -279,7 +323,15 @@ export default function SetsHome() {
             ) : (
               <div class="slist">
                 {past.map((s) => (
-                  <SetCard key={s.id} set={s} past meta={meta} onAskDelete={setPendingDelete} />
+                  <SetCard
+                    key={s.id}
+                    set={s}
+                    past
+                    meta={meta}
+                    openId={openId}
+                    onToggle={(id) => setOpenId((cur) => (cur === id ? null : id))}
+                    onAskDelete={setPendingDelete}
+                  />
                 ))}
               </div>
             )}
