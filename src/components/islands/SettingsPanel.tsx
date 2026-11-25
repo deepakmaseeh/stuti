@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
-import { t, type StringKey } from '../../i18n';
+import { t } from '../../i18n';
 import { LANG_LABEL, LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
 import type { Lang } from '../../lib/schema';
 import { decodeSet, encodeSet, getDraft, getSavedSets, saveSet, type SetList } from '../../lib/setlist';
@@ -10,14 +10,12 @@ import {
   storage,
   updatePrefs,
   type Prefs,
-  type Theme,
 } from '../../lib/storage';
 import { showToast } from '../../lib/toast';
 import Sheet from './Sheet';
+import { ThemeSegment } from './ThemeToggle';
 
 type Props = { languages: Lang[]; samples: Partial<Record<Lang, string>> };
-
-const THEMES: Theme[] = ['system', 'light', 'dark', 'contrast'];
 
 function applyHtml(p: Prefs) {
   const h = document.documentElement;
@@ -108,6 +106,13 @@ export default function SettingsPanel({ languages, samples }: Props) {
 
   return (
     <div class="settings">
+      <section class="settings__group" aria-labelledby="s-appearance">
+        <h2 class="group-title" id="s-appearance">
+          Appearance
+        </h2>
+        <p class="field__label">{t('settings.theme')}</p>
+        <ThemeSegment />
+      </section>
       <section class="settings__group" aria-labelledby="s-reading">
         <h2 class="group-title" id="s-reading">
           {t('settings.reading')}
@@ -151,20 +156,6 @@ export default function SettingsPanel({ languages, samples }: Props) {
           )}
         </div>
 
-        <fieldset class="fieldset">
-          <legend>{t('settings.theme')}</legend>
-          {THEMES.map((th) => (
-            <label class="check">
-              <input
-                type="radio"
-                name="theme"
-                checked={p.theme === th}
-                onChange={() => save({ theme: th })}
-              />
-              <span>{t(`settings.theme.${th}` as StringKey)}</span>
-            </label>
-          ))}
-        </fieldset>
       </section>
 
       <section class="settings__group" aria-labelledby="s-singing">

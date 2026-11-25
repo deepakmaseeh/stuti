@@ -1,6 +1,6 @@
 export const site = {
-  name: 'Stuti Christian Song',
-  tagline: 'Digital hymnal for Indian churches',
+  name: 'Stuti Songs',
+  tagline: 'Christian hymnal for Indian churches',
   url: 'https://stuti.deepakmaseeh121.workers.dev',
   languages: ['hi', 'en'] as const,
   defaultBookId: 'TLBC',

@@ -3,6 +3,15 @@
   flex-direction: column;
   gap: 1.25rem;
   font-size: var(--lyric-size);
+  max-width: 760px;
+  margin-inline: auto;
+  width: 100%;
+}
+.ln,
+.line .n,
+.line .r,
+.line .e {
+  max-width: none;
 }
 
 .sec {
@@ -89,11 +98,18 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
   color: var(--ribbon-ink);
 }
 
-/* Desktop: Original / Roman / English side by side, one row per lyric line. */
-@media (min-width: 900px) {
-  .lyrics-cols {
-    display: none;
-    grid-template-columns: 1.35fr 1fr 1fr;
+.lyrics-cols {
+  display: none;
+}
+
+/* Side-by-side layers only on wide desktop (content pane effectively ≥ ~900). MASTER R2/B1. */
+@media (min-width: 1280px) {
+  html[data-layout='columns'] .lyrics {
+    max-width: min(1100px, 100%);
+  }
+  html[data-layout='columns'] .lyrics-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 32px;
     padding: 0 14px 0 calc(3px + 18px);
     margin: 0 0 0.75rem;
@@ -104,22 +120,11 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
     color: var(--muted);
     font-weight: 600;
   }
-  html[data-layout='columns'] .lyrics-cols {
-    display: grid;
-  }
-  html[data-layout='columns'] .lyrics.has-r:not(.has-e) .lyrics-cols,
-  html[data-layout='columns'] .lyrics.has-e:not(.has-r) .lyrics-cols {
-    grid-template-columns: 1.2fr 1fr;
-  }
   html[data-layout='columns'] .line {
     display: grid;
-    grid-template-columns: 1.35fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 32px;
     align-items: baseline;
-  }
-  html[data-layout='columns'] .lyrics.has-r:not(.has-e) .line,
-  html[data-layout='columns'] .lyrics.has-e:not(.has-r) .line {
-    grid-template-columns: 1.2fr 1fr;
   }
   html[data-layout='columns'] .line + .line {
     margin-top: 0.35rem;
@@ -127,6 +132,7 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
   html[data-layout='columns'] .line .n {
     font-weight: 500;
     line-height: 1.7;
+    max-width: none;
   }
   html[data-layout='columns'] .line .r {
     font-size: 0.86em;
@@ -137,16 +143,8 @@ html[data-layers~='e']:not([data-layers~='n']) .lyrics.has-e .line .n {
     font-style: italic;
     color: var(--muted);
   }
-  /* Collapse unused columns when a layer is hidden or missing on this song. */
   html[data-layout='columns'][data-layers]:not([data-layers~='n']) .line,
   html[data-layout='columns'] .lyrics.is-en .line {
     grid-template-columns: 1fr;
-  }
-  html[data-layout='columns'][data-layers~='n'][data-layers~='r']:not([data-layers~='e']) .lyrics.has-r .line,
-  html[data-layout='columns'][data-layers~='n'][data-layers~='e']:not([data-layers~='r']) .lyrics.has-e .line,
-  html[data-layout='columns'][data-layers~='r'][data-layers~='e']:not([data-layers~='n'])
-    .lyrics.has-r.has-e
-    .line {
-    grid-template-columns: 1.2fr 1fr;
   }
 }

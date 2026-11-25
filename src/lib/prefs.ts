@@ -1,8 +1,8 @@
-/** Theme / layout prefs (STUTI_FINAL_UI_SPEC §3). Survives ClientRouter swaps via applyPrefs. */
+/** Theme / layout prefs (STUTI_MASTER_SPEC §3). Survives ClientRouter swaps. */
 
 export const PREFS_KEY = 'stuti:prefs';
 
-export type Theme = 'system' | 'light' | 'dark' | 'contrast';
+export type Theme = 'system' | 'light' | 'dark';
 export type Prefs = {
   theme?: Theme;
   size?: number;
@@ -16,28 +16,30 @@ export type Prefs = {
   v?: number;
 };
 
-const THEME_COLOR: Record<'light' | 'dark' | 'contrast', string> = {
+const THEME_COLOR: Record<'light' | 'dark', string> = {
   light: '#4a1820',
   dark: '#1a0f11',
-  contrast: '#000000',
 };
 
 export function readPrefs(): Prefs {
   try {
-    return JSON.parse(localStorage.getItem(PREFS_KEY) || '{}') as Prefs;
+    const raw = JSON.parse(localStorage.getItem(PREFS_KEY) || '{}') as Prefs & { theme?: string };
+    // Migrate removed contrast theme → dark
+    if (raw.theme === 'contrast') raw.theme = 'dark';
+    return raw;
   } catch {
     return {};
   }
 }
 
-export function resolveTheme(t: Theme = 'system'): 'light' | 'dark' | 'contrast' {
-  if (t === 'contrast') return 'contrast';
+export function resolveTheme(t: Theme = 'system'): 'light' | 'dark' {
   if (t === 'light' || t === 'dark') return t;
   return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
 export function applyPrefs(root: HTMLElement = document.documentElement, p: Prefs = readPrefs()): void {
-  const chosen: Theme = p.theme ?? 'system';
+  let chosen: Theme = p.theme ?? 'system';
+  if ((chosen as string) === 'contrast') chosen = 'dark';
   const scheme = resolveTheme(chosen);
   root.dataset.theme = chosen;
   root.dataset.scheme = scheme;

@@ -38,7 +38,7 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
     <script is:inline define:vars={{ desktopMin: site.layout.desktopMin, wideMin: site.layout.wideMin }}>
       (() => {
         const KEY = 'stuti:prefs';
-        const TC = { light: '#4a1820', dark: '#1a0f11', contrast: '#000000' };
+        const TC = { light: '#4a1820', dark: '#1a0f11' };
         const mq = matchMedia('(prefers-color-scheme: dark)');
         const read = () => {
           try {
@@ -54,11 +54,13 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
         };
         const apply = (root = document.documentElement) => {
           const p = read();
-          const chosen = p.theme || 'system';
-          const scheme = chosen === 'system' ? (mq.matches ? 'dark' : 'light') : chosen;
+          let chosen = p.theme || 'system';
+          if (chosen === 'contrast') chosen = 'dark';
+          const scheme =
+            chosen === 'system' ? (mq.matches ? 'dark' : 'light') : chosen === 'dark' ? 'dark' : 'light';
           desk(root);
           root.dataset.theme = chosen;
-          root.dataset.scheme = scheme === 'contrast' ? 'contrast' : scheme;
+          root.dataset.scheme = scheme;
           root.style.colorScheme = scheme === 'light' ? 'light' : 'dark';
           const l = p.layers || { n: true, r: true, e: false };
           root.dataset.layers = ['n', 'r', 'e'].filter((k) => l[k]).join(' ') || 'n';
@@ -66,7 +68,7 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
           root.dataset.layout =
             p.layout === 'columns' || root.dataset.desktop === 'wide' ? 'columns' : 'stacked';
           const m = root.ownerDocument.querySelector('meta[name="theme-color"]');
-          if (m) m.content = TC[scheme === 'contrast' ? 'contrast' : scheme] || TC.light;
+          if (m) m.content = TC[scheme] || TC.light;
           root.classList.add('js');
         };
         apply();

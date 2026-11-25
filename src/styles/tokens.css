@@ -80,25 +80,6 @@
   --bar: oklch(0.14 0.03 15);
 }
 
-[data-scheme='contrast'] {
-  color-scheme: dark;
-  --paper: #000;
-  --page: #000;
-  --card: #111;
-  --ink: #fff;
-  --muted: #e6e6e6;
-  --line: #fff;
-  --leather: #000;
-  --leather-deep: #000;
-  --gold: #ffd54a;
-  --gold-soft: #ffd54a;
-  --ribbon: #ff6b5b;
-  --ribbon-ink: #ff6b5b;
-  --ribbon-tint: #1a1a1a;
-  --chorus-bg: #1a1a1a;
-  --bar: #000;
-}
-
 input[type='radio'],
 input[type='checkbox'] {
   accent-color: var(--ribbon);

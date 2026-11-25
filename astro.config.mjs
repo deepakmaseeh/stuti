@@ -25,8 +25,8 @@ export default defineConfig({
       registerType: 'prompt',
       injectRegister: false, // registered manually in Base.astro via workbox-window
       manifest: {
-        name: 'Stuti: Digital Hymnal',
-        short_name: 'Stuti',
+        name: 'Stuti Songs – Christian Hymnal',
+        short_name: 'Stuti Songs',
         description: 'Christian songs in Hindi, Tamil, Telugu, Punjabi and English. Offline.',
         lang: 'en',
         start_url: '/',
@@ -41,7 +41,7 @@ export default defineConfig({
           { src: '/icons/maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
         shortcuts: [
-          { name: 'Search by number', url: '/search/' },
+          { name: 'Search songs', url: '/search/' },
           { name: 'Sunday set', url: '/sets/' },
         ],
       },

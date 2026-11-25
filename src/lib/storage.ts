@@ -1,7 +1,7 @@
 import { site } from '../site.config';
 import { applyPrefs } from './prefs';
 
-export type Theme = 'system' | 'light' | 'dark' | 'contrast';
+export type Theme = 'system' | 'light' | 'dark';
 /** Song layer arrangement on wide screens; stacked is always used below desktop. */
 export type LyricLayout = 'stacked' | 'columns';
 export type Prefs = {
@@ -91,7 +91,14 @@ export const storage = {
     /** Merges stored prefs over defaults so new fields get default values. */
     get: (): Prefs => {
       const p = prefsSlot.get();
-      return { ...DEFAULT_PREFS, ...p, layers: { ...DEFAULT_PREFS.layers, ...(p.layers ?? {}) }, v: 1 };
+      const theme = (p.theme as string) === 'contrast' ? 'dark' : p.theme;
+      return {
+        ...DEFAULT_PREFS,
+        ...p,
+        theme: theme ?? DEFAULT_PREFS.theme,
+        layers: { ...DEFAULT_PREFS.layers, ...(p.layers ?? {}) },
+        v: 1,
+      };
     },
     set: prefsSlot.set,
   },
