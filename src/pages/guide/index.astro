@@ -1,0 +1,93 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import { appVersion, contentVersion } from '../../lib/version';
+import { site } from '../../site.config';
+---
+
+<AppShell
+  title={`About & Guide | ${site.name}`}
+  description="How to find songs, plan a set, present, and use Stuti Songs offline."
+>
+  <article class="prose guide">
+    <h1 class="page-title">About & Guide</h1>
+    <p>
+      <strong>{site.name}</strong> is a free Christian hymnal for Indian churches. It works offline, numbers
+      songs like your printed book, and needs no sign-in.
+    </p>
+
+    <nav class="guide-toc" aria-label="Topics">
+      <a class="chip" href="#find">Find a song</a>
+      <a class="chip" href="#number">By number</a>
+      <a class="chip" href="#set">Plan a set</a>
+      <a class="chip" href="#share">Share</a>
+      <a class="chip" href="#present">Present</a>
+      <a class="chip" href="#offline">Offline</a>
+      <a class="chip" href="#settings">Settings</a>
+    </nav>
+
+    <h2 id="find">Find a song</h2>
+    <ol>
+      <li>Open the <strong>Search</strong> tab.</li>
+      <li>Tap <strong>हिन्दी</strong> or <strong>English</strong>.</li>
+      <li>Tap the first letter of the song.</li>
+      <li>Tap the song. Use <strong>Book</strong> and <strong>Topic</strong> to narrow.</li>
+    </ol>
+
+    <h2 id="number">Find by hymn number</h2>
+    <ol>
+      <li><strong>Home</strong> → <strong>Hymnbooks</strong> → tap your book.</li>
+      <li>The list is in number order. Use the jump bar (1 · 50 · 100…).</li>
+    </ol>
+
+    <h2 id="set">Plan a set</h2>
+    <ol>
+      <li><strong>Sets</strong> → New set → pick a service → Create.</li>
+      <li>Type hymn numbers (e.g. 12, 46) or browse with the library button.</li>
+      <li>Tap a song to set key and verses. Then Start singing.</li>
+    </ol>
+
+    <h2 id="share">Share a set</h2>
+    <p>
+      In the set, tap Share for WhatsApp, Copy link, QR, Calendar, Order of service, or PowerPoint.
+    </p>
+
+    <h2 id="present">Show on a projector</h2>
+    <p>
+      Tap Present. Keys: → next, ← back, B black screen, Esc exit.
+    </p>
+
+    <h2 id="offline">Use without internet</h2>
+    <ol>
+      <li><strong>Offline</strong> tab → download next to a book → wait for the check mark.</li>
+    </ol>
+
+    <h2 id="settings">Settings</h2>
+    <p>
+      Tap the gear: Theme (System / Light / Dark), text size, church book, church name. Theme is remembered on
+      every page without refreshing.
+    </p>
+
+    <h2>FAQ</h2>
+    <ul>
+      <li><strong>No internet?</strong> Download books on Offline first.</li>
+      <li><strong>Wrong words?</strong> On a song → ⋯ → Report a mistake.</li>
+      <li><strong>Is it free?</strong> Yes. No ads, no tracking.</li>
+    </ul>
+
+    <p class="muted">
+      Version {appVersion} · data {contentVersion} · <a href="/about/">Privacy &amp; contact</a>
+    </p>
+  </article>
+</AppShell>
+
+<style>
+  .guide-toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 1rem 0 1.5rem;
+  }
+  .guide h2 {
+    scroll-margin-top: 72px;
+  }
+</style>

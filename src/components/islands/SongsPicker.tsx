@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'preact/hooks';
 import { t } from '../../i18n';
 import { loadMeta, loadNumbers, type Hit, type MetaRow, type NumbersMap } from '../../lib/search';
 import { site } from '../../site.config';
-import BrowsePanel from './BrowsePanel';
+import LetterBrowser from './LetterBrowser';
 import Sheet from './Sheet';
 
 export type SongPick = { songId: string; book: string; badge: string; title: string };
@@ -147,7 +147,7 @@ export default function SongsPicker({
             {meta && filtered.length === 0 ? <p class="muted">{t('set.noSongsMatch')}</p> : null}
           </>
         ) : (
-          <BrowsePanel active={open && mode === 'browse'} onSelect={pickHit} />
+          <LetterBrowser onSelect={pickHit} />
         )}
       </div>
     </Sheet>

@@ -1,17 +1,14 @@
 import { useEffect, useState } from 'preact/hooks';
-import { Hash, Search } from 'lucide-preact';
 import { t } from '../../i18n';
 import { loadNumbers, lookupNumber } from '../../lib/search';
 import { songUrl } from '../../lib/songs';
 import { site } from '../../site.config';
-import Keypad, { type BookChip } from './Keypad';
-import SongListPanel from './SongListPanel';
+import LetterBrowser from './LetterBrowser';
+import type { BookChip } from './Keypad';
 
-/** One search surface: list + filters, with optional number keypad (FINAL_UI_SPEC §6). */
+/** Search tab = language → letter → songs (MASTER §6). No text box / number keypad. */
 export default function SearchTabs({ books }: { books: BookChip[] }) {
   const [desktop, setDesktop] = useState(false);
-  const [mode, setMode] = useState<'search' | 'number'>('search');
-  const [deep, setDeep] = useState<{ book?: string; n?: string; q?: string } | undefined>(undefined);
 
   useEffect(() => {
     const mq = matchMedia(`(min-width: ${site.layout.desktopMin}px)`);
@@ -23,21 +20,16 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
 
   useEffect(() => {
     const p = new URLSearchParams(location.search);
-    const d = {
-      book: p.get('book') ?? undefined,
-      n: p.get('n') ?? undefined,
-      q: p.get('q') ?? undefined,
-    };
-    if (d.book && d.n) {
+    const book = p.get('book');
+    const n = p.get('n');
+    if (book && n) {
       loadNumbers()
         .then((map) => {
-          const id = lookupNumber(map, d.book!, d.n!);
-          if (id) location.replace(`${songUrl(id)}?from=${d.book!.toLowerCase()}`);
+          const id = lookupNumber(map, book, n);
+          if (id) location.replace(`${songUrl(id)}?from=${book.toLowerCase()}`);
         })
         .catch(() => {});
-      setMode('number');
-    } else if (p.get('tab') === 'number') setMode('number');
-    setDeep(d);
+    }
   }, []);
 
   if (desktop) {
@@ -46,31 +38,7 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
 
   return (
     <div class="search search--unified" data-feature="search">
-      <div class="search-mode-row">
-        <button
-          type="button"
-          class={mode === 'search' ? 'chip is-on' : 'chip'}
-          onClick={() => setMode('search')}
-          aria-pressed={mode === 'search'}
-        >
-          <Search size={16} strokeWidth={1.75} aria-hidden="true" /> {t('search.songs')}
-        </button>
-        <button
-          type="button"
-          class={mode === 'number' ? 'chip is-on' : 'chip'}
-          onClick={() => setMode('number')}
-          aria-pressed={mode === 'number'}
-          title="Number keypad"
-          aria-label="Number keypad"
-        >
-          <Hash size={16} strokeWidth={1.75} aria-hidden="true" /> 123
-        </button>
-      </div>
-      {mode === 'number' && deep !== undefined ? (
-        <Keypad books={books} active initial={deep} />
-      ) : (
-        <SongListPanel active />
-      )}
+      <LetterBrowser books={books} />
     </div>
   );
 }

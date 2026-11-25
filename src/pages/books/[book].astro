@@ -16,6 +16,16 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props as { book: Book };
 const entries = await getBookEntries(book.id);
+const maxNo = entries.reduce((m, e) => Math.max(m, e.number), 0);
+const jumps: number[] = [];
+for (let n = 1; n <= maxNo; n += 50) jumps.push(n);
+
+/** Nearest entry at or after each jump target, for sticky chip anchors. */
+const jumpTargets = new Map<number, number>();
+for (const j of jumps) {
+  const hit = entries.find((e) => e.number >= j);
+  if (hit) jumpTargets.set(j, hit.number);
+}
 ---
 
 <AppShell
@@ -30,16 +40,51 @@ const entries = await getBookEntries(book.id);
     {book.edition && ` · ${book.edition}`} · {t('books.count', { n: entries.length })}
   </p>
   <BookDownloadButton client:idle bookId={book.id} lang={book.lang} />
+
+  {
+    jumps.length > 1 && (
+      <nav class="book-jump row-scroll" aria-label="Jump to number">
+        {jumps.map((n) => (
+          <a class="chip" href={`#n-${jumpTargets.get(n) ?? n}`}>
+            {n}
+          </a>
+        ))}
+      </nav>
+    )
+  }
+
   <div class="book-list">
-    {entries.map(({ number, song }) => (
-      <SongRow
-        href={`${songUrl(song.id)}?from=${book.id.toLowerCase()}`}
-        book={book.id}
-        number={number}
-        title={song.title.native}
-        subtitle={song.title.roman || undefined}
-        lang={song.lang}
-      />
-    ))}
+    {
+      entries.map(({ number, song }) => (
+        <div id={`n-${number}`}>
+          <SongRow
+            href={`${songUrl(song.id)}?from=${book.id.toLowerCase()}`}
+            book={book.id}
+            number={number}
+            title={song.title.native}
+            subtitle={song.title.roman || undefined}
+            lang={song.lang}
+          />
+        </div>
+      ))
+    }
   </div>
 </AppShell>
+
+<style>
+  .book-jump {
+    position: sticky;
+    top: 56px;
+    z-index: 2;
+    padding: 8px 0;
+    margin: 8px 0 12px;
+    background: color-mix(in oklab, var(--page) 92%, transparent);
+    backdrop-filter: blur(6px);
+    gap: 6px;
+  }
+  .book-jump .chip {
+    flex: 0 0 auto;
+    min-width: 44px;
+    justify-content: center;
+  }
+</style>

@@ -269,7 +269,7 @@
   "settings.contentVersion": "Content version",
   "about.title": "About Stuti",
   "about.howTitle": "How to use",
-  "about.howFind": "Find a song: Browse by letter, Number from the printed book, or Songs for the full list.",
+  "about.howFind": "Find a song: Search tab → tap हिन्दी or English → tap a letter → tap the song. Or Home → Hymnbooks → book for hymn numbers.",
   "about.howFav": "Tap ☆ on a song to keep it in Favourites on Home.",
   "about.howSet": "Tap + Set to build Sunday's list, then Start singing or Present for the projector.",
   "desktop.presentSong": "Song {cur}/{total}",

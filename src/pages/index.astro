@@ -36,10 +36,14 @@ const books = await Promise.all(
     <div class="home-books__grid">
       {books.map(({ book, count }) => (
         <a class="book-card" href={`/books/${book.id.toLowerCase()}/`}>
-          <NumberBadge book="" number={book.id} />
+          <NumberBadge
+            book={book.lang === 'en' ? 'ENGLISH' : book.lang === 'hi' ? 'HINDI' : LANG_LABEL[book.lang].toUpperCase()}
+            number={book.id}
+          />
           <span class="book-card__text">
             <span class="book-card__title" lang={LANG_TAG.n[book.lang]}>
               {book.name.native}
+              {book.name.en && book.name.en !== book.name.native ? ` · ${book.name.en}` : ''}
             </span>
             <span class="book-card__sub">
               {LANG_LABEL[book.lang]} · {t('books.count', { n: count })}
