@@ -28,6 +28,28 @@ export default function SetsPrint() {
       .catch(() => {});
   }, []);
 
+  // Scale A4 sheet to viewport width (MASTER §13.1)
+  useEffect(() => {
+    const fit = () => {
+      const sheet = document.querySelector<HTMLElement>('.a4, .oos-sheet, .order-of-service');
+      const wrap = document.querySelector<HTMLElement>('.sets-print__sheet, .sets-print');
+      if (!sheet || !wrap) return;
+      const w = Math.min(innerWidth - 32, 794);
+      const s = w / 794;
+      sheet.style.transform = `scale(${s})`;
+      sheet.style.transformOrigin = 'top left';
+      wrap.style.width = `${w}px`;
+      wrap.style.height = `${sheet.offsetHeight * s}px`;
+    };
+    fit();
+    addEventListener('resize', fit);
+    const t = setTimeout(fit, 100);
+    return () => {
+      removeEventListener('resize', fit);
+      clearTimeout(t);
+    };
+  }, [set, copy, lyrics, meta]);
+
   const doPrint = () => {
     if (!set) return;
     document.title = `Order of Service – ${set.title} – ${set.date}`;

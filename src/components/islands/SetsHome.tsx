@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'preact/hooks';
-import { Pencil, Play, Plus, Trash2 } from 'lucide-preact';
+import { EllipsisVertical, Pencil, Play, Plus, Share2, Trash2 } from 'lucide-preact';
 import { t } from '../../i18n';
 import {
   deleteSet,
@@ -18,6 +18,7 @@ import { loadMeta, type MetaRow } from '../../lib/search';
 import { showToast } from '../../lib/toast';
 import NewSetDialog from './NewSetDialog';
 import SetsCalendar from './SetsCalendar';
+import ShareSheet from './ShareSheet';
 
 type Tab = 'list' | 'calendar';
 
@@ -37,6 +38,7 @@ function SetCard({
   openId,
   onToggle,
   onAskDelete,
+  onShare,
 }: {
   set: WorshipSet;
   past?: boolean;
@@ -45,11 +47,13 @@ function SetCard({
   openId: string | null;
   onToggle: (id: string) => void;
   onAskDelete: (set: WorshipSet) => void;
+  onShare: (set: WorshipSet) => void;
 }) {
   const songs = songItems(set);
   const n = songs.length;
   const parts = dateParts(set.date);
   const expanded = openId === set.id;
+  const [menu, setMenu] = useState(false);
   const today = new Date().toISOString().slice(0, 10);
   const isThisSunday = !past && set.date >= today && set.date <= addDays(today, 6);
 
@@ -99,15 +103,40 @@ function SetCard({
         <a class="btn btn--secondary btn--small btn--icon" href={editHref} aria-label="Edit" title="Edit">
           <Pencil size={16} strokeWidth={1.75} aria-hidden="true" />
         </a>
-        <button
-          type="button"
-          class="btn btn--secondary btn--small btn--icon"
-          aria-label={t('set.delete')}
-          title={t('set.delete')}
-          onClick={() => onAskDelete(set)}
-        >
-          <Trash2 size={16} strokeWidth={1.75} aria-hidden="true" />
-        </button>
+        <div class="scard__more">
+          <button
+            type="button"
+            class="btn btn--secondary btn--small btn--icon"
+            aria-label="More"
+            aria-expanded={menu}
+            title="More"
+            onClick={() => setMenu((v) => !v)}
+          >
+            <EllipsisVertical size={16} strokeWidth={1.75} aria-hidden="true" />
+          </button>
+          {menu ? (
+            <div class="scard__menu">
+              <button
+                type="button"
+                onClick={() => {
+                  setMenu(false);
+                  onShare(set);
+                }}
+              >
+                <Share2 size={16} strokeWidth={1.75} aria-hidden="true" /> Share
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setMenu(false);
+                  onAskDelete(set);
+                }}
+              >
+                <Trash2 size={16} strokeWidth={1.75} aria-hidden="true" /> Delete
+              </button>
+            </div>
+          ) : null}
+        </div>
       </div>
       {expanded ? (
         <div class="scard__expand">
@@ -206,6 +235,7 @@ export default function SetsHome() {
   const [sets, setSets] = useState<WorshipSet[]>([]);
   const [dialog, setDialog] = useState(false);
   const [pendingDelete, setPendingDelete] = useState<WorshipSet | null>(null);
+  const [shareSet, setShareSet] = useState<WorshipSet | null>(null);
   const [openId, setOpenId] = useState<string | null>(null);
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [month, setMonth] = useState(() => {
@@ -308,6 +338,7 @@ export default function SetsHome() {
                     openId={openId}
                     onToggle={(id) => setOpenId((cur) => (cur === id ? null : id))}
                     onAskDelete={setPendingDelete}
+                    onShare={setShareSet}
                   />
                 ))}
               </div>
@@ -331,6 +362,7 @@ export default function SetsHome() {
                     openId={openId}
                     onToggle={(id) => setOpenId((cur) => (cur === id ? null : id))}
                     onAskDelete={setPendingDelete}
+                    onShare={setShareSet}
                   />
                 ))}
               </div>
@@ -352,6 +384,17 @@ export default function SetsHome() {
           set={pendingDelete}
           onClose={() => setPendingDelete(null)}
           onConfirm={confirmDelete}
+        />
+      ) : null}
+
+      {shareSet ? (
+        <ShareSheet
+          open
+          set={shareSet}
+          titles={Object.fromEntries(
+            songItems(shareSet).map((s) => [s.songId, meta?.[s.songId]?.[0] ?? s.songId]),
+          )}
+          onClose={() => setShareSet(null)}
         />
       ) : null}
     </div>

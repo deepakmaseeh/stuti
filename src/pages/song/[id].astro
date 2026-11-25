@@ -8,7 +8,6 @@ import SongToolbar from '../../components/islands/SongToolbar.tsx';
 import FavStar from '../../components/islands/FavStar.tsx';
 import ReportSheet from '../../components/islands/ReportSheet.tsx';
 import SetNavBar from '../../components/islands/SetNavBar.tsx';
-import { reportUrl } from '../../lib/report';
 import { getSongs } from '../../lib/content';
 import { safeJsonLd } from '../../lib/jsonld';
 import { LANG_NATIVE, LANG_TAG } from '../../lib/scripts';
@@ -16,6 +15,7 @@ import type { Song } from '../../lib/schema';
 import { shouldShowChorusMarker } from '../../lib/chorus';
 import { badgeText, primaryNumber, songUrl } from '../../lib/songs';
 import { site } from '../../site.config';
+import { appVersion, contentVersion } from '../../lib/version';
 import { t } from '../../i18n';
 
 export async function getStaticPaths() {
@@ -171,13 +171,10 @@ const numbersData = JSON.stringify(song.numbers);
       client:idle
       songId={song.id}
       title={song.title.native}
-      fallbackHref={reportUrl({
-        songId: song.id,
-        title: song.title.native,
-        line: '',
-        correction: '',
-        pageUrl: new URL(url, site.url).href,
-      })}
+      book={primary.book}
+      no={Number(primary.number) || undefined}
+      appVersion={appVersion}
+      dataVersion={contentVersion}
     />
     <p class="print-footer">
       {site.url.replace(/^https?:\/\//, '')} · {badgeText(primary)}

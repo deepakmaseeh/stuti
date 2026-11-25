@@ -261,7 +261,10 @@
 }
 .scard--closed {
   max-height: 76px;
-  overflow: hidden;
+  overflow: visible;
+}
+.scard--closed .scard__expand {
+  display: none;
 }
 .scard__date {
   border: 0;

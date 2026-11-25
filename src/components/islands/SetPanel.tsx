@@ -1,31 +1,27 @@
 import { useEffect, useState } from 'preact/hooks';
+import { FileText, MonitorPlay, Pencil, Play, Presentation, Share2, Trash2 } from 'lucide-preact';
 import { t } from '../../i18n';
 import { loadMeta, loadNumbers, type MetaRow, type NumbersMap } from '../../lib/search';
 import {
-  encodeWorshipSet,
   getActiveSet,
   hydrateSets,
   listenSetsChanged,
   removeItem,
-  setShareUrl,
   songInWorshipSetUrl,
   songItems,
   updateSet,
   type WorshipSet,
 } from '../../lib/sets';
 import { formatSetDate } from '../../lib/setlist';
-import type { BookBundle, BookBundleSong } from '../../lib/book-bundle';
-import { downloadSetPptx } from '../../lib/export/pptx';
-import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
-import QrSheet from './QrSheet';
+import ShareSheet from './ShareSheet';
 
 export default function SetPanel({ currentId = '' }: { currentId?: string }) {
   const [desktop, setDesktop] = useState(false);
   const [active, setActive] = useState<WorshipSet | undefined>();
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [numbers, setNumbers] = useState<NumbersMap>({});
-  const [qrOpen, setQrOpen] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(-1);
 
   useEffect(() => {
@@ -74,8 +70,10 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
   }
 
   const songs = songItems(active);
-  const code = encodeWorshipSet(active);
-  const shareUrl = setShareUrl(code);
+  const titles: Record<string, string> = {};
+  for (const s of songs) {
+    if (meta?.[s.songId]) titles[s.songId] = meta[s.songId]![0];
+  }
   const badgeFor = (songId: string, book?: string) => {
     const row = meta?.[songId];
     if (!row) return book ?? '';
@@ -84,32 +82,6 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
       if (n) return `${book} ${n}`;
     }
     return row[3];
-  };
-
-  const exportPpt = async () => {
-    showToast(t('set.pptBuilding'));
-    try {
-      const bookIds = [...new Set(songs.map((s) => s.book || site.defaultBookId))];
-      const bundles = await Promise.all(
-        bookIds.map((b) =>
-          fetch(`/data/books/${b}.json`)
-            .then((r) => (r.ok ? (r.json() as Promise<BookBundle>) : null))
-            .catch(() => null),
-        ),
-      );
-      const byId: Record<string, BookBundleSong | undefined> = {};
-      for (const bundle of bundles) {
-        if (!bundle) continue;
-        Object.assign(byId, bundle.songs);
-      }
-      await downloadSetPptx(active, byId, {
-        layers: { n: true, r: true, e: false },
-        onProgress: (msg) => showToast(msg),
-      });
-      showToast(t('set.pptDone'));
-    } catch {
-      showToast(t('desktop.previewError'));
-    }
   };
 
   return (
@@ -126,7 +98,9 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
         <div class="set-panel__meta">
           {songs.length === 1 ? t('desktop.songCount.one') : t('desktop.songCount', { n: songs.length })}
           {' · '}
-          <a href={`/sets/edit/?id=${encodeURIComponent(active.id)}`}>{t('set.editSet')}</a>
+          <a href={`/sets/edit/?id=${encodeURIComponent(active.id)}`}>
+            <Pencil size={14} strokeWidth={1.75} aria-hidden="true" /> {t('set.editSet')}
+          </a>
         </div>
       </div>
 
@@ -154,9 +128,10 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
                 type="button"
                 class="icon-btn"
                 aria-label={t('set.remove')}
+                title={t('set.remove')}
                 onClick={() => removeItem(active.id, it.uid)}
               >
-                ×
+                <Trash2 size={16} strokeWidth={1.75} aria-hidden="true" />
               </button>
             </div>
           );
@@ -166,33 +141,55 @@ export default function SetPanel({ currentId = '' }: { currentId?: string }) {
       <div class="set-panel__actions">
         <a
           class="btn btn--primary"
-          href={songs[0] ? songInWorshipSetUrl(active, 0) : '/sets/'}
+          href={songs[0] ? songInWorshipSetUrl(active, 0) : `/sets/edit/?id=${encodeURIComponent(active.id)}`}
           data-astro-reload
         >
-          ▶ {t('set.start')}
+          <Play size={18} strokeWidth={1.75} aria-hidden="true" /> {t('set.start')}
         </a>
-        <div class="set-panel__action-row">
+        <div class="set-panel__action-row set-panel__tiles">
           <a
-            class="btn btn--secondary"
+            class="set-panel__tile"
             href={songs[0] ? `/present/?id=${encodeURIComponent(active.id)}&i=0` : undefined}
+            aria-disabled={!songs[0]}
             title={t('desktop.presentHelp')}
+            data-feature="present"
           >
-            Present
+            <MonitorPlay size={22} strokeWidth={1.75} aria-hidden="true" />
+            <span>Present</span>
           </a>
-          <a class="btn btn--secondary" href={`/sets/print/?id=${encodeURIComponent(active.id)}`}>
-            PDF
+          <a
+            class="set-panel__tile"
+            href={`/sets/print/?id=${encodeURIComponent(active.id)}`}
+            data-feature="pdf"
+          >
+            <FileText size={22} strokeWidth={1.75} aria-hidden="true" />
+            <span>PDF</span>
           </a>
-          <button type="button" class="btn btn--secondary" onClick={() => void exportPpt()}>
-            PPT
+          <button
+            type="button"
+            class="set-panel__tile"
+            data-feature="ppt"
+            onClick={() => setShareOpen(true)}
+            title="PowerPoint & share"
+          >
+            <Presentation size={22} strokeWidth={1.75} aria-hidden="true" />
+            <span>PPT</span>
           </button>
-          <button type="button" class="btn btn--secondary" onClick={() => setQrOpen(true)}>
-            QR
+          <button
+            type="button"
+            class="set-panel__tile"
+            data-feature="share"
+            onClick={() => setShareOpen(true)}
+            title={t('set.share')}
+          >
+            <Share2 size={22} strokeWidth={1.75} aria-hidden="true" />
+            <span>Share</span>
           </button>
         </div>
       </div>
 
-      {qrOpen ? (
-        <QrSheet open={true} url={shareUrl} title={active.title} onClose={() => setQrOpen(false)} />
+      {shareOpen ? (
+        <ShareSheet open set={active} titles={titles} onClose={() => setShareOpen(false)} />
       ) : null}
     </div>
   );

@@ -5,16 +5,14 @@ import { loadMeta, loadNumbers, type MetaRow, type NumbersMap } from '../../lib/
 import {
   addHeading,
   addSongToSet,
-  encodeWorshipSet,
+  duplicateSet,
   getSet,
   hydrateSets,
   listenSetsChanged,
-  MAX_SHARE_URL,
   moveItemInSet,
   removeItem,
   serviceLabel,
   setActive,
-  setShareUrl,
   songInWorshipSetUrl,
   songItems,
   updateSet,
@@ -22,11 +20,9 @@ import {
   type WorshipSet,
 } from '../../lib/sets';
 import { isParseAddHit, parseAdd } from '../../lib/sets/parseAdd';
-import { downloadIcs } from '../../lib/ics';
-import { worshipSetWhatsAppText, whatsappShareUrl } from '../../lib/whatsapp-text';
 import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
-import QrSheet from './QrSheet';
+import ShareSheet from './ShareSheet';
 import SongsPicker from './SongsPicker';
 
 const KEY_CHIPS = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'] as const;
@@ -79,7 +75,7 @@ export default function SetEditorV2() {
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [numbers, setNumbers] = useState<NumbersMap>({});
   const [quick, setQuick] = useState('');
-  const [qrOpen, setQrOpen] = useState(false);
+  const [shareOpen, setShareOpen] = useState(false);
   const [songsOpen, setSongsOpen] = useState(false);
   const [heading, setHeading] = useState('');
   const [missing, setMissing] = useState(false);
@@ -154,9 +150,6 @@ export default function SetEditorV2() {
 
   if (!set) return <div class="set-skeleton" aria-hidden="true" />;
 
-  const code = encodeWorshipSet(set);
-  const shareUrl = setShareUrl(code);
-  const shareTooLong = shareUrl.length > MAX_SHARE_URL;
   const startHref = songs[0] ? songInWorshipSetUrl(set, 0) : undefined;
   const presentHref = songs[0] ? `/present/?id=${encodeURIComponent(set.id)}&i=0` : undefined;
 
@@ -216,15 +209,6 @@ export default function SetEditorV2() {
     if (misses.length && added) showToast(t('set.partialAdded', { n: added, list: misses.join(', ') }));
     else if (misses.length) showToast(t('set.songsNotFound', { list: misses.join(', ') }));
     else if (added) showToast(t('set.addedToast'));
-  };
-
-  const copyShare = async () => {
-    try {
-      await navigator.clipboard.writeText(shareUrl);
-      showToast(t('qr.copy'));
-    } catch {
-      showToast(shareUrl);
-    }
   };
 
   return (
@@ -682,7 +666,8 @@ export default function SetEditorV2() {
           class="btn btn--secondary btn--icon"
           aria-label={t('set.share')}
           title={t('set.share')}
-          onClick={() => setQrOpen(true)}
+          onClick={() => setShareOpen(true)}
+          data-feature="share"
         >
           <Icon>
             <circle cx="18" cy="5" r="2.5" />
@@ -709,29 +694,34 @@ export default function SetEditorV2() {
 
       {moreOpen ? (
         <div class="set-editor-v2__more">
-          {shareTooLong ? <p class="notice">{t('set.tooLong')}</p> : null}
-          <button type="button" class="btn btn--ghost" onClick={() => void copyShare()}>
-            {t('qr.copy')}
-          </button>
-          <a
+          <button
+            type="button"
             class="btn btn--ghost"
-            href={whatsappShareUrl(worshipSetWhatsAppText(set, { titles, url: shareUrl }))}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={() => {
+              const copy = duplicateSet(set.id);
+              setMoreOpen(false);
+              if (copy) location.href = `/sets/edit/?id=${encodeURIComponent(copy.id)}`;
+            }}
           >
-            WhatsApp
-          </a>
-          <button type="button" class="btn btn--ghost" onClick={() => downloadIcs(set, shareUrl)}>
-            {t('set.calendarFile')}
+            Duplicate
           </button>
-          <a class="btn btn--ghost" href={`/sets/print/?id=${encodeURIComponent(set.id)}`}>
-            {t('set.print')}
-          </a>
+          <label class="btn btn--ghost">
+            Change date
+            <input
+              type="date"
+              class="visually-hidden"
+              value={set.date}
+              onChange={(e) => {
+                patch(set.id, { date: e.currentTarget.value });
+                setMoreOpen(false);
+              }}
+            />
+          </label>
         </div>
       ) : null}
 
-      {qrOpen ? (
-        <QrSheet open={true} url={shareUrl} title={set.title} onClose={() => setQrOpen(false)} />
+      {shareOpen ? (
+        <ShareSheet open set={set} titles={titles} onClose={() => setShareOpen(false)} />
       ) : null}
 
       <SongsPicker
