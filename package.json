@@ -42,7 +42,7 @@
     "lucide-preact": "^1.77.0",
     "minisearch": "^7.2.0",
     "pptxgenjs": "^4.0.1",
-    "preact": "^10.29.8",
+    "preact": "^11.2.0",
     "qrcode": "^1.5.4",
     "zod": "^3.25.76"
   },
