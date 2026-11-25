@@ -138,22 +138,29 @@
   }
 
   html[data-desktop] .desktop-shell {
-    display: grid;
-    grid-template-columns: 320px minmax(0, 1fr);
+    display: flex;
     height: calc(100dvh - 60px);
+    min-width: 0;
   }
   html[data-desktop='wide'] .desktop-shell {
-    grid-template-columns: 310px minmax(0, 1fr) 320px;
+    display: flex;
   }
   html[data-desktop] .desktop-finder {
     display: block;
-    overflow-y: auto;
+    flex: 0 0 auto;
+    width: min(36vw, 420px);
+    min-width: 240px;
+    max-width: min(48vw, 520px);
+    resize: horizontal;
+    overflow: auto;
     scrollbar-width: thin;
     background: var(--page);
     border-right: 1px solid var(--line);
     padding: 1.125rem 1.125rem 1.75rem;
   }
   html[data-desktop] .desktop-main {
+    flex: 1 1 auto;
+    min-width: 0;
     overflow-y: auto;
     scrollbar-width: thin;
     padding: 2rem 2.5rem 4rem;
@@ -207,11 +214,21 @@
   html[data-desktop='wide'] .desktop-set {
     display: flex;
     flex-direction: column;
-    overflow-y: auto;
+    flex: 0 0 auto;
+    width: min(34vw, 440px);
+    min-width: 280px;
+    max-width: min(50vw, 560px);
+    resize: horizontal;
+    overflow: auto;
     scrollbar-width: thin;
     background: var(--page);
     border-left: 1px solid var(--line);
     padding: 0 1.125rem 1.5rem;
+    /* Resize handle on the left edge of the set pane */
+    direction: rtl;
+  }
+  html[data-desktop='wide'] .desktop-set > * {
+    direction: ltr;
   }
   html[data-desktop] .app-header {
     display: none;

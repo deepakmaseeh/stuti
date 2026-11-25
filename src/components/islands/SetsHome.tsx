@@ -9,6 +9,7 @@ import {
   listenSetsChanged,
   pastSets,
   serviceLabel,
+  setActive,
   songItems,
   undoDeleteSet,
   upcomingSets,
@@ -75,13 +76,27 @@ function SetCard({
         type="button"
         class="scard__date"
         aria-label={set.date}
-        onClick={() => onToggle(set.id)}
+        onClick={() => {
+          setActive(set.id);
+          onToggle(set.id);
+          document.querySelector('.desktop-set')?.classList.add('is-open');
+          document.querySelector('.desktop-set-drawer-backdrop')?.classList.add('is-open');
+        }}
       >
         <i>{parts.weekday}</i>
         <b>{parts.day}</b>
         <i>{parts.month}</i>
       </button>
-      <button type="button" class="scard__body" onClick={() => onToggle(set.id)}>
+      <button
+        type="button"
+        class="scard__body"
+        onClick={() => {
+          setActive(set.id);
+          onToggle(set.id);
+          document.querySelector('.desktop-set')?.classList.add('is-open');
+          document.querySelector('.desktop-set-drawer-backdrop')?.classList.add('is-open');
+        }}
+      >
         <h3>{set.title}</h3>
         <div class="scard__meta">
           {isThisSunday ? 'This Sunday' : serviceLabel(set.service)}

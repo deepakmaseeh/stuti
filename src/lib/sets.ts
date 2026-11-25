@@ -375,21 +375,16 @@ export function getSet(id: string): WorshipSet | undefined {
 
 export function getActiveSet(): WorshipSet | undefined {
   const store = ensureHydrated();
-  const today = isoDate(new Date());
-  const upcoming = [...store.sets]
-    .filter((s) => s.date >= today)
-    .sort((a, b) => a.date.localeCompare(b.date) || (a.time ?? '').localeCompare(b.time ?? ''));
-  // Prefer a pinned active set only when it is still upcoming (MASTER: next Sunday in the pane).
-  if (store.activeId) {
-    const hit = store.sets.find((s) => s.id === store.activeId);
-    if (hit && hit.date >= today) return hit;
-  }
-  if (upcoming[0]) return upcoming[0];
+  // Whatever the user last tapped in the Sets list wins (pane follows the click).
   if (store.activeId) {
     const hit = store.sets.find((s) => s.id === store.activeId);
     if (hit) return hit;
   }
-  return [...store.sets].sort((a, b) => b.date.localeCompare(a.date))[0];
+  const today = isoDate(new Date());
+  const upcoming = [...store.sets]
+    .filter((s) => s.date >= today)
+    .sort((a, b) => a.date.localeCompare(b.date) || (a.time ?? '').localeCompare(b.time ?? ''));
+  return upcoming[0] ?? [...store.sets].sort((a, b) => b.date.localeCompare(a.date))[0];
 }
 
 export function setActive(id: string | undefined): void {

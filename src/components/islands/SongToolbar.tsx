@@ -1,5 +1,14 @@
-import type { ComponentChildren } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
+import {
+  AArrowDown,
+  AArrowUp,
+  FileText,
+  ListChecks,
+  ListPlus,
+  Presentation,
+  Share2,
+  Sun,
+} from 'lucide-preact';
 import { t } from '../../i18n';
 import { shareLink } from '../../lib/share';
 import {
@@ -183,28 +192,6 @@ export default function SongToolbar({
     ...(layers.e !== 'missing' ? [{ key: 'e' as const, label: t('song.english'), state: layers.e }] : []),
   ];
 
-  const layoutOn = prefs.layout === 'columns';
-
-  const Icon = ({ children, label }: { children: ComponentChildren; label: string }) => (
-    <>
-      <svg
-        viewBox="0 0 24 24"
-        width="22"
-        height="22"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="1.75"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        aria-hidden="true"
-        class="tool__icon"
-      >
-        {children}
-      </svg>
-      <span class="tool__label">{label}</span>
-    </>
-  );
-
   const exportPpt = async () => {
     showToast(t('desktop.preparingPpt'));
     try {
@@ -239,110 +226,90 @@ export default function SongToolbar({
           ))}
         </div>
       )}
-      <div class="tools">
+      <div class="tools tools--icons">
         <button
           type="button"
-          class="tool tool--size"
+          class="tool tool--icon"
           aria-label={t('song.smaller')}
+          title={t('song.smaller')}
           disabled={prefs.size <= 0}
           onClick={() => save({ size: Math.max(0, prefs.size - 1) })}
         >
-          <span class="tool__size" aria-hidden="true">
-            A−
-          </span>
+          <AArrowDown size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
         <button
           type="button"
-          class="tool tool--size"
+          class="tool tool--icon"
           aria-label={t('song.larger')}
+          title={t('song.larger')}
           disabled={prefs.size >= SIZE_STEPS - 1}
           onClick={() => save({ size: Math.min(SIZE_STEPS - 1, prefs.size + 1) })}
         >
-          <span class="tool__size" aria-hidden="true">
-            A+
-          </span>
+          <AArrowUp size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
-        {!isEnglish && (
-          <button
-            type="button"
-            class={layoutOn ? 'tool layout-toggle tool--on' : 'tool layout-toggle'}
-            aria-pressed={layoutOn ? 'true' : 'false'}
-            title={t('song.layoutHint')}
-            onClick={() => save({ layout: layoutOn ? 'stacked' : 'columns' })}
-          >
-            {layoutOn ? (
-              <Icon label={t('song.layoutColumns')}>
-                <rect x="3" y="4" width="5" height="16" rx="1" />
-                <rect x="10" y="4" width="5" height="16" rx="1" />
-                <rect x="17" y="4" width="4" height="16" rx="1" />
-              </Icon>
-            ) : (
-              <Icon label={t('song.layoutStacked')}>
-                <rect x="3" y="4" width="18" height="4" rx="1" />
-                <rect x="3" y="10" width="18" height="4" rx="1" />
-                <rect x="3" y="16" width="18" height="4" rx="1" />
-              </Icon>
-            )}
-          </button>
-        )}
         <button
           type="button"
-          class={awake ? 'tool tool--on tool-keep-awake' : 'tool tool-keep-awake'}
+          class={awake ? 'tool tool--icon tool--on tool-keep-awake' : 'tool tool--icon tool-keep-awake'}
           aria-pressed={awake ? 'true' : 'false'}
+          aria-label={awake ? t('song.screenOn') : t('song.keepAwake')}
+          title={supported ? (awake ? t('song.screenOn') : t('song.keepAwake')) : t('song.wakeUnsupported')}
           disabled={!supported}
-          title={supported ? undefined : t('song.wakeUnsupported')}
           onClick={toggleAwake}
         >
-          <Icon label={awake ? t('song.screenOn') : t('song.keepAwake')}>
-            <circle cx="12" cy="12" r="3.5" />
-            <path d="M12 2.5v2M12 19.5v2M4.2 4.2l1.5 1.5M18.3 18.3l1.5 1.5M2.5 12h2M19.5 12h2M4.2 19.8l1.5-1.5M18.3 5.7l1.5-1.5" />
-          </Icon>
+          <Sun size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
         <button
           type="button"
-          class={inSet ? 'tool tool--on tool--set' : 'tool tool--set'}
+          class={inSet ? 'tool tool--icon tool--on tool--set' : 'tool tool--icon tool--set'}
           aria-pressed={inSet ? 'true' : 'false'}
+          aria-label={
+            inSet
+              ? t('song.inSetNamed', { title: activeSet?.title ?? t('set.title') })
+              : t('song.addSetTo', { title: shortSetTitle(activeSet?.title) })
+          }
           title={
             inSet
               ? t('song.inSetNamed', { title: activeSet?.title ?? t('set.title') })
               : t('song.addSetTo', { title: shortSetTitle(activeSet?.title) })
           }
+          data-feature="add-to-set"
           onClick={toggleSet}
         >
           {inSet ? (
-            <Icon label="✓ In set">
-              <path d="M9 6h11M9 12h11M9 18h7" />
-              <path d="M4 6h.01M4 12h.01M4 18h.01" />
-              <path d="m14.5 16 2 2 3.5-3.5" />
-            </Icon>
+            <ListChecks size={22} strokeWidth={1.75} aria-hidden="true" />
           ) : (
-            <Icon label={t('song.addSetTo', { title: shortSetTitle(activeSet?.title) })}>
-              <path d="M9 6h11M9 12h11M9 18h7" />
-              <path d="M4 6h.01M4 12h.01M4 18h.01" />
-              <path d="M19 15v6M16 18h6" />
-            </Icon>
+            <ListPlus size={22} strokeWidth={1.75} aria-hidden="true" />
           )}
         </button>
-        <button type="button" class="tool" onClick={() => shareLink(share)}>
-          <Icon label={t('song.share')}>
-            <circle cx="18" cy="5" r="2.5" />
-            <circle cx="6" cy="12" r="2.5" />
-            <circle cx="18" cy="19" r="2.5" />
-            <path d="m8.6 13.4 6.7 3.9M15.3 6.7l-6.7 3.9" />
-          </Icon>
+        <button
+          type="button"
+          class="tool tool--icon"
+          aria-label={t('song.share')}
+          title={t('song.share')}
+          data-feature="share"
+          onClick={() => shareLink(share)}
+        >
+          <Share2 size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
-        <button type="button" class="tool layout-toggle" onClick={() => window.print()}>
-          <Icon label={t('desktop.pdf')}>
-            <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9z" />
-            <path d="M14 3v6h6" />
-            <path d="M9 13h6M9 17h5" />
-          </Icon>
+        <button
+          type="button"
+          class="tool tool--icon"
+          aria-label={t('desktop.pdf')}
+          title={t('desktop.pdf')}
+          data-feature="pdf"
+          onClick={() => window.print()}
+        >
+          <FileText size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
-        <button type="button" class="tool layout-toggle" onClick={() => void exportPpt()}>
-          <Icon label={t('desktop.ppt')}>
-            <rect x="2" y="4" width="20" height="13" rx="2" />
-            <path d="M8 21h8M12 17v4" />
-          </Icon>
+        <button
+          type="button"
+          class="tool tool--icon"
+          aria-label={t('desktop.ppt')}
+          title={t('desktop.ppt')}
+          data-feature="ppt"
+          onClick={() => void exportPpt()}
+        >
+          <Presentation size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
       </div>
       {!supported && (

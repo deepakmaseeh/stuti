@@ -257,6 +257,14 @@
   justify-content: center;
   gap: 8px;
 }
+.tools--icons {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.tools--icons::-webkit-scrollbar {
+  display: none;
+}
 .tool {
   display: inline-flex;
   flex-direction: column;
@@ -274,18 +282,25 @@
   white-space: nowrap;
   color: inherit;
 }
+.tool--icon {
+  flex-direction: row;
+  min-width: 44px;
+  min-height: 44px;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+}
+.tool--icon svg {
+  flex-shrink: 0;
+  opacity: 0.95;
+}
 .tool__icon {
   flex-shrink: 0;
   display: block;
   opacity: 0.92;
 }
 .tool__label {
-  line-height: 1.1;
-  letter-spacing: 0.01em;
-  max-width: 5.5rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  display: none; /* icon-only toolbar (MASTER §4 / §7) */
 }
 .tool--size {
   min-width: 2.75rem;
@@ -1125,11 +1140,9 @@ textarea.field__input {
   background: var(--page);
   color: inherit;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0;
-  padding: 4px 2px;
+  padding: 0;
 }
 .letter-browser__key:disabled {
   opacity: 0.35;
@@ -1137,11 +1150,6 @@ textarea.field__input {
 .letter-browser__glyph {
   font-size: 20px;
   font-weight: 700;
-  line-height: 1.1;
-}
-.letter-browser__count {
-  font-size: 11px;
-  color: var(--muted);
   line-height: 1;
 }
 .letter-browser__mini {

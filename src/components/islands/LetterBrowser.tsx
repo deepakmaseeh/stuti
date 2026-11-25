@@ -279,7 +279,6 @@ export default function LetterBrowser({ books = [], onSelect }: Props) {
                 onClick={() => pickLetter(L)}
               >
                 <span class="letter-browser__glyph">{L}</span>
-                {n > 0 ? <span class="letter-browser__count">{n}</span> : null}
               </button>
             );
           })}

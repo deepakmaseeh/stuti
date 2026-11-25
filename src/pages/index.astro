@@ -43,7 +43,6 @@ const books = await Promise.all(
           <span class="book-card__text">
             <span class="book-card__title" lang={LANG_TAG.n[book.lang]}>
               {book.name.native}
-              {book.name.en && book.name.en !== book.name.native ? ` · ${book.name.en}` : ''}
             </span>
             <span class="book-card__sub">
               {LANG_LABEL[book.lang]} · {t('books.count', { n: count })}
