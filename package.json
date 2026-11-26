@@ -39,7 +39,7 @@
     "@fontsource/noto-serif-devanagari": "^5.3.0",
     "@preact/signals": "^2.11.4",
     "astro": "^5.18.2",
-    "lucide-preact": "^1.77.0",
+    "lucide-preact": "^1.78.0",
     "minisearch": "^7.2.0",
     "pptxgenjs": "^4.0.1",
     "preact": "^10.29.8",
@@ -81,6 +81,6 @@
     "workbox-routing": "^7.4.1",
     "workbox-strategies": "^7.4.1",
     "workbox-window": "^7.4.1",
-    "wrangler": "^4.165.0"
+    "wrangler": "^4.166.0"
   }
 }
