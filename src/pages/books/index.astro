@@ -20,7 +20,7 @@ const groups = await Promise.all(
 );
 ---
 
-<AppShell title={`${t('books.title')} | ${site.name}`} description="All hymnbooks by language.">
+<AppShell title={`${t('books.title')} | ${site.name}`} description="All hymnbooks by language." active="home">
   <h1 class="page-title">{t('books.title')}</h1>
   {groups.map((g) => (
     <section class="book-group" aria-labelledby={`lang-${g.lang}`}>

@@ -5,6 +5,8 @@ import '../styles/base.css';
 import '../styles/components.css';
 import '../styles/ui-v14.css';
 import '../styles/desktop.css';
+import '../styles/v3/tokens.css';
+import '../styles/v3/app.css';
 import { site } from '../site.config';
 
 interface Props {
@@ -108,7 +110,7 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
       />
     )}
   </head>
-  <body class={bodyClass}>
+  <body class={['v3', bodyClass].filter(Boolean).join(' ')}>
     <slot />
     <script>
       import { registerServiceWorker } from '../lib/pwa';

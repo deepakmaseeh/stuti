@@ -13,6 +13,10 @@ export type Prefs = {
   lastTab?: string;
   langFilter?: string;
   searchLangs?: string[];
+  musician?: boolean;
+  churchName?: string;
+  serviceTime?: string;
+  persist?: boolean;
   v?: number;
 };
 

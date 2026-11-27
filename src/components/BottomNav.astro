@@ -33,9 +33,11 @@ const items = [
 <nav class="bottom-nav" aria-label="Main">
   {items.map((it) => (
     <a href={it.href} class="bottom-nav__item" aria-current={current === it.key ? 'page' : undefined}>
-      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-        <path d={it.icon} />
-      </svg>
+      <span class="bottom-nav__pill">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+          <path d={it.icon} />
+        </svg>
+      </span>
       <span>{it.label}</span>
     </a>
   ))}

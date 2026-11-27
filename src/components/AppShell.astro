@@ -4,6 +4,7 @@ import BottomNav from './BottomNav.astro';
 import TopBar from './TopBar.astro';
 import Finder from './islands/Finder';
 import SetPanel from './islands/SetPanel';
+import SettingsSheet from './islands/SettingsSheet';
 import KeyboardShortcuts from './islands/KeyboardShortcuts';
 import type { BookChip } from './islands/Keypad';
 import { getBooks } from '../lib/content';
@@ -87,6 +88,7 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
                   class="icon-btn"
                   href="/settings/"
                   data-feature="settings"
+                  data-open-settings
                   aria-label="Settings"
                   title="Settings"
                 >
@@ -124,5 +126,18 @@ const books: BookChip[] = (await getBooks()).map((b) => ({
     </aside>
   </div>
   {!hideBottomNav && <BottomNav active={active} />}
+  <SettingsSheet client:load books={books.map((b) => ({ id: b.id, en: b.en }))} />
+  <script is:inline>
+    if (!window.__stutiSettingsClickBound) {
+      window.__stutiSettingsClickBound = true;
+      document.addEventListener('click', function (e) {
+        var t = e.target && e.target.closest && e.target.closest('[data-open-settings]');
+        if (!t) return;
+        e.preventDefault();
+        window.__stutiOpenSettings = true;
+        dispatchEvent(new Event('stuti:open-settings'));
+      });
+    }
+  </script>
   <KeyboardShortcuts client:media={`(min-width: ${site.layout.desktopMin}px)`} />
 </Base>

@@ -17,6 +17,10 @@ export type Prefs = {
   /** Desktop TopBar language filter: all languages or one code. */
   langFilter: 'all' | string;
   searchLangs: string[];
+  musician?: boolean;
+  churchName?: string;
+  serviceTime?: string;
+  persist?: boolean;
 };
 export type SongSnapshot = { id: string; title: string; lang: string; badge: string };
 export type RecentItem = SongSnapshot & { at: string };
