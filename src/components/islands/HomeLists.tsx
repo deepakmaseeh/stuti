@@ -43,6 +43,7 @@ function firstSongLabel(metaBadge: string | undefined, title: string): string {
 export default function HomeLists() {
   const [s, setS] = useState<State>(EMPTY);
   const [tab, setTab] = useState<Tab>('recent');
+  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     hydrateSets();
@@ -69,6 +70,7 @@ export default function HomeLists() {
 
   const setSongsTab = (next: Tab) => {
     setTab(next);
+    setShowAll(false);
     try {
       localStorage.setItem('stuti:homeSongsTab', next);
     } catch {
@@ -134,11 +136,6 @@ export default function HomeLists() {
         <section class="your-songs" aria-labelledby="your-songs-title">
           <div class="sechead" style={{ marginTop: 10 }}>
             <h2 id="your-songs-title">Your songs</h2>
-            {list.length > 0 ? (
-              <a class="link-v3" href="/search/">
-                See all ({list.length})
-              </a>
-            ) : null}
           </div>
           <div class="segtabs" role="tablist">
             <button
@@ -172,28 +169,41 @@ export default function HomeLists() {
               )}
             </p>
           ) : (
-            <div class="results" style={{ display: 'block' }}>
-              {list.slice(0, 3).map((row, i) => (
-                <a key={row.id} class="row-v3" href={songUrl(row.id)}>
-                  <span
-                    class="badge"
-                    style={{ width: 44, height: 44, minWidth: 44, flex: 'none' }}
-                    aria-hidden="true"
-                  >
-                    <span class="badge__book">{row.badge.split(' ')[0]}</span>
-                    <span class="badge__num" style={{ fontSize: 16 }}>
-                      {row.badge.split(' ')[1]}
+            <>
+              <div class="results" style={{ display: 'block' }}>
+                {(showAll ? list : list.slice(0, 3)).map((row, i) => (
+                  <a key={row.id} class="row-v3" href={songUrl(row.id)}>
+                    <span
+                      class="badge"
+                      style={{ width: 44, height: 44, minWidth: 44, flex: 'none' }}
+                      aria-hidden="true"
+                    >
+                      <span class="badge__book">{row.badge.split(' ')[0]}</span>
+                      <span class="badge__num" style={{ fontSize: 16 }}>
+                        {row.badge.split(' ')[1]}
+                      </span>
                     </span>
-                  </span>
-                  <div class="mid">
-                    <div class="t" lang={LANG_TAG.n[row.lang as Lang]}>
-                      {row.title}
-                      {tab === 'recent' && i === 0 ? <span class="tagc">{t('home.continue')}</span> : null}
+                    <div class="mid">
+                      <div class="t" lang={LANG_TAG.n[row.lang as Lang]}>
+                        {row.title}
+                        {tab === 'recent' && i === 0 ? <span class="tagc">{t('home.continue')}</span> : null}
+                      </div>
                     </div>
-                  </div>
-                </a>
-              ))}
-            </div>
+                  </a>
+                ))}
+              </div>
+              {list.length > 3 ? (
+                <div style={{ marginTop: 8 }}>
+                  <button
+                    type="button"
+                    class="link-v3"
+                    onClick={() => setShowAll((v) => !v)}
+                  >
+                    {showAll ? 'Show less' : `See all (${list.length})`}
+                  </button>
+                </div>
+              ) : null}
+            </>
           )}
         </section>
       ) : null}

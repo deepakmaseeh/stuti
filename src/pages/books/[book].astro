@@ -16,17 +16,6 @@ export async function getStaticPaths() {
 
 const { book } = Astro.props as { book: Book };
 const entries = await getBookEntries(book.id);
-const maxNo = entries.reduce((m, e) => Math.max(m, e.number), 0);
-const jumps: number[] = [];
-if (maxNo >= 1) jumps.push(1);
-for (let n = 50; n <= maxNo; n += 50) jumps.push(n);
-
-/** Nearest entry at or after each jump target, for sticky chip anchors. */
-const jumpTargets = new Map<number, number>();
-for (const j of jumps) {
-  const hit = entries.find((e) => e.number >= j);
-  if (hit) jumpTargets.set(j, hit.number);
-}
 ---
 
 <AppShell
@@ -44,18 +33,6 @@ for (const j of jumps) {
     {LANG_LABEL[book.lang]} · {t('books.count', { n: entries.length })} · in hymn-number order
   </p>
   <BookDownloadButton client:idle bookId={book.id} lang={book.lang} />
-
-  {
-    jumps.length > 1 && (
-      <nav class="book-jump row-scroll" aria-label="Jump to number">
-        {jumps.map((n) => (
-          <a class="chip" href={`#n-${jumpTargets.get(n) ?? n}`}>
-            {n}
-          </a>
-        ))}
-      </nav>
-    )
-  }
 
   <div class="book-list">
     {

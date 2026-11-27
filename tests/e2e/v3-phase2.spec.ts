@@ -41,13 +41,10 @@ test.describe('v3 Phase 2: Home, Search, Book page', () => {
     await expect(page.locator('.letters')).toBeVisible();
   });
 
-  test('Book page lists in number order and jump bar scrolls to 100', async ({ page }) => {
+  test('Book page lists in number order without jump bar', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto('/books/tlbc/');
     await expect(page.getByText('in hymn-number order')).toBeVisible();
-    const jump100 = page.locator('.book-jump a', { hasText: '100' });
-    await expect(jump100).toBeVisible();
-    await jump100.click();
-    await expect(page).toHaveURL(/#n-/);
+    await expect(page.locator('.book-jump')).toHaveCount(0);
   });
 });
