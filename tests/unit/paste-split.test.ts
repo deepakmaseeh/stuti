@@ -35,9 +35,10 @@ describe('splitPastedSong', () => {
 describe('Worker /api/admin auth guard', () => {
   const fakeEnv = {
     ASSETS: { fetch: async () => new Response('ok') },
+    ADMIN_PASSWORD: 'test-secret',
   };
 
-  it('returns 403 when Cf-Access-Authenticated-User-Email header is missing', async () => {
+  it('returns 403 when Access header and password cookie are missing', async () => {
     const req = new Request('https://stuti.deepakmaseeh121.workers.dev/api/admin/me');
     const res = await worker.fetch(req, fakeEnv);
     expect(res.status).toBe(403);
@@ -52,6 +53,27 @@ describe('Worker /api/admin auth guard', () => {
     const data = (await res.json()) as { ok: boolean; email: string };
     expect(data.ok).toBe(true);
     expect(data.email).toBe('godisourlord8874@gmail.com');
+  });
+
+  it('logs in with password and allows /api/admin/me via cookie', async () => {
+    const loginReq = new Request('https://stuti.deepakmaseeh121.workers.dev/api/admin/login', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ password: 'test-secret' }),
+    });
+    const loginRes = await worker.fetch(loginReq, fakeEnv);
+    expect(loginRes.status).toBe(200);
+    const setCookie = loginRes.headers.get('set-cookie') || '';
+    expect(setCookie).toMatch(/stuti_admin=/);
+
+    const meReq = new Request('https://stuti.deepakmaseeh121.workers.dev/api/admin/me', {
+      headers: { Cookie: setCookie.split(';')[0]! },
+    });
+    const meRes = await worker.fetch(meReq, fakeEnv);
+    expect(meRes.status).toBe(200);
+    const data = (await meRes.json()) as { ok: boolean; via?: string };
+    expect(data.ok).toBe(true);
+    expect(data.via).toBe('password');
   });
 
   it('returns reports JSON (notConfigured when CSV URL is unset) with Access header', async () => {

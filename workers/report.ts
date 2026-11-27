@@ -21,8 +21,74 @@ export interface Env {
   GITHUB_REPO?: string;
   /** Branch to commit song JSON into (default main). */
   GITHUB_BRANCH?: string;
+  /** Free sole-editor password (no Cloudflare Zero Trust). Sets HttpOnly cookie on login. */
+  ADMIN_PASSWORD?: string;
   APP_ORIGIN?: string;
   REPORT_LIMIT?: { limit: (opts: { key: string }) => Promise<{ success: boolean }> };
+}
+
+const ADMIN_COOKIE = 'stuti_admin';
+const ADMIN_COOKIE_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
+
+async function sha256Hex(text: string): Promise<string> {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
+  return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function adminSessionToken(password: string): Promise<string> {
+  return sha256Hex(`stuti-admin-v1|${password}`);
+}
+
+function parseCookie(header: string | null): Record<string, string> {
+  const out: Record<string, string> = {};
+  if (!header) return out;
+  for (const part of header.split(';')) {
+    const i = part.indexOf('=');
+    if (i < 0) continue;
+    const k = part.slice(0, i).trim();
+    const v = part.slice(i + 1).trim();
+    if (k) out[k] = decodeURIComponent(v);
+  }
+  return out;
+}
+
+function adminCookieHeader(token: string, clear = false): string {
+  if (clear) {
+    return `${ADMIN_COOKIE}=; Path=/; Max-Age=0; HttpOnly; Secure; SameSite=Lax`;
+  }
+  return `${ADMIN_COOKIE}=${encodeURIComponent(token)}; Path=/; Max-Age=${ADMIN_COOKIE_MAX_AGE}; HttpOnly; Secure; SameSite=Lax`;
+}
+
+type AdminAuth =
+  | { ok: true; label: string; via: 'access' | 'password' }
+  | { ok: false };
+
+async function authorizeAdmin(request: Request, env: Env): Promise<AdminAuth> {
+  const email = request.headers.get('Cf-Access-Authenticated-User-Email')?.trim();
+  const allowed = (env.ADMIN_EMAILS || 'godisourlord8874@gmail.com')
+    .split(',')
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean);
+  if (email && allowed.includes(email.toLowerCase())) {
+    return { ok: true, label: email, via: 'access' };
+  }
+
+  if (env.ADMIN_PASSWORD) {
+    const expected = await adminSessionToken(env.ADMIN_PASSWORD);
+    const cookies = parseCookie(request.headers.get('Cookie'));
+    if (cookies[ADMIN_COOKIE] === expected) {
+      return { ok: true, label: 'editor (password)', via: 'password' };
+    }
+    const auth = request.headers.get('Authorization')?.trim();
+    if (auth?.toLowerCase().startsWith('bearer ')) {
+      const bearer = auth.slice(7).trim();
+      if (bearer === env.ADMIN_PASSWORD || bearer === expected) {
+        return { ok: true, label: 'editor (password)', via: 'password' };
+      }
+    }
+  }
+
+  return { ok: false };
 }
 
 type ReportBody = {
@@ -159,16 +225,58 @@ export default {
     const origin = request.headers.get('Origin');
 
     if (url.pathname.startsWith('/api/admin')) {
-      const email = request.headers.get('Cf-Access-Authenticated-User-Email')?.trim();
-      const allowed = (env.ADMIN_EMAILS || 'godisourlord8874@gmail.com')
-        .split(',')
-        .map((s) => s.trim().toLowerCase())
-        .filter(Boolean);
-      if (!email || !allowed.includes(email.toLowerCase())) {
-        return Response.json({ ok: false, error: 'forbidden' }, { status: 403 });
+      // Password login/logout — no prior auth required (free alternative to Zero Trust).
+      if (url.pathname === '/api/admin/login' && request.method === 'POST') {
+        if (!env.ADMIN_PASSWORD) {
+          return Response.json(
+            { ok: false, error: 'password_not_configured', hint: 'npx wrangler secret put ADMIN_PASSWORD' },
+            { status: 503 },
+          );
+        }
+        let body: { password?: string } = {};
+        try {
+          body = (await request.json()) as { password?: string };
+        } catch {
+          return Response.json({ ok: false, error: 'bad_json' }, { status: 400 });
+        }
+        if (!body.password || body.password !== env.ADMIN_PASSWORD) {
+          return Response.json({ ok: false, error: 'bad_password' }, { status: 401 });
+        }
+        const token = await adminSessionToken(env.ADMIN_PASSWORD);
+        return new Response(JSON.stringify({ ok: true, email: 'editor (password)', role: 'editor' }), {
+          status: 200,
+          headers: {
+            'content-type': 'application/json',
+            'set-cookie': adminCookieHeader(token),
+          },
+        });
+      }
+      if (url.pathname === '/api/admin/logout' && request.method === 'POST') {
+        return new Response(JSON.stringify({ ok: true }), {
+          status: 200,
+          headers: {
+            'content-type': 'application/json',
+            'set-cookie': adminCookieHeader('', true),
+          },
+        });
+      }
+
+      const auth = await authorizeAdmin(request, env);
+      if (!auth.ok) {
+        return Response.json(
+          {
+            ok: false,
+            error: 'forbidden',
+            authModes: {
+              access: true,
+              password: Boolean(env.ADMIN_PASSWORD),
+            },
+          },
+          { status: 403 },
+        );
       }
       if (url.pathname === '/api/admin/me') {
-        return Response.json({ ok: true, email, role: 'editor' });
+        return Response.json({ ok: true, email: auth.label, role: 'editor', via: auth.via });
       }
       if (url.pathname === '/api/admin/reports' && request.method === 'GET') {
         if (!env.GOOGLE_SHEET_CSV_URL) {

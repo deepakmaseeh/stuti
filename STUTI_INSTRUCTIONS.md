@@ -216,12 +216,12 @@ Copy from `.env.example`. Never commit `.env`.
 |------|--------|
 | UI | `src/components/islands/AdminApp.tsx` at `/admin/` (also `/admin/v3/`) |
 | Flag | `src/config/flags.ts` → `admin: true` (Settings shows **Editor sign-in**) |
-| API guard | `/api/admin/*` requires header `Cf-Access-Authenticated-User-Email` in allowlist (`ADMIN_EMAILS` or default `godisourlord8874@gmail.com`) |
-| Endpoints | `GET /api/admin/me`, `GET /api/admin/reports`, `POST /api/admin/oembed`, `POST /api/admin/publish` |
+| API guard | Cloudflare Access email **or** free `ADMIN_PASSWORD` cookie (no Zero Trust required) |
+| Endpoints | `POST /api/admin/login`, `POST /api/admin/logout`, `GET /api/admin/me`, `GET /api/admin/reports`, `POST /api/admin/oembed`, `POST /api/admin/publish` |
 | Save draft | localStorage + JSON download |
 | Publish | GitHub Contents API when `GITHUB_TOKEN` set; else downloads JSON |
 | Mark fixed | Browser overlay + remind editor to set Sheet Status=Fixed |
-| **You must** | Enable Cloudflare Access One-time PIN for `/admin*` and `/api/admin*` |
+| **Setup** | `npx wrangler secret put ADMIN_PASSWORD` then open `/admin/` and sign in |
 
 ### Worker secrets (Cloudflare — **not** in git)
 
@@ -231,12 +231,13 @@ Set only via Wrangler on Worker `stuti`:
 npx wrangler secret put GOOGLE_FORM_ACTION_URL
 npx wrangler secret put GOOGLE_FORM_ENTRIES
 npx wrangler secret put GOOGLE_SHEET_CSV_URL
+npx wrangler secret put ADMIN_PASSWORD
 # optional:
 npx wrangler secret put GOOGLE_SHEET_URL
 npx wrangler secret put GITHUB_TOKEN
 ```
 
-**Currently configured (names only — 2026-11-28):** `GOOGLE_FORM_ACTION_URL`, `GOOGLE_FORM_ENTRIES`, `GOOGLE_SHEET_CSV_URL`.
+**Currently configured (names only):** `GOOGLE_FORM_ACTION_URL`, `GOOGLE_FORM_ENTRIES`, `GOOGLE_SHEET_CSV_URL`, plus `ADMIN_PASSWORD` after free-password setup.
 
 **Form entry map (2026-11-25):**
 

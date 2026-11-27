@@ -193,6 +193,10 @@ export default function AdminApp({
     typeof localStorage !== 'undefined' ? readFixedIds() : new Set(),
   );
   const [busy, setBusy] = useState(false);
+  const [needsLogin, setNeedsLogin] = useState(false);
+  const [password, setPassword] = useState('');
+  const [loginError, setLoginError] = useState<string | null>(null);
+  const [authVia, setAuthVia] = useState<'access' | 'password' | null>(null);
   const csvRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -220,17 +224,11 @@ export default function AdminApp({
     }
   }, []);
 
-  useEffect(() => {
-    fetch('/api/admin/me')
-      .then((r) => (r.ok ? (r.json() as Promise<{ email?: string }>) : null))
-      .then((d) => {
-        if (d?.email) setUserEmail(d.email);
-      })
-      .catch(() => {});
-    fetch('/api/admin/reports')
+  const loadReports = () => {
+    fetch('/api/admin/reports', { credentials: 'same-origin' })
       .then(async (r) => {
         if (r.status === 403) {
-          setReportsNote('Sign in via Cloudflare Access to load live Google Sheet reports.');
+          setReportsNote('Sign in with the admin password to load live Google Sheet reports.');
           return;
         }
         if (!r.ok) return;
@@ -243,10 +241,89 @@ export default function AdminApp({
         setSheetUrl(d.sheetUrl ?? null);
         if (d.notConfigured) {
           setReportsNote('Set GOOGLE_SHEET_CSV_URL on the Worker to show live Sheet rows here.');
+        } else {
+          setReportsNote(null);
         }
       })
       .catch(() => {});
+  };
+
+  useEffect(() => {
+    fetch('/api/admin/me', { credentials: 'same-origin' })
+      .then(async (r) => {
+        if (r.status === 403) {
+          setNeedsLogin(true);
+          setUserEmail(null);
+          return;
+        }
+        // Static preview / missing Worker → show UI without login (e2e + astro preview).
+        if (r.status === 404 || r.status >= 500) {
+          setNeedsLogin(false);
+          setReportsNote('Admin API not reachable here — sign-in applies on the live Worker site.');
+          return;
+        }
+        if (!r.ok) {
+          setNeedsLogin(true);
+          return;
+        }
+        const d = (await r.json()) as { email?: string; via?: 'access' | 'password' };
+        if (d?.email) {
+          setUserEmail(d.email);
+          setAuthVia(d.via ?? null);
+          setNeedsLogin(false);
+          loadReports();
+        } else {
+          setNeedsLogin(true);
+        }
+      })
+      .catch(() => {
+        setNeedsLogin(false);
+        setReportsNote('Admin API offline — UI preview only.');
+      });
   }, []);
+
+  const login = async (e: Event) => {
+    e.preventDefault();
+    if (!password.trim() || busy) return;
+    setBusy(true);
+    setLoginError(null);
+    try {
+      const res = await fetch('/api/admin/login', {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ password }),
+      });
+      const data = (await res.json()) as { ok?: boolean; email?: string; error?: string; hint?: string };
+      if (!res.ok || !data.ok) {
+        setLoginError(
+          data.error === 'password_not_configured'
+            ? data.hint || 'ADMIN_PASSWORD secret not set on Worker'
+            : 'Wrong password',
+        );
+        return;
+      }
+      setUserEmail(data.email || 'editor (password)');
+      setAuthVia('password');
+      setNeedsLogin(false);
+      setPassword('');
+      loadReports();
+      setToast('Signed in');
+    } catch {
+      setLoginError('Network error');
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const logout = async () => {
+    await fetch('/api/admin/logout', { method: 'POST', credentials: 'same-origin' });
+    setUserEmail(null);
+    setAuthVia(null);
+    setNeedsLogin(true);
+    setReports([]);
+    setReportsNote('Sign in to load reports.');
+  };
 
   const stanzas = useMemo(() => splitPastedSong(text), [text]);
   const selectedBook = books.find((b) => b.id === bookId) ?? books[0];
@@ -311,6 +388,7 @@ export default function AdminApp({
     try {
       const res = await fetch('/api/admin/publish', {
         method: 'POST',
+        credentials: 'same-origin',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({
           path: built.path,
@@ -326,7 +404,8 @@ export default function AdminApp({
         branch?: string;
       };
       if (res.status === 403) {
-        setToast('Sign in via Cloudflare Access to publish');
+        setNeedsLogin(true);
+        setToast('Sign in with the admin password to publish');
       } else if (res.status === 503 || data.error === 'github_token_missing') {
         downloadJson(`${built.slug}.json`, built.song);
         setToast(
@@ -375,11 +454,13 @@ export default function AdminApp({
     try {
       const res = await fetch('/api/admin/oembed', {
         method: 'POST',
+        credentials: 'same-origin',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ url: ytUrl.trim() }),
       });
       if (res.status === 403) {
-        setYtStatus('Sign in via Cloudflare Access to verify live');
+        setNeedsLogin(true);
+        setYtStatus('Sign in with the admin password to verify');
         return;
       }
       setYtStatus(res.ok ? 'Embed allowed (OK)' : "This video can't play inside the app");
@@ -413,14 +494,14 @@ export default function AdminApp({
             <>
               {userEmail}
               <br />
-              Signed in with email code ·{' '}
-              <a href="/cdn-cgi/access/logout" style={{ color: 'var(--gold)' }}>
+              {authVia === 'password' ? 'Signed in with password · ' : 'Signed in · '}
+              <button type="button" class="link-v3" style={{ padding: 0, border: 0, background: 'none' }} onClick={() => void logout()}>
                 Sign out
-              </a>
+              </button>
             </>
           ) : (
             <>
-              Preview mode (Cloudflare Access off)
+              Not signed in
               <br />
               <a href="/" style={{ color: 'var(--gold)' }}>
                 ← Back to app
@@ -437,6 +518,36 @@ export default function AdminApp({
           </div>
         ) : null}
 
+        {needsLogin ? (
+          <div class="adm-card" style={{ maxWidth: 420 }}>
+            <h1 style={{ marginTop: 0 }}>Editor sign-in</h1>
+            <p class="muted sm">
+              Free password login (no Cloudflare Zero Trust). Ask the site owner for the admin password.
+            </p>
+            <form onSubmit={(e) => void login(e)}>
+              <label class="fl">
+                Password
+                <input
+                  type="password"
+                  autoComplete="current-password"
+                  value={password}
+                  onInput={(e) => setPassword(e.currentTarget.value)}
+                />
+              </label>
+              {loginError ? (
+                <p class="muted sm" style={{ color: 'var(--ribbon)', marginTop: 8 }}>
+                  {loginError}
+                </p>
+              ) : null}
+              <button type="submit" class="abtn pri" style={{ marginTop: 14, width: '100%', justifyContent: 'center' }} disabled={busy || !password.trim()}>
+                Sign in
+              </button>
+            </form>
+          </div>
+        ) : null}
+
+        {!needsLogin ? (
+          <>
         {view === 'dash' ? (
           <>
             <div class="ahead">
@@ -738,6 +849,8 @@ export default function AdminApp({
               Back to Dashboard
             </button>
           </div>
+        ) : null}
+          </>
         ) : null}
       </main>
     </div>
