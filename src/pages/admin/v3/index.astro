@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import AdminApp from '../../../components/islands/AdminApp';
+import { getBookEntries, getBooks, getSongs } from '../../../lib/content';
+import { site } from '../../../site.config';
+
+const booksRaw = await getBooks();
+const books = await Promise.all(
+  booksRaw.map(async (b) => {
+    const entries = await getBookEntries(b.id);
+    const maxNo = entries.reduce((m, e) => Math.max(m, e.number), 0);
+    return { id: b.id, en: b.name.en, count: entries.length, maxNo };
+  }),
+);
+const totalSongs = (await getSongs()).length;
+---
+
+<Base title={`Admin | ${site.name}`} noindex>
+  <AdminApp client:load books={books} totalSongs={totalSongs} />
+</Base>
