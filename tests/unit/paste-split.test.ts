@@ -53,4 +53,16 @@ describe('Worker /api/admin auth guard', () => {
     expect(data.ok).toBe(true);
     expect(data.email).toBe('deepakmaseeh12@gmail.com');
   });
+
+  it('returns reports JSON (notConfigured when CSV URL is unset) with Access header', async () => {
+    const req = new Request('https://stuti.deepakmaseeh121.workers.dev/api/admin/reports', {
+      headers: { 'Cf-Access-Authenticated-User-Email': 'deepakmaseeh12@gmail.com' },
+    });
+    const res = await worker.fetch(req, fakeEnv);
+    expect(res.status).toBe(200);
+    const data = (await res.json()) as { ok: boolean; notConfigured?: boolean; reports: unknown[] };
+    expect(data.ok).toBe(true);
+    expect(data.notConfigured).toBe(true);
+    expect(data.reports).toEqual([]);
+  });
 });

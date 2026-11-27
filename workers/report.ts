@@ -9,6 +9,10 @@ export interface Env {
    * Example: {"id":"entry.123","title":"entry.456","kind":"entry.789",...}
    */
   GOOGLE_FORM_ENTRIES?: string;
+  /** Optional published-to-web CSV URL of the linked Google Sheet for /api/admin/reports. */
+  GOOGLE_SHEET_CSV_URL?: string;
+  /** Optional Google Sheet edit URL shown in the Admin Dashboard. */
+  GOOGLE_SHEET_URL?: string;
   APP_ORIGIN?: string;
   REPORT_LIMIT?: { limit: (opts: { key: string }) => Promise<{ success: boolean }> };
 }
@@ -102,6 +106,44 @@ function buildFormBody(body: ReportBody, entries: Record<string, string>): URLSe
   return params;
 }
 
+function parseCsv(text: string): string[][] {
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let cur = '';
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i]!;
+    if (inQuotes) {
+      if (ch === '"' && text[i + 1] === '"') {
+        cur += '"';
+        i++;
+      } else if (ch === '"') {
+        inQuotes = false;
+      } else {
+        cur += ch;
+      }
+    } else if (ch === '"') {
+      inQuotes = true;
+    } else if (ch === ',') {
+      row.push(cur);
+      cur = '';
+    } else if (ch === '\n' || ch === '\r') {
+      if (ch === '\r' && text[i + 1] === '\n') i++;
+      row.push(cur);
+      if (row.some((c) => c.length > 0)) rows.push(row);
+      row = [];
+      cur = '';
+    } else {
+      cur += ch;
+    }
+  }
+  if (cur.length > 0 || row.length > 0) {
+    row.push(cur);
+    if (row.some((c) => c.length > 0)) rows.push(row);
+  }
+  return rows;
+}
+
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
@@ -115,6 +157,48 @@ export default {
       }
       if (url.pathname === '/api/admin/me') {
         return Response.json({ ok: true, email, role: 'editor' });
+      }
+      if (url.pathname === '/api/admin/reports' && request.method === 'GET') {
+        if (!env.GOOGLE_SHEET_CSV_URL) {
+          return Response.json({
+            ok: true,
+            notConfigured: true,
+            sheetUrl: env.GOOGLE_SHEET_URL || null,
+            reports: [],
+          });
+        }
+        const csvRes = await fetch(env.GOOGLE_SHEET_CSV_URL);
+        if (!csvRes.ok) {
+          return Response.json({ ok: false, error: 'sheet_fetch_failed' }, { status: 502 });
+        }
+        const rows = parseCsv(await csvRes.text());
+        const headers = rows[0] ?? [];
+        const idx = (name: string) =>
+          headers.findIndex((h) => h.trim().toLowerCase() === name.toLowerCase());
+        const reports = rows
+          .slice(1)
+          .map((r) => ({
+            timestamp: r[0] ?? '',
+            id: r[idx('Report ID')] ?? '',
+            status: r[idx('Status')] || 'New',
+            book: r[idx('Book')] ?? '',
+            no: r[idx('Number')] ?? '',
+            title: r[idx('Title')] ?? '',
+            stanza: r[idx('Stanza')] ?? '',
+            line: r[idx('Line')] ?? '',
+            kind: r[idx("What's wrong")] ?? '',
+            current: r[idx('Current text')] ?? '',
+            suggested: r[idx('Correct text')] ?? '',
+            note: r[idx('Note')] ?? '',
+            name: r[idx('Name')] ?? '',
+          }))
+          .reverse()
+          .slice(0, 100);
+        return Response.json({
+          ok: true,
+          sheetUrl: env.GOOGLE_SHEET_URL || null,
+          reports,
+        });
       }
       if (url.pathname === '/api/admin/oembed' && request.method === 'POST') {
         let payload: { url?: string } = {};

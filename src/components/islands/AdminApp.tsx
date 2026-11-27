@@ -21,6 +21,21 @@ import { splitPastedSong } from '../../lib/paste-split';
 
 type BookStat = { id: string; en: string; count: number; maxNo: number };
 type View = 'dash' | 'songs' | 'add' | 'reports' | 'books' | 'media' | 'users' | 'site';
+type SheetReport = {
+  timestamp: string;
+  id: string;
+  status: string;
+  book: string;
+  no: string;
+  title: string;
+  stanza: string;
+  line: string;
+  kind: string;
+  current: string;
+  suggested: string;
+  note: string;
+  name: string;
+};
 
 const SAMPLE = `46 चमका सितारा देखो
 
@@ -63,12 +78,34 @@ export default function AdminApp({
   const [ytUrl, setYtUrl] = useState('');
   const [ytStatus, setYtStatus] = useState<string | null>(null);
   const [toast, setToast] = useState<string | null>(null);
+  const [reports, setReports] = useState<SheetReport[]>([]);
+  const [sheetUrl, setSheetUrl] = useState<string | null>(null);
+  const [reportsNote, setReportsNote] = useState<string | null>(null);
 
   useEffect(() => {
     fetch('/api/admin/me')
       .then((r) => (r.ok ? (r.json() as Promise<{ email?: string }>) : null))
       .then((d) => {
         if (d?.email) setUserEmail(d.email);
+      })
+      .catch(() => {});
+    fetch('/api/admin/reports')
+      .then(async (r) => {
+        if (r.status === 403) {
+          setReportsNote('Sign in via Cloudflare Access to load live Google Sheet reports.');
+          return;
+        }
+        if (!r.ok) return;
+        const d = (await r.json()) as {
+          reports?: SheetReport[];
+          sheetUrl?: string | null;
+          notConfigured?: boolean;
+        };
+        setReports(d.reports ?? []);
+        setSheetUrl(d.sheetUrl ?? null);
+        if (d.notConfigured) {
+          setReportsNote('Set GOOGLE_SHEET_CSV_URL on the Worker to show live Sheet rows here.');
+        }
       })
       .catch(() => {});
   }, []);
@@ -216,6 +253,43 @@ export default function AdminApp({
                   </div>
                 </div>
               </section>
+
+              <section class="adm-card" style={{ gridColumn: '1 / -1' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
+                  <h3 style={{ margin: 0 }}>New reports ({reports.length})</h3>
+                  <div style={{ display: 'flex', gap: 10 }}>
+                    {sheetUrl ? (
+                      <a class="link-v3" href={sheetUrl} target="_blank" rel="noopener noreferrer">
+                        Open Google Sheet
+                      </a>
+                    ) : null}
+                    <button type="button" class="link-v3" onClick={() => setView('reports')}>
+                      Open inbox
+                    </button>
+                  </div>
+                </div>
+                {reports.length > 0 ? (
+                  reports.slice(0, 5).map((r, i) => (
+                    <div class="att" key={r.id || i}>
+                      <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 68 }}>
+                        {r.book} {r.no}
+                      </b>
+                      <span>
+                        {r.stanza ? `${r.stanza} · ` : ''}
+                        {r.kind || 'Correction'}
+                        {r.suggested ? ` → ${r.suggested.slice(0, 48)}` : ''}
+                      </span>
+                      <b>
+                        <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
+                      </b>
+                    </div>
+                  ))
+                ) : (
+                  <p class="muted sm" style={{ margin: '6px 0 0' }}>
+                    {reportsNote || 'No reports yet.'}
+                  </p>
+                )}
+              </section>
             </div>
           </>
         ) : null}
@@ -351,7 +425,46 @@ export default function AdminApp({
           </>
         ) : null}
 
-        {view !== 'dash' && view !== 'add' ? (
+        {view === 'reports' ? (
+          <>
+            <div class="ahead">
+              <h1>Reports inbox</h1>
+              {sheetUrl ? (
+                <a class="abtn" href={sheetUrl} target="_blank" rel="noopener noreferrer">
+                  Open Google Sheet
+                </a>
+              ) : null}
+            </div>
+            <div class="adm-card">
+              {reports.length > 0 ? (
+                reports.map((r, i) => (
+                  <div class="att" key={r.id || i} style={{ flexWrap: 'wrap' }}>
+                    <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 72 }}>
+                      {r.book} {r.no}
+                    </b>
+                    <div style={{ flex: 1, minWidth: 200 }}>
+                      <div style={{ fontWeight: 600 }}>
+                        {r.title} · {r.kind}
+                      </div>
+                      {r.current || r.suggested ? (
+                        <div class="muted sm">
+                          {r.current ? <del>{r.current}</del> : null}
+                          {r.current && r.suggested ? ' → ' : null}
+                          {r.suggested ? <strong>{r.suggested}</strong> : null}
+                        </div>
+                      ) : null}
+                    </div>
+                    <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
+                  </div>
+                ))
+              ) : (
+                <p class="muted">{reportsNote || 'No reports in the Sheet yet.'}</p>
+              )}
+            </div>
+          </>
+        ) : null}
+
+        {view !== 'dash' && view !== 'add' && view !== 'reports' ? (
           <div class="adm-card">
             <h2 style={{ marginTop: 0 }}>{NAV.find((n) => n[0] === view)?.[1]}</h2>
             <p class="muted">
