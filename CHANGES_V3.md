@@ -23,19 +23,44 @@ Recorded before Phase 1 changes:
 
 ## Feature Flags (`src/config/flags.ts`)
 
-- `newSearch`: `false` until Phase 2
-- `newSetEditor`: `false` until Phase 4
-- `shareSheet`: `false` until Phase 4
-- `videos`: `false` until Phase 5
-- `admin`: `false` until Phase 6 (owner confirms Cloudflare Access)
+- `newSearch`: `true` (Phase 2)
+- `newSetEditor`: `true` (Phase 4)
+- `shareSheet`: `true` (Phase 4)
+- `videos`: `true` (Phase 5)
+- `admin`: `false` (Phase 6 — kept off until owner confirms Cloudflare Access)
 
 ## Phase Log
 
 - **Baseline**: Recorded on `v3-ui`.
 - **Phase 1 (Shell, tokens, Settings)**:
-  - Added `src/config/flags.ts` (all future phase flags `false`).
-  - Added `src/styles/v3/tokens.css` and `src/styles/v3/app.css` scoped under `.v3` (and `[data-scheme='dark'] .v3` / `[data-theme='dark'] .v3`).
-  - Updated `src/layouts/Base.astro`, `src/components/AppShell.astro`, `src/components/TopBar.astro`, `src/components/BottomNav.astro`, `src/pages/books/[book].astro`, `src/pages/books/index.astro`.
-  - Added `src/components/islands/SettingsSheet.tsx` (bottom sheet on phone, 400px right drawer on `>=1024px`, 7 settings groups, `Editor sign-in` hidden when `!FLAGS.admin`).
-  - Added `tests/e2e/v3-phase1.spec.ts` (4/4 passed on `pixel5` + `desktop`).
+  - Added `src/config/flags.ts`, `src/styles/v3/tokens.css`, `src/styles/v3/app.css`.
+  - Updated `Base.astro`, `AppShell.astro`, `TopBar.astro`, `BottomNav.astro`, `books/[book].astro`, `books/index.astro`.
+  - Added `src/components/islands/SettingsSheet.tsx` (bottom sheet on phone, 400px right drawer on `>=1024px`, 7 groups, `Editor sign-in` hidden when `!FLAGS.admin`).
+  - Added `tests/e2e/v3-phase1.spec.ts` (4/4 passed).
+- **Phase 2 (Home, Search, Book page)**:
+  - Updated `HomeLists.tsx` and `src/pages/index.astro` (This Sunday ribbon card, Your songs Recent/Favourites tabs, full-width Hymnbooks rows with offline status).
+  - Updated `LetterBrowser.tsx` and `SearchTabs.tsx` (no text input, URL hash `#lang=...&book=...&l=...` sync, scroll restore, Book/Topic filters).
+  - Updated `src/pages/books/[book].astro` (Home back link, sticky `1 · 50 · 100…` jump bar).
+  - Added `tests/e2e/v3-phase2.spec.ts` (3/3 passed).
+- **Phase 3 (Song page)**:
+  - Updated `src/pages/song/[id].astro` (removed `<SongMeta />` below lyrics, added `⋮` More menu + Present icon in songbar, 760px max lyrics width).
+  - Added `src/components/islands/SongMoreSheet.tsx` (Lyrics PDF, PowerPoint, Share, Song info sheet, Report a mistake, Settings).
+  - Updated `ReportSheet.tsx` (long-press line trigger, `Your name` remembered in `localStorage`).
+  - Added `tests/e2e/v3-phase3.spec.ts` (4/4 passed).
+- **Phase 4 (Sets, Set editor, Share sheet)**:
+  - Updated `SetEditorV2.tsx` (plain-text `.shead` section rows, collapsed `.srow` song rows, musician-gated key chips, single expanded `.exp` row).
+  - Verified `ShareSheet.tsx` (QR + WhatsApp, Copy link, Share…, QR image, Order of service, PowerPoint, Lyrics PDF, Calendar, Open in Present).
+  - Added `tests/e2e/v3-phase4.spec.ts` (1/1 passed).
+- **Phase 5 (Videos)**:
+  - Extended `SongSchema` in `src/lib/schema.ts` with `MediaItemSchema` (backwards-compatible `{ youtube: null }` default).
+  - Added `src/components/islands/VideoSheet.tsx` (tap-to-load `youtube-nocookie.com` embed, offline message, Like on YouTube link).
+  - Added `CirclePlay` button in `SongToolbar.tsx` (disabled `opacity: 0.3` `"No video yet"` when no working videos).
+  - Added `tests/e2e/v3-phase5.spec.ts` (1/1 passed).
+- **Phase 6 (Editor sign-in & Admin)**:
+  - Added `src/lib/paste-split.ts` + `tests/unit/paste-split.test.ts`.
+  - Added Cloudflare Access header guard (`/api/admin/*` → 403 without `Cf-Access-Authenticated-User-Email`) + `/api/admin/me` + `/api/admin/oembed` in `workers/report.ts`.
+  - Kept `FLAGS.admin = false` and Decap CMS intact until Access is verified.
+- **Phase 7 (About & Guide)**:
+  - Updated `src/pages/guide/index.astro` with sticky `.toc`, numbered `.step` circles, and generated screenshots in `public/guide/*.png`.
+  - Added `tests/e2e/guide.spec.ts` (1/1 passed).
 

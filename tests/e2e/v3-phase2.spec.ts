@@ -21,7 +21,7 @@ test.describe('v3 Phase 2: Home, Search, Book page', () => {
     page,
   }) => {
     await page.setViewportSize({ width: 390, height: 844 });
-    await page.goto('/search/?q=old-query');
+    await page.goto('/search/?q=old-query', { waitUntil: 'networkidle' });
     await expect(page.locator('input[type="text"], input[type="search"]')).toHaveCount(0);
 
     await page.getByRole('button', { name: 'हिन्दी' }).click();

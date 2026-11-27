@@ -11,7 +11,7 @@ test.describe('v3 Phase 4: Sets, Set editor, Share sheet', () => {
     page,
   }) => {
     await page.setViewportSize({ width: 390, height: 844 });
-    await page.goto('/sets/');
+    await page.goto('/sets/', { waitUntil: 'networkidle' });
     await page.getByRole('button', { name: 'New set' }).click();
     await page.getByRole('button', { name: /Create/i }).click();
     await expect(page).toHaveURL(/\/sets\/edit\/\?id=/);

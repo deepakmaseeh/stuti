@@ -2,72 +2,135 @@
 import AppShell from '../../components/AppShell.astro';
 import { appVersion, contentVersion } from '../../lib/version';
 import { site } from '../../site.config';
+
+const { maker } = site;
 ---
 
 <AppShell
   title={`About & Guide | ${site.name}`}
-  description="How to find songs, plan a set, present, and use Stuti Songs offline."
+  description="Who built Stuti Songs, how to contact Excel Tech Solutions, and how to use the hymnal."
 >
   <article class="prose guide">
     <h1 class="page-title">About & Guide</h1>
-    <p>
-      <strong>{site.name}</strong> is a free Christian hymnal for Indian churches. It works offline, numbers
-      songs like your printed book, and needs no sign-in.
+    <p class="muted">
+      Free hymnal · works offline · no ads, no sign-in
     </p>
 
-    <nav class="guide-toc" aria-label="Topics">
-      <a class="chip" href="#find">Find a song</a>
-      <a class="chip" href="#number">By number</a>
-      <a class="chip" href="#set">Plan a set</a>
-      <a class="chip" href="#share">Share</a>
-      <a class="chip" href="#present">Present</a>
-      <a class="chip" href="#offline">Offline</a>
-      <a class="chip" href="#settings">Settings</a>
+    <h2 id="built">Who built this</h2>
+    <p>
+      {site.name} was built by <strong>{maker.name}</strong> — a digital agency for churches, businesses, and
+      teams that need clear, reliable software.
+    </p>
+
+    <a class="maker-preview" href={maker.url} rel="noopener noreferrer" target="_blank">
+      <span class="maker-preview__chrome" aria-hidden="true">
+        <span class="maker-preview__dot"></span>
+        <span class="maker-preview__dot"></span>
+        <span class="maker-preview__dot"></span>
+        <span class="maker-preview__url">{maker.host}</span>
+      </span>
+      <span class="maker-preview__body">
+        <span class="maker-preview__name">{maker.name}</span>
+        <span class="maker-preview__blurb">{maker.blurb}</span>
+        <span class="maker-preview__cta">Visit website →</span>
+      </span>
+    </a>
+
+    <h2 id="contact">Contact</h2>
+    <p>Reach {maker.name} using the same details listed on Google:</p>
+    <ul class="maker-contact">
+      <li>
+        <strong>Email</strong>
+        <a href={`mailto:${maker.email}`}>{maker.email}</a>
+      </li>
+      <li>
+        <strong>Phone</strong>
+        {
+          maker.phones.map((tel, i) => (
+            <>
+              {i > 0 ? ' · ' : ''}
+              <a href={`tel:${tel}`}>{maker.phoneLabels[i]}</a>
+            </>
+          ))
+        }
+      </li>
+      <li>
+        <strong>Address</strong>
+        {maker.address}
+      </li>
+      <li>
+        <strong>Google</strong>
+        <a href={maker.mapsUrl} rel="noopener noreferrer" target="_blank">Open on Google Maps</a>
+      </li>
+    </ul>
+
+    <h2 id="guide">Guide</h2>
+    <nav class="toc" aria-label="Topics">
+      <a href="#find">Find a song</a>
+      <a href="#number">Hymn number</a>
+      <a href="#read">Reading</a>
+      <a href="#set">Plan a set</a>
+      <a href="#share">Share</a>
+      <a href="#present">Present</a>
+      <a href="#offline">Offline</a>
+      <a href="#report">Report</a>
+      <a href="#settings">Settings</a>
     </nav>
 
-    <h2 id="find">Find a song</h2>
-    <ol>
-      <li>Open the <strong>Search</strong> tab.</li>
-      <li>Tap <strong>हिन्दी</strong> or <strong>English</strong>.</li>
-      <li>Tap the first letter of the song.</li>
-      <li>Tap the song. Use <strong>Book</strong> and <strong>Topic</strong> to narrow.</li>
-    </ol>
+    <h3 id="find">Find a song</h3>
+    <div class="step"><span class="n">1</span><span>Tap <strong>Search</strong> in the bottom bar, then <strong>हिन्दी</strong> or <strong>English</strong>.</span></div>
+    <div class="step"><span class="n">2</span><span>Tap the first letter of the song.</span></div>
+    <div class="step"><span class="n">3</span><span>Tap the song. Use <strong>Book</strong> and <strong>Topic</strong> to narrow.</span></div>
+    <img class="guide-shot" src="/guide/find.png" alt="Search by language and letter" loading="lazy" width="390" height="520" />
 
-    <h2 id="number">Find by hymn number</h2>
-    <ol>
-      <li><strong>Home</strong> → <strong>Hymnbooks</strong> → tap your book.</li>
-      <li>The list is in number order. Use the jump bar (1 · 50 · 100…).</li>
-    </ol>
+    <h3 id="number">Find by hymn number</h3>
+    <div class="step"><span class="n">1</span><span><strong>Home</strong> → <strong>Hymnbooks</strong> → tap your book.</span></div>
+    <div class="step"><span class="n">2</span><span>Songs are in number order. Tap <strong>50, 100…</strong> in the jump bar.</span></div>
+    <img class="guide-shot" src="/guide/number.png" alt="Book page in hymn-number order" loading="lazy" width="390" height="520" />
 
-    <h2 id="set">Plan a set</h2>
-    <ol>
-      <li><strong>Sets</strong> → New set → pick a service → Create.</li>
-      <li>Type hymn numbers (e.g. 12, 46) or browse with the library button.</li>
-      <li>Tap a song to set key and verses. Then Start singing.</li>
-    </ol>
+    <h3 id="read">Reading</h3>
+    <div class="step"><span class="n">1</span><span>Use <strong>A↓ / A↑</strong> in the toolbar to adjust text size.</span></div>
+    <div class="step"><span class="n">2</span><span>Tap the <strong>Sun</strong> icon to keep the screen on, or <strong>Videos</strong> to watch a tune/lyric video.</span></div>
+    <img class="guide-shot" src="/guide/read.png" alt="Song page toolbar and lyrics" loading="lazy" width="390" height="520" />
 
-    <h2 id="share">Share a set</h2>
+    <h3 id="set">Plan a set</h3>
+    <div class="step"><span class="n">1</span><span><strong>Sets</strong> → <strong>New set</strong> → pick a service → <strong>Create</strong>.</span></div>
+    <div class="step"><span class="n">2</span><span>Choose the section, type hymn numbers like <strong>12, 46</strong>, and press Enter.</span></div>
+    <div class="step"><span class="n">3</span><span>Tap a song row to set verses (and key, if enabled in Settings).</span></div>
+    <img class="guide-shot" src="/guide/plan.png" alt="Set editor" loading="lazy" width="390" height="520" />
+
+    <h3 id="share">Share a set</h3>
+    <div class="step"><span class="n">1</span><span>In the set, tap <strong>Share</strong> for WhatsApp, Copy link, QR, Calendar, Order of service, or PowerPoint.</span></div>
+
+    <h3 id="present">Show on a projector</h3>
+    <div class="step"><span class="n">1</span><span>Tap <strong>Present</strong>. Keys: <strong>→</strong> next, <strong>←</strong> back, <strong>B</strong> black screen, <strong>Esc</strong> exit.</span></div>
+
+    <h3 id="offline">Use without internet</h3>
+    <div class="step"><span class="n">1</span><span><strong>Offline</strong> tab → tap download next to a book → wait for the check mark.</span></div>
+
+    <h3 id="report">Report a mistake</h3>
+    <div class="step"><span class="n">1</span><span>On a song, tap <strong>⋮</strong> → <strong>Report a mistake</strong> (or long-press any line) → write the correct words → <strong>Send</strong>.</span></div>
     <p>
       In the set, tap Share for WhatsApp, Copy link, QR, Calendar, Order of service, or PowerPoint.
     </p>
 
-    <h2 id="present">Show on a projector</h2>
+    <h3 id="present">Show on a projector</h3>
     <p>
       Tap Present. Keys: → next, ← back, B black screen, Esc exit.
     </p>
 
-    <h2 id="offline">Use without internet</h2>
+    <h3 id="offline">Use without internet</h3>
     <ol>
       <li><strong>Offline</strong> tab → download next to a book → wait for the check mark.</li>
     </ol>
 
-    <h2 id="settings">Settings</h2>
+    <h3 id="settings">Settings</h3>
     <p>
       Tap the gear: Theme (System / Light / Dark), text size, church book, church name. Theme is remembered on
       every page without refreshing.
     </p>
 
-    <h2>FAQ</h2>
+    <h3>FAQ</h3>
     <ul>
       <li><strong>No internet?</strong> Download books on Offline first.</li>
       <li><strong>Wrong words?</strong> On a song → ⋯ → Report a mistake.</li>
@@ -75,7 +138,7 @@ import { site } from '../../site.config';
     </ul>
 
     <p class="muted">
-      Version {appVersion} · data {contentVersion} · <a href="/about/">Privacy &amp; contact</a>
+      Version {appVersion} · data {contentVersion} · <a href="/about/">Privacy &amp; rights</a>
     </p>
   </article>
 </AppShell>
@@ -85,9 +148,85 @@ import { site } from '../../site.config';
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
-    margin: 1rem 0 1.5rem;
+    margin: 0.75rem 0 1.25rem;
   }
-  .guide h2 {
+  .guide h2,
+  .guide h3 {
     scroll-margin-top: 72px;
+  }
+  .maker-preview {
+    display: block;
+    margin: 1rem 0 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background: var(--page);
+    box-shadow: 0 8px 24px color-mix(in oklab, var(--ink) 8%, transparent);
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .maker-preview:hover,
+  .maker-preview:focus-visible {
+    border-color: color-mix(in oklab, var(--gold-ink) 45%, var(--line));
+    transform: translateY(-1px);
+  }
+  .maker-preview__chrome {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: var(--leather);
+    color: var(--gold-soft);
+  }
+  .maker-preview__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: color-mix(in oklab, var(--gold) 55%, transparent);
+  }
+  .maker-preview__url {
+    margin-left: 8px;
+    font: 600 12px/1 var(--font-ui);
+    letter-spacing: 0.02em;
+    opacity: 0.9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .maker-preview__body {
+    display: grid;
+    gap: 6px;
+    padding: 14px 16px 16px;
+  }
+  .maker-preview__name {
+    font: 700 1.15rem/1.3 var(--font-display);
+    color: var(--ink);
+  }
+  .maker-preview__blurb {
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .maker-preview__cta {
+    margin-top: 4px;
+    font: 600 0.9rem/1.2 var(--font-ui);
+    color: var(--gold-ink);
+  }
+  .maker-contact {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 1.5rem;
+    display: grid;
+    gap: 10px;
+  }
+  .maker-contact li {
+    display: grid;
+    gap: 2px;
+  }
+  .maker-contact strong {
+    font-size: 0.8rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
   }
 </style>

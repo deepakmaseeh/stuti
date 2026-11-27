@@ -70,7 +70,6 @@ const books = await Promise.all(
           if (id && d[id]) {
             el.style.color = 'var(--ok)';
             el.setAttribute('aria-label', 'Saved offline');
-            el.innerHTML = '';
             const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
             svg.setAttribute('viewBox', '0 0 24 24');
             svg.setAttribute('width', '20');
@@ -85,7 +84,7 @@ const books = await Promise.all(
             const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
             p.setAttribute('d', 'm9 12 2 2 4-4');
             svg.append(c, p);
-            el.append(svg);
+            el.replaceChildren(svg);
           }
         });
       } catch {}

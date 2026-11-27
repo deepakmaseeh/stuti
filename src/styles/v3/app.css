@@ -796,6 +796,62 @@
   flex: none;
 }
 
+/* ---- Phase 7: About & Guide ---- */
+.v3 .toc {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+  position: sticky;
+  top: 56px;
+  z-index: 2;
+  margin-bottom: 14px;
+}
+.v3 .toc a {
+  flex: none;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 17px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font: 600 13.5px / 32px var(--font-sans);
+  text-decoration: none;
+}
+.v3 .toc a:hover {
+  background: var(--ribbon-tint);
+  color: var(--ribbon);
+  border-color: var(--ribbon-tint);
+}
+.v3 .step {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.v3 .step .n {
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  background: var(--leather);
+  color: var(--gold);
+  font: 700 13px / 26px var(--font-display);
+  text-align: center;
+  flex: none;
+}
+.v3 .guide-shot {
+  display: block;
+  width: min(320px, 100%);
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 30px oklch(0.2 0.05 15 / 0.12);
+  margin: 12px 0 20px;
+}
+
+
 
 
 
