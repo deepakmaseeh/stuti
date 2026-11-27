@@ -12,6 +12,7 @@ import {
   type Prefs,
 } from '../../lib/storage';
 import { showToast } from '../../lib/toast';
+import { site } from '../../site.config';
 import Sheet from './Sheet';
 import { ThemeSegment } from './ThemeToggle';
 
@@ -208,6 +209,28 @@ export default function SettingsPanel({ languages, samples }: Props) {
             {t('settings.clear')}
           </button>
         </div>
+      </section>
+
+      <section class="settings__group" aria-labelledby="s-credits">
+        <h2 class="group-title" id="s-credits">
+          Built by
+        </h2>
+        <p>
+          <a href={site.maker.url} rel="noopener noreferrer" target="_blank">
+            {site.maker.name}
+          </a>
+        </p>
+        <p class="muted">
+          <a href={`mailto:${site.maker.email}`}>{site.maker.email}</a>
+          <br />
+          <a href={`tel:${site.maker.phones[0]}`}>{site.maker.phoneLabels[0]}</a>
+          {' · '}
+          <a href={site.maker.mapsUrl} rel="noopener noreferrer" target="_blank">
+            Google Maps
+          </a>
+          <br />
+          <a href="/guide/#built">About &amp; guide</a>
+        </p>
       </section>
 
       <Sheet open={confirming} onClose={() => setConfirming(false)} title={t('settings.clear')} id="clear">

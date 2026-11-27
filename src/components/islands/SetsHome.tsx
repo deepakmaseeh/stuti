@@ -106,7 +106,7 @@ function SetCard({
       <div class="scard__acts">
         {!past && songs[0] ? (
           <a
-            class="btn btn--primary btn--small btn--icon"
+            class="btn btn--primary btn--small btn--icon scard__sing"
             href={singHref}
             data-astro-reload
             aria-label="Sing"
@@ -130,9 +130,15 @@ function SetCard({
             <EllipsisVertical size={16} strokeWidth={1.75} aria-hidden="true" />
           </button>
           {menu ? (
-            <div class="scard__menu">
+            <div class="scard__menu" role="menu">
+              {!past && songs[0] ? (
+                <a class="scard__menu-link scard__sing-menu" href={singHref} data-astro-reload role="menuitem">
+                  <Play size={16} strokeWidth={1.75} aria-hidden="true" /> Sing
+                </a>
+              ) : null}
               <button
                 type="button"
+                role="menuitem"
                 onClick={() => {
                   setMenu(false);
                   onShare(set);
@@ -142,6 +148,7 @@ function SetCard({
               </button>
               <button
                 type="button"
+                role="menuitem"
                 onClick={() => {
                   setMenu(false);
                   onAskDelete(set);

@@ -129,7 +129,7 @@ export default function SetEditorV2() {
         setMeta(m);
         setNumbers(n);
       })
-      .catch(() => {});
+      .catch(() => { });
     const onNav = () => refresh(true);
     document.addEventListener('astro:page-load', onNav);
     addEventListener('popstate', onNav);

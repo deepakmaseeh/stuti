@@ -259,10 +259,6 @@
   min-width: 0;
   max-height: none;
 }
-.scard--closed {
-  max-height: 76px;
-  overflow: visible;
-}
 .scard--closed .scard__expand {
   display: none;
 }
@@ -358,53 +354,67 @@
 }
 .scard__acts {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 6px;
   justify-content: flex-end;
   align-items: center;
+  flex-shrink: 0;
+  justify-self: end;
 }
 .scard__acts .btn--icon {
   min-width: 40px;
   width: 40px;
   height: 40px;
   padding: 0;
+  flex: 0 0 auto;
 }
+.scard__sing-menu {
+  display: none;
+}
+/* Keep one row on phones: date | title | icons. Sing moves into ⋯ so Edit/⋯ never collide. */
 @media (max-width: 640px) {
   .scard {
-    grid-template-columns: 56px minmax(0, 1fr);
-    grid-template-areas:
-      'date body'
-      'acts acts';
-    gap: 12px;
-    align-items: start;
+    grid-template-columns: 52px minmax(0, 1fr) auto;
+    gap: 8px;
+    align-items: center;
+    min-height: 72px;
+    padding: 10px;
+    overflow: visible;
   }
   .scard__date {
-    grid-area: date;
-    width: 56px;
-    height: 62px;
+    width: 52px;
+    height: 56px;
   }
   .scard__date b {
-    font-size: 22px;
+    font-size: 20px;
   }
   .scard__body {
-    grid-area: body;
+    min-width: 0;
+    overflow: hidden;
   }
   .scard__body h3 {
-    white-space: normal;
-    overflow-wrap: break-word;
-    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .scard__meta {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
   .scard__acts {
-    grid-area: acts;
-    justify-content: stretch;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
-  .scard__acts .btn {
-    flex: 1 1 auto;
+    gap: 4px;
   }
   .scard__acts .btn--icon {
-    flex: 0 0 40px;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+  }
+  .scard__sing {
+    display: none;
+  }
+  .scard__sing-menu {
+    display: flex;
   }
 }
 .pill {

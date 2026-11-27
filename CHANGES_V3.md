@@ -27,7 +27,7 @@ Recorded before Phase 1 changes:
 - `newSetEditor`: `true` (Phase 4)
 - `shareSheet`: `true` (Phase 4)
 - `videos`: `true` (Phase 5)
-- `admin`: `false` (Phase 6 — kept off until owner confirms Cloudflare Access)
+- `admin`: `true` (Phase 6 — UI on; `/api/admin/*` still needs Cloudflare Access OTP)
 
 ## Phase Log
 
@@ -59,7 +59,8 @@ Recorded before Phase 1 changes:
 - **Phase 6 (Editor sign-in & Admin)**:
   - Added `src/lib/paste-split.ts` + `tests/unit/paste-split.test.ts`.
   - Added Cloudflare Access header guard (`/api/admin/*` → 403 without `Cf-Access-Authenticated-User-Email`) + `/api/admin/me` + `/api/admin/oembed` in `workers/report.ts`.
-  - Kept `FLAGS.admin = false` and Decap CMS intact until Access is verified.
+  - Enabled `FLAGS.admin = true`; `/admin/` serves v3 AdminApp; Decap kept at `/admin/cms/`.
+  - Save draft (localStorage + JSON download), Publish (`POST /api/admin/publish` → GitHub when `GITHUB_TOKEN` set), Mark fixed (local overlay + Sheet Status), CSV file picker.
 - **Phase 7 (About & Guide)**:
   - Updated `src/pages/guide/index.astro` with sticky `.toc`, numbered `.step` circles, and generated screenshots in `public/guide/*.png`.
   - Added `tests/e2e/guide.spec.ts` (1/1 passed).

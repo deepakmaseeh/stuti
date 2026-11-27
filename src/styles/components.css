@@ -2307,13 +2307,14 @@ select.field__input { appearance: none; background-image: linear-gradient(45deg,
 }
 .scard__more {
   position: relative;
+  flex: 0 0 auto;
 }
 .scard__menu {
   position: absolute;
   right: 0;
-  top: 100%;
-  z-index: 5;
-  min-width: 140px;
+  top: calc(100% + 4px);
+  z-index: 40;
+  min-width: 148px;
   padding: 6px;
   border-radius: 12px;
   border: 1px solid var(--line);
@@ -2322,7 +2323,8 @@ select.field__input { appearance: none; background-image: linear-gradient(45deg,
   display: grid;
   gap: 2px;
 }
-.scard__menu button {
+.scard__menu button,
+.scard__menu-link {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -2333,9 +2335,11 @@ select.field__input { appearance: none; background-image: linear-gradient(45deg,
   background: transparent;
   color: inherit;
   font: inherit;
+  text-decoration: none;
   cursor: pointer;
 }
-.scard__menu button:hover {
+.scard__menu button:hover,
+.scard__menu-link:hover {
   background: var(--card);
 }
 

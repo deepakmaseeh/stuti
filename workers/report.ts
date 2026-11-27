@@ -15,6 +15,12 @@ export interface Env {
   GOOGLE_SHEET_URL?: string;
   /** Optional comma-separated allowlist of admin emails. Defaults to godisourlord8874@gmail.com. */
   ADMIN_EMAILS?: string;
+  /** GitHub PAT with `contents:write` on deepakmaseeh/stuti — enables Publish from /admin/. */
+  GITHUB_TOKEN?: string;
+  /** Repo `owner/name` for admin publish (default deepakmaseeh/stuti). */
+  GITHUB_REPO?: string;
+  /** Branch to commit song JSON into (default main). */
+  GITHUB_BRANCH?: string;
   APP_ORIGIN?: string;
   REPORT_LIMIT?: { limit: (opts: { key: string }) => Promise<{ success: boolean }> };
 }
@@ -218,6 +224,78 @@ export default {
           `https://www.youtube.com/oembed?url=${encodeURIComponent(payload.url)}&format=json`,
         );
         return Response.json({ ok: oembed.ok, status: oembed.status }, { status: oembed.ok ? 200 : 422 });
+      }
+      if (url.pathname === '/api/admin/publish' && request.method === 'POST') {
+        if (!env.GITHUB_TOKEN) {
+          return Response.json(
+            { ok: false, error: 'github_token_missing', hint: 'npx wrangler secret put GITHUB_TOKEN' },
+            { status: 503 },
+          );
+        }
+        let payload: {
+          path?: string;
+          content?: unknown;
+          message?: string;
+        } = {};
+        try {
+          payload = (await request.json()) as typeof payload;
+        } catch {
+          return Response.json({ ok: false, error: 'bad_json' }, { status: 400 });
+        }
+        const relPath = String(payload.path ?? '').replace(/^\/+/, '');
+        if (!relPath.startsWith('src/content/songs/') || !relPath.endsWith('.json')) {
+          return Response.json({ ok: false, error: 'bad_path' }, { status: 400 });
+        }
+        if (payload.content == null || typeof payload.content !== 'object') {
+          return Response.json({ ok: false, error: 'missing_content' }, { status: 400 });
+        }
+        const repo = env.GITHUB_REPO || 'deepakmaseeh/stuti';
+        const branch = env.GITHUB_BRANCH || 'main';
+        const apiBase = `https://api.github.com/repos/${repo}/contents/${relPath}`;
+        const headers = {
+          authorization: `Bearer ${env.GITHUB_TOKEN}`,
+          accept: 'application/vnd.github+json',
+          'content-type': 'application/json',
+          'user-agent': 'stuti-admin-worker',
+          'x-github-api-version': '2022-11-28',
+        };
+        let sha: string | undefined;
+        const existing = await fetch(`${apiBase}?ref=${encodeURIComponent(branch)}`, { headers });
+        if (existing.ok) {
+          const meta = (await existing.json()) as { sha?: string };
+          sha = meta.sha;
+        } else if (existing.status !== 404) {
+          return Response.json(
+            { ok: false, error: 'github_read_failed', status: existing.status },
+            { status: 502 },
+          );
+        }
+        const bodyJson = JSON.stringify(payload.content, null, 2) + '\n';
+        const encoded = btoa(unescape(encodeURIComponent(bodyJson)));
+        const put = await fetch(apiBase, {
+          method: 'PUT',
+          headers,
+          body: JSON.stringify({
+            message: payload.message || `admin: publish ${relPath}`,
+            content: encoded,
+            branch,
+            ...(sha ? { sha } : {}),
+          }),
+        });
+        if (!put.ok) {
+          const errText = await put.text();
+          return Response.json(
+            { ok: false, error: 'github_write_failed', status: put.status, detail: errText.slice(0, 400) },
+            { status: 502 },
+          );
+        }
+        const result = (await put.json()) as { content?: { html_url?: string }; commit?: { html_url?: string } };
+        return Response.json({
+          ok: true,
+          path: relPath,
+          branch,
+          url: result.content?.html_url || result.commit?.html_url || null,
+        });
       }
       return Response.json({ ok: false, error: 'not_found' }, { status: 404 });
     }

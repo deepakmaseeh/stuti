@@ -35,4 +35,16 @@ export const site = {
   },
   analyticsToken: import.meta.env.PUBLIC_CF_ANALYTICS_TOKEN ?? '',
   contactEmail: '',
+  /** App maker credit (guide / about / settings). */
+  maker: {
+    name: 'Excel Tech Solutions',
+    blurb: 'Premium B2B IT services — web design, apps, and digital growth from Lucknow.',
+    url: 'https://exceltechsolutions.com/',
+    host: 'exceltechsolutions.com',
+    mapsUrl: 'https://share.google/jJqkgsKiRU1oVhj86',
+    email: 'Ewtechsolutions@gmail.com',
+    phones: ['+919956999832', '+916394981679'] as const,
+    phoneLabels: ['+91 99569 99832', '+91 63949 81679'] as const,
+    address: '635/200 Hardasi Khera, Chinhat, Lucknow 226028',
+  },
 } as const;

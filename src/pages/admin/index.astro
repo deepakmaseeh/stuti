@@ -1,21 +1,24 @@
 ---
 /**
- * CMS shell for `astro dev` and the static build.
- * Scripts must be `is:inline` so Astro/Vite do not rewrite them into broken modules.
- * `public/admin/index.html` stays as the plain static copy for hosts that serve public/ as-is.
+ * v3 Admin (Part E). Requires Cloudflare Access OTP for /api/admin/*.
+ * Legacy Decap remains at /admin/cms/.
  */
+import Base from '../../layouts/Base.astro';
+import AdminApp from '../../components/islands/AdminApp';
+import { getBookEntries, getBooks, getSongs } from '../../lib/content';
+import { site } from '../../site.config';
+
+const booksRaw = await getBooks();
+const books = await Promise.all(
+  booksRaw.map(async (b) => {
+    const entries = await getBookEntries(b.id);
+    const maxNo = entries.reduce((m, e) => Math.max(m, e.number), 0);
+    return { id: b.id, en: b.name.en, count: entries.length, maxNo };
+  }),
+);
+const totalSongs = (await getSongs()).length;
 ---
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="noindex" />
-    <title>Stuti Admin</title>
-  </head>
-  <body>
-    <!-- Exact version on purpose (no ranges). Bump deliberately and re-test /admin/. -->
-    <script is:inline src="https://unpkg.com/decap-cms@3.18.0/dist/decap-cms.js"></script>
-    <script is:inline src="/admin/preview.js"></script>
-  </body>
-</html>
+
+<Base title={`Admin | ${site.name}`} noindex>
+  <AdminApp client:load books={books} totalSongs={totalSongs} />
+</Base>

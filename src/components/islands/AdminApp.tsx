@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'preact/hooks';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import {
   BookOpen,
   Check,
@@ -17,7 +17,115 @@ import {
   Users,
   X,
 } from 'lucide-preact';
-import { splitPastedSong } from '../../lib/paste-split';
+import { splitPastedSong, type SplitStanza } from '../../lib/paste-split';
+
+const DRAFT_KEY = 'stuti-admin-draft-v1';
+const FIXED_KEY = 'stuti-admin-fixed-ids';
+
+const BOOK_LANG: Record<string, 'hi' | 'en' | 'ta' | 'te' | 'pa'> = {
+  TLBC: 'hi',
+  TLBE: 'en',
+  XMAS: 'hi',
+  SS: 'en',
+};
+
+function slugFromTitle(title: string, no: string): string {
+  const ascii = title
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 48);
+  if (ascii.length >= 2) return ascii;
+  return `n-${String(no).replace(/[^0-9a-z-]/gi, '') || 'song'}`;
+}
+
+function today(): string {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function buildSongJson(opts: {
+  bookId: string;
+  no: string;
+  title: string;
+  rights: 'public_domain' | 'licensed' | 'permission_pending' | 'unknown';
+  topics: string;
+  ytUrl: string;
+  stanzas: SplitStanza[];
+  publish: boolean;
+}) {
+  const lang = BOOK_LANG[opts.bookId] ?? 'hi';
+  const slug = slugFromTitle(opts.title, opts.no);
+  const rightsStatus =
+    opts.rights === 'unknown' ? 'permission_pending' : opts.rights;
+  return {
+    lang,
+    slug,
+    path: `src/content/songs/${lang}/${slug}.json`,
+    song: {
+      slug,
+      numbers: [{ book: opts.bookId, number: opts.no.trim() }],
+      title: { native: opts.title.trim(), roman: '', en: '' },
+      aliases: [],
+      sections: opts.stanzas.map((z) => ({
+        type: z.type,
+        label: z.label,
+        lines: z.lines.map((l) => ({
+          n: l.n,
+          r: '',
+          e: '',
+          ...(l.x ? { x: l.x } : {}),
+        })),
+      })),
+      display: { chorusAfterEachVerse: false },
+      author: { name: 'Unknown', born: null, died: null },
+      composer: null,
+      tune: null,
+      year: null,
+      bibleRefs: [],
+      tags: opts.topics
+        .split(/[,;]/)
+        .map((t) => t.trim())
+        .filter(Boolean),
+      rights: {
+        status: rightsStatus,
+        basis: '',
+        evidence: '',
+        holder: '',
+        checkedBy: '',
+        checkedOn: '',
+      },
+      layers: { roman: 'missing', en: 'missing' },
+      source: { scan: 'admin-paste', page: null },
+      chords: null,
+      media: {
+        youtube: opts.ytUrl.trim() || null,
+      },
+      updated: today(),
+      publish: opts.publish && rightsStatus !== 'permission_pending',
+    },
+  };
+}
+
+function downloadJson(filename: string, data: unknown) {
+  const blob = new Blob([JSON.stringify(data, null, 2) + '\n'], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function readFixedIds(): Set<string> {
+  try {
+    const raw = localStorage.getItem(FIXED_KEY);
+    const arr = raw ? (JSON.parse(raw) as string[]) : [];
+    return new Set(Array.isArray(arr) ? arr : []);
+  } catch {
+    return new Set();
+  }
+}
 
 type BookStat = { id: string; en: string; count: number; maxNo: number };
 type View = 'dash' | 'songs' | 'add' | 'reports' | 'books' | 'media' | 'users' | 'site';
@@ -81,6 +189,36 @@ export default function AdminApp({
   const [reports, setReports] = useState<SheetReport[]>([]);
   const [sheetUrl, setSheetUrl] = useState<string | null>(null);
   const [reportsNote, setReportsNote] = useState<string | null>(null);
+  const [fixedIds, setFixedIds] = useState<Set<string>>(() =>
+    typeof localStorage !== 'undefined' ? readFixedIds() : new Set(),
+  );
+  const [busy, setBusy] = useState(false);
+  const csvRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(DRAFT_KEY);
+      if (!raw) return;
+      const d = JSON.parse(raw) as {
+        text?: string;
+        bookId?: string;
+        no?: string;
+        title?: string;
+        rights?: typeof rights;
+        topics?: string;
+        ytUrl?: string;
+      };
+      if (d.text) setText(d.text);
+      if (d.bookId) setBookId(d.bookId);
+      if (d.no) setNo(d.no);
+      if (d.title) setTitle(d.title);
+      if (d.rights) setRights(d.rights);
+      if (d.topics) setTopics(d.topics);
+      if (d.ytUrl) setYtUrl(d.ytUrl);
+    } catch {
+      /* ignore bad draft */
+    }
+  }, []);
 
   useEffect(() => {
     fetch('/api/admin/me')
@@ -122,6 +260,114 @@ export default function AdminApp({
   ];
   const canPublish = checks.every((c) => c[0]);
   const maxBookCount = Math.max(1, ...books.map((b) => b.count));
+
+  const visibleReports = useMemo(
+    () =>
+      reports.map((r) =>
+        r.id && fixedIds.has(r.id) ? { ...r, status: 'Fixed' } : r,
+      ),
+    [reports, fixedIds],
+  );
+
+  const saveDraft = () => {
+    const payload = {
+      text,
+      bookId,
+      no,
+      title,
+      rights,
+      topics,
+      ytUrl,
+      savedAt: new Date().toISOString(),
+    };
+    localStorage.setItem(DRAFT_KEY, JSON.stringify(payload));
+    const built = buildSongJson({
+      bookId,
+      no,
+      title,
+      rights,
+      topics,
+      ytUrl,
+      stanzas,
+      publish: false,
+    });
+    downloadJson(`${built.slug}.draft.json`, built.song);
+    setToast('Draft saved in this browser and downloaded as JSON');
+  };
+
+  const publishSong = async () => {
+    if (!canPublish || busy) return;
+    setBusy(true);
+    const built = buildSongJson({
+      bookId,
+      no,
+      title,
+      rights,
+      topics,
+      ytUrl,
+      stanzas,
+      publish: true,
+    });
+    try {
+      const res = await fetch('/api/admin/publish', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({
+          path: built.path,
+          content: built.song,
+          message: `admin: add ${built.lang}/${built.slug} (${bookId} ${no})`,
+        }),
+      });
+      const data = (await res.json()) as {
+        ok?: boolean;
+        error?: string;
+        hint?: string;
+        url?: string | null;
+        branch?: string;
+      };
+      if (res.status === 403) {
+        setToast('Sign in via Cloudflare Access to publish');
+      } else if (res.status === 503 || data.error === 'github_token_missing') {
+        downloadJson(`${built.slug}.json`, built.song);
+        setToast(
+          'GITHUB_TOKEN not set on Worker — JSON downloaded. Run: npx wrangler secret put GITHUB_TOKEN',
+        );
+      } else if (!res.ok || !data.ok) {
+        downloadJson(`${built.slug}.json`, built.song);
+        setToast(`Publish failed (${data.error || res.status}) — JSON downloaded as fallback`);
+      } else {
+        localStorage.removeItem(DRAFT_KEY);
+        setToast(
+          `Published to GitHub (${data.branch || 'main'}). Redeploy the Worker to go live.${data.url ? ` ${data.url}` : ''}`,
+        );
+      }
+    } catch {
+      downloadJson(`${built.slug}.json`, built.song);
+      setToast('Network error — JSON downloaded');
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  const markFixed = (id: string) => {
+    if (!id) return;
+    const next = new Set(fixedIds);
+    next.add(id);
+    setFixedIds(next);
+    localStorage.setItem(FIXED_KEY, JSON.stringify([...next]));
+    setToast(
+      sheetUrl
+        ? 'Marked Fixed here. Also set Status=Fixed in the Google Sheet.'
+        : 'Marked Fixed in this browser. Set Status=Fixed in the Sheet when you open it.',
+    );
+  };
+
+  const onCsvPicked = async (file: File | undefined) => {
+    if (!file) return;
+    const textCsv = await file.text();
+    const lines = textCsv.split(/\r?\n/).filter((l) => l.trim());
+    setToast(`CSV loaded (${Math.max(0, lines.length - 1)} data rows). Paste rows into Add song one-by-one for now.`);
+  };
 
   const checkYoutube = async () => {
     if (!ytUrl.trim()) return;
@@ -195,7 +441,18 @@ export default function AdminApp({
           <>
             <div class="ahead">
               <h1>Dashboard</h1>
-              <button type="button" class="abtn" onClick={() => setToast('CSV import ready after Cloudflare Access setup')}>
+              <input
+                ref={csvRef}
+                type="file"
+                accept=".csv,text/csv"
+                class="visually-hidden"
+                onChange={(e) => {
+                  const f = e.currentTarget.files?.[0];
+                  void onCsvPicked(f);
+                  e.currentTarget.value = '';
+                }}
+              />
+              <button type="button" class="abtn" onClick={() => csvRef.current?.click()}>
                 <Upload size={17} strokeWidth={1.75} aria-hidden="true" />
                 Import CSV
               </button>
@@ -256,7 +513,7 @@ export default function AdminApp({
 
               <section class="adm-card" style={{ gridColumn: '1 / -1' }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
-                  <h3 style={{ margin: 0 }}>New reports ({reports.length})</h3>
+                  <h3 style={{ margin: 0 }}>New reports ({visibleReports.length})</h3>
                   <div style={{ display: 'flex', gap: 10 }}>
                     {sheetUrl ? (
                       <a class="link-v3" href={sheetUrl} target="_blank" rel="noopener noreferrer">
@@ -268,8 +525,8 @@ export default function AdminApp({
                     </button>
                   </div>
                 </div>
-                {reports.length > 0 ? (
-                  reports.slice(0, 5).map((r, i) => (
+                {visibleReports.length > 0 ? (
+                  visibleReports.slice(0, 5).map((r, i) => (
                     <div class="att" key={r.id || i}>
                       <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 68 }}>
                         {r.book} {r.no}
@@ -299,15 +556,15 @@ export default function AdminApp({
             <div class="ahead">
               <h1>Add song</h1>
               <span class="pillx wait">Draft</span>
-              <button type="button" class="abtn" onClick={() => setToast('Draft saved locally')}>
+              <button type="button" class="abtn" disabled={busy} onClick={saveDraft}>
                 <Save size={17} strokeWidth={1.75} aria-hidden="true" />
                 Save draft
               </button>
               <button
                 type="button"
                 class="abtn pri"
-                disabled={!canPublish}
-                onClick={() => setToast('Publish connects to GitHub after Cloudflare Access setup')}
+                disabled={!canPublish || busy}
+                onClick={() => void publishSong()}
               >
                 Publish
               </button>
@@ -436,8 +693,8 @@ export default function AdminApp({
               ) : null}
             </div>
             <div class="adm-card">
-              {reports.length > 0 ? (
-                reports.map((r, i) => (
+              {visibleReports.length > 0 ? (
+                visibleReports.map((r, i) => (
                   <div class="att" key={r.id || i} style={{ flexWrap: 'wrap' }}>
                     <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 72 }}>
                       {r.book} {r.no}
@@ -455,6 +712,11 @@ export default function AdminApp({
                       ) : null}
                     </div>
                     <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
+                    {r.id && r.status !== 'Fixed' ? (
+                      <button type="button" class="abtn" style={{ padding: '6px 10px' }} onClick={() => markFixed(r.id)}>
+                        Mark fixed
+                      </button>
+                    ) : null}
                   </div>
                 ))
               ) : (
@@ -468,7 +730,8 @@ export default function AdminApp({
           <div class="adm-card">
             <h2 style={{ marginTop: 0 }}>{NAV.find((n) => n[0] === view)?.[1]}</h2>
             <p class="muted">
-              Connect Cloudflare Access One-time PIN + GitHub token on the Worker to manage {view} live.
+              This section is a placeholder. Use Add song, Reports, and Dashboard for live tools. Decap CMS remains at{' '}
+              <a href="/admin/cms/">/admin/cms/</a>.
             </p>
             <button type="button" class="abtn" onClick={() => setView('dash')}>
               <X size={16} strokeWidth={1.75} aria-hidden="true" />
