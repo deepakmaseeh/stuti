@@ -2,6 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import {
   AArrowDown,
   AArrowUp,
+  CirclePlay,
   FileText,
   ListChecks,
   ListPlus,
@@ -9,6 +10,8 @@ import {
   Share2,
   Sun,
 } from 'lucide-preact';
+import { FLAGS } from '../../config/flags';
+import type { MediaItem } from '../../lib/schema';
 import { t } from '../../i18n';
 import { shareLink } from '../../lib/share';
 import {
@@ -37,6 +40,7 @@ import { isAwake, onWakeChange, setKeepAwake, wakeLockSupported } from '../../li
 import type { BookBundle } from '../../lib/book-bundle';
 import { downloadPptx } from '../../lib/pptx-export';
 import Sheet from './Sheet';
+import VideoSheet from './VideoSheet';
 
 type LayerState = 'missing' | 'draft' | 'reviewed';
 type LayerKey = 'n' | 'r' | 'e';
@@ -49,6 +53,7 @@ export type SongToolbarProps = {
   layers: { r: LayerState; e: LayerState };
   share: { title: string; text: string; url: string };
   books: string[];
+  videos?: MediaItem[];
 };
 
 function applyHtml(prefs: Prefs) {
@@ -66,6 +71,7 @@ export default function SongToolbar({
   layers,
   share,
   books,
+  videos = [],
 }: SongToolbarProps) {
   const [prefs, setPrefs] = useState<Prefs>(DEFAULT_PREFS);
   const [awake, setAwake] = useState(false);
@@ -73,6 +79,7 @@ export default function SongToolbar({
   const [inSet, setInSet] = useState(false);
   const [activeSet, setActiveSet] = useState<WorshipSet | undefined>();
   const [pickOpen, setPickOpen] = useState(false);
+  const [videoOpen, setVideoOpen] = useState(false);
   const [ready, setReady] = useState(false);
 
   const available: LayerKey[] = [
@@ -297,6 +304,34 @@ export default function SongToolbar({
         >
           <Share2 size={22} strokeWidth={1.75} aria-hidden="true" />
         </button>
+        {FLAGS.videos ? (
+          videos.length > 0 ? (
+            <button
+              type="button"
+              class="tool tool--icon"
+              style={{ position: 'relative' }}
+              aria-label={`${videos.length} videos`}
+              title="Videos"
+              data-guide="video"
+              onClick={() => setVideoOpen(true)}
+            >
+              <CirclePlay size={22} strokeWidth={1.75} aria-hidden="true" />
+              <span class="cnt">{videos.length}</span>
+            </button>
+          ) : (
+            <button
+              type="button"
+              class="tool tool--icon"
+              disabled
+              aria-disabled="true"
+              aria-label="No video yet"
+              title="No video yet"
+              style={{ opacity: 0.3, cursor: 'not-allowed' }}
+            >
+              <CirclePlay size={22} strokeWidth={1.75} aria-hidden="true" />
+            </button>
+          )
+        ) : null}
         <button
           type="button"
           class="tool tool--icon"
@@ -346,6 +381,15 @@ export default function SongToolbar({
           {t('song.newSetForAdd')}
         </button>
       </Sheet>
+
+      {FLAGS.videos ? (
+        <VideoSheet
+          open={videoOpen}
+          onClose={() => setVideoOpen(false)}
+          videos={videos}
+          songTitle={snapshot.title}
+        />
+      ) : null}
     </div>
   );
 }

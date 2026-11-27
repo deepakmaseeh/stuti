@@ -48,6 +48,16 @@ export const RIGHTS_STATUSES = [
 const optInt = z.preprocess((v) => (v === '' ? null : v), z.number().int().nullable()).default(null);
 
 // Song id and language are NOT in the JSON: they come from the file path (spec §5.3).
+export const MediaItemSchema = z.object({
+  youtubeId: z.string().regex(/^[\w-]{11}$/),
+  start: z.number().int().min(0).default(0),
+  kind: z.enum(['lyric', 'tune', 'live', 'performance', 'tutorial']).default('lyric'),
+  title: z.string().default('Video'),
+  status: z.enum(['ok', 'broken']).default('ok'),
+  checkedAt: z.string().optional(),
+});
+export type MediaItem = z.infer<typeof MediaItemSchema>;
+
 export const SongSchema = z.object({
   slug: z.string().regex(SLUG_RE).optional(),
   numbers: z.array(z.object({ book: z.string(), number: z.string().regex(/^[0-9A-Za-z-]{1,8}$/) })).min(1),
@@ -82,7 +92,9 @@ export const SongSchema = z.object({
   layers: z.object({ roman: LayerState.default('missing'), en: LayerState.default('missing') }).default({}),
   source: z.object({ scan: z.string().default(''), page: optInt }).default({}),
   chords: z.string().nullable().default(null),
-  media: z.object({ youtube: z.string().nullable().default(null) }).default({}),
+  media: z
+    .union([z.object({ youtube: z.string().nullable().default(null) }), z.array(MediaItemSchema)])
+    .default({ youtube: null }),
   updated: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   publish: z.boolean().default(false),
 });

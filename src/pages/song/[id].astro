@@ -53,6 +53,11 @@ const jsonLd = {
 
 const snapshot = { id: song.id, title: song.title.native, lang: song.lang, badge: badgeText(primary) };
 const numbersData = JSON.stringify(song.numbers);
+const videos = Array.isArray(song.media)
+  ? song.media.filter((m) => m.status !== 'broken')
+  : song.media?.youtube
+    ? [{ youtubeId: song.media.youtube, start: 0, kind: 'lyric' as const, title: song.title.native, status: 'ok' as const }]
+    : [];
 ---
 
 <AppShell
@@ -145,6 +150,7 @@ const numbersData = JSON.stringify(song.numbers);
       layers={{ r: isEn ? 'missing' : song.layers.roman, e: isEn ? 'missing' : song.layers.en }}
       share={{ title: song.title.native, text: lines[0]?.n ?? '', url }}
       books={song.numbers.map((n) => n.book)}
+      videos={videos}
     />
 
     <div class:list={['lyrics', { 'is-en': isEn, 'has-r': showR, 'has-e': showE }]}>
