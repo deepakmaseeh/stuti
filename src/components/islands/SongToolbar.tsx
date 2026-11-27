@@ -130,6 +130,7 @@ export default function SongToolbar({
       offWake();
       offSets();
       removeEventListener('scroll', onScroll);
+      document.body.classList.remove('nav-hidden');
     };
   }, [snapshot.id]);
 

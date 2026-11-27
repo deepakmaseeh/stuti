@@ -79,8 +79,14 @@ const analyticsToken = /^[a-f0-9]{32}$/i.test(site.analyticsToken) ? site.analyt
           document.addEventListener('astro:before-swap', (e) => {
             apply(e.newDocument.documentElement);
           });
-          document.addEventListener('astro:after-swap', () => apply());
-          document.addEventListener('astro:page-load', () => apply());
+          document.addEventListener('astro:after-swap', () => {
+            apply();
+            document.body.classList.remove('nav-hidden', 'modal-open');
+          });
+          document.addEventListener('astro:page-load', () => {
+            apply();
+            document.body.classList.remove('nav-hidden', 'modal-open');
+          });
           addEventListener('storage', (e) => {
             if (e.key === KEY) apply();
           });

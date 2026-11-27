@@ -330,11 +330,10 @@ export default function LetterBrowser({ books = [], onSelect }: Props) {
                     class="key"
                     disabled={n === 0}
                     aria-disabled={n === 0}
-                    aria-label={`${L}, ${n} songs`}
+                    aria-label={L}
                     onClick={() => pickLetter(L)}
                   >
                     {L}
-                    {n > 0 ? <small>{n}</small> : null}
                   </button>
                 );
               })}

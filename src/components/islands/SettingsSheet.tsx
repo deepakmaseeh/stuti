@@ -268,11 +268,11 @@ export default function SettingsSheet({ books }: Props) {
             <span class="lbl">Offline</span>
             <a
               href="/downloads/"
-              class="setrow"
-              style={{ textDecoration: 'none', color: 'inherit' }}
+              class="btn-v3 sec"
+              style={{ width: '100%', justifyContent: 'space-between' }}
               onClick={() => setOpen(false)}
             >
-              <span style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+              <span style={{ display: 'inline-flex', gap: 8, alignItems: 'center' }}>
                 <Download size={18} strokeWidth={1.75} aria-hidden="true" />
                 {savedCount} of {books.length} books saved
               </span>
@@ -305,15 +305,15 @@ export default function SettingsSheet({ books }: Props) {
             About &amp; Guide
           </a>
 
-          {/* 7. Editor sign-in (Part D, hidden when FLAGS.admin is false) */}
+          {/* 7. Editor sign-in */}
           {FLAGS.admin && (
             <a
               href="/admin/"
-              class="link-v3"
-              style={{ margin: '16px auto 0', justifyContent: 'center', width: '100%' }}
+              class="btn-v3 pri"
+              style={{ width: '100%', marginTop: 10, justifyContent: 'center' }}
               onClick={() => setOpen(false)}
             >
-              <LogIn size={16} strokeWidth={1.75} aria-hidden="true" />
+              <LogIn size={18} strokeWidth={1.75} aria-hidden="true" />
               {signedIn ? 'Open admin' : 'Editor sign-in'}
             </a>
           )}

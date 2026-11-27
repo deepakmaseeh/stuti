@@ -124,12 +124,17 @@ export default function HomeLists() {
           </div>
         </section>
       ) : (
-        <div style={{ marginBottom: 12 }}>
-          <a class="btn-v3 ghost" href="/sets/">
-            <Plus size={18} strokeWidth={1.75} aria-hidden="true" />
-            Plan this Sunday
-          </a>
-        </div>
+        <section class="sunday sunday--empty" aria-label="Plan this Sunday">
+          <div class="d">This Sunday</div>
+          <h3>No set planned yet</h3>
+          <div class="first">Build the Order of Service for worship.</div>
+          <div class="acts">
+            <a class="btn-v3 w" href="/sets/" data-astro-reload>
+              <Plus size={18} strokeWidth={1.75} aria-hidden="true" />
+              Plan this Sunday
+            </a>
+          </div>
+        </section>
       )}
 
       {showYourSongs ? (
