@@ -29,6 +29,8 @@ export default function SearchTabs({ books }: { books: BookChip[] }) {
           if (id) location.replace(`${songUrl(id)}?from=${book.toLowerCase()}`);
         })
         .catch(() => {});
+    } else if (p.has('q') || p.has('tab')) {
+      history.replaceState(null, '', `/search/${location.hash}`);
     }
   }, []);
 

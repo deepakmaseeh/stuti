@@ -18,7 +18,8 @@ const { book } = Astro.props as { book: Book };
 const entries = await getBookEntries(book.id);
 const maxNo = entries.reduce((m, e) => Math.max(m, e.number), 0);
 const jumps: number[] = [];
-for (let n = 1; n <= maxNo; n += 50) jumps.push(n);
+if (maxNo >= 1) jumps.push(1);
+for (let n = 50; n <= maxNo; n += 50) jumps.push(n);
 
 /** Nearest entry at or after each jump target, for sticky chip anchors. */
 const jumpTargets = new Map<number, number>();
@@ -33,12 +34,14 @@ for (const j of jumps) {
   description={`${book.name.native} · ${book.name.en}: ${t('books.count', { n: entries.length })}, numbered like the printed book.`}
   active="home"
 >
+  <a class="link-v3" href="/" style="margin-bottom: 6px;">
+    ← Home
+  </a>
   <h1 class="page-title" lang={LANG_TAG.n[book.lang]}>
     {book.name.native}
   </h1>
   <p class="page-sub">
-    {book.name.en} · {LANG_LABEL[book.lang]}
-    {book.edition && ` · ${book.edition}`} · {t('books.count', { n: entries.length })}
+    {LANG_LABEL[book.lang]} · {t('books.count', { n: entries.length })} · in hymn-number order
   </p>
   <BookDownloadButton client:idle bookId={book.id} lang={book.lang} />
 

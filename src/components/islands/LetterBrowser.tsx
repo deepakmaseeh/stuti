@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'preact/hooks';
-import { ChevronLeft, X } from 'lucide-preact';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { ChevronDown, ChevronLeft, X } from 'lucide-preact';
 import { t } from '../../i18n';
 import type { BrowseIndex } from '../../lib/browse';
 import { LANG_NATIVE } from '../../lib/scripts';
@@ -37,17 +37,51 @@ type Props = {
   pickMode?: boolean;
 };
 
+function readHash(): Session {
+  try {
+    if (typeof location === 'undefined' || !location.hash) return {};
+    const p = new URLSearchParams(location.hash.slice(1));
+    const lang = p.get('lang');
+    const l = p.get('l');
+    const book = p.get('book');
+    const topic = p.get('topic');
+    return {
+      lang: lang === 'hi' || lang === 'en' ? lang : undefined,
+      letter: l || undefined,
+      book: book || undefined,
+      topic: topic || undefined,
+    };
+  } catch {
+    return {};
+  }
+}
+
 /** Tap language → letter grid → songs. No text box (MASTER §6). */
 export default function LetterBrowser({ books = [], onSelect }: Props) {
+  const fromHash = !onSelect ? readHash() : {};
   const saved = typeof sessionStorage !== 'undefined' ? readSession() : {};
-  const [lang, setLang] = useState<Script | null>(saved.lang ?? null);
-  const [letter, setLetter] = useState<string | null>(saved.letter ?? null);
-  const [book, setBook] = useState(saved.book ?? 'all');
-  const [topic, setTopic] = useState(saved.topic ?? 'all');
+  const [lang, setLang] = useState<Script | null>(fromHash.lang ?? saved.lang ?? null);
+  const [letter, setLetter] = useState<string | null>(fromHash.letter ?? saved.letter ?? null);
+  const [book, setBook] = useState(fromHash.book ?? saved.book ?? 'all');
+  const [topic, setTopic] = useState(fromHash.topic ?? saved.topic ?? 'all');
   const [browse, setBrowse] = useState<BrowseIndex | null>(null);
   const [topicMap, setTopicMap] = useState<Record<string, string[]>>({});
   const [meta, setMeta] = useState<Record<string, MetaRow> | null>(null);
   const [loadError, setLoadError] = useState(false);
+  const gridScrollRef = useRef(0);
+
+  useEffect(() => {
+    if (onSelect) return;
+    const onHash = () => {
+      const h = readHash();
+      if (h.lang !== undefined) setLang(h.lang);
+      setLetter(h.letter ?? null);
+      if (h.book !== undefined) setBook(h.book);
+      if (h.topic !== undefined) setTopic(h.topic);
+    };
+    addEventListener('hashchange', onHash);
+    return () => removeEventListener('hashchange', onHash);
+  }, [onSelect]);
 
   useEffect(() => {
     loadMeta()
@@ -108,7 +142,18 @@ export default function LetterBrowser({ books = [], onSelect }: Props) {
       book,
       topic,
     });
-  }, [lang, letter, book, topic]);
+    if (!onSelect && typeof history !== 'undefined') {
+      const p = new URLSearchParams();
+      if (lang) p.set('lang', lang);
+      if (book !== 'all') p.set('book', book);
+      if (topic !== 'all') p.set('topic', topic);
+      if (letter) p.set('l', letter);
+      const nextHash = p.toString() ? `#${p.toString()}` : '';
+      if (location.hash !== nextHash) {
+        history.replaceState(null, '', `${location.pathname}${location.search}${nextHash}`);
+      }
+    }
+  }, [lang, letter, book, topic, onSelect]);
 
   const topics = useMemo(() => {
     const available = new Set(Object.keys(topicMap));
@@ -189,8 +234,14 @@ export default function LetterBrowser({ books = [], onSelect }: Props) {
   const pickLetter = (L: string) => {
     if (!lang) return;
     if ((letterCounts[L] ?? 0) === 0) return;
+    gridScrollRef.current = window.scrollY;
     setLetter(L);
     pushRecentLetter(lang, L);
+  };
+
+  const backToLetters = () => {
+    setLetter(null);
+    requestAnimationFrame(() => window.scrollTo(0, gridScrollRef.current));
   };
 
   const clearFilters = () => {
@@ -202,115 +253,111 @@ export default function LetterBrowser({ books = [], onSelect }: Props) {
 
   return (
     <div class="letter-browser" data-feature="language">
-      <h2 class="letter-browser__title">{t('search.title')}</h2>
+      {!letter ? (
+        <>
+          <h2 class="letter-browser__title">Find a song</h2>
 
-      <div class="letter-browser__langs" role="group" aria-label={t('desktop.browse')}>
-        {site.languages.map((l) => (
-          <button
-            type="button"
-            key={l}
-            class={lang === l ? 'letter-browser__lang is-on' : 'letter-browser__lang'}
-            aria-pressed={lang === l}
-            onClick={() => pickLang(l)}
-          >
-            {LANG_NATIVE[l]}
-          </button>
-        ))}
-      </div>
-
-      <div class="letter-browser__filters grid-2">
-        <label class="field">
-          <span class="visually-hidden">Book</span>
-          <select
-            value={book}
-            onChange={(e) => onBookChange(e.currentTarget.value)}
-            aria-label="Book"
-          >
-            <option value="all">Book: All</option>
-            {(lang ? bookOptions : books).map((b) => (
-              <option key={b.id} value={b.id}>
-                Book: {b.id}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label class="field">
-          <span class="visually-hidden">Topic</span>
-          <select
-            value={topic}
-            onChange={(e) => {
-              setTopic(e.currentTarget.value);
-              setLetter(null);
-            }}
-            aria-label="Topic"
-          >
-            <option value="all">Topic: All</option>
-            {topics.map((name) => (
-              <option key={name} value={name}>
-                Topic:{' '}
-                {name === 'Sunday-school'
-                  ? t('search.topicSundaySchool')
-                  : name === 'Christmas'
-                    ? t('search.topicChristmas')
-                    : name}
-              </option>
-            ))}
-          </select>
-        </label>
-      </div>
-      {filtersOn ? (
-        <button type="button" class="chip letter-browser__clear" onClick={clearFilters}>
-          <X size={14} strokeWidth={1.75} aria-hidden="true" /> Clear filters
-        </button>
-      ) : null}
-
-      {/* State B: letter grid */}
-      {lang && !letter ? (
-        <div class="letter-browser__grid" role="group" aria-label={t('desktop.firstLetter')}>
-          {(browse?.letters ?? []).map((L) => {
-            const n = letterCounts[L] ?? 0;
-            return (
+          <div class="langs" role="group" aria-label={t('desktop.browse')} data-guide="langs">
+            {site.languages.map((l) => (
               <button
                 type="button"
-                key={L}
-                class="letter-browser__key"
-                disabled={n === 0}
-                aria-disabled={n === 0}
-                onClick={() => pickLetter(L)}
+                key={l}
+                class={`lang${l === 'hi' ? ' hi' : ''}${lang === l ? ' on' : ''}`}
+                aria-pressed={lang === l}
+                onClick={() => pickLang(l)}
               >
-                <span class="letter-browser__glyph">{L}</span>
+                {LANG_NATIVE[l]}
               </button>
-            );
-          })}
-          {!browse && !loadError ? <p class="search-help">{t('search.searching')}</p> : null}
-        </div>
-      ) : null}
+            ))}
+          </div>
 
-      {/* State C: song list */}
-      {lang && letter ? (
-        <div class="letter-browser__results">
-          <div class="letter-browser__mini">
-            <button
-              type="button"
-              class="icon-btn"
-              aria-label="Back to letters"
-              onClick={() => setLetter(null)}
-            >
-              <ChevronLeft size={20} strokeWidth={1.75} aria-hidden="true" />
+          <div class="filters">
+            <label class="v3-sel">
+              <span class="visually-hidden">Book</span>
+              <select
+                value={book}
+                onChange={(e) => onBookChange(e.currentTarget.value)}
+                aria-label="Book"
+              >
+                <option value="all">Book: All</option>
+                {(lang ? bookOptions : books).map((b) => (
+                  <option key={b.id} value={b.id}>
+                    Book: {b.id}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown size={18} strokeWidth={1.75} aria-hidden="true" />
+            </label>
+            <label class="v3-sel">
+              <span class="visually-hidden">Topic</span>
+              <select
+                value={topic}
+                onChange={(e) => {
+                  setTopic(e.currentTarget.value);
+                  setLetter(null);
+                }}
+                aria-label="Topic"
+              >
+                <option value="all">Topic: All</option>
+                {topics.map((name) => (
+                  <option key={name} value={name}>
+                    Topic:{' '}
+                    {name === 'Sunday-school'
+                      ? t('search.topicSundaySchool')
+                      : name === 'Christmas'
+                        ? t('search.topicChristmas')
+                        : name}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown size={18} strokeWidth={1.75} aria-hidden="true" />
+            </label>
+          </div>
+          {filtersOn ? (
+            <button type="button" class="chip letter-browser__clear" style={{ marginTop: 8 }} onClick={clearFilters}>
+              <X size={14} strokeWidth={1.75} aria-hidden="true" /> Clear filters
             </button>
-            <span class="letter-browser__crumb">
-              {LANG_NATIVE[lang]} › {letter} ·{' '}
-              {hits.length === 1
-                ? t('desktop.songCount.one')
-                : t('desktop.songCount', { n: hits.length })}
+          ) : null}
+
+          {lang ? (
+            <div class="letters" role="group" aria-label={t('desktop.firstLetter')} data-guide="letters">
+              {(browse?.letters ?? []).map((L) => {
+                const n = letterCounts[L] ?? 0;
+                return (
+                  <button
+                    type="button"
+                    key={L}
+                    class="key"
+                    disabled={n === 0}
+                    aria-disabled={n === 0}
+                    aria-label={`${L}, ${n} songs`}
+                    onClick={() => pickLetter(L)}
+                  >
+                    {L}
+                    {n > 0 ? <small>{n}</small> : null}
+                  </button>
+                );
+              })}
+              {!browse && !loadError ? <p class="search-help">{t('search.searching')}</p> : null}
+            </div>
+          ) : (
+            <p class="empty-hint">Pick a language to see its letters.</p>
+          )}
+        </>
+      ) : (
+        <div class="letter-browser__results">
+          <div class="crumb">
+            <button type="button" class="ib ink" aria-label="Back to letters" onClick={backToLetters}>
+              <ChevronLeft size={22} strokeWidth={1.75} aria-hidden="true" />
+            </button>
+            <span>
+              {LANG_NATIVE[lang]} › <span class="hi" style={{ fontSize: 20 }}>{letter}</span>{' '}
+              <span class="muted" style={{ fontWeight: 500 }}>
+                · {hits.length === 1 ? t('desktop.songCount.one') : t('desktop.songCount', { n: hits.length })}
+              </span>
             </span>
-            <button
-              type="button"
-              class="icon-btn"
-              aria-label="Close"
-              onClick={() => setLetter(null)}
-            >
-              <X size={18} strokeWidth={1.75} aria-hidden="true" />
+            <button type="button" class="ib ink x" aria-label="Close" onClick={backToLetters}>
+              <X size={20} strokeWidth={1.75} aria-hidden="true" />
             </button>
           </div>
           <div class="browse-list">
@@ -319,7 +366,7 @@ export default function LetterBrowser({ books = [], onSelect }: Props) {
             ))}
           </div>
         </div>
-      ) : null}
+      )}
 
       {loadError ? <p class="notice">{t('search.loadError')}</p> : null}
     </div>

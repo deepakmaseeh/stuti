@@ -3,7 +3,7 @@
  * Keep admin off until Cloudflare Access is configured and verified.
  */
 export const FLAGS = {
-  newSearch: false, // letter-grid search (Phase 2)
+  newSearch: true, // letter-grid search (Phase 2)
   newSetEditor: false, // compact editor (Phase 4)
   shareSheet: false, // icon share sheet (Phase 4)
   videos: false, // video button + sheet (Phase 5)

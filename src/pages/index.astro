@@ -26,30 +26,69 @@ const books = await Promise.all(
   <FirstVisitTour client:idle />
   <InstallPrompt client:idle />
 
-  <section class="home-books" aria-labelledby="books-title">
-    <div class="home-books__head">
-      <h2 class="group-title" id="books-title">
+  <section class="home-books" aria-labelledby="books-title" data-guide="books">
+    <div class="sechead">
+      <h2 id="books-title">
         {t('home.books')}
       </h2>
-      <a class="home-books__offline" href="/downloads/" data-feature="offline">{t('nav.offline')}</a>
+      <a class="link-v3" href="/downloads/" data-feature="offline">
+        Save offline
+      </a>
     </div>
-    <div class="home-books__grid">
+    <div>
       {books.map(({ book, count }) => (
-        <a class="book-card" href={`/books/${book.id.toLowerCase()}/`}>
+        <a class="row-v3" href={`/books/${book.id.toLowerCase()}/`} data-book-row={book.id}>
           <NumberBadge
             book={book.lang === 'en' ? 'ENGLISH' : book.lang === 'hi' ? 'HINDI' : LANG_LABEL[book.lang].toUpperCase()}
             number={book.id}
           />
-          <span class="book-card__text">
-            <span class="book-card__title" lang={LANG_TAG.n[book.lang]}>
+          <span class="mid">
+            <span class="t" style="display:block" lang={LANG_TAG.n[book.lang]}>
               {book.name.native}
             </span>
-            <span class="book-card__sub">
+            <span class="s" style="display:block">
               {LANG_LABEL[book.lang]} · {t('books.count', { n: count })}
             </span>
+          </span>
+          <span class="book-dl-status muted" data-book-status={book.id} aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
           </span>
         </a>
       ))}
     </div>
   </section>
+  <script is:inline>
+    (() => {
+      try {
+        const d = JSON.parse(localStorage.getItem('stuti:downloads') || '{}');
+        document.querySelectorAll('[data-book-status]').forEach((el) => {
+          const id = el.getAttribute('data-book-status');
+          if (id && d[id]) {
+            el.style.color = 'var(--ok)';
+            el.setAttribute('aria-label', 'Saved offline');
+            el.innerHTML = '';
+            const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttribute('viewBox', '0 0 24 24');
+            svg.setAttribute('width', '20');
+            svg.setAttribute('height', '20');
+            svg.setAttribute('fill', 'none');
+            svg.setAttribute('stroke', 'currentColor');
+            svg.setAttribute('stroke-width', '2');
+            const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            c.setAttribute('cx', '12');
+            c.setAttribute('cy', '12');
+            c.setAttribute('r', '10');
+            const p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            p.setAttribute('d', 'm9 12 2 2 4-4');
+            svg.append(c, p);
+            el.append(svg);
+          }
+        });
+      } catch {}
+    })();
+  </script>
 </AppShell>

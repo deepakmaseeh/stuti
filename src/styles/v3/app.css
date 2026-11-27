@@ -376,3 +376,215 @@
   min-width: 0;
   max-width: 180px;
 }
+
+/* ---- Phase 2: Home, Search, Book ---- */
+.v3 .sunday {
+  border-radius: 18px;
+  padding: 18px;
+  background: linear-gradient(150deg, var(--ribbon), oklch(0.43 0.16 22));
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.v3 .sunday::after {
+  content: '';
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 14px;
+  height: 52px;
+  background: var(--gold);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 80%, 0 100%);
+  opacity: 0.9;
+}
+.v3 .sunday .d {
+  font: 700 13px var(--font-sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.v3 .sunday h3 {
+  font: 700 22px / 1.2 var(--font-display);
+  margin: 4px 0 8px;
+  color: #fff;
+}
+.v3 .sunday .first {
+  font-size: 15px;
+  opacity: 0.95;
+}
+.v3 .sunday .acts {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+.v3 .sunday .btn-v3.w {
+  background: #fff;
+  color: var(--ribbon);
+}
+.v3 .sunday .btn-v3.o {
+  background: oklch(1 0 0 / 0.16);
+  color: #fff;
+}
+.v3 .btn-v3.ghost {
+  background: transparent;
+  color: var(--ribbon);
+  padding: 0 8px;
+}
+.v3 .sechead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 22px 0 6px;
+}
+.v3 .sechead h2 {
+  font: 700 18px / 1.3 var(--font-display);
+  margin: 0;
+}
+.v3 .segtabs {
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--line);
+}
+.v3 .segtabs button {
+  border: 0;
+  background: none;
+  padding: 10px 4px;
+  margin-right: 14px;
+  font: 600 15px var(--font-sans);
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+.v3 .segtabs button.on {
+  color: var(--ink);
+  border-bottom-color: var(--ribbon);
+}
+.v3 .row-v3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 64px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  width: 100%;
+  background: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+}
+.v3 .row-v3:last-child {
+  border-bottom: 0;
+}
+.v3 .row-v3 .mid {
+  flex: 1;
+  min-width: 0;
+}
+.v3 .row-v3 .t {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.35;
+}
+.v3 .row-v3 .s {
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.v3 .tagc {
+  font: 700 12px var(--font-sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ribbon);
+  background: var(--ribbon-tint);
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin-left: 6px;
+  vertical-align: 2px;
+}
+
+/* Search letter-browser */
+.v3 .langs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.v3 .lang {
+  height: 56px;
+  border-radius: 14px;
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  font: 700 18px var(--font-sans);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.v3 .lang.on {
+  background: var(--leather);
+  border-color: var(--leather);
+  color: var(--gold);
+}
+.v3 .filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.v3 .letters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 6px;
+  margin-top: 18px;
+}
+.v3 .key {
+  height: 44px;
+  border-radius: 10px;
+  border: 0;
+  background: var(--surface2);
+  color: var(--ink);
+  font: 600 20px var(--font-hindi);
+  cursor: pointer;
+  position: relative;
+  transition: background 0.15s, transform 0.1s;
+}
+.v3 .key:hover {
+  background: var(--ribbon-tint);
+}
+.v3 .key:active {
+  transform: scale(0.94);
+}
+.v3 .key:disabled {
+  opacity: 0.28;
+  cursor: default;
+  background: transparent;
+}
+.v3 .key small {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  font: 600 10px var(--font-sans);
+  color: var(--muted);
+}
+.v3 .crumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 48px;
+  margin: -4px 0 4px;
+  font-weight: 600;
+}
+.v3 .crumb .x {
+  margin-left: auto;
+}
+.v3 .empty-hint {
+  margin-top: 28px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 15px;
+}
+

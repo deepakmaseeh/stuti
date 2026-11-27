@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'preact/hooks';
-import { Pencil, Play, Plus } from 'lucide-preact';
+import { Pencil, Play, Plus, Star } from 'lucide-preact';
 import { t } from '../../i18n';
 import type { Hit } from '../../lib/search';
 import {
   getActiveSet,
   hydrateSets,
   listenSetsChanged,
-  serviceLabel,
   songItems,
   type WorshipSet,
 } from '../../lib/sets';
@@ -89,107 +88,113 @@ export default function HomeLists() {
   return (
     <div class="home-lists">
       {active ? (
-        <div class="sunday-card">
-          <span class="sunday-card__label">{t('set.thisSunday')}</span>
-          <div class="sunday-card__title">{active.title}</div>
-          <div class="sunday-card__text">
-            {formatSetDate(active.date)}
-            {active.time ? ` · ${active.time}` : ''} · {serviceLabel(active.service)}
-            {active.leader ? ` · ${active.leader}` : ''}
+        <section class="sunday" data-guide="sunday" aria-label={t('set.thisSunday')}>
+          <div class="d">
+            {formatSetDate(active.date).toUpperCase()}
+            {active.time ? ` · ${active.time}` : ''}
           </div>
-          {first ? <div class="sunday-card__songs">{firstSongLabel(firstBadge || undefined, firstTitle)}</div> : null}
-          <div class="sunday-card__acts">
+          <h3>{active.title}</h3>
+          {first ? (
+            <div class="first">
+              First: <b>{firstBadge || active.title}</b> · <span>{firstTitle}</span>
+            </div>
+          ) : null}
+          <div class="acts">
             {first ? (
               <a
-                class="btn btn--primary"
+                class="btn-v3 w"
                 href={`/song/${first.songId}/?set=${encodeURIComponent(active.id)}&i=0`}
                 data-astro-reload
                 data-feature="present"
               >
-                <Play size={18} strokeWidth={1.75} aria-hidden="true" /> {t('set.startSinging')}
+                <Play size={18} fill="currentColor" strokeWidth={1.75} aria-hidden="true" />
+                {t('set.startSinging')}
               </a>
             ) : null}
-            <a class="btn" href={`/sets/edit/?id=${encodeURIComponent(active.id)}`} aria-label={t('set.edit')}>
+            <a
+              class="btn-v3 o icon"
+              style={{ width: 44, padding: 0 }}
+              href={`/sets/edit/?id=${encodeURIComponent(active.id)}`}
+              aria-label={t('set.edit')}
+            >
               <Pencil size={18} strokeWidth={1.75} aria-hidden="true" />
             </a>
           </div>
-        </div>
+        </section>
       ) : (
-        <a class="sunday-card" href="/sets/">
-          <span class="sunday-card__label">{t('home.sunday')}</span>
-          <div class="sunday-card__title">{t('home.sundayEmpty')}</div>
-          <div class="sunday-card__acts">
-            <span class="btn btn--primary">
-              <Plus size={18} strokeWidth={1.75} aria-hidden="true" /> {t('set.newSet')}
-            </span>
-          </div>
-        </a>
+        <div style={{ marginBottom: 12 }}>
+          <a class="btn-v3 ghost" href="/sets/">
+            <Plus size={18} strokeWidth={1.75} aria-hidden="true" />
+            Plan this Sunday
+          </a>
+        </div>
       )}
 
       {showYourSongs ? (
         <section class="your-songs" aria-labelledby="your-songs-title">
-          <div class="your-songs__head">
-            <h2 class="group-title" id="your-songs-title">
-              Your songs
-            </h2>
-            <div class="your-songs__tabs" role="tablist">
-              <button
-                type="button"
-                role="tab"
-                aria-selected={tab === 'recent'}
-                class={tab === 'recent' ? 'is-active' : undefined}
-                onClick={() => setSongsTab('recent')}
-              >
-                {t('home.recent')}
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={tab === 'favourites'}
-                class={tab === 'favourites' ? 'is-active' : undefined}
-                onClick={() => setSongsTab('favourites')}
-              >
-                {t('home.favourites')}
-              </button>
-            </div>
+          <div class="sechead" style={{ marginTop: 10 }}>
+            <h2 id="your-songs-title">Your songs</h2>
+            {list.length > 0 ? (
+              <a class="link-v3" href="/search/">
+                See all ({list.length})
+              </a>
+            ) : null}
+          </div>
+          <div class="segtabs" role="tablist">
+            <button
+              type="button"
+              role="tab"
+              aria-selected={tab === 'recent'}
+              class={tab === 'recent' ? 'on' : undefined}
+              onClick={() => setSongsTab('recent')}
+            >
+              {t('home.recent')}
+            </button>
+            <button
+              type="button"
+              role="tab"
+              aria-selected={tab === 'favourites'}
+              class={tab === 'favourites' ? 'on' : undefined}
+              onClick={() => setSongsTab('favourites')}
+            >
+              {t('home.favourites')}
+            </button>
           </div>
           {list.length === 0 ? (
-            <p class="muted empty-line">
-              {tab === 'favourites' ? t('home.favEmpty') : 'Open a song to see it here.'}
+            <p class="muted sm" style={{ padding: '14px 0' }}>
+              {tab === 'favourites' ? (
+                <>
+                  Tap <Star size={14} style={{ display: 'inline', verticalAlign: '-2px' }} aria-hidden="true" /> on any
+                  song to keep it here.
+                </>
+              ) : (
+                'Open a song to see it here.'
+              )}
             </p>
           ) : (
-            <ul class="results">
+            <div class="results" style={{ display: 'block' }}>
               {list.slice(0, 3).map((row, i) => (
-                <li key={row.id}>
-                  {tab === 'recent' && i === 0 ? (
-                    <a class="continue-card" href={songUrl(row.id)}>
-                      <span class="badge badge--header" role="img" aria-label={row.badge}>
-                        <span class="badge__book" aria-hidden="true">
-                          {row.badge.split(' ')[0]}
-                        </span>
-                        <span class="badge__num" aria-hidden="true">
-                          {row.badge.split(' ')[1]}
-                        </span>
-                      </span>
-                      <span class="continue-card__text">
-                        <span class="continue-card__label">{t('home.continue')}</span>
-                        <span class="continue-card__title" lang={LANG_TAG.n[row.lang as Lang]}>
-                          {row.title}
-                        </span>
-                      </span>
-                    </a>
-                  ) : (
-                    <SongHitRow hit={toHit(row)} />
-                  )}
-                </li>
+                <a key={row.id} class="row-v3" href={songUrl(row.id)}>
+                  <span
+                    class="badge"
+                    style={{ width: 44, height: 44, minWidth: 44, flex: 'none' }}
+                    aria-hidden="true"
+                  >
+                    <span class="badge__book">{row.badge.split(' ')[0]}</span>
+                    <span class="badge__num" style={{ fontSize: 16 }}>
+                      {row.badge.split(' ')[1]}
+                    </span>
+                  </span>
+                  <div class="mid">
+                    <div class="t" lang={LANG_TAG.n[row.lang as Lang]}>
+                      {row.title}
+                      {tab === 'recent' && i === 0 ? <span class="tagc">{t('home.continue')}</span> : null}
+                    </div>
+                  </div>
+                </a>
               ))}
-            </ul>
+            </div>
           )}
-          {list.length > 3 ? (
-            <a class="your-songs__more" href={`/search/?tab=songs`}>
-              See all ({list.length})
-            </a>
-          ) : null}
         </section>
       ) : null}
     </div>
