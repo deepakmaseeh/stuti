@@ -13,6 +13,8 @@ export interface Env {
   GOOGLE_SHEET_CSV_URL?: string;
   /** Optional Google Sheet edit URL shown in the Admin Dashboard. */
   GOOGLE_SHEET_URL?: string;
+  /** Optional comma-separated allowlist of admin emails. Defaults to godisourlord8874@gmail.com. */
+  ADMIN_EMAILS?: string;
   APP_ORIGIN?: string;
   REPORT_LIMIT?: { limit: (opts: { key: string }) => Promise<{ success: boolean }> };
 }
@@ -152,7 +154,11 @@ export default {
 
     if (url.pathname.startsWith('/api/admin')) {
       const email = request.headers.get('Cf-Access-Authenticated-User-Email')?.trim();
-      if (!email) {
+      const allowed = (env.ADMIN_EMAILS || 'godisourlord8874@gmail.com')
+        .split(',')
+        .map((s) => s.trim().toLowerCase())
+        .filter(Boolean);
+      if (!email || !allowed.includes(email.toLowerCase())) {
         return Response.json({ ok: false, error: 'forbidden' }, { status: 403 });
       }
       if (url.pathname === '/api/admin/me') {

@@ -45,18 +45,18 @@ describe('Worker /api/admin auth guard', () => {
 
   it('returns 200 with email when Access header is present', async () => {
     const req = new Request('https://stuti.deepakmaseeh121.workers.dev/api/admin/me', {
-      headers: { 'Cf-Access-Authenticated-User-Email': 'deepakmaseeh12@gmail.com' },
+      headers: { 'Cf-Access-Authenticated-User-Email': 'godisourlord8874@gmail.com' },
     });
     const res = await worker.fetch(req, fakeEnv);
     expect(res.status).toBe(200);
     const data = (await res.json()) as { ok: boolean; email: string };
     expect(data.ok).toBe(true);
-    expect(data.email).toBe('deepakmaseeh12@gmail.com');
+    expect(data.email).toBe('godisourlord8874@gmail.com');
   });
 
   it('returns reports JSON (notConfigured when CSV URL is unset) with Access header', async () => {
     const req = new Request('https://stuti.deepakmaseeh121.workers.dev/api/admin/reports', {
-      headers: { 'Cf-Access-Authenticated-User-Email': 'deepakmaseeh12@gmail.com' },
+      headers: { 'Cf-Access-Authenticated-User-Email': 'godisourlord8874@gmail.com' },
     });
     const res = await worker.fetch(req, fakeEnv);
     expect(res.status).toBe(200);
