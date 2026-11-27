@@ -640,4 +640,98 @@
   color: var(--gold-soft);
 }
 
+/* ---- Phase 4: Sets & Set Editor ---- */
+.v3 .shead {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  height: 44px;
+  padding: 0 4px 0 12px;
+  margin-top: 8px;
+  list-style: none;
+}
+.v3 .shead .nm {
+  font: 700 13px var(--font-sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--leather);
+  white-space: nowrap;
+  cursor: pointer;
+}
+[data-scheme='dark'] .v3 .shead .nm,
+[data-theme='dark'] .v3 .shead .nm {
+  color: var(--gold-ink);
+}
+.v3 .shead.target .nm {
+  color: var(--ribbon);
+}
+.v3 .shead .rule {
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+  margin: 0 4px;
+}
+.v3 .shead .em {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 500;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.v3 .set-editor-v2__row-wrap {
+  list-style: none;
+}
+.v3 .srow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 60px;
+  padding: 6px 4px 6px 12px;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+}
+.v3 .srow .sum {
+  font: 700 13px var(--font-sans);
+  color: var(--muted);
+  white-space: nowrap;
+}
+.v3 .srow .sum .k {
+  color: var(--ink);
+  margin-right: 4px;
+}
+.v3 .exp {
+  margin: 0 8px 8px 24px;
+  padding: 12px;
+  border-radius: 14px;
+  background: var(--surface2);
+}
+.v3 .chips {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 2px 0;
+}
+.v3 .chip {
+  flex: none;
+  height: 36px;
+  min-width: 36px;
+  padding: 0 10px;
+  border-radius: 9px;
+  border: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font: 700 14px var(--font-sans);
+  cursor: pointer;
+}
+.v3 .chip.on {
+  background: var(--leather);
+  color: var(--gold);
+}
+.v3 .chip.v.on {
+  background: var(--ok);
+  color: #fff;
+}
+
+
 

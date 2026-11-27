@@ -20,6 +20,7 @@ import {
   type WorshipSet,
 } from '../../lib/sets';
 import { isParseAddHit, parseAdd } from '../../lib/sets/parseAdd';
+import { readPrefs } from '../../lib/prefs';
 import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
 import ShareSheet from './ShareSheet';
@@ -82,7 +83,17 @@ export default function SetEditorV2() {
   const [savedFlash, setSavedFlash] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const [targetHeading, setTargetHeading] = useState<string | null>(null);
+  const [expandedUid, setExpandedUid] = useState<string | null>(null);
+  const [renamingUid, setRenamingUid] = useState<string | null>(null);
+  const [musician, setMusician] = useState(false);
   const savedTimer = useRef<ReturnType<typeof setTimeout>>();
+
+  useEffect(() => {
+    const syncPrefs = () => setMusician(Boolean(readPrefs().musician));
+    syncPrefs();
+    addEventListener('stuti:prefs', syncPrefs);
+    return () => removeEventListener('stuti:prefs', syncPrefs);
+  }, []);
 
   const flashSaved = () => {
     setSavedFlash(true);
@@ -389,27 +400,61 @@ export default function SetEditorV2() {
           if (it.kind === 'heading') {
             const isTarget = it.uid === effectiveTarget;
             const emptySection = nextIsHeading;
-            const headingRow = (
-              <li class={isTarget ? 'set-editor-v2__heading is-target' : 'set-editor-v2__heading'} key={it.uid}>
-                <input
-                  class="field__input"
-                  type="text"
-                  value={it.text}
-                  maxLength={80}
-                  aria-label={t('set.addHeading')}
-                  onFocus={() => setTargetHeading(it.uid)}
-                  onInput={(e) => {
-                    const text = e.currentTarget.value;
-                    patch(set.id, {
-                      items: set.items.map((x) =>
-                        x.uid === it.uid && x.kind === 'heading' ? { ...x, text } : x,
-                      ),
-                    });
-                  }}
-                />
+            const isRenaming = renamingUid === it.uid;
+            return (
+              <li class={`shead${isTarget ? ' target' : ''}`} key={it.uid}>
+                {isRenaming ? (
+                  <input
+                    class="field__input"
+                    type="text"
+                    value={it.text}
+                    maxLength={40}
+                    autoFocus
+                    aria-label={t('set.addHeading')}
+                    onBlur={() => setRenamingUid(null)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === 'Escape') setRenamingUid(null);
+                    }}
+                    onInput={(e) => {
+                      const text = e.currentTarget.value;
+                      patch(set.id, {
+                        items: set.items.map((x) =>
+                          x.uid === it.uid && x.kind === 'heading' ? { ...x, text } : x,
+                        ),
+                      });
+                    }}
+                  />
+                ) : (
+                  <button
+                    type="button"
+                    class="nm"
+                    style={{ background: 'none', border: 0, padding: 0 }}
+                    onClick={() => setRenamingUid(it.uid)}
+                    title="Click to rename section"
+                  >
+                    {it.text}
+                    {emptySection ? <span class="em"> · empty</span> : null}
+                  </button>
+                )}
+                <span class="rule" aria-hidden="true" />
                 <button
                   type="button"
-                  class="icon-btn"
+                  class="ib ink"
+                  aria-label={t('set.addSongHere')}
+                  title={t('set.addSongHere')}
+                  onClick={() => {
+                    setTargetHeading(it.uid);
+                    const inp = document.querySelector<HTMLInputElement>('.set-editor-v2__quick input');
+                    inp?.focus();
+                  }}
+                >
+                  <Icon>
+                    <path d="M12 5v14M5 12h14" />
+                  </Icon>
+                </button>
+                <button
+                  type="button"
+                  class="ib ink"
                   aria-label={t('set.remove')}
                   onClick={() => {
                     removeItem(set.id, it.uid);
@@ -422,32 +467,18 @@ export default function SetEditorV2() {
                 </button>
               </li>
             );
-            if (!emptySection) return headingRow;
-            return (
-              <>
-                {headingRow}
-                <li class="set-editor-v2__add-here" key={`add-h-${it.uid}`}>
-                  <button
-                    type="button"
-                    class="btn btn--ghost"
-                    onClick={() => {
-                      setTargetHeading(it.uid);
-                      resolveQuickAdd(it.uid);
-                    }}
-                  >
-                    {t('set.addSongHere')}
-                  </button>
-                </li>
-              </>
-            );
           }
           const songIndex = songs.findIndex((s) => s.uid === it.uid);
           const title = meta?.[it.songId]?.[0] ?? it.songId;
           const verseChips = [1, 2, 3, 4, 5, 6];
           const selectedVerses = new Set(it.verses ?? []);
+          const isExpanded = expandedUid === it.uid;
+          const verseSum = selectedVerses.size
+            ? [...selectedVerses].map((v) => v + 1).join(' ')
+            : 'All';
           const row = (
             <li
-              class="set-editor-v2__row"
+              class="set-editor-v2__row-wrap"
               key={it.uid}
               onKeyDown={(e) => {
                 if (!e.altKey) return;
@@ -462,103 +493,129 @@ export default function SetEditorV2() {
                 }
               }}
             >
-              <span class="set-editor-v2__ord">{songIndex + 1}</span>
-              <div class="set-editor-v2__body">
+              <div
+                class="srow"
+                onClick={(e) => {
+                  if ((e.target as Element).closest('a,button')) return;
+                  setExpandedUid(isExpanded ? null : it.uid);
+                }}
+              >
+                <span class="set-editor-v2__ord">{songIndex + 1}</span>
                 <a class="set-editor-v2__song" href={songInWorshipSetUrl(set, songIndex)} data-astro-reload>
                   <span class="set-editor-v2__badge">{badgeFor(it.songId, it.book)}</span>
                   <span class="set-editor-v2__name">{title}</span>
                 </a>
-                <div class="set-editor-v2__keys" role="group" aria-label={t('set.key')}>
-                  {KEY_CHIPS.map((k) => (
+                <span class="sum">
+                  {musician && it.key ? <span class="k">{it.key}</span> : null}
+                  {verseSum}
+                </span>
+                <button
+                  type="button"
+                  class="ib ink"
+                  aria-label={isExpanded ? 'Collapse options' : 'Edit key and verses'}
+                  onClick={() => setExpandedUid(isExpanded ? null : it.uid)}
+                >
+                  <Icon>
+                    <path d="M12 12h.01M12 5h.01M12 19h.01" />
+                  </Icon>
+                </button>
+              </div>
+              {isExpanded ? (
+                <div class="exp">
+                  {musician ? (
+                    <div class="chips" role="group" aria-label={t('set.key')} style={{ marginBottom: 8 }}>
+                      {KEY_CHIPS.map((k) => (
+                        <button
+                          type="button"
+                          key={k}
+                          class={it.key === k || it.key === `${k}m` ? 'chip on' : 'chip'}
+                          onClick={() => {
+                            patch(set.id, {
+                              items: set.items.map((x) => {
+                                if (x.uid !== it.uid || x.kind !== 'song') return x;
+                                const next = { ...x };
+                                if (next.key === k) delete next.key;
+                                else next.key = k;
+                                return next;
+                              }),
+                            });
+                          }}
+                        >
+                          {k}
+                        </button>
+                      ))}
+                    </div>
+                  ) : null}
+                  <div class="chips" role="group" aria-label={t('set.verses')}>
+                    {verseChips.map((v) => {
+                      const on = selectedVerses.has(v - 1);
+                      return (
+                        <button
+                          type="button"
+                          key={v}
+                          class={on ? 'chip v on' : 'chip v'}
+                          onClick={() => {
+                            patch(set.id, {
+                              items: set.items.map((x) => {
+                                if (x.uid !== it.uid || x.kind !== 'song') return x;
+                                const cur = new Set(x.verses ?? []);
+                                if (cur.has(v - 1)) cur.delete(v - 1);
+                                else cur.add(v - 1);
+                                const verses = [...cur].sort((a, b) => a - b);
+                                const next = { ...x };
+                                if (verses.length) next.verses = verses;
+                                else delete next.verses;
+                                return next;
+                              }),
+                            });
+                          }}
+                        >
+                          V{v}
+                        </button>
+                      );
+                    })}
                     <button
                       type="button"
-                      key={k}
-                      class={it.key === k || it.key === `${k}m` ? 'chip is-on' : 'chip'}
+                      class={it.repeatChorus !== false ? 'chip v on' : 'chip v'}
                       onClick={() => {
                         patch(set.id, {
                           items: set.items.map((x) => {
                             if (x.uid !== it.uid || x.kind !== 'song') return x;
-                            const next = { ...x };
-                            if (next.key === k) delete next.key;
-                            else next.key = k;
-                            return next;
+                            return { ...x, repeatChorus: x.repeatChorus === false };
                           }),
                         });
                       }}
                     >
-                      {k}
+                      C
                     </button>
-                  ))}
-                </div>
-                <div class="set-editor-v2__verses" role="group" aria-label={t('set.verses')}>
-                  {verseChips.map((v) => {
-                    const on = selectedVerses.has(v - 1);
-                    return (
-                      <button
-                        type="button"
-                        key={v}
-                        class={on ? 'chip is-on' : 'chip'}
-                        onClick={() => {
+                  </div>
+                  <div class="set-editor-v2__fields" style={{ marginTop: 8 }}>
+                    <label class="field field--compact field--grow">
+                      <span class="field__label">{t('set.note')}</span>
+                      <input
+                        class="field__input"
+                        type="text"
+                        maxLength={140}
+                        placeholder={t('set.notePlaceholder')}
+                        value={it.note ?? ''}
+                        onInput={(e) => {
+                          const note = e.currentTarget.value.slice(0, 140);
                           patch(set.id, {
                             items: set.items.map((x) => {
                               if (x.uid !== it.uid || x.kind !== 'song') return x;
-                              const cur = new Set(x.verses ?? []);
-                              if (cur.has(v - 1)) cur.delete(v - 1);
-                              else cur.add(v - 1);
-                              const verses = [...cur].sort((a, b) => a - b);
                               const next = { ...x };
-                              if (verses.length) next.verses = verses;
-                              else delete next.verses;
+                              if (note) next.note = note;
+                              else delete next.note;
                               return next;
                             }),
                           });
                         }}
-                      >
-                        V{v}
-                      </button>
-                    );
-                  })}
-                  <button
-                    type="button"
-                    class={it.repeatChorus !== false ? 'chip is-on' : 'chip'}
-                    onClick={() => {
-                      patch(set.id, {
-                        items: set.items.map((x) => {
-                          if (x.uid !== it.uid || x.kind !== 'song') return x;
-                          return { ...x, repeatChorus: x.repeatChorus === false };
-                        }),
-                      });
-                    }}
-                  >
-                    C
-                  </button>
+                      />
+                    </label>
+                  </div>
                 </div>
-                <div class="set-editor-v2__fields">
-                  <label class="field field--compact field--grow">
-                    <span class="field__label">{t('set.note')}</span>
-                    <input
-                      class="field__input"
-                      type="text"
-                      maxLength={140}
-                      placeholder={t('set.notePlaceholder')}
-                      value={it.note ?? ''}
-                      onInput={(e) => {
-                        const note = e.currentTarget.value.slice(0, 140);
-                        patch(set.id, {
-                          items: set.items.map((x) => {
-                            if (x.uid !== it.uid || x.kind !== 'song') return x;
-                            const next = { ...x };
-                            if (note) next.note = note;
-                            else delete next.note;
-                            return next;
-                          }),
-                        });
-                      }}
-                    />
-                  </label>
-                </div>
-              </div>
-              <div class="set-editor-v2__move">
+              ) : null}
+              <div class="set-editor-v2__move" style={{ display: isExpanded ? undefined : 'none' }}>
                 <button
                   type="button"
                   class="icon-btn"
