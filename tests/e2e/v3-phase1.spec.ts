@@ -25,8 +25,8 @@ test.describe('v3 Phase 1: Shell, tokens, Settings sheet', () => {
     await expect(dialog.getByText('Show Roman lyrics')).toBeVisible();
     await expect(dialog.getByText('Show key for musicians')).toBeVisible();
     await expect(dialog.getByText('About & Guide')).toBeVisible();
-    // Hidden while FLAGS.admin === false
-    await expect(dialog.getByText('Editor sign-in')).toHaveCount(0);
+    // Visible while FLAGS.admin === true
+    await expect(dialog.getByRole('link', { name: /Editor sign-in|Open admin/i })).toBeVisible();
 
     // Switch to Dark
     await dialog.getByRole('button', { name: 'Dark' }).click();
