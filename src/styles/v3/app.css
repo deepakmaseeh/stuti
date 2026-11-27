@@ -588,3 +588,56 @@
   font-size: 15px;
 }
 
+/* ---- Phase 3: Song page ---- */
+.v3 .song-header {
+  background: var(--bar);
+  color: var(--gold);
+}
+.v3 .song-header__inner {
+  min-height: 56px;
+}
+.v3 .song-header .icon-btn {
+  color: var(--gold);
+}
+.v3 .lyrics {
+  max-width: 760px;
+  margin-inline: auto;
+}
+.v3 .lyrics .line,
+.v3 .lyrics .n,
+.v3 .lyrics .r,
+.v3 .lyrics .e {
+  max-width: none;
+}
+.v3 .sec__label {
+  font: 700 12px / 1.2 var(--font-sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ribbon);
+  margin-bottom: 4px;
+}
+.v3 .sec--chorus {
+  background: var(--chorus);
+  border-left: 3px solid var(--ribbon);
+  border-radius: 0 14px 14px 0;
+  padding: 10px 14px;
+}
+.v3 .repeat {
+  font: 700 12px var(--font-sans);
+  color: var(--gold-ink);
+  background: oklch(0.9 0.07 85 / 0.45);
+  border-radius: 6px;
+  padding: 1px 6px;
+  margin-left: 8px;
+  vertical-align: 3px;
+}
+.v3 .chorus-marker {
+  color: var(--ribbon);
+  font: 600 14px var(--font-sans);
+}
+.v3 .setnav {
+  background: var(--bar);
+  color: var(--gold-soft);
+}
+
+

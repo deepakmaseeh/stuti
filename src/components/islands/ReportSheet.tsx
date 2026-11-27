@@ -63,23 +63,70 @@ export default function ReportSheet({
   const [kind, setKind] = useState<MistakeReport['kind']>('spelling');
   const [correction, setCorrection] = useState('');
   const [note, setNote] = useState('');
+  const [name, setName] = useState('');
   const [honeypot, setHoneypot] = useState('');
   const [sending, setSending] = useState(false);
 
   useEffect(() => {
+    try {
+      const saved = localStorage.getItem('stuti:reportName');
+      if (saved) setName(saved);
+    } catch {
+      /* */
+    }
     const flush = () => void flushReportQueue();
     flush();
     addEventListener('online', flush);
-    return () => removeEventListener('online', flush);
+    const onOpen = (e: Event) => {
+      const detail = (e as CustomEvent<{ stanza?: string; index?: number; text?: string }>).detail;
+      start(undefined, detail);
+    };
+    addEventListener('stuti:open-report', onOpen);
+
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    const onDown = (e: PointerEvent) => {
+      const lineEl = (e.target as Element | null)?.closest?.('.lyrics .line');
+      if (!lineEl) return;
+      timer = setTimeout(() => {
+        const sec = lineEl.closest('.sec');
+        const stanza = sec?.querySelector('.sec__label')?.textContent?.trim() ?? '';
+        const allLines = sec ? [...sec.querySelectorAll('.line')] : [];
+        const index = allLines.indexOf(lineEl);
+        const text = lineEl.querySelector('.n')?.textContent?.trim() ?? '';
+        start(undefined, { stanza, index, text });
+      }, 550);
+    };
+    const cancel = () => {
+      if (timer) {
+        clearTimeout(timer);
+        timer = undefined;
+      }
+    };
+    document.addEventListener('pointerdown', onDown);
+    document.addEventListener('pointerup', cancel);
+    document.addEventListener('pointercancel', cancel);
+    document.addEventListener('pointermove', cancel);
+    return () => {
+      removeEventListener('online', flush);
+      removeEventListener('stuti:open-report', onOpen);
+      document.removeEventListener('pointerdown', onDown);
+      document.removeEventListener('pointerup', cancel);
+      document.removeEventListener('pointercancel', cancel);
+      document.removeEventListener('pointermove', cancel);
+    };
   }, []);
 
-  const start = (e?: Event) => {
+  const start = (e?: Event, pre?: { stanza?: string; index?: number; text?: string }) => {
     e?.preventDefault();
     const found = readLines();
     setLines(found);
-    const first = found[0];
-    setLineKey(first?.value ?? '');
-    setCorrection(first?.value?.split('|').slice(2).join('|') ?? '');
+    const matched = pre
+      ? found.find((o) => o.stanza === pre.stanza && o.index === pre.index) ??
+        found.find((o) => pre.text && o.value.endsWith(`|${pre.text}`))
+      : undefined;
+    const pick = matched ?? found[0];
+    setLineKey(pick?.value ?? '');
+    setCorrection(pick?.value?.split('|').slice(2).join('|') ?? '');
     setOpen(true);
   };
 
@@ -116,6 +163,7 @@ export default function ReportSheet({
       current: original || undefined,
       suggested: correction.trim() || undefined,
       note: note.trim() || undefined,
+      name: name.trim() || undefined,
       appVersion,
       dataVersion,
       url: new URL(location.pathname, location.origin).href,
@@ -189,6 +237,24 @@ export default function ReportSheet({
               maxLength={280}
               value={note}
               onInput={(e) => setNote(e.currentTarget.value)}
+            />
+          </label>
+          <label class="field">
+            <span class="field__label">Your name (optional)</span>
+            <input
+              type="text"
+              class="field__input"
+              placeholder="Saved on this phone for next time"
+              value={name}
+              onInput={(e) => {
+                const v = e.currentTarget.value;
+                setName(v);
+                try {
+                  localStorage.setItem('stuti:reportName', v);
+                } catch {
+                  /* */
+                }
+              }}
             />
           </label>
           {/* honeypot */}

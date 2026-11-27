@@ -126,6 +126,12 @@ export default function SongToolbar({
     };
   }, [snapshot.id]);
 
+  useEffect(() => {
+    const onPpt = () => void exportPpt();
+    addEventListener('stuti:song-ppt', onPpt);
+    return () => removeEventListener('stuti:song-ppt', onPpt);
+  }, [prefs.layers]);
+
   const toggleLayer = (k: LayerKey) => {
     const next = { ...prefs.layers, [k]: !prefs.layers[k] };
     if (!available.some((a) => next[a])) return;

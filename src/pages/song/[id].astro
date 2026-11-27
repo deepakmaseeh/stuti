@@ -3,10 +3,10 @@ import AppShell from '../../components/AppShell.astro';
 import NumberBadge from '../../components/NumberBadge.astro';
 import OfflineBadge from '../../components/OfflineBadge.astro';
 import LyricSection from '../../components/LyricSection.astro';
-import SongMeta from '../../components/SongMeta.astro';
 import SongToolbar from '../../components/islands/SongToolbar.tsx';
 import FavStar from '../../components/islands/FavStar.tsx';
 import ReportSheet from '../../components/islands/ReportSheet.tsx';
+import SongMoreSheet from '../../components/islands/SongMoreSheet.tsx';
 import SetNavBar from '../../components/islands/SetNavBar.tsx';
 import { getSongs } from '../../lib/content';
 import { safeJsonLd } from '../../lib/jsonld';
@@ -76,22 +76,27 @@ const numbersData = JSON.stringify(song.numbers);
       </span>
       <span class="song-header__end">
         <FavStar client:load snapshot={snapshot} />
-        <a class="btn btn--primary song-present" href={`/present/?song=${song.id}`} data-feature="present">
-          {t('desktop.present')}
+        <a class="icon-btn" href={`/present/?song=${song.id}`} data-feature="present" aria-label={t('desktop.present')} title={t('desktop.present')}>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <rect width="20" height="14" x="2" y="3" rx="2"></rect>
+            <path d="m10 8 4 2-4 2Z"></path>
+            <path d="M12 17v4"></path>
+            <path d="M8 21h8"></path>
+          </svg>
         </a>
-        <a
+        <button
+          type="button"
           class="icon-btn"
-          href="/settings/"
-          data-feature="settings"
-          aria-label="Settings"
-          title="Settings"
+          data-open-song-more
+          aria-label="More options"
+          title="More options"
         >
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true"
-            ><path
-              d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"
-            ></path><circle cx="12" cy="12" r="3"></circle></svg
-          >
-        </a>
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <circle cx="12" cy="12" r="1"></circle>
+            <circle cx="12" cy="5" r="1"></circle>
+            <circle cx="12" cy="19" r="1"></circle>
+          </svg>
+        </button>
       </span>
     </div>
   </header>
@@ -165,10 +170,24 @@ const numbersData = JSON.stringify(song.numbers);
       }
     </div>
 
-    <SongMeta song={song} />
+    <SongMoreSheet
+      client:load
+      info={{
+        id: song.id,
+        title: song.title.native,
+        book: primary.book,
+        number: String(primary.number),
+        numbers: song.numbers.map((n) => ({ book: n.book, number: String(n.number) })),
+        author: song.author.name,
+        year: song.year,
+        bibleRefs: song.bibleRefs,
+        rightsStatus: song.rights.status,
+        share: { title: song.title.native, text: lines[0]?.n ?? '', url },
+      }}
+    />
 
     <ReportSheet
-      client:idle
+      client:load
       songId={song.id}
       title={song.title.native}
       book={primary.book}
