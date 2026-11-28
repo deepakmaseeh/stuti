@@ -8,11 +8,13 @@ import {
   Moon,
   ShieldCheck,
   Sun,
+  Trash2,
   X,
 } from 'lucide-preact';
 import { FLAGS } from '../../config/flags';
 import { readPrefs, setPrefs, type Prefs, type Theme } from '../../lib/prefs';
-import { storage } from '../../lib/storage';
+import { clearRecentHistory, exportUserData, storage } from '../../lib/storage';
+import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
 
 type BookOption = { id: string; en: string };
@@ -294,7 +296,44 @@ export default function SettingsSheet({ books }: Props) {
             </div>
           </div>
 
-          {/* 6. About & Guide */}
+          {/* 6. Data & backup */}
+          <div class="grp">
+            <span class="lbl">Data &amp; backup</span>
+            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+              <button
+                type="button"
+                class="btn-v3 sec"
+                style={{ flex: 1, minWidth: 140, justifyContent: 'center' }}
+                onClick={() => {
+                  clearRecentHistory();
+                  showToast('Recent history cleared');
+                }}
+              >
+                <Trash2 size={16} strokeWidth={1.75} aria-hidden="true" />
+                Clear recent history
+              </button>
+              <button
+                type="button"
+                class="btn-v3 sec"
+                style={{ flex: 1, minWidth: 140, justifyContent: 'center' }}
+                onClick={() => {
+                  const json = exportUserData();
+                  const blob = new Blob([json], { type: 'application/json' });
+                  const a = document.createElement('a');
+                  a.href = URL.createObjectURL(blob);
+                  a.download = `stuti-backup-${new Date().toISOString().slice(0, 10)}.json`;
+                  a.click();
+                  URL.revokeObjectURL(a.href);
+                  showToast('Data exported');
+                }}
+              >
+                <Download size={16} strokeWidth={1.75} aria-hidden="true" />
+                Export data
+              </button>
+            </div>
+          </div>
+
+          {/* 7. About & Guide */}
           <a
             href="/guide/"
             class="btn-v3 sec"

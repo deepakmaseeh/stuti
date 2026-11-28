@@ -162,6 +162,37 @@ export function pushRecentLetter(script: string, letter: string): void {
   storage.recentLetters.set({ v: 1, items: items.slice(0, MAX_RECENT_LETTERS) });
 }
 
+export function clearRecentHistory(): void {
+  try {
+    localStorage.removeItem('stuti:recent');
+    localStorage.removeItem('stuti:recentLetters');
+    if (typeof window !== 'undefined') {
+      dispatchEvent(new Event('stuti:recent-cleared'));
+    }
+  } catch {
+    /* ignore */
+  }
+}
+
+export function exportUserData(): string {
+  const data: Record<string, unknown> = { exportedAt: new Date().toISOString() };
+  try {
+    for (const k of Object.keys(localStorage)) {
+      if (!k.startsWith('stuti:')) continue;
+      const raw = localStorage.getItem(k);
+      if (raw == null) continue;
+      try {
+        data[k] = JSON.parse(raw);
+      } catch {
+        data[k] = raw;
+      }
+    }
+  } catch {
+    /* ignore */
+  }
+  return JSON.stringify(data, null, 2);
+}
+
 export function clearAllData(): void {
   try {
     Object.keys(localStorage)

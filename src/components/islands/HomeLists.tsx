@@ -11,7 +11,7 @@ import {
 } from '../../lib/sets';
 import { formatSetDate } from '../../lib/setlist';
 import { loadMeta, type MetaRow } from '../../lib/search';
-import { storage, type SongSnapshot } from '../../lib/storage';
+import { clearRecentHistory, storage, type SongSnapshot } from '../../lib/storage';
 import { LANG_TAG } from '../../lib/scripts';
 import type { Lang } from '../../lib/schema';
 import { songUrl } from '../../lib/songs';
@@ -65,7 +65,12 @@ export default function HomeLists() {
     loadMeta()
       .then((meta) => setS((cur) => ({ ...cur, meta })))
       .catch(() => {});
-    return listenSetsChanged(refresh);
+    addEventListener('stuti:recent-cleared', refresh);
+    const unsub = listenSetsChanged(refresh);
+    return () => {
+      removeEventListener('stuti:recent-cleared', refresh);
+      unsub();
+    };
   }, []);
 
   const setSongsTab = (next: Tab) => {
@@ -161,6 +166,19 @@ export default function HomeLists() {
             >
               {t('home.favourites')}
             </button>
+            {tab === 'recent' && s.recent.length > 0 ? (
+              <button
+                type="button"
+                class="link-v3"
+                style={{ marginLeft: 'auto', fontSize: 13 }}
+                onClick={() => {
+                  clearRecentHistory();
+                  setS((cur) => ({ ...cur, recent: [] }));
+                }}
+              >
+                Clear
+              </button>
+            ) : null}
           </div>
           {list.length === 0 ? (
             <p class="muted sm" style={{ padding: '14px 0' }}>
