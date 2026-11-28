@@ -218,9 +218,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zy57sAqhSvQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "BETHLEHEM KE GAON MEIN | HINDI CHRISTMAS CAROL | 4K",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "U2NCiytiOE0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "BETHLEHEM KE GAON MEIN - Best Hindi Christian Song | Christmas Special | Christ Anmol Toppo",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "07sePyRlEhk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bethlehem Ke Gaon Mein",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

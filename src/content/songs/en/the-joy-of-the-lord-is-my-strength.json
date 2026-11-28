@@ -88,9 +88,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "WYcpL6otp_Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Joy (Feat. David Dennis) // The Belonging Co",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0lO2CQvNVuo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Joy of the Lord is my strength Neh. 8:10 | Sunday school song |Bible action song|scripture song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "I6rHJgYB7XY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Joy Of The Lord Is My Strength TPM SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

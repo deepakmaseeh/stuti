@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": "शान्ति का राजा आ रहा है,\n\nG                   C                            G      C              G\nकोरस:- शान्ति का राजा आ रहा है, होवे जय जयकार, होवे जय जयकार\nG                   C                     C               G     C              G\nराजाओं के राजा यीशु मसीह की, होवे जय जयकार, होवे जय जयकार\n\nG                 C                D               C      G\nबालक उसका स्वागत करते, राह में अपने कपड़े बिछाते (2)\nG              Am             C            G\nइतना गहरा प्यार दिखाते, मानो अपने दिल हैं बिछाते (2)\nG                          C                       G      C            G\nऊंचे स्वर से दिल से कहते, होवे जय जयकार, होवे जय जयकार।\n\nG                C                   D          C    G\nहोशन्ना के नारे उनके, सारे आकाश में गूँज रहे हैं (2)\nG             Am              C                  G\nश्रद्धा भक्ति और खुशी से, दिल भी अपने झूम रहे हैं (2)\nG                             C                     G    C              G\nदाऊदवंशी यीशु मसीह की, होवे जय जयकार, होवे जय जयकार।\n\nG               C                 D                C        G\nसुनने वालों आज दिलों को, सामने उसके अर्पण कर दो (2)                                                                                                                     D                     Am            C                      G\n  खाली दिलों को अर्पण करके, उसकी महिमा का दर्शन कर लो (2)\nG             C                                      G    C               G\nसाथ हमारे आवाज मिलाओ, होवे जय जयकार, होवे जय जयकार।\n\n\n                                                                     (E/46)\n                                                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "AwBgCCkwytE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shanti Ka Raja aa raha hai ( Hindi devotional song )",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_SrM1X-UeT4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shanti Ka Raja (Male Verson) Aimon Pradhan /Amir Kumar Digal/ Rabin Digal",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6GoJGkjErSI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "SHANTI KA RAJA NEW JESUS SONG / REBECCA DIGAL / PRIYANKA NAYAK / RABIN DIGAL / AMIR KUMAR DIGAL",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

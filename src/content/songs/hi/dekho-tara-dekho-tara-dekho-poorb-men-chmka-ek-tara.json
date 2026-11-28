@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "eyaYWh_BqaM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "देखो पूरब में चमका एक तारा-DEKHO PURAB MAI CHAMKA EK TARA|BY CHITERA AND TEAM| CHRISTMAS PROGRAM",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gTvHdfXF9vE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "देखो पूरब में चमका एक तारा ⭐ | Christmas Special Hindi Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Vp0Uf3GDfhQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Purab me dekho chamka ek tara ll Hindi Christmas song ll Praise Jesus ll",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

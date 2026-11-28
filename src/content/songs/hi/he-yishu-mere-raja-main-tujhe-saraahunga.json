@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": "हे यीशु मेरे राजा, मैं तुझको सराहूँगा\n\n           Em\tD\tEm\nकोरसः-  हे यीशु मेरे राजा, मैं तुझको सराहूँगा (2)\n                  Em                     D        C              D Em\n          और तेरे नाम को सदा मैं धन्य कहता रहूँगा। (2)\n\n             Em        D               Em\n           1.    हर रोज तुझको धन्य कहूँगा, (2)\n  \t\t                 D           Em\n           स्तुति तेरी मैं करता रहूँगा। (2)\n\n           Em     D                  Em\n2.  \t तेरे कामों का वर्णन करूँगा, (2)\n  \t                            D         Em\n           भलाई तेरी मैं स्मरण करूँगा। (2)\n\n              Em           D             Em\n3.\t उद्धार के गीतें मैं तो गाऊँगा, (2)\n\t \t                 D         Em\n           स्तुति के नारे सदा मारूँगा। (2)\n\n                Em          D                     Em\n4     विजय के संगीत जग में सुनाऊँगा, (2)\n\t \t\t           D              Em\n           जीवन भर उसको मैं तो भजूँगा (2)\n\n               Em         D              Em\n5.   \tआशा से भरपूर सदा रहूँगा, (2)\n\t \t         D                  Em\n          अपने प्रभु को आते देखूँगा। (2)                       (F/54)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "n96beZeszDs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे ईश्वर मेरे राजा | Masih Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "j8TvuL0WBlo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे ईश्वर मेरे राजा || Hindi Christian Worship Song || Yeshu Bhajan || Praise & Thanksgiving||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JNqeqxOSrkU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे यीशु राजा तू ही मेरा तारणहार | Powerful Hindi Worship Song | Latest Christian Gospel Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

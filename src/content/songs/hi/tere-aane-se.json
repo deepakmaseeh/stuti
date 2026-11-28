@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": "A                                      A/G              D/A\nहालात बदल जाते है -२ यीशु  तेरे आने से –(2)\n       A                   G                 A            G             A\nतेरे आने से, तेरे आने से, तेरे आने से, आने से, आने से\n          A                        D         G                  A\nकोड़ों से चलनी हुआ, ज़ख्मों से चूर हुआ\nA                            G                      A\nसूली की राहों पर, गम से न ढाल हुआ\nA                                  A/G             D/A\nबीमार शिफ़ा पाते हैं-२ यीशु  तेरे आने से-(2)\n          A                      D     G                  A\nयायिर की बेटी को, यीशु  ने जिंदा किया\n     A                 D      G                  A\nमुर्दा लाज़र को, यीशु  ने जिंदा किया\nA                                   A/G             D/A\nमुर्दे भी जी उठते हैं -२ यीशु  तेरे आने से\n           A                   D     G                  A\nसूली पे डाकू को, यीशु  ने माफ़ किया\n     A                   D      G                  A\nखून की धारा से , सबको साफ़ किया\nA                                    A/G             D/A\nबदकार बदल जाते हैं-2 यीशु  तेरे आने से-(2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ogj1mQ36muc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Halat Badal Jate Hai, Yeshu Tere Aane Se Yeshu | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "E8jQWn53WnM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु जी तेरे आने से |Prabhu Ji Tere Aane | New Hindi Christian Song | Simran Singh | Arshika Studio",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "MaJq2-Dm4l8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera kal tere haathon mein l jesus worship song l @Premkidhun09",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

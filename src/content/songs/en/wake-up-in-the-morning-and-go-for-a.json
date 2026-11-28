@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "EUE9PmeaYB0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Keep On | Elevation Worship (feat. Davide Mutendji, Tori Elliott & Isaiah Templeton)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vTgyaI4nDH0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Start Your Morning With Worship | Grace Revolution Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "T86lqCXGKlg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Morning worship (live session) | the Heart of Worship | I Could Sing of Your Love Forever",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

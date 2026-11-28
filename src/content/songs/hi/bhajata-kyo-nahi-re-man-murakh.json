@@ -175,9 +175,32 @@
     "page": null
   },
   "chords": "भजता क्यों नहीं रे मन मूरख\n\n Bm              A                    G         Bm\nकोरस: भजता क्यों नहीं रे मन मूरख, (2) यीशु नाम सच्चा नाम।\n Bm          A                  G          Bm\n पार करेगा जीवन नैय्या, (2) यीशु नाम सच्चा नाम।\n\n        Bm                            A                          Bm\nभव सागर से है यदि तरना, दुःख संकट से नहीं कुछ डरना। (2)\nBm        A                    G          Bm\nपार करेगा जीवन नैय्या, (2) यीशु नाम सच्चा नाम।\n\nBm                            A                     Bm\nदुनियाँ में तूने पाप कमाया, पाप में सारा वक्त गंवाया। (2)\nBm            A                        G          Bm\nयीशु नाम को क्यों नहीं भजता, (2) यीशु नाम सच्चा नाम।\n\nBm                    A                     Bm\nटूटे-फूटे हौज़ बनाए, जिनमें पूरी शान्ति न पाये। (2)\nBm         A                   G          Bm\nतुझको पूरी शान्ति देगा, (2) यीशु नाम सच्चा नाम।\n\nBm                               A                         Bm\nदुनियाँ से तुझे हो कभी जाना, फिर माया में क्यों फंस जाना। (2)\nBm           A                        G          Bm\nजीना है तुझे जब लग भज ले, (2) यीशु नाम सच्चा नाम",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "csHFC1gH9cM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "भजता क्यों नहीं रे मन मूरख प्रभु का नाम सच्चा नाम |Bhajta Kyun Nahi Re Mann Murakh Prabhu Sacha Naam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "uMX83Arq-lE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "भजता क्यूँ नहीं | Bhajta Kyu Nahi | HINDI DEVOTIONAL SONG | Lyrical Video | आत्मिक मसीही गीत #song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Z3ORdL7yEyk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bhajta Kyon Nahi Re Man Murakh | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi, Masih Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

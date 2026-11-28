@@ -103,9 +103,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rad1CXjBfJk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जय जय येशु | Live at FOLJ Church | @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "uC-u8u1e-68",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जय जय येसु _ JAY JAY YESU _ HYMNO _ HINDI BHAJAN SONG WITH LYRICS _",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VtvuOBFSmKw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जय जय यीशु | JAI JAI YESHU || @AnkitSajwanMinistries #foljchurch #ankitsajwanministry",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

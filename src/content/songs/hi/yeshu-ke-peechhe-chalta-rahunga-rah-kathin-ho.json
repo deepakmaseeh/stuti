@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": "यीशु के पीछे, चलता रहूँगा\n\n          E        A                E\nकोरस:- यीशु के पीछे, चलता रहूँगा\n              B                       E\n         राह कठिन हो, मौत भी आवे\n\n           E          A                     E\nदिल से चाहूँगा, महिमा हो उसकी\n             B                   E\n        पूरी करूँगा इच्छा भी उसकी\n        C#m        B                  A   B        E\n        अर्पण.... तुझको ...., जैसे तू चाहे वैसे ही हो जाये ...।\n\n           E        A                 E\nकितने ही हम से आगे गये हैं\n       B                   E\n         दौड़ यहाँ की पूरी किये हैं\n         C#m        B               A   B            E\n         तू ही... निशाना.... उनके समान तू मुझको बना ले\n\n           E        A          E\nआगे बढ़ाता प्रेम यीशु का,\n       B                    E\n         सेवा में मुझको आनन्द दिलाता\n            C#m        B                    A   B        E\n         तू ही..... भरोसा ...... कदमों में तेरे चलना है मुझको।\n                                                       (E/6)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "WX1jMPXOlqY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "#yeshukepichhe #Saneshkumar Hindi Christian song || yeshu ke picche mai chalne laga",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_LOK79QKUv4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ke Piche Main Chalne Laga Lyrics यीशु के पीछे मैं चलने लगा न लौटूँगा Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "o5UfRcAb_6E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु पीछे चलेंगे | Yeshu Ke Peeche Chalenge | Hindi Christian Worship Song 2026 | WorshipFlow Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

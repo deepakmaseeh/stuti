@@ -106,9 +106,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "yT69KvuDxx4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Stuti aradhana upar jati hai .Hindi christian song ! ✝🎶 ✝️",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TO8xBCv-iek",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Stuti Aradhana Upar Jati Hai (Official Video) Shawn & Shanon | Worship Songs 2021 | Yeshu Ke Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Bd28pHUgdzI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Stuti Aradhna Upar Jati Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rrfMOdVbUng",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ASHCHARYA TERE | HINDI WORSHIP SONG - 4K | FT. JERIN ANDREWS & GRACE AHMEDABAD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "y92LHgzl2CA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ashcharya Tere - Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8lz2G9fZshE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ASHCHARYA TERE |HINDI WORSHIP SONG - 4K | BIJOY YOHANNAN | Hindi Gospel Song | Latest Hindi Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

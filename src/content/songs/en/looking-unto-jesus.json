@@ -93,9 +93,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "o73nu0D5uKM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Looking Unto Jesus | EmmaOMG ft. Nosa & The OhEmGee Choir",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UTQ3H3UZP1Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Looking to JESUS - Dunsin Oyekan #dunsinoyekan #worshipmusic #upperroom",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AXIH9qTh9_E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Looking Unto Jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

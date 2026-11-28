@@ -99,9 +99,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ypp3k2xb9eQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ae Khudawand Bata(Lyrics) - Hindi Christian Song | Christ the band.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EPfLE09NDp0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khuda ka Telephone (Hindi Sunday School Song) - Hindi Christian Worship Song (Ashley Joseph)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Wjhz3G2zXi0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mujhse Baat Kar|New Hindi Worship Song|ft.Angela Johnson & Nikita Kunjalia| official Music video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

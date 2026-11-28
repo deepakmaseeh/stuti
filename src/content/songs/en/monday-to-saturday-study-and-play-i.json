@@ -73,9 +73,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "T86lqCXGKlg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Morning worship (live session) | the Heart of Worship | I Could Sing of Your Love Forever",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WhA9AdNOOfA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Morning Worship Playlist 2026 🙏 Songs for Prayer ✝️ Christian/Gospel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UMfrprtGChY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Late Night Christian Study Mix [Background Christian Music Playlist]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

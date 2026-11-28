@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0MWDQ2MKpeQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Saare Jag Mein Teri Prashansha | Vijay Benedict Official Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Xm0HIWVmnFc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सारे जग में तेरी प्रशंसा- Sare Jag me Vijay Benedict | Best Hindi Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5N4CYJX1AH4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "SAARE JAG MEIN, TERI PRASHANSA",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -174,9 +174,32 @@
     "page": null
   },
   "chords": "एक आग हर दिल में\nAm                    Dm      G         Am\nएक आग हर दिल में, हमको जलाना है, (2)\nF                 G         E                 Am\nभटके हुए जीवन को, प्रभु से मिलाना है। (2)\nएक आग हर दिल में,………\n\n          Am         F              Dm               Am\nसंसार की आशा भरी, नज़रे हम ही पर है\nAm         F               Dm           Am\nउद्धार का संदेश भी, कन्धो के ऊपर है\nAm            G              F              Am\nएक दिप से लाखों दीये हमको ज़लाना है (2)\n          F              G           E                 Am\nभटके हुए जीवन को, प्रभु से मिलाना है। (2)\n        एक आग हर दिल में,………\n\n         Am              F       Dm            Am\nइतने सरल ये रास्ते, कल न खुले होंगे\nAm         F              Dm            Am\nप्रचार के अवसर हमें, हासिल नहीं होंगे\nAm            G                 F           Am\nतैयार रहना कल हमें, खुद को मिटाना है (2)\n          F               G          E                 Am\nभटके हुए जीवन को, प्रभु से मिलाना है। (2)\n        एक आग हर दिल में,………\n\n         Am           F               Dm            Am\nबरबाद इस संसार की, हमको चुनौती है\nAm            F             Dm           Am\nज़ोखिम भरे ये रास्ते, तकलीफ होती हैं\nAm            G               F               Am\nरूकना नहीं झुकना नहीं, बढ़ते ही जाना है (2)\n          F               G          E                 Am\nभटके हुए जीवन को, प्रभु से मिलाना है। (2)\n       एक आग हर दिल में,………",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5z2ZTYd4dw0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "इक आग हर दिल में - Ek Aag Har Dil Mein (Lyric Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zQp1R4EcNIs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ek Aag Har Dil Mein | एक आग हर दिल में | Hindi Christian Worship | Gospel Message Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "o_SrnGVAOws",
+      "start": 0,
+      "kind": "lyric",
+      "title": "एक आग हर दिल में ek aag har dil me. HINDI CHRISTIAN SONG VIDEO #JESUS SONG#WHORSHIP SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

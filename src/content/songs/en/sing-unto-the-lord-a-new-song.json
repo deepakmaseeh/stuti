@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "s7Muw505ql4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sing unto the Lord | Anil Kant | Shreya Kant",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HutuRGual_w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sing unto the lord a new song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "xvRCtjLq80o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sing Unto the Lord | Anil Kant | English Christian Worship Song Lyrics | Yeshu Raag",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

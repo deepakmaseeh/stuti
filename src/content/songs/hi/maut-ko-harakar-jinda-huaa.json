@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": "मौत को हरा कर जिंदा हुआ, जिंदा हुआ है मसीह\nमहिमा से भरी नयी देह पाकर, जिंदा हुआ है मसीह\nवो जिंदा हुआ, जैसे उसने कहा था (2)\n\n\nऐ मौत तेरा ज़ोर अब कहाँ, अब तू बोल तेरा डंक है कहाँ\n       तुझे यीशु ने पराजित किया, तेरा कोई न काम अब यहाँ\n       वो जिंदा हुआ, जैसे उसने कहा था (2)\nमौत को हरा कर......\n\n\nजो यीशु पर ईमान लाएगा, वो कभी भी मरेगा नहीं\n       उसके पाप सारे होंगे क्षमा, उसमें श्राप का कोई ज़ोर ही नहीं\n       वो भी जिंदा रहेगा, प्रभु यीशु की तरह (2)\n        मौत को हराकर......\n\n जिंदा हुआ है मेरा खुदा है (4)\n        आओ उसके दर्शन कर लो, यीशु की जय जयकार कर लो (2)\n        वो जिंदा हुआ, जैसे उसने कहा था  (2)\n मौत को हराकर.......",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "n-_ITMJJD7k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maut ko harakar Jinda hua masih ( मौत को हराकर जिंदा हुआ मशीह ) masihi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qrXcknMrsUA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Song:- Christ has come alive after defeating death. Christian Hindi Song with lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5sWRokdu7SU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HINDI EASTER SONG | Zinda Hua (Official) | Hindi Christian Song | Pastor Joy Gill",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

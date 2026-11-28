@@ -157,9 +157,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "V4dR_zuB3qk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ancient of Days (Live) - Ron Kenoly",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fNS4w-R-5Ew",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blessing And Honor // Terry MacAlmon // Heart of Worship Conference 2010",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eejxamfk5j0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Glory, Honor, Power | Influence Music, Melody Noel, & Matt Gilman | Live at Influence Church",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

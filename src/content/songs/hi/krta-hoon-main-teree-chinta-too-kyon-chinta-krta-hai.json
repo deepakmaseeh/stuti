@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ri-DgFpveDE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Karta hun main teri chinta | Hindi christian worship song | Best christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1erHfQO7WXw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Karta Hu Mai Teri Chinta Tu Chinta Kyo Karta hai करता हुँ मैं तेरी चिंता तु चिंता क्यों करता है Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "F4s4j56J2UQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Karta Hu Main Teri Chintaa",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

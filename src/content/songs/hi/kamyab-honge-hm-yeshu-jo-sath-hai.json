@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "OD5GnVLX6XA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaamyab Honge Hum Yeshu Jo Saath Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-hAPY1MKZTU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hum Nahi Dareinge Yeshu Humare Sang\" Best Praise And Worship Song | New Jesus Song | मसीही गीत Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Froov51nIQk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaamyab Honge Hum Yeshu Jo Saath Hai | Jesus Hindi Song | Dance Cover 09 | Tog Church Bangladesh",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

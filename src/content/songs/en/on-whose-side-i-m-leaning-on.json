@@ -74,9 +74,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5yI2kvmtcUc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Leaning On (Official Music Video) | Stephen McWhirter – Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "oPOnYUAYs9s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "LEARNING HOW TO LEAN ON YOU - THE ASIDORS 2026| Christian Worship Ballad",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9ZM5V0xPpYA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Are You Leaning on The Lord's Side /Sunday School Song / Bible Action Song / Kids Praise Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

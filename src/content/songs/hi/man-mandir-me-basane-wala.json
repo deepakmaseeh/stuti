@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": "मन मन्दिर में बसने वाला\n\n             Dm    C      Bb    Dm                 C       Dm\nकोरस:- मन मन्दिर में बसने वाला, (2) यीशु तू है निराला। (2)\n             Dm                               C                            Dm\nजिसके मन में तू जनम ले, अविनाशी आनन्द से भर दे; (2)\n Dm                                          C                 Dm\nआदि अनन्त और प्रीति रीत की, (2) जल जायेगी ज्वाला। (2)\n\nDm                               C                         Dm\nपाप में दुनिया डूब रही थी, परम पिता से दूर रही थी; (2)\nDm                                           C                   Dm\nमहिमा अपनी आप ही तज कर, (2) रूप मनुष्य ले आया। (2)\n\nDm                              C                           Dm\nप्रेम हमें अनमोल दिखाया, प्रेम के खातिर रक्त बहाया; (2)\nDm                                         C                  Dm\nक्रूस पर अपनी जान को देकर, (2) मौत से हमें छुड़ाया। (2)\n\nDm                            C                            Dm\nहर विश्वासी प्रेम से आये, खुशी से अपनी भेंट चढ़ाए; (2)\nDm                                         C                  Dm\nअन्धकार अब सब दूर हुआ है, (2) मन में हुआ उजाला। (2)\n\n\n                                                             (D/39)\n                                                 The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "NrrhtZV8R1k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Man mandir me basne wala yeshu tu hai nirala ll Hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "M-XvcZ4TgFk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "hindi Christian song l Maan mandir me basne Wale l मन मंदिर में बसने वाले l Lyrics Hindi , English",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TE7TBFmTMos",
+      "start": 0,
+      "kind": "lyric",
+      "title": "He Who Dwells Within the Temple of the Heart | Hindi Christian Worship Song | Hindi Christian Dev...",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

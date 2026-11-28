@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "B4aX8uU4PCg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Have Decided To Follow Jesus - Ximdrake Asidor | THE ASIDORS",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "L7XHeCZB5KU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Have Decided to Follow Jesus - Lydia Walker | Lyric Video | Christian Music Playlist | Top Hymns",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ctoVQZndR5U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Have Decided To Follow Jesus | An Anthem for Persecution | Persecution Relief",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

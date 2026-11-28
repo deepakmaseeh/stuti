@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5p-gkCq82i0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tera Naam Sabse Uncha Hai (YESHUA)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dU86ONZfOrQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yesu Tera Naam | Stella Ramola Latest Worship Songs | Jesus Calls",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iQ-xgBJvlhE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshua Ministries - Sabse Uncha (Yeshua)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

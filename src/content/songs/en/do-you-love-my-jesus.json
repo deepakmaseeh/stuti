@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "NLQertQmuNg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Do You Love my Jesus Children Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AxWdsHUUWPc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Do You Love My Jesus? - Action Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-H54cPpKunk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Do You Love my Jesus - Children Action Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

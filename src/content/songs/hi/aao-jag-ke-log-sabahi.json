@@ -142,9 +142,32 @@
     "page": null
   },
   "chords": "आओ जग के लोग सब ही\nकोरस:- आओ जग के लोग सब ही, यीशु राजा बुलाता है (2)\nजग में जिसका स्थान नहीं है (2)\nजग में जिसका मान नहीं है (2)\nराज्य तुम्हें देने के लिए (2)\nयीशु राजा बुलाता है।\n\nसिर पर काँटो का ताज निशानी (2)\nछाप है उसकी बहती पसली (2)\nछेदे हाथ पसारे हुए (2)\nयीशु राजा बुलाता है।\n\nआओ भाईयों आओ बहनों (2)\nआकर उसको परखो देखो (2)\nसारा भार उठाने के लिये (2)\nयीशु राजा बुलाता है।\n\n\n\n\n\n\n\n\n\n                                                            (A/17)\n                                                                                      The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3kybGmLGZPQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आओ जग के लोग सब ही || Hindi Worship Song || Navjeevan City Fellowship #motivation #faith #2025",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "T_h7NgUrvqI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Awo Jag Ke Log Sab Hai - Masihi Sangati Zaipawl Presbyterian Church Bawngkawn",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "j96tuYgCWfc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Jag Ke Log Sab He | Hindi Gospel Hymn | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

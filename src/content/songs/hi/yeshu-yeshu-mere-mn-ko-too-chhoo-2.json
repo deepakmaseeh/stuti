@@ -137,9 +137,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5Rsv2WwYrDo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "😭Tuta Tha Main/ टूटा था मैं/ यीशु तूने छू लिया / Lyrical New Hindi Christian Worship Song Video 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lHL7RsDg90I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येसु छू येसु छू - Yesu Chu Yesu Chu - Christian Worship Song Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "njgnqARK5G0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Yeshu Mere Man Ko Tu Chu | Hindi Christian Songs |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

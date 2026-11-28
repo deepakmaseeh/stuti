@@ -161,9 +161,32 @@
     "page": null
   },
   "chords": "ओ मैंने पहले से कह दइ मसीह\n\n          D      Bm   A   D            Bm              A    D\nकोरस:- ओ मैंने पहले से कह दइ मसीह मरियम को जायो रे (2)\n         D      G                    D        Em                  A\n         मसीह मरियम को जायो रे मसीह मरियम को जायो रे\n\n            A                D               G                D\n स्वर्ग लोक से चला फ़रिश्ता डिग मरियम के रे (2)\n       G            D                 Em            A\n       मरियम से वो यूँ कर बोला तेरे बेटा होगा रे\n         D       Bm    A  D\n          ओ मैंने पहले से कह........\n\n           A            \t             G              D\n  ये सुन कर के मरियम बोली सुनो फ़रिश्ता रे (2)\n  G              D               Em        A\n  ब्याह हुआ न अब लो मेरा कैसे होगा रे\n    D         Bm  A  D\n           ओ मैंने पहले से कह........\n\n           A            \t              G            D\n ये सुनकर के फ़रिश्ता बोला मैं समझाऊँ रे (2)\n            G            D         Em                  A\n            खुदाबाप की कुदरत तोह पे साया डाले रे\n               D       Bm  A  D\n           ओ मैंने पहले से कह.......                            (G/32)\n                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "u5hxVGPXv1w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "o mainne pahale | Official Music Video | Music for Jesus | with lyrics | se kah dai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZPRmo8dV6P4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "O Maine Pehle Se | ओ मैंने पहले से | Hindi Christmas Song 2022 | Vijeta Taylor",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "IgijeQPktys",
+      "start": 0,
+      "kind": "lyric",
+      "title": "O Maine Pehle Se Keh Di | Hindi Christian song | Hope Of Life Church #jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

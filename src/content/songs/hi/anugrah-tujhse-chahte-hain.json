@@ -119,9 +119,32 @@
     "page": null
   },
   "chords": "अनुग्रह तुझसे चाहते है\n\n                 G                                      C          D               G\n   कोरसः- अनुग्रह तुझसे चाहते हैं,  हे स्वर्गीय पिता हम आते है। (2)\n\n G                                   C                   D          G\nकोई खूबी है न लियाकत, बख्शो हमको अपनी ताकत (2)\n            G                       C    G               C          D               G\n            खाली दिलों को लाते हैं। (2) हे स्वर्गीय पिता हम आते है\n\n                G                                   C                  D          G\nहमने बहुत खताएँ की हैं, रहे निकम्मे जफाएँ की हैं, (2)\n                 G                      C    G               C         D               G\n           शर्म से सिर झुक जाते हैं। (2) हे स्वर्गीय पिता हम आते हैं।\n\nG                                   C                   D             G\nतुम हो शक्तिमान प्रभुजी, कुदरत तुम्हारी शान यीशु जी (2)\n           G                        C    G            C          D               G\n           हम्द-ओ-सन्ना हम गाते हैं (2) हे स्वर्गीय पिता हम आते हैं।\n\n                 G                                C                  D        G\nबंदे को तू कभी न भूले, दुःख सहे दुनियाँ में तूने, (2)\n                G                     C    G              C          D               G\n           उसी प्यार को चाहते हैं। (2) हे स्वर्गीय पिता हम आते हैं।\n\n\n                                                                                   (A/3)\n                                                                    The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "EiNmdW7jqcg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आशीष तुझसे चाहते हैं | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "U9DT1ZFRRnk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आशीष तुझसे चाहते हैं Aashish Tujh Se Chahte Hai - Lyrical",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ynCJJ27xxX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anugrah Chahte Hai | अनुग्रह चाहते है | New Masihi Geet | Samuel Stephen | Official Music Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

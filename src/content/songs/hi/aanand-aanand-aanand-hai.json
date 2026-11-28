@@ -171,9 +171,32 @@
     "page": null
   },
   "chords": "आनन्द आनन्द आनन्द है\n\n           Dm           C     Dm\t     Dm   B\t   C         Dm\n   आनन्द आनन्द आनन्द है, (2) अब्दी मुहब्बत से हमें प्रेम किया, (2)\n           Dm  C   Dm     C     Bb        C     Dm\n         अपना बेटा हमें बना लिया, ये हमारा सौभाग्य है। (2)\n    Dm\t     C    Dm      Dm\tC       Dm\nकोरस:-  हल्लेलुय्याह सदा गायेंगें, (2) हम प्रभु यीशु के लिए। (2)\n\nDm\t\t     C    Dm\t  Dm   B\t\t  C        Dm\n1.\tआनन्द आनन्द आनन्द है, (2) आनन्द के तेल से मस्सा किया है, (2)\nDm\t C       Dm    C   Bb        C      Dm\nपवित्र स्थान में दाखिल हुए, ये हमारा सौभाग्य है। (2)\n\nDm\t\t    C    Dm\t  Dm   B\t\t  C        Dm\n2.\tआनन्द आनन्द आनन्द है, (2) प्रभु की स्तुति करना आनन्द है, (2)\nDm    C      Dm C   b        C       Dm\nप्रभु की सेवा करेंगें सदा, ये हमारा सौभाग्य है। (2)\n\nDm\t\t    C     Dm\t Dm     B\t\t C      Dm\n3.\tआनन्द आनन्द आनन्द है, (2) प्रभु के आगमन की खुशी है, (2)\nDm\t  C         Dm     C\t   Bb       C       Dm\nले जाएगा हमें ललकार के साथ, ये हमारा सौभाग्य है। (2)\n\nDm\t\t    C    Dm\tDm       Bb      C     Dm\n4.\tआनन्द आनन्द आनन्द है, (2) सिय्योन जलाल में वास करेंगें, (2)\nDm\t   C    Dm     C  Bb\t\t C     Dm\nपिता के दाहिने बैठ जायेंगें, ये हमारा सौभाग्य है। (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "T5ieLDPj040",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand Hi Anand Hai | FOLJ Version",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nVAR3ItpUyA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आनन्द आनन्द आनन्द है (Aanand Aanand Aanand Hai)| Lyrics Video #TrueWorshipersOfLivingGod",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rNO7Q6Ku-pw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand hi anand hai आनंद ही आनंद है | Hindi worship song | Live at FOLJ CHURCH @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -122,9 +122,32 @@
     "page": null
   },
   "chords": "यीशु जैसा कोई नही, उसके जैसा कोई नहीं\n यीशु जैसा कोई नही, कोई नही\n मैं चलता चलता रहा यहां वहा\n मैंचलता चलता रहा यहां वहां\n मैं चलता चलता रहा यहां वहां, कोई नही\n मैं देखता देखता रहा यहां वहां\n मैं देखता देखता रहा यहां वहां\n मैं देखता देखता रहा यहां वहां, कोई नही\n मैं घूमता घूमता रहा यहां वहां\n मैं घूमता घूमता रहा यहां वहां\n मैं घूमता घूमता रहा यहां वहां, कोई नही\n मैं पूछता पूछता रहा यहां वहां\n मैं पूछता पूछता रहा यहां वहां\n मैं पूछता पूछता रहा यहां वहां, कोई नही",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "acZOy1XIOhA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESHU JAISA | ACTION SONG | MILESTONE | EXCEL VBS 2026 | Hindi Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "orvbYciKTDw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Jaisa Koi Nahi // New Hindi Worship Song | Persis John",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RamNhoCpCXA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "yeshu jaisa koi nahi//gospel action dance//Hindi action dance// dance video//tutorial//",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -85,9 +85,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1tF57RBL0vk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Cast Your Burdens unto Jesus | Swahili Gospel Worship Song With Lyrics | God Knows Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qjuU3qPuGGg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Cast Your Burdens (Live) - Lyric Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-VErDbMDZok",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Cast Your Burdens (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

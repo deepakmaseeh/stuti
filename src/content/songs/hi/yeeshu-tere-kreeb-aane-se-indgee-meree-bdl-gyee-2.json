@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "IuoNhpwGmHM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tere Karib(Lyrics) - Hindi Christian Song | Mark Tribhuvan | Christ the band.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6r2buCiTdO0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं धन्यवाद करता रहूँगा || Yeshu Tere Kareeb Aane Se || Live Worship with Brother Mark Tribhuvan Ji",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wcTPTNiaL9I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं धन्यवाद करता रहूँगा || Yeshu Tere Kareeb Aane Se || Live Worship with Brother Mark Tribhuvan Ji",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

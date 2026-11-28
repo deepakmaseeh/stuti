@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "nxyODC69vl8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hamesha aanand hai, | हमेशा आनन्द है, मुझे यीशु देता है | Lyric Video | Song no 128 | Malad FGPC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Bpoxz61tRRk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hamesha Aanand Hai Mujhe Yeshu Deta Hai {Song With Lyrics} Gospel Of Yeshua",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YV-op1MOsAQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hamesa Aanand Hai | Jai Ke Geet - Hindi | Father S J Berchmans",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

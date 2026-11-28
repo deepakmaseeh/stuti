@@ -264,9 +264,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "eQZLZ9fIzdk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lakdi pe latka nasri",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "f4mdvUxNsdc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lakdi Pe Latka Nasri | Ps Ernest Mall",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "l6D7U_9oSI8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lakri Pe Latka Nasri",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

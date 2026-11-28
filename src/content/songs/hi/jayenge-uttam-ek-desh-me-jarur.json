@@ -137,9 +137,32 @@
     "page": null
   },
   "chords": "जाएँगे उत्तम एक देश में ज़रूर\n\n   E                    A            B                        E\nकोरस:- जाएँगे उत्तम एक देश में ज़रूर, रहेंगे प्रभु के साथ हम ज़रूर। (2)\n         E                              B                  A     E\n         स्वर्गीय देश उत्तम भी वह है, हमारा वह देश जो अद्भुत है। (2)\n\n       E                                   B\nपिता को भाया है, हमें एक राज्य दे;\n   A                     B             E\n      दुनियाँ की सृष्टि से, पहले बनाया है।\n\n      E                                  B\nअद्भुत वह नगर है, प्रभु की रचना है;\nA                       B              E\n      दृढ़ता से नींव डाली, स्थिर भी किया है।\n\n      E                                    B\nपवित्र नगर वह है, धार्मिकता रहती है;\nA                   B               E\n      स्वर्गीय स्वभाव से, तैयार भी किया है।\n\n       E                                    B\nप्रभु को देखेंगे, आनन्द से भर जाएंगे;\nA                    B                 E\n      उसके समान होंगे, हमारा जीवन वह है।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qAHlJOHIPM8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "JAAYEGE UTTAM EK DESH MEIN || MASIHIGEET ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1uuXU1i4UFk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "JAYENGE UTTAM EK DESH ME JARUR - SIYON KE GEET - Bro. Hanock Sen",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iqaR671TxkM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jaayenge Uttam Desh Mein\" (వెళ్ళెదం శ్రేష్టదేశం నిజము) | जाएंगे उत्तम देश में ज़रूर | Benedict M",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

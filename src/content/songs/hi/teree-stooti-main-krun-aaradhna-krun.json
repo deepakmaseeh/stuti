@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mQERMsjcnZI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "STUTI STUTI ARADHANA | Hindi Worship Song | Viral Christian Praise | WayToParadise Official",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XsVYtqdVjB4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New song|| Karu main teri Stuti ||Pallavi shradha ||Aradhna song 2021",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KjsNst71igU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Stuti Mein Karu | Official Music Video - Joseph Raj Allam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -109,9 +109,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3f_d1igFsno",
+      "start": 0,
+      "kind": "lyric",
+      "title": "है स्वर्गीय पिता हो धन्यवाद.Hey Swargiy Pita ho Dhanyawad.Christian song(Cover song )video & lyrics.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "S66yvrOzSAw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Wilson George || Hey_Swargiya_Pita_Ho_Dhanyawad_||Hindi_Christian_Song||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "apTcN3Zl7vc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे स्वर्गीय पिता हो धन्यवाद💟✝️🙌 हिंदी मसीह सॉन्ग ll #jesus #hindichristiansong #masihsong #jesuslove",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

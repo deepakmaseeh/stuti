@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "lMlVkTiPy2A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आनन्द है परमआनंद है hindi Urdu Christian worship song by-RJCOUNSELOR",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GSM3qsQ8P6A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Haazir (Live) - Bridge Music ft. Nehemiah Kulo, Philemon Anand & Karen George",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Bau_qc3oI8I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु के साथ जीना कितना आनंद है | Hindi Christian Song | Jesus Worship Song | New Christian Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

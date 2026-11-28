@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": "D              G                   A         D    D              G                    A      D\nमेरे जीवन में तेरी यीशु ज़रूरत है, मेरे जीवन में तेरी यीशु ज़रूरत है\n            D                 G               A                     D\nतेरे बिना मैं कैसे जीयूँ? कैसे जीयूँ तेरे बिन?\n    D               G               A                    D\n  पाप पर मैं कैसे जीतूँ? मुख देखे तेरे बिन\n     D                 G                                         D\n       वचन पे भी मन ला लागे, तू सिखाए ना तो-2\n            D              Em   Asus4     A             D\n       व्यर्थ जीवन मुरझा जाए, तू रहे ना तो-२\n        D\nओ, मेरे जीवन में प्रभु\n\nमेरे जीवन में तेरी यीशु  ज़रूरत है, मेरे जीवन में तेरी यीशु ज़रूरत है\n       D                 G                    A                 D\nभटकूँ तो मैं कहाँ जाऊँ?, घेरा तूने जो है,\n D               G                    A                    D\nदर्शन माँगू पल-पल तेरे, नम्र इस दिल से\nD                 G                                         D\n       तेरे लहू के पाक बहाव में, मुझको शुद्ध कर दे-2\n       D              Em        Asus4    A                 D\n       इस शरीर मंदिर में हरदम, तेरी प्रसन्नता रहे-2\n\nहो, मेरे जीवन में प्रभु\n\nमेरे जीवन में तेरी यीशु  ज़रूरत है, मेरे जीवन में तेरी यीशु ज़रूरत है",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "iWrXAYGqAKk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Jeevan Main Teri Yeshu (with Lyrics) SHELDON BANGERA || Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "d-zHYrfPN58",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sheldon Bangera - Mere Jeevan (In My Life)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "f4wWZrBBAgM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Jeevan - Sheldon Bangera (Lounge Version)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

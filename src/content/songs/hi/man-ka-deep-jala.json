@@ -105,9 +105,32 @@
     "page": null
   },
   "chords": "मन का दीप जला जीवन दीप जला\n\n            E\t\t      A        B\t\t    E\nकोरसः- मन का दीप जला, जीवन दीप जला\n\t    A     B     E   B\t\t    E\n \t   ख्वाबों में खोया है, जाग ज़रा मतवाले। (2)\n\n E\t            A             E\nसच ये बता दे तेरे मन में, रात ये कैसी छाई ?\n     E\t\t     A\t            E\n      अच्छा नहीं है देख संभल जा, यीशु से है जुदाई,\n\t E\t     A          B             E    A       B\n      यीशु को अपना। यीशु को अपना। ख्वाबों में ......\n\nE\t\t      A\t         E\nयह दुनियाँ है ख्वाब सुनहरा, इस में जो फँस जाए,\n     E\t       A             E\n      रोए तड़पे चैन न पाए, घुट- घुट कर मर जाए,\n\t  E\t              A     B                E     A    B\n      मन का मैल धुला। मन का मैल धुला। ख्वाबों में ......\n\n E\t      A\t\t                  E\nयीशु को तू अपने जीवन में, अपना मीत बना ले,\n     E\t\t          A                 E\n      छोड़ दे अब यह दुनियाँ सुनहरी, दुनियाँ से मन तू फिरा ले,\n        E\t          A    B             E     A      B\n      होगा तेरा भला। होगा तेरा भला। ख्वाबों में ......          (D/23)\n                                                                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BBobFzJOmOs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन का दीप जला जीवन दीप जला,ख़्वाबों में तू खोया है......",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "y4uV2PjkAbU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Man Ka Deep | मन का दीप | Hindi Christian Song | Filadelfia Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BQNMj4tl5_U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन का दीप जला Mann Ka Deep Jila Christian Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

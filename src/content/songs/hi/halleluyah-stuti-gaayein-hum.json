@@ -131,9 +131,32 @@
     "page": null
   },
   "chords": "हाल्लेलुयाह स्तुति गाएं हम\n\nEm          D           Em\nकोरसः- हाल्लेलुयाह स्तुति गाएं हम  (गाएं हम )\n         Em        D          Em\nयीशु की स्तुति गाएं हम (गाएं हम )\nEm            D                      Em                  C      Em\nहा.......हाल्लेलुयाह.........हाल्लेलुयाह………हाल्लेलुयाह (2)\n\nEm                                D     Em\nक्रूस पर बलि द्वारा ,अपना लहू बहाया (2)\n      Em                   D        C             Em\n पाप को हटा कर माफ है किया हमको बचा लिया (2)\n\nEm                              D               Em\nयीशु के पास आओ, और मुक्ति को अपनाओ (2)\n      Em                  D              C               Em\n शान्ति वह देगा ,साथ अपना लेगा कभी नहीं छोड़ेगा (2)\n\nEm                            D               Em\nइस जीवन भर मैं ,सदा तुझको याद करूँगा (2)\n      Em                     D                 C                 Em\n तेरा वचन पढ़कर, तेरी इच्छा जान कर आगे ही बढ़ता रहूँगा (2)\n\n\n\n\n                                                                               (F/62)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LhQWls6HXeE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हालेलुयाह स्तुति गायें हम (Hallelujah Stuti Gaye Hum) | Lyrics Video |#TrueWorshipersOfLivingGod",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AHXY6epW7mU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hallelujah Stuti Gau Sada हालेलूय्याह स्तुति गाऊं सदा / New Hindi Masih Song /Aatmik Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Tr94PedY_PQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hallelujah Stuti Gaye Hum, Yeshu Ki Stuti Gaye Hum | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

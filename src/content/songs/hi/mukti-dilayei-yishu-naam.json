@@ -100,9 +100,32 @@
     "page": null
   },
   "chords": "मुक्ति दिलाए यीशु नाम\n\n           E                         A      D                         E\n  कोरस:- मुक्ति दिलाए यीशु नाम, शान्ति दिलाए यीशु नाम (2)\n\n\n                 E                  D                E\nचरनी मे तूने जनम लिया यीशु, (2)\n                            A       D                   E\n                 क्रूस पे हुआ कुरबान, क्रूस पे हुआ कुरबान ।\n\n\n                    E                    D           E\nक्रूस पर अपना खून बहाया, (2)\n                                  A       D                E\n           सारा चुकाया दाम, सारा चुकाया दाम।\n\n                       E                    D        E\nयीशु दया का गहरा सागर, (2)\n                                      A        D                 E\n           यीशु है दाता महान, यीशु है दाता महान ।\n\n               E                D              E\nहम सबके पापों को मिटाने, (2)\n                                      A       D                 E\n                  यीशु हुआ बलिदान, यीशु हुआ बलिदान।\n\n                       E                 D              E\nहम पर भी यीशु कृपा करना, (2)\n                                  A      D                E\n           हम हैं पापी नादान, हम हैं पापी नादान।        (G/26)\n                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "CoMss9lfHXc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukthi Dilaye Yeshu Naam - Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mZ1sbes9TSk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukti Dilaye Yeshu Naam | मुक्ति दिलाये यीशु नाम",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dzXvWWCTI-Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukti Dilaye Yeshu Naam | मुक्ति दिलाये यीशु नाम",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

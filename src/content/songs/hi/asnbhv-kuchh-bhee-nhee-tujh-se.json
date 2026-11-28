@@ -192,9 +192,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rfKn3d1r5RQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मुश्किलें कितनी भी हो असंभव कुछ नहीं with lyrics lyrics & music by pastor Wilson George",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "L-IwVMUSWy4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sambhav Hai Sab Sambhav Hai Tuz Mean Sab Kuchh | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "QdOsim1oMVc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Asambhav Kuch Bhi Nahi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

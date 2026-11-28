@@ -168,9 +168,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZylDHOnWStA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pavitra Mujhe Bana De Prabhu | पवित्र मुझे बना दे प्रभु | Hindi Christian Song | Filadelfia Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "O4lkvr7aK0s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पवित्र मुझे बना दे प्रभु,शुद्ध मुझे कर दे प्रभु ताकि तेरे जैसा दिखूं | मसीह गीत | आराधना गीत | यीशु",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ksi6s-zF82A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पवित्र मुझे बना दे प्रभु | Hindi Christian Devotional Lyrical Song | Worship Song 2026 ✨",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

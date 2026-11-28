@@ -105,9 +105,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "SERyiQNyiNc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu teri daya se | Mai jivan jita hun | Jesus song hindi | masih Geet | new geet masih",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0jcroEeb8vk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Teri Dya Se || येशु तेरी दया से || Lyrical Worship Song With Apostle Ramsewak Ji #worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XqEldXI6Gws",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tera Dhanyawad | Yeshu Teri Daya Se | येशु तेरा धन्यवाद | Sunny Vishwas |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

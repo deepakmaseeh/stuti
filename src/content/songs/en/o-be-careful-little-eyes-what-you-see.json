@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pqFrXwpTI-w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "O be careful little eyes Cedarmont kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PsTWc_tAGts",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Cedarmont Kids - O Be Careful Little Eyes",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "h6uMxQn0gZw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Be Careful Little Eyes",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

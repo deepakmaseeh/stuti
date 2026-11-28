@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "6ierk5ouNgU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "LORD I LIFT YOUR NAME ON HIGH | Lado B, Vol. 2 - English Session | Grupo Versos (Cover Vídeo)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OiI_1H7qGgc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lord I Lift Your Name On High | Old Sunday Morning Praise and Worship Songs Playlist",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gTpeIsr3ED4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lord I Lift Your Name On High - Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -85,9 +85,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KZ6XpU-ISIw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Karte Hai Teri Hum Stuthi - करते हैं तेरी हम स्तुति",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nBFFnr51nnc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Karte Hai Teri Hum Stuti",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TH80NNxi5bo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "करते है तेरी हम स्तुति, हृदय की गहराईयों से हिंदी गीत| Karte hai teri ham stuti song| Worship song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

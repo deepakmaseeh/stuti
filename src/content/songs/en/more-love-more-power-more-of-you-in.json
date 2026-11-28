@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "HbB89qjDglU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MORE LOVE, MORE POWER - Popular Christian Hymns & Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "a1qOOIuU0Ys",
+      "start": 0,
+      "kind": "lyric",
+      "title": "More Love More Power (feat. Jane Tiller)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zBVzsvHG_BI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "More Love, More Power",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

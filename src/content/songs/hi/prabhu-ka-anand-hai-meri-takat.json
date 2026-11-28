@@ -139,9 +139,32 @@
     "page": null
   },
   "chords": "प्रभु का आनन्द है, मेरी ताकत\n\n         E                    A             B                        E\nप्रभु का आनन्द है, मेरी ताकत संसार में यीशु है, मेरी ताकत\nE                A                B        A\n      वो मेरा आनन्द, हर एक दिन में वो मेरा सहारा है।\nE                A                B       A     E\n      वो मेरा आनन्द, हर एक दिन में वो मेरा सहारा है\n      प्रभु का आनन्द है, मेरी ताकत.....\n\n         E                                                    A      B\nजब मैंने सोचा मैं अकेला हूँ, तब प्रभु यीशु ने मुझसे कहा,\n E                    A                 B         A   E\n       संसार के अंत तक, साथ रहने वाला मैं तेरे साथ हूँ,\n E                    A                 B      A   E\n       संसार के अंत तक, साथ रहने वाला मैं तेरे साथ हूँ।\n       प्रभु का आनन्द है, मेरी ताकत.....\n\n         E                                                   A      B\nजब मैं ने सोचा मैं निर्बल हैं तब प्रभु यीशु ने मझसे कहा,\n E                  A              B      A    E\n   शक्ति देने वाला सामर्थ देनेवाला मैं तेरे साथ हूँ,\n E                  A              B      A   E\n   शक्ति देने वाला सामर्थ देनेवाला मै तेरे साथ हूँ।\n   प्रभु का आनन्द है, मेरी ताकत.....\n\n         E                                                    A      B\nजब मैंने सोचा कि असंभव है तब प्रभु यीशु ने मुझसे कहा,\n E                   A                 B         A  E\nअसंभव को संभव करने वाला यीशु मैं तेरे साथ हूँ,\n E                   A                 B        A   E\nअसंभव को संभव करने वाला यीशु मैं तेरे साथ हूँ\n   प्रभु का आनन्द है, मेरी ताकत.....",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "OZPiMkla-d0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu _Ka_ Anand_ Hai_ Meri_ takat || Hindi Jesus🎶 song🎶 Lyrics ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yKmE8XSAqBU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु का आनंद है मेरी ताकत | Prabhu Ka Anand Hai Meri Takat | Hindi Christian Classic | HozannaSongs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "bFo_ApcApX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु का आनंद है मेरी ताकत Prabhu ka anand hai meri takat",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

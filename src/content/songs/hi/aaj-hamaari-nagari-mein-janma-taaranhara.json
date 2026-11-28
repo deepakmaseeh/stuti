@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": "आज हमारी नगरी में जन्मा तारणहारा\n\n         D                G   D     G      D\nकोरसः आज हमारी नगरी में, जन्मा तारणहारा। (2)\n         D       G      D\n       यीशु नाम है उसका, पुत्र है वह ईश्वर का; (2)\n             G                   A        D\n       यह खुशियाँ दिल में समाएं न, आज हमारी...\n\n        D    G    A  D                G    A    D\n दूत मिले हैं मेषपाल से, खुशखबरी सुनाने को;\n D    G    A    D     G       A       D\n       ज्ञानियों ने भी देखा है, सुन्दर तारा पूरब में।\n         D        G         D                    G        D\n       कैसी बात है यह अजब, समझ न आये क्या है गजब (2)\n             G                   A\n       यह खुशियाँ दिल में समाएं न, आज हमारी ...\n\n       D      G    A         D           G   A        D\n कितना पावन है यह दिवस, जब पापी ईश्वर से मिले;\n D      G    A    D                 G  A    D\n       जिसने पाया दर्शन प्रभु का, उसके सारे पाप मिटे।\n       D              G       D            G        D\n       मुझको मिला नया जीवन, मन मेरा हुआ पावन; (2)\n            G                 A\n       यह खुशियाँ दिल में समाएं न, आज हमारी...\n\n                                                                    (G/3)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "wSia9aRbglg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaj Hamari Nagri Me Janma Taranhara || आज हमारी नगरी में जन्मा तारणहारा @Ankit Sajwan Ministries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4fr09Ekj1DI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaj Hamari Nagri Me Janma Taranhara || आज हमारी नगरी में जन्मा तारणहारा @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FnGenlTp4Dw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaj Humari Nagri Me Janma Taranhara by Reena Jadhav (Hindi Christmas Song)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

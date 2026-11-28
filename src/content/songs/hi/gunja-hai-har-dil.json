@@ -137,9 +137,32 @@
     "page": null
   },
   "chords": "गुन्जी है हर दिल में, कोई प्यारी सी एक धुन\n Dm                       C              Bb\nकोरस:-  गुन्जी है हर दिल में, कोई प्यारी सी एक धुन\n             Gm             C            Dm\nवो तारा जब देखा, सब हो गये मगन\n Dm                C               Bb\nऑखों में आशा के, उनके जागे ये किरन\n Gm               C               Dm\nआलम बदल गया, झूमें धरती और गगन…….. गुन्जी है हर दिल में...\n\nDm                            C\nएक दूत वहाँ आया देने को दर्शन\n           Gm   C           Dm\nचरवाहे डर गये, और हो गये बेदम\nDm              C\nउस दूत ने कहा, जाओ तुम भी बैतलहम\n                  Bb          Dm\nचरनी में पाओगे, प्रभु यीशु के दर्शन\nDm                 C            Dm\nपाके इतनी खुशियाँ, सब हो गये मगन\n   Gm            C         Dm\nवो तारा जब देखा, सब हो गये मगन…….. गुन्जी है हर दिल में...\n\n Dm                                  C\nएक बालक ने रखा, इस दुनियाँ में कदम\nBb         Gm   C           Dm\nजीवन देने हमको, उसने लिया जनम\n Dm                C              Bb\nऑखों में आशा के, उनके जागे ये किरन\nGm                C              Dm\nआलम बदल गया, झूमें धरती और गगन…….. गुन्जी है हर दिल में...\n\n     (G/18)                                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qJ8XUpwbs5o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Goonji Hai Is Dil Mein",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2X7lGfsFLOo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Goonji Hai Har Dil Mein | Christmas Special | Hindi Devotional Hymns",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RrcX2BesEIc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Goonji Hai Har dil me Christmas song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

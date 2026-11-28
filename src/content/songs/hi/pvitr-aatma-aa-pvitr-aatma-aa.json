@@ -150,9 +150,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "tmIyoIATlJM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "aa Pavitra Aatma mere Dil mein a yeshu Masih songs lyrics video full song hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Pguq-qROzJQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "AA PAVITRA AATMA MERE DIL ME AA Lyrics आ पवित्र आत्मा मेरे दिल में आ Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "7QUnYlOSNG0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "O 19. हे पवित्र आत्मा आओ आओ He Pavitar Aatma awo awo",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

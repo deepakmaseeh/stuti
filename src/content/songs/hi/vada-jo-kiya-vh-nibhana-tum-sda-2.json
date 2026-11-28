@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "UZ_VDvLUfT8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Song | सर्वशक्तिमान परमेश्वर आप हैं मालिक मेरे दिल के",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "klV2wnDeFJY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ना छोडूंगा प्रभू जीवन भर सदा तेरे साथ चलूंगा/na chodunga Prabhu jeevan bar sada tere saath chalunga/",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FLGUBc3zHYY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "विनती सुनने वाले | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

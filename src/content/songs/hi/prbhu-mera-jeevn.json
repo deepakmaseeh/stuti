@@ -90,9 +90,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rL0kOm6dnE8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu Mera Jeewan | AJIT HORO || @AjitHoro",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gXj4vrr0VOs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु मेरा जीवन | Hindi Christian Song | Hindi Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "U7ZkwO_wK1c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु मेरा जीवन साथी हैं...मेरा एक साथी हैं | prabhu mera jevan sathi hai | Christian|Catholic song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

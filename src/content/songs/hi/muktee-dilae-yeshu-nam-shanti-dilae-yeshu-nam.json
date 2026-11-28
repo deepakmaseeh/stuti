@@ -161,9 +161,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "CoMss9lfHXc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukthi Dilaye Yeshu Naam - Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fPXm4SgV0Nw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मुक्ति दिलाये यीशु नाम शांति दिलाए यीशु नाम // Live Worship Song // Yeshu Ashram Ministries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-PApBxGrT1c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukti Dilaye Yeshu Naam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

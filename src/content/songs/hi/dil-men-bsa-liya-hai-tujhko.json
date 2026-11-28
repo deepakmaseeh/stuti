@@ -154,9 +154,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0N3yA5gTmq4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dil Me Basa Liya / दिल में समा लिया है / WORSHIP SONG / Lyricle Video / #lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "N8XE3Xegg7c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dil mein tujhko Basa Liya Hai Maine|Best Hindi Christian song #jesussonghindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gYyv7S0_vZ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "दिल में बसा लिया है तुझको || 𝐃𝐈𝐋 𝐌𝐄𝐈𝐍 𝐁𝐀𝐒𝐀 𝐋𝐈𝐘𝐀 𝐇𝐀𝐈 𝐓𝐔𝐉𝐇𝐊𝐎 || 𝐍𝐄𝐊𝐕𝐈𝐑 𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐈𝐄𝐒 ",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

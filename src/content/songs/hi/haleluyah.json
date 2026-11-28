@@ -142,9 +142,32 @@
     "page": null
   },
   "chords": "जैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)\nहालेलुयाह, हालेलुयाह, हालेलुयाह, हालेलुयाह (2)\n\nसीने से लगाएगा, चिन्ता सब मिटाएगा (2)\nजैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)\n\nहाथ पकड़ के चलाएगा, चट्टान पर चढ़ाएगा (2)\nजैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)\n\nमेरे कारण घायल हुआ, मेरे पापों को उठा लिया (2)\nजैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)\n\nकभी भी ना छोड़ेगा, कभी भी ना त्यागेगा\nजैसे माता सम्भालती है, वैसे यीशु सम्भालेगा (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7o2QlKJEosQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Alleluia | Dr. Mahima John Arul | Hindi Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "H97NfuP2F5I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ha Ha Ha Hallelujah (हा हा हा हाल्लेलुयाह) - Lyrical Worship Song || Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BShfqjNyYx4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "2 Hours Vocal Hallelujah Music | Peaceful Hindi Christian Prayer & Worship Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

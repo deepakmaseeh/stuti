@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": "यीशु को मैं सब कुछ देता\n\n         D               A                 D                 A     D\n यीशु को मैं सब कुछ देता, सब कुछ करता हूँ कुरबान\n  D            A                  D          A      D\n जीऊँगा मैं रोज मसीह में, उस पर रखूँगा ईमान।\n          Bm          G   A            D\nकोरस:-  सब मैं देता हूँ, सब मैं देता हूँ।\n          D           Bm               A               D\n        तुझी को मुबारक मुन्जी, सब कुछ देता हूँ।\n          D              A                  D            A     D\n2. यीशु को मैं सब कुछ देता, झुकता तेरे कदमों पर\nD                 A            D               A      D\nछोड़ता सारी दुनियाँदारी, मुझे बिल्कुल अपना कर।\n       D             A                  D              A       D\nयीशु को मैं सब कुछ देता, मुझे ले और अपना कर\nD                  A             D          A  D\nदे मकबूलियत की गवाही, हूँ मैं तेरा सरासर।\n        D              A\t\t       D             A     D\n4. यीशु को मैं सब कुछ देता, अभी उसके पाक हुज़ूर\nD\t\t\t   A\t\t    D            A     D\nमुझ में भर दे प्यार और कुव्वत, बरकतों से कर मामूर।\n          D\t\t  A                  D                     A      D\n5. यीशु को मैं सब कुछ देता, रूह की आग अब दिल में है\n D                 A                   D           A        D\nआह! कमाल नजात की खुशी, सन्ना सन्ना उसकी जय।\n                                                                       (E/18)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "4o-lgmnl7YY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sab Mai Deta Hun | I Surrender All | Hindi Christian Cover Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5N3bqUvwMDI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESHU KO MEIN SAB - यीशु को मैं सब",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yMH5EEuhXrI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yesu ko mein Sab kuch deta | Song no 273 | Sakshivani |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "K0NERg1I-oI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Clap Your Hands All Ye People! / Kids Praise & Worship Bible Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VbawdLQXhhg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "O Clap Your Hands All Ye People || @Apostolic Faith Church WECA.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-HYoNF781cw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Clap Your Hands All Ye People",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

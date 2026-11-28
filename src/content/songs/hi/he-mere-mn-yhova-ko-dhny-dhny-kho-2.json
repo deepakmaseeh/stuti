@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "XBHk6jV09hQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे मेरे मन यहोवा को धन्य धन्य कहो-He Mere Man Yahowa Ko dhany dhany kaho-Hindi Christian Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "v04DK_ynCcE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aye Mere Mann Yahowa Ko Dhanya Kah ऐ मेरे मन यहोवा को धन्य कह -New Christian Song ( With Lyrics )",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dQhrnP-W87A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे मेरे मन यहोवा को धन्य धन्य कहो | हिंदी मसीही गीत | HINDI CHRISTIAN SONG | @YESHUA GEETMALA",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

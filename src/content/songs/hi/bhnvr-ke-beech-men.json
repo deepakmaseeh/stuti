@@ -104,9 +104,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Xz9d5_7XfYE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bhawar Ke Beech Mein | Cover | Original by Bridge Music |In the Midst of the Whirlwind| Shalom Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nPV9Fvo59L0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chattan (Official) | Bridge Music ft. @PrakruthiAngelina, Samarth Shukla & Zayvan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PGmgWH7HusU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bhawar ke beech Me | Chattan Song | Bridge Music | A Clip from Bridge Music Video | Hosanna YC #HYC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -126,9 +126,32 @@
     "page": null
   },
   "chords": "पावन है वो प्रभु हमारा, उसकी जय जयकार करो\n\n           D                       Bm     D        A                D\n            पावन है वो प्रभु हमारा, उसकी जय जयकार करो\n      D                             Bm    D         A                D\n    निर्बल का वह बल है न्यारा, उसकी जय जयकार करो,\n\t D                A          D\nकोरस:-  जय हो, जय हो, जय हो। (2)\n\n     D\t                                       G                   A       D\n दीन दुखियों का है वह दाता, भटके हुओं को राह बताता (2)\nD                G       Em     D                   A     D\n    सीधे मार्ग में हमें चलाता, (2) उसकी जय जयकार करो।\n\n       D\t                G                 A      D\n प्रभु हमारा बड़ा महान, निर्बुद्धियों को देता ज्ञान (2)\n                D                    G       Em     D                 A       D\n    पतितों का वह बचाता प्राण, (2) उसकी जय जयकार करो।\n\n    D                                   G                    A     D\n प्रभु की महिमा अपरम्पार, जग का वह है तारणहार (2)\n           D               G       Em     D                   A     D\n    मानो उसे अपना आधार, (2) उसकी जय जयकार करो।\n\n                               (D/6)\n                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pSwCYa8GH48",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पावन है वो प्रभु हमारा | pawan hai prabhu hamara @तुम्हें शांति मिले",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "7FeQtnoMchk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "PAAWAN HAI WOH - पावन है वो",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gtDH3Y5OYRc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पावन है वो प्रभु हमारा, उसकी जय जयकार करो | Paavan Hai Wo Prabhu Hamara, Uski Jai Jaikar Karo",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

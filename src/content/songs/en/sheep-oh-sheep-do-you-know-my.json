@@ -151,9 +151,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "R9UAEmKf2zQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sheep, Oh Sheep.. | Sunday School Action Song | HOREB Prayer House",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9AkGMsHBxgE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sheep Oh Sheep, do you know My voice | Sunday School Songs | Children Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "I8GLj2Z7M6o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I just wanna be a sheep (Christian puppets)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

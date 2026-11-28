@@ -147,9 +147,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "_Au2rVgJyPM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan, Tere Jaisa na Koyi | Best Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "takUM9uGln0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mene Dhunda Ye Sara Jahan | मैंने ढूंढा है सारा जहाँ | तेरे जैसा न कोई मिला | #masihigeet #jesussong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wQ9zGhyghIE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

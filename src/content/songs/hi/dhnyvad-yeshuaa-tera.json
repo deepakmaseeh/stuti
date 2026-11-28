@@ -104,9 +104,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "JzfpT-OtQVE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "धन्यवाद येशु (आधिकारिक वीडियो) शैनन मिल्टन | नए हिंदी ईसाई गाने | यीशु के गीत",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZB5sEqs37gU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyawad | Hindi Christian Song | Bridge Music ft. Sam Alex, Rachel Francis & Hemant @RedSeaFilms",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "M-DsWxCp4Cw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "DHANYAWAD - Friends of GOD Ministries | Official Music Video | 4K",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

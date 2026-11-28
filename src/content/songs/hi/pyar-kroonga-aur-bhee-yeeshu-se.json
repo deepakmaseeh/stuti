@@ -122,9 +122,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "MmadDv64m-E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pyaar Karunga Main, Aur Zyada Tujhse, Aaradhana | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WbQeOVwRmWg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं लौट आया। New Heart Touching Christian Song 2025 #yeshu",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2Twgb8JDTxw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "दुश्मनों से भी प्रेम करो | Love Your Enemies | Hindi Christian Worship Song 2026 | DLF Channel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -88,9 +88,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "AUqO3i7unqI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "गाते है बजाते है | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "kjZ2xvNXIvo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gaate Hai Bajate hai Hindi Christian Song | Hindi Jesus Song #hindichristiansong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "7CXjEMOmerk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gaate hai Bajate hai - Hindi Christian Worship Song (Ashley Joseph)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

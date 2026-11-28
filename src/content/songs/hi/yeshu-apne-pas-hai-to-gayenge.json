@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "v2jDtt5CXSs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं दुनियां भुला दूंगी यीशु तेरे लिए | Heart Touching Christian worship Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZUrRvq3v7lo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "दुनिया तुम्हें क्या देगी, यीशु से माँगकर देखो न ❤️ | New Hindi Christian Song 2026 | Masihi Geet |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0dMcwItB27g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Bula Raha | Mahi Gospel | Hindi Christian Cover Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

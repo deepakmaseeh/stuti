@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "RQOLx9y4Uto",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hai Sacha Gadariya | Hindi Jesus Song | #yeshu #hindichristiansongs #gospelmusic #gospel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "w-6Id-K8G_o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hai Saccha Gadediya || येशु है सच्चा गडरिया || Lyrical Video || Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ta3M2BWG7LI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hai Sachcha Gadariya Uski Ham Bhede Hai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

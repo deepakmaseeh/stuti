@@ -142,9 +142,32 @@
     "page": null
   },
   "chords": "तेरे लहू से पाप धोता हूँ तू बढ़ता जा मैं कम होता हूँ\n\n     C              F      C\nDm          G        C\n  कोरस:- तेरे लहू से पाप धोता हूँ (2) तू बढ़ता जा मैं कम होता हूँ (2)\n  C               F         Dm      G  C\n  तू बढ़ता जा, तू बढ़ता जा, तू बढ़ता जा मैं कम होता हूँ (2)\n\n  C            G     C         G        C\n1.  तेरे कलाम दिल में रखा है, तेरा वादा सच्चा है\n  C             Dm   C    C          F    C\n  तेरा ही नाम सबसे अच्छा है (2) अपनी खुदी से हाथ धोता हूँ,\n      Dm        G  C    C\n  तू बढ़ता जा मैं कम होता हूँ (2)  तू बढ़ता जा, तू बढ़ता जा,\n          Dm     G   C\n  तू बढ़ता जा मैं कम होता हू\n\n   C            G        C                              G        C\n2.  तेरा कलाम जीवन की रोटी, तेरा कलाम राहों की ज्योति\n   C              Dm    C                       Dm     C\n  तेरा कलाम है हंसी मोती (2) दिल की माला में पिरोता हूँ,\n            Dm       G    C\n  तू बढ़ता जा मैं कम होता हूँ (2) तू बढ़ता जा, तू बढ़ता जा,\n       Dm         G  C\n  तू बढ़ता जा मैं कम होता हूँ",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "FRgULUL-5Wc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERE LAHOO SE PAAP - तेरे लहू से पाप धोता हूँ Ernest Mall And Subhash Gill Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6RtKh_b6BtA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERE LAHOO SE PAAP - तेरे लहू से पाप धोता हूँ",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VEH1E0SxAtA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere Laho Se Paap Dhota Hu | Subhash Gill & Ernest Mall (Official Song) | Album: Laut Aa",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

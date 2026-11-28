@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": "आश्चर्य तेरे जग में इतने\n\nकैसे मै तेरी महिमा गाऊं, शब्द भी कम पड़ जाएं\nलिखने बैठू तेरी बातें, कागज में ना समाएं।\n\nकोरस:- आश्चर्य तेरे जग में इतने, कैसे मै इनको बयान करू (2)\nतेरी प्रशंसा करू। ...............   (2)\nधन्यवाद कहूं। ....................   (2)\n\nकिससे करू मै तेरी तुलना, कौन है तेरे समान\nतूफ़ान भी सुनकर तेरी माने, सागर भी हट जाएं।\n            आश्चर्य तेरे जग में इतने...........\n\nमै लायक नहीं, अर्पण मेरे, कुबूल कर ले,\nअनुग्रह से मुझको सम्पूर्ण कर दे।\nयीशु आ ........... ( 4 )\n            आश्चर्य तेरे जग में इतने...........",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "bfgoo2CnoyE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaise main Teri Mahima gaun || Jesus christ song #hindichristiansong #masihsongnew",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rrfMOdVbUng",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ASHCHARYA TERE | HINDI WORSHIP SONG - 4K | FT. JERIN ANDREWS & GRACE AHMEDABAD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "o0sRwAkJNS4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HINDI CHRISTIAN WORSHIP SONG || कैसे मै तेरी महिमा गाऊं || KAISE MEIN TERI MAHIMA GAON || (Cover)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

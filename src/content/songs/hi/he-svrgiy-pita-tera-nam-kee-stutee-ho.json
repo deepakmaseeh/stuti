@@ -92,9 +92,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "S66yvrOzSAw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Wilson George || Hey_Swargiya_Pita_Ho_Dhanyawad_||Hindi_Christian_Song||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2rPDS-QGkNk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhana (With Lyrics) HD - Hindi Christian Song- Chhoolein: Dayanidhi Rao- Beautiful song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_eTWEhKdFPg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "He Swargiy Pita Tere Naam Ki Stuti Ho Karaoke",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

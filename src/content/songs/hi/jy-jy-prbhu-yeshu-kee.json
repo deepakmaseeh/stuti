@@ -205,9 +205,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "2_z-ou-ZxGM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Jai Prabhu Yeshu ki | जय जय प्रभु यीशु की |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jVs2p4FTetc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Jai Prabhu Yeshu Ki | जय जय प्रभु यीशु की | New Version | New Jesus Song Hindi | @ssroy24 |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "h_ENyXeH0mQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Jai Prabhu Yeshu Ki | Jesus Songs, Yeshu Masih Song, Jesus Song in Hindi, Masih Song, Yeshu Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

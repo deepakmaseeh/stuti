@@ -86,9 +86,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "yKozED5LtqM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Namuna Bano Yuba Samai Me/नमूना बनो यूवा समय में/ Hindi Christian Song/Singer - Ajit Horo..",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WaSxn0mqb5s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नमूना बनो युवा समय में | Sadri Worship Song | Hindi Christian Youth Song ✨",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UuuEOg0AZNk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नमूना बनो युवा समय में 🙏Hindi Jesus Song 2026/27 Prashansa Music & Bible Study | Ps. Mahendra Gavit",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

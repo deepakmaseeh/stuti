@@ -95,9 +95,32 @@
     "page": null
   },
   "chords": "राजाओं का राजा यीशु राजा\n\n       G                  C            G\n कोरस:-  राजाओं का राजा यीशु राजा\n               G            D7      G                       D\n       जगत में राज्य करेगा, हल्लेलूयाह हल्लेलूयाह\n          D                      G\n       उसका धन्यवाद करो।\n\n       G                    C             D                     G\n यहोवा का धन्यवाद करो, क्योंकि वह भला है,\n          G                    C        D     D7           G\n\t उसकी करूणा सदा की है, धन्यवाद करो।\n\n          G                 C               D                      G\n जो ईश्वरों का परमेश्वर है, उसका धन्यवाद करो,\n      G                   C        D      D7           G\n       उसकी करूणा सदा की है, धन्यवाद करो।\n\n          G                  C           D                     G\n  जो प्रभुओं का प्रभु है, उसका धन्यवाद करो,\n       G                    C         D     D7           G\n        उसकी करूणा सदा की है, धन्यवाद करो।\n\n\n\n                                                                  (E/28)\n                                                                                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1PNvF0gd7lM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rajao ka raja Yeshu raja jagat me raj karega",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "b1f5ooBrfwE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "King of Kings | Best Hindi Christian Song | Hindi Gospel Song | Jesus Song Hindi |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9Gn2j7WGTyM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sadaa Raja - Ft. @JosephRajAllamOfficial & Ketki Allam | Nations Of Worship | NOW Originals",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

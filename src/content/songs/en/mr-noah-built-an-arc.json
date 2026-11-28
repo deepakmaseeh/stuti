@@ -126,9 +126,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ht-5bMHrJog",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mister Noah Built An Ark | Christian Songs For Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yHE3HJJQny0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mr. Noah Built An Ark - Kid's Gospel Action Song - Yogil & Yobin - OTCC Friday School Muscat",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6I0XMp1G0tc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MR. NOAH BUILT AN ARK | Christian children song | Kids song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

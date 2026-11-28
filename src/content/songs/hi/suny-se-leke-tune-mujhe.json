@@ -118,9 +118,32 @@
     "page": null
   },
   "chords": "अनोखा प्यार है तेरा\n\n      G                 C        G                                D\n1.\tशून्य से ले के तू ने मुझे, रच लिया अपने ही रूप में,\n       G                    C          G\n      प्रेम किया है अनंत प्रेम से,\n                             D             G\n      दिया पुत्र मेरी  मुक्ति के लिए।\n\n G                     D              C           D       G\n कोरस:-   अनोखा प्यार है तेरा, करूँगा स्तुति तेरी मैं सर्वदा .....\n  G                      C\n अनोखा प्यार है तेरा,\n\t   D       D7         G\n करूँगा स्तुति तेरी मैं सर्वदा .....\n\n        G                         C            G                    C            D\n2.\tजग में आया यीशु स्वर्ग छोड़ के, मेरा सारा दण्ड सह लिया उसने,\n                    G                 C              G                           D        G\n        कोड़े खा के क्रूस उठाकर यीशु ने, मुझे मुक्ति और चंगाई दी है\n\n         G                    C         G                C            D\n3.     अन्न वस्त्र और सभी आशीषें, दी मुझे उसने भरपूरी से\n                      G                C           G                     D            G\n       खतरों और मुसीबतों से आँख की, पुतली जैसे संभाला मुझे\n\n                                                                                            (E/47)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "FTugi5R908E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anokha Pyar Hai Tera | अनोखा प्यार है तेरा | Hindi Christian Cover Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yC_ke1rqEX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anokha pyar hai tera || अनोखा प्यार है तेरा || Masihi song || Masihi Lyrics #masihsong #jesussong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HYSIUUr-lx4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "अनोखा प्यार है तेरा | Christian Worship Song | Hindi Gospel Song 🙏",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

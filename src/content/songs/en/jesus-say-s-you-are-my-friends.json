@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "2PpiezP6xRM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "CityAlight - He Calls Me Friend (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TAyaXdvvbGU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "What A Friend We Have In Jesus | Lyric Video | Lydia Walker | Acoustic Hymns with Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lie1L61Qnos",
+      "start": 0,
+      "kind": "lyric",
+      "title": "You Are My All In All | Live | Brentwood Baptist Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

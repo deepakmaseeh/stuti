@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": "वो प्रभु है वो प्रभु है\n\nG         D            G    G                                D\nवो प्रभु है वो प्रभु है, मुर्दों में से जी उठा, वो प्रभु है\n            G                                C\nहर एक घुटना झुकेगा, हर एक जीभ मानेगी\n\n      G          D    G\nकि यीशु ही प्रभु है\n\nG             D                 G\nवो जीवित है वो जीवित है\nG                                       D\nमुर्दों में से जी उठा, वो जीवित है\n        G                               C\nहर एक घुटना झुकेगा, हर एक जीभ मानेगी\n    G            D   G\nकि यीशु ही प्रभु है\n\n\n\n\n\n                                                        (E/31)\n                                                                                                      The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VI5DkWD-Jlw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "वह प्रभु है | Hindi Worship/Christian/Gospel song | GEET BAHAR",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lAT_TO0yWBI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rajaon Ka Raja Hai, Wo Prabhuonka Prabbhu Hai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BN4aQziUHgY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पावन हैं वो प्रभु हमारा | Hindi Christian Worship Song | Pawan hai wo prabhu hamara",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

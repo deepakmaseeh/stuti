@@ -85,9 +85,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "HuEOc_e32nU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Apna Bojh Yeshu Pe Daalo | CHOREOGRAPHY | Hindi Christian Gospel Song 2026 | Yeshu ki Mahima",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zwY5CaY-oSw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Apna boj Yeshu pe daalo | Cover | Virendra Thapa | Worship Songs 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JSsQkc_chSk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bojh Ko Apne Yeshu Par Dalo 🎶#ankitsajwanministries #revival #worship #viral",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

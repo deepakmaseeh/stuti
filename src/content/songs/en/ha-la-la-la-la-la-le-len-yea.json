@@ -124,9 +124,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TaOWiqW0peY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HAQ TALA (Zabur 91) ft. Vipin Massey | Glory to God India | Official | ABC Worship | Live | 4k",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aoY40UJfZVk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Sahara | The Worship Series S02 | Rex Media House© 2024.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EuMTGCLHxQ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lei Ah Muan Ding Omlou - Hlimhlimi - Lyrics & Tune: T Pumkhothang",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -102,9 +102,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KQzaHKrCo4Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आओ मिलकर गाएँ || Aao Milkar Gaye || New Hindi Christian Song 2026 || @Yeshu Bhakti Geet Official",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "x5qwVxBJp-0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आओ मिलकर गाएं हम | Aao Milkar Gaye Hum | New Hindi Christian Song 2026 | Jesus Praise & Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Tx2H8YmSbII",
+      "start": 0,
+      "kind": "lyric",
+      "title": "AAVO MILKAR KHUSHIKA GEET GAYE || आवो मिलकर ख़ुशी का गीत गायें || # HINDI CHRISTIAN SONG ♥️",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

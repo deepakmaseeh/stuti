@@ -97,9 +97,32 @@
     "page": null
   },
   "chords": "तेरे बिन मैं कुछ भी नहीं\n\nC                         Am\nतेरे बिन मैं कुछ भी नहीं\n      C                     F\nतेरे बिन मैं कुछ भी नहीं, ऐ प्रभु यीशु\t\t    2\nG                          C\nतेरे बिन मैं कुछ भी नहीं\n\nC                   Am                 F\nयीशु आ - यीशु आ, करुं आराधना\nG                     F                      C\t\t        2\nहाथों को अपने उठाकर तुझे दूं महिमा\n\nC                      Am\nनिर्बल हूँ, बल दे मुझको तू\n    F                     G     \t                2\nहै दुआ तुझ से, है दुआ तुझ से\n F              G                C\nमैं कुछ भी नहीं बिना तेरे (2)\n\n                                                      (C/4)\n                                                                                                      The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "YPWvaQkzOSQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere bin mai kuch bhi nahi//तेरे बिन मैं कुछ भी नहीं//lyrical video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9xxRZtua_1Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere Bin Live In Concert | Oneness India Season 3 | Ft Allen Rocky Anthony | The Hindi collective",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tFjSIYg5qpU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERE BIN MAIN KUCHH BHI NAHIN - Great Christian Worship Song from the Tamjid-e-Khuda Worship Concert",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

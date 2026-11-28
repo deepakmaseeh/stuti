@@ -96,9 +96,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "uysGt7JVw9U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tauren Wells, Elevation Worship - Joy In The Morning (Worship Version)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "V9aJOCpRuxk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Joy (What The World Calls Foolish) | feat. Martin Smith | Gateway Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WYcpL6otp_Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Joy (Feat. David Dennis) // The Belonging Co",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

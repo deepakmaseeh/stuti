@@ -145,9 +145,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "xet5vLNJb7w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MY FATHER IS RICH IN HOUSES AND LANDS- Congregational Hymn",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0LUPwpk1Qaw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I'M A MILLIONAIRE",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "MWf12XyasG0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "A Child of the King – Lyric Video Hymn | Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

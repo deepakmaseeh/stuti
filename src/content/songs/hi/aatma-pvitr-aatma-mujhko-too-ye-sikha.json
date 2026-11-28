@@ -92,9 +92,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "eKdJmH206oI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Hindi Christian Song 2020 | Mujhko tu Sikha | Ft.Ashley Joseph | Jesus Hindi Song 2020",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eDf3Yq4ZQIg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mujh Ko Tu Sikha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FQ2YMpNAwd0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pavitra Aatma Aa - Powerful Hindi Christian Worship Song | Shawn Milton | Yeshu Ke Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

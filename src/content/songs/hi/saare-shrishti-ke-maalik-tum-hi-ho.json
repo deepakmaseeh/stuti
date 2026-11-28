@@ -112,9 +112,32 @@
     "page": null
   },
   "chords": "सारी सृष्टि के मालिक तुम ही हो\n\n      G                  C        G                                 C\nसारी सृष्टि के मालिक तुम ही हो, सारी सृष्टि के रक्षक तुम ही हो\n            D                                      D        C         G\n      करते हैं तुमको सादर प्रणाम, गाते हैं तेरे ही गुणगान।\n\n      G               C        Am                     Em   G\n      हा, हा, हा, हाल्लेलूयाह, हा, हा, हा, हाल्लेलूयाह\n                        Am    D       G\n      हा, हा, हा, हाल्लेलूयाह, हा, हा, हा, हाल्लेलूयाह\n        G                 C      Am                      Em   G\n      हा, हा, हा, हाल्लेलूयाह, हा, हा, हा, हाल्लेलूयाह\n                          Am                                G\n      हा, हा, हा, हाल्लेलूयाह, हा, हा, हा, आमीन..\n\n       G                  C        G                      C             D\nसारी सृष्टि को तेरा सहारा, सारे संकट से हमको बचाना\n         D   Bm                        D                        C          G\n      तेरे हाथों में जीवन हमारा है, अपनी राह पर हमको चलाना।\n\n         G                  C        G                    C        D\nहम हैं तेरे हाथों की रचना, हम पर रहे तेरी करुणा\n          D    Bm                      D                         C         G\n      तन-मन-धन हमारा तेरा है, इन्हें शैतान को छूने न देना।\n\n          G             C        G                  C           D\nअब दूर नहीं है किनारा, धीरज को हमारे बढ़ाना\n       D     Bm                         D                        C        G\n       जीवन की हमारी इस नैय्या को, भव सागर में खोने न देना।\n                                                                      (E/39)\n                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Xq0SMhPIi_0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सारी सृष्टि के मालिक Sari Srashti ke Malik Tahira Haidar Ali",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "a1dwK3DX9PA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सारी सृष्टि के मालिक तुम हो | Hindi Christian Worship Song | By Ruth Eliza & Aarav Yesuvan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "f6i9a3ecduA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sari Srashti ke Malik",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

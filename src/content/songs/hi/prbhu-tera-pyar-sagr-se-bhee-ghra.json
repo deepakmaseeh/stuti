@@ -112,9 +112,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "z20K550Awa8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु तेरा प्यार सागर से भी गहरा Prabhu tera pyar sagar se bhi gehra - Virendra Patil",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hfCF06CYH0A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu Tera Pyar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "56b9r9KLui0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu Tera Pyar 🙏👍| Virender Patil | Christian Bhajan Song | Prabhu Yeshu Masih Song 2025",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

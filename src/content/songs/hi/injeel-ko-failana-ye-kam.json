@@ -209,9 +209,32 @@
     "page": null
   },
   "chords": "इंजील को फैलाना यह काम हमारा है\n            D                     A                           D\nकोरस:-  इंजील को फैलाना- यह काम हमारा है,\n              D                    A                           D\n          मुंजी के ज़माने में- यह नाम पियारा है।\n\n     D               Bm                 G         A     D\nछेड़ेंगे वही नगमें, (2) कि जिनके इशारों पर,\nछेड़ेंगे वही नगमें, कि जिनके इशारों पर,\nD                   F#m  A  D                        A      D\n     तकलीफों का क्या कहना (2) मरना भी गंवारा है।\n\n      D                  Bm              G           A     D\n कान्धों पे सलीबें हों, (2) इंजील हों हाथों में,\n कान्धों पे सलीबें हों, इंजील हों हाथों में,\n  D           F#m A  D                         A    D\n      दुनियाँ को बता देंगे, (2) यीशु ने छुड़ाया है।\n\n\t D                   Bm             G          A     D\n त्रिएक के नारे फिर, (2) गूंजेंगे आकाशों में,\n त्रिएक के नारे फिर, गूंजेंगे आकाशों में\n   D         F#m  A  D                            A    D\n       इबलीस हुआ हैरान (2) इस जोश से मारा है।\n\n\t D                        Bm                    G         A     D\nहम खून का हर कतरा, (2) हँस - हँस के बहा देंगे\nत्रिएक के नारे फिर, (2) गूंजेंगे आकाशों में\n    D             F#m A D                         A    D\n       दिल इससे रौशन है, (2) एहसान ये भारी है।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "eA1CCozxriw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "इंजील को फैलाना , injil ko failana ,GOSPEL SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "IPHExiYzgUU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "साक्षीवाणी गीत नं 248: \"इंजिल को फैलाना यह काम हमारा है\"",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GQhvZao_LSA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anjeel ko phailana yeh kaam hamara hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

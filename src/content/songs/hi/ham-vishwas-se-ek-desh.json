@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": "हम विश्वास से एक देश देखें हैं\n\n   F\t\t\t\t\t\t\t\t         C\n1.    हम विश्वास से एक देश देखते हैं, जो है सूर्य से अधिक ज्योर्तिमान,\n         F                           C                   F\n  वहाँ यीशु कर रहा तैयार, सबके लिए एक रहने का स्थान।\n\n      F             C           Bb                       F\nकोरस  थोड़ी देर में वहाँ, प्यारो जाके हम सब मिलेंगे।\n     F             Bb                 C                         F\n     थोड़ी देर में वहाँ, प्यारो जाके हम सब मिलेंगे।\n\n      F                                                                      C\n   2. अपने काम से विश्राम करेंगे, दुख और क्लेश और सब कष्ट होंगे दूर;\n            F                                      C       F\n     स्तुति भजन मनोहर वहाँ, हम सब गायेंगे हाल्लेलूय्याह।\n\n     F                                                  C\n3.  यीशु के साथ रहेंगे वहाँ, सन्तों के साथ रहेंगे वहाँ;\n               F                                           C      F\n     फिर न होगा सन्ताप और विलाप, यीशु पोछेगा आँसू वहाँ।\n\n      F                                                               C\n 3. उस देश के आनन्द के सामने, इस पृथ्वी का आनन्द कुछ नहीं;\n                F                                            C          F\n          उस देश के मीठे गान के सामने, इस पृथ्वी का संगीत कुछ नहीं।\n\n                                                                                                 (F/64)\n                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "4ULiUoTmGXk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम विश्वास से एक देश | Hum Vishwas Se Ek Desh | Classic Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sovJIz2VYqM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम विश्वास से एक देश देखते हैं || In The Sweet by and by || Sakshi Vani 298 ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Y6Oyb8Z493g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hum vishwas se ek desh Dekhte hain हम विशवास से एक देश देखते है. Joseph George",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

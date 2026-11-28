@@ -171,9 +171,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pXKd--PbaaE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Wise Man Built His House Upon The Rock | BF KIDS | Bible songs for kids | Action bible songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Eu5bBDRpzPM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Wise Man Built His House",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gYko2mug23U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Wise Man Built His House",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

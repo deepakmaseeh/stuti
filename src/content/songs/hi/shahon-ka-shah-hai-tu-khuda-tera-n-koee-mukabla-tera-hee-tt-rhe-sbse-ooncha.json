@@ -93,9 +93,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qH0ukyDEJto",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anointed Worship | Hazaaron Zubane ft. @sheenumariamdaniel | @NationsofWorship | NewJeevan Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FAnP4eOB8To",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hazaaron Zubane | Ps. Akshay Mathews | Anchor Faith India",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mn_Gi1mWjfY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hazaaron Zubane Dance | Jesus' Love Ministries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

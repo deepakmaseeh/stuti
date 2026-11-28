@@ -166,9 +166,32 @@
     "page": null
   },
   "chords": "खुल जायेंगी किताबें जब भी हिसाब होगा\n\n        D                            G\nकोरस:- खुल जायेंगी किताबें, जब भी हिसाब होगा,\n                          A                     D\n         इन्साफ का तराजू, यीशु के हाथ होगा।\n         खुल जायेंगी किताबें…..\n\n       D             G             A         D\nजो भी तू कर रहा है, यीशु वह देखता है (2)\nD                                                 G\nहर पल का तुझको इन्सान, (2) देना हिसाब होगा\n                 A                    D\nइन्साफ का तराजू, यीशु के हाथ होगा\n\n        D                G            A      D\nआजा अभी भी मुड़कर, यीशु बुला रहा है (2)\n        D                                          G\n       वरना तू याद कर ले, (2) तेरा ही नाश होगा\n                         A                    D\n       इन्साफ का तराजू, यीशु के हाथ होगा\n\n        D                A            A         D\n कदमों में उसके रोले, तौबा गुनाह से कर ले (2)\n\n         D                                              G\n       फिदिया मसीह ने दिया (2) माफी तू आज ले ले\n                       A                     D\n       इन्साफ का तराजू, यीशु के हाथ होगा",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5UzLBHJOVVU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khul Jayengi Kitabe - खुल जायेंगी किताबें - Hindi Christian Song Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qJ3a_ZhiORI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुल जायेंगी किताबें | Hindi Christian Cover Song | Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ljgL3xxNeQw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khul Jayengi Kitabe(Lyrics) - Hindi Christian Song | Christ the band.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

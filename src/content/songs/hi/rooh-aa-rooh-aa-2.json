@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "8tUbuQiWs7c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "रूह आ रूह आ || Rooh aa Rooh aa || Lyrical || Anointed Worship song of Ankur Narula Ministry",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DXU_17s8Asc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ROOH E AA (पवित्र आत्मा आ) || Rev.Michael Singh || Abhishek Das || Official Video (4K)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vjkig98hGfE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rooh AA - Akash Chand Masih Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

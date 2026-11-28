@@ -102,9 +102,32 @@
     "page": null
   },
   "chords": "छोड़ दे, छोड़ दे, अपने आप का भरोसा,\n\n\nकोरस:- छोड़ दे, छोड़ दे, अपने आप का भरोसा,\n          कर मसीह पर भरोसा, वो तुझे जानता है\n\n1. दो-चार दिन की है तेरी, यह रंग, रूप और यह जवानी,\n   यह धन-दौलत और शौहरत, हो जाएगी एक दिन फानी,\n   चलने वाली साँसें भी ठहर जाऐंगें\n\n2. दुनियाँ की ताकत का, तू कभी भी भरोसा न कर,\n    यह झूठा प्यारा झूठा जग सारा, किसी पर भरोसा न कर,\n     कच्चे धागों का यह बंधन टूट जाएगा\n\n\n\n\n\n\n\n                                          The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TBpJaDN8D0Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chod De Chod De Apne Aapka Bharosa Lyrics | Hindi Christian Song 2019 | Khrist Media",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0aAjnj2ES-U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chod De Chod De Apne Aapka Bharosa Official Video | Khrist Media",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VyI3Gn3Rg3U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "छोड़ दे छोड़ दे अपने आपका भरोसा #Chod de chod de apne aapka bharosa #Christian Devotional song#Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

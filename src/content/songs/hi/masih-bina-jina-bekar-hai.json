@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": "Em                           D                     Em\n मसीह बिना जीना बेकार है, वही मेरे जीवन का आधार है, (2)\n        Am            Em\n जीना मसीह है मरना नफा है – 2\n Em              Am              D             G        Em\n जीना मसीह है, मरना नफ़ा है....ये जीवन तै...या...र   है....\n       Em          C                   Em              Am               Em\nमैं मसीह के साथ, क्रूस पर चढ़ गया, मैं मसीह में हूँ, मसीह मुझ में है\nEm                 C         Am                 Em\nआत्मा बिना जीना बेकार है, वही मेरे जीवन का आधार है-2\n      Am             Em\nजीना मसीह है मरना नफ़ा है – 2\nEm              Am              D             G        Em\nजीना मसीह है, मरना नफ़ा है....ये जीवन तै...या...र   है....\n\n       Em         C        Em        Am              Em\nक्रूस उठाके मैं चलने लगा, मेरा दुल्हा यीशु मसीह है – 2\nEm                       D        G               Em\nक्रूस उठाके चलना मेरा काम है, अंत में स्वर्ग में विश्राम है-2\n      Am             Em\nजीना मसीह है मरना नफ़ा है – 2\n Em              Am              D             G        Em\nजीना मसीह है, मरना नफ़ा है....ये जीवन तै...या...र   है....",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "e-GdD5Wpwn8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "NONSTOP स्तुति-आराधना के गीत / Br. Sandeep & Sr. Subhashini",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gdDNvpQ8wvc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मसीह बिना जीना बेकार है | Masih Bina Jeena Bekar Hai | Remix Version #jesus #song #viral",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "v2ZqV2Jwyko",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MASIH bina jina bekaar hai | Hosanna YC #HYC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

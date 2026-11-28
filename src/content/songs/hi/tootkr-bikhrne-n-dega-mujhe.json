@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "UtvGllBZDec",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tut kar bikharne na dega mujhe - Hindi - English Lyrics. Father's love",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PaT9kj3UYUc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tootkar Bikharne & Sunder Hai | Cover | Shelley Reddy",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0xtlrM4yWMM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "|| Tootkar Bikharne Na Dega Song || jesus quotes ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -73,9 +73,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "u_u1rGs7sLA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kids Praise: Heaven Is a Wonderful Place",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CBWwPKCDtRg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Heaven Is a Wonderful Place",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ywhg95nwXGk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Heaven Is a Wonderful Place",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

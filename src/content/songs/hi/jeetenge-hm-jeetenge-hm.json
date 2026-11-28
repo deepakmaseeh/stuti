@@ -127,9 +127,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "jdYYdS1gYJc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jeetenge Hum with Lyrics Christian Song by Sounds of Nations Azadi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LRpYjP6P55g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sotn- Jeetheygey Hum",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BdeIUWzve4k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Azadi- Jeetenge Hum Yeshu Me- Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

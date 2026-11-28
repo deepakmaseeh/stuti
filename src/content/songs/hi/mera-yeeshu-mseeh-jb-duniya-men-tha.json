@@ -147,9 +147,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "fw-2Gsd6Ot4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Yeshu Masih Jab Duniya Me Tha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZFdLO6LI6bQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Yeshu Masih Jab Duniya Me Tha | Jay Jaykaar Yeshu Ke liye | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "W5AeMg5pxZQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Yeshu Masih",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

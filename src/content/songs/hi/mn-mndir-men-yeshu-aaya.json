@@ -152,9 +152,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "XV98djVovi8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन मंदिर में आराधना 🎤 Man Mandir me Aradhana Masihi Geet Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YNyIPFscp7s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन मंदिर में येशु आया Hindi Christian Song Jesus Song in hindi #YeshuMasih #MasihiSong #MasihiGeet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aMebUn-OAfI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन मन्दिर में यीशू आया दील मेरा बदल गया। mon mandir mein Yisu Aya dil mera || Hindi christian song.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

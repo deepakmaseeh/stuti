@@ -164,9 +164,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5Z8s4cTwxFE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "If You're Happy and You Know It (Thank God!) 👏 Clap-Along Song for Toddlers | Gospel Kids TV",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_yYBRqt1xU0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "If You Happy and You Know It Clap Your Hands Song with Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "M6LoRZsHMSs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "If You’re Happy And You Know It | Kids Songs | Super Simple Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

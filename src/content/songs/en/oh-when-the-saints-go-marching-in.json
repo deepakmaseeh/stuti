@@ -89,9 +89,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7-GHobjYP94",
+      "start": 0,
+      "kind": "lyric",
+      "title": "WHEN THE SAINTS GO MARCHING IN || HYMNAL WORSHIP || BRIDE OF CHRIST MINISTRY",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1v3xNnPQK9o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gaither - When the Saints Go Marching In [Live] ft. Woody Wright, Ivan Parker",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nkUhXR_JdoA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "When the Saints Go Marching In",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

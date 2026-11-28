@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rygthkPYoQ8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Bula Raha Tera Naam Le Lekar यीशु बुला रहा तेरा नाम ले ले कर Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0dMcwItB27g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Bula Raha | Mahi Gospel | Hindi Christian Cover Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3LNnaIHwwlk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Bula Raha Hai🎄[ येशु बुला राहा है ]🎁 New Christmas Song 2025 // Singer - Rajveer Singh",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

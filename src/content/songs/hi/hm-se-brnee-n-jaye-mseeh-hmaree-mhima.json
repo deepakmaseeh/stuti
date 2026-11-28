@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TvC9f6H7rBY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हमसे बरनी न जाय मसीह तुम्हारी महिमा मसीह भजन",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eQdYxAGPJM0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम से बरनी न जाये मसीह तुम्हारी महिमा || मसीह नया भजन || FOLJ Choir Team Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "36zU3MVPrtA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Humse Barni Na Jaye Masih Tumhari Mahima Song With Lyrics | Anil Raut",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

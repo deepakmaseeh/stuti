@@ -119,9 +119,32 @@
     "page": null
   },
   "chords": "जैसे हिरणी शीतल जल की प्यासी\n\n                   C   G            Am       C/E        F       G      C  G\n कोरस:- जैसे हिरणी शीतल जल की प्यासी,  मेरी आत्मा की प्यास है तू\n            C    G     Am               F   G   C\n          तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\nG                Am         F            C        F           Dm       E\n     1. यीशु तू मेरी सामर्थ और ढाल,  तू ही प्रभु मेरी आत्मा सम्भाल\n         C    G       Am                F     G   C\n         तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\n         C   G             Am       C/E        F        G   C   G\n        जैसे हिरणी शीतल जल की प्यासी,  मेरी आत्मा की प्यास है तू,\n         C    G       Am                  F    G C\n        तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\n          Am         F            C        F          Dm          E\n        यीशु तू मेरी सामर्थ और ढाल,  तू ही प्रभु मेरी आत्मा सम्भाल,\n        C   G     Am              F   G   E\n        तू ही तू तुझे छोड़, न कोई तेरी स्तुति मैं करूँ।\n\n                                                                        (B/15)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "wntsIhpA9N8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्यासा हिरन जैसे ढूँढ़े है जल को - with Lyrics (Hindi)| Pyasa Hiran - Madhur Geet Hymns",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "g0OC9xqi5aE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जैसे हिरणी जल के लिये | Hindi Christian Song| New Hindi Christian Song| jesus song Hindi|",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-7ZVcx8DlQg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pyasa Hiran Jaise Dhunde Hai Jal Ko",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -157,9 +157,32 @@
     "page": null
   },
   "chords": "यीशु तू  ने मेरे लिए कुर्बानी चढ़ाई।\n\n            Em                     D          Em\nकोरस:- यीशु तू ने मेरे लिए कुर्बानी चढ़ाई। (2)\n\n     Em             C   D                    Em\nक्रूस पर यीशु तू ने, अपनी जान चढ़ाई; (2)\n    Em             C  D Em\n   जान चढ़ाई, जान चढ़ाई। (2)\n\n     Em            C  D                 Em\nअपने लहू से तू ने, मेरी जान कमाई; (2)\nEm              C    D  Em\n    जान कमाई, जान कमाई। (2)\n\n     Em             C  D                   Em\nज्योति अपनी तू ने मुझ में आ चमकाई, (2)\nEm             C   D Em\n   आ चमकाई, आ चमकाई। (2)\n\n     Em            C D                   Em\nसब पापों से तू ने, मुझको दी रिहाई; (2)\n    Em         C  D Em\n   दी रिहाई, दी रिहाई। (2)\n\n   Em             C   D               Em\n5.क्यों न गाऊँ यीशु, तेरी नित्य बड़ाई; (2)\n    Em            C   D   Em\n   नित्य बड़ाई, नित्य बड़ाई। (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BMrdshJSdKA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सूली पर होकर कुर्बान - Jesus Worship Song | Priti Prakash | दर्द भरा मसीह गीत | Masih hindi Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rp0dkCZpDQ4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे गुनाह के लिए प्रभु तुने क्रूस उठाया || Jesus Hindi Songs || Swami Anildev #jesus ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rHqLBcA-lug",
+      "start": 0,
+      "kind": "lyric",
+      "title": "कुर्बानी तेरी मसीहा | Good Friday Special Official Qawwali | Ankur Narula Ministries #bestqawwali",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

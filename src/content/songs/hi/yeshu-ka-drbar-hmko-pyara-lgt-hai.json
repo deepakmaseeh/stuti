@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "f59Z1u7jcls",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ka Darbar ⛪️🙏| यीशू का दरबार⛪️ रे हमें प्यारा लगत है | New Hindi Masih Song | Simran Singh",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4O9kmOE672c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ka Darbar Re Hame Pyara Lagat Hai | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RekPDcNjpgo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु का दरबार || Yeshu Ka Darbar || Worship By Dr. Mahima John Arul #arulthomas #worshipsong #yeshua",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

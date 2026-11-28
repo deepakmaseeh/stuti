@@ -116,9 +116,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BmXZblRyT84",
+      "start": 0,
+      "kind": "lyric",
+      "title": "DY Multi-Lingual Worship: To Love only You, O Lord",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "kw1_DlX5Lf4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "To Love Only You Oh Lord | Shelton D'costa | Masia Pinto",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ti9p2_UWvxg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tuzo hanv mogh korta/ To love only you O Lord/ Majhyavar tujh prem aahe COVER",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

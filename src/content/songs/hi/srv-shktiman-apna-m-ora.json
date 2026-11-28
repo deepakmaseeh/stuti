@@ -139,9 +139,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "9lQUXlHIZIs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HEY SARVASHAKTIMAAN | हे सर्वशक्तिमान | FILADELFIA MUSIC | NEW HINDI CHRISTIAN SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Jwcos-6ez5U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "शरीर त्यागने का अभ्यास | Hindi Christian Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UZ_VDvLUfT8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Song | सर्वशक्तिमान परमेश्वर आप हैं मालिक मेरे दिल के",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

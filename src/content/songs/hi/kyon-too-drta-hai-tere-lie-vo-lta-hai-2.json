@@ -191,9 +191,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "4s5I6gX4kDY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🙏 तू क्यों डरता है? तेरे लिए वो लड़ता है ✝️ 🙏 नॉनस्टॉप मसीह भजन | Nonstop Masih Songs 2026 🙌",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EiqrkLWdsoo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Kyu Darta Hai Tere Liye Wo Ladata Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OvUx4fRxJrA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तू क्यों डरता है, तेरे लिए वो लड़ता है 🙏 | New Hindi Masihi Song 2026 | ST MUSIC OFFICIAL",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

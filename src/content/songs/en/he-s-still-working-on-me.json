@@ -188,9 +188,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "64QJgQ9pr5Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HE'S STILL WORKING ON ME | THE LIVING STONES QUARTET #thelsq",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fA6xodGjBqY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HE'S STILL WORKING ON ME (LIVE) | #sangeethamichael #worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Kr4okXv4Qn0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"He's Still Working On Me\" Southern Gospel cover - Lyric Video version",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

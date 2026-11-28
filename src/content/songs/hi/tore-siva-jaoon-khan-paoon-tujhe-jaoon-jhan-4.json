@@ -179,9 +179,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Aixxtg7NLXw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TORE SIWA | FOLJ CHURCH ft Ankit Sajwan, Sheldon Bangera, Samarth Shukla, Hinanaaz Bali & Daniel Naz",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YsT-xVOEjEY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TORE SIWA | Hindi Worship Song Lyrics | #AnkitSajwah #SheldonBangera #SamarthShukla #HinanaaBali",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3T6v9mBH2Sw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तोरे सिवा जाऊं कहां || Elohim Music Team || Sister Persis John || Pa.Balu Gavit ||Nilesh Gamit",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

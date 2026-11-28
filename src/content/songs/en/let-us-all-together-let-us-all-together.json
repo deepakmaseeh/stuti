@@ -74,9 +74,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "RDrp3YqQeKw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhana Ho Aaradhana | Hindi Worship Song | Khudawand Yeshu Ki | Heart Touching Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iq3wxglpue4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Let Us Go to Bethlehem | Christian Christmas Music (Luke 2:15–16)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3OGMjDllEJM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Give me oil in my lamp | Christian Songs For Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

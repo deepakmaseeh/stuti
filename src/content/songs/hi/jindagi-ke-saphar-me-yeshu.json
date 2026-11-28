@@ -141,9 +141,32 @@
     "page": null
   },
   "chords": "जिन्दगी के सफर में यीशु है तेरे संग\n\n     जिन्दगी के सफर में यीशु है तेरे संग (2)\nकोरस:-  तू भूलना नहीं, प्यारे छोड़ना नहीं, यीशु का दामन (2)\n     जिन्दगी के सफर में यीशु है तेरे संग (2)\n\nयीशु का फज़ल तेरे साथ रहेगा,\nनिराशा में नई आशा वो देगा\nसंकट के समय तुझे सहारा देगा,\nहाथों को थाम कर साथ चलेगा\nतू भूलना नहीं........\n\nदर्शन के साथ तुझे सेवा वो देगा,\nप्रभु की महिमा तेरे जीवन से होगी\nभलाई से बुराई को जीत तू लेगा,\nविश्वास की दौड़ को तू पूरी करेगा\nतू भूलना नहीं........",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "2BHVPzwZDq4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ZINDAGI KE SAFAR | ज़िंदगी के सफर | HINDI CHRISTIAN SONG | FILADELFIA MUSIC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LlcISF9V_xA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जिंदगी के सफर में यीशु है तेरे संग/new Jesus songs in Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AvHeXcJBVWU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जिंदगी के सफर में यीशु है तेरे संग #Hindi jindagi ke safar me yeshu hai tere sang##",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

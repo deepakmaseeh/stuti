@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": "प्रभु यीशु का नाम है सारी जमीं पर\n\n          C                        F\nकोरसः- प्रभु यीशु का नाम है, सारी जमीं पर\n          G                   C\n         जिससे हम पाते उद्धार\n\n         C\n वो दुनियाँ में आया लहू बहाया,\n  F                     G\n        फिदिया जहानं का दिया\n          C\n        हमको बचाने मुक्ति दिलाने,\n          G                 C\n        यीशु सलीब पर मुआ।\n\n         C\n आसमान के नीचे लोगों के बीच में,\n   F                    G\n        कोई दूसरा नाम नहीं है\n          C\n        सिर्फ-यीशु का नाम है सारी जमीं पर,\n          G                   C\n        जिससे हम पाते उद्धार।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "egRNaXnJI-g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ka Naam Hai Saari Zameen ParJisse Sab Paate | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "X1yLLMpW2gI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "दुनियाँ के कोने कोने में || Revival Song | Hindi Christian Worship Song 2026 || @YeshuBhaktiGeet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wQ9zGhyghIE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

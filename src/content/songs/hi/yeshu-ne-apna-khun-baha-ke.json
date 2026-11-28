@@ -137,9 +137,32 @@
     "page": null
   },
   "chords": "यीशु ने अपना खून बहा के मुझे बचा लिया\n\n\n         E                                  A            E\nकोरस:- यीशु ने अपना खून बहा के मुझे बचा लिया,\n         E                                       A            E\n         क्यों न मैं गाऊंगा गीत उसी के मुझे बचा लिया।\n\n      E                                                  B\nमैं जब गुनाहों में पड़ा हुआ था यीशु आ गया,\n                                 E        A    E\n     उसी के मारे जाने से मैं जीवन भी पा गया,\n       E                                    A            E\n     इसलिए गाऊंगा गुण उसी के मुझे बचा लिया (2)\n\n       E                                                          B\nमेरे गुनाहों का बोझ उठा कर, क्या-क्या न उसने सहा;\n                                         E            A    E\n     मेरे गुनाहों को माफ कराने खून भी उसका बहा,\n       E                                          A            E\n     कितना अनोखा है प्यार मसीह का मुझे बचा लिया (2)\n\n       E                                                 B\nसेवा करेंगे प्यारे प्रभु की जैसा कि उसने कहा,\n                                                      E           A    E\n     मर भी मिटेगें प्यारे प्रभु में जैसा कि उसने सहा,\n       E                                    A             E\n      हरदम हम गाएँगे गीत उसी के हमें बचा लिया (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ioypEojZaMU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ne Apna Khoon Bahake Mujhe Bacha Liya | Beautiful Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YrZfbLdW2JA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु ने अपना खून बहा के मुझे बचा लिया |Yeshu Ne Apna Khoon Bahake Mujhe Bacha Liya #jesussonghindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "b3fphZJFUeE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESHU NE APNA KHOON - येशु ने अपना खून",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

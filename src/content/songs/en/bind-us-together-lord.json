@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "8k_Ed_N_2Nk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bind us Together | School Prayer Song 🙏 | Lyrical Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ASPDr1z-MRA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bind us together lord",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "IHJJzD46-qU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bind Us Together, Lord [with lyrics for congregations]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

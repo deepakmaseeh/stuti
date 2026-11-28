@@ -89,9 +89,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "f2oxGYpuLkw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Praise (feat. Brandon Lake, Chris Brown & Chandler Moore) | Elevation Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jjYi-qTzqr4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Got the Joy, Joy, Joy | Christian Song for Kids | Bible Worship Fun & Learning",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dBrnm-Ku5IQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Christian Mood Booster | Powerful Worship Songs to Turn Your Day Around",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

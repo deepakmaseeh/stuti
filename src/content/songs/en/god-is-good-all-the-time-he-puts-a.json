@@ -83,9 +83,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "s5Hg3sFWcI8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "God Is Good (All the Time) | Lyric & Dance Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FbJqsHXJUM4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "God Is Good All the Time",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "b-Q9YD2PD0o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - God Is Good All The Time (ft. Lenny LeBlanc) | Acoustic Worship Sessions",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

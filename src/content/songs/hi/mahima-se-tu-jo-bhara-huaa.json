@@ -174,9 +174,32 @@
     "page": null
   },
   "chords": "महिमा से तू जो भरा हुआ, ज्योति में सदा रहने वाला\n\n        C                           F  C                  G\n1.\tमहिमा से तू जो भरा हुआ, ज्योति में सदा रहने वाला,\n          C                          F                    G             C\n        मनुष्यों में तूने जन्म लिया, फिर से यीशु जग में तू आएगा।\n        G                    C             F            C\n        आएगा यीशु आएगा, फिर से यीशु जग में तू आएगा\n\n        मनुष्यों में तूने जन्म लिया………\n         C                              F   C               G\n2.\tभूमि आकाश में समा न सका, मन्दिरों में तू रह न सका,\n     C                               F           G      C\n        नम्र होकर चरनी में पैदा हुआ, मनों में हमारे घर तू बना।\n         G                    C              F              C\n        घर तू बना, यीशु घर तू बना, मनों में हमारे घर तू बना\n        नम्र होकर चरनी में पैदा हुआ………\n        C                          F  C                  G\n3.\tखैमे में आकर तू ही बसा, लोगों को अपने लिए फिरा,\n        C                                  F                   G      C\n       अग्नि और बादल में तू ही दिखा, फिर से यीशु अपनी महिमा दिखा।\n         G                  C                F                            C\n       महिमा दिखा यीशु महिमा दिखा, फिर से यीशु अपनी महिमा दिखा।\n       अग्नि और बादल में तू ही दिखा……….\n       C                                F  C                 G\n4.    दानिय्येल की तूने प्रार्थना सुनी, एज्रा की तूने सहायता की,\n       C                            F                 G          C\n       बाबुल में तूने बेदारी भेजी, अपने लोगों को फिर से दे रिहाई।\n         G            C              F                          C\n       दी रिहाई यीशु दी रिहाई, अपने लोगो को फिर से दी रिहाई\n       बाबुल में तूने बेदारी भेजी……..\n       C                   F  C            G\n5.    तू ही हमारा राजा है, तू ही मुक्तिदाता है,\n        C                      F            G           C\n      फिर से आने वाला है, प्यारे प्रभु यीशु तू जल्दी आ।\n      G                  C          F                   C\n      जल्दी आ यीशु जल्दी आ, प्यारे प्रभु यीशु तू जल्दी आ।\n      फिर से आने वाला है………\n\n                                                                                                   (D/25)\n                                                                                                                         The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "S7xDFJ7GVUQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mahima Se Tu Jo Bhara Hua | महिमा से तू जो भरा हुआ । गीत संख्या-360 । गीत संग्रह।Bhagalpur Pastorate",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jH48bq_35bo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "महिमा से तू जो भरा हुआ | Mahima Se Tu Jo Bhara Hua | Classic Hindi Christian Song | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UjqbEjmyBfQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mahima Se Tu Jo Bhara Hua Jyoti Mein Sada Rahane | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

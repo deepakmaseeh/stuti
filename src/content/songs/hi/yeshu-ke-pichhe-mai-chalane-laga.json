@@ -146,9 +146,32 @@
     "page": null
   },
   "chords": "यीशु के पीछे मैं चलने लगा\n\n         D                           Bm    D                       G     A\nकोरस:- यीशु के पीछे मैं चलने लगा, यीशु के पीछे मैं चलने लगा;\n          D                       Bm    D\n         यीशु के पीछे मैं चलने लगा।\n         D            A      D\n         न लौटूँगा, न लौटूँगा। (2)\n\n         D                              Bm       D                                           G   A\nसंसार को छोड़कर सलीब को लेकर, संसार को छोड़कर सलीब को लेकर,\n D                                  Bm  D\n       संसार को छोड़कर सलीब को लेकर।\n         D             A      D\n       न लौटूँगा, न लौटूँगा। (2)\n\n         D                          Bm   D                      G     A\nगर कोई मेरे साथ न आए, गर कोई मेरे साथ न आए;\nD                     Bm   D\n       गर कोई मेरे साथ न आए।\n         D             A      D\n       न लौटूँगा, न लौटूँगा। (2)\n\n          D                               Bm     D                         G     A\nअगर मैं उसका इन्कार न करूँ, अगर मैं उसका इन्कार न करूँ;\n D                       Bm    D\n       अगर मैं उसका इन्कार न करूँ।\n          D                  A        D\n       ताज पाऊँगा, ताज पाऊँगा।(2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "WX1jMPXOlqY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "#yeshukepichhe #Saneshkumar Hindi Christian song || yeshu ke picche mai chalne laga",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_LOK79QKUv4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ke Piche Main Chalne Laga Lyrics यीशु के पीछे मैं चलने लगा न लौटूँगा Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "i0opb0Jtxj4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Decided to Follow JESUS || यीशु के पीछे मैं चलने लगा || [English - Hindi] || Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

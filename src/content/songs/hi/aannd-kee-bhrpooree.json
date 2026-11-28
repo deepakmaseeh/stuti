@@ -362,9 +362,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Rorj9vBS_mE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere Bhawan Mein Anand Ki Bharpuri Hai | Hindi Christian Song | Yeshu Masih Song | Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "o-QrEESCMjM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sheldon Bangera - Anand Ki Bharpuri LIVE [Official Music Video]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZMyshFz7rXg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरे भवन में आनंद की भरपूरी है | Anand Ki Bharpuri | @SheldonBangera | #lyricsvideo",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

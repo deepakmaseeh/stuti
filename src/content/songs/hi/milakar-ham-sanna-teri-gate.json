@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": "मिलकर हम सन्ना तेरी गाते, सारे जहाँ को सुनाते\n\n          E                            B     A                    E\n कोरस:- मिलकर हम सन्ना तेरी गाते, सारे जहाँ को सुनाते (2)\n                              A\n          जय-जय हो तेरी, महिमा हो तेरी प्रभु, (2)\n            B                      E\n          सबको हम यह गीत सुनाते।\n\n                      E                  A      B              E\n  सारे जहां का सहारा, डूबे हुओं का किनारा (2)\n                    A      B                E\n         नैया हमारी डोले, मौजों में खाये हिलोरे (2)\n                                              A\n         ले चल किनारे ले जा, बन कर तू माँझी ले जा (2)\n             B              E\n         हम सबको पार लगा दे, हल्लेलूयाह\n\n                      E               A        B                   E\n  चारों तरफ है घटायें, घनघोर बादल हैं छाये (2)\n   E                   A     B                E\n         सूझे नही अब किनारा, तू ही हमारा सहारा (2)\n                                   A\n         ले चल किनारे ले जा, बन कर तू माँझी ले जा (2)\n            B            E\n         हम सब को पार लगा दे, हल्लेलूयाह\n\n                     E                A        B                   E\n  पापों में जीवन हमारा, कष्टों को झेल रहा है (2)\n  E                  A     B                E\n        कैसे बचेंगे सारे, पापी हैं जीवन हमारे (2)\n                                         A\n        तू ही हमारी आशा, तू ही हमारा राजा (2)\n           B                E\n        हम सब को पार लगा दे, हल्लेलूयाह",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "9FOAiibMMew",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मिलकर हम सन्ना तेरी गाते | #Mil_Kar_Ham_Sanna_Teri_Gaate_Saare_Jahan_Ko_Sunate_Jay_Jay_Ho_Teri.🙏",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "N3mshHjSEZY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मिल कर हम सन्ना तेरी गाते, सारे जहाँ को सुनाते | Mil Kar Ham Sanna Teri Gaate, Saare Jahan ko Sunate",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ITgaCna4-hQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मिलकर हम सन्ना तेरी गाते | Milkar Hum Sanna Teri Gaate | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

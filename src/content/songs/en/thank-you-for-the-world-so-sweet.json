@@ -88,9 +88,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "aOVe9GFjoZE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "64 Thankyou for the world so sweet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aswmJXXojEk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "THANK YOU FOR THE WORLD SOO SWEET",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PCMyI4VImGA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Thank you for the world so sweet - I watched this one million times 😜|| Iyeufedo ||harmonies",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

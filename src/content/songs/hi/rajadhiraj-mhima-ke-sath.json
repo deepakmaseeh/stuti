@@ -106,9 +106,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "At0jfbm4Ff0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राजाधिराजा, महिमा के साथ | Raajaadhiraja Mahima Ke Saath | HINDI CHRISTIAN WORSHIP SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qiZp6rDeY8M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राजाधिराजा महिमा के साथ | Rajadhiraja Mahima Ke Saath | Worship Song With Sister Deepti",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SKHMbYTjq_w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राजाधिराज महिमा के साथ Rajadhiraj Mahima Ke Sath #jesus_lyrics_song #jesus_deviser|_song #jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

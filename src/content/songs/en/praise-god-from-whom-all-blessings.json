@@ -83,9 +83,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "A8OSoz_9LEc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Praise God from Whom all Blessings Flow + Kristene Di Marco + Bethel Church",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YXRD7rPNvOM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Amanda Cook — Praise God, From Whom All Blessings Flow",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fiNxR--C4wU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Praise God From Whom All Blessings Flow",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

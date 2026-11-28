@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": "तेरे सन्मुख शीश नवाते हे जग के करतार\n\n        C              F             G                  C\n    कोरस:-   तेरे सन्मुख शीश नवाते हे जग के करतार\n        C                F                  G               C\n\tडूबे हुओं को दे दो सहारा, कर दो बेड़ा पार।\n\n     C                    G                                  C\nपाप के बादल सिर पर छाये, घिरा हुआ तूफान\nC                    G                F            C\n     तुम बिन नैय्या कौन संभाले, मेरे प्रभु महान,\n       C               F                    G                C\n     आ के बचा लो प्राण हमारे, जग के खेवनहार। डूबे हुओं को...\n\n        C                 G                                  C\nजन्म के अंधो को दी आँखें, रोगी लिए बचाय\nC                       G                   F               C\n     पाप क्षमा किए, सब पापिन के, मुर्दे दिए जिलाए,\n        C              F                  G                C\n     पापी हृदय हम भी लाए, धो दो तारणहार। डूबे हुओं को...\n\n     C              G                                C\nसुन्दर पक्षी पर्वत सागर, सबके सृजनहार\nC                G                   F             C\n     आके विराजो मन-मंदिर में, बन्दे करे पुकार,\n       C                  F                  G             C\n     व्याकुल हृदय तुमको पुकारे, आजा तारणहार। डूबे हुओं को…\n                                                                 (C/14)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "-nkjL7njlks",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Lyrics - Tere Sanmukh Shish Navate ।। Hindi Christian Song ।। Anthem of Christ",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fcxTzxCkOrQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरे सम्मुख शीश नवाते हैं | #Tere Sammukh Shish Nawate Hai | Suraj Kumar | #Jesus Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NPNr_YvLIxA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरे सन्मुख शीशे नवाते (Cover song) :Swarg Suman: [Christian Media Centre - India, Mumbai]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

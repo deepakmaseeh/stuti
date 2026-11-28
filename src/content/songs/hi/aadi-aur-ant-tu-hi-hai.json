@@ -188,9 +188,32 @@
     "page": null
   },
   "chords": "आदि और अन्त तू ही है अल्फा और ओमेगा तू ही है\n\n               A                             D      E                                   A\n आदि और अन्त तू ही है अल्फा और ओमेगा तू ही है (2)\n        A                         D      E                                  A\n        दूतों की स्तुति तू ही है, बुद्धि और सब ज्ञान तू ही है। (2)\n\n               A                 D      E               A\nकोरसः-   यीशु तू महान है, यीशु तू अच्छा है,\n               A               D       E             A\n        यीशु तू जिन्दा है, यीशु तू धन्य है\n               A                          D     E                        A\n        राजाओं का राजा तू ही है, प्रभुओं का प्रभु तू ही है।\n\n             A                        D   E                                     A\nजीवन मेरा पाप से भरा जग अन्धियारा और असुखसारा (2)\n           A                     D   E                        A\n        मेरे पापों से बचाने को मेरे लिए जीवन दिया है (2)\n\n             A                        D   E                                     A\n सारे गुनाहगारों के लिए अपना खून बहाया यीशु ने (2)\n              A                        D   E                                     A\n        खाई कोड़ों की मार भी दी सलीब पर उसने अपनी जान। (2)\n\n               A                        D   E                                    A\nन्याय करने आनेवाला है न्याय के साथ राज्य करने को (2)\n           A                           D   E                               A\n        धर्मियों को लेकर न्याय से सिंहासन पर राज करेगा। (2)\n\n\n\n\n                                                             (A/18)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "SZ5TXIcY1RM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आदि और अंत तू ही है, अल्फा और ओमेगा तू ही है | Aadi Aur Ant Tu Hi Hai, Alpha Aur Omega Tu Hi Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vZqbh7UzBNM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आदि और अंत तू | Hindi Christian Worship Song | Jesus Worship Song | Ruhani Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "P4BujU0WB40",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आदि और अंत तू ही है Aadi aur Aant tu hi hai (Lyrics)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

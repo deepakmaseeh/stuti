@@ -127,9 +127,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZEvgDX4zBYY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु नाम गाते रहेंगे New christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8wSEtnl-Nnc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Naam Gate Rahenge || Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HjUy52slk1U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सुबह सुबह हर दिन आप इन गीतों को जरूर सुनें || Non Stop Christian Song || Morning Christian Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

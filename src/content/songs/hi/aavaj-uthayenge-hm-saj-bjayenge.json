@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "4dTiJ-JB8QU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आवाज़ उठायेंगे, हम साज़ बजायेंगे Aawaaz uthayenge hum saaz bajayenge",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "P6OMq61bTB0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aawaz Uthayenge | Fellowship Of Believers' Church, Delhi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "g2kG4S0ABTQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aawaaz Uthayenge|Audio Video| Hindi Christian Song|Worship Battler",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

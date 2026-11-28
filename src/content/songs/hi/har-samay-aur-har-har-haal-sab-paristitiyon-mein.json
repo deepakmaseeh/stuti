@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": "हर समय और हर हाल सब परिस्थितियों में\n\n              E                                     B\nकोरस:\tहर समय और हर हाल सब परिस्थितियों में\n               E                 B       E\n\t\tभजूँगा अपने यीशु को मै,\n                                    A           E       B\n             मेरे जीवन का एक ही सहारा वह है\n                  E                B        E\n\t\t गाऊंगा गुण सदा यीशु के।\n\n                E                            A\nप्रायश्चित वह मेरा है उद्वार वह करता है\n      E                  B               E\n\t   वह मुक्तिदाता है उद्वार भी ठहरा है।\n\n                 E                             A\nनम्र और खेदित जन के पास वह रहता है\n E                             B          E\n\t   सुन के दुआओं को छुटकारा देता है।\n\nजिसने तुझे देखा प्रकाशित हो गया\n            E                            B            E\n\t   लज्जित वह न हुआ आनन्द से भर गया।\n\nआओ स्तुति करें हम उसको सराहें\n          E                     B            E\n         और दण्डवत् भी करें साष्टागं प्रणाम करें।\n                                                     (F/59)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "9bHxRBpM2vM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Har samay aur Har haal || हर समय और हाल और हर परिस्थितियों में || songs of zion || Christian songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "IS6_s73WOiU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हर समय हर हाल भजूँगा येशु को || Har Samay Har Haal Bhajunga Yeshu Ko || Christan New Hindi Song 2021",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HMawHnqOb0A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "संभाल प्रभु जी | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

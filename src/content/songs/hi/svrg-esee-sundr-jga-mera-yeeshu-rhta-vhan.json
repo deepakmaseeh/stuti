@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qIgTazjPaAY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Swarg Aisee Sundar Jagah | स्वर्ग ऐसी सुंदर जगह | Kharpadiya Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dEkHJuzvdJo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "સ્વર્ગ એસી સુંદર જગા | swarg Aisee sundar Jagah mera yeshu rehta vaha | Jesus song | Hindi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gU_vd5Frn5Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "स्वर्ग ऐसी सुंदर जगह HINDI CHRISTIAN SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

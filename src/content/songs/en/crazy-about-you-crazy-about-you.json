@@ -104,9 +104,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zADbWiaNnOo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Crazy About You - Tauren Wells | Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BjCipDrEYVA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tauren Wells - Crazy About You (Radio Version)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JGAjUew8n7E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tauren Wells - Crazy About You (Official Audio)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

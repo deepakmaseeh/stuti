@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "DfRMJf44Hc0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु कैसा दोस्त है प्यारा, दुःख और बोझ उठाने को || HINDI WORSHIP SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LeysmRCncH4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Kaisa Dost Hai Pyara | Cathedral Church of the Redemption, Delhi | Christian song #cbnindia",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yTNjQsQyN1E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Kya Hi Pyara Mitra | यीशु क्या ही प्यारा मित्र |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

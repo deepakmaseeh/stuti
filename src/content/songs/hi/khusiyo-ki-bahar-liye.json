@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": "खुशियों की बहार लिए, पापी का उद्धार लिए\n\nकोरस:- खुशियों की बहार लिए, पापी का उद्धार लिए (2)\n         आया है, आया है मेरा मसीहा (2)\n\nऐसा प्रेम किया उसने ... हा...हा...\nस्वर्ग सुख छोड़ा उसने  (2) हा...हा...\nमुझ पापी को बचाने (2)\nआया है, आया है मेरा मसीहा (2)\n\nआओ हम सब मिलकर गाएं...हा...हा...\nतबला, ढफ और झांझ बजाएं...हा...हा...\nसबको गीत सुनाएं (2)\n\n\n\n\n\n\n                                                 (G/28)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "_swYrlDahuM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुशियों की बहार लिए पापी का उधार लिए #खुशियोंकीबहारलिए #masihigeet #yeshukegeet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Z8OAJlQWFKg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khushiyon ki bahar liye_Harmonica",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "--CFjVDFJLQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khushiyon Ki Bahar | Hindi Christmas Song | Aya Hai Mera Masiha | Official Video 4k",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

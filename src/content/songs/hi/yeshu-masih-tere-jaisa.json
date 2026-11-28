@@ -101,9 +101,32 @@
     "page": null
   },
   "chords": "यीशु मसीह तेरे जैसा है कोई नहीं\n\n           A                F#m               D\n    1. यीशु मसीह तेरे जैसा है कोई नहीं\n                                         E\n       तेरे चरणों मे झुके आसमान\n                     G        E         A\n       और महिमा गाये जमीन\n\n             A              E             D            A\nकोरस:- हम गायें होसन्ना, तू राजाओं का है राजा\n                                    E                          A\n        तेरी महिमा होवे सदा, तू है प्रभु हमारा पिता\n\n           A               F#m                      D\n    2. प्यारे पिता तूने हमसे  इतना प्यार किया\n                                             E\n        हमें पापों से छुड़ाने को\n                    G            E          A\n        अपने बेटे को बलिदान किया\n\n              A               F#m                D\n      3. प्यारे मसीह तेरा वादा है हमसे यही\n                                 E\n          अपने वादे को निभाने को\n                G              E           A\n          अब तू आएगा फिर से जमीं\n\n                                                                      (A/14)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BnAPK7f0VHQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Masih Tere Jaisa Hai Koi Nahi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vYFxLu5o1Ig",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshua Ministries - Hum Gaye Hosanna (Yeshu Masih) (Yeshua Band) Official Lyric Video 2006",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_Au2rVgJyPM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan, Tere Jaisa na Koyi | Best Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

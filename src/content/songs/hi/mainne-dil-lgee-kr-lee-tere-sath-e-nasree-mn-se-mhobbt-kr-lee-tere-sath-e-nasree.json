@@ -118,9 +118,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Akz-XhDxxnE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dillagi Karli Tere Sath Aye Nasri New Lyrical Worship Song of@AnkurNarulaMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "poqFEGPacIA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dillagi Karli Tere Sath Aye Nasri || New Lyrical Song || Ankur Narula Ministry ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "7gWI6ec9oMI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dil Lagi Kar Li | मैंने दिल लगी कर ली | Hindi Christian Cover Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

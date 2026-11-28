@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zgvjG_ezrYg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu Tera Naam Hai Mahan | Dhanshree Ravi Rajmane | Christian Worship Song.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SvQuLE1OW68",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Vijay Benedict - Yeshu Tu Hai Mahan | Full Album ft. Uparna Alexander | Nonstop Hindi Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eoHYymCljz4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरा प्यार है महान | Tera Pyaar Hai Mahaan | Hindi Christian Lyrics Song | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

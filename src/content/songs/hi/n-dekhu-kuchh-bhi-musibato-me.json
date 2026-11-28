@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": "E       B        A             E          B       A\nन देखु कुछ भी मुसीबतो में, आशा मेरे जीवन के हर पल में (2)\nF#m               G#m  A     B      E\nकैसा अनोखा प्यार तेरा, साथ न छोड़े तू मेरा (2)\n         E        B        C#m7    G#m\nयीशु तू ही योग्य है, सारे आदर और महिमा के\nA    B         E\nहाथ उठाके मैं कहूँ (2)\n       E          B       C#m7    G#m        A    B          E\nप्रभु तू ही योग्य है, सारे आदर और महिमा के   हाथ उठाके मैं कहूँ\nकैसा अनोखा ……\n        E                           D\nतेरे चरणों में मै बैठा रहूँ, तेरी बातें मै सुनता रहूँ\nA                  E\nयीशु तेरे पीछे मैं चलना चाहूँ,\n F#m           G#m\n तेरी ही तरह मैं बनना चाहूँ\nA      B         E\nतेरे ही हाथों में रहना चाहूँ\n\n         E         B       C#m7    G#m\nयीशु तू ही योग्य है, सारे आदर और महिमा के\nA       B      E\nहाथ उठाके मैं कहूँ (2)\n            E        B        C#m7    G#m\nप्रभु तू ही योग्य है, सारे आदर और महिमा के\nA    B         E\nहाथ उठाके मैं कहूँ",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "wMvz2mnZSU8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Song | Kaisa Anokha Pyar | New Life City Church",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KNdCBzp8vVo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaisa Anokha Pyar Tera | New Hindi Christian Worship Song 2026 | Yeshu Song | Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "L5YWXycCaKg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Jeevan Mein (Official) || Hindi Worship Song || KR Records",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

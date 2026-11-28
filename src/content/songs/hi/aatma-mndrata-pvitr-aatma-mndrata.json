@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "jGcpcH3Nods",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आत्मा मण्डराता | Hindi Worship Song |Atma Mandrata | Worship Cover | @ICCMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-3To5fhSP4M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आत्मा मण्डराता । पवित्र आत्मा मण्डराता । || BR Stavan,Vipul,Joseph || Blessing Worship Ministry ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gY_kCY1Fb8A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आत्मा मण्डराता - A Pentecost worship hymn karaoke with lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

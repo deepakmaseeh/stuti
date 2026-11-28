@@ -95,9 +95,32 @@
     "page": null
   },
   "chords": "आराधना हो आराधना प्रभु यीशु की आराधना\n\nE                 A      B             E\nआराधना हो आराधना प्रभु यीशु की आराधना।\n\nE                     B        A              E\nशान्ति दाता की आराधना, मुक्तिदाता की आराधना।\n\nE                   B        A             E\nमुक्तिदाता की आराधना, तारणहारा की आराधना।\n\nE                    B        A              E\nमेरे मसीहा की आराधना, जीवनदाता की आराधना।\n\nE                     B       A              E\nजीवित प्रभु की आराधना, सच्चे प्रभु की आराधना।\n\n\n\n\n\n\n                                                                  (A/23)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "JDAf8pjkStA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhana Ho Aaradhana | Hindi Christian Song | Live at FOLJ Church | @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-jIKMh-8Cds",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhana Ho Aaradhana | आराधना हो आराधना",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tzkpZVkZkX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aradhna Ho Aradhna",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

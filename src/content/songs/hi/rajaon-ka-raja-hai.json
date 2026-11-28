@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": "राजाओं का राजा है, वो प्रभुओं का प्रभु है\n\nC#m                              B                          C#m\nकोरस:- राजाओं का राजा है, वो प्रभुओं का प्रभु है (2)\nC#m                   B                         C#m\nप्रभु यीशु मसीह, धर्मी न्यायी मसीह\nC#m                   B                            C#m\nप्रभु यीशु मसीह, विजयी योद्धा मसीह\n\nC#m                                                                            B\nशत्रु को हरा दिया, संसार को जीत लिया;\n                                A         B          C#m\nमृत्यु से पार होकर, अनन्त जीवन दिया।\nC#m                             B                                       C#m\nविधियों का वह लेख जो, विरोध में था मिटा डाला। (2)\n\nC#m                                                                            B\nबुलाया चुने हुओं को, लेकर उनका नाम;\n                              A    B                  C#m\nजय पाना ही है, वचन का है आह्वान।\nC#m                         B                         C#m\nजब तक सांस रहे, करें मसीह का काम। (2)\n\n\n\n\n                                                   (E/30)\n                                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "aonzMqvFD68",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rajao Ka Raja Hai | राजाओं का राजा है",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lAT_TO0yWBI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rajaon Ka Raja Hai, Wo Prabhuonka Prabbhu Hai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cciAST6BdSw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राजाओं का राजा है | Rajao ka Raja hai Woh Prabhuo ka Prabhu hai Most Viral Song By Pankaj WTL Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

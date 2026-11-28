@@ -171,9 +171,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "SpCiVT17DcU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abba Pita hey premee Parmeshvar | अब्बा पिता हे प्रेमी | Lyric Video | Song no 34 | Malad FGPC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XK2_qCJIalU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abba Pithah Hai Premi Parmeswar | Hindi Christian Songs | Father S J Berchmans",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LR5E0yMzZlQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🔴LIVE Worship अब्बा पिता है प्रेमी परमेश्वर ❤️ | Hindi Christian Worship Song | Grace Worship Centre",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "DqKli2__WV4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Breastfeeding, Bottle Feeding Music for you & baby - Gentle & Soothing ♫114",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aCzTma41H3A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "100+ Celebrities Who Look UNRECOGNIZABLE After Plastic Surgery",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ra16Gl5Pjaw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "2 Hours of Cozy Medieval Winter History to Fall Asleep To | From Martinmas to Candlemas",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -100,9 +100,32 @@
     "page": null
   },
   "chords": "तारीफ, तारीफ, तारीफ, मिल के करो सारे तारीफ\n\n           D             G    A                       D\n कोरसः-  तारीफ, तारीफ, तारीफ, मिल के करो सारे तारीफ (2)\n              D                 A        D\n           यीशु की जो है प्यारा मुंजी (2)\n\n     D                           A      G                  A         D\n  उसने ही हम सबको बनाया, जो कुछ दिखता उसने रचाया (2)\n                                A      D\n        सारे जहाँ का वह शाहंशाह (2)\n\n       D                            A     G              A              D\nपापों से है पाक वह करता, सारी खताएं माफ वह करता (2)\n                               A      D\n         सारे रोगों को करता चंगा (2)\n\n         D                               A     G                A          D\nउसकी मौत से ज़िन्दगी है पाई, आशा नई एक उसने दिलाई (2)\n                         A           D\n         बैठेंगे तख्त पर फतहमन्द ही (2)\n\n           D                                 A   G                 A           D\nहम्द ओ सन्ना हम मिलके करेंगे, सदा वहाँ पर उसी को ताकेंगे (2)\n               A   D\n         गीत नया वहां गाएंगे (2)\n                                                                 (C/12)\n                                                                                                          The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "gC5EK06uEFY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TARIF TARIF TARIF || #hindi Christian song||#@TheJohnsonTales || Tarif Tarif Tarif mil ke kro .....",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XQc43QIV8-M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तारीफ़ तारीफ़ मिलके करो सारे तारीफ़ | Tareef Tareef Milke Karo Sare Tareef | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_LDpZGGhbxI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TPM Hindi Song 🎧 Lyrics No.161 तारीफ, तारीफ। Tarif Tarif",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

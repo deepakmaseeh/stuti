@@ -91,9 +91,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "m5bJchNjKe4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पवित्र आत्मा से भर देने वाले गाने | पवित्र आत्मा के गीत | Worship Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3GvJJyNySAk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "PAVITRA AATMA AH with Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "bg39IJiw1HA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pabitra Aatma Aa ⛪ [ पवित्र आत्मा आ ] 🙏Virender Patil | New Hindi Christian Worship Song 2025",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

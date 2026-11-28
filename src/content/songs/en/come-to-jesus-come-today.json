@@ -79,9 +79,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "wh0uvyPvYV4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Come Jesus Come feat. Stephen McWhirter | The Brooklyn Tabernacle Choir | I Will Not Be Moved Album",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Lq4PXLxTuVU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "CeCe Winans - Come Jesus Come (Official Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9uxFV9BOaAM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"Come Jesus Come We've Been Waiting So Long\" #jesus #worship #music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

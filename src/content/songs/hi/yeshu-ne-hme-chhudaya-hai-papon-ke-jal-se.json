@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "YiTHeOYoS_8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येसु ने हमें छुड़ाया है Jesus hindi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hGgHUW9BM4U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu ne hame chhudaya hai papo ke jal se | यीशु ने हमे छुड़ाया है पापों के जाल से",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fxg-hHLBpZ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESU Ne HUME CHURAYA HAI. (YESHUA)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -93,9 +93,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zS58hXbZjr8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "He's My rock my sword my sheild",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TpELMk4-3n8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "O Lord, My Rock and My Redeemer • Prayers of the Saints Live",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gzhk--43vBA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "JESUS IS MY ROCK",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

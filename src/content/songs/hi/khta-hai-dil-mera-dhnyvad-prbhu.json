@@ -97,9 +97,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZLaKodN5sZg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kahta Hain Dil Mera Dhanyawad Prabhu । कहता है दिल मेरा धन्यवाद प्रभु । Hindi Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "THbYYF7PI8A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kahta Hai Dil Mera Dhanyawad Prabhu | कहता है दिल मेरा धन्यवाद प्रभु | Ashish Wilson | 2026 New Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "xhq3nJ9qRjg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kehta hai dil mera dhanyavad prabhu",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

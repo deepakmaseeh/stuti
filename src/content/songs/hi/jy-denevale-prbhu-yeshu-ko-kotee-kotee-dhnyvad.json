@@ -112,9 +112,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LTYCEcuLwNg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Songs \"Jai dene waale Prabhu Yeshu ko\" जय देने वाले प्रभु यीशु को कोटि कोटि धन्यवाद",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "L3Vzw_nVWOM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jay Dene Wale Prabhu Yeshu Ko Koti Koti Dhanyavada | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iFw8PxyO7d8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जय देने वाले प्रभु येशु को | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

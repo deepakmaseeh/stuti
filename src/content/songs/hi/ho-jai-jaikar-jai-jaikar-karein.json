@@ -131,9 +131,32 @@
     "page": null
   },
   "chords": "gks t; t;dkj] t; t;dkj djsa\n\t\t     Em                    G\t\t\tD\tEm\ndksjl%& gks t; t;dkj] t; t;dkj djsa\n\n     Em          D\t     Em\t               Em           D            Em\nog gS gekjk jktk jktk ikiksa ls gedks cpkrk cpkrk]\nD                        \tC\t              D\t\t       B\n\tge ij viuh d:.kk djrk] vkSj djrk midkj\n   Em          \t\tG    \t     D                         Em\n\tD;ksa u ml ij ru eu okjsa ns viuk vf/kdkj\n\n   Em            D\t         Em              Em            D\t         Em\nLoxZ gS mldk flagklu] i`Foh cuh gS vklu vklu]\n D                        \tC\t              D\t\t       B\n\tvkdk”k mldh efgek crk, gLrdyk dks fn[kk,]\n    Em          \t\tG    \t     D                         Em\n\tlkjh i`Foh mldh jpuk mldk gh gS izrki\n\n\tEm            D\t         Em              Em            D\t         Em\nml ij ftldk Hkjkslk] og rks dHkh u fxjsxk fxjsxk]\n    D                      C\t              D\t\t B\n\tPkkgs chekjh pkgs xjhch pkgs gks vkdky]\n    Em          \t         G    \t       D                      Em\n lc ladV esa lc d’Vksa esa oks jgsxk lkFkA\n\n                                            (F/50)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7N--pl0jboY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Jai Jaikar, Jai Jaikar Kare | Hindi Jesus Song 2026 | New Masihi Geet | NCS Prime Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VoMsdcq1ntQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Jai Jaikar Kare Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5f9PK21NPLc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Jay Jaykar Kare",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": false
 }

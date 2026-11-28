@@ -115,9 +115,32 @@
     "page": null
   },
   "chords": "तेरी स्तुति हम करें आराधना करें\nD                       A\nकोरस:- तेरी स्तुति हम करें आराधना करें\n    G   A          D\nसच्चाई से... सच्चाई से...\nBm                             G      A\nइस जहांन में तेरा राज्य हो (2)\n    D               A\nऐ प्रभु... तू ही तू...\n\nD                    Bm       G   A          D\nचाहे जहाँ... हम रहें…  वहाँ तेरी स्तुति हो (2)\n   Bm                    A\nपापियों को बचाता तू (2)\n   D                A\nऐ यीशु… तू ही तू...\n                                    तेरी स्तुति...\n\nD                                Bm\nखुशी और गम में, साथ है तेरा\n  G          A                     D\nआरम्भ और अन्त में, नाम है तेरा...\n Bm                     G       A\nविश्वासियों का सहारा तू (2)\n  D                 A\nऐ प्रभु ... तू ही तू...\n                 तेरी स्तुति...\n                                                                    (C/9)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KjsNst71igU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Stuti Mein Karu | Official Music Video - Joseph Raj Allam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-aqmXuTZiJk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Teri Stuti Aur Aradhana Lyrics | हो तेरी स्तुति और आराधना लिरिक्स",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KZ6XpU-ISIw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Karte Hai Teri Hum Stuthi - करते हैं तेरी हम स्तुति",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

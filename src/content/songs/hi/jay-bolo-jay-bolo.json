@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": "जय बोलो जय बोलो\n\n         E                          A      B           E\nकोरस:- जय बोलो जय बोलो, यीशु मसीहा की जय बोलो (2)\n\n\n         E                        A   E\nअंधों को आंख दिया यीशु ने (2)\nE                           A    E\nलगड़ों को चला दिया यीशु ने (2)\n\n E                        A   E\nगूंगों को बोली दिया यीशु ने (2)\nE                         A    E\nबहरों को सुना दिया यीशु ने (2)\n\nE                         A     E\nकोढ़ी को चंगा किया यीशु ने (2)\nE                         A    E\nमूर्दों को जिला दिया यीशु ने (2)\n\nE                           A    E\nहम सबको बचा लिया यीशु ने (2)\nE                        A    E\nपापों से छुड़ा लिया यीशु ने (2)\n                                                    (B/29)\n                                                                                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "infwjo8xMR4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Bolo (LIVE) Jai bolo jai bolo yeshu Lyrics Worship song जय बोलो जय बोलो यशु मसीहा की जय बोलो",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "S0aP_A6N-jE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Bolo Jai Bolo | यीशु मसीहा की जय बोलो | Hindi Christian Gospel Song | Jesus Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Wo9uVwMRZyg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jay Bolo Jay Bolo Yeshu Masiha Ki Jay Bolo Worship Song FOLJ CHURCH • @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

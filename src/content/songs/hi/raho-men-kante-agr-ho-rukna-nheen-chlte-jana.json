@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "agVYXB5rw-M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राहों में कांटे अगर हो | Rahon Me Kante Agar Ho | Lyrics | Hindi Christian Song | Jesus Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "E4BkN3Nqk54",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राहों में कांटे अगर हों, रुकना नहीं चलते जाना || Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "44MmGAQCsds",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rahon Me Kante Agar Ho",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

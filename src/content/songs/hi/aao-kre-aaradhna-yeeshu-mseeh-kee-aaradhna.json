@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BlgaaJaHCZk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Karein Aradhana | Ankur Masih | Official Music Video | New Masihi Geet 2020 | New Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ULF9SDLDXL8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Kare Aradhana | Aao Kare Aradhana Yeshu Masih Ki Aradhana",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1ngcX8QWRI4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Karein Aradhana Yeshu Masih Ki Aradhana | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

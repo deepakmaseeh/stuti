@@ -97,9 +97,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "are7nBlpRus",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HE WILL NEVER LET GO MY HAND | TELUGU CHRISTIAN SONGS | NOAH",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GkWDjX8e-TU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "CHRISTIAN HALE & Mark Zadok Perform \"HIS HAND NEVER LET ME GO\" | A Moving Christian Duet Of Faith…",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PgM-NIPev2w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Guy Penrod - You Never Let Go (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

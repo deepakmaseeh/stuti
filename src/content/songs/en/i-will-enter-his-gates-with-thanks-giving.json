@@ -99,9 +99,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "xseOGT8GORw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I WILL Enter His Gate With Thanksgiving / Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0jGzmm8mxL0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Song I Will Enter His Gates In Hindi and English",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nSKFvaZV670",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I will enter His gates with thanksgiving in my heart : Whitewell Metropolitan Tabernacle Belfast",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

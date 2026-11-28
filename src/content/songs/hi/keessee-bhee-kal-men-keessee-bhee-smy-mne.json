@@ -155,9 +155,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1dBpMXNVYac",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Hindi Christian Song 2021|| Kisi bhi kaal me Kisi bhi samya me|| By Praislin Cinderella.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_GpgDiZ6PTQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Mangne Se Jada Lyrical Video ।। Hindi Christian Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "arMiCPEnlHo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tujhsa Is Jahan Mein Aur Koi Hai Nahi | आराधना तेरी आराधना",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

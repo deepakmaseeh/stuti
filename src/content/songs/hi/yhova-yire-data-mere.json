@@ -147,9 +147,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "8EXvfg-g_hA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yehova Yire Data Mere Tu Kaafi Hai Mere Liye | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2UMtLKM1Md0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yehova Yire Data Mere",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "kkCYfNtYtY0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yehova Yire Data Mere -Lyric Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

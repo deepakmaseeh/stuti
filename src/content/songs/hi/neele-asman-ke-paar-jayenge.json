@@ -136,9 +136,32 @@
     "page": null
   },
   "chords": "नीले आसमान के पार जायेंगे मेरा यीशु रहता वहाँ\n\n        E                              A         B              E\nकोरसः-\tनीले आसमान के पार जायेंगे मेरा यीशु रहता वहाँ (2)\n                    A         E            B                E\n      हम मिलेंगे बादलों पर (2) देखेगा सारा जहाँ\n\n     E                              A\n उसका कोई भी वादा ना होता अधूरा\n      B                          E\n    हर एक वादा उसका होता है पूरा\n      E\n    उसका कोई भी वादा\n       E                             B\n    उसके आने का वादा भी पूरा होगा, देखेगा सारा जहाँ। (2)\n\n          A          E             B                E\n   हम मिलेंगे बादलों पर (2) देखेगा सारा जहाँ\n\n      E                          A\n यह विश्वास है मेरा जो होगा पूरा\n   B                      E\n    सपना यह मेरा न रहेगा अधूरा,\n      E\n          यह विश्वास है मेरा\n                E                         B\n         उसके संग हम रहेंगे अपने यीशु के,\n                                   E\n   देखेगा सारा जहाँ।\n\n           A            E            B                E\n  हम मिलेंगे बादलों पर (2) देखेगा सारा जहाँ\n                                            (C/30)\n                                                                                                                             The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "9288Ao2YLCY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Neele Aasman ke Paar Jayenge",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "J9bKWfOgZdg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Neele Aasmaan | The Worship Series S01 | Robinson Shalu | Julius Ashoka Shaw | Rex Media House©2022.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6zR7Zv72a28",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नीले आसमान के पार जाएँगे | Neele Aasman Ke Paar Jayenge | Lyrics | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

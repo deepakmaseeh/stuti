@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ho7zy21rhuU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ओ कलवरी ओ कलवरी प्रेम की धारा जहाँ से बही || O Calvary Prem ki dhara Jahan Se bahi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "uussYejawhU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Premi Yeshu Hai Premi | Heartfelt Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "f-XWSltdXHk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Premi Yeshu Ne Kaha Hai | TPM Hindi Song 2024 | with lyrics | Song no 555 | Masih Song #tpm",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

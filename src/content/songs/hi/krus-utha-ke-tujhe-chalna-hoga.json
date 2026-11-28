@@ -118,9 +118,32 @@
     "page": null
   },
   "chords": "कोरसः-\tक्रूस उठा के तुझे चलना होगा\nआज प्रभु को दिल देना होगा -2\n\n1.\tराह तू अपनी छोड़ के आजा,\nनव-जीवन उपहार में ले जा\nआज प्रभु के लिये क्रूस उठा जा।\n\n2.\tदीप तेरा कभी बुझने न पाए,\nज्योत मसीह से नेह लगाए\nआज प्रभु की ज्योति पार लगाए।\n\n3.\tदूर करेगा गम तेरे दिल का,\nपाप मिटाके नव-जीवन देगा\nआज प्रभु के लिए आना होगा।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Msf56ig37Eg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "✝️ क्रूस उठा के तुझे चलना होगा | New Hindi Christian Song 2026 | हिंदी मसीही गीत",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Wzsc-zuKOSg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Krus Utha kar | Official Music Video | Music for Jesus | with lyrics | Tujhe chalna Hoga",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JZbDwAAUoQw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "“Krus Utha Ke Tujhe Chalna Hoga” | St. Michael Church Salawad Khurd Village | Mar'25",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -116,9 +116,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5TEZNc2RpPk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hosanna - Hillsong Worship - With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hnMevXQutyE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hosanna - Hillsong Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HNse4Quefa0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hosanna| Hindi Worship song| Christ Alone Music| Ft.Vinod Kumar, Benjamin Johnson|",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

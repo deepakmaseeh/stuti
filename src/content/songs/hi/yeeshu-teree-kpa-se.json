@@ -156,9 +156,32 @@
     "page": null
   },
   "chords": "यीशु तेरी दया से, मैं जीवन जीता हूँ\n           यीशु तेरी कृपा से, मैं आगे बढ़ता हूँ\nकोरस:-   धन्यवाद...धन्यवाद...यीशु तेरी धन्यवाद (2)\n\nफूलों में रंग तुने डाला, पंछी को गाना तुने शिखाया\nसागर से गहरा प्यार तेरा, आसमानों से तुं है उँचा\n\nभोजन से तृप्त करता, तन को मेरे कपड़ो से ढकता\nमेरे सारे दु:ख दर्द को, नृत्य में बदल देता है\n\nतुं है यहोवा सालोम, शांति देनेवाला\nतुं है यहोवा नीस्सी, जय हरदम देनेवाला\n\nयीशु तेरी दया से, मैं जीवन जीता हूँ\nयीशु तेरी कृपा से, अब तक मरा नहीं जींदा हूं मैं\nधन्यवाद....(2), राजा तेरा धन्यवाद (2)\nधन्यवाद....(2), यीशु तेरा धन्यवाद (2)\nधन्यवाद....(2), पिता तेरा धन्यवाद (2)\nधन्यवाद....(2), यीशु तेरा धन्यवाद (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "gvGUGw2GHyo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु तेरी दया से मैं जीवन जीता हूं | Yeshu Teri Daya se | By Persis John @Tumhen_Shanti_Mile",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SERyiQNyiNc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu teri daya se | Mai jivan jita hun | Jesus song hindi | masih Geet | new geet masih",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XqEldXI6Gws",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tera Dhanyawad | Yeshu Teri Daya Se | येशु तेरा धन्यवाद | Sunny Vishwas |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

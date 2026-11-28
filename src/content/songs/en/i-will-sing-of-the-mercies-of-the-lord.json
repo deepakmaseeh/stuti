@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "lEI39bxGT6o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Will Sing of The Mercies of The Lord - Voices In Prayer - With lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EPPaubGFNQQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Will Sing of the Mercies of the Lord - Divine Hymns - Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Vc7-7AohhIc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Will Sing of the Mercies of the Lord Forever | Psalm 89 | Spoken Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -93,9 +93,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5rPGn_KTYuU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abba Father, Let Me Be Song Lyrics - Divine Hymns - Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YqApJ0zhQDU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ABBA FATHER LET US BE YOURS || PRAYER HYMNS _ HYMNO IN _ SONG WITH LYRICS _",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BqCMu4hlPsw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abba Father Song Lyrics | B36 | With Joyful Lips Hymns | Divine Hymns",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

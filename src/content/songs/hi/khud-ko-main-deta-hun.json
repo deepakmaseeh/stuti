@@ -130,9 +130,32 @@
     "page": null
   },
   "chords": "खुद को में देता हूं, पूरे दिल से अर्पण करता हूं\n\n\nF#           B        C#                   B     F#\nखुद को में देता हूं, पूरे दिल से अर्पण करता हूं\n                         B               C#                 B   F#\nकुम्हार के हाथों में बर्तन समान, मुझको बना दे तू मेरे प्रभु\n\nF#           B    C#                        B\nकोरस:- मैं थक न जाऊं प्रभु, इस जिन्दगी में कभी\n            B      C#                    B\nजब तक ये जान है प्रभु, संग तेरे रहना है\n\nF#                B          C#              B     F#\nअनुग्रह दे तेरी आत्मा से, ताकि बना रहूं मैं सर्वदा (2)\n                        B\nअपनी जान दी है तूने, यीशु मैं तेरा हूं\nC#                                      B   F#\nपीछे न हट जाऊं मैं, ऐसा दे सामर्थ प्रभु\n\nF#               B          C#                     B     F#\nउद्धार की घोषणा करने, सामर्थ से मुझको भर दे प्रभु\n                            B\nवचनों पर स्थिर रहूं मैं, यीशु तेरे आने तक\nC#                                      B   F#\nतुझ से लिपटा रहूं मैं, यीशु तू काफी मुझे\n                                                        (A/43)\n                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zJ7yJSTDcrk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "KHUDKO MAIN DETA HOON | Manpathrampol Hindi | Emmanuel KB | Sheenu Mariam | Rijo Joseph |©",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FdHqobP3yFM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुद को मैं, देता हूँ, पूरे दिल से अर्पण करता हूँ | KHUDKO MAIN DETA HOON | HINDI WORSHIP SONG 2021",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aWP6g2uM_2U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "KHUDKO MAIN DETA HOON | Manpathrampol Hindi | Emmanuel KB | Sheenu Mariam | Rijo Joseph |©",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

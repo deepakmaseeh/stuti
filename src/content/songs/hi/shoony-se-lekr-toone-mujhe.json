@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "EMwnyfTRCWU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Song- Shunya se leke toone | शून्य से लेके तूने मुझे with Hindi Lyric",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sftqEY3d3FA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "शून्य से लेके तूने मुझे Shoonya Se Leke Tune Mujhe - Hindi Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "d-ZW6Krnxr4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shunya Se Leke Tune Mujhe { शून्य से लेके तूने मुझे } Rajveer Singh || New Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

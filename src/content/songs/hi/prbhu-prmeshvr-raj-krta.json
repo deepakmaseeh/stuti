@@ -171,9 +171,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "T4SrV5LU7JI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु परमेश्वर तू कितना भला है Prabhu Parmeshwar Tu Kitna Bhala Hai-Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DkOg7wb9qOU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "#Rajao Ka Raja - राजाओं का राजा | Suraj Kumar | प्रभु यीशु का भजन | #Hindi Christian Song 2023",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WyWtkJKhgDY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rajao Ka Raja Hai - राजाओं का राजा है - Lyrics in Hindi and English",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

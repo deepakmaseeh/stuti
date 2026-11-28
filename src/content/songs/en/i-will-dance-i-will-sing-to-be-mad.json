@@ -114,9 +114,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "tROUADbHXcc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Undignified (Live At Passion 2025)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2zbnKf5FDq8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Undignified (Live) - Bethel Music, Brooke Ligertwood",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hp7B5V-qpTQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "David Crowder Band - Undignified",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -103,9 +103,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3Ae9VOx_HJc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In moment like this ( song with lyrics)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SAhlIHCZw5A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In Moment Like This",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gs0k04PkEy8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In Moments Like These",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

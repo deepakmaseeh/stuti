@@ -84,9 +84,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pKR0YkT3ciU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Alive Alive Alive Forevermore ✝️ Kids Songs 💟 Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3z1k_PeKXX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Alive Alive Alive Forevermore | Action Song | Christian Children Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LXYr0IswMQg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kids Worship: Alive Alive",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

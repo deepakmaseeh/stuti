@@ -151,9 +151,32 @@
     "page": null
   },
   "chords": "यीशु के पीछे कौन हो लेगा? अपनी सलीब कौन उठाएगा?\n\n          G                               C                    G\nयीशु के पीछे कौन हो लेगा? अपनी सलीब कौन उठाएगा?\n                   C                 G                      D        G\n      कौन अब तैयार है, अभी पुकार है, कौन ताज आसमानी पायेगा?\n\n         G               C            D             C       G\nकोरस:- कौन है तैयार, अभी तैयार? यीशु के पीछे कौन हो लेगा।\n          C       D             G     D    D7    G\n         यीशु के पीछे कौन हो लेगा? अभी कौन तैयार?\n\n          G                               C                          G\nयीशु के पीछे कौन हो लेगा? कौन उसके साथ अब हो जावेगा?\n            C                  G                           D      G\n      पूरा उद्धार है, हो उसकी जय, जय, कौन उसकी सन्ना गायेगी?\n\n          G                               C                       G\nयीशु के पीछे कौन हो लेगा, संकट और जोखिम की राहों पर?\n          C                   G                    D            G\n     पापों को छोड़के, मुक्त उनसे हो के, कौन आता जीवन अर्पित कर?\n\n          G                              C               G\nयीशु के पीछे कौन हो लेगा, कि उससे पाये जीवन अपार\n                  C                      G                  D         G\n       सिद्ध हो विजय में, ताज उससे पाने, कि मिलेगा वह सुख अपार।\n\n       G            C            D            C     G\n       मैं हूं तैयार, अभी तैयार, यीशु के पीछे मैं हो लूंगा,\n        C       D             G        D   D7  G\n       यीशु के पीछे मैं हो लूंगा अब, अभी हूं तैयार।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "17yq3M9oQ-A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yesu ke piche koun ho Leta | Song no 275 | Sakshivani |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WX1jMPXOlqY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "#yeshukepichhe #Saneshkumar Hindi Christian song || yeshu ke picche mai chalne laga",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "r4OFmgNDKoM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "#Bhojpuriyeshusong#Prabhuyeshumasihsong#Kanhiyasalibiyaleke/ Singer O.P MARK/O.P.MARK OFFICIAL",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

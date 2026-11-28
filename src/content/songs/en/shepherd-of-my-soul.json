@@ -130,9 +130,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "dtqliuDZlKA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shepherd of my soul",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9sv3e2cFcj4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shepherd of my Soul",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yXAxM5_fgkA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shepherd of My Soul (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

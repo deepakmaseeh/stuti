@@ -120,9 +120,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "gjicpl8P12E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chakh Kar Maine Jana Hai | चखकर मैंने जाना है | Hindi Christian Cover Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DudpDtuDTYI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chakh kar maine jaana hai, Yehova kaisa hai | Hindi Christian Song | Yeshu Masih Song | Masihi Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "L6uM1zy_y4A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chakar maine jana hai ,Gospel Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

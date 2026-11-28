@@ -114,9 +114,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "lmgUKoFKM60",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus Loves the Little Children 🧒 Kids Songs 👦 Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "n3h7FcCgNLg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus Loves The Little children | Action Song | Children Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XXYoKyw-kDk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "JESUS IS THE LORD - SBC KIDS CHOIR (cover)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

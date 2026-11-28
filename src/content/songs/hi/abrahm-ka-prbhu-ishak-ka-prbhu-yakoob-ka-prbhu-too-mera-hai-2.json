@@ -152,9 +152,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "n2XyHw5Xp0c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abraham Ka Prabhu @AmitKambleMinistries || Hindi Christian Song Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JKQR8FZcTRM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abraham ka Prabhu (Official Video) | Amit Kamble",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "D9YQMGZsIzg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Abraham Ka Prabhu | अब्राहम का प्रभु New Lyrical Worship Song of@AnkurNarulaMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

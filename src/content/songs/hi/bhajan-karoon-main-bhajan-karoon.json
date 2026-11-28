@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": "भजन करूँ मैं भजन करूँ\n\n\t   E\t       B7      E\t      B7\n कोरसः भजन करूँ मैं भजन करूँ,\n\t    E       B7                    E\n        नाम मसीह का मैं लेता रहूँ\n\n          E\t             C#m    A     E\t                   C#m     B\n   1. दुश्मन मुझको मेरे सताएं, दोष वह मुझ पर झूठे लगाएं (2)\n\t   E\t     B\t           E\n       उनके लिए मैं दुआ करूँ (2)\n\n\t   E\t             C#m    A    E\t           C#m     B\n   2. लोग जो झूठी बातें गढें, चारों तरफ बदनाम करें, (2)\n\t  E\t     B\t           E\n       फिर भी मैं उनको क्षमा करूं (2)\n\n\t  E\t                C#m    A    E\t         C#m     B\n   3. हाथ पकड़ ले प्यारे मसीह, राह दिखा दे जो है सही (2)\n       E\t     B\t           E\n       तेरे मैं पीछे-पीछे चलूं। (2)\n\n          E\t              C#m       A    E\t           C#m     B\n   4. रंज दुःख मेरे मिटेगें तमाम, लेता रहूंगा सदा तेरा नाम (2)\n       E\t     B\t        E\n       चरणों में तेरे सदा रहूं (2)                           (D/15)\n                                                                                                                 The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "jrdBhS-GJLM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "भजन करू मै भजन करूँ, नाम मसीह का मै लेता रहूँ. भजन",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CGFN9kNYQhc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bhajan Karu Ajit Horo Official Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5MOsJih4Ydc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "भजन करू मैं भजन करूँ | Bhajan Karun Main Bhajan Karun #jesus #jesussonghindi #yeshu #yahova #song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

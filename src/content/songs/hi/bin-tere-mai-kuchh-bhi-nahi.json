@@ -145,9 +145,32 @@
     "page": null
   },
   "chords": "बिन तेरे मैं कुछ भी नहीं, बिन तेरे मैं कुछ भी नहीं\nकोरस:- यहोवा.. मुझे तेरी जरुरत है (2) प्यार तू करता इतना (2),\n         अपने हाथो पे खोदी मेरी सूरत है,\n          यहोवा.. मुझे तेरी जरुरत है (2)\n\nतू मेरे चेहरे की रौनक, और है मेरी कुव्वत (2)\nहसमत और ज़लाल के बादशाह, तुझसे है मेरी ज़ीनत (2)\nतेरे बिना ये ज़िंदगी मेरी (2), बे रौनक बे सूरत है\n\nतेरा कलाम है ऐसे, जैसे हो अनमोल मोती (2)\nचिराग है कदमो के लिए, और मेरी राहो की ज्योति (2)\nसाहेजमा तू ज़िंदा खुदा तू (2), तू ना झूठी मूरत है\n\nआसमा तूने बनाया, समुन्दर की हद ठहराई (2)\nचरिंद परिंद पहाड़ दरिया, और फूलो से धरती सजाई\nकायनात इतनी सुंदर बनाई (2), तू कितना खूब सूरत है",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "YPWvaQkzOSQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere bin mai kuch bhi nahi//तेरे बिन मैं कुछ भी नहीं//lyrical video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZfcWlym9FHk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "बिन तेरे मैं कुछ भी नहीं यहोवा मुझे तेरी जरूरत है",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tFjSIYg5qpU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERE BIN MAIN KUCHH BHI NAHIN - Great Christian Worship Song from the Tamjid-e-Khuda Worship Concert",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

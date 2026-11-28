@@ -124,9 +124,32 @@
     "page": null
   },
   "chords": "प्रार्थना के सुनने वाले प्रभु, प्रार्थना की चाहत\n           C           G      F   C                    F   G            C\nप्रार्थना के सुनने वाले प्रभु, प्रार्थना की चाहत, हम में तू भर,\nC          G    F    C               F    G       C\n      प्रार्थना में सदा ठहरे रहें, प्रार्थना का गौरव पाते रहें।\n\n      C                        F          C              F     G\n     कोरस-  प्रार्थना ही जीवन, प्रार्थना ही जय, जीने के लिए नियम ये हैं\n                               C        F            C          F    G           C\n      प्रार्थना ही जीवन, प्रार्थना ही जय, जीने के लिए नियम ये हैं\n\n       C           G      F   C                    F   G            C\nउत्साह के साथ और एकता के साथ, प्रतिज्ञाओं को हम पायेंगे,\nC           G      F      C                    F   G      C\n      सच्चे विचारों पर अटल रहें, प्रार्थना के लिए जीवन जिऐ।\n\n      C           G      F   C                    F   G            C\nसदैव ही प्रार्थना करने हेतु, सारी रूकावटें कर दे तू दूर,\nC        G       F           C             F       G          C\n      दुर्बल शरीर पर जय पाने को, आत्मा उण्डेल कर अग्निमय कर।\n\n       C           G      F   C                    F   G            C\nआत्मा के बोझ और आँसुओं के साथ, रात और दिन तेरे लोगों के साथ,\nC             G    F     C            F     G           C\n      प्रार्थना की सेवा करने हेतु, अनुग्रह हम पर प्रभु कर तू।\n                                                                   (D/10)\n                                                                                                                             The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "wkozlkJU08A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Vinti Sunane Wale | Beautiful Hindi Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FLGUBc3zHYY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "विनती सुनने वाले | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YmWR-__Sim8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hannah’s Prayer | New Hindi Christian Prayer & Worship Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

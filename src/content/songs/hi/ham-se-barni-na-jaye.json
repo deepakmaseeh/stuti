@@ -182,9 +182,32 @@
     "page": null
   },
   "chords": "हमसे बरनी न जाए मसीह तुम्हारी महिमा\n\n      D                    G      A                    D\nकोरस:- हमसे बरनी न जाए मसीह तुम्हारी महिमा (2)\n\n          D                      G D                  G                      D\nतुम स्वर्ग छोड़कर आए, (2) तुम मुक्ति और जीवन लाए,\n                        G         A                  D\n        कि पापी लिए बचाए, मसीह तुम्हारी महिमा। (2)\n\n          D                    G D          G                       D\nअन्धों को आँखें दीना, (2) कोढ़िन को चंगा कीना,\n                          G     A                   D\n        कि मुर्दे दिए जिलाए, मसीह तुम्हारी महिमा। (2)\n\n        D                  G    D                G                       D\nपानी पर चल दिखलाया, (2) तू ने हवा को डांट थमाया,\n                        G        A                 D\n        कि चेले लिए बचाए, मसीह तुम्हारी महिमा। (2)\n\n           D                        G D              G                  D\nमेरे पाप क्षमा सब कीना (2) मेरे दिल में दर्शन दीना,\n                             G        A                 D\n        कि प्रभु से दियो मिलाए, मसीह तुम्हारी महिमा। (2)\n\n           D                   G D                  G             D\nसूली पर बरछी खाई, (2) तूने अमृत धार बहाई,\n                           G        A                 D\n               कि दास सदा गुण गाए, मसीह तुम्हारी महिमा। (2)\n                                                                        (F/66)\n                                                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TvC9f6H7rBY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हमसे बरनी न जाय मसीह तुम्हारी महिमा मसीह भजन",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eQdYxAGPJM0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम से बरनी न जाये मसीह तुम्हारी महिमा || मसीह नया भजन || FOLJ Choir Team Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "36zU3MVPrtA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Humse Barni Na Jaye Masih Tumhari Mahima Song With Lyrics | Anil Raut",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

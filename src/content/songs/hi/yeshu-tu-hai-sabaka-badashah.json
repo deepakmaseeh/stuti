@@ -178,9 +178,32 @@
     "page": null
   },
   "chords": "महिमा तेरी धरती पर फ़ैल जाए- तेरा राज्य आये (4)\n        घटते रहे जीवन में हम, तू बढ़ता जाए- तू बढ़ता जाए (4)\n\nकोरस:- यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा (2)\n\nतू नहीं चाहता कोई इंसान पाप में मरे\n       नाश हो जाए, और सदा की आग में जले (2)\n       पर तेरे खून से हम सबके पाप हैं धुले (2)\n       यीशु तेरे ही नाम से सब जीवन पाए (2) सब जीवन पाए (4)\n\nकोरस:- यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा (2)\n\nइस जमीन पर नहीं, न कोई आसमा तले\n       रास्ता है तूही, जिसपर ये कारवां चलें (2)\n       हैं नयी ज़िन्दगी तेरे सलीब के तले (2)\n       इस ज़िन्दगी की राह पर हम चलते जाएँ (2) हम चलते जाएँ (4)\nकोरस:- यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "sRKjZF4uA2o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera Rajya Aaye | Official Video | New Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AFN03NfFxZk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera Rajya Aye- Gopal Masih / Thy Kingdom Come'",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_siv_RCLa48",
+      "start": 0,
+      "kind": "lyric",
+      "title": "King of Glory Jesus | New Hindi Christian Worship Song | Praise & Gospel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

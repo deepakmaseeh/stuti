@@ -114,9 +114,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LooOjZqeyqU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "What An Awesome God (Live From Summer Worship Nights)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "K9QtIHW415A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "GOODNESS OF GOD 🙏 Best Hillsong Worship Songs With Lyrics, Top Christian Praise & Worship Music 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "U4xUQY3qOOE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "WORSHIP MEDLEY | A collection of some awesome Christian Worship songs in Hindi | ABC Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -90,9 +90,32 @@
     "page": null
   },
   "chords": "आवाज उठाएँगे, हम साज बजाएँगे\n\n       E                               B                E\n  कोरस:-   आवाज़ उठाएँगे, हम साज बजाएँगें\n     A                                  B           E\n             है यीशु महान अपना, यह गीत सुनाएंगे।\n\n          E                                                    A\n संसार की सुन्दरता में, यह रूप तो तेरा ही\n                   B                                   E\n          इन चाँद सितारों में, है अक्स तो तेरा ही\n          E                            B            E\n          महिमा की तेरी बातें, हम सबको बताएँगे। है यीशु महान…\n\n          E                                                   A\n न देख सका हमको, तू पाप के सागर में\n               B                                               E\n          और बन के मनुष्य आया, आकाश से सागर में\n        E                                  B            E\n          मुक्ति का तू दाता है, दुनियाँ को बताएँगे। है यीशु महान…\n\n\n                                                                     (A/9)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "4dTiJ-JB8QU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आवाज़ उठायेंगे, हम साज़ बजायेंगे Aawaaz uthayenge hum saaz bajayenge",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3iCKFqm6U_o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आवाज़ उठाएँगे, हम साज़ बजाएँगे | Aawaaz Uthaayenge | Hindi Christian Worship | यीशु महान अपना",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "g2kG4S0ABTQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aawaaz Uthayenge|Audio Video| Hindi Christian Song|Worship Battler",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

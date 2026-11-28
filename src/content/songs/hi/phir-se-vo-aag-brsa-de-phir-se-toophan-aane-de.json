@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "uwTtT_Ptt2k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "फिर से वो आग बरसा दे - Phir Se Wo Aag Barsa De (Lyrical)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PWPL-GyiJjQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Original Song | Phir se Woh Aag Barsa de | फिर से वो आग बरसा दे | Holy Ground Ministries.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Bs7dAJyZrKw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Phir Se Voh Aag Barsha De | फिर से वो आग बरसा दे || HINDI Christian Song || Lyrics ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

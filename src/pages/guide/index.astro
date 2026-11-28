@@ -37,32 +37,37 @@ const { maker } = site;
     </a>
 
     <h2 id="contact">Contact</h2>
-    <p>Reach {maker.name} using the same details listed on Google:</p>
-    <ul class="maker-contact">
-      <li>
-        <strong>Email</strong>
-        <a href={`mailto:${maker.email}`}>{maker.email}</a>
-      </li>
-      <li>
-        <strong>Phone</strong>
-        {
-          maker.phones.map((tel, i) => (
-            <>
-              {i > 0 ? ' · ' : ''}
-              <a href={`tel:${tel}`}>{maker.phoneLabels[i]}</a>
-            </>
-          ))
-        }
-      </li>
-      <li>
-        <strong>Address</strong>
-        {maker.address}
-      </li>
-      <li>
-        <strong>Google</strong>
-        <a href={maker.mapsUrl} rel="noopener noreferrer" target="_blank">Open on Google Maps</a>
-      </li>
-    </ul>
+    <p>Reach {maker.name} using the details below:</p>
+    <div class="contact-grid">
+      <a class="contact-card" href={`mailto:${maker.email}`}>
+        <span class="contact-card__label">Email</span>
+        <span class="contact-card__value">{maker.email}</span>
+      </a>
+      <div class="contact-card">
+        <span class="contact-card__label">Phone</span>
+        <div class="contact-pills">
+          {
+            maker.phones.map((tel, i) => (
+              <a class="contact-pill" href={`tel:${tel}`}>
+                {maker.phoneLabels[i]}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <a class="map-preview" href={maker.mapsUrl} rel="noopener noreferrer" target="_blank">
+      <span class="map-preview__bar" aria-hidden="true">
+        <span class="map-preview__pin"></span>
+        <span>Google Maps · Lucknow</span>
+      </span>
+      <span class="map-preview__body">
+        <span class="map-preview__name">{maker.name}</span>
+        <span class="map-preview__addr">{maker.address}</span>
+        <span class="map-preview__cta">Open in Google Maps →</span>
+      </span>
+    </a>
 
     <h2 id="guide">Guide</h2>
     <nav class="toc" aria-label="Topics">
@@ -109,20 +114,7 @@ const { maker } = site;
     <div class="step"><span class="n">1</span><span><strong>Offline</strong> tab → tap download next to a book → wait for the check mark.</span></div>
 
     <h3 id="report">Report a mistake</h3>
-    <div class="step"><span class="n">1</span><span>On a song, tap <strong>⋮</strong> → <strong>Report a mistake</strong> (or long-press any line) → write the correct words → <strong>Send</strong>.</span></div>
-    <p>
-      In the set, tap Share for WhatsApp, Copy link, QR, Calendar, Order of service, or PowerPoint.
-    </p>
-
-    <h3 id="present">Show on a projector</h3>
-    <p>
-      Tap Present. Keys: → next, ← back, B black screen, Esc exit.
-    </p>
-
-    <h3 id="offline">Use without internet</h3>
-    <ol>
-      <li><strong>Offline</strong> tab → download next to a book → wait for the check mark.</li>
-    </ol>
+    <div class="step"><span class="n">1</span><span>Scroll to the bottom of any song and tap <strong>Report a mistake</strong> (or long-press any line) → write the correct words → <strong>Send</strong>.</span></div>
 
     <h3 id="settings">Settings</h3>
     <p>
@@ -133,7 +125,7 @@ const { maker } = site;
     <h3>FAQ</h3>
     <ul>
       <li><strong>No internet?</strong> Download books on Offline first.</li>
-      <li><strong>Wrong words?</strong> On a song → ⋯ → Report a mistake.</li>
+      <li><strong>Wrong words?</strong> Bottom of song → Report a mistake.</li>
       <li><strong>Is it free?</strong> Yes. No ads, no tracking.</li>
     </ul>
 

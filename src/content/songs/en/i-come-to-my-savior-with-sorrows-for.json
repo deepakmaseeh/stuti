@@ -95,9 +95,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ind3vu9tlh8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "English Song - I Come to my saviour with Sorrow for my sins",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fSJjlMhZZkI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Bring You All My Brokenness | Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "oiraX_YypPI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Saviour - Hillsong Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "xXFYcC348SA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "भर दो प्रभु इस मुँह को स्तुति के गीतों से Bhar do prabhu is muh ko | Hindi Christian Devotional Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XwR4NNpwwUU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "भर दो प्रभु --सिय्योन के गीत संख्या 178",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vpg7p7f5244",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bhar do Prabhu iss muhko",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

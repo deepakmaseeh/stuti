@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": "चमका सितारा देखो, चमका सितारा देखो\n\n\nFm                       D#                     C#             D#\nकोरस:- चमका सितारा देखो, चमका सितारा देखो, चमका सितारा रे (2)\n C#                    D#        C#      D#    Fm\n देखो आया यीशु जग में,  सारे जग का वो राजा है (2)\n\n         Fm                 D#               C#      Fm                D#\n 1.   स्वर्गीय पिता का आया संदेशा, मरियम जनेगी एक ऐसा बेटा (2)\n          Fm                       D#   C#      D#   Fm\n        इमानुएल है जिसका नाम, हरदम रहेगा वो तेरे साथ\n        Fm                      D#                     C#          D#\n        आया संदेशा देखो, आया संदेशा देखो, आया संदेशा रे (2)\n          C#                        D#      C#     D#      Fm\n        देखो आया यीशु जग में, सारे जग का वो राजा है (2)\nFm                       D#                     C#             D#\nकोरस:- चमका सितारा देखो, चमका सितारा देखो, चमका सितारा रे (2)\n C#                    D#        C#      D#    Fm\n देखो आया यीशु जग में,  सारे जग का वो राजा है (2)\n        Fm                D#              C#                Fm\n दूतों ने मिलकर गीत ये गाया, चरनी में आया हम सब का राजा (2)\n         Fm               C#               D#               Fm\n       सारे लोगों को छुटकारा देता, पापी जीवन से मुक्ति दिलाता\n       Fm                      D#                   C#            D#\n       दूतों ने गाया देखो, दूतों ने गाया देखो, दूतों ने गाया रे (2)\n       C#                       D#      C#       D#     Fm\n       देखो आया यीशु जग में, सारे जग का वो राजा है (2)\n                                                              (B/30)\n                                                                                                    The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1xMK2HLthEg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "CHAMKA SITARA - HINDI CHRISTMAS DANCE BY DWC YOUTH GIRLS",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9kUPnTY6cck",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chamka sitara dekho || New Christmas song hindi || by Neelu Nissi || Yeshuvandana ministry.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Tey81T_R_3k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "A Star Shone in Bethlehem | New Hindi Christmas Song 2026 | Arijit Singh",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

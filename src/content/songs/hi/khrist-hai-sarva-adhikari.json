@@ -126,9 +126,32 @@
     "page": null
   },
   "chords": "ख्रीष्ट है सर्वाधिकारी ख्रीष्ट है अल्फा ओमेगा\n\nE                                     A\nकोरस:- ख्रीष्ट है सर्वाधिकारी ख्रीष्ट है अल्फा ओमेगा,\n                            B                          E\nआदि और अन्त भी ख्रीष्ट है - युगानुयुग भी ख्रीष्ट है।\n  E\nख्रीष्ट है सर्वाधिकारी।\n\n E            C#m         A                 E\nवास्ते हमें बचाने - प्राण क्रूस पर उसने दिए (2)\n        A          B                         E\nनम्र और दीन बनकर - पापी उसने बचाया (2)\n\n E            C#m        A              E\nतारण तुम्हारा करने – समय वह दे रहा है -2\n        A           B                            E\nदिन आज है अनुग्रह का अभी उसे अपना लो -2\n\n E                   C#m      A              E\nअपनी महिमा के साथ – प्रभु फिर आ रहा है -2\n     A              B                           E\nजो उसकी बाट जोहे - उन्ही को वो ले जाए-2\n\n\n\n\n         (G/6)\n                                                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zCnD89Gd844",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kreesthe sarvadhikari | Hebron songs telugu | songs of zion @Eshcolprayerhouse",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4YA38skYcGk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kriste sarvadhikari.- Hebron Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gKvXDWcDS9M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "KREESTHEY SARVAADHIKARI",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

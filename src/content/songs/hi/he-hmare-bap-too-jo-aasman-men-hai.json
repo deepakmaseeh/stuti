@@ -150,9 +150,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "a-UmWsCy9K0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aye hamare baap Lyrics(The Lord's prayer)Christian song(Anil kant)(Metthew 6:9-13)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GFveL9Z2PbU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HE HAMARE BAAP || हे हमारे बाप तू जो आसमान में है || #@TheJohnsonTales || #hindichristiansong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ParMYPL82Jo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ANIL KANT- AYE HAMARE BAAP/ LORD'S PRAYER",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

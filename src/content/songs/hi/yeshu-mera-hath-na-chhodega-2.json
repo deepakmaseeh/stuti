@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mSsSELm5rCc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hath Na Chhodega | येशु हाथ ना छोड़ेगा | Hindi Christian Cover Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2BHVPzwZDq4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ZINDAGI KE SAFAR | ज़िंदगी के सफर | HINDI CHRISTIAN SONG | FILADELFIA MUSIC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VeS0PpQEigU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hath Na Chhodega",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -116,9 +116,32 @@
     "page": null
   },
   "chords": "तू पवित्र पवित्र है, तू पवित्र पवित्र है\n\nEm       D   Em             D    Em\nकोरस:- तू पवित्र पवित्र है, तू पवित्र पवित्र है\n    C         D                 Em\nतू सच्चा है प्रभू, तू जीवनदाता है\nEm       D    Em\nतू पवित्र पवित्र है\n\nEm         D        Em                D         Em\nतू सामर्थी भय योग्य है, तू स्वर्ग में विराजमान है (2)\n   C          D\nतू सच्चा है प्रभु। ..\n\nEm           D      Em                 D       Em\nतू करुणा निधान है प्रभु, तू अत्यंत महान है प्रभु\n   C          D\nतू सच्चा है प्रभु। …\n\nEm              D         Em                     D         Em\nतू अधर्मों को क्षमा करता है, सारे पापों को क्षमा करता है\n  C            D\nतू सच्चा है प्रभु। …\n                                                (C/6)\n                                                                                                                The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "vek4Y1A3A-M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तू पवित्र पवित्र है Tu Pavitra Pavitra Hai - Christian Worship Song- Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GL9-9Sd7ODA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तू पवित्र पवित्र है | Tu Pavitra Pavitra Hai | Hindi Christian Worship Song | Powerful Jesus Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_opUeEgvEqo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Pavitra Pavitra Hai | Best Hindi Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

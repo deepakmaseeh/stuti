@@ -75,9 +75,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VI5DkWD-Jlw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "वह प्रभु है | Hindi Worship/Christian/Gospel song | GEET BAHAR",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lAT_TO0yWBI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rajaon Ka Raja Hai, Wo Prabhuonka Prabbhu Hai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HLeoZufblUs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "NEW HINDI CHRISTIAN WORSHIP SONGS 2026 ✝️ | प्रभु यीशु की महिमा के गीत | YESHU PRAISE & WORSHIP 🙏👑",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

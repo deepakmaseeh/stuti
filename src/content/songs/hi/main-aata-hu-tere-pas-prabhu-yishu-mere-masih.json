@@ -90,9 +90,32 @@
     "page": null
   },
   "chords": "मैं आता हूँ तेरे पास प्रभु यीशु मेरे मसी\n\n            D                  G           A             D\n   कोरस:- मैं आता हूँ तेरे पास प्रभु यीशु मेरे मसीह\n                    A              Em           A        D\n            मेरे पापों के लिए ही, उद्धार दे दे मसीह।\n\n          D                         G       A            D\n  स्वर्ग धाम छोड़ के आया, उद्धार देने मसीह  (2)\n     E                 Em            A                   D\n       चरणों में तेरे मैं आता, तुझको ये दिल देता मसीह। (2)\n\n       D                    G           A                  D\nमुझे पापों से छुड़ाने, लहु क्रूस पर बहा दिया (2)\n           E                 Em            A                   D\n       कितना गहरा प्यार किया है, मैं भुला ना सकूँगा मसीह (2)\n\n      D                    G                 A          D\nमुझे पापों से छुड़ा ले, अपने राज्य में ले ले (2)\n      E                    Em          A                 D\n       आ जाओ मेरी ज़िन्दगी में, मेरी ज़िन्दगी तेरी मसीह। (2)\n\n                                                          (D/19)\n                                                                                                                 The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0whkrTOkZaQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main Aata Hun Tere Paas - Full Song - 3 Stanzas - Beno Pothen - #gospel #hymns #jesus #masihigeet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RYPM6yEqM18",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main Aata Hun Tere Paas | मैं आता हूँ तेरे पास । गीत संख्या - 395 । गीत संग्रह ।Bhagalpur Pastorate",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KVC_FF34z34",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं आता हूँ तेरे पास | Main Aata Hoon Tere Paas",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "z77Vrmqr9sA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Duniya Pe Aankh Lagi To Chinn Gaya Tera Abhishek Guitar Chords.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "INadF84sFbE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "From 25 years of barrenness to FRUITFULNESS!! | BLESSED WITH TWINS 👶🏻👶🏼",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OwkjmFr1Ibw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पवित्र पवित्र पवित्र तू ही तो यहोवा। ||HINDI CHRISTIAN SONG 2022",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

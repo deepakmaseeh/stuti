@@ -122,9 +122,32 @@
     "page": null
   },
   "chords": "आये है हम तेरे चरणों में लेकर हम स्तुति\n\n      G                       C             D        G\nआये है हम तेरे चरणों में लेकर हम स्तुति (2)\nG    C                 D            C   D  G\n      आये है हम तेरे चरणों में लेकर हम स्तुति\n        G                     C              D              G\n      हाल्लेलुयाह हाल्लेलुयाह, हाल्लेलुयाह हाल्लेलुयाह-2\n\n        G                        C             D               G\nहम बच्चें हैं परम पिता के बढ़ना है हमें वचनों में (2)\n    G      C               D             C    D         G\n      हम बच्चें हैं परम पिता के बढ़ना है हमें वचनों में\n         G                      C             D                G\n      हाल्लेलुयाह हाल्लेलुयाह, हाल्लेलुयाह हाल्लेलुयाह-2\n\n         G                         C           D                  G\nमिलती है हमें तुझमे शांती देता तू हमें पापों से मुक्ति (2)\n          G      C                D           C     D         G\n      मिलती है हमें तुझमे शांती देता तू हमें पापों से मुक्ति\n         G                     C             D                  G\n      हाल्लेलुयाह हाल्लेलुयाह, हाल्लेलुयाह हाल्लेलुयाह-2\n\n    G                  C                   D               G\nहम तैयार यीशु तेरे लिए जल्दी आ तू हम को लेने (2)\nG   C             D                  C    D         G\n      हम तैयार यीशु तेरे लिए जल्दी आ तू हम को लेने\n        G                    C                D                G\n      हाल्लेलुयाह हाल्लेलुयाह, हाल्लेलुयाह हाल्लेलुयाह-2\n                                                                             (A/19)\n                                                                                                                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "n_hv7FaU6w8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaye Hein Hum Tere Charno Mein आये हैं हम तेरे चरणों में",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "41MaufQPYxc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आयें हैं हम तेरे चरणों में लेकर हम स्तुति .. Ayain hain ham tere charnon men lekar हम ..# Your Life",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8XtgvtU7mE0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaye Hein Hum Tere Charno Mein",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

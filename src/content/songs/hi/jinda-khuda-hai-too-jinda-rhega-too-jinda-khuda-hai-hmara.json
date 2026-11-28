@@ -187,9 +187,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "sd94v6tUa38",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Zinda Khuda Hai Hamara 🙌Live #worship by Bro. Mark Tribhuvan in #panchkula | Amrit Sandhu Ministries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lD2ZzGkQKA4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ek Baar To Yeshu Ko | यीशु है जिंदा खुदा | Yeshu Masih Bhajan | New Jesus Song 2024 | Jesus Bhajan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hiNSiBufSzs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "BE ALIVE | Anil Kant | Official Music Video | Hindi Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

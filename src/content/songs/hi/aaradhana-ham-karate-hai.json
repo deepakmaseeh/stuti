@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": "आराधना हम करते हैं\n\nC      F  G       C                 F            G           C\nआराधना हम करते हैं, पूरे दिल और मन से, तेरी महिमा गाते हैं। (2)\nC    F         C  F             C        F         G\nऔर हम कहते हैं, दिल से कहते हैं; और हम कहते हैं।\n\n          C         Am     F               C\nकोरस:- आ प्रभु यीशु आ, मुझमें हो तेरी महिमा; (2)\n             F             G\n         मुझ में हो तेरी महिमा।\n\nC   F        G         C           F        G          C\nतेरी शरण में, हम आते है; सारा आदर हम, तुझको देते हैं। (2)\nC    F         C  F             C        F         G\nऔर हम कहते हैं, दिल से कहते हैं; और हम कहते हैं।\n\n          C         Am     F               C\nकोरस:- आ प्रभु यीशु आ, मुझमें हो तेरी महिमा; (2)\n             F             G\n         मुझ में हो तेरी महिमा।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "X8Gg_qGdPso",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhana hum kerte hai (आराधना हम करते हैं,) By yeshua ministries lyrics video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "B3GP5PmE9tY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आराधना-आराधना करते हैं हम तेरी आराधना|Hindi Masih Lyrics Worship Song 2021|Ankur Narula Ministry",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gXhlTDfLmk8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhana Hum Yeshu Ki Kare | Best Christian Hindi Song 2022",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

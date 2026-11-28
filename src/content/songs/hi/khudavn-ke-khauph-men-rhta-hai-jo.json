@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zJWdTPPpwk4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khudawan ke khauf me rahta hai jo Uski hi rahon pe chalta hai jo / खुदावन के खौफ में रहता है जो",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "maNN4HfaFd4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुदावंद के खौफ में रेहता है जो || Khuda Band Ke Khauf Se || @revivalsongs1218| Hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TL2ikqRlEbw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुदावंद के खौफ में रेहता है जो | Khuda Wand Ne Jhuf Mein Rahta Hai Jo | Hindi Jesus Song Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

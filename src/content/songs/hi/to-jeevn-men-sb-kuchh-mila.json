@@ -112,9 +112,32 @@
     "page": null
   },
   "chords": "कोरस:- यीशु मिल गया मुझको, यीशु मिल गया (2)\n\n         तो जीवन में सब कुछ मिला (2)\n\nभटक रहा था मैं, अंधेरी राह पर\n\nतन्हा अकेला, जाता किधर ?\n\nखोजते मुझको, यीशु चला आया (2)\n\nऔर जीवन में, सब कुछ मिला (2)\nयीशु मिल गया.........\n\nसूली पे ले लिया, पापों को मेरे\n\nजान दे दी बदले, जान के मेरे\n\nतोड़े सारे बंधन, आजाद है किया (2)\n\nऔर जीने का, मकसद मिला (2)\nयीशु मिल गया.........",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3RRfmtRcSzI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jeevan Mileya | जीवन मिलेया मिलेया",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Gypjcqjv2yA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैंने ढूंढा है सारा जहाँ | तेरे जैसा न कोई मिला | Latest Jesus Songs in Hindi 2026 | Yeshu Bhajan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_Au2rVgJyPM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan, Tere Jaisa na Koyi | Best Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

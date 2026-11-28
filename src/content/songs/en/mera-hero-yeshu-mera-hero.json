@@ -141,9 +141,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ydl4Y2Hqy7w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "JESUS ​​MY SUPER HERO.ACTION SONG FOR KIDS.SUNDAY SCHOOL SONG.PASTOR YOGESH NISHAD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JDInPCfZ3p8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "0 0 0 ek baad 0 hero hero yeshu mera hero Shere like subscribe now prayer 8307425983",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8DI13xHmACI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Hero (Hindi Sunday School Song) - Hindi Christian Worship Song (Ashley Joseph)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

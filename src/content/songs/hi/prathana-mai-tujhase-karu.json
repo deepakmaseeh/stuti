@@ -135,9 +135,32 @@
     "page": null
   },
   "chords": "प्रार्थना मैं तुझसे करूँ\n\n            Em         D             G        D      Em\n         प्रार्थना मैं तुझसे करूँ, ओ मेरे प्यारे मसीहा। (2)\n            Em     D                   Em           D       G    Em\n         मेरा ये जीवन, तेरे काम आये। (2) यही है मेरी कामना।\n            Em         D             G        D      Em\nकोरस:- प्रार्थना मैं तुझसे करूँ, ओ मेरे प्यारे मसीहा। (2)\n\n        Em                     G    Em                D\nदिल की गहराई से स्तुति करूँ, आराधना करूँ;\nD                                          Am            Em\nतन से और मन से, पूरी शक्ति से, तुझसे मैं प्रेम करूँ।\nEm     D               G       Em\nहे प्रभु यीशु, कितना प्रेमी है तू।\nEm     D              G    Em\nहे प्रभु यीशु, सबसे श्रेष्ठ है तू।\n\n        Em                G   Em                            D\nकितना मधूर है तेरा वचन, जीवन का मार्ग दिखाता;\nD                                       Am                  Em\nतेरी आत्मा मेरी अगुवाई करता, गिरने से मुझको बचाता।\nEm     D            G         Em\nहे प्रभु यीशु, मेरा चरवाहा है तू।\nEm     D             G       Em\nहे प्रभु यीशु, ज़िन्दा राजा है तू।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "G5ZflGSCug4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रार्थना मै तुझसे करु, ओह मेरे प्यारे मसीहा † | Jesus Hindi Lyrics Song ✝️❤️ | #jesuschrist",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "f3b3Grvb-Ys",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prarthana Mein Tujhse Karu O Mere Pyare Masiha | Hindi Christian Songs | Bro... Sunny Vishwas [Pune]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0I1KZxVpoXY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prarthana me tujhse karu | Sunny Vishwas | Official (music video) |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

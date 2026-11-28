@@ -120,9 +120,32 @@
     "page": null
   },
   "chords": "ख्रीष्ट यीशु दयालु प्रभु, तू ही है सृजनहार,\n\n              Em        C            Em        Em\nकोरसः- \tख्रीष्ट यीशु दयालु प्रभु, तू ही है सृजनहार,\n       Em          C            Em    Am  Em\n       हम सब गाते हल्लेलूयाह, तू ही है तारणहार।\n\n Em       D                C             D\n जन्म तू ने जगत में लिया, कंगाल घर में जीवन बिताया,\n C          D\n संकट कष्ट तू ने उठाया,\n C             Em      D  C-D\n किया हमारा उद्धार। (यीशु प्यारे)\n C              Em                 C  D  C              Em\n किया हमारा उद्धार। किया हमारा उद्धार। किया हमारा उद्धार।\n\n  Em              D                  C                   D\n शिष्यों की नैय्या ख़तरे में जब थी, आँधियों से जब डगमगाती थी,\n C                 D\n आज्ञा देकर तूने आँधी को थामा,\n  C               Em   D  C-D\n बेड़ा किया तू ने पार। (यीशु प्यारे)\n  C               Em                  C D   C               Em\n बेड़ा किया तू ने पार। बेड़ा किया तू ने पार। बेड़ा किया तू ने पार।\n\n Em            D                  C                   D\n पाप का रोगी, जीवन भर मैं था, यत्न भी करता पर कुछ न बनता,\n          C               D\n  यीशु जब तेरा, वस्त्र छुआ तब,\n   C              Em      D  C-D\n  चंगा हुआ यह बीमार। (यीशु प्यारे)\n   C              Em                      C   D  C                Em\n  चंगा हुआ यह बीमार। चंगा हुआ यह बीमार। चंगा हुआ यह बीमार।\n                                                                (G/5)\n                                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7byNbgmoGHE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khrista Yeshu Dayalu Prabhu , ख्रिस्त येशु दयालु प्रभुतू ही है तारणहार",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Z0FHXbLoD7o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Christian hindi songs|गाना ख्रीष्ट यीशु दयालु प्रभु तुही है सिरजनहार| मसीही गीत||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TPrMXUxdPho",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"Christ Yeshu Dayalu Prabhu\" | Robson Memorial Cathedral | Apr'25",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

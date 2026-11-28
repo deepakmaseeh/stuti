@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": "धन्यवाद सदा प्रभु ख्रीष्ट तुझे\n\n         C         F          G      C         F         G        C\nकोरस:- धन्यवाद सदा प्रभु ख्रीष्ट तुझे, तेरे सन्मुख शीश नवाते हैं\n           C             F        G    C    F         G        C\n         हम तेरी आराधना करने को, मन्दिर में तेरे आते हैं।\n\n\n          C                     G                 F       G        F    C\nधन्य वीरों का इस मंडली के, तेरे नाम पे जो बलिदान हुए (2)\n           C   F      G       F         C          C     G              C\n        हम उनके साहस त्याग को ले, (2) नित्य आगे बढ़ते जाते हैं।\n\n\n            C                     G                F     G       F    C\nअपराध क्षमा कर दयानिधि, बल पौरुष दे अगुवाई कर (2)\nC     F     G          F      C          F         G           C\nफिर अपने तन मन जीवन को, (2) वेदी पर आज चढ़ाते हैं।\n\n\n C                    G           F            G   F        C\nजिस क्रूस पे तेरा रक्त बहा, संसार के पापी जन के लिए (2)\nC    F       G      F     C           F            G        C\nउस क्रूस-ध्वजा से प्रेम तेरा, (2) हम दुनियाँ में फैलाते हैं।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "n23Nhp7alLs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyawad Sada Prabhu Krist Tujhe |धन्यवाद सदा प्रभु क्रिस्ट तुझे |Jesus Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eo9chWbDBDQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyavaad Sada Prabhu Khrist Tujhe/ धन्यवाद सदा प्रभु ख्रिस्ट तुझे/ Jesus Song, Masih Geet.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZGJaMlFklLk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "धन्यवाद सदा प्रभु ख्रीष्ट तुझे | Dhanyawad Sada Prabhu Khrist Tujhe | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

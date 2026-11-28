@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": "जिन्दगी मेरी बदल गई\n          F                    C    Bb       C             F\n  कोरस:- जिन्दगी मेरी बदल गई, जब से मसीह को पाया है\n            F                      C       Bb      C       F\n    खिल गई हैं कलियाँ नई, यीशु बहार लाया है\n\n  F                                    Bb      C                 F\n1. जीवन है क्या पल ही दो पल का, किसने है जाना होगा क्या कल का (2)\n   Bb           C               F           C                         F\n घड़ियाँ सुनहरी फिर न लौटेंगी (2) मुक्ति और जीवन वह लाया है\n\n F                                      Bb          C                F\n2. मार्ग में हमारे वह दर्शक रहेगा, कदम डगमगाये हाथ वो थामेगा (2)\n Bb     C                  F            C                      F\n भटके हुओं को राह दिखाने (2) इस धरती पर वह आया है\n\n F                                            Bb      C                    F\n3. जीवन की रोटी और अमृत जल को, कैसी भरपूरी से देता वह हमको (2)\n Bb       C            F           C                F\n लहू बहाकर पाप हमारा (2) प्यारे प्रभु ने उठाया है\n\n\n\n                                                              (B/9)\n                                                                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BnF0IE2Nal0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Zindagi meri badal gayi , ज़िन्दगी मेरी बदल गयी,New song , Lyrics By Late Bro Arun",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "a9m0dHbF5V0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Zindagi Meri Badal Gayi | Hindi Jesus Song | 90's Christian Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FDwICGh7stc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जिंदगी बदल गई | JINDAGI BADAL GAI | SONY MOHAN | GILL DEEP | JINO KUNNUMPURATH |HINDI CHRISTIAN SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

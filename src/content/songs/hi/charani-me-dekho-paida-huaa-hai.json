@@ -154,9 +154,32 @@
     "page": null
   },
   "chords": "E        F#m7           B           E\nचरनी में देखो पैदा हुआ है, मरियम का राजदुलारा --(2)\nE                         F#m7\nआओ हम भी चलें उसका वंदन करें\nBsus4             C#m7 G#m           F#m\nहम भी चलें उसका वंदन करें, हम भी चलें उसका वंदन करें\nA         Bsus4        E\nआओ तन मन धन अर्पण करें\n  E                        A     Bsus4               E\nजग के पापों को हरने को आया, हमको जीवन देने को आया --(2)\nC#m7   F#m7       A     B    E\n परमेश्वर का पुत्र वो प्यारा, है वो हमारा यीशु --(2)\n\nE                         A         B                  E\nआओ हम भी चलें उसका वंदन करें,हम भी चलें उसका वंदन करें\nC#m7            F#m7     A       B      E\nहम भी चलें उसका वंदन करें, आओ तन मन धन अर्पण करें\n\n  E                     A    Bsus4               E\nआओ मिलकर उसको सराहें, उसकी महिमा में गीत गायें --(2)\n C#m7      F#m7   A    B     E\n जग का वो है तारणहारा, है वो हमारा यीशु --(2)\n\nE                         A         B                  E\nआओ हम भी चलें उसका वंदन करें,हम भी चलें उसका वंदन करें\nC#m7            F#m7     A       B      E\nहम भी चलें उसका वंदन करें, आओ तन मन धन अर्पण करें",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "MxaKR2kPNMU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🎄 Look, He is Born in the Manger | Mary's Beloved Son | Jesus Christ Birthday Song | Christmas Sp...",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FRbRDipUrc4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "चरनी में देखो पैदा हुआ है ✝️ मरियम का राजदुलारा | Christmas Special Hindi Christian Song 2026#jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "bZraft8MdTg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "See Him Born in the Manger 🎄 | Mary’s Beloved Prince ❤️ | New Hindi Christmas DJ Dance Song 2027",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

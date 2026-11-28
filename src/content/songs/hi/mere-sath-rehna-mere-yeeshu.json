@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "tG8Zmw37K4s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे यीशु मेरे पास रहना ❤️ | Heart Touching Hindi Christian Prayer Song 2026 | Male Female Duet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "csc_odXUuqY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु तू मेरे साथ हमेशा रहना|morning worship song|new Christian Hindi song|#Abhidan Music Ranchi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GIcHR9SaX74",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे पास वह रहना प्यार येशू | नाना हैथिरा वेरु ओ यसुव | अमित गज ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

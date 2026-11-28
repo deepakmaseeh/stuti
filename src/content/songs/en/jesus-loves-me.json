@@ -75,5 +75,31 @@
     "en": "missing"
   },
   "updated": "2026-11-19",
-  "publish": true
+  "publish": true,
+  "media": [
+    {
+      "youtubeId": "-jABcYKhDrI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Joey + Rory - Jesus Loves Me (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KXrC_uzsnsg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus Loves Me | Souvenirs Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BR-MF-pOTgw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus Loves Me - The most BEAUTIFUL hymn medley (with Children’s Choir!)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ]
 }

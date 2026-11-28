@@ -160,9 +160,32 @@
     "page": null
   },
   "chords": "राजा यीशु आए हैं, सब मिल के गाएंगे\n          F                C                           F       C  F\n कोरस:- राजा यीशु आए हैं, सब मिल के गाएंगे, ताली बजाएँगे (2)\n           F          Bb     C          F\n\tखुशियाँ मनाओ, खुशियाँ मनाओ (2)\n       C            F\n       चिंता छोड़़ो स्तुति गाओ (2)\n\n         F                             C                      F\nमानव बन के जग में आए, सारे पापों का दाम चुकाए (2)\n            C                        Bb             C        F\n\tक्रूस पर अपने प्राण को देकर, अनन्त जीवन दिया (2)\n            F         Bb     C         F\n\tखुशियाँ मनाओ, खुशियाँ मनाओ (2)\n         C            F\n\tचिंता छोड़ो, स्तुति गाओ (2)\n\n         F                         C                     F\nबडे़ दिन का ये है नारा, यीशु हमारा सबसे प्यारा (2)\n            C                        Bb              C  F\n\tउसके जनम का सुसमाचार, सब को बताएँगे (2)\n            F         Bb     C         F\n\tखुशियाँ मनाओ, खुशियाँ मनाओ(2)\n        C            F\n\tचिंता छोड़ो स्तुति गाओ(2)\n\n         F                         C                      F\nसुसमाचार जो मानेगा, यीशु उसको जीवन देगा(2)\n         C                    Bb           C    F\n\tसाथ अपने वो हम को, स्वर्ग ले जाएगा (2)\n         F         Bb     C         F\n\tखुशियाँ मनाओ, खुशियाँ मनाओ (2)\n         C            F\n\tचिंता छोड़ो, स्तुति गाओ (2)                                                 (G/11)\n                                                                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "IdF7hR68zQg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Raja Yeshu Aaye Hain Sab Milke Gaayenge Taali | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SBjPxXHwb9g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "राजा यीशु आये है llRAJA YESHU AAYE HAI || worshipmusic || hindichristiansong || SDR Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PZNaKfpK_JE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Raja yeshu aaye hai || hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KwMg0YQcaps",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - I Am The God That Healeth Thee (Acoustic) | Praise and Worship Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "crBprirTdEU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - Heal Me O Lord / I Am The God That Healeth Thee | Live Worship Sessions",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BSpvDd4xM8Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I AM THE GOD THAT HEALETH THEE - WORSHIP NIGHT 5 (2020) GMS JABODETABEK",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

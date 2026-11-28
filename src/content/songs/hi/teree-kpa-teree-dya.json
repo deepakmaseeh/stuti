@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VcWOJMI7k2M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Kripa Teri Daya Tera Anugrah Mujhpe Hua | Hindi Christian Songs | Bro... Ajay [Mumbai]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BdR3r_Fk5nA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Daya | Hindi Worship Song | Live at FOLJ Church | @AnkitSajwanMinistries​",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eZoEwT2MViw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lyrics of Teri Kripa, Teri Daya | Life changing Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

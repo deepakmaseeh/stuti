@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "SbLUabziynw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु के नाम में प्यार ❤️✝️ | Full Hindi Christian Movie 2026 | True Love Story | KANDULNA PRODUCTION",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2P-QxTucjqA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Pyar Ka Sagar | Beautiful Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eoHYymCljz4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरा प्यार है महान | Tera Pyaar Hai Mahaan | Hindi Christian Lyrics Song | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

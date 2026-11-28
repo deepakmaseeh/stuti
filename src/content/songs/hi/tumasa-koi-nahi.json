@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": "C             Dm        F   G    C\nतुमसा कोई नहीं, तुमसा कहीं नहीं\nC               Dm       F    G     C\nअब  है पूरा यकीन, तुमसा कोई नहीं\nAm    Em       F      C     Am     Em   F         C\nयीशु मसीह हो महिमा तेरी, गाएं आसमां गाएं यह ज़मीं (2)\n            C             Dm        F   G    C\n      कोरस:-    तुमसा कोई नहीं, तुमसा कहीं नहीं\n           C               Dm       F    G     C\n        अब  है पूरा यकीन, तुमसा कोई नहीं\nAm             F      G                      C    C E Am\nअंधेरों में तू रोशनी है, तू ही मंजिल तू रास्ता भी है\nAm                   F     G                       C E Am\nतू है जहाँ न कुछ कमी है, तेरा ही नाम ज़िन्दगी है\nAm      Em     F      C\nहाले लू याह, हाले लू याह\nAm      Em     F      G\nहाले लू याह, हाले लू याह\n            C             Dm        F   G    C\n      कोरस:-    तुमसा कोई नहीं, तुमसा कहीं नहीं\n           C               Dm       F    G     C\n        अब  है पूरा यकीन, तुमसा कोई नहीं",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "CvovCsiCPn0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TUMSA Yeshua Ministries Official Music lyric video (Tumsa Koi Nahin) (Yeshua Band) 2017",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lieZ_bl-qhQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तुमसा कोई नहीं तुमसा कहीं नहीं अब है पूरा यकीन | Tumsa Koi Nahin Tumsa Kahin Nahin Ab Hai Poora",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nqxxIZVxE00",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tumsa Koi Nahi | तुमसा कोई नहीं - Yeshua Ministries ( lyrics )",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

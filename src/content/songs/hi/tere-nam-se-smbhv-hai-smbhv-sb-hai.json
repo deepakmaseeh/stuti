@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zm5r9Dge_fs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरे नाम से संभव है || tere naam se sambhav hai || Hindi Christian worship song ✝️ ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DEtOXRKC_NE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "14 तेरे नाम से",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Bk5q2amX2ss",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sambhav Hai Sab Sambhav Hai || Song With Lyrics || Gospel Of Yeshua",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

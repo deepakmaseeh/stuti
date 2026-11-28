@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": "तू ही मार्ग है, तू ही सत्य है; तू ही जीवन है, मेरे प्रभु\n\n   D           A         D     A          D           G     D\n 1. तू ही मार्ग है, तू ही सत्य है; तू ही जीवन है, मेरे प्रभु – 2\nD            A           D   A          D          A      G\nतू ही मार्ग है, तू ही सत्य है; तू ही जीवन है, मेरे प्रभु -2\n D                A               G\nमहिमा करूँ, महिमा करूँ, महिमा करूँ\n\n   D              A                 D   A        D          G     D\n2. तू ही ज्योति है, जीवन की रोटी है; मेरा छुटकारा मेरे प्रभु – 2\nD              A                D    A        D          A    G\nतू ही ज्योति है, जीवन की रोटी है; मेरा छुटकारा मेरे प्रभु – 2\nD                  A              G\nमहिमा करूँ, महिमा करूँ, महिमा करूँ\n\nD           A         D    A          D         G     D\n  3. मेरी आशा तू, मुक्तिदाता तू; मेरा बल है तू मेरे प्रभु – 2\nD            A        D     A         D          A    G\nमेरी आशा तू, मुक्तिदाता तू; मेरा बल है तू मेरे प्रभु – 2\nD                 A               G\nमहिमा करूँ, महिमा करूँ, महिमा करूँ\n\n\n\n                                                                         (C/13)\n                                                                                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "oxrpIo2xLms",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सजदा करूँ, Sajda Karun - Lyric Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qbTWbS0XSjY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Hi Hai l Glorify Christ 5 l Shirin George l Dr Amit Kamle l A K International Tourism",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FZ-ie2KK71E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sajda Karoo (Hindi worship song)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

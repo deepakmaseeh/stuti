@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": "प्रभु महान विचारूं कार्य तेरे\n\n\n    A            D                A     E  D      A\n प्रभु महान, विचारुं कार्य तेरे, कितने अद्भुद, जो तूने बनाए,\n  A                D                          A    E            A\n देखूँ तारे, सुनूँ गर्जन भंयकर, सामर्थ तेरी, सारे भूमण्डल पर।\n\n                   A            D          A          Bm   E           A\nकोरस:-  प्रशंसा होवे प्रभु यीशु की, कितना महान, कितना महान\n     A             D        A               Bm        D  E  A\n    प्रशंसा होवे, प्रभु यीशु की, कितना महान, कितना म-हान।\n\n    A                              D                     A       E    D    A\n जब सोचता हूँ, कि पिता अपना पुत्र, मरने भेजा, है वर्णन से अपार।\nA                             D                            A         E          A\nकि क्रूस पर उस, ने मेरे पाप सब लेकर, रक्त बहाया, कि मेरा हो उद्धार।\n\n        A                         D                                  A     E    D A\n मसीह आएगा, शब्द तुरही का होगा, मुझे लेगा जहाँ आनन्द महान।\nA                         D                           A     E                A\nमैं झूकूँगा, साथ आदर भक्ति दीनता, और गाऊँगा, प्रभु कितना महान।\n\n\n\n\n\n                                                                            (D/2)\n                                                                                                              The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "HR8ELNs5eYY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu_Mahan_Vicharun_Karya_Tere || Hindi_Christian_Song || Hindi_Christian_Lyrics_Song.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OvpfylFSM2E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu mahan, vicharoon karya tere",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FY-oyUu2Oqw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu Mahan Vicharu Karya | Hindi Christian Song Lyrics | Jesus Worship Song | Yeshu Raag",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

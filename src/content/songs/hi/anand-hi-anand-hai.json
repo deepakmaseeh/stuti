@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": "आनन्द ही आनन्द है, मेरे यीशु के चरणों में\n\n      G                     D                          G\n कोरस:-    आनन्द ही आनन्द है, मेरे यीशु के चरणों में\n      G                    D                          G\n     आनन्द ही आनन्द है, मेरे यीशु के चरणों में\n\n     G\nपाप मेरा क्षमा किया, श्राप मेरा हटा दिया;\nD              C\nयीशु के रक्त द्वारा।\nC\nनया जीवन यीशु में, अनन्त जीवन यीशु में;\nD               G\nयीशु मसीह के द्वारा।\n\nG\nनयी आशा मिली है, स्वर्ग में हम जाएंगे\nD               C\nयीशु मसीह के द्वारा\nC\nस्वर्ग में हम रहेंगे महिमा हम करेंगे\nD            G\nआनन्द मनाएंगे",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "T5ieLDPj040",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand Hi Anand Hai | FOLJ Version",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "neOqbi-28XU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand hi anand hai Yeshu ke charnon me Hindi Christian song Jesus song masih song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ob2qwr399c4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand Anand hai yesu ke Charan .... Hindi christian song 2026 #hindijesussongs #hindichristiansong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

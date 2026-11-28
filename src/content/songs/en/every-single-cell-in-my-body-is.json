@@ -78,9 +78,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "M6ga0SCxBug",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Every Single Cell in My Body is Well",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XGVlx1FI84M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Every Single Cell Inside My Body / Children Song / Happy Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0uPZaXOIl_4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Every Single Cell - Stella Ramola",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

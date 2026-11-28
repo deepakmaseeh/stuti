@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "JfEjYsgYlTk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Peter Andrew James and John",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "uhgUIGjbA9k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus Calls the Four Fishermen | Peter, Andrew, James & John | Christian Song for Kids | Bible Worsh",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5ll9lXZCwic",
+      "start": 0,
+      "kind": "lyric",
+      "title": "OneGospel Version 2, Part 31, Jesus Calls Peter, Andrew, James, and John",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

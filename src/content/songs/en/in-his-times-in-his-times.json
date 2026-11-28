@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "aJeNUlNY7Iw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In His TIme | Lyric Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Wo-rGzx2OZk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In His Time",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "i8JFzBH2b6A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In His Time | Christian Songs For Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

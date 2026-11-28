@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": "मेरा भरोसा है केवल प्रभु, वह ही मेरा बल मेरी ढ़ाल\n\nDm           C                 Gm              Dm\nकोरस:- मेरा भरोसा है केवल प्रभु, वह ही मेरा बल मेरी ढ़ाल (2)\nC                        Gm              C                          Dm\nमेरी आँखें सदा उसकी ओर उठे, क्योंकि मुझको सहायता उसी से मिले (2)\nDm           C                 Gm              Dm\n        मेरा भरोसा है केवल प्रभु, वह ही मेरा बल मेरी ढ़ाल (2)\n\nDm                 C               Gm             Dm\nमैं हूँ मिट्टी प्रभु और तू है कुम्हार, जैसा चाहे मुझे ढाल दे (2)\nC                     Gm            C                      Dm\nऐसा बर्तन बना जो तेरी आत्मा से, हर पल हर कदम भरता रहे (2)\n\nDm                 C               Gm             Dm\nचाहे घोर अन्धकार की तराई में चलूँ, तौभी हानी से मैं न डरुँ (2)\nC                     Gm            C                      Dm\nक्योंकि तेरे सोंटे और तेरी लाठी से, सदा शान्ति मुझे मिलती रहे (2)\n\nDm                 C               Gm             Dm\nहै समर्पित यीशु मेरा जीवन तुझे, तेरे चरणों में इसको रखूँ (2)\nC                     Gm            C                      Dm\nअपनी सेवा करा अपनी राह पर चला, अपनी आत्मा से अगुवाई कर (2)\n\n                                                             (D/20)\n                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mJx4zPugwQU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera bharosa hai kewal Prabhu @#मेरा भरोसा है केवल प्रभु#जेसुसंग#merabharosa#christiansong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "E9YFOFghJRo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरा भरोसा | Mera Bharosa | New Hindi Christian Song | Trust in Jesus | Psalm 31",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TjOr1_8q3jg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Mera Bal (Official) | Hindi Worship Song 4K | Carmel Community Church",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -105,9 +105,32 @@
     "page": null
   },
   "chords": "जय जय प्रभु यीशु की जय जय प्रभु यीशु की\n\n  A                                                   D\n        कोरसः- जय जय प्रभु यीशु की जय जय प्रभु यीशु की\n                                                           E                A\n\t हमको बचाने आया जगत में उसकी स्तुति करो\n        A                                          D\n\t गाओ खुशी के गीत ओ धरती आकाश\n                      E                                            A\n\t आया मसीह जग में पाप का करने नाश।\n\n    A                                                           D\nखून की धारा बहती सूली से, जिसमें धुले सब पाप\n                         E                                                        A\n    धो लो अब तुम अपने हृदय को, जिसमें रहे न दाग\n\n     A                                                     D\nग्रहण करो तुम आज प्रभु को, प्रेम की बहती धार\n                         E                                                   A\n    उसको बना लो खेवनहारा, नाव लगा लो पार\n\n      A                                           D\nवापस आता मेरा प्रभुजी, ले जाएगा साथ\n                         E                                                  A\n    आशा मेरी अब तो यही है, चलो तुम मेरे साथ\n\n     A                                                           D\nहर दम होंगे साथ यीशु के, खुशी और शांति आराम\n                          E                                                   A\n    आएगा वह लेने तुम्हें भी, रहना तुम भी तैयार    (B/5)\n                                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "2_z-ou-ZxGM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Jai Prabhu Yeshu ki | जय जय प्रभु यीशु की |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "h_ENyXeH0mQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Jai Prabhu Yeshu Ki | Jesus Songs, Yeshu Masih Song, Jesus Song in Hindi, Masih Song, Yeshu Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jVs2p4FTetc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Jai Prabhu Yeshu Ki | जय जय प्रभु यीशु की | New Version | New Jesus Song Hindi | @ssroy24 |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

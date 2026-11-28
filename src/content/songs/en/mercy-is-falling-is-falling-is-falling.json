@@ -88,9 +88,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0ExK96QEw2c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mercy is falling 💖 Kids Songs ✨ Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HXip3WshDog",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mercy Is Falling",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Vw-A0b3JrlY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MERCY IS FALLING | JESUS YOUTH | PULLUVILA",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

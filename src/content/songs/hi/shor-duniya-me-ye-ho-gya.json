@@ -115,9 +115,32 @@
     "page": null
   },
   "chords": "शोर दुनिया में ये हो गया\n\n             Em               C-Em\n   कोरसः-   शोर दुनिया में ये हो गया (2)\n                    C      D      Em\n              आज पैदा मसीह हो गया (2)\n                 Em                 C-Em\n              दुनियाँ वालों उठों नींद से (2)\n C       D          Em\n              जागने का समय आ गया है (2)\n\n              Em   C                 Em\nगड़रिये रात में भेड़ों को चराते थे (4)\n   C    D    Em\n             दूत संदेश ये दे गया, (2)\n                       C      D      Em\n             आज पैदा मसीह हो गया।(2)\n\n                Em  C                  Em\nस्वर्ग झूम-झूम करके ये गाता था (4)\n     C          D      Em\n             सारी दुनियाँ का नूर आ गया(2)\n\t             C      D      Em\n             आज पैदा मसीह हो गया।(2)\n                Em  C                  Em\n मंजूसी सोना मुर्र लोबान ले के आए थे (4)\n    C    D       Em\n             मुक्तिदाता यीशु आ गया, (2)\n                       C      D      Em\n             आज पैदा मसीह हो गया।(2)\n\n\n                                                                    (G/14)\n                                                                    The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "bEM-4O8MEgU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "शोर दुनिया में ये हो गया -Shor Duniya Mein Yeh Ho Gaya Latest Christmas Song Hindi | NCS Prime Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_KIjo0gD3xk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shor Duniya Mein | Jaago Christmas 2024",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qCjaIkaVTWQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shor Duniya Mein",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

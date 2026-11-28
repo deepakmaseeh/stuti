@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZJ2GpJlTjjo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yahowah Charwaha Mera | यहोवा चरवाहा मेरा |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "pIj3MFJRu-g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yahova Charwaha Mera | यहोवा चरवाहा मेरा | Classic Hindi Christian Song | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Rewt3X2l2WE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yahova Charwaha Mera",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

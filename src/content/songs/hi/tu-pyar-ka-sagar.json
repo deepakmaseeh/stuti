@@ -115,9 +115,32 @@
     "page": null
   },
   "chords": "तू प्यार का सागर, सागर दया का तू है\n\n     D             A     Bm              D\nकोरस:- तू प्यार का सागर, सागर दया का तू है (2)\n     G           A                     D\n तेरी महिमा के लिए, हम जीना चाहते है। (2)\n\n  D              Bm       G                  A\nगहराई मिले सागर की, ऊँचाई मिले आंसमा की (2)\n     Bm                     A                      D\n पर कोई नाप न पाएगा, गहराई तेरे प्यार की। (2)\n\n     D                Bm       G                   A\nपरमेश्वर होने पर भी तूने, मानव रूप धारण किया (2)\n     Bm                   A                        D\n प्रभु तेरे इस प्यार ने, हमको क्षमा कर दिया (2)\n\n\n\n                                                         (C/8)\n                                                                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KjPWW0Vo8Nk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तू प्यार का सागर सागर दया का तू है -Tu pyar ka sagar - Less Graphics Version",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HDvOg0s86uY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pyar Ka Sagar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qeT0m6nZfkQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu pyar ka sagar | तू प्यार का सागर I Hindi Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

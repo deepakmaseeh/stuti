@@ -172,9 +172,32 @@
     "page": null
   },
   "chords": "E                                 B     A    B       E\nकोरस:- वो एक बालक है फिर भी लेकिन, अजीब हस्ती बना हुआ है  (4)\nE                                B        A      B      E\nखुदा की रूह का देखो साया (2) मसीह के सर पर तना हुआ है\nखुदा की रूह का देखो साया, मसीह के सर पर तना हुआ है\n\n      E                    A                             E\nफरिश्ता आया मंजुसी आए, गडरिये आकर यह कह रहे है (2)\nE                                 A       B   A         E\nसलाम तुझको तूने ए मरियम (2) खुदा का बेटा जना हुआ है\nसलाम तुझको तूने ए मरियम, खुदा का बेटा जना हुआ है\n\n      E                    A                             E\nवो देखो गो शाला का नज़ारा, मसीह ने कैसे बदल दिया है (2)\nE                                A       B   A      E\nचढ़ा है सोना,लोबान मुर्र भी (2) खुशबूओं से सना हुआ है\nचढ़ा है सोना,लोबान मुर्र भी, खुशबूओं से सना हुआ है\n\nफलक पे देखो मकान अब्दी, पढोगे बाइबिल तो जान लोगे (2)\nE                                A       B  A       E\nरखा है उसके लिए सलामत (2) ईमान में जो बना हुआ है\nरखा है उसके लिए सलामत, ईमान में जो बना हुआ है",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "kJFXi3Uss2A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Wo Ek Balak | वो एक बालक | Best Christain Qawwali | मसीह कव्वाली | Guddu James Qawwali 2021",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1Ojryac8s1w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Wo Ek Balak - 🎄Christmas Qawwali | Shashank Patel | Cover Music Video – 4K",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cuLz82a8ikU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Wo Ek Balak",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

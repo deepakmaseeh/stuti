@@ -78,9 +78,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "OxSkTurif4s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am Your Child | New Christian Worship Song with Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "D7pIbtd1yQw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "IH NA TSURÜ (I'm Your Child) | Sangtam Gospel Cover Song 2026 | Stm Melody Hub",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "MNHU8sMZKls",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Place My Children in Your Hands Lord | Christian Spirit-Filled Worship Prayer",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -115,9 +115,32 @@
     "page": null
   },
   "chords": "रक्तम् जयम् रक्तम् जयम्\n                   G\nकोरसः-\tरक्तम् जयम् रक्तम् जयम्\n             C      Am   C      Am\n            रक्तम् जयम् रक्तम् जयम्\n                D                              D7\n            रक्तम् जयम् रक्तम् जयम रक्तम् जयम्\n\n                 G                          C    Am  C\nयीशु मेरा चरवाहा है। यीशु मेरा चरवाहा है (2)\nD                         D7\n      यीशु मेरा चरवाहा है बोलो है न\n\n\t       G                                    C        Am      C\nमुझको छुटकारा देता मसीह। मुझको छुटकारा देता मसीह। (2)\nD                                    D7\n      मुझको छुटकारा देता मसीह। बोलो है न\n\n                G                                     C           Am     C\nमार्ग और सच्चाई यीशु ही है। मार्ग और सच्चाई यीशु ही है।\nD                                     D7\n      मार्ग और सच्चाई यीशु ही है। बोलो है न\n\n                 G                                  C        Am     C\nजीवन की रोटी यीशु ही है। जीवन की रोटी यीशु ही है। (2)\nD                                   D7\n      जीवन की रोटी यीशु ही है। बोलो है न\n\n                 G                                  C          Am       C\nआएगा लेने मुझको मसीह। आएगा लेने मुझको मसीह। (2)\n  D                                  D7\n             आएगा लेने मुझको मसीह। बोलो है न                              (E/50)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "XGMLXn1vnrc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lyrical Video - Raktam Jayam ।।। Hindi Christian Songs ।। Anthem of Christ",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lDxmPBwPocg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "रक्तम जयम रक्तम जयम",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6LjPuFgE1Pw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Raktam Jayam Full Song | Latest Worship Song Release | NCS Prime Music #yeshukegeet #worshipmusic",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": "आनन्द है महा आनन्द है\n\nD               Bm     D\nकोरस:- आनन्द है महा आनन्द है, (2)\n         G   Em   D\nआश्चर्यकारी यीशु ने (2)\n     G      A     G             D\nमेरे पापों को है क्षमा कर दिया। (2)\n\n\tD         A                      D\n  1.\tसर्वशक्तिमान मेरे सच्चे प्रभु जी, (2)\n     A                      D\nसर्व-सदा स्तुति करूँ मैं तेरी। (2)\n\nD          A                  D\n  2.\tमांगने से बढ़कर प्रभु देता है, (2)\n              A                  D\nसामर्थ से बाहर कार्य करता है।\n\n\tD            A                D\n  3.\tप्रार्थना से पहले उत्तर देता है (2)\n                     A                  D\nमाँगते ही वो मेरी सुन लेता है।\n\n\t D     A               D\n  4.\tप्रार्थना के सारे प्रतिफल, (2)\n            A                D\n     प्यारा प्रभु देता है हल्लेलूयाह।                          (A/22)\n                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Sjng6nPFouU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Thamega (Lyrics) |Anand Masih| Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SvmALIyNLaI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आनंद से प्रफूलित होकर। हिन्दी मरिया गीत। Hindi Christian Mariya Song | #ereniru #mothermary",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-cZmpIrE75Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Song | हमारा जीवन है अनंत आनंद | परमेश्वर में खुशियों का अंत नहीं | New Song 2024",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

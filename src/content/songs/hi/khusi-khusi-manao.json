@@ -114,9 +114,32 @@
     "page": null
   },
   "chords": "खुशी खुशी मनाओ, खुशी खुशी मनाओ\n\n G                  D\nखुशी खुशी मनाओ, खुशी खुशी मनाओ\n G                   D\nखुशी खुशी मनाओ, खुशी खुशी मनाओ\n  C           G    C         G\nबोलो बोलो मसीहा की जय जय जय\n C           G     C         G\nबोलो बोलो मसीहा की जय जय जय\n G              D             G              D\nमेरे लिए आया, मेरे लिए जीया, मेरे लिए आया, मेरे लिए जीया\nG         Em  D      G   G       Em     D    G\nमेरे लिये यीशु ने दुख उठाया। मेरे लिये यीशु ने दुख उठाया।\nC                 G                   C                   G\nमेरे लिये मारा गया, मेरे लिये गाड़ा गया, मेरे लिये मारा गया, मेरे लिये गाड़ा गया\nG        Em         D        G   G       Em          D        G\nमेरे लिये फिर जी उठा, मेरा है मसीह। मेरे लिये फिर जी उठा, मेरा है मसीहा।\nG\nमैं मसीह का हूँ, हम मसीह के हैं\nG\nखुशी खुशी मनाओ........\n\n\n\n\n\n\n                                                       (F/7)\n                                                                                                                    The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LiDOkj5n4AQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khushi Khushi Manao, Bolo Bolo Masih ki Jai Jai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ensjWNHwd2M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "KHUSHI KHUSHI MANAO - खुशी खुशी मनाओ",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "26roZdwR_B8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Best Hindi Christian Worship Songs 2024 | Top Morning Praise and Worship Songs 2024 | Yeshu Ke Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

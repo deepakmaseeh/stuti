@@ -119,9 +119,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "aG61Lei6QIo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERE JAISA NA KOI HUA | Awesome Hindi Christian Worship Song proclaiming there is no one like Jesus!",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yE0LFfgRqZ4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरे जैसा ना कोई मिला RECORDED LIVE 🔴 Anointed Worship Song @AnkitSajwanMinistries | FOLJ Church",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vYFxLu5o1Ig",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshua Ministries - Hum Gaye Hosanna (Yeshu Masih) (Yeshua Band) Official Lyric Video 2006",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

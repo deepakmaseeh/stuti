@@ -204,9 +204,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3EGBCkjKEIo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Adbhut Karya Karne Wala Yeshu Sabka Sahara Mera Yeshu| Lyrics Video | @AnilRaut Gospel Of Yeshua",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "J5Fstkmm9bI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🔥 यीशु के नाम में अद्भुत सामर्थ्य है 🙏❤️ Hindi Christian Worship Song#worship#jesus#god",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zfkY8lKr4Qw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ADBHUT HAI NAHI I अद्भुत है नही I HINDI CHRISTIAN SONG I STEVE GEORGE I GODWIN ROSH",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

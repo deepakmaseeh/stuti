@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5m33mgdHUew",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shaitan ka Samna Karo bhagega | Hindi Jesus Song | Hindi Christian Song #hindichristiansong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XryEIs5LYsk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "शैतान का सामना करो, भागेगा | Powerful Hindi Christian Song 2026 | SANCTUARY OF GOD CHURCH",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "03rLjK1sUxc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Saitan ko samna karo | Christian worship song in Hindi | Hindi Gospel Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

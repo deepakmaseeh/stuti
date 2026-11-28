@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0hMWbda3qzo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नन्हें मुन्ने बच्चों, आओ चलें | Nanhe Munhe Bacchon Aao Chalein [Hindi] | Sunday School Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ie7NwX19nNY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नन्हें मुन्ने बच्चों आओ चलें (Nanhe munne bachon aao chalein) Lyrics Video#TrueWorshipersOfLivingGod",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AVweP0I0t54",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नन्हें मुन्ने बच्चों, आओ चलें | Nanhe Munhe Bachcho Aao Chale | Jesus Kids Song | Children’s Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

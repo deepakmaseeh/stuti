@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": "पूरब दिशा से तारा लाया सन्देशा प्यारा\n\nकोरस:- पूरब दिशा से तारा लाया सन्देशा प्यारा\n         पैदा हुआ है राजा, वो है मुन्जी हमारा\n                                     आ आ...\nपूरे हुए है इरादे, किये थे जो तुझे वादे\nचरनी में भेजा न्यारा मरियम का राजदुलारी\nपूरब.........\n\nजागो मसीहियों जागो, नन्हे यीशु को सराहे\nपरम पिता कि इच्छा से आया है तारणहारा\nपूरब.....\n\nदूतों ने साज बजाया बाहों में झूला झुलाया\nहोशन्ना-2 तेरी सबने ये मिलकर पुकारा\nपूरब.....",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mzzEQtHxkhk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पूरब दिशा से तारा — Hindi Christmas Song With Lyrics | Purab Disha Se Taara",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "k1Og72NKoGc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christmas Medley 2025 | Season 1 | The Revival Project | Worship Mashup Live",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JoCsq3GQcSM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Purab disha se tara | New hindi Christmas song | Christmas 2020",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

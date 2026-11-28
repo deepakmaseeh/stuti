@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "vxWzH9r0ooE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "70. The best book to read is the Bible",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qvneIyS4xyw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The best book to read is the BIBLE || Sunday school Song || JK Christopher || Lillian Christopher",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hGGh6CRWUPg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Best Book To Read is the Bible Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

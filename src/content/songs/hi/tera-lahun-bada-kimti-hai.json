@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": "तेरा लहू बड़ा कीमती है प्रभु\n\n         Am              F\n         तेरा लहू बड़ा कीमती है प्रभु\n           G                 C  Am\n         तेरा लहू बड़ा कीमती है\n\n           Am                     G\n कोरस. क्योंकि उस लहू में वो सामर्थ्य है\n         G                  F  G   Am\n         जिससे हम पाते है छुटकारा\n         Am              F\n         तेरा लहू बड़ा कीमती है...\n\n         Am                 G       G             F  G   Am\n     1.  तूने अपनी देह चढ़ाई है, क्रूस पर मुक्ति दिलाई है (2)\n          Am                F          G                C    Am\n         मेरे कारण दुख उठाया है, पापों का दाम चुकाया है (2)\n\n                                    Am                      G\n                   क्योंकि उस लहू में वो सामर्थ्य है…….\n\n         Am              G       G                F  G Am\n    2.  तूने वह लहू बहाया है, विश्वासियों को बचाया है (2)\n           Am                   F             G                C   Am\n         जो भी उस लहू में नहाता है, पापों से साफ हो जाता है (2)\n\n                       Am                      G\n                       क्योंकि उस लहू में वो सामर्थ्य है……\n                                                                                  (C/2)\n                                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "eqscJ3CW9x0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरा लहू बड़ा कीमती है प्रभु |Hindi Masih Lyrics Worship Song 2021| Ankur Narula Ministry",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4eZoz_lOBoU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera Lahu Bada Kimti Hai Prabhu | Ankur Masih | Music Video | New Christian Song | New Masihi Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VM8LC-ZdzvA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera Lahu Bada Kimti Hai Prabhu",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

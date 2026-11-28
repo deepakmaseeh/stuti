@@ -145,9 +145,32 @@
     "page": null
   },
   "chords": "सुन लो मेरे भाईयों मसीह जी मेरा दुनियाँ में आया\n E                               B                  E\nकोरस:-  सुन लो मेरे भाईयों, मसीह जी मेरा दुनियाँ में आया (2)\n\n E                 A          E\nदुनियाँ में आया, मुक्ति को लाया (2)\nE                                  B                E\n       पापी को आन बचाया, बचाने यीशु दुनियाँ में आया। (2)\n\nE                  A         E\nस्वर्गीय पिता का एकलौता बेटा, (2)\nE                                      B               E\n       मनुष्य का पुत्र कहलाया, कहलाने यीशु दुनियाँ में आया (2)\n\nE                   A       E\nहम सब गुनाहों में पडे़ हुए थे, (2)\nE                              B                E\n       अद्भुत प्रेम दिखाया, दिखाने यीशु दुनियाँ में आया। (2)\n\n E                  A            E\nदुनियाँ की खातिर क्रूस पर चढ़कर (2)\n E                            B                E\n       अपना रक्त बहाया, बहाने यीशु दुनियाँ में आया। (2)\n\n E                 A        E\nजो कोई उस पर विश्वास लाया, (2)\n E                                   B                E\n       उसको मसीह ने बचाया, बचाने यीशु दुनियाँ में आया। (2)\n\nE                A        E\n 6. धन्य धन्य यीशु स्वामी हमारे, (2)\n E                            B                E\n हमको पिता से मिलाया, मिलाने यीशु दुनियाँ में आया।(2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "355CaIQ60Bc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सुनलो मेरे भाइयों मसीहा मेरा दुनिया मै आया| CHRISTMAS COVER SONG| MAYA CHAUDHARI",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vyUFIQSfk6A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sun Lo Mere Bhaiyon (Jashan Manao) | Jaago Christmas 2024",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "S2BcR_F4Dls",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sun Lo Mere Bhaiyon 🙏 | सुन लो मेरे भाइयों | Hindi Christian Song #ChristianSong",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

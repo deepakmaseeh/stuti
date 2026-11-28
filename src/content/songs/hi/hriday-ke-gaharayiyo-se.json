@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": "ह्रदय की गहराइयों से, करते हैं आराधना\n\nआशिष की बारिश तू भेज, यीशु  तेरी होसन्ना ......(x2)\n\nयीशु तेरी होसन्ना ......(x3)\n\nहोसन्ना...होसन्ना...हालेलुयाह होसन्ना...(x4)\n\n1. सृष्टि को तेरा सहारा, तुझ पर भरोसा हमारा\n\nसुनता है सबकी दुआ, यीशु  तू कितना है प्यारा  (x2)\n\nयीशु तेरी होसन्ना ......(x3)\n\nहोसन्ना...होसन्ना...हालेलुयाह होसन्ना...(x4)\n\n2.जो भी तेरे पास आया, तूने गले से लगाया\n\nइंसान के हर पाप का, तेरा लहू है कफारा (x2)\n\nयीशु तेरी होसन्ना ......(x3)\n\nहोसन्ना...होसन्ना...हालेलुयाह होसन्ना...(x4)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "hUyfPxiyyOQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हृदय की गहराइयों से | Hindi Christian Worship Song | Heart Touching Yeshu Bhajan | Masihi Geet 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zMGOb-YkqYc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hriday Ki Gehraiyon Se Karte Hai Aaradhna | Hindi Christian Cover Song | Anil | Amit | Arpan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mfPc3cHgw9c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "♬🎸हृदय की गहरायों से आराधना ||🎤🎻HIRDAY KI GAHRAIYON SE AARADHNA",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

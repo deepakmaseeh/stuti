@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Qh4pYuk-j8U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Uska Sajada kar I BLESS THE LORD MY SOUL l Hindi Version lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TeQQItqmQoY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hazaron Wajah | Sheldon Bangera & Jaago College Students & Faculty | Bootcamp Winter Collective",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zJCNHqz-PME",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Baadlo pe Lyrics(Christian song)Anil kant(Psalm 29)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

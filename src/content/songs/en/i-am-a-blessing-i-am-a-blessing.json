@@ -83,9 +83,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Zp6aygmvzM4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Blessing with Kari Jobe & Cody Carnes | Live From Elevation Ballantyne | Elevation Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "969I1unxnj4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lara Martin- Blessed to be a blessing (W/Lyrics)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yOgj1sxVZGo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🎵 I am a Blessing | Fun Christian Song for Children | Dunamis Sing Along 🎵",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

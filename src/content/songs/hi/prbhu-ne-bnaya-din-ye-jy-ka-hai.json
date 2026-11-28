@@ -247,9 +247,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "6PfFi5HX61k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu ne banaya din ye jay ka hai, hindi Christian song प्रभु ने बनाया दिन ये जय का है। Jesus song।",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LfG7t8bORBM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु ने बनाया सुंदर संसार | Christian devotional song | Nagpuri Gospel Song@AlbertRijinaMelodies",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hKAM1dLd1i4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaj Ka Din Yehova Ne Banaya Hai Hum Is Mein Aanand | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -152,9 +152,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "kOmVTHamtvU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaya Masih | Shreya Kant | Dance by Mumbai satsang team",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fhNFLFy1P0Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaya Masih | New Official Christmas Video | Shreya Kant feat. Anil Kant",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ySAfDuJEbgQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HINDI CHRISTIAN COVER DANCE | AAYA MASIH 2025 | WE SISTER GROUP PA",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

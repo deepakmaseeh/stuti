@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": "तेरी स्तुति मैं करूं, आराधना करूं, दिल से, दिल से (2)\nमेरी सांसो में, तेरा नाम रहे (2)\nहै प्रभु, तू ही तू\nकोरस: तेरी स्तुति मैं करूं, आराधना करूं, दिल से, दिल से (2)\n\nजहां मेरी नज़र जाये, वहा तेरी स्तुति हो (2)\n       सारी दूनियाँ का रखवाला तू (2)\n       है यीशु तू ही तू\n तेरी स्तुति मैं करूं, आराधना करूं, दिल से, दिल से (2)\n\nखुशी और गम में साथ हो तेरा, प्रारम्भ और अन्त में नाम हो तेरा (2)\n      मेरे जीवन का सहारा तू (2)\n      है प्रभु तू ही तू\n      तेरी स्तुति मैं करूं, आराधना करूं, दिल से, दिल से (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zlzgopC98gI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Meri Saanson Mein Yeshu Raja Hai | Sanna Hans @alphaomegalyrical",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ilgxX5VptIE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🎵 My Life's Breath Comes From You, Christ 🙏 | New Hindi Christian Worship Song | Vishal Sahab ✝️",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "l5hFTJr4VeU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Meri Sanso Mein Yeshu Raja Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

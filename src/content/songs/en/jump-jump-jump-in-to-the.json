@@ -106,9 +106,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "xVGORBCdh5A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jump into the Light",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "x6r3eWJmCbE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jump Around | Preschool Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WXrjGNKUKhc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jump for Jesus | 12 Minutes Fun Afrobeats Bible Dance Song for Kids | Christian Kids Worship Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

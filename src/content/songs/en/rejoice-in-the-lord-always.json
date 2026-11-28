@@ -81,9 +81,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "56csd5_NleE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rejoice in the Lord Always + more kids videos",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "roxIm3y5m6E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sing Hosanna - Rejoice In The Lord Always | Bible Songs for Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "xd1k5113Ezs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rejoice in the Lord Always 😊 | Kids Bible Song & Story (Philippians 4:4)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

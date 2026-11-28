@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Q3XNY4Fon5c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pavitra ati pavitra sthan mein | Hindi Christian worship song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "QNWqVJwQ8fE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pavitra ati Pavitra sthan me Cover |TheHolySoulRevelation | Pragati Vaish | Christian Song | Full HD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nn5zcTLx4Tw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Pavitra Ati Pavitra ( पवित्रा अति पवित्रा ) Singer - Virendra Patil || New Hindi Christian Song 2025",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

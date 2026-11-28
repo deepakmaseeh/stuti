@@ -94,9 +94,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "X1NAFfgr2PI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "With Jesus in the boat ⭐ （kids worship song with lyrics） #song④kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-2gBGecsDXk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "With Jesus In My Boat - Divine Hymns - Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Lg0EHLuL1p4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "With Jesus In My Boat",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

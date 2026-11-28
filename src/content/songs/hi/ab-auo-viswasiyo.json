@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": "अब आओ विश्वासियों, जय जय करते आओ\n\nD                       A          D\nअब आओ विश्वासियों, जय जय करते आओ\n         G                               A\n           अब आओ हम चलें, बैतलहम को\n             D\n           चरनी में देखा महिमा का राजा\n\n           अब आओ हम सराहें (3) ख्रीस्त प्रभु को\n\n              D                 A         D\nवह ईश्वर से ईश्वर, ज्योति सनातन\n      G                  A          D\nघिन उसने न किया गर्भ कुँवारी से\nD            G     A             D\nसच्चा परमेश्वर, न सृजा पर जन्मा\nD             Bm     G            A          D\nअब आओ हम सराहें (3) ख्रीस्त प्रभु को\n\n             D              A        D      Bm        A\nहे सारे दूत गणों, जय जयकार तुम गाओ\n      D           Bm        A     D\nहाँ स्वर्गों  के स्वर्ग में, तुम गाते रहो\n D              G      A               D\nमहिमा और स्तुति, ईश्वर सर्व प्रधान को\n                D            Bm      G          A          D\nअब आओ हम सराहें (3) ख्रीस्त प्रभु को\n\n         D                   A       D          Bm      A\nआमीन प्रभु धन्य हो, तारण के लिए जन्मा\n                         D\nहे यीशु हो तेरी अनन्त महिमा\n D           G     D          A\nपिता का वचन अब देहधारी हुआ\nD      Bm            G             A         D\nअब आओ हम सराहें (3) ख्रीस्त प्रभु को\n                                                          (G/30)\n                                                                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "yZ8DHxVKBG4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ab Aao Hum Sarahe | O Come All Ye Faithful - Hindi Cover | Hindi Christmas Song | Filadelfia Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gZiVX5HOC80",
+      "start": 0,
+      "kind": "lyric",
+      "title": "अब आओ विश्वासियों जय जय करते आओ | Emotional Jesus Song | Christian Worship song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "q5clUfsV3ZI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Vishwasiyon Ft. @AkshayMathews @PrakruthiAngelina & Zayvan | Official Music Video | NOW",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

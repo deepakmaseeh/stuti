@@ -158,9 +158,32 @@
     "page": null
   },
   "chords": "G.              D.     G.              D\nक्या दे सकता हू, क्या ला सकता हू\nC.           D.    G\nकहता तुझे बस शुक्रिया (x2)\nG.                         D\nतुझमे ही मेरी सुबह, तुझमे ही हर शाम\nC.                         D\nतुझसे ही करता शुरू, हर कोई काम (2)\nEm.                     D\nशुक्रिया करता हू मैं, लेके तेरा नाम\nC.                        D\nआदर और धन्यवाद आज तेरे नाम\nG.          Em.      C.      D\nशुक्रिया, शुक्रिया, शुक्रिया तेरा\nG.          Em.      C.      D.  G\nशुक्रिया, शुक्रिया, शुक्रिया येशू तेरा\nG.             C\nसारी दुनिया तेरी है,\nD.              G\nसब कुछ तुनें रचाया है (2)\nG.                C\nमुझको भी तुनें बनाया है,\nD.               G\nतेरे जैसा किया है\n\n\n\n\n\n\nक्या दे सकता हू, क्या ला सकता हू\nकहता तुझे बस शुक्रिया (2)\nशुक्रिया, शुक्रिया, शुक्रिया तेरा\nशुक्रिया, शुक्रिया, शुक्रिया येशू तेरा\n\nG.         D\nतुझमे ही मेरी सुबह,\nEm.               D\nतुझमे ही मेरी हर शाम (2)\nG.           Em.     C.       D\nशुक्रिया, शुक्रिया, शुक्रिया तेरा\nG.          Em.     C.      D.   G\nशुक्रिया, शुक्रिया, शुक्रिया येशू तेरा",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "fpzJNkUr5cM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kya De Sakta Hun (क्या दे सकता हूँ क्या ला सकता हूँ) ~ Shukriya | Lyrics | Amit Kamble",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "k5YUyaw8viY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shukriya Tera | Aaghaaz | Amit Kamble | Official Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "QQYVrYmMjrc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shukriya",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

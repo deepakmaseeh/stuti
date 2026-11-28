@@ -136,9 +136,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Xnco85aAUjc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blind Man Sat By The Road",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CFaRT9K2KkY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blind man",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CjG2A5yh7aA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blind Man Stood By the Road - Traditional Christian Song Cover",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

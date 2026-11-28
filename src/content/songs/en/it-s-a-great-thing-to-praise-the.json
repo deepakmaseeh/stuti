@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "huzIv3WSjds",
+      "start": 0,
+      "kind": "lyric",
+      "title": "It's a great things to praise the lord| sunday school song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HXl_4_R80Zk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Its Great thing to praise the Lord | Kids song | El Gibbor Advent Ministries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JTIw5wddnjg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "It's A Great Day Action Song Dance and Sing along Kids praise song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

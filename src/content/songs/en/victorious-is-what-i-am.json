@@ -78,9 +78,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0c6pfms2Iz0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am Victorious | Christian Worship Song | Power of Jesus Christ",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fTk75RefAKI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "UNDER THE SHADOW ( I AM VICTORIOUS, I HAVE OVERCOME ) • DAVID DAM || LYRICS",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wkLEz2gyRhY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am Victorious",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -112,9 +112,32 @@
     "page": null
   },
   "chords": "तू मेरा शरणस्थान, तू मेरा गढ़ है\n\nEm              Am   D          Em\nतू मेरा शरणस्थान, तू मेरा गढ़ है\nEm              Am   D   Em\nसंकट में मेरा गढ़ मेरा प्रभु\nEm          Am                 D\nआराधना करूँ मैं पूरे दिल से\n             G               D\nमैं तुझको ढूँढूंगा सम्पूर्ण हृदय से\nEm           Am                            D\nतेरी सेवा करूँगा तन मन और धन से\nD      Em          Em    Am   D\nमैं हूँ यहाँ प्रभु,  मैं हूँ यहाँ प्रभु (8)\n\nउद्धारक मेरा तूं, मेरी चंगाई है,\n  संकट में सामर्थ है, मेरा प्रभु\n  आराधना करूँ मैं………\nतू मेरा चरवाहा, मुझको चरायेगा,\n     मुझको संभालेगा, मेरा प्रभु\n  आराधना करूँ मैं………\n\n                                                   (C/7)\n                                                                                                                  The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pmSqqtGLayw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Mera Sharan Sthan || तू मेरा शरण स्थान",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5BdPDnlfeDs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Mera Sharansthan Tu Mera Marh Hai Sankat Mein | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "16N6bywOhOs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Mera Sharansthan - Best Slow Version | Best Hindi Jesus Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

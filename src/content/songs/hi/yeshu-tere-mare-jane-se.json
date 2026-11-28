@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": "यीशु तेरे मारे जाने से, ज़िन्दगी मेरी बदल गयी।\n\nE        A           B          A      E\nयीशु तेरे मारे जाने से, ज़िन्दगी मेरी बदल गयी।\nE        A           B           A     E\nयीशु तेरे जी उठने से, ज़िन्दगी मेरी संवर गयी।\nC#m         A  C#m         E\nतूने मुझे है बचाया, तूने मुझे है छुड़ाया-2\nE                   A              B          E\nमैं धन्यवाद करता रहूँगा, यीशु धन्यवाद करता रहूँगा (2)\nE            A             B          E\nधन्यवाद......धन्यवाद.......धन्यवाद....धन्यवाद... (2)\n\nE             A              B             A E\nमैं जो पापों में डूबा हुआ था, और जो तुझ से दूर हुआ था (2)\nC#m         A   C#m        E\nतूने मुझे है छुड़ाया, अपनी राह पर चलाया (2)\nE                   A              B          E\nमैं धन्यवाद करता रहूँगा, यीशु धन्यवाद करता रहूँगा (2)\nE            A             B          E\nधन्यवाद......धन्यवाद.......धन्यवाद....धन्यवाद... (2)\n\nE            A          B              A   E\nयीशु ने ऐसा प्रेम दिखाया, मुझ को अपना भाई बनाया (2)\nC#m         A   C#m        E\nअपना लहू बहाया, जीवन नया दिलाया (2)\nE                    A           B             E\nमैं धन्यवाद करता रहूँगा, यीशु धन्यवाद करता रहूँगा (2)\nE            A             B      A    E\nधन्यवाद......धन्यवाद.......धन्यवाद....धन्यवाद... (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "-ieIwOFmk2Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Jeevan Mein Yeshu Tera Naam | मेरे जीवन में येशू तेरा नाम जलाल पाता रहे",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qlap7YOh1tE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Haalt baadal jaathe hai hindi Christan lyrics song।। हालात बदल जाते है येशु तेरे आने से हिंदी lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_Q837wiifiw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MUJHE TERE JAISA BANNA HAI🌸✝️ || मुझे तेरे जैसा बनना हैं ॥ New Anointing Song @Worshipsong097",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

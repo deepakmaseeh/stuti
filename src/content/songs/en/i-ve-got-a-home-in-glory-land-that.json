@@ -101,9 +101,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "GT6aE_fqrR4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Got A Home In Gloryland - No. 107 The Gospel Singout Project - Christian Songs & Hymns & Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gPhob_9vTdw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Got A Home In Glory Land ( Do Lord ) | Action Song | Christian Children Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fPVX_z1152I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Got A Home In Glory Land by Singing Seraphs for Classic Hymns Chorus Album",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

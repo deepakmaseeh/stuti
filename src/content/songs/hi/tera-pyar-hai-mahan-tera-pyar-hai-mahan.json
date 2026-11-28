@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": "तेरा प्यार है महान तेरा प्यार है महान\n\n     F                         C\n 1. तेरा प्यार है महान तेरा प्यार महान,\n         Am       C                          F\n    मैं जो पहले मुर्दा था, तू ने डाली मुझ में जान\n\n    F                                       C\n कोरस. क्यों न बोलूँ फिर, मैं तेरी, जय जयकार\n    C                                        F\n    क्यों न बोलूँ फिर, मैं तेरी, जय जयकार\n     F        Bb           F\n    जय जयकार जय जयकार\n     F     C                        F\n    तू ने मेरे लिए क्या कुछ न किया\n\n    F                             C\n2. मेरी सूरत बिगड़ी थी, मेरा ये दिल था खाली\n         Am     C                       F\n    तू ने सींचा खून से, ताकि आए हरियाली।\n\n      F                             C\n3. आयी जीवन में खुशी पायी अब्दी जिन्दगी\n          Am       C                    F\n    तू है ज़िन्दा साकिया तू ने यह है किया\n\n      F                                       C\n4. अपनी रुह से भर दिया, अपनी शक्ति मुझको दी\n        Am        C                   F\n    ताकि दूँ मैं गवाही, तेरे जी उठने की।\n                                                                          (C/3)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3CbTkEP-XLM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera pyar hai mahan | तेरा प्यार है महान | christian hindi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "g7njKZLpUtk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera Pyar Hey Mahan|Melvin Khetre|",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eoHYymCljz4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरा प्यार है महान | Tera Pyaar Hai Mahaan | Hindi Christian Lyrics Song | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

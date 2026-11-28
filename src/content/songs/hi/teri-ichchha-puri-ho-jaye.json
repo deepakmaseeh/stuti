@@ -83,9 +83,32 @@
     "page": null
   },
   "chords": "तेरी इच्छा पूरी हो जाये, हाथों में तेरे जीवन है ये\n\n      D                       G\nतेरी इच्छा पूरी हो जाये\n         A              D\n      हाथों में तेरे जीवन है ये,\n              G             D                 A             D\n      मैं मिट्टी हूँ तू है कुम्हार, मुझको उठा मुझको बना (2)\n\n      D                                 G\nअपनी मर्जी से मैं चलता रहा,\n               A                  D\n      तुझको कभी भी अपना न कहा,\n            G                D             A               D\n     लेकिन प्रभु आज से मैं, अपने क्रूस को ले लेता हूं। (2)\n\n\n\n\n\n\n\n                                                                    (C/19)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "jyNklCXEYbs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Iccha puri Ho Jaye - Lyric Video English and Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FWcG70_pxMo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Ichha Puri Ho Jaye - Shawn & Shanon | Hindi Christian Worship Songs | 2021 | Yeshu Ke Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vkEsXVkzW5I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri ichchha poori ho jaye (तेरी इच्छा पूरी हो जाये) | Song with Lyrics |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

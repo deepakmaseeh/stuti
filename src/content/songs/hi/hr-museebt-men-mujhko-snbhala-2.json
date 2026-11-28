@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "nOzHm1f8G7A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Har Musibat me mujhko sambhala | हर मुसीबत से हमको सम्भाला | Masihi qawwali | मसीही गीत",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yX9kqHt4ffU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hai Rakhwala",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KlCmVkTxaCI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rakhwala Yeshu Hai Rakhwala | Best Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

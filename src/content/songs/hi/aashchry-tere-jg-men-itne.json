@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rrfMOdVbUng",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ASHCHARYA TERE | HINDI WORSHIP SONG - 4K | FT. JERIN ANDREWS & GRACE AHMEDABAD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NHwinY-9oUw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ashcharya Tere Hindi Christian Song (Son Of God Is Good)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "y92LHgzl2CA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ashcharya Tere - Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

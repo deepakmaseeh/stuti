@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "cWsnUK-wKR0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु जिंदा हुआ आओ सबसे कहे...., क्रिश्चियन हिंदी सोंग Yeshu Zinda Hua Aao Sa.., Christian Hindi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6bd9vq4L5HA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu zinda hua aao sabse kahein || New gospel song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Gdc7JxvmJng",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Zinda Hua Aao sabse Kahe | Hindi Christian Songs | Pastor Daniel Raj [Mumbai]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

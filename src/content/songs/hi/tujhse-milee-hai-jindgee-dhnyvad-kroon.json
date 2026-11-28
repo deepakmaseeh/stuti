@@ -142,9 +142,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pUkutju7L4U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तुझसे मिली है जिंदगी | Tujhse Mili Hai Zindagi | Lyrics | Hindi Christian Song | Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "e0SNz765un4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tujhse Mili Hain Zindagi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2_MJrZGqZks",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tujhse Mili Hain Zindagi (Lyrics) - Hindi Christian Song | Christ the band.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

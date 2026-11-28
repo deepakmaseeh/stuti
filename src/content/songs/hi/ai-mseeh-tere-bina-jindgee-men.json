@@ -112,9 +112,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VLQwBMVez8Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ae masih tere bina zindagi By Sunny vishwas | Popular Hindi christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tVwKbPjAx6A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु मसीह तेरे बिना जिंदगी में है ना कोई खुशी || New Christian Song 2023 || Brother Nilesh Gamit",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "G0PIQ9B4Tfg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aye Masih",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

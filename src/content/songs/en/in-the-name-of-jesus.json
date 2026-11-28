@@ -85,9 +85,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "51aZAb7r4lw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "In The Name Of Jesus | JWLKRS Worship & Maverick City feat. Chandler Moore (Official Music Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "34g8m5hPTnA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"In The Name Of Jesus\"- with Lyrics- classic gospel song-Bluegrass version 津波",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nQWFzMvCfLE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "What A Beautiful Name - Hillsong Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

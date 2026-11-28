@@ -64,7 +64,7 @@ export default function HomeLists() {
     refresh();
     loadMeta()
       .then((meta) => setS((cur) => ({ ...cur, meta })))
-      .catch(() => {});
+      .catch(() => { });
     addEventListener('stuti:recent-cleared', refresh);
     const unsub = listenSetsChanged(refresh);
     return () => {

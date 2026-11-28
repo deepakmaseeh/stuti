@@ -144,9 +144,32 @@
     "page": null
   },
   "chords": "क्रूस ही के पास जहाँ खून\n1. क्रूस ही के पास जहाँ खून, दब के गुनाहों से मैं गया\n   खून से वहाँ, यह दिल साफ हुआ,\n\nकोरस:- उसकी हो तारीफ, उसकी हो तारीफ\n         खून से वहाँ, यह दिल साफ हुआ,\n         उसकी हो तारीफ\n\n2. दूर हैं मेरे बिल यकीन, दिल में अब है यीशु तख्त – नशीन\n    क्रूस ही का गीत मुझको है शीरीन,\n     उसकी हो तारीफ।\n\n3. क्रूस का वह चश्मा है बेशबहा, खुश हूँ कि मैं उसके पास गया\n    खूब मुझको यीशु ने साफ किया,\n    उसकी हो तारीफ।\n\n4. आ देख यह चश्मा है साफ सफ्फा, आ ताकि हो तेरे गुनाह माफ\n   आ इसी वक्त अभी हो तू साफ,\n   उसकी हो तारीफ\n                                                                            (A/32)\n                                                                                                             The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "f9Hy7K8iS14",
+      "start": 0,
+      "kind": "lyric",
+      "title": "क्रूस ही के पास जहाँ खून बहा | KROOS HI KE PAAS | DOWN AT THE CROSS (Hindi Translation)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZQ8srfZcXcI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Krus Hi Ke Paas | Good Friday Song Hindi | Filadelfia Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "afv-6JypARM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Krus Se Bah Ke l क्रूस से बह के l Filadelfia Music l Hindi Christian Song l Good Friday Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

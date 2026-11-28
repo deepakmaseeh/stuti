@@ -92,9 +92,32 @@
     "page": null
   },
   "chords": "कोरस:- यहोवा कैसा कुम्हार भाईया, यहोवा कैसा कुम्हार (2)\n\n\nमिट्टी सान-सान, मनुष्य बनाया (2)\n\nगोरा बनाया, काला बनाया (2)\n\nमोटा बनाया, पतला बनाया (2)\n\nनाटा बनाया, लम्बा बनाया (2)\n\nमुझको बनाया, आपको बनाया (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "9rKjaUs5uGY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Matti ko san- San manushy banaya //Actions song By Br. Roshan & Sis. Khooshabu//",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "bxSJtEBmXbU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Worship Song | Mitti Ke Shehar Mein | Dil Se Prarthna Aur Aradhana | Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0SP2DPf7uDo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main To Mitti Ka Khilona Hoon | New Hindi Heart Touching Christian Worship Song 2026 |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

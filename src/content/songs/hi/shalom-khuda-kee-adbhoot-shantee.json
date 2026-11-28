@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qJ3a_ZhiORI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुल जायेंगी किताबें | Hindi Christian Cover Song | Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "c-lpwYd4BqU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Dance | परमेश्वर के सामने जीना बहुत आनंदमय है | Praise Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HjUy52slk1U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सुबह सुबह हर दिन आप इन गीतों को जरूर सुनें || Non Stop Christian Song || Morning Christian Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

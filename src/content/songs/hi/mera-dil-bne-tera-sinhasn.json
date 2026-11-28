@@ -473,9 +473,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "XkyLghpesZ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Dil Bane Tera Sinhasan Live In Concert | Oneness India-3 | Ft Ajay Chavan |The Hindi Collective",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UNbVl9YPMek",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Dil Bane Tera Sinhasan | Official Video | Ajay Chavan | David Parla | Oneness India Season 3 |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UNP8u3SW8dI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Dil Bne Tera Sinhasan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

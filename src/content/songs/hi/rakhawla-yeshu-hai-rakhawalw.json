@@ -152,9 +152,32 @@
     "page": null
   },
   "chords": "हर मुशीबत में सबको संभाला\n\n1.हर मुशीबत में सबको संभाला\nरखवाला यीशु है रखवाला\n   हर मुशीबत में वो काम आया मुझे\nमरते- मरते यीशु ने बचाया मुझे-2\nरखवाला यीशु है रखवाला\nओ रखवाला आ...आ...आ...\nओ रखवाला रखवाला रखवाला यीशु है रखवाला\n\n2.जब मसीहा का दीदार हो जायेगा\nतेरा बिगड़ा हुआ काम बन जायेगा-2\nरखवाला यीशु है रखवाला\nओ रखवाला आ...आ...आ...\nओ रखवाला रखवाला रखवाला यीशु है रखवाला\nरखवाला यीशु है रखवाला\n\n3.वो धरती का राजा वो सरकार है\nवह निराला मसीहा का दरबार है-2\nरखवाला यीशु है रखवाला\nओ रखवाला आ...आ...आ...\nओ रखवाला रखवाला रखवाला यीशु है रखवाला",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "nOzHm1f8G7A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Har Musibat me mujhko sambhala | हर मुसीबत से हमको सम्भाला | Masihi qawwali | मसीही गीत",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "yX9kqHt4ffU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hai Rakhwala",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ajdFHHtOCDw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हर मुसीबत मैं मुझको संभाला।।Hr musibat mai mujhko sambhala.(Hindi) Christian song new 2026💞✝️",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

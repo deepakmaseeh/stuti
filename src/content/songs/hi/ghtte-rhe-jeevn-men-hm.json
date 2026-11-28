@@ -118,9 +118,32 @@
     "page": null
   },
   "chords": "महिमा तेरी धरती पर फ़ैल जाए- तेरा राज्य आये-4\n\n        घटते रहे जीवन में हम, तू बढ़ता जाए- तू बढ़ता जाए-4\n\nकोरस. यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा-2\n\nतू नहीं चाहता कोई इंसान पाप में मरे\n\nनाश हो जाए, और सदा की आग में जले -2\n\nपर तेरे खून से हम सबके पाप हैं धुले-2\n\nयेशु तेरे ही नाम से सब जीवन पाए-2 सब जीवन पाए-4\n\nकोरस. यीशु तू है सबका बादशाह, धरती तेरी तेरा आसमा-2\n\nइस जमीन पर नहीं, न कोई आसमा तले\n\nरास्ता है तूही, जिसपर ये कारवां चलें-2\n\nहैं नयी ज़िन्दगी तेरे सलीब के तले-2\n\nइस ज़िन्दगी की राह पर हम चलते जाएँ-2 हम चलते जाएँ-4",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "bIH4U-1PDqc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sambhal prabhuji jeevan ke har pal me ll yeshu Masih song ll jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8P0uuC60XPA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Bade, Main Ghatu- Shelley Reddy [तू बड़े, मैं घटूं ]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "opWCm3cLk58",
+      "start": 0,
+      "kind": "lyric",
+      "title": "शुक्रिया तेरा | Hindi Christian Worship Song | Tu Sang Hai To Sab Aasan Hai | Gospel Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

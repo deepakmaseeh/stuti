@@ -92,9 +92,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "dhU-Omwg2rU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Charity Gayle - Thank You Jesus for the Blood (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CVVEKgeP8No",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Thank You | Elevation Worship (feat. Jonsal Barrientes & Tiffany Hudson)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Xu64ccViEOk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "THANK YOU | ASANI 254 | Gospel Worship Song (Official Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

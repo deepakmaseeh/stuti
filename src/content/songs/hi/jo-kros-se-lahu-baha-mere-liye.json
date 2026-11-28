@@ -151,9 +151,32 @@
     "page": null
   },
   "chords": "जो क्रूस से लहू बहा, मेरे लिए\n\n  F          C   Bb   C    F\n          जो क्रूस से लहू बहा, मेरे लिए (2)\n F           Bb         C          F\nकाफी है वह मेरे गुनाह, धोने के लिये (2)\n F           C   Bb C    F\nकोरस:- जो क्रूस से लहू बहा मेरे लिए (2)\n\n F                 Bb\n1. दुखों को मेरे वो उठा लिया,\n    C        Gm    C             F\nअपराधों के कारण वो, घायल हुआ\nF               C         Bb C       F\nमेरी शान्ति के लिये उस पर ताड़ना पड़ी (2)\nF           Bb          C           F\nउसके कोड़े खाने से ही, क्षमा मैं पाया (2)\n F          C\n  जो क्रूस से लहू...................\n\nF                 Bb\n2.  प्याले को उसने उठाकर कहा,\n      C      Gm          C    F\nमेरे लहू की यही एक नई वाचा\nF            C  Bb C           F\nहै बहाया ये लहू, तेरे गुनाह के लिये (2)\nF                Bb       C         F\nइस में से जो भी पीयेगा, कभी न मरेगा (2)\n F           C\nजो क्रूस से लहू...................",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "WUNTsGbdhnY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jo Krus Se Lahu Baha Mere Liye With lyrics(Hindi Christian Song)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cNZaUcS-UKA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Praise & Worship | क्रूस से बहा लहू मेरे लिए | Bro. Sandeep Masih | B4Jesus Ministry | PBTV",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "pG0TJjDyMlc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jo Krus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

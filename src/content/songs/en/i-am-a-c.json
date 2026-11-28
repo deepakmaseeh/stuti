@@ -88,9 +88,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "xNb6vMkAIOQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am a C-H-R-I-S-T-I-A-N - (SURPRISE ENDING) - Praise fun for Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "oR71odOa8QU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am a C-H-R-I-S-T-I-A-N 💚 Kids Songs 💜 Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LJ20SR8dyPo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am a C-H-R-I-S-T-I-A-N",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

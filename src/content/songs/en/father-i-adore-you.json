@@ -90,9 +90,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ph-ZBiIETB0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Father I adore You w/lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sJ_p21fUNiw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "You Are My World - Hillsong Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "s5FA4T3SoH0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Matt Brouwer - Father I Adore You (Official Lyric Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

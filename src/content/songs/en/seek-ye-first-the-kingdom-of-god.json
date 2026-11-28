@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "EsBpM9IcBts",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Seek Ye First - Maranatha! Music [with lyrics]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "bZAjijE3_4c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Seek Ye First",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ss21lHl81_E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Seek Ye First | Maranatha! Music (Audio Only)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

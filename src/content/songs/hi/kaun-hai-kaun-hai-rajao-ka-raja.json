@@ -126,9 +126,32 @@
     "page": null
   },
   "chords": "कौन है कौन है राजाओं का राजा\n\n                  E                        A                     E\nकोरस:- कौन है कौन है राजाओं का राजा\n        E                     A                   E\n         कौन है कौन है दुनियाँ का बादशाह\n         A                 B         F#m                B\n         यीशु है उसका नाम, यीशु है उसका नाम,\n         B  E    A        E\n        तो करो जय जयकार (4)\n\n        A                   E      A                     E\n पानी पर चलता है, भीड़ को खिलाता है (2)\n  E            C#m       E                B\n         शैतान भी डरता है, यीशु के नाम से (2)\n\n             A                 E      A                  E\n2.   क्रूस को उठाया है, मौत को हराया है (2)\n  E            C#m             E             B\n        अनुग्रह से उसके हमने, उद्धार पाया है (2)\n\n\n                                                      (A/44)\n                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "5ac0HH41Km0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaun Hai | Sheldon Bangera (Live In Ranchi) | EK AWAAZ TOUR",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sTPvyH4aiJ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaun Hai | Jaago Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "p3onB7F9gjM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaun hai kaun hai song |SUNDAY SCHOOL ACTION SONG |TELUGU CHRISTIAN CHHILDREN SONG @Lightlife2023",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

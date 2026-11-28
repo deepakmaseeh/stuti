@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "f9_RoZeXztc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ए मेरे मन प्रभू की तू आराधना कर{Ae mere man prabhu ki tu aradhana kr} new christian song.(lyrical )",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OM-zisUVUy8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे मेरे मन! प्रभु की तू आराधना कर,क्योंकि वो भला है| HE MERE MAN PRABHU KI TU ARADHANA KAR | LYRICS🙏",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DAEThPhDM0o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ae Mere Mann { ऐ मेरे मन } Virender Patil || New Yeshu Masih Hindi Song || Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

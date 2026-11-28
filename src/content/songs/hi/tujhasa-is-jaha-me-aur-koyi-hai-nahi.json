@@ -136,9 +136,32 @@
     "page": null
   },
   "chords": "C                              Am      C    F                                     C\n      तुझसा इस जहां में और कोई है नहीं, तुझ बिन आसरा मेरा है ना कहीं।\n           C                     Am    C    F                            C\n      रहूँ तेरी बाहों में प्रियतम मेरे, तू ही मेरा सर्वस्व यीशु मेरे।\n      C     G      F       C      Am        G            C\nकोरस:- आराधना तेरी आराधना, यीशु मेरे, तेरी आराधना (2)\n\n      C                               Am    C     F                                    C\nअर्पण करता हूँ खुद को हाथों में तेरे, धो दे मुझको तू प्रभु वचनों से तेरे\n   C                           Am   C      F                                       C\n      तेरी इच्छा पर ही तू मुझको चला, भर दे पवित्र आत्मा से मुझको ख़ुदा\n\n       आराधना तेरी आराधना…………………….\n\n   C                       Am       C   F                                          C\nचलता मैं रहूँ तेरी राहों पर सदा, बनके रहबर मेरा तू चलना संग ख़ुदा\n   C                           Am    C   F                                         C\n      तुझ पर ही बना रहे मेरा भरोसा, तू मेरी चट्टान, रहूँ तुझ में स्थिर सदा\n\n       आराधना तेरी आराधना……………………..\n\n\n\n                                                                                 (C/34)\n                                                                      The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "DZp-N690xIc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तुझसा इस जहां में और कोई है नहीं...|| HINDI WORSHIP SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "arMiCPEnlHo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tujhsa Is Jahan Mein Aur Koi Hai Nahi | आराधना तेरी आराधना",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VDVb7oNLvTA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERI AARADHANA | Ft. Jessy Robin, Robinson Shalu, Philemon Anand, Sofia Shalu | One Tribe",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

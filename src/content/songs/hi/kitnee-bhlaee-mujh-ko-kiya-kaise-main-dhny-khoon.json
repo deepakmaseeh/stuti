@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "S1JydS62nQw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "कितना भलाई मुझको किया | | Aatmik Geet | Bro.Nileshbhai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UesR8rihfVU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kitni Bhalai Mujhse kiya kaise mai dhany kahun ।। कितनी भलाई मुझसे किया कैसे मै धन्य कहूं ।।",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "M9LSh8imnuM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kitna Bhalai | Jai Ke Geet - Hindi | Father S J Berchmans",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

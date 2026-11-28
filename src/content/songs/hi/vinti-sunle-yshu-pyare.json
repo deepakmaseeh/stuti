@@ -159,9 +159,32 @@
     "page": null
   },
   "chords": "विनती सुन ले यीशु प्यारे,\n\nD         C           G          D\nसुनिये अर्ज महाराज रे राखो मेरी लाज\nG                          D\nदया करो और कष्ट मिटा दो मन को कीजो साफ\n\nD             C   G    D                  C     G  D   G\nकोरस:- विनती सुन ले यीशु प्यारे, विनती सुन ले यीशु प्यारे मोहे\nG              D          C            D             C             D\nसंग रखो महाराज अब तुम, राखो मेरी लाज प्रभु तुम राखो मेरी लाज।\n\nD                  G                                  C          D\nविनती करूँ तुम से कर जोरी अब तुम विनती सुन लो मोरी (2)\nD            C        G D           G              D              C                  D\nमोहे आशा लग रही तोरी (2) दर्शन दिखा दो आज विनती सुनो मेरी महाराज\nD         C           D                C             D\nअब तुम राखो मेरी लाज प्रभु तुम राखो मेरी लाज।\n\nD                          G                  C           D\nतुम ही हमारे नैनों के तारे मन के प्यारे दिल के दुलारे (2)\nD               C  G D         G               D             C                D\nतुम ही हमारे तारणहारे -2 हमारे तुम सरताज विनती सुनो मेरी महाराज\nD           C         D               C                D\nअब तुम राखो मेरी लाज प्रभु तुम राखो मेरी लाज।\n\nD                          G                     C             D\nआप का मैं शैदा कहलाऊँ आस लगी तोहे दर्शन पाऊँ (2)\n                                   G               D                  C            D\nयुग युग आप का मैं गुण गाऊँ -2 मेरे गरीब नवाज़ विनती सुनो मेरी महाराज\nD            C       D                C                   D\nअब तुम राखो मेरी लाज प्रभु तुम राखो मेरी लाज।\n                                                                                   (E/37)\n                                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "bf_QKaeZ7qE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Vinti sun le yeshu pyare विनती सुन ले यीशु प्यारे #lyrics_jesus_song#christiansong #simple_life",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "QZzBpwjPejs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "विनती सुनले येशु प्यारे | Vinti Sunle Yeshu Pyare @AnkitSajwanMinistries #foljchurch #worship #song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wkozlkJU08A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Vinti Sunane Wale | Beautiful Hindi Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

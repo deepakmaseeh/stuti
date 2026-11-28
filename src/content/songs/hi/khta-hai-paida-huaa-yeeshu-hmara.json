@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": "बैतलह के गौशाले में चमका एक तारा\n\nबैतलह के गौशाले में चमका एक तारा\nकहता है पैदा हुआ यीशु हमारा\nये सुसमाचार है कि प्रभु है आया\nमनुष्य के रुप में उद्धार लाया\nबैतलह के गौशाले में........\n\nप्रेम जगत को आया बचाने\nनवजीवन को हमें दिलाने\nनाम है जीसका यीशु मसीह\nदेता संदेश ज़हां को\nपूरब दिशा का तारा, चले गड़रिया\nदण्डवत करने, अपने मुक्तिदाता को\n      बैतलह के गौशाले में........\n\nदेश – देश के राजा आए\nसोना मुर्र लोबान चढ़ाएं\nद्वार खुले हम हृदय लेकर आए\nहम भी उसके द्वार पर जाएं\nअपना जीवन भेंट चढ़ाए\nउसकी जय और सन्ना गाएं\nसारे जगत का पालनहारा\nबैतलह के गौशाले में........",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LABHIuRlYlU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Peda Hua Hai Yeshu Mashi 🎄 | Christmas | Hindi Christian Song 'Sambalpuri Dance Song 2026\"",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "B41BMoXUrX4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Hindi Christmas Song 2021 | Jhoomo Naacho || Jaago Family | Alka Prasad Cover",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jEzQSFqeR2o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "झूमो नाचो खुशी से आज,यीशु पैदा हुआ| Jhumo Nacho Khushi Se Aaj Yeshu Paida Hua | Hindi Christmas Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

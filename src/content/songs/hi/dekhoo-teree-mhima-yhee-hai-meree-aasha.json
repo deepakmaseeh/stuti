@@ -137,9 +137,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "CHY7wf2ZzkU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dekhun Teri Mahima | Hindi Christian Song | New Hindi Gospel Worship | Glory of God | James Bovas",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "P7iwMC49zyo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "thekhu teri mahima ko yahi hai meri abhilasha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "m2YpjbmT7jw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dekhun Teri Mahima #repriseversion #hindichristiansong #hindiworshipsong #newmashigeet #jesussongs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "jjYi-qTzqr4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Got the Joy, Joy, Joy | Christian Song for Kids | Bible Worship Fun & Learning",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hpDrndhk1ko",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've got the Joy Joy Joy | Kids Songs | Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0YI8DU9Q0UU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "1 Hour of Christian Songs for Kids | Jesus Loves Me, I've Got the Joy & More! | Worship & Fun.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

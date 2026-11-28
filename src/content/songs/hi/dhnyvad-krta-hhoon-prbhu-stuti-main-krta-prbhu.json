@@ -145,9 +145,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "dxsVpwd_Enk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "धन्यवाद करता हूँ प्रभु, स्तुति मैं करता प्रभु, Dhanyavād karatā ha prabhu, stuti main karatā prabhu",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wcTPTNiaL9I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं धन्यवाद करता रहूँगा || Yeshu Tere Kareeb Aane Se || Live Worship with Brother Mark Tribhuvan Ji",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FFjQwT15Umk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "G14. प्रभु मैं तेरा धन्यवाद करता हूँ Prabhu main tera dhanyavad karta hun",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

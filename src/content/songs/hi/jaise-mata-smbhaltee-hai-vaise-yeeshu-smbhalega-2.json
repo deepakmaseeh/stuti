@@ -137,9 +137,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ME8Qik1-oE4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जैसे माता सम्भालती है वसे यीशु सँभालेगा । JAISE MATA SAMBHALTI HAI VASE YUSHU SMBHALEGA | NEW SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ccvsn2P5wno",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जैसे माता संभालती है वैसे यीशु संभालेगा - Hindi Christian Song | Christ the band..",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-0ZY4cimXCU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jaise Mata Sambhalti Hai | जैसे माता संभालती है",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

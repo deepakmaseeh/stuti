@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": "आओ हम यहोवा के लिए ऊँचे स्वर से गाएँ\n\nF                                       Bb\nकोरस:- आओ हम यहोवा के लिए, ऊँचे स्वर से गाएँ,\n                     C                       F\nअपनी मुक्ति की चट्टान का, जय जयकार करें।-2\n\nF               Bb         C      F\n      1. धन्यवाद करते हुए, उसके सन्मुख आये\nF           Bb          C            F\nभजन गाते हुए, उसका जय जयकार करें।-2\n\nF        Bb     C       F\n     2. क्योंकि यहोवा, महान ईश्वर है,\nF          Bb             C         F\nसारे देवताओं के ऊपर, महान राजा है।-2\n\nF              Bb     C     F\n     3. क्योंकि, वह हमारा, परमेश्वर है,\nF                  Bb          C             F\nऔर हम उसकी प्रजा, उसके राज्य की भेड़ें हैं।-2\n                                                                  (A/21)\n                                                                                                                      The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VDJI3dLwJZQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आओ हम यहोवा के लिए ऊंचे स्वर से गायें - सिय्योन के गीत - siyyon ke geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Jo19rXD7Ww8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Hum Yahowa Ke Liye | Official | Pastor Joy Gill | New Hindi Christian Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "b5ac5S_A34M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aao Hum Yahowa Ke Liye || Revival Song || Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

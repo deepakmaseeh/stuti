@@ -164,9 +164,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "C9EtkFxoj8M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आराधना हो आराधना | Aaradhna ho Aradhana / New christian song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cNM2lqb9xAM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु तेरे बिना रहा न जाए रे |morning worship songs|new Hindi Christian song|#Abhidan music Ranchi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "T8SIRYxjr6g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Powerful Hindi Christian Prayer Songs for Peace and Healing | Harp & Bowl Worship Collection",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

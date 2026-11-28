@@ -146,9 +146,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TKKvXRzkF3s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri jay hove sada lyrics तेरी जय होवे सदा लिरिक्स",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "AxIw1MQ1u0E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tujhsa Koi Nahi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NzlXjK6N4S8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Hindi Christian Song 2022 | Hai Tujhsa Koi Nahi | Kenneth Silway | Acts 29",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

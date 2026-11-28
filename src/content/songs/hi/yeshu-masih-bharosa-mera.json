@@ -156,9 +156,32 @@
     "page": null
   },
   "chords": "यीशु मसीह भरोसा मेरा\n\n              A             F#m            D           E     A\nयीशु मसीह भरोसा मेरा, तू ही सहारा है मेरा\n           A                   F#m            D      E         D\n         मुश्किल समय में तू ही दिलासा, साथ रहेगा तू सदा\n\n          A             F#m    A                 E\nकोरस:- करुणा भलाई तेरी, सदा रहेगी मुझ पर\n            D                  A      F#m         E\n         तेरी विश्वासयोग्यता, देखुंगा मैं उम्र भर\n          A                        D       E                       D\n         मैं हाथ उठा कर गाऊंगा, यीशु तेरा नाम रहे ऊंचा (2)\n\n           A         F#M             D            E       A\nमौत से है बचाया तूने, जीवन नया है दे दिया\nA           F#M     D                 E               A\nनाम लेकर पुकारा मुझे, महिमा से मुझको भर दिया\n A\nकरुणा भलाई......\n\n A                     E                     A\nआदर और महिमा हो तेरी, तू ही हमारा खुदा\n F#M                E     D                   A\nपूरी हो तेरी ही मर्जी, आए तेरा राज्य यहां\n A                  D      E                        A\nहम हाथ उठा कर गाएंगे, यीशु तेरा नाम रहे ऊंचा (2)\n\n        A          F#M   A                 E\n       करुणा भलाई तेरी, सदा रहेगी मुझ पर\n        D                  A    F#M            A\n       तेरी विश्वासयोग्यता, देखुंगा मैं उम्र भर\n          A                      D          E                      A\n       मैं हाथ उठा कर गाऊंगा, यीशु तेरा नाम रहे ऊंचा (2)\n                                                                        (E/51)\n                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "v2fxkB_10g8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Haath Uthaakar Gaoonga | येशु मसीह भरोसा मेरा | Hindi Worship Song Lyrics | Yeshu masih bharosa mera",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "R9nYbFJaxI8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Haath Uthaakar Gaoonga | Samarth Shukla ft. Bridge Music, Cameron Mendes & Sam Alex | @RedSeaFilms",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vYFxLu5o1Ig",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshua Ministries - Hum Gaye Hosanna (Yeshu Masih) (Yeshua Band) Official Lyric Video 2006",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

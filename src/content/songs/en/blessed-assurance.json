@@ -122,9 +122,32 @@
     "page": null
   },
   "chords": "Blessed assurance, Jesus is mine!\n\n\n            D                           G         D\n Blessed assurance, Jesus is mine!\n                      Bm           E            A\n              O what a foretaste of glory divine!\n                                D          G                  D\n              Heir of salvation, purchase of God\n\t                Em     A                      D\n              Born of his Spirit, washed in his blood\n\nChorus:-\n                  D                         G               D\n       This is my story, this is my song\n                            Bm      E                 A           2\n       Praising my Savior all the day long\n\n                  D                           G           D\n Perfect submission, perfect delight\n                   Bm           E             A\n  Visions of rapture now burst on my sight\n                                D              G                  D\n  Angels descending bring from above\n                             Em        A                   D\n  Echoes of mercy, whispers of love\n\n        D                             G       D\n Perfect submission, all is at rest\n                   Bm              E                A\n       I in my Savior am happy and blessed\n                                  D           G                 D\n      Watching and waiting, looking above\n                                  Em            A                  D\n      Filled with His goodness, lost in His love\n\n\n                                                                                             (G/1)\n                                                                                                 TLBC Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "H1VMHEMOMZY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blessed Assurance",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "flvXXJqB7Q0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blessed Assurance // Sounds Like Reign",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "FfVPnEhjKB4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blessed Assurance (with lyrics) - The most Beautiful Hymn!",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

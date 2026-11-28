@@ -169,9 +169,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ftLC6pBijBY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "If I Were A Butterfly, I'd Thank You",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tUvgOTsPkzc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Butterfly Song Lyric Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "F4QZHvZSF9E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Butterfly Song (If I Were A Butterfly) 🦋 Kids Songs 🐛 Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

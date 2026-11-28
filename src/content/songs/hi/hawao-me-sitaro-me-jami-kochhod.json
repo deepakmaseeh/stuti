@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": "हवाओं में, सितारों में, ज़मीं को छोड़\n\nकोरसः- हवाओं में, सितारों में, ज़मीं को छोड़\n         हम आसमान चलें यीशु के पीछे हम चलें, हम चलें\n\n1. \tन होगी वहाँ दिन और रातें, हरदम होंगे ख़ुदा के साथ\n    भूलेंगे बीती हुयी बातें यीशु का ही होगा साथ\n\n2. \tज़िन्दा ख़ुदा भी वही है जीवन भी देता वही है\n     आओ जीवन जल को पीओ, जीवन की रोटी भी खाओ\n\n3. \tउस पर जो विश्वास लायें पापों से छुटकारा पायें\n     धब्बे सारे मिट जायें दुनिया की बातें न आयें\n\n\n\n\n\n\n                                                       (F/61)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "O1s_OKwrRKU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hawaon Me Sitaron Me Yeshu Ke Saath Chale || Jesus God Yeshu New Song Guddu James 2021",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VLk7zRBubzA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Christian song हवाओं में सितारों में जमीन को छोड़ हम आसमान चले यीशु के पीछे-पीछे हम चले। PBC Jhansi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Fg6xAA0pe-o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हवाओं में सितारों में Hindi song With cord with lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

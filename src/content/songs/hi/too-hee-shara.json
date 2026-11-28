@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": "सारे जग में तेरी प्रशंसा, यीशु ही जीवन, यीशु ही आशा,\n\n   तू ही सहारा, तू ही भरोसा,  संगीत तू ही, तू ही है भाषा\n\nगाऊँ मैं गीत तेरे, गाऊँ तेरी शान में,\n\nआवाज़ गूंजे मेरी, धरती और आसमान में,\n\nतेरे दम से है ये दुनियाँ, और कुछ भी जानू ना (2)\n\nचारों तरफ है मेरे, तेरे प्रशंसा का गान,\n\nतू मुझको यहां लाया, यही है मेरा ठिकाना\n\nयीशु तेरे वचनों से, भर जाए जीवन मेरा (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LUKTs6ILVyE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tu Hi Sahara | Sandesh Ghagare | New Christian Hindi Song | Official Music Video.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aoY40UJfZVk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Sahara | The Worship Series S02 | Rex Media House© 2024.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "e2EpirM3YOM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे यीशु, तू ही सहारा ❤️ | Heart Touching Christian Qawwali | Hindi Worship Song | Yesu Soul Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

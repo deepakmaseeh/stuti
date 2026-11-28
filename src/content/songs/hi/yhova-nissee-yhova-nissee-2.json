@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mtGN4KIJMVs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "|| यहोवा निस्सी || Christian Hindi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dpgOyg7dUzE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yahowa Nissi | Lyrics | Hindi Christian Karaoke | यहोवा निस्सी | Lambert Brothers",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "smb8rW9q0A0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yehova Nirsri | Powerful Christian Worship Hindi Song | PrabhuGeet Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

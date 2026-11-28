@@ -154,9 +154,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "hQbZr137GPI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जीवन मिलेया RECORDED LIVE 🔴 Anointed Worship Song @AnkitSajwanMinistries 🌟| FOLJ Church Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_G6ZyXHiRvs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जीवन मिलेया | Jeevan Mileya | Latest Worship 2026 #jesus #song #christianmusic #viral",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Qz6W4ei7rU8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jeevan Mileya | जीवन मिलेया मिलेया",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

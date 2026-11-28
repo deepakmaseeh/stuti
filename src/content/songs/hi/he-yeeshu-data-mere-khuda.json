@@ -144,9 +144,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "q3aKcFSaV0A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hey Yeeshu Daata (Yeshuve Nadha/ Muttolum Alla) - Hindi Worship Song | Shirin George | Wilson George",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "i-Z0NA5teyI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ghutno Se Uncha | घुटनों से ऊँचा | Hindi Christian Song | Muttolam Alla",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "crqWQrHdEkA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हे यीशु दाता | Yeshu Daata, Mere Khuda New Lyrical Worship Song of @AnkurNarulaMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

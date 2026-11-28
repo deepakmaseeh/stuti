@@ -84,9 +84,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ha4LWC2y2Z4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MAKING MELODIES IN MY HEART | Kids Happy Song | Joyful Song | Action Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1EYB2GLKOCc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MAKING MELODIES IN MY HEART | Kids Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VJj_QDPloVs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Making Melodies WorshipHouseKids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

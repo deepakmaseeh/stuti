@@ -160,9 +160,32 @@
     "page": null
   },
   "chords": "यीशु तेरा नाम सबसे ऊँचा है\nजिस नाम में है मुक्ति, जिस नाम में है शक्ति\nजिस नाम में है शांति, देता वो नाम चंगाई\nजिस नाम में है ज़िन्दगी, यीशु है वो नाम\nजिस नाम में है बंदगी, यीशु है वो नाम\nयीशु तेरा नाम सबसे ऊँचा है (4)\n\nपाप से, अन्धकार से; संसार से, है छुड़ाता।\nवो नाम है जो भटकों को, राह भी है दिखाता।\nजिस नाम में रौशनी यीशु है वो नाम\nजिस नाम में है ज़िन्दगी, यीशु है वो नाम\nयीशु तेरा नाम सबसे ऊँचा है (4)\nबिमारी से गरीबी से, श्रापों से है छुड़ाता\nवो नाम है जो अन्धो को रौशनी भी है देता\nजिस नाम में है ज़िन्दगी, यीशु है वो नाम\nजिस नाम में है बंदगी, यीशु है वो नाम\n\nशालोम शांति और सलाम, लाये हैं आपके नाम।\nशालोम शांति और सलाम, मेरे यीशु का पैगाम\nतो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\nयीशु तेरा नाम सबसे ऊँचा है (8)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7CKYVJj6pJ8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jis naam main hai Zindegi Yeshu hai wo naam ll Hindi Christian song ll Praise Jesus ll",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "6YOouyRtWZY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jis Naam Mai Hai Mukti Christian Song Hindi || 2022 Best Christian Song || Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jzWpiSb2WRQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tera Naam (Cover) || Worship Song || Agape Sisters || 2020",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -124,9 +124,32 @@
     "page": null
   },
   "chords": "आओ आनन्द मनाएं\nE                                                   A                        E\n     1. आओ आनन्द मनाएं (2)यीशु राजा मेरा हो गया,\n        E                  A       E                             B         E\nइस सृष्टि का पालनहारा, मेरे हृदय का राजा हुआ। (2)\n\n      E                     A                      E                            C#m        E\nकोरस-अहा आनन्द है, परमानन्द है, क्या यह मेरा सौभाग्य है (2)\n                                               A         E                            B          E\n  इस सृष्टि का पालनहारा, मेरे हृदय का राजा हुआ (2)\n\n                E                                                                                A                                  B\n     2. मेरे बालकपन से उसने मुझे चुन लिया, मैं था भटका और दूर हो गया,\n                                      E               A         E                        B             E\n         उसकी करूणा ने फिर भी न छोड़ा, नया जीवन मुझे दे दिया (2)\n\n                  E                                                         A                              B\n      3. मैं बना रहूंगा प्रेम में अपने प्रभु के, चाहे कोई भी बाधा पड़े,\n             E                   A     E                     B                      E\n          उसकी आज्ञा को न भुलूंगा, जब तक उसका आना न हो (2)\n\n                  E                                                                          A                       B\n      4. जब प्रभु आयेगा, मुझे साथ ले जायेगा, ताकि उसके साथ मैं रहूं,\n            E                 A            E                 B                        E\n          उसकी संगति में मैं बना रहूंगा, जहाँ आनन्द ही आनन्द है। (2)\n\n\n                                                                       (A/20)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ntJgzlAL7dE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aanand Manaayen | James Bovas | आनन्द मनायें | Hindi Christian Devotional Songs | Hindi Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EKu2ePDtnfo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aanand Manaye Aao Aanand Manaye | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi, Masih Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eb9tcS0epTA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आनंद मनायें आओ आनंद मनायें | Anand Manaye Aao Anand Manaye | Hindi Christian Classic",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

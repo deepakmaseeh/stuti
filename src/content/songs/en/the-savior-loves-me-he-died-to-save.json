@@ -94,9 +94,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "sPVyIcVDF28",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Savior Loves Me (Lyric Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "96P0bwvpbk4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Savior My God - Aaron Shust (with lyrics).",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1TeDhUjsoq4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Savior My God (Lyric Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

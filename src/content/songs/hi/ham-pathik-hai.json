@@ -95,9 +95,24 @@
     "page": null
   },
   "chords": "हम पथिक हैं कटिले पथ के, दुःख से हो के जाना है\n\n        Dm                       C                 Bb A     Dm\n     कोरस:-  हम पथिक हैं कटिले पथ के, दुःख से हो के जाना है (2)\n         Dm                         C                     Bb    A Dm\n         आशा है उस पर जीवन पथ के, उस पार हमको जाना है (2)\n         Dm                       C                 Bb A     Dm\n         हम पथिक हैं कटिले पथ के, दुःख से हो के जाना है (2)\n\n         Dm                                 Bb                 C Dm\nलक्ष्य हमारा इतना है प्यारों, जीवन मुकुट को पाना है (2)\nDm                           C                        A    Dm\n         जीवन मुकुट को पाने के लिए, उस पार हमको जाना है (2)\n\n           Dm                                 Bb            C  Dm\nकोई नहीं है अपना जहाँ में, सबको अकेले चलना है (2)\nDm                        C                        A    Dm\n         यीशु मसीह को अपना बना के, आगे ही आगे बढ़ना है (2)\n\n           Dm                             Bb                   C        Dm\nपग पग पे दुःख है सहना, फिर भी नहीं कुछ हमको कहना (2)\nDm                    C                            A  Dm\n         सहते हुऐ शत्रु के वारों को, उस पार हमको जाना है (2)\n\n                                                                     (F/60)\n                                                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "HLupVFU5Vz8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hum pathik hain katile path ke/ हम पथिक हैं कटिले पथ के",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "LPlS80lyeXc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ham Pathik Hain Kathin Path Ke Dukh Se Hokar Jana Padega हम पथिक हैं",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

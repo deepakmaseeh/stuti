@@ -130,9 +130,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mHmCH7yGMqk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नया जीवन होगा.... कैसा सुहाना.... || Hindi song || By: Bro. Sipchan Tirkey & team",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UaIBlDtWCkM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "नया जीवन होगा कैसा सुहाना | Naya Jiwaan Hoga l Sadri Worship Song | Heart Touching Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "H0Cdy_eZbBM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Naya Jeevan Hoga || Hindi Christian Worship Song 2026 || New Gospel Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

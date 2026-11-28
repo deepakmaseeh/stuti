@@ -198,9 +198,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "MbdVHH83rNM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Waada Jo Kiya - Christian Wedding Song | Christ the band-_-Original Edit.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EqgCX9Mcyfo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Vaada | Hindi Christian Wedding/Love Song | Official Music Video | Alexander James",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CvU0I-Kp_ug",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aasma pe nazar aaye(Christian song)Shreya kant & Jamie lever(Psalm 19)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

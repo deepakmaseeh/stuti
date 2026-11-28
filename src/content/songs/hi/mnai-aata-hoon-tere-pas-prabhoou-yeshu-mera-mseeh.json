@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "RYPM6yEqM18",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main Aata Hun Tere Paas | मैं आता हूँ तेरे पास । गीत संख्या - 395 । गीत संग्रह ।Bhagalpur Pastorate",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0whkrTOkZaQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main Aata Hun Tere Paas - Full Song - 3 Stanzas - Beno Pothen - #gospel #hymns #jesus #masihigeet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KVC_FF34z34",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं आता हूँ तेरे पास | Main Aata Hoon Tere Paas",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

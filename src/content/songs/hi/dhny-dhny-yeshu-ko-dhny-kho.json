@@ -169,9 +169,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "GquD8xj3h8s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanya Dhanya Pita, Koti Koti Dhanya Pita | Sis Hosanna ICM Live Worship Song | Worship in Tongues",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JkFD5U7-E_I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanya Dhanya Dhanya Prabhu Ko | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi, Masih Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "K74YyfTkMic",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus hindi worship song, dhanya dhanya yeshu Naam,hindi christian song lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -135,9 +135,32 @@
     "page": null
   },
   "chords": "कोरस:- बोलो यीशु मसीह की जय (4)\n\nबोलो बोलो बोलो सारे बोलो\nबोलो बोलो बोलो मिलकर बोलो (2)\nबोलो यीशु मसीह की जय (2)\n\nयीशु का प्यार लै भारी लै भारी\nयीशु की सामर्थ लै भारी लै भारी\n\nबोलो यीशु मसीह की जय (4)\n\nयीशु का प्रेम लै भारी लै भारी\nयीशु का ज्योति लै भारी लै भारी\n\nबोलो यीशु मसीह की जय (4)\n\n\n\n\n\n\n\n\n\n\n\n\n\n(D/46)\nThe Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "QsZlPCPV1yc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bolo Yeshu Masih Ki Jai ll James Adukai ll Hindi Praise Song ll Official Lyrical Video Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mxuDodhu1X8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Christian song(yeshu mashi ki jai)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "okcxxoLcWJc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jai Bolo Yeshu Masih Ki Jai Bolo 🙌 | Powerful Hindi Christian Worship Song 2026 | Praise & Healing",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

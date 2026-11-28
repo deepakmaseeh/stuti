@@ -161,9 +161,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "jABSW-UuT1o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Jesus, My Saviour - [Official Video Lyric]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "N_bL2bWA9y0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Jesus, My Saviour (Piano Version)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SkTJ9jklOSE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Shout To The Lord | feat. Jessie Harris | Gateway Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

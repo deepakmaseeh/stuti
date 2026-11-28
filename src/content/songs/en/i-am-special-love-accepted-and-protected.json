@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "O72j8Cc1XG8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am Special, Loved, Accepted and Forgiven - Elevation Kids (Lyrics)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "m3LMRvD8WoA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I am special loved |Scripture Union Telangana|",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "2M5yb5o0S-c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I Am a Child of God | Christian Worship Song | Loved, Chosen & Forever His",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": "स्वर्ग से उण्डेल प्रभु अग्नि सा जीवन\n\n                     Em                        D             C\nकोरसः स्वर्ग से उण्डेल प्रभु अग्नि सा जीवन,\n                C                       D       Em\n       मुझको तू दे प्रभु भरपूर जीवन,\n                           Em                         D           C\nआत्मा की आग अब लगा मेरे अन्दर (2)\n                           C                          D       Em\nमन में भर दे प्रभु परिशुद्ध जीवन। (2)\n\n              Em                  D   C     Em\n  अग्नि जला प्रभु प्रेम की मन में। (2)\n    C                D       Em\n                 प्रेम करूँ तुझे पूरे लगन से, (2)\n                       Em                   D     C    Em\n                 तन, मन, धन सब देता तुझे मैं (2)\n                       C                     D              Em\nविनती करूँ प्रभु दे स्वर्गीय जीवन। (2)\n\n                        Em              D              C   Em\n\t  आत्मा की प्यास मेरे मन में लगा दे, (2)\n      C             D                Em\nस्तुति गाना मुझ को सिखा दे, (2)\n                        Em                  D          C   Em\nजीवन के जल से पीऊँ मैं आ के, (2)\n                              C                        D             Em\n मुझ में बहा प्रभु, नदियों सा जीवन। (2)\n\n                         Em             D       C   Em\n    यीशु के लहू से कर तू पवित्र (2)\n  C                     D          Em\n    पाप और मृत्यु से कर तू स्वतन्त्र (2)\n                        Em           D            C  Em\n    मेरे लिए पूरी कर अब प्रतिज्ञा, (2)\n              C               D                 Em                                                       (E/36)\n                मन में लगा प्रभु अपना सिंहासन। (2)                         The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "kxeAGYIfI_M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "स्वर्ग से उण्डेल प्रभु अग्नि सा जीवन,मुझ को तू दे प्रभु भरपूर जीवन;आत्मा की आग लगा मेरे अन्दर,",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "P1akF78QeNI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "स्वर्ग से उंडेल प्रभु अग्नि सा जीवन, मुझको तू दे प्रभु भरपूर जीवन। AATMA KI AAG AB LAGAA MERE ANDAR",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ETHu0QjQxtg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "स्वर्ग से उड़ेल प्रभु अग्नि सा जीवन/ Swarg Se udel Prabhu agni sha Jivan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

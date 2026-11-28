@@ -133,9 +133,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "HkBYQuwjry4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तूने मुझे आगे पीछे घेर रखा है - Tune Mujhe Aage Picche Gher Rakha hai (official) - Lyrical - Gospel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9ooPqXjg1ns",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tune Mujhe Aage Peche Gher Rakha Hai | तूने मुझे आगे पीछे घेर रखा है",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SGoS4e01IX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tune Mujhe Aage Piche Gher Rakha Hai |तूने मुझे आगे पीछे New Worship Song of @AnkurNarulaMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

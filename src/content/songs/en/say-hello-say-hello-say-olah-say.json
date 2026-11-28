@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "FbHZKNTu09E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Say Hello + Jambo | Action Song | LIVE at VBS 2025 | Cornerstone Church, Hyd",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "IMj-N8ewwWk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HELLO SONG | Moshi Moshi Olah Olah Kids Actions Song | Happy Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tK0vp8LlDiM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Spanish Song For Children - \"Hola Hola\" (Song Only)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

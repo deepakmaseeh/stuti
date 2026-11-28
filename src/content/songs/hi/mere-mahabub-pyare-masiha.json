@@ -164,9 +164,32 @@
     "page": null
   },
   "chords": "मेरे महबूब प्यारे मसीहा\n\nDm                 C              C                               Dm\nमेरे महबूब प्यारे मसीहा (2) किस  जगह तेरा जलवा नहीं है\nDm                            C                               Dm\nमेरे महबूब प्यारे मसीहा, किस  जगह तेरा जलवा नहीं है\n                                 C                                    Dm\nकिस जगह तेरी शोहरत नहीं है, किस जगह तेरी चर्चा नहीं है (2)\n\n           Dm                                         C                   Dm\nलोग पीते हैं तो गिर जाते हैं, मैं तो पीता हूँ गिरता नहीं हूँ (2)\nDm                         C              C                       Dm\nमैं तो पीता हूं दर से मसीह के (2) ये अंगूरों का सिरा नहीं है\n\n           Dm                                       C                        Dm\nमर गई थी वो याईर की बेटी, तुने उस पर निगाहें करम की (2)\nDm                                 C             C                          Dm\nकर दिया उसको जिन्दा यह कहकर (2) वह तो सोती है मुर्दा नहीं है\n\n           Dm                                          C                    Dm\nआंख वालों ने तुझको है देखा, कान वालों ने तुझको सुना है (2)\n Dm                          C              C                          Dm\nतुझको पहचानते हैं वो इंसान (2)  जिनकी आंखों पे पर्दा नहीं है\n\n           Dm                                           C                     Dm\nजिसमें शामिल न हो इश्क तेरा, वह परस्तिश-परस्तिश नहीं जो (2)\nDm                          C         C                               Dm\nतेरे क़दमों पे रोता नहीं जो (2) कोई सिज़दा वह सिज़दा नहीं है\n\n                                                                 (D/33)\n                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Iyni6fjCh44",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे महबूब प्यारे मसीहा!!Mere Mehboob pyare masiha!!Masihi Qawwali #prayerwarriors",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cH2vzvRNLfI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Mehboob Pyare Masiha, Kis Jagah Tera Jalwa | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "R6nZpF-wK_I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Mehboob Pyare Masiha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

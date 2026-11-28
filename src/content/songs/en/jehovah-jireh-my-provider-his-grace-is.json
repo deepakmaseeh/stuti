@@ -108,9 +108,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "fCsH_TtZReY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - Jehovah Jireh [with lyrics]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rPt2z6XJ3cA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jehova jireh my provider |HD| christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1jB2_mLgTQ8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The King’s Harpists: Jehovah Jireh feat. Ana Paula Valadão & Thais Schucman | LIVE from Jerusalem",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

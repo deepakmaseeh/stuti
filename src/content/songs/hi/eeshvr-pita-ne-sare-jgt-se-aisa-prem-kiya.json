@@ -131,9 +131,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KI3psn0_mfs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ishwar Pita | Hindi Gospel Song | ft. Sofia Shalu | Robinson Shalu",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vStunPjt5tE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ईश्वर पिता ने सारे जग से ऐसी मोहब्बत किया, आत्मिक गीतमाला४२७",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NJ7-j6WoVhI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सारे जगत से प्यार किया- रेव. विनोद विश्वास The best of 80s.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -119,9 +119,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "yrrnch2Ii8g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Great and Mighty is the Lord Our God (medley) [Lyrics]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qHdx3NVtSqY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MIGHTY IS OUR GOD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XoH7iA3tsg8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Great and Mighty is the Lord our God (medley)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

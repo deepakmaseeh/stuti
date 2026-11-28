@@ -160,9 +160,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TeuP-KmwWlY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mai Dhoondhta Sahara • मैं ढूँढता सहारा - Hindi Christian Devotional Song by Pr. Daljeet Adolf",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "N4LcEGnuvPs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं ढूँढता सहारा",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wQ9zGhyghIE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

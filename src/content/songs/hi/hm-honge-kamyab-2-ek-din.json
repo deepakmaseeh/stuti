@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "xcmJ2OSBoa0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम होंगे कामयाब I Hum Honge Kamyab I Chorus I Special Independence Day Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8qZXIOfi7bk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "HUM HONGE KAMYAB||ODISHA CHRISTIAN GOSPEL SINGERS||CHRISTIAN GALLERY 2020",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OD5GnVLX6XA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kaamyab Honge Hum Yeshu Jo Saath Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

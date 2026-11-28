@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "h-QPU_zhRhk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Utar Aa (Aasmani Khushi Se) | Anil Kant | Hindi Christian Song | Yeshu Raag | Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jjLjcKfTasM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "उतर आ | Utar Aa | Hindi Christian Song | #jesus #songs #church #worship #prayer",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OtpMvqKbdkU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "उतर आ, उतर आ | FOLJ Presents | Worship | @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

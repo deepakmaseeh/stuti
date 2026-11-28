@@ -90,9 +90,32 @@
     "page": null
   },
   "chords": "ओ आकाश और सूर्य चंद्रमा\n\n           A                            D\nकोरस:-  ओ आकाश और सूर्य चंद्रमा,\n              E                         A\n           स्तुति करो सारा भूमण्डल\n\n       A                  D     E                                 A\n यीशु ने तुझ से प्रेम किया, तेरे लिए अपना प्राण दिया,(2)\n                          D     E                        A\n       नरक से आत्मा को बचा लिया, अनन्त जीवन सबको दिया,\n\n        A               D    E                               A\n अनुग्रहकारी प्रिय यीशु, धर्मी होकर वह दुख सहा,(2)\n                      D    E                         A\n       हरा दिया बैरी शैतान को, मृत्यु पर यीशु विजयी हुआ,\n\n         A          D           E                           A\n दूतों ने सुनाया सुसमाचार, यीशु जी उठा है ज़रूर,(2)\n                         D     E                        A\n      जाके बताओ यह समाचार, बाजे बजाते गाते जय जयकार,\n\n\n\n\n                                                              (A/30)\n                                                                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "HI-IFFuth1U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Oo Aakash Surya Chandrama 🍋 Sarita 🍉 Christian Hindi Song 25🍓",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NSm2Lgo1VcE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Oh Aakaash aur Soorya Chandrama | ओ आकाश और सूर्य चन्द्रमा | Lyric Video | Song no 26 | Malad FGPC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HFyy8L5UH50",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ओ आकाश और सूर्य चन्द्रमा,स्तुति करो सारा भूमण्डल || HINDI WORSHIP SONG || #sundayworship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -103,9 +103,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pp1h1f9gK-Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Life is in You, Lord - Contemporary Christian All Stars",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "F0M0NALW7EM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MY LIFE IS IN YOU LORD!",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iayBMb76_KE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "My Life Is In You, Lord",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

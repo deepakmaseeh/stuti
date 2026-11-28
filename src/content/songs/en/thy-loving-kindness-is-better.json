@@ -132,9 +132,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "JllGU0qYBgk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Thy Loving Kindness - Maranatha! Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Q4SBBaGWZjE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Thy Loving Kindness | Maranatha! Music (Audio Only)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "y5NbtYAUmV8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Thy Loving Kindness",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

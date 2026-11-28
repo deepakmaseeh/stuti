@@ -102,9 +102,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "gMKxDb6NY4M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere Siva Duniyan Mein Mera Koyi Nahi Hai Sahara | Heartfelt Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mswNqhn1RJk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere Siva Jag Mein | तेरे सिवा जग मे मसीहा | masihi song | Hindi worship song Christian",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aoY40UJfZVk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mera Sahara | The Worship Series S02 | Rex Media House© 2024.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

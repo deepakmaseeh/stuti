@@ -128,9 +128,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ogj1mQ36muc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Halat Badal Jate Hai, Yeshu Tere Aane Se Yeshu | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "QQw5BYCvNgY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Halaat Badal Jate Hain | हालात बदल जाते हैं",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Jkyr-ytesMk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Things change with your arrival, Jesus. Christian Worship Music | Hindi Audio |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

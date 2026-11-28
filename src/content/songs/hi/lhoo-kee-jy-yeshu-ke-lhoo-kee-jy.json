@@ -206,9 +206,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "v-dwEaSbzdw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Lahu ki Jai - Hindi Christian Worship Song | 2022 Latest Gospel Hits",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HZU2N5UlYV8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "लहू लहू यीशु का लहू | Jesus Blood Song | Hindi Christian Worship Song | यीशु का लहू",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "44PWQPsU6fo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tere Lahu Ki Jai 🙌 Powerful Hindi Christian Worship Song | Original by Dr Arvind Ephraim",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

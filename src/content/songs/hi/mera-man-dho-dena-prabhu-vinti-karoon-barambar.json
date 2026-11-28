@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": "मेरा मन धो देना प्रभु बिनती करूँ बारम्बार\n\n        F#m              D         E                  F#m\nकोरसः-   मेरा मन धो देना प्रभु बिनती करूँ बारम्बार (2)\n\n          F#m       D         E         F#m\nमन मेरा हो गया पापों से मैला, (2)\nE                        F#m            E                  D    F#m\n\t    मैं धोते-धोते हुआ लाचार प्रभु, मैं धोते-धोते हुआ लाचार\n           D                  F#m\n       प्रभु बिनती करूँ बारम्बार।\n\n          F#m  D     E        F#m\nमैंने भूल करी बड़ी भारी, (2)\n E                        F#m           E                 D    F#m\n       आया नहीं मैं तुम्हारे द्वार प्रभु, आया नहीं मैं तुम्हारे द्वार\n                 D                  F#m\n       प्रभु बिनती करूँ बारम्बार।\n\n       F#m     D      E   F#m\nबाइबल भीतर मैंने पाया, (2)\nE                        F#m           E                  D    F#m\nतुम ही हो दिल के धोवनहार प्रभु, तुम ही हो दिल के धोवनहार\n                D                  F#m\nप्रभु बिनती करूँ बारम्बार।\n\n        F#m      D         E         F#m\nदास कहे इस पापी मन को, (2)\n        E                        F#m           E                  D    F#m\n       कृपा कर तुम दीजो निस्तार प्रभु, कृपा कर तुम दीजो निस्तार\n                  D                  F#m                                                      (D/30)\n       प्रभु बिनती करूँ बारम्बार।                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "grlW_UuZRuA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेर मन धो देना प्रभू बिनती करूँ.Rev.firoz masih hindi song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Mk4VABHmhP8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरा मन धो देना प्रभु विनती करूँ बारम्बार#Mera man dho dena prabhu vinti karun barambar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "QfIyy80lySc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MERA MAN DHO DENA PRABHU BINTI KARUN BAR BAR (मेरा मन धो देना प्रभु बिनती करूँ बार-बार)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": "आज का दिन यहोवा ने बनाया है\n\n     C                    F         G\n  कोरस:- आज का दिन यहोवा ने बनाया है,\n               F            G             C\n     हम उस में आनन्दित हो, आनन्दित हों।\n\n    C              F                       C                                             1. आता हूँ तेरे पास, मुझको है तुझसे आस\n     C                  F               C G C\n    मुझको कबूल कर ले, पापों से शुद्ध कर दे।\n\n    C                F                       C\n2. प्रभु को महिमा मिले, चाहे हो मेरा अपमान,\n    C          F               C G C\n    वह बढ़े मैं घटूँ, रहे इसी का ध्यान।\n\n    C                F                       C\n3. जीवन से ज्योति जले, जीवन यह ऐसा बने,\n    C                   F               C G C\n    ज्योति में चल हम सकें, दुआ है तुझसे यही।\n\n    C            F                       C\n4. स्तुति प्रसंशा करें, क्यों न कुछ होता रहे,\n    C                 F             C G C\n    उस को हम भाते रहें, चाहे जहां भी रहें।\n\n                                             (A/11)\n                                                                                                  The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "e4pceuiFx0o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "aaj ka din yahova ne banaya hai lyrics video hindi yeshu Masih song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "xGDMlud8CQ8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🎵 आज का दिन यहोवा ने बनाया है | Aaj ka din Yahowa ne banaya hai with Lyrics | Gospel Song #jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ji6GwX5mNWQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaj Ka Din Yahova Ne Banaya Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

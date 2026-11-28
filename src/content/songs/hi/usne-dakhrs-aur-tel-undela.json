@@ -91,9 +91,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "aF0EYx_1QyM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "उसने दाखरस और तेल उड़ेला RECORDED LIVE 🔴 Anointed Worship Song @AnkitSajwanMinistries | FOLJ CHURCH",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RFtfu60eWN4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "उसने दाखरस और तेल उँडेला | New Jesus Song | Masihi Geet | NCS Prime Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "UmFPHH2NOcc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Usane Dakharas Aur Tela Undela, Meri Atma Ko | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

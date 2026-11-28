@@ -100,9 +100,32 @@
     "page": null
   },
   "chords": "गीते गाएं सामर्थ के तेरी\n\n      D                  Bm D   A           D                 Bm     D   A\n कोरस:- गीते गाएं सामर्थ के तेरी स्तुति करें; मेरा तारणहारा ख्रीष्ट - तेरी स्तुति करें;\n         D                   Bm  D      A\n       ख्रीष्ट मेरा प्रभु है देख उसको दिल से भजें। (2)\n\n       D                             G      D    G      D    A\nयहोवा के विजय के गाएं गीत, काम अजूबे किए है; (2)\n    D             Bm           D          A\n      जयवन्त है यहोवा आज, जय जय हाल्लेलूयाह। (2)\n\n       D                            G  D   G      D    A\nघोड़े- सवारों को दुश्मन के फेंक दिया समुद्र में; (2)\n    D              Bm       D              A\n      तेरे नाम की जय जय हो, जय जय हाल्लेलुयाह। (2)\n\n       D                    G   D   G      D    A\nयहोवा युद्ध करता है, तेरा नाम यहोवा है; (2)\n    D                  Bm      D               A\n           महान नाम की जय जय हो, जय जय हाल्लेलुयाह। (2)\n\n       D                    G    D        G      D    A\nगीतें गाओ यहोवा के, उसकी उत्तम महिमा के; (2)\n    D              Bm        D              A\n      जय जय मेरे प्रभु की जय, जय जय हाल्लेलुयाह। (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "cJ4H4Xi5dN4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Samarth Se | तेरी सामर्थ से | Hindi Christian Worship Song | Philippians 4:13 | Jesus Song |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Dsdu-9iFIPo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere Samarth Se | तेरे सामर्थ से | christian songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "V7kelTdh8qY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तू काफ़ी है | Tu Kaafi Hai | Hindi Christian Worship Song | Yeshu Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

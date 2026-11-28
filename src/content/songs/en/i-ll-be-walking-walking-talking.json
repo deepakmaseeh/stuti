@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "NgBmcUkWp8Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I will walk with you | New Christian Worship Song (CCM)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OXsxw1fRHMA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Talking To Jesus | Elevation Worship & Maverick City",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HL_JwHDVaXw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Walking with Jesus | More Christian Songs for Kids | Kids Faith TV",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

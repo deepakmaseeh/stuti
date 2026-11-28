@@ -127,9 +127,32 @@
     "page": null
   },
   "chords": "नाम लियो रे, नाम लियो रे\n E           A                D\nकोरस:-  नाम लियो रे, नाम लियो रे\n                     E\nयीशु का मंगलकारी नाम लियो रे\n\n E\n   1. पाप हरेगा, श्राप हरेगा (2)\n           D                        E\n      पावन पावन सुंदर मेरे यीशु का नाम (2)\n\n         E\n  2. शांति वो देगा, शक्ति वो देगा (2)\n  D                         E\n      पावन पावन सुंदर मेरे यीशु का नाम (2)\n\n        E\n  3. मुक्ति वो देगा, भक्ति वो देगा (2)\n        D                         E\n      पावन पावन सुंदर मेरे यीशु का नाम (2)\n\n         E\n  4. जीवन वो देगा, पार करेगा (2)\n         D                        E\n      पावन पावन सुंदर मेरे यीशु का नाम (2)\n\n\n\n                                                                 (C/31)\n                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "fUGY37JqhQ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "#NaamLiyoRe Yeeshu Ka Mangakari| नाम लियो रे यीशु का मंगलकारी |Edited-By-Jagdish Nishad LYRICAL",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "k4wogyz2XJQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Naam Liyo Re Naam Liyo Re Yeshu Ka Mangalkari Naam | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "s9u3gOIFges",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Naam Liyo Re #jesus_whatshapp_ status song #christian song #youtube video varil",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

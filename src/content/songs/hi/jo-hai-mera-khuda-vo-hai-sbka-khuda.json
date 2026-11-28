@@ -114,9 +114,32 @@
     "page": null
   },
   "chords": "आओ करे आराधना यीशु मसीह की आराधना\nजो है मेरा खुदा वो है सबका खुदा (2)\nहालेलुया, हालेलुया हालेलुया, हालेलुया (2)\n\nसृष्टि को रचने वाला वोही हम सबका रखवाला वोही (2)\nउसकी महिमा करे, उसकी महिमा करे (2)\nहालेलुया, हालेलुया हालेलुया, हालेलुया (2)\n\nउसके लहू से मिलती शिफा, पापों से सबको मिलती क्षमा (2)\n मिलता है जीवन नया (2)\n हालेलुया, हालेलुया हालेलुया, हालेलुया (2)\n\nचाहे जमीन हो या असमान, कोइ नहीं उसके समान (2)\nवो है ज़िंदा ख़ुदा, वो है ज़िंदा ख़ुदा (2)\nहालेलुया, हालेलुया हालेलुया, हालेलुया (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "-ci8uIJpBK8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Wo Khuda Hai | Prarthna | Hindi Christian Song by Kumar Sanu | Prayer | Khuda KI Raah Mein | 2021",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "A__vqa4HHr8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Sath Hai Khuda | Mahi Gospel | Hindi Christian Cover Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JHCqygO-gXY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kumar Sanu - Wo Khuda Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

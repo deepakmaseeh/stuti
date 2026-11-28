@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": "हृदय भेंट चढ़ाएँ प्रभु को\n\n                  G                 C\nकोरसः- \tहृदय भेंट चढ़ाएँ प्रभु को,\n         D                     G\n           स्तुति प्रशंसा करें,\n                  G    D                     G\n           हम सब सन्त मिलकर।\n\n         G                     D                              G\n1.\tपाप का भार उठाने, आया मसीह जग में (2)\n      C                    G                         D        G    D    G\n      पापियों के सब पाप मिटाने,(2) जीवन सनातन दिया।\n\n           G                     D                                  G\n2.\tसंकट, क्लेश उठाया, नम्र और दीन बनकर (2)\n          C                   G                               D    G    D   G\n      द्वार उद्धार का खोला प्रभु जी,(2) सनातन आशा दी।\n\n         G                   D                              G\n3.\tआश्चर्य स्वर्गीय प्रेम, हम पापियों के लिए (2)\n      C                   G                               D   G     D     G\n     फिर मत जाना पापी जगत में,(2) पाप में न फँसकर।\n\n      G                    D                               G\n4.\tअर्पण करते हैं तुझको, आत्मा प्राण देह भी (2)\n          C                        G                    D          G    D   G\n      रक्षा करो प्रभु इस जीवन की,(2) विनती हमारी यही।\n                                                                          (F/51)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "vCCxFDJYv08",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hirdaya bhent chadaye prabhu ko | ह्रदय भेंट चढ़ायें प्रभु को | Jesus Christian Worship Song Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lQgjN_5Z9Gg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हृदय भेंट चढ़ायें प्रभु को स्तुति प्रशंसा करें || HINDI WORSHIP SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YNtvXCgQAo0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हृदय भेट चढ़ायें यीशु को,स्तुति प्रसंशा करें, हम सब सन्त जन मिलकर।",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

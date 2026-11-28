@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": "आया मसीह दुनियाँ में तू पपियों को बचाने को\n            D              F#m     A            G    A     D\nकोरस-  आया मसीह दुनियाँ में तू पापियों को बचाने को,\n            D          F#m       A            G    A           D\n         करे विश्वास जो यीशु पर, करेगा पार इस दुनियाँ को।\n\n        D        G        Em      D              G   A     D\n1.\tदुनियाँ पापों में डूब रही थी, सारे गुमराह हो रहे थे, (2)\n       D             G             D                     A                 D\n      छोड़ा आसमान बना इंसान, (2) मिली नजात इस दुनियाँ को।\n\n        D        G   Em    D           G    A      D\n2.\tबैतलहम के मैदानों में, गड़रिये रात सो रहे थे, (2)\n        D          G           D                       A        D\n      सुनी फ़रिश्तों की ज़ुबान, (2) पैदा हुआ ख्रीष्ट निधान।\n\n        D       G    Em    D           G    A            D\n3.\t ज्ञानियों ने किताबों में, पाया जनम का एक वर्णन, (2)\n         D         G              D                   A                D\n       चल दिए वो भी ऊँटों पर, (2) अद्भुत तारे का पीछा कर।\n\n         D      G   Em        D                  G   A      D\n4.\t समुंदर की सब लहरों पर, दुनियाँ की हर ज़ुबानों पर, (2)\n         D          G                  D                     A             D\n       है उसका नाम, है उसका काम, (2) सारा जहाँ लाए ईमान।\n                                                              (G/1)\n                                                                                                                          The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "2uORBzxHFHo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "AAYA MASIH DUNIYA ME TU - आया मसीह दुनिया में तू",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HHj82f13C_o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "साक्षीवाणी गीत नं 317:\"आया मसीह दुनियां में तू, पापियों को बचाने को\"",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vyUFIQSfk6A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sun Lo Mere Bhaiyon (Jashan Manao) | Jaago Christmas 2024",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

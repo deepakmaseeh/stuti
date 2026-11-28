@@ -122,9 +122,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "x8x9ThWZLvs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mahima Mahima Ho Teri || महिमा महिमा हो तेरी |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iGErRERPHE0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "महिमा हो तेरी Mahima Ho Teri - Lyrics in Hindi and English",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XemAXNK7sXI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mahima Mahima O Teri",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

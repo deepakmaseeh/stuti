@@ -132,9 +132,32 @@
     "page": null
   },
   "chords": "योग्य केवल तू, योग्य केवल तू\n\nG               C    G               D\nयोग्य केवल तू, योग्य केवल तू\nC                G              D            G\nयोग्य केवल तू ही प्रभु, मेरे प्रभु यीशु\n\nG                C    G                D\nपवित्र केवल तू, पवित्र केवल तू\nC                 G              D            G\nपवित्र केवल तू ही प्रभु, मेरे प्रभु यीशु\n\nG                         C          G                        D\nआदर और महिमा हो तेरी, आदर और महिमा हो तेरी\nC                         G                 D            G\nआदर और महिमा हो तेरी प्रभु, मेरे प्रभु यीशु\n\nG                 C          G                 D\nस्तुति प्रशंसा हो तेरी, स्तुति प्रशंसा हो तेरी\nC                 G                 D            G\nस्तुति प्रशंसा हो तेरी प्रभु, मेरे प्रभु यीशु\n\n\n\n\n\n                                                            (F/26)\n                                                                                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Fg6h1AZ4ABw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yogya Keval Tu Hai Prabhu | Best Hindi Jesus Worship Song | New Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sVUQlBEzLKA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yogya Keval Tu Hai Prabhu",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Dj8aurIeKH8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Koi Nahi Hai | New Hindi Christian Song 2019 | Emmanuel Gollar | @JudahPlows | Cover Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

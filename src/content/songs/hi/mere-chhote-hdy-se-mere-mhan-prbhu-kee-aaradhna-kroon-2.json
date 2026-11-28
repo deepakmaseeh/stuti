@@ -130,9 +130,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "U0T7Gj2Bm6k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere chote hriday se Mere mahaan prabhu ki Aaraadhna karu Lyrical Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "pAwI0N0OCMM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hosanna| Hindi worship song| mere chote hriday se mere mann prabhu ki| by pradeep",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "iFF5GfQchag",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere chhote hridhy ki Mahan prabhu ki aradhana karu lead guitar playing..",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -187,9 +187,32 @@
     "page": null
   },
   "chords": "तेरी आराधना करूँ, तेरी आराधना करूँ\n\n          Em                           Am\n कोरस:- तेरी आराधना करूँ, तेरी आराधना करूँ,\n                    D             C               D    C     D\n          पाप क्षमा कर जीवन दे दे, दया की याचना करूँ\n\n      Em       C             D            Em\nतू ही महान सर्वशक्तिमान, तू ही है मेरे जीवन का संगीत (2)\n      Em        A   D   Em C             D        Em\n      हृदय के तार छेड़े झंनकार, (2) तेरी आराधना है मधुर गीत (2)\n                                                  Am\n      जीवन से मेरे तू महिमा पाए, एक ही कामना करूँ। तेरी आराधना....\n\n      Em               C            D                Em\nसृष्टि के हर एक कण-कण में, छाया है तेरी ही महिमा का राज (2)\n    Em          A  D  Em  C               D                       Em\n      पक्षी भी करते हैं तेरी प्रशंसा,(2)हर पल सुनाते हैं आनन्द का राग (2)\n                                               Am\n      मेरी भी भक्ति तुझे ग्रहण हो, हृदय से प्रार्थना करूँ। तेरी आराधना....\n\n\n\n\n\n                                                 (C/16)\n                                                                                                               The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KXT8cyVZuuU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरी आराधना करूँ | Teri Aaradhna Karun | Lyrics | Hindi Christian Song | Worship Song | Jesus Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WmFJFaf06wI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Aaradhana Karu / Bol Yahowa | UNTO HIM | Episode 3 | Kenneth Silway",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "H4ACNAJ3NSQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Aaradhana Karu + Bol Yahowa (\"Unto Him\" Episode - 3)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -135,9 +135,32 @@
     "page": null
   },
   "chords": "हो तेरी स्तुति और आराधना\n\n Am                   F          G                    E\nहो तेरी स्तुति और आराधना, करता हूँ मैं तुझ से ये प्रार्थना\nAm                 F                            G            E\nमहिमा से तेरी तू इस जगह को भर, जो भी तू चाहे तू यहां पे कर\n\nAm  F   G Am (2nd Time End with E)\nहाले-हाल्लेलुयाह - हाल्लेलुयाह - हाल्लेलुयाह\nहाले-हाल्लेलुयाह - हाल्लेलुयाह - हाल्लेलुयाह\n\nAm                 F                         G                      E\nकरूणा से तेरी नया दिन दिखाता है, ढ़ाल बन कर मेरी मुझे बचाता है\nAm                  F                G                    E\nजब मैं पुकारुँ तू मेरी सुनता है, जब मैं गिरू मुझे उठाता है\n\nAm  F   G Am (2nd Time End with E)\nहाले-हाल्लेलुयाह - हाल्लेलुयाह - हाल्लेलुयाह\nहाले-हाल्लेलुयाह - हाल्लेलुयाह - हाल्लेलुयाह\n\nAm                  F                G                      E\nसारे जहां में तुझ सा कोई नहीं, तुझ को छोड़ कोई प्रभु है ही नहीं\nAm                  F            G                    E\nघुटने मैं टेकूं बस तेरे सामने, तू है मेरा प्रभु तू मेरा पिता\n\nAm  F   G Am (2nd Time End with E)\nहाले-हाल्लेलुयाह - हाल्लेलुयाह - हाल्लेलुयाह\nहाले-हाल्लेलुयाह - हाल्लेलुयाह - हाल्लेलुयाह\n\n\n\n                                                          (F/65)\n                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "XqzSW4An8u8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Teri Sthuthi | The Kings Daughters | Album: The King's Daughters | Rex Media House",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-aqmXuTZiJk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Teri Stuti Aur Aradhana Lyrics | हो तेरी स्तुति और आराधना लिरिक्स",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KqmYOfGxUyQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Stuthi Aur Aradhana",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

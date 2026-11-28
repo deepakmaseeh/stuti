@@ -159,9 +159,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "seWv99FdegI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "दुनिया बनानेवाले तेरी जय हो | क्रिश्चियन हिंदी गीत | मसीह गीत | Christian Hindi Songs | Masih Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Y_1mRA_ZNTU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Duniyan Banane Wale Teri Jai Ho || Best Hindi Song || Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mDFMjgN4LVw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Duniya Banane vale",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

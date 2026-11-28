@@ -106,9 +106,32 @@
     "page": null
   },
   "chords": "यीशु तेरा नाम है कितना सुन्दर\n\n              E           A      B           E\nकोरस:- यीशु तेरा नाम है कितना सुन्दर,\n           E            A      B           E\n        यीशु तेरा नाम है कितना पावन।\n\n            E                     A\nतुझमें मिली है हमको क्षमा,\n              A                        E\n        तुझमें मिला है नया जीवन।\n\n          E                      A\n    2. तुझमें मिली है हमको कृपा,\n        A                    E\n        तुझमें हुए हैं हम पावन।\n\n          E                      A\n    3. तुझमें मिली है हमको मुक्ति,\n           A                         E\n        तुझमें मिला है अनंत जीवन।\n\n\n\n                                                                           (E/15)\n                                                                                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "aGk21NJnCMU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु तेरा नाम है कितना सुंदर Yeshu Tera Naam Hai Kitna Sunder (Lyrics)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mk2uynXUT4Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tera Naam Hai Kitna Sunder येशु तेरा नाम है कितना सुंदर || Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XOpWMuctfvs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tera Naam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

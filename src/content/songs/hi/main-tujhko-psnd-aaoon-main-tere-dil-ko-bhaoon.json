@@ -166,9 +166,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "mlM84jqTk0M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main tujhko pasand aau lyrics || मै तुझको पसंद आऊ|| Hindi-English lyrics || Yeshua lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ZrSuBDEJmho",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aisa Mujhko Bana | Ashish Charan feat. Praneet Calvin",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mk703XcziWw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mai Tujhko Pasand Aau | मैं तुझको पसंद आऊं New Lyrical Worship Song With Apostle Ji",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

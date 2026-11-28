@@ -124,9 +124,32 @@
     "page": null
   },
   "chords": "प्रभु महान हे करूणा निधान\n\n       D\nकोरसः-\tप्रभु महान हे करूणा निधान\n                A                 D\n      हमारे लिए हुए बलिदान -2\n\n      D                                            A             D\n1.\tहमारे लिए हुए बलिदान कि हम सब पायें जीवनदान\n                    A               D\n      और हो जाऐं उसके समान -2\n\n        D                                        A             D\n2.\tवह सृजनहारा, तारनहारा है सारी सृष्टि का आधार\n                       A               D\n       और करता हमसे बेहद प्यार -2\n\n        D                                    A            D\n3.\tवह मुक्ति देता श्राप से, है देता मुक्ति पापों से\n                      A             D\n  \tऔर भरता जीवन आशा से -2\n\n        D                                       A             D\n4.\tहमें वह पास बुलाता है, निकट में अपने रखता है\n                       A          D\n     और हम को तृप्त करता है। -2\n                                                                  (D/11)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "SOobixXWJww",
+      "start": 0,
+      "kind": "lyric",
+      "title": "प्रभु महान हे करूणा निधान //Prabhu Mahan He Karuna Nidhan// Christian Hindi Song //",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HR8ELNs5eYY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prabhu_Mahan_Vicharun_Karya_Tere || Hindi_Christian_Song || Hindi_Christian_Lyrics_Song.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aIHaeyG1iU4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Prashansa Howe prabhu Yeshu Ki kitna mahan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

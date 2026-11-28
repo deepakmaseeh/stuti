@@ -118,9 +118,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3lkLNNmbNAk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Nare Lagao Aur Gao Re | नारे लगाओ और गाओ रे | Jesus Songs Hindi | Yeshu Masih Song | Masih Song Life",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "dZXlUetdK1k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Naare Lagao Aur Gao Re | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi, Masih Song, Yeshu Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "I4rj-81Kk6w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Nare Lagao |Audio Video |Hindi Christian Song|Worship Battler",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

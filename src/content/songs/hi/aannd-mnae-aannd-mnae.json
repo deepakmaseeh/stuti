@@ -124,9 +124,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ntJgzlAL7dE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aanand Manaayen | James Bovas | आनन्द मनायें | Hindi Christian Devotional Songs | Hindi Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "EKu2ePDtnfo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aanand Manaye Aao Aanand Manaye | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi, Masih Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JrfDuJ5GJ-U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand Manaye | Jaago Christmas 2023",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -102,9 +102,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qGJbAiE9bA8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Na To Bal Se Na Shakti Se | पर तेरी आत्मा के द्वारा | Zechariah 4:6 | Hindi Gospel Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GYmTEqGTjPc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TPM Hindi Song No. 431 Lyrics न तो बल से और न ही शक्ति से \"पवित्र आत्मा के द्वारा जय\" Hey Mere Logo;",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ckkv8x73Jwc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Na To Bal Se Na Shakti Se",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

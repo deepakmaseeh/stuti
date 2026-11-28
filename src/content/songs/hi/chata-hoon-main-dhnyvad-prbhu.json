@@ -105,9 +105,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "cEht7_j0YRo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chadhata Hoon Main Dhanyawaad Prabhu (Cover) | Joy Tadke | Sharon Mazgaonkar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NCDUeYjZs2g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "CHADA TA HU , GOSPEL SONG",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eDESKth5LFQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chadaata hu dhanyawad Prabhu Krus ke Hindi Song no 142",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

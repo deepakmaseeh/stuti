@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1wPqdnSq7SE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aanand Hi Aanand Hai Mere Yeshu Ke Charno Me † | Jesus Hindi Lyrics Song ✝️❤️ | #jesuschrist",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rNO7Q6Ku-pw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Anand hi anand hai आनंद ही आनंद है | Hindi worship song | Live at FOLJ CHURCH @AnkitSajwanMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "gOhfBus0DFI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🎵 New Hindi Gospel Song – आनंद ही आनंद है",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

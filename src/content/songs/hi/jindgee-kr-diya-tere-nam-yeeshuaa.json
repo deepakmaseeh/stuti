@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ho-KNus_y_M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Zindagi Tere Naam | Shashank Patel | Official Music Video [HD]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "E0ml7oc2HLo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Zindagi Tere Naam - YESHUA| Lyrical[HD] | Christian Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9C7soAqpDjQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "जिंदगी तेरे नाम कर दिया है खुदा",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

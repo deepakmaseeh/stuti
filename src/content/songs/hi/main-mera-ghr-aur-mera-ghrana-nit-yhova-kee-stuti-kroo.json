@@ -134,9 +134,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "GonQvPq466U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं मेरा घर और मेरा घराना नित यहोवा की स्तुति करुं |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "spnTCECOS5A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "EBENEZER || NEW HINDI VERSION CHRISTIAN SONG 🎸 LYRICS || Sung By Ganesh karaspalli",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "xtxMd2_7F_M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं और मेरा घराना // Mai Aur Mera Gharana // New Hindi Jesus Song // Kishor Vasava",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

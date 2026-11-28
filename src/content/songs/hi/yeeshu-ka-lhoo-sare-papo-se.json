@@ -153,9 +153,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "PFaZpJShpcM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ka Lahoo | यीशु का लहू सारे पापों सेशुद्ध करता हमे | #hindichristiansong #jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "20JPUXWI1HI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु का लहू सारे पापों से शुद्ध करता हमें | Yeshu Ka Lahoo Saare Paapon Se | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zYRBn93l03A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu ka Lahu sare paapo se shuddh karata hume by By Pastor M P Robin (Original song)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

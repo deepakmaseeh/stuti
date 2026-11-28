@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": "क्या दिन खुशी का आया, रहमत का बादल छाया\n\nकोरस:- क्या दिन खुशी का आया, रहमत का बादल छाया\n         दुनिया का मुँजी आया हा...हा...हालेल्लुय्याह (2)\n\nएक दूत मरियम पास आया, बोला जन्मेगी तू बेटा\n         नाम उसका यीशु रखना, हा...हा...हालेल्लुय्याह (2)\n\nवह तीन मंजूसी आए, सोना मुर्र लोबान लाए\n        यीशु को नजर चढ़ाए, हा...हा...हालेल्लुय्याह (2)\n\nगौशाला में जन्मा है जो चरनी में लेटा है\n         वह खुदा का बेटा है, हा...हा...हालेल्लुय्याह (2)\n\nपूरब से निकला तारा, जिसने किया इशारा\n         रास्ते का बना सहारा, हा...हा...हालेल्लुय्याह (2)\n\n\n\n\n\n                                                      (G/29)\n                                                                                                                        The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VF7bsx7mYZg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christmas Song I Kya Din Khushi Ka Aaya I Sekel Jeet I Cover I 4k",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NpGevCbDavo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kya Din Khushi Ka Aaya | क्या दिन खुशी का आया |Hindi Christmas song 2023 | By Bro. Nitin Dhillon",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "M-jvEOC3ifo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kya Din Khushi Ka Aaya",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -164,9 +164,32 @@
     "page": null
   },
   "chords": "जब किसी ने यह मुझसे कहा, चलो प्रभु के घर को चले\n\n             Am                            F    E                        Am\nकोरस:- जब किसी ने यह मुझसे कहा, चलो प्रभु के घर को चले। (2)\n             Dm                              E          F         Am\n    मेरा मन आनन्दित हुआ, मेरा मन झुमने लगा, (2)\n              Am                             F                      E     Am\n    मैं तो प्रभु के घर को चला, मैं तो प्रभु के घर को चला। (2)\n\n     Am          F                  Dm       Am\n1.  झूम-झूम कर मैं नाचते हुए, नाचते हुए मैं आनन्द से,  (2)\n              Dm                              C              E         Am\n             मेरे यीशु से मिलने चला, मेरे यीशु से मिलने चला  (2)\n             Am                              F                      E     Am\n    मैं तो प्रभु के घर को चला, मैं तो प्रभु के घर को चला। (2)\n\n\n    Am                             Dm          Am\n2  हे भोर के तारों अब जाग उठो, हे वीणा के तारों अब बोलने लगो, (2)\n      Dm                               C                E       Am\n    मेरे यीशु की प्रशंसा करो, मेरे यीशु की प्रशंसा करो (2)\n       Am                                  F                      E     Am\n     मैं तो प्रभु के घर को चला, मैं तो प्रभु के घर को चला। (2)\n\n\n        Am           F         Dm       Am\n3.  कब जाकर मैं देखुँ उसे, कब जाकर मैं पूजूँ उसे, (2)\n       Dm                        C           E        Am\n     मेरा मन पूछने लगा, मेरा मन सोचने लगा, (2)\n       Am                             F                     E     Am\n     मैं तो प्रभु के घर को चलो मैं तो प्रभु के घर को चलो (2)\n(A/)\nZion",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "erhSjhgvSFY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jab Kisi Ne Ye Mujhse Kaha Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "n_I1tPHiD64",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jab Kisi Ne Ye Mujhse Kaha Chalo Prabhu Ke Ghar Ko Chale | Beautiful Jesus Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ntIPg3Xpqn8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Main To Prabhu Ke Ghar Ko Chala - (Hindi Christian Devotional Song)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

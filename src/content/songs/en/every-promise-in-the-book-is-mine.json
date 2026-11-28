@@ -84,9 +84,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "8jbPSKUsExc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sing Hosanna - Every Promise In The Book Is Mine | Bible Songs for Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TQu1vZybq98",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Cedarmont Kids - Every Promise in The Book is Mine",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GHefVz3EBXk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Every Promise in the Book is Mine | congregational singing",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

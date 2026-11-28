@@ -140,9 +140,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "WdkVKH6T824",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे जीवन से महिमा तुझको मिले || FULL VIDEO || Worship By @JosephRajAllamOfficial Watch and Blessed",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cubfx4JnfJo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mahima denge tujhko prabhu | Jesus Hindi Video Song | Lastest Hindi Christian Song | Yeshu ka vachan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4rzKTBM1XXM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "MAHIMA MILE - Friends of GOD Ministries | Official Music Video | 4K",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

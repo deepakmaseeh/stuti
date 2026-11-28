@@ -298,9 +298,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZmLYSGvbQ9c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "रंग लिया Rang Liya | Hindi Worship Song | Live at FOLJ Church | @AnkitSajwanMinistries ​",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Yoj7xzGf7mc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rang Liya Mohe Rang Liya | Jesus Songs, Yeshu Masih Song, Jesus Songs in Hindi, Masih Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "D7DC3ciTvWI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Rang liya Mohey | Rev. Ernest Mall live | रंग लिया |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

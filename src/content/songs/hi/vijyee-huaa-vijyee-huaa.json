@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "-KVeUtI0OEg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "विजय हुआ,येशु मेरा विजय हुआ | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "z-fk_9rbsxw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Vijay Hua, Vijay Hua Yeshu Mera Vijay Hua | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "M5lmkocNOAk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "We have won, we have won || Easter Hindi Christian Song || Jehovah is my God",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

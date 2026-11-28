@@ -100,9 +100,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Tn5A1-8R-m0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Building up the temple - Action song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "G6VS80bekpI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Building Up the Temple | Christian Kids Song | Kids Worship Song | MITV Online – Kids Worship Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ka9cw8rZa6M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"Building Up the Temple\" Sing-Along!",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

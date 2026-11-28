@@ -120,9 +120,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "yNhdfOAvxJs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "God's love is so wonderful | Christian Songs For Kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "maK41B9Aj0Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Perfect Love of Jesus – LO Worship & Aodhán King (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "E7i6c54KEfc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "God So Loved - Hillsong Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

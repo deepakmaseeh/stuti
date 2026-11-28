@@ -95,9 +95,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "91r2ZVQyZkA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "King of Kings and Lord of Lords with subtitles",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8Nh7DV2o55Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"King Of Kings And Lord Of Lords\" by The Anchored Voctet for Classic Hymns Chorus Album",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4BmVq62MU3M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "King Of Kings And Lord Of Lords (137)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

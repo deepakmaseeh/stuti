@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": "यीशु ने हमें छुड़ाया है पापों के जाल से (गाओ हल्लेलूयाह)\n\n         G            C           D               G\n यीशु ने हमें छुड़ाया है पापों के जाल से\n      G            C           D               G\n       यीशु ने हमें बचाया है शैतान की चाल से\n                    G  D G                         G D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n\n     G               C      D             G\n हम ने शान्ति पाई है यीशु के नाम से\n         G           C         D            G\n       हम ने पाई है क्षमा मुक्ति श्रापों से\n                    G  D G                        G  D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n\n         G            C     D             G\n अब हम न डरेंगे यीशु जो साथ है\n     G                 C     D             G\n       शैतान से हम लड़ेंगे यीशु के नाम से\n                         G  D G                       G  D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n\n         G                       C         D                G\n शालोम शांति और सलाम, लाये हैं आपके नाम।\n          G                       C        D              G\n       शालोम शांति और सलाम, मेरे यीशु का पैगाम\n                         G  D G                       G  D G\n       तो गाओ हल्लेलू-याह (2) तो गाओ हल्लेलू-याह (2)\n                                                                             (E/19)\n                                                                                                                         The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "AnnMLEmlx7Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gao Hallelujah | गाओ हल्लेलुया | Christian Hindi Song Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VS2R_5jmO9k",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ne Hume Chodhya Hai (Toh Gao Hallelujah) Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "fxg-hHLBpZ0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESU Ne HUME CHURAYA HAI. (YESHUA)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

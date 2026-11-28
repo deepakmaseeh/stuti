@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": "यीशु तुम्हें बुला रहा, एक नज़र तो मोड़ लो\n\n             A          D            A      E              A\nकोरस:- यीशु तुम्हें बुला रहा, एक नज़र तो मोड़ लो।\n            A                  D            A       E               A\n         क्यों यह गुनाह लिए चले, इनको यहीं पर छोड़ दो।\n\n          A             D           E                       A\n रुक के जरा तो सोचो तुम, मरने के बाद होगा क्या (2)\n  A                 F#m D   A         E            A\n मिली तुम्हें जो ज़िन्दगी, प्रभु को उससे दोगे क्या (2)\n  A                  D         A       E              A\n ले लो तुम ज़िन्दगी नई, नये कदम भी मोड़ लो। (2)\n\n          A             D            E                         A\n राहें हैं ज़िन्दगी की दो, जिस पर सभी को चलना है (2)\n A                   F#m  D    A       E                A\nदुनियाँ की राहों में चल रहे, या राहें मसीही चलना है (2)\n A              D                 A          E           A\nअब तुम नये इंन्सान बनो, दुनियाँ से रिश्ता तोड़ दो। (2)\n\n          A            D            E                 A\n देखो कोई सलीब से, तुम को अभी बुला रहा (2)\n A               F#m  D   A   E            A\nअपने पिता से ज़िन्दगी, नई तुम्हें दिला रहा (2)\n A                D              A          E            A\nआ जाओ तुम सलीब से, अपना भी नाता जोड़ लो। (2)\n\n                                                                             (E/25)\n                                                                                                            The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "QMj4XTKfjoY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु तुम्हें बुला रहा एक नज़र तो मोड़ लो/Yeshu tumhe bula raha ek nazar to mod/Hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rygthkPYoQ8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Bula Raha Tera Naam Le Lekar यीशु बुला रहा तेरा नाम ले ले कर Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3LNnaIHwwlk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Bula Raha Hai🎄[ येशु बुला राहा है ]🎁 New Christmas Song 2025 // Singer - Rajveer Singh",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

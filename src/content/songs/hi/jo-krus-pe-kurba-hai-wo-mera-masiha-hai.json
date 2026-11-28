@@ -119,9 +119,32 @@
     "page": null
   },
   "chords": "जो क्रूस पे कुरबां है, वो मेरा मसीहा है\n\n    F             Dm          Bb     F         F                  Bb\nकोरस:- जो क्रूस पे कुरबां है, वो मेरा मसीहा है; हर ज़ख्म जो उसका है;\n           C           F             C          F\n    वह मेरे गुनाह का है, वह मेरे गुनाह का है\n\n F                  Dm                  Bb     C              F\nइस दुनियाँ में ले आए, मेरे ही गुनाह उसको; मेरे ही गुनाह उसको\nF                Bb       C          F       C          F\n          ये ज़ुल्म सितम उस पर, मैंने ही कराया है- मैंने ही कराया है\n\n F                Dm                       Bb     C                F\nइन्सान है वह कामिल, और सच्चा ख़ुदा वह है; और सच्चा ख़ुदा वह है\n F               Bb       C            F        C            F\n          वह प्यार का दरिया है, सच्चाई का रास्ता है- सच्चाई का रास्ता है\n\n F              Dm                    Bb    C               F\nदेने को मुझे जीवन, खुद मौत सही उसने; खुद मौत सही उसने\n  F                 Bb   C           F         C            F\n    क्या खूब है कुरबानी, क्या प्यार अनोखा है- क्या प्यार अनोखा है",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "FkBfpIj8XVc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jo Krus Pe Kurbaan Hai (Official Video) Shawn & Shanon | Good Friday Songs 2022 | Yeshu Ke Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DyYhKXXOnkE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jo Krus Pe Kurbaan Hai | Christian Song | Song Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "MozIrj-wp5w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jo krus pe kurbaan hai - Lyrics Video",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

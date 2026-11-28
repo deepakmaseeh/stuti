@@ -159,9 +159,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LPdMdLmyasU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आवाज आसमा से गुंज रही है ये || Aawaj Aasma Se Gunj Rahi Hai Ye |new hindijesus song | jesus song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "E1lI2x2uOlc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पवित्र पवित्र पवित्र तू ही तो यहोवा PAVITRA YAHOWAH SIDDHANT SHARMA #amanmehmiuk",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "OwkjmFr1Ibw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "पवित्र पवित्र पवित्र तू ही तो यहोवा। ||HINDI CHRISTIAN SONG 2022",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -83,9 +83,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "OggJ1pIPxUE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I am Free - Ross Parsley",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Gp8ats8RKd8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Life Worship - I Am Free",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ok3CunjHKLI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "THANK GOD I’M FREE | ELEVATION RHYTHM & Lizzie Morgan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

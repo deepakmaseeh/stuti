@@ -99,9 +99,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7IdDYgMQOCY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "He that believeth Hath everlasting life | Sunday School Songs | Children English Song | Kids Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Gk0qO7Piakg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "\"He That Believeth\" w/ Praise Break, Fellowship Chorale",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "oF7D7vkmAcY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Chicago Mass Choir- \"He That Believeth\"",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -90,9 +90,32 @@
     "page": null
   },
   "chords": "उसके फाटको में प्रवेश करूंगा\n\n               D                                 G                   D\nकोरस:-  उसके फाटको में प्रवेश करूंगा धन्यवाद के साथ\n\t     D              G                 D\n          उसके आंगनों में स्तुति करूंगा\n\t     D                     G       D          Bm\n         मैं कहूंगा यह दिन यहोवा ने बनाया\n\t    G                   A                       D\n   \t    मैं खुश हूं कि उसने आनन्दित किया\n              G    D        Bm\n         आनन्दित किया मुझे आनन्दित किया\n              G                     A         D-G-D\n         मैं खुश हूं उसने आनन्दित किया\n                               G     D             Bm\n         आनन्दित किया आनन्दित किया\n         G                     A                       D\n         मैं खुश हूं कि उसने आनन्दित किया\n\n\n\n\n                                                           (A/28)\n                                                                                                                     The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rCoCQv5iTc8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Hindi Song :- उनके फटको में प्रवेश करूंगा...",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Yc9PVD52Gak",
+      "start": 0,
+      "kind": "lyric",
+      "title": "उसके फाटको में प्रवेश करुंगा | Uske Fatkon Mein Pravesh Karunga",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qTv6aah-81Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Usake phaatakon mein pravesh karoonga",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

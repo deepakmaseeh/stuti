@@ -129,9 +129,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "vXNeSMgxKms",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Naam Me Uddhar Humko, Hallelujah Prabhu | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "pa-pQxCUtMM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Naam Mein Udhar Humko यीशु नाम में उद्धार हमको",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "mr5Qw1-hXSQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Naam Me Uddhar Humko | Y - SERIES SONGS",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

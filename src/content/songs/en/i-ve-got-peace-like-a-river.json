@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "kY4NKSy4D3I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I've Got Peace Like a River 👌 Kids Songs ✨ Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "d6085sLXCMs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Peace Like A River | Kids Worship Motions with Lyrics | CJ and Friends",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "7it5W1FVtTs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Peace Like A River",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

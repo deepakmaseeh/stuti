@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": "धन्यवाद के साथ स्तुति गाऊँगा\n\n               C                          Em        F            C\nकोरस:-  धन्यवाद के साथ स्तुति गाऊँगा, हे यीशु मेरे प्रभु;\n           C               Em              F                  C\n          उपकार तेरे है बेशुमार, कोटी कोटी स्तुति धन्यवाद।\n          धन्यवाद के साथ स्तुति गाऊँगा,\n\n        C                        Em                  F            C\nयोग्यता से बढ़ के दिया, है अपनी दया से तू ने मुझे (2)\n           F                  G                  F           G\n         माँगने से ज्यादा मिला मुझे, आभारी हूँ प्रभु मैं (2)\n\n        C                     Em                F            C\nतू है सच्चा जि़न्दा खुदा, है तुझ पर ही भरोसा मेरा (2)\n  F                   G                  F           G\n         सेवा पूरी करके पाऊँ इनाम, प्रभु ऐसा दो वरदान (2)\n\n\n\n\n                                                              (C/26)\n                                                                                                                              The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Jer0FgPZj6w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyawad Ke Saath | Shirin George | Wilson George | Daniel George | Revival Music (Official Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nd1RcM3Z6P4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyawad Ke Saath Stuti Gaoonga | धन्यवाद के साथ स्तुति गाऊँगा",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PsgTMCTi9Lg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyavad Ke Saath",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

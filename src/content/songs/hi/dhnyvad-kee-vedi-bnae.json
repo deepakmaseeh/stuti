@@ -178,9 +178,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "4b_1omZP3QM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyavaad kee vedee banaye | धन्यवाद की वेदी बनाएं | Lyric Video | Song no.44 | Malad FGPC",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SYBWT8yeEUg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "धन्यवाद की वेदी बनाएं || Hindi Christian Cover song || Ft. Berchmans Song || 9/2/24",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "PRfkFAuX4wc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "38 धन्यवाद का",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

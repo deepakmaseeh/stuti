@@ -126,9 +126,32 @@
     "page": null
   },
   "chords": "हम है प्रभु का स्वर्गीय घराना\n\n        E                            B\n     कोरस:- हम हैं प्रभु का स्वर्गीय घराना\n       E                       B\n\tजिसमें प्रभु खुद ही रहता है।\n\n       E                 B         E             B                    F#m   B\nकैसा सुन्दर है प्रभु का घराना (2) चारों दिशाओं से बुलाया है (2)\n      A                   B                          B              E\n      एक देह बने हैं नाता है लहू का (2) चाहे हजारों भाषाओं से हैं। (2)\n\n       E                   B       E              B                       F#m      B\nएक नया मनुष्य हमको बनाया (2) स्वर्गीय कुटुम्ब के तो हम सब हैं, (2)\n         A                      B                    B                      E\n      एक साथ मिलकर गठकर रहते (2) ईश्वर का डेरा हम बनते हैं। (2)\n\n      E                  B        E            B                   F#m       B\nन कोई काला, गोरा धनी है (2) और न गरीब कोई बड़ा भी है (2)\n        A                 B                             B                   E\n      न कोई छोटा, अनपढ़ और ज्ञानी (2) यीशु प्रभु ही तो सब कुछ है (2)\n\n\n\n\n\n                                                                                                                                                       (F/57)\n                                                                                                   The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "_NlrZrFzDOA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम है प्रभु का स्वर्गीय घराना Christian Hindi Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rxfXE2D9o9s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "हम हैं प्रभु का, स्वर्गीय घराना | Siyon ke Geet | Song no. 462 🎶| Hum Hai Prabhu ka Swargiye Gharana",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "qYqGSULoPrs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hum hain Prabhuka Swargiya Gharana 0001",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

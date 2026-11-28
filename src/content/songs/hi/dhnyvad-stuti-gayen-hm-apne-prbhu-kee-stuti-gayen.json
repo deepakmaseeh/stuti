@@ -149,9 +149,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "cX5NTFE8Zmc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyawad Stuti Gaye | धन्यवाद स्तुति गाये | Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Njj4xOVvFAw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Param Pita Ki Hum Stuti Gaye - परमपिता की हम स्तुति गायें",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Jer0FgPZj6w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dhanyawad Ke Saath | Shirin George | Wilson George | Daniel George | Revival Music (Official Video)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

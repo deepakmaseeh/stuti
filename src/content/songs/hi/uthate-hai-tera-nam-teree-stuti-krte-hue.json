@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "_r1OgP4LRw4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Uthate Hai Tera Naam | उठाते है तेरा नाम | Hindi Christian Worship Song || Lyrical Music Video ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5XqYSFR1jjE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Uthate hai Tera namउठाते है, तेरा नाम ,तेरी स्तुती करते हुऐ Ashish songs hindi christion Jesus song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "lIHrm-sQfsg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "उठाते हैं तेरा नाम - with Lyrics & chords - Uthaate hain Tera Naam Jesus song By Amit Kamble || .",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

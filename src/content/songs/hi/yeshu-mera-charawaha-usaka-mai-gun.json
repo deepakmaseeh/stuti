@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": "यीशु मेरा चरवाहा है उसका गुण गाता हूं\n\nकोरसः- यीशु मेरा चरवाहा है उसका गुण गाता हूँ\n\n   छोटी उसकी भेड़ उसके पीछे जाता हूँ।\n\nहरियाली चरागाह मुझे चराता है,\n      और निर्मल सोतों से मुझे पिलाता है,\n      वह आगे - आगे चलता है, रक्षा भी करता जाता है,\n      उसकी मधुर वाणी से मैं तृप्त हो जाता हूं ।\n\n2.\tमौत की घाटी से मुझे ले जाता है,\n      जंगल के खतरों से मुझे बचाता है,\n      वह मलहम पट्टी करता है ढ़ाढ़स भी मुझे देता है,\n      उसकी प्रेम सेवा से मैं आनन्द पाता हूं।\n\n   दुश्मन के सामने वह मेज बिछाता है,\n      कटोरा आनन्द से वह उमड़ जाता है,\n      वह पाक पवित्र, करता है आत्मा का दान देता है,\n      उसकी रोज सहायता से जय पाता जाता हूं।\n\n\n\n\n\n\n\n\n                                                                       (E/23)\n                                                                                                  The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KR11CInAAFA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu mera charwaha me uska gun gata hu: Hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1jjYNZFQkMc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Mera Charvaha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "pzJUQlMkx10",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yesu mera charwaha | Hindi Christian Song for Kids & Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

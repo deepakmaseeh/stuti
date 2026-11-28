@@ -87,9 +87,32 @@
     "page": null
   },
   "chords": "तेरे पास आता हूँ यीशु तेरे पास\nD                        A   G           D\nतेरे पास आता हूँ यीशु तेरे पास (2)\nD                     C            G                 D\nहर पल मेरी हर साँस तेरी महिमा गाती रहे\nD                      C             G             D\nहर दिन मेरी हर बात तेरी स्तुति करती रहे\n\nD      A           D     A\nयीशु आ…   यीशु आ…\n\n G\nयीशु आ…\n\nD       A            D     A\nयीशु आ…     यीशु आ…\n\nG   A  D             D     A\nयीशु आ…      यीशु आ…\n\n\n\n\n\n\n                                                                        (C/18)\n                                                                                                                      The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ciWhvkP4O6M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere paas Aata hun | James Lobo",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "p4waaA11CcA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tere paas aata hu yeshu tere paas lyrics || Hindi Christian Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WG8Y7riQhNM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshua Ministries - Tere Paas (Yeshua)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

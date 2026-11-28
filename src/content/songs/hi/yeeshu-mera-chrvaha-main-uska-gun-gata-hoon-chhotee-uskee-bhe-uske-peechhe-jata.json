@@ -86,9 +86,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "KR11CInAAFA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu mera charwaha me uska gun gata hu: Hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "kQjRZqgQpSk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Jesus Is My Shepherd | Psalm 23 Worship Song | Sunday School",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1jjYNZFQkMc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Mera Charvaha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

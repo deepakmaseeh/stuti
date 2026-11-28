@@ -113,9 +113,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "CwaAnCGVOBE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "बेसहारों का एक सहारा ❤️✝️ वो है मेरा यीशु प्यारा ❤️ | Hindi Christian Worship Song | Worship Wave",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WPaSdsXikhM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Besaharo ko ek sahara wo hai mera Yeshu pyaara बे सहारा का एक सहारावह है मेरा यीशु प्यारा",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Kl_NzwuKgX8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Besaharon Ka Ek Sahara | Pr. Wilson George | Hindi Christian Song | Song of Hope",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

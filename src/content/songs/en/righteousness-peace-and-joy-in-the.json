@@ -120,9 +120,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "_ylonn_QLPo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ron Kenoly - Righteousness, Peace & Joy (Official Live Video) Integrity Music",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "enb6TfU7XgQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Righteousness, Peace, Joy (with lyrics) Ron Kenoly",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tqI4yPN5jmQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Righteousness || VBS Kids English song || Telugu Ceefi ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

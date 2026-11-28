@@ -100,9 +100,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "hzvkmkgbyAc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Father Abraham ⭐ Kids Songs ⭐ Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1A3wOJ_bW5A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Father Abraham | Good News Guys! | Christian Songs for Kids! | Educational Videos for Toddlers!",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HD0qWcgQYXM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Father Abraham had many sons | BF KIDS | Sunday School songs | Bible songs for kids | Kids songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

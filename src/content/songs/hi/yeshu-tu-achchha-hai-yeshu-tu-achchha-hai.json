@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1xdb1rKd_2w",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु तू अच्छा है Yeshu Tu Achcha Hai Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-qMgELYPyxU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु तू अच्छा है | Yeshu Tu Achha Hai | Hindi Christian Worship Song 2026 Heart Touching Jesus Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "d-Hi2SnuvJo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hindi Christian Worship Songs 2026 | Yeshu Tu Achha Hai & More | Best Hindi Worship Playlist",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

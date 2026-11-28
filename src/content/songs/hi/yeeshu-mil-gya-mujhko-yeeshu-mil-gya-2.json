@@ -142,9 +142,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "minbU400Gow",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु मिल गया। Apostle Ankit Sajwan And Ps. Samarth Shukla @AnkitSajwanMinistries FOLJ CHURCH",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "i_241pfOfV0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Mil Gaya Mujhko(Lyrics) - Hindi Christian Song | Sheldon Bangera | Christ the band.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4CL1sY6E2vI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Mil Gaya Mujhko",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

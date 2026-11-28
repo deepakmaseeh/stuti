@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
+import { createPortal } from 'preact/compat';
 import { Play, Share2, ThumbsUp, WifiOff, X } from 'lucide-preact';
 import type { MediaItem } from '../../lib/schema';
 import { shareLink } from '../../lib/share';
@@ -29,13 +30,22 @@ export default function VideoSheet({ open, onClose, videos, songTitle }: Props) 
 
   useEffect(() => {
     if (!open) setPlaying(false);
+    if (typeof document !== 'undefined') {
+      if (open) document.documentElement.setAttribute('data-video-open', '1');
+      else document.documentElement.removeAttribute('data-video-open');
+    }
+    return () => {
+      if (typeof document !== 'undefined') {
+        document.documentElement.removeAttribute('data-video-open');
+      }
+    };
   }, [open]);
 
   if (!open || videos.length === 0) return null;
   const active = videos[cur] ?? videos[0]!;
   const ytUrl = `https://youtu.be/${active.youtubeId}${active.start ? `?t=${active.start}` : ''}`;
 
-  return (
+  const content = (
     <>
       <div class="v3-scrim" onClick={onClose} />
       <div class="v3-sheet v3-drawer" role="dialog" aria-modal="true" aria-label="Videos">
@@ -143,4 +153,6 @@ export default function VideoSheet({ open, onClose, videos, songTitle }: Props) 
       </div>
     </>
   );
+
+  return typeof document !== 'undefined' ? createPortal(content, document.body) : content;
 }

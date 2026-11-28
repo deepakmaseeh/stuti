@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "V7rPIvMgBgI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Tu Hai Mahan (यीशु तू है महान) | Live Version | Praise & Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "JuzqLJmTEBY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESHU TU HAI MAHAN | Hindi Christian song | Vijay Benedict song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CWbLkZ-ddyw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "yesy tu hai mahan teri jaya jayakar ho // ho teri jaya jayakar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": "यीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ\n\n           C                         F C                G C  G C\n1.\tयीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ। (2)\n       C               G  C G          F             G   F C\nजीवन की रोटी मैं ही हूँ, प्यारों जीवन की रोटी मैं ही हूँ।\n C                        F C               G  C G C\nयीशु ने कहा, जीवन की रोटी, जीवन की रोटी मैं ही हूँ।\n\n C                    F   C            G    C G C\n2.\tयीशु ने कहा सच्चा गड़रिया सच्चा गड़रिया मैं ही हूँ। (2)\n       C              G C G         F              G C G\nसच्चा गड़रिया मैं ही हूँ प्यारों सच्चा गड़रिया मैं ही हूँ।\n C                    F   C             G    C G C\nयीशु ने कहा सच्चा गड़रिया, सच्चा गड़रिया मैं ही हूँ।\n\n C                        F  C               G    C G C\n3.\tयीशु ने कहा मार्ग और जीवन, मार्ग और जीवन मैं ही हूँ। (2)\nC                 G C G        F                 C G C\nमार्ग और जीवन मैं ही हूँ प्यारों मार्ग और जीवन मैं ही हूँ।\n C                         F C              G     C G C\nयीशु ने कहा मार्ग और जीवन, मार्ग और जीवन मैं ही हूँ।\n\n\n\n\n\n                                                      (E/13)\n                                                                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TjatfNzN9v0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु ने कहा, जीवन की रोटी में ही हूं। yeeshu ne kaha, jeevan kee rotee mein hee hoon. christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5kODV_jeJCc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु ने कहा जीवन की रोटी ,yeshu ne kaha jeevan ki roti mai hu, jesus said i m bread of life",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KTiKMkEY96g",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ne Kaha",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

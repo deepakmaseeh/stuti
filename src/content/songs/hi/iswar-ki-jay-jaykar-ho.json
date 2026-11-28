@@ -87,9 +87,32 @@
     "page": null
   },
   "chords": "ईश्वर की जय जयकार हो\nC                    F                  G      C\nईश्वर की जय जयकार हो ,जिसका सारा संसार है-2\nC              F                G             C\nकौन चढेगा उसका पर्वत , जिसका ऊँचा स्थान ह\nC                  F              G       C\nऊँचे हो ऐ फाटकों ,अब्दी दरवाजे ऊँचे हो-2\nC         F           G           C\nआता है प्रतापी राजा ,कौन है वह प्रतापी राजा (2)\n\n\n\n\n\n\n\n\n\n(A/26)\n                                                                                                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VoMsdcq1ntQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ho Jai Jaikar Kare Song With Lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "MBv0v1-yYkA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ईश्वर की जयजयकार हो /Ishwar ki jaijaikar// Christian Hindi Song// #christianhindisongs #hellisreal",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ME0S1vzlQpU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "वो है हमारा राजा राजा Christian | Song With lyrics | ho Jai Jaikar | Jesus song with lyrics |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

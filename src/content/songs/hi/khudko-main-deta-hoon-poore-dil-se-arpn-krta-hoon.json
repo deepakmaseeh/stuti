@@ -122,9 +122,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "zJ7yJSTDcrk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "KHUDKO MAIN DETA HOON | Manpathrampol Hindi | Emmanuel KB | Sheenu Mariam | Rijo Joseph |©",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9IFSoUJ6zt8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khudko Main Deta Hoon(Lyrics) - New Hindi Christian Song | Reho Both Media House | Christ_theband.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "aWP6g2uM_2U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "KHUDKO MAIN DETA HOON | Manpathrampol Hindi | Emmanuel KB | Sheenu Mariam | Rijo Joseph |©",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

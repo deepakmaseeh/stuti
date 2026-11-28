@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": "गाने का दिल और बजाने का जीवन\n\n                कोरस:- गाने का दिल और बजाने का जीवन\n हम सब ने पाया है, हम सब ने पाया है - (३)\nखुशी है कैसी अनोखी, खुशी है कैसी अनोखी\n                          दिल में यीशु आ गया, दिल में यीशु आ गया\n\n                          गाने का दिल और....\n\n                      1. जिस व्यक्ति ने विश्वास किया, जिस व्यक्ति ने विश्वास किया - (२)\n                                           वो ईश्वर का बेटा बन गया, वो ईश्वर का बेटा बन गया - (२)\n\n                         गाने का दिल और....\n\n\n                     2. जिस व्यक्ति ने यीशु को पाया, जिस व्यक्ति ने यीशु को पाया - (२)\n                         उसका जीवन बदल गया है, उसका जीवन बदल गया है - (२)\n\n                         गाने का दिल और....\n\n\n\n                     3. जिस व्यक्ति ने आत्मा को पाया, जिस व्यक्ति ने आत्मा को पाया - (२)\n                         वो स्वर्गीया वारिस बन गया, वो स्वर्गीया वारिस बन गया - (२)\n\n                         गाने का दिल और....",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "PXOnEW2v8a4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "गाने का दिल और बजाने का जीवन Gane Ka Dil Aur Bajane Ka Jeevan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "BhS_1fjCnvc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gaane Ka Dil - ft. Devin D'souza || Official Music Video || Hindi Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "m6HzF3i8CZg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gaane Ka Din",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

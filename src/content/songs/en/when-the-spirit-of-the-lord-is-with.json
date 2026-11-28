@@ -110,9 +110,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZQ2Buuw_OzE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "David Danced (Cover) | Hebrew - English - Arabic | Worship from Israel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CEBFiZoodRs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Where The Spirit Of The Lord Is (Live) | Life.Church Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "7Vsy1eo4WGQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Dance like David danced | Sinai Media Ministries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

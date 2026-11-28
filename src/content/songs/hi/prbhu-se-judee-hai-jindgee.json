@@ -118,9 +118,32 @@
     "page": null
   },
   "chords": "कोरस:- तुझसे मिली है जिंदगी, धन्यवाद करूँ\n         प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ\n\nदुनिया की राहों में खो गया था, प्रभु ने बचा लिया\nपास आकर गले लगाकर, मुझे जिवन दिया\n       तुझसे मिली है जिंदगी, धन्यवाद करूँ\n       प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ\n\nउसका वचन सुनकर मैंने, प्रभु को ग्रहण किया\n      चरणों में आकर, मुझको मिली है, खुशियाँ प्रेम अपार\n      तुझसे मिली है जिंदगी, धन्यवाद करूँ\n      प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ\n\nजब जब मैने तुझको पुकारा, तूने मेरी सुन ली है\n      हाथ पकड़कर संग चलकर, प्रभु ने राह दिखाई है\n      तुझसे मिली है जिंदगी, धन्यवाद करूँ\n       प्रभु से जुड़ी है जिंदगी, इसको बयां करुँ",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "pUkutju7L4U",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तुझसे मिली है जिंदगी | Tujhse Mili Hai Zindagi | Lyrics | Hindi Christian Song | Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hZqRdTaDBLg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तुझसे मिली है जिंदगी // Tujhse mili hai jindagi ll Masih song (copy right )",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "e0SNz765un4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tujhse Mili Hain Zindagi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

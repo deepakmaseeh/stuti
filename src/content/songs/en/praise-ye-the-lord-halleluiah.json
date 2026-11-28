@@ -77,9 +77,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "WuODF9Kbgnw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Praise Ye the Lord Hallelujah (NEW VERSION)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "L8BON66aAQs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Praise Ye The Lord Hallelujah 🙌 Kids Songs 🙌 Hi Heaven",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "T0AOkeLEAQg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hallelujah Praise Ye the Lord | Bible Rhymes for Kids | Kids Faith TV",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

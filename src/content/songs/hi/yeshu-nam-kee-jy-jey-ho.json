@@ -75,9 +75,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "1FJBelKmu9o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु नाम की जयजय हो || worship song || Bro. vishal lautre & ibadat worship team",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NrDDIR4oRrE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Hallelujah, Praise Jesus | Hindi Christian Worship Song | Hallelujah Jai Yeshu Ki | 4K",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1WhFJkdKe-M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "तेरे नाम की जय हो || Tere Naam Ki Jay Ho | @JosephRajAllamOfficial#worship #yeshua #worshipmusic",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

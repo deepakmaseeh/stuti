@@ -117,9 +117,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BrUMWi5kEUA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "💁‍♂️Kitna haseen wada❤| कितना हसीन वादा | Jesus Song #trending #lyrics",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5hGl9b65-JI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kitna Haseen Waada | Hindi Christian Worship Song with Lyrics | Ankur Masih | Yeshu Raag",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KssKi-N-WjA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kitna Haseen Wada | कितना हसीन वादा New Lyrical Worship Song of ANM",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

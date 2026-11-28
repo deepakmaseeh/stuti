@@ -139,9 +139,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "7X2YPJg5gBI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukti Ka Nayak Vo | Jai Ke Geet - Hindi | Father S J Berchmans",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "Ok2qh8cdoAA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मुक्ति का नायक वो जय मुझे देता है | Mukti Ka Nayak Wo Jai Mujhe Deta Hai | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CIWqtS7TcmQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mukti Ka Nayak Vo",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

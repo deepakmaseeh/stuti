@@ -166,9 +166,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "gPFleTgziX4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मेरे दिल में नया गाना | Mere Dil Mein Naya Gaana | Hindi Christian Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "ViqroACnDik",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Dil Mein Naya Gaana Mujhe Yeshu Deta Hai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zWnfRRrEttY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Mere Dil Mein Naya Gana",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

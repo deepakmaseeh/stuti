@@ -157,9 +157,32 @@
     "page": null
   },
   "chords": "बोलो जय मिलकर जय,\n\n          C                          Dm\nकोरसः- बोलो जय मिलकर जय, बोलो जय यीशु की जय (2)\n          C\n         बोलो जय, जय, जय ।\n\n      C        F        G           F     C\nतेरे प्रेम की यही रीत, मन में भर दे अपनी प्रीत, (2)\nC  F      G  C           C   F  G      C\n      तेरे प्रेम के गाएँ गीत हाल्लेलुय्याह तेरे प्रेम के गाएँ गीत ।\n\n      C           F         G           F     C\nक्रूस पर अपना खून बहाया मुझ पापी को दी शिफा, (2)\nC   F  G   C              C   F    G  C\n      मन मेरे तू बोल सदा। हाल्लेलुय्याह मन मेरे तू बोल सदा ।\n\n       C           F       G          F         C\nतेरी कुदरत की यह शान, खुद ही दाता खुद ही दान, (2)\nC  F    G    C              C  F    G    C\n      पूरे कर मन के अरमान, हाल्लेलुय्याह पूरे कर मन के अरमान ।\n\n       C           F         G        F   C\nखिदमत अपनी ले मुझसे, इस मन्दिर में तू बसे, (2)\nC   F    G  C              C     F   G C\n      जग में तेरा नाम रहे, हाल्लेलुय्याह हिन्द में तेरा नाम रहे।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "3V_iqzo7ZL4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "बोलो जय मिलकर जय, बोलो जय येशु की जय Bolo Jai Milkar Jai - Lyrics English and Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "bRxUAQIARkE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "BOLO JAI MILKER JAI - बोलो जय मिलकर जय",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DAOuYl1bjSQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bolo Jai Milkar Jai Yeshu Ki Jai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

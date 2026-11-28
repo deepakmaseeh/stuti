@@ -125,9 +125,32 @@
     "page": null
   },
   "chords": "खुद को चढ़ा दें तो, सेवा कर पाएंगें\nखुद मर जाए तो, खुद से जी पाएंगे।\n\nक्रुस उठाने से, भावना बदल जाएगी\nधीरज रखने पर, शान्ति भी मिल जाएगी।\n\nनाम और आदरमान, यीशु नाम के लिए\nउसकी महिमा करें, दीन और नम्र बनें।\n\nकल की चिन्ता मे, व्याकुल न हो बेटी\nअब  तक संभाला है, आगे संभालेगा।\n\nधन संचय न करो, चोरी हो जाएगा,\nदे दो प्रभु के लिए, पूरा हो जायेगा। (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "p19t8kSOPE0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुद को चढ़ा दे तो || khud ko chada de to || hindi Christian song || father sj blackmass",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8y36j5_acAk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khud ko Chadha de toh ll खुद को चढ़ा दें ll Iyob Mavchi ll समर्पण हिंदी गीत ll",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "X6ZA4thKEKc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "cover song खुद को चढ़ा दें तो, सेवा कर पाएंगे",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

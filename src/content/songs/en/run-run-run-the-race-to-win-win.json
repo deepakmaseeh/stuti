@@ -93,9 +93,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "9k2Nj2iS7Os",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🎶 Run The Race | Worship Song About Jesus | Christian Music for Children and Family",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "NQ7ocYyVtOw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Born to Win – Let Us Run the Race | Seva Bharat | CBC song | Bible school",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zNTNnoiVna8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Run The Race",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

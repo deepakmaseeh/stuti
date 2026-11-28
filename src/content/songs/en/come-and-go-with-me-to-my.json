@@ -184,9 +184,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "EKzhtk51Nb0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Come and go with me to my Fathers house -by Infant Jesus Church Choir",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "TylUVv4N-AM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Come And Go With Me Song Lyrics | A122 | With Joyful Lips Hymns | Divine Hymns",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "oKA6Oqq_bMU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Come and go with me to my Fathers house by Infant Jesus Church Choir",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

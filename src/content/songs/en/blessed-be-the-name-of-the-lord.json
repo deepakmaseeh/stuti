@@ -109,9 +109,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "R-FeJoikiFs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - Blessed Be The Name Of The Lord / Celebrate Jesus (Live Praise and Worship)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "tTpTQ4kBLxA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Matt Redman - Blessed Be Your Name (Lyrics And Chords)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zxp0HTtj-bM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Blessed Be The Name of the Lord ~ Medley",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

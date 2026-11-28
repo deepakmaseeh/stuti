@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": "मन तो प्रभु का मन्दिर है, तन अपना दान करो\n\n     D                     G   D          A             D\nकोरस:-  मन तो प्रभु का मन्दिर है, तन अपना दान करो\n     D                G    D          A              D\n   अपने प्रभु की सेवा में, सब अपना दान करो।\n\n     D                  G              A          D\n1. है याद तुम्हें जन्में थे तुम पाप के सागर में (2)\n           Bm            G              A         D\n और पाने तुम्हें आया, वह पाप के सागर में (2)\n   D                   G     D            A             D\n उस प्यारे प्रभु के नाम के लिये कुछ अपना दान करो।\n\n\n      D                       G         A             D\n2. कल तुम जो भटकते थे, अनजान सी राहों में (2)\n           Bm          G              A              D\n    यीशु ने बचा लिया, अपने प्यार की बाहों में (2)\n  D                   G        D    A                 D\n जो भी मिला है प्रभु में तुम्हें, औरों को दान करो।\n\n\n       D                    G          A            D\n3. अन्धकार से जीवन में, वह रोशनी ले आया (2)\n          Bm            G           A          D\n   उस रोशनी में हमने, एक मार्ग नया पाया (2)\n\n      D                     G    D          A               D\n   जीवन तुम्हारा है उसके लिए, जीवन बलिदान करो।\n\n\n                                                   (D/22)\n                                                       The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "70Phw_HOOjI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Man to Prabhu ka mandir hai. मन तो प्रभु का मंदिर है. Yeshu Masih song. #christiansong #yeshu_song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "X1ZBNaqoWN8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन तो प्रभु का मंदिर है || Man to Prabhu ka mandir hai || Christian Hindi Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sapsm_awFcM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मन तो प्रभु का मंदिर है तन अपना दान करो|man to Prabhu Ka Mandir hai|new Jesus worship Hindi song.",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

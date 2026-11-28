@@ -148,9 +148,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "r-moN3fybVg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आखिरी नरसिंगा फूँका जानेवाला है | Hindi Christian Song | Yeshu Masih Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_fwFnUJNU2I",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aakhri narsinga fuka jane wala hai yishu Masih ka song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "t_QMJFcCWCw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Nargsig Funka Jane Wala Hai",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

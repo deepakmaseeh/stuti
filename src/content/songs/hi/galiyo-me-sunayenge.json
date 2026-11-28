@@ -103,9 +103,32 @@
     "page": null
   },
   "chords": "गलियों में सुनाएंगे, घर-घर में बताएंगे\n      केवल यीशु राजा है, यीशु मुक्तिदाता है।\n\nकोरस:- जयजयकार यीशु है भला\n         जय जयकार यीशु है महान\n         जय जयकार वह धर्मी और पाक\n         जय जयकार वह सर्वशक्तिमान।\n\nकांटो बीच गाते गुलाब, पक्षी करते स्तुति गान\n      फिर क्यों ना हम गाए आज, वह हमारा शरणस्थान।",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "yjuUsbNMY1s",
+      "start": 0,
+      "kind": "lyric",
+      "title": "New Hindi Christian Song 2022 | Yeshu Ki Entry | Shutter Lagega | Bhai Prakash | Dr priscilla John |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zwKA3O4kphE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "येशु बिना सुना घर अंगना हो । दिल जित लेने वाला भजन । #masih #christiansong #yeshumasihsong #sunilraj",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YXr5HN_x_j4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "माटी का खिलौना माटी में मिल जाएगा | New Hindi Christian Song 2026 | Jesus Worship Song | TLK Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

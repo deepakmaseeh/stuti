@@ -78,9 +78,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Kga55JLlFqI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Somebody [He] Touched Me - John Starnes (with lyrics)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sdMnZuMTgks",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Somebody Touched Me - song by Charles Kids Dharmapuri",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3TrDUSBEZjA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "The Cathedrals - Somebody Touched Me (Live)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

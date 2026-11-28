@@ -57,5 +57,31 @@
     "en": "missing"
   },
   "updated": "2026-11-19",
-  "publish": true
+  "publish": true,
+  "media": [
+    {
+      "youtubeId": "Tvt6E9N7AQw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Amazing grace | latest | best version | with lyrics |original",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "uz9xKtRhpjc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Broken Vessels (Amazing Grace) - Hillsong Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "a8UW2dsaEXk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Amazing Grace (Faith's Review and Expectation) (Acoustic Version)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ]
 }

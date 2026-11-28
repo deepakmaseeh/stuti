@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "_rSWXf2Y4z0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - God Will Make A Way | Live Worship Sessions",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "0EIiUofOQfU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "God Will Make A Way ✝️ Don Moen Praise Songs & Christian Music | Don Moen Playlist",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "s48y25fbLXA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Make A Way (feat. Chandler Moore & Brandon Lake) | Elevation Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

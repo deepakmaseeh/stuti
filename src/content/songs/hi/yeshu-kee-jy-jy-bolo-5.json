@@ -102,9 +102,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "oFfMz_aetoQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "yeshu ki jay jay bolo, येशु की जय जय बोलो , Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "cURsXndL4-A",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ki Jai Jai Bolo | Y - SERIES SONGS",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "YvppexjOeeM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Raja Yeshu Jai Bolo | राजा येशु जय बोलो | ख्रीस्त राजा का पर्व 2026 Hindi Sadri Christian Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

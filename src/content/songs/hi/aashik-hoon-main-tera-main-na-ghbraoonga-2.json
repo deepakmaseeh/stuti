@@ -102,9 +102,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Ou3gv8WQuAI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aashiq Tera | Oneness India Season 3 | Ft Emmanuel Gollar | Live In Concert | The Hindi Collective",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RV4wNZg2fnQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैं आशिक तेरा | Jesus Love Song 2026 | Deepak",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "RjeziAUV16M",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aashiq Tera || Emmanuel Gollar || @Anuslifestyle00 || Hindi Jesus Song ||",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

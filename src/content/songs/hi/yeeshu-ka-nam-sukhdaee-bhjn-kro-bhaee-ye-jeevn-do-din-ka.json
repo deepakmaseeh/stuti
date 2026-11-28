@@ -99,9 +99,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "I5WOvqnEY-4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु का नाम सुखदाई | मसीही जीवन की कहानी | #Yeshu Ka Name Sukhdai | Sushma Gupta",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "m4V7leQoSq4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु का नाम सुखदाई || भजन करो भाई ये जीवन दो दिन का || यीशु भजन 2023",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "5vontYI-t6E",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Ka Nam Shukhdae Bhajan Karo Bhai Jiwan Do Din Ka",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

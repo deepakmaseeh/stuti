@@ -135,9 +135,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Mfne5MgZ6FE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Stuti Main Karu | Lyric Video | Aashish De - Joseph Raj Allam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KjsNst71igU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Teri Stuti Mein Karu | Official Music Video - Joseph Raj Allam",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nIaeSBHkdCo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आराधना करूं मैं पूरे दिल से।(Warship Song)#worship #viralvideo #viral #jesusisking #christianalbum",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

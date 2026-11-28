@@ -143,9 +143,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "VimtyZTgEv0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kuch Nahi Chahiye Khuda #worship | Pastor Amrit Sandhu Ji & Pastor Amit Kamble Ji #chandigarhbranch",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "4pMjSsMvTvY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kuch Nhi Chahiye Khuda // Amit Kamble // Cover // Hindi Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jj23x4VrSdI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Kuch nahi chahiye khuda | Amit Kamble | Worship moments | YouthConference | @AmitKambleMinistries",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

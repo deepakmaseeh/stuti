@@ -169,9 +169,32 @@
     "page": null
   },
   "chords": "बैतलहम के गौशाले में, जीवन का उजियाला है\n\nकोरस:- बैतलहम के गौशाले में, जीवन का उजियाला है,\n  यहाँ स्वयं आकाश उतर कर, इस धरती पर आया है ।\n\n1. नभ में होती उसकी महिमा,\n  दूतों की वाणी में गौरव,\n  गाती हैं सागर की लहरें,\n  यीशु जग में आया है ।\n\n2. खोज रहा संसार जिस था,\n   युग युग का संताप लिये\n   नव-जीवन की आशा बन कर,\n   जग का तारक आया है\n\n3. क्यों होते मायूस ओ साथी,\n   देख जगत का अन्धियारा\n   दुख -चिता सब दूर करेगा\n   जो मरियम का जाया है ।\n\n4. गाओं मिलकर यीशु की जय,\n   जय-जय यीशु मसीह की\n   जो पापों से मुक्ति देने,\n   जग में जन्म ले आया है ।\n\n\n                                                                    (G/27)\n                                                                                                                The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "OJWPOFPijYs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "बैतलहम के गौशाले में जीवन का उजियाला है | शाक्तिशाली सुबह का प्रार्थना | Morning Prayer | Hallelujah",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "KvTgbe3Htgw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "बैथलहम के गौशाला में | Heart-Touching Christmas Song | Hindi Christian Worship”| Christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rYq2Bb_Vaaw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Bethlehem ke goushale mai christmas song and word prathna bhawan Jhansi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

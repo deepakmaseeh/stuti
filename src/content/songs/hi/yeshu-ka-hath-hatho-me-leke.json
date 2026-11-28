@@ -107,9 +107,32 @@
     "page": null
   },
   "chords": "यीशु का हाथ हाथों में लेके, तूफानी लहरों पर मैं चलूँगा\n\n                      E                  B       A        B                         E\nकोरस:- यीशु का हाथ हाथों में लेके, तूफानी लहरों पर मैं चलूँगा (2)\n                C#m\n   हो चाहे सामने कैसी भी मुश्किल\n     B       A    B         E\n       मैं न डरुँगा मैं न डरुँगा\n\n  E        A                         C#m              B         E\n  1. राहों में हो काँटे या अन्धेरा, न कोई साथी अकेला चलूँगा (2)\n       E                  B           A\n     शैतान के तीर घायल भी कर दे\n       B            C#m     E\n मैं न डरुँगा मैं न डरुँगा\n\n E                     A                 C#m             B         E\n2.  मेरे लिए जिसने दी जिन्दगानी, मैं उसकी सेवा सदा ही करुँगा (2)\n  E                  B           A\n यदि जाए जान उसकी लगन में,\n  B        C#m     E\n मैं डरुँगा मैं न डरुँगा\n\n\n\n\n\n                                                                 (E/4)\n                                                                                          The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "dJos8HNOM84",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yishu ka hath hatho me lekar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "HDa-noIT7tQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "यीशु का हाथ, हाथों में।Yishu ka hath hathon me leke/lyricshindi/#jesushindisongs #jesusworshipsongs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "t0oV59f_KyE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeeshu ka haath| Christian Song | Iyob Mavchi | Original Sung By Bobby Cash|",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

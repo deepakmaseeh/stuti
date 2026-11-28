@@ -158,9 +158,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Xq0SMhPIi_0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "सारी सृष्टि के मालिक Sari Srashti ke Malik Tahira Haidar Ali",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "MAFJU4dDvms",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Saari Srishti Ke Malik Tumhi Ho (Official Video) Shawn & Shanon | Worship Songs 2023 | Yeshu Ke Geet",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "f6i9a3ecduA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sari Srashti ke Malik",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

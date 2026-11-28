@@ -115,9 +115,32 @@
     "page": null
   },
   "chords": "परमेश्वर पिता परमेश्वर तू ही है राजा हमारे जीवन का\n\n           F                C              Bb   C             F\nकोरस:- परमेश्वर पिता परमेश्वर, तू ही है राजा हमारे जीवन का\n            F                C           Bb    C       F\n         जीवन से भी है उत्तम, तेरी करुणा सदा हम पर\n\n       Bb                C          F\nबंजर ज़मीं से तू उगाता है फसल,\n Bb                           C          F\nसूखी सूखी नदी नदी से तू बहाता प्रेम जल\n       Gm          C    Bb     C      F\nये आसमां और ये ज़मी, गाती है तेरी महिमा (2)\n\nBb                  C         F\nहमको बनाया तूने अपने रुप में,\n Bb                 C        F\nदेकर जीवन भेजा तूने संसार में\n      Gm          C     Bb     C      F\nये ज़िन्दगी.. मेरी सदा, करती है तेरी महिमा। (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "Lm-plE-xhas",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Parmeshwar Pita Parmeshwar Song With Lyrics || Beautiful Worship Song 🎵🎸 || Hindi Christian songs...",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WezgoQCGE9c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Parmeshwar Pita Parmeshwar Lyrics परमेश्वर पिता परमेश्वर | Hindi Worship Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_QKwy0R0z88",
+      "start": 0,
+      "kind": "lyric",
+      "title": "परमेश्वर, पिता परमेश्वर, तू ही है राजा हमारे जीवन का//Christian Hindi Song// #hellisreal #christian",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

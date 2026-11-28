@@ -138,9 +138,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "iuz9JpBMJqE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ae Yeshu Naasri (Official Video) | Romika Masih | Deepak Gharu @alphaomegalyrical",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eZ_f_WpN3Dc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "YESHU NASRI ft. Vipin Massey | Lift HIM up | Live | Official Video | 4k | ABC Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "eRQ6MTKFvGI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ae Yeshu Naasri",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -3,14 +3,18 @@ import {
   AArrowDown,
   AArrowUp,
   CirclePlay,
+  FileText,
+  Info,
   ListChecks,
   ListPlus,
   Presentation,
+  Share2,
   Sun,
 } from 'lucide-preact';
 import { FLAGS } from '../../config/flags';
 import type { MediaItem } from '../../lib/schema';
 import { t } from '../../i18n';
+import { shareLink } from '../../lib/share';
 import {
   DEFAULT_PREFS,
   pushRecent,
@@ -329,6 +333,43 @@ export default function SongToolbar({
         >
           <Presentation size={22} strokeWidth={1.75} aria-hidden="true" />
         </a>
+        <button
+          type="button"
+          class="tool tool--desktop-extra"
+          aria-label="Share song"
+          title="Share song"
+          data-feature="share"
+          onClick={() => void shareLink(share)}
+        >
+          <Share2 size={20} strokeWidth={1.75} aria-hidden="true" />
+        </button>
+        <a
+          class="tool tool--desktop-extra"
+          href={`/print/lyrics/?song=${encodeURIComponent(snapshot.id)}`}
+          aria-label="Lyrics PDF"
+          title="Lyrics PDF"
+          data-feature="pdf"
+        >
+          <FileText size={20} strokeWidth={1.75} aria-hidden="true" />
+        </a>
+        <a
+          class="tool tool--desktop-extra"
+          href={`/slides/?song=${encodeURIComponent(snapshot.id)}`}
+          aria-label="PowerPoint slides"
+          title="PowerPoint slides"
+          data-feature="ppt"
+        >
+          <Presentation size={20} strokeWidth={1.75} aria-hidden="true" />
+        </a>
+        <button
+          type="button"
+          class="tool tool--desktop-extra"
+          aria-label="Song info"
+          title="Song info"
+          onClick={() => dispatchEvent(new Event('stuti:open-song-info'))}
+        >
+          <Info size={20} strokeWidth={1.75} aria-hidden="true" />
+        </button>
       </div>
       {!supported && (
         <p class="tools__note">

@@ -139,9 +139,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BnAPK7f0VHQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Masih Tere Jaisa Hai Koi Nahi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "vYFxLu5o1Ig",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshua Ministries - Hum Gaye Hosanna (Yeshu Masih) (Yeshua Band) Official Lyric Video 2006",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "_Au2rVgJyPM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan, Tere Jaisa na Koyi | Best Christian Worship Song | Masih Bhajan Ghar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

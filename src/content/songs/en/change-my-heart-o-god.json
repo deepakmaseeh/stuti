@@ -88,9 +88,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "qobiU0TbXOg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Change My Heart Oh God - Heavenly Worship Cover | Steven Moctezuma",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DwudqCO7mSQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Change My Heart oh God - Vineyard [With Lyrics]",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "CF930Kq_KRg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Change My Heart O God",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

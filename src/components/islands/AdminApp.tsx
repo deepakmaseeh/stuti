@@ -255,7 +255,7 @@ export default function AdminApp({
           setReportsNote(null);
         }
       })
-      .catch(() => {});
+      .catch(() => { });
   };
 
   useEffect(() => {
@@ -520,7 +520,7 @@ export default function AdminApp({
         }
         setVideoSongs(rows.slice(0, 120));
       })
-      .catch(() => {});
+      .catch(() => { });
   }, [view]);
 
   return (
@@ -602,409 +602,409 @@ export default function AdminApp({
 
         {!needsLogin ? (
           <>
-        {view === 'dash' ? (
-          <>
-            <div class="ahead">
-              <h1>Dashboard</h1>
-              <input
-                ref={csvRef}
-                type="file"
-                accept=".csv,text/csv"
-                class="visually-hidden"
-                onChange={(e) => {
-                  const f = e.currentTarget.files?.[0];
-                  void onCsvPicked(f);
-                  e.currentTarget.value = '';
-                }}
-              />
-              <button type="button" class="abtn" onClick={() => csvRef.current?.click()}>
-                <Upload size={17} strokeWidth={1.75} aria-hidden="true" />
-                Import CSV
-              </button>
-              <button type="button" class="abtn pri" onClick={() => setView('add')}>
-                <ClipboardPaste size={17} strokeWidth={1.75} aria-hidden="true" />
-                Paste a song
-              </button>
-            </div>
-            <div class="adm-grid">
-              <section class="adm-card">
-                <h3>Songs</h3>
-                <div class="big">{totalSongs}</div>
-                <div class="bars">
-                  {books.map((b) => (
-                    <div class="b" key={b.id}>
-                      <b style={{ font: '700 13px var(--font-display)' }}>{b.id}</b>
-                      <span class="t">
-                        <i style={{ width: `${Math.max(4, (b.count / maxBookCount) * 100)}%` }} />
-                      </span>
-                      <span style={{ textAlign: 'right' }}>{b.count}</span>
-                    </div>
-                  ))}
-                </div>
-              </section>
-
-              <section class="adm-card">
-                <h3>Needs attention</h3>
-                <div class="att">
-                  <span>Pending songs</span>
-                  <b>
-                    <span class="pillx wait">2</span>
-                  </b>
-                </div>
-                <div class="att">
-                  <span>Broken video links</span>
-                  <b>
-                    <span class="pillx ok">0</span>
-                  </b>
-                </div>
-                <div class="att">
-                  <span>Lint errors</span>
-                  <b>
-                    <span class="pillx ok">0</span>
-                  </b>
-                </div>
-              </section>
-
-              <section class="adm-card">
-                <h3>Publishing</h3>
-                <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-                  <CircleCheck size={32} color="var(--ok)" strokeWidth={1.75} aria-hidden="true" />
-                  <div>
-                    <div style={{ fontWeight: 700 }}>Live</div>
-                    <div class="muted sm">Static build + Worker API</div>
-                  </div>
-                </div>
-              </section>
-
-              <section class="adm-card" style={{ gridColumn: '1 / -1' }}>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
-                  <h3 style={{ margin: 0 }}>New reports ({visibleReports.length})</h3>
-                  <div style={{ display: 'flex', gap: 10 }}>
-                    {sheetUrl ? (
-                      <a class="link-v3" href={sheetUrl} target="_blank" rel="noopener noreferrer">
-                        Open Google Sheet
-                      </a>
-                    ) : null}
-                    <button type="button" class="link-v3" onClick={() => setView('reports')}>
-                      Open inbox
-                    </button>
-                  </div>
-                </div>
-                {visibleReports.length > 0 ? (
-                  visibleReports.slice(0, 5).map((r, i) => (
-                    <div class="att" key={r.id || i}>
-                      <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 68 }}>
-                        {r.book} {r.no}
-                      </b>
-                      <span>
-                        {r.stanza ? `${r.stanza} · ` : ''}
-                        {r.kind || 'Correction'}
-                        {r.suggested ? ` → ${r.suggested.slice(0, 48)}` : ''}
-                      </span>
-                      <b>
-                        <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
-                      </b>
-                    </div>
-                  ))
-                ) : (
-                  <p class="muted sm" style={{ margin: '6px 0 0' }}>
-                    {reportsNote || 'No reports yet.'}
-                  </p>
-                )}
-              </section>
-            </div>
-          </>
-        ) : null}
-
-        {view === 'add' ? (
-          <>
-            <div class="ahead">
-              <h1>Add song</h1>
-              <span class="pillx wait">Draft</span>
-              <button type="button" class="abtn" disabled={busy} onClick={saveDraft}>
-                <Save size={17} strokeWidth={1.75} aria-hidden="true" />
-                Save draft
-              </button>
-              <button
-                type="button"
-                class="abtn pri"
-                disabled={!canPublish || busy}
-                onClick={() => void publishSong()}
-              >
-                Publish
-              </button>
-            </div>
-
-            <div class="ed2">
-              <div>
-                <div class="f2">
-                  <label class="fl">
-                    Book
-                    <select value={bookId} onChange={(e) => setBookId(e.currentTarget.value)}>
-                      {books.map((b) => (
-                        <option key={b.id} value={b.id}>
-                          {b.id}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <label class="fl">
-                    Number
-                    <input value={no} onInput={(e) => setNo(e.currentTarget.value)} />
-                    <span class="hint">Next free: {nextFree}</span>
-                  </label>
-                  <label class="fl">
-                    Rights
-                    <select
-                      value={rights}
-                      onChange={(e) => setRights(e.currentTarget.value as typeof rights)}
-                    >
-                      <option value="public_domain">Public domain</option>
-                      <option value="licensed">Licensed (CCLI…)</option>
-                      <option value="permission_pending">Permission pending</option>
-                      <option value="unknown">Unknown</option>
-                    </select>
-                  </label>
-                  <label class="fl" style={{ gridColumn: 'span 2' }}>
-                    Title
-                    <input
-                      class="hi"
-                      value={title}
-                      onInput={(e) => setTitle(e.currentTarget.value)}
-                    />
-                  </label>
-                  <label class="fl">
-                    Topics
-                    <input value={topics} onInput={(e) => setTopics(e.currentTarget.value)} />
-                  </label>
-                </div>
-
-                <label class="fl" style={{ marginTop: 16 }}>
-                  Paste the whole song
-                  <textarea
-                    rows={9}
-                    value={text}
-                    onInput={(e) => setText(e.currentTarget.value)}
+            {view === 'dash' ? (
+              <>
+                <div class="ahead">
+                  <h1>Dashboard</h1>
+                  <input
+                    ref={csvRef}
+                    type="file"
+                    accept=".csv,text/csv"
+                    class="visually-hidden"
+                    onChange={(e) => {
+                      const f = e.currentTarget.files?.[0];
+                      void onCsvPicked(f);
+                      e.currentTarget.value = '';
+                    }}
                   />
-                  <span class="hint">Blank line = new stanza · "कोरस/Chorus" = chorus · "(2)" = ×2</span>
-                </label>
-
-                <div class="adm-card" style={{ marginTop: 16 }}>
-                  <h3>Split result ({stanzas.length} stanzas)</h3>
-                  {stanzas.map((z, i) => (
-                    <div class="stc" key={`${z.label}-${i}`}>
-                      <div class="ty">{z.label}</div>
-                      {z.lines.map((l, j) => (
-                        <div class="l" key={j}>
-                          {l.n}
-                          {l.x ? <span class="x">×{l.x}</span> : null}
+                  <button type="button" class="abtn" onClick={() => csvRef.current?.click()}>
+                    <Upload size={17} strokeWidth={1.75} aria-hidden="true" />
+                    Import CSV
+                  </button>
+                  <button type="button" class="abtn pri" onClick={() => setView('add')}>
+                    <ClipboardPaste size={17} strokeWidth={1.75} aria-hidden="true" />
+                    Paste a song
+                  </button>
+                </div>
+                <div class="adm-grid">
+                  <section class="adm-card">
+                    <h3>Songs</h3>
+                    <div class="big">{totalSongs}</div>
+                    <div class="bars">
+                      {books.map((b) => (
+                        <div class="b" key={b.id}>
+                          <b style={{ font: '700 13px var(--font-display)' }}>{b.id}</b>
+                          <span class="t">
+                            <i style={{ width: `${Math.max(4, (b.count / maxBookCount) * 100)}%` }} />
+                          </span>
+                          <span style={{ textAlign: 'right' }}>{b.count}</span>
                         </div>
                       ))}
                     </div>
-                  ))}
-                </div>
-              </div>
+                  </section>
 
-              <div>
-                <div class="adm-card">
-                  <h3>Checks</h3>
-                  {checks.map(([ok, msg], i) => (
-                    <div class="chk" key={i}>
-                      {ok ? (
-                        <Check size={16} color="var(--ok)" strokeWidth={2} aria-hidden="true" />
-                      ) : (
-                        <TriangleAlert size={16} color="var(--ribbon)" strokeWidth={2} aria-hidden="true" />
-                      )}
-                      <span>{msg}</span>
+                  <section class="adm-card">
+                    <h3>Needs attention</h3>
+                    <div class="att">
+                      <span>Pending songs</span>
+                      <b>
+                        <span class="pillx wait">2</span>
+                      </b>
                     </div>
-                  ))}
-                </div>
+                    <div class="att">
+                      <span>Broken video links</span>
+                      <b>
+                        <span class="pillx ok">0</span>
+                      </b>
+                    </div>
+                    <div class="att">
+                      <span>Lint errors</span>
+                      <b>
+                        <span class="pillx ok">0</span>
+                      </b>
+                    </div>
+                  </section>
 
-                <div class="adm-card" style={{ marginTop: 14 }}>
-                  <h3>Videos</h3>
-                  <label class="fl">
-                    YouTube link
-                    <input
-                      type="url"
-                      placeholder="https://youtu.be/..."
-                      value={ytUrl}
-                      onInput={(e) => setYtUrl(e.currentTarget.value)}
-                    />
-                  </label>
+                  <section class="adm-card">
+                    <h3>Publishing</h3>
+                    <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+                      <CircleCheck size={32} color="var(--ok)" strokeWidth={1.75} aria-hidden="true" />
+                      <div>
+                        <div style={{ fontWeight: 700 }}>Live</div>
+                        <div class="muted sm">Static build + Worker API</div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="adm-card" style={{ gridColumn: '1 / -1' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8 }}>
+                      <h3 style={{ margin: 0 }}>New reports ({visibleReports.length})</h3>
+                      <div style={{ display: 'flex', gap: 10 }}>
+                        {sheetUrl ? (
+                          <a class="link-v3" href={sheetUrl} target="_blank" rel="noopener noreferrer">
+                            Open Google Sheet
+                          </a>
+                        ) : null}
+                        <button type="button" class="link-v3" onClick={() => setView('reports')}>
+                          Open inbox
+                        </button>
+                      </div>
+                    </div>
+                    {visibleReports.length > 0 ? (
+                      visibleReports.slice(0, 5).map((r, i) => (
+                        <div class="att" key={r.id || i}>
+                          <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 68 }}>
+                            {r.book} {r.no}
+                          </b>
+                          <span>
+                            {r.stanza ? `${r.stanza} · ` : ''}
+                            {r.kind || 'Correction'}
+                            {r.suggested ? ` → ${r.suggested.slice(0, 48)}` : ''}
+                          </span>
+                          <b>
+                            <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
+                          </b>
+                        </div>
+                      ))
+                    ) : (
+                      <p class="muted sm" style={{ margin: '6px 0 0' }}>
+                        {reportsNote || 'No reports yet.'}
+                      </p>
+                    )}
+                  </section>
+                </div>
+              </>
+            ) : null}
+
+            {view === 'add' ? (
+              <>
+                <div class="ahead">
+                  <h1>Add song</h1>
+                  <span class="pillx wait">Draft</span>
+                  <button type="button" class="abtn" disabled={busy} onClick={saveDraft}>
+                    <Save size={17} strokeWidth={1.75} aria-hidden="true" />
+                    Save draft
+                  </button>
                   <button
                     type="button"
-                    class="abtn"
-                    style={{ marginTop: 10, width: '100%', justifyContent: 'center' }}
-                    onClick={() => void checkYoutube()}
+                    class="abtn pri"
+                    disabled={!canPublish || busy}
+                    onClick={() => void publishSong()}
                   >
-                    <Eye size={16} strokeWidth={1.75} aria-hidden="true" />
-                    Check &amp; add video
+                    Publish
                   </button>
-                  {ytStatus ? <p class="muted sm" style={{ marginTop: 8 }}>{ytStatus}</p> : null}
-                  {ytVideos.length > 0 ? (
-                    <div style={{ marginTop: 10 }}>
-                      {ytVideos.map((v, vi) => (
-                        <div key={v.url} class="att" style={{ padding: '6px 0' }}>
-                          <span style={{ flex: 1, fontSize: '13px', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                            {v.label}
-                          </span>
-                          <button
-                            type="button"
-                            class="ib ink"
-                            aria-label="Remove video"
-                            onClick={() => setYtVideos((prev) => prev.filter((_, i2) => i2 !== vi))}
-                          >
-                            <X size={14} aria-hidden="true" />
-                          </button>
+                </div>
+
+                <div class="ed2">
+                  <div>
+                    <div class="f2">
+                      <label class="fl">
+                        Book
+                        <select value={bookId} onChange={(e) => setBookId(e.currentTarget.value)}>
+                          {books.map((b) => (
+                            <option key={b.id} value={b.id}>
+                              {b.id}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                      <label class="fl">
+                        Number
+                        <input value={no} onInput={(e) => setNo(e.currentTarget.value)} />
+                        <span class="hint">Next free: {nextFree}</span>
+                      </label>
+                      <label class="fl">
+                        Rights
+                        <select
+                          value={rights}
+                          onChange={(e) => setRights(e.currentTarget.value as typeof rights)}
+                        >
+                          <option value="public_domain">Public domain</option>
+                          <option value="licensed">Licensed (CCLI…)</option>
+                          <option value="permission_pending">Permission pending</option>
+                          <option value="unknown">Unknown</option>
+                        </select>
+                      </label>
+                      <label class="fl" style={{ gridColumn: 'span 2' }}>
+                        Title
+                        <input
+                          class="hi"
+                          value={title}
+                          onInput={(e) => setTitle(e.currentTarget.value)}
+                        />
+                      </label>
+                      <label class="fl">
+                        Topics
+                        <input value={topics} onInput={(e) => setTopics(e.currentTarget.value)} />
+                      </label>
+                    </div>
+
+                    <label class="fl" style={{ marginTop: 16 }}>
+                      Paste the whole song
+                      <textarea
+                        rows={9}
+                        value={text}
+                        onInput={(e) => setText(e.currentTarget.value)}
+                      />
+                      <span class="hint">Blank line = new stanza · "कोरस/Chorus" = chorus · "(2)" = ×2</span>
+                    </label>
+
+                    <div class="adm-card" style={{ marginTop: 16 }}>
+                      <h3>Split result ({stanzas.length} stanzas)</h3>
+                      {stanzas.map((z, i) => (
+                        <div class="stc" key={`${z.label}-${i}`}>
+                          <div class="ty">{z.label}</div>
+                          {z.lines.map((l, j) => (
+                            <div class="l" key={j}>
+                              {l.n}
+                              {l.x ? <span class="x">×{l.x}</span> : null}
+                            </div>
+                          ))}
                         </div>
                       ))}
                     </div>
-                  ) : null}
-                </div>
-              </div>
-            </div>
-          </>
-        ) : null}
+                  </div>
 
-        {view === 'reports' ? (
-          <>
-            <div class="ahead">
-              <h1>Reports inbox</h1>
-              {sheetUrl ? (
-                <a class="abtn" href={sheetUrl} target="_blank" rel="noopener noreferrer">
-                  Open Google Sheet
-                </a>
-              ) : null}
-            </div>
-            <div class="adm-card">
-              {visibleReports.length > 0 ? (
-                visibleReports.map((r, i) => (
-                  <div class="att" key={r.id || i} style={{ flexWrap: 'wrap' }}>
-                    <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 72 }}>
-                      {r.book} {r.no}
-                    </b>
-                    <div style={{ flex: 1, minWidth: 200 }}>
-                      <div style={{ fontWeight: 600 }}>
-                        {r.title} · {r.kind}
-                      </div>
-                      {r.current || r.suggested ? (
-                        <div class="muted sm">
-                          {r.current ? <del>{r.current}</del> : null}
-                          {r.current && r.suggested ? ' → ' : null}
-                          {r.suggested ? <strong>{r.suggested}</strong> : null}
+                  <div>
+                    <div class="adm-card">
+                      <h3>Checks</h3>
+                      {checks.map(([ok, msg], i) => (
+                        <div class="chk" key={i}>
+                          {ok ? (
+                            <Check size={16} color="var(--ok)" strokeWidth={2} aria-hidden="true" />
+                          ) : (
+                            <TriangleAlert size={16} color="var(--ribbon)" strokeWidth={2} aria-hidden="true" />
+                          )}
+                          <span>{msg}</span>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div class="adm-card" style={{ marginTop: 14 }}>
+                      <h3>Videos</h3>
+                      <label class="fl">
+                        YouTube link
+                        <input
+                          type="url"
+                          placeholder="https://youtu.be/..."
+                          value={ytUrl}
+                          onInput={(e) => setYtUrl(e.currentTarget.value)}
+                        />
+                      </label>
+                      <button
+                        type="button"
+                        class="abtn"
+                        style={{ marginTop: 10, width: '100%', justifyContent: 'center' }}
+                        onClick={() => void checkYoutube()}
+                      >
+                        <Eye size={16} strokeWidth={1.75} aria-hidden="true" />
+                        Check &amp; add video
+                      </button>
+                      {ytStatus ? <p class="muted sm" style={{ marginTop: 8 }}>{ytStatus}</p> : null}
+                      {ytVideos.length > 0 ? (
+                        <div style={{ marginTop: 10 }}>
+                          {ytVideos.map((v, vi) => (
+                            <div key={v.url} class="att" style={{ padding: '6px 0' }}>
+                              <span style={{ flex: 1, fontSize: '13px', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                                {v.label}
+                              </span>
+                              <button
+                                type="button"
+                                class="ib ink"
+                                aria-label="Remove video"
+                                onClick={() => setYtVideos((prev) => prev.filter((_, i2) => i2 !== vi))}
+                              >
+                                <X size={14} aria-hidden="true" />
+                              </button>
+                            </div>
+                          ))}
                         </div>
                       ) : null}
                     </div>
-                    <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
-                    {r.id && r.status !== 'Fixed' ? (
-                      <button type="button" class="abtn" style={{ padding: '6px 10px' }} onClick={() => markFixed(r.id)}>
-                        Mark fixed
-                      </button>
-                    ) : null}
                   </div>
-                ))
-              ) : (
-                <p class="muted">{reportsNote || 'No reports in the Sheet yet.'}</p>
-              )}
-            </div>
-          </>
-        ) : null}
+                </div>
+              </>
+            ) : null}
 
-        {view === 'media' ? (
-          <>
-            <div class="ahead">
-              <h1>Videos</h1>
-            </div>
-            <div class="segtabs" style={{ marginBottom: 14 }}>
-              {(
-                [
-                  ['all', 'All songs'],
-                  ['has', 'Has video'],
-                  ['none', 'No video'],
-                  ['broken', 'Broken links'],
-                ] as const
-              ).map(([fid, flabel]) => (
-                <button
-                  key={fid}
-                  type="button"
-                  class={videoFilter === fid ? 'on' : undefined}
-                  onClick={() => setVideoFilter(fid)}
-                >
-                  {flabel}
-                </button>
-              ))}
-            </div>
-            <div class="adm-card">
-              {videoSongs
-                .filter((s) => {
-                  if (videoFilter === 'has') return s.count > 0;
-                  if (videoFilter === 'none') return s.count === 0;
-                  if (videoFilter === 'broken') return s.broken;
-                  return true;
-                })
-                .map((s) => (
-                  <div class="att" key={s.id} style={{ flexWrap: 'wrap', gap: '8px' }}>
-                    <b style={{ minWidth: 72, color: 'var(--ribbon)' }}>{s.badge}</b>
-                    <span style={{ flex: 1, minWidth: 160 }}>{s.title}</span>
-                    <span class={`pillx ${s.count > 0 ? 'ok' : 'new'}`}>
-                      {s.count > 0 ? `${s.count} video` : 'No video'}
-                    </span>
-                    <input
-                      type="url"
-                      placeholder="https://youtu.be/..."
-                      value={videoSongInputs[s.id] ?? ''}
-                      onInput={(e) =>
-                        setVideoSongInputs((prev) => ({ ...prev, [s.id]: e.currentTarget.value }))
-                      }
-                      style={{ width: '180px' }}
-                    />
+            {view === 'reports' ? (
+              <>
+                <div class="ahead">
+                  <h1>Reports inbox</h1>
+                  {sheetUrl ? (
+                    <a class="abtn" href={sheetUrl} target="_blank" rel="noopener noreferrer">
+                      Open Google Sheet
+                    </a>
+                  ) : null}
+                </div>
+                <div class="adm-card">
+                  {visibleReports.length > 0 ? (
+                    visibleReports.map((r, i) => (
+                      <div class="att" key={r.id || i} style={{ flexWrap: 'wrap' }}>
+                        <b style={{ margin: 0, font: '700 14px var(--font-display)', color: 'var(--ribbon)', minWidth: 72 }}>
+                          {r.book} {r.no}
+                        </b>
+                        <div style={{ flex: 1, minWidth: 200 }}>
+                          <div style={{ fontWeight: 600 }}>
+                            {r.title} · {r.kind}
+                          </div>
+                          {r.current || r.suggested ? (
+                            <div class="muted sm">
+                              {r.current ? <del>{r.current}</del> : null}
+                              {r.current && r.suggested ? ' → ' : null}
+                              {r.suggested ? <strong>{r.suggested}</strong> : null}
+                            </div>
+                          ) : null}
+                        </div>
+                        <span class={`pillx ${r.status === 'Fixed' ? 'ok' : 'new'}`}>{r.status || 'New'}</span>
+                        {r.id && r.status !== 'Fixed' ? (
+                          <button type="button" class="abtn" style={{ padding: '6px 10px' }} onClick={() => markFixed(r.id)}>
+                            Mark fixed
+                          </button>
+                        ) : null}
+                      </div>
+                    ))
+                  ) : (
+                    <p class="muted">{reportsNote || 'No reports in the Sheet yet.'}</p>
+                  )}
+                </div>
+              </>
+            ) : null}
+
+            {view === 'media' ? (
+              <>
+                <div class="ahead">
+                  <h1>Videos</h1>
+                </div>
+                <div class="segtabs" style={{ marginBottom: 14 }}>
+                  {(
+                    [
+                      ['all', 'All songs'],
+                      ['has', 'Has video'],
+                      ['none', 'No video'],
+                      ['broken', 'Broken links'],
+                    ] as const
+                  ).map(([fid, flabel]) => (
                     <button
+                      key={fid}
                       type="button"
-                      class="abtn"
-                      onClick={async () => {
-                        const u = (videoSongInputs[s.id] ?? '').trim();
-                        if (!u) return;
-                        const res = await fetch('/api/admin/oembed', {
-                          method: 'POST',
-                          credentials: 'same-origin',
-                          headers: { 'content-type': 'application/json' },
-                          body: JSON.stringify({ url: u }),
-                        }).catch(() => null);
-                        if (res?.ok) {
-                          setVideoSongs((prev) =>
-                            prev.map((x) => (x.id === s.id ? { ...x, count: x.count + 1 } : x)),
-                          );
-                          setVideoSongInputs((prev) => ({ ...prev, [s.id]: '' }));
-                          setToast(`Verified & staged video for ${s.badge}`);
-                        } else {
-                          setVideoSongs((prev) =>
-                            prev.map((x) => (x.id === s.id ? { ...x, broken: true } : x)),
-                          );
-                          setToast("This video can't play inside the app");
-                        }
-                      }}
+                      class={videoFilter === fid ? 'on' : undefined}
+                      onClick={() => setVideoFilter(fid)}
                     >
-                      Check
+                      {flabel}
                     </button>
-                  </div>
-                ))}
-            </div>
-          </>
-        ) : null}
+                  ))}
+                </div>
+                <div class="adm-card">
+                  {videoSongs
+                    .filter((s) => {
+                      if (videoFilter === 'has') return s.count > 0;
+                      if (videoFilter === 'none') return s.count === 0;
+                      if (videoFilter === 'broken') return s.broken;
+                      return true;
+                    })
+                    .map((s) => (
+                      <div class="att" key={s.id} style={{ flexWrap: 'wrap', gap: '8px' }}>
+                        <b style={{ minWidth: 72, color: 'var(--ribbon)' }}>{s.badge}</b>
+                        <span style={{ flex: 1, minWidth: 160 }}>{s.title}</span>
+                        <span class={`pillx ${s.count > 0 ? 'ok' : 'new'}`}>
+                          {s.count > 0 ? `${s.count} video` : 'No video'}
+                        </span>
+                        <input
+                          type="url"
+                          placeholder="https://youtu.be/..."
+                          value={videoSongInputs[s.id] ?? ''}
+                          onInput={(e) =>
+                            setVideoSongInputs((prev) => ({ ...prev, [s.id]: e.currentTarget.value }))
+                          }
+                          style={{ width: '180px' }}
+                        />
+                        <button
+                          type="button"
+                          class="abtn"
+                          onClick={async () => {
+                            const u = (videoSongInputs[s.id] ?? '').trim();
+                            if (!u) return;
+                            const res = await fetch('/api/admin/oembed', {
+                              method: 'POST',
+                              credentials: 'same-origin',
+                              headers: { 'content-type': 'application/json' },
+                              body: JSON.stringify({ url: u }),
+                            }).catch(() => null);
+                            if (res?.ok) {
+                              setVideoSongs((prev) =>
+                                prev.map((x) => (x.id === s.id ? { ...x, count: x.count + 1 } : x)),
+                              );
+                              setVideoSongInputs((prev) => ({ ...prev, [s.id]: '' }));
+                              setToast(`Verified & staged video for ${s.badge}`);
+                            } else {
+                              setVideoSongs((prev) =>
+                                prev.map((x) => (x.id === s.id ? { ...x, broken: true } : x)),
+                              );
+                              setToast("This video can't play inside the app");
+                            }
+                          }}
+                        >
+                          Check
+                        </button>
+                      </div>
+                    ))}
+                </div>
+              </>
+            ) : null}
 
-        {view !== 'dash' && view !== 'add' && view !== 'reports' && view !== 'media' ? (
-          <div class="adm-card">
-            <h2 style={{ marginTop: 0 }}>{NAV.find((n) => n[0] === view)?.[1]}</h2>
-            <p class="muted">
-              This section is a placeholder. Use Add song, Reports, and Dashboard for live tools. Decap CMS remains at{' '}
-              <a href="/admin/cms/">/admin/cms/</a>.
-            </p>
-            <button type="button" class="abtn" onClick={() => setView('dash')}>
-              <X size={16} strokeWidth={1.75} aria-hidden="true" />
-              Back to Dashboard
-            </button>
-          </div>
-        ) : null}
+            {view !== 'dash' && view !== 'add' && view !== 'reports' && view !== 'media' ? (
+              <div class="adm-card">
+                <h2 style={{ marginTop: 0 }}>{NAV.find((n) => n[0] === view)?.[1]}</h2>
+                <p class="muted">
+                  This section is a placeholder. Use Add song, Reports, and Dashboard for live tools. Decap CMS remains at{' '}
+                  <a href="/admin/cms/">/admin/cms/</a>.
+                </p>
+                <button type="button" class="abtn" onClick={() => setView('dash')}>
+                  <X size={16} strokeWidth={1.75} aria-hidden="true" />
+                  Back to Dashboard
+                </button>
+              </div>
+            ) : null}
           </>
         ) : null}
       </main>

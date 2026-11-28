@@ -120,9 +120,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "DR0ClSHm9bc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Hai Kaisa Kumhar | Action Song For Kids| Hephzibah And Hephzion",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "8NOqbyqwXbc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "yahowa achcha kumhar !! New Hindi Christian song // official Bombai purty // 2022",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "taFIiwOn1kU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yahova Kaisa Kumhar - God The Potter | New Hindi Christian Song 2026",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

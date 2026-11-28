@@ -190,9 +190,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "rrfMOdVbUng",
+      "start": 0,
+      "kind": "lyric",
+      "title": "ASHCHARYA TERE | HINDI WORSHIP SONG - 4K | FT. JERIN ANDREWS & GRACE AHMEDABAD",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "1MDS1VQnTcc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "SHUKRGUZAR | ft. Anish Masih, Vipin Massey, Sharad Simon, Rachika Vaish, Annika Anna | ALIVE Concert",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "getozwPDpNc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Sang Tere | Hindi Christian Song | Nehemiah K ft. Bridge Music, Amit Kamble & Rachel F @RedSeaFilms",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

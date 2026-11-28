@@ -130,9 +130,32 @@
     "page": null
   },
   "chords": "तेरा हो अभिषेक, अमन के राजकुमार\n\n                       F                C                           F\n     कोरसः-\tतेरा हो अभिषेक, अमन के राजकुमार।\n                 Bb             C\n\t\t      आज हमारे दिल में जनम ले,\n                              F\n\t       \tहे प्रभु यीशु महान।\n\n         F              Bb                    F\nघोर अंधेरा था, राहें उलझी थीं,\n         F                    Bb                      F\n      यह ज़मी कुछ थी, आसमां कुछ था,\n      F               Bb\n      तूने आकर फिर संभाला (2)\n      C           F\n      तेरा प्रेम अपार।\n\n         F              Bb                   F\nक्या चढ़ाएँ हम, भेंट में तुझको,\n     F               Bb                           F\n      सोना, मुर्र, लोबान, पास न देने को,\n         F               Bb\n      वर दे ऐसा तुझ पे कर दें (2)\n         C                  F\n      जीवन अपना निसार।\n                                                                   (G/16)\n                                                                                                                           The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "ZS52y7ehZqM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Christmas Song - तेरा हो अभिषेक, अमन के राजकुमार Tera ho abhishek",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hs_fl4kHJsU",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera ho abhishek Aman ke rajkumaar",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zsVsGEJdwf8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Tera Ho Abhishek, Aman Ke Rajkumar | Best Hindi Christmas Worship Song | Jesus Christ Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

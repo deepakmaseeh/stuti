@@ -123,9 +123,32 @@
     "page": null
   },
   "chords": "ए दुनियां के लोगों, ऊँची आवाज़ करो,\n\n      Em             D       Em               D\nए दुनियां के लोगों, ऊँची आवाज़ करो,\nC                  D        C      D       Em\nगाओ ख़ुशी के गीत, उसका गुणगान करो,\n    D                              Em\nइबादत करो उसकी, इबादत करो (2)\n\n             Em     C        D          Em     D            C      D         Em\nयाद रखो कि वही एक ख़ुदा है, हम को ये जीवन उसी ने दिया है\nEm     C      D               Em     D    C        D          Em\nउस चारागाह से हम सब हैं आये, हम्दो सन्ना के हम गीत गाए\nEm                 D      Em               D\nरब का तुम शुक्र करो, ऊँची आवाज़ करो\n       C                  D     C        D        Em\n      गाओ ख़ुशी के गीत, उसका गुणगान करो\n          D                             Em\n     इबादत करो उसकी इबादत करो (2)\n\n        Em       C     D      Em       D         C    D        Em\nनामे खुदावंद कितना मुबारक, मेरा खुदावंद कितना भला है\nEm            C    D       Em    D          C          D            Em\n     रहमत है उसकी सदियों पुरानी, वफ़ा का असर से यही सिलसिला है\n            Em         D    Em                  D\n उस पर ईमान धरो, उसके घर आओ चलो\n      C                  D    C        D        Em\n गाओ ख़ुशी के गीत, उसका गुणगान करो\n             D                            Em\n     इबादत करो उसकी इबादत करो (2)\n                                                                         (A/41)\n                                                                                                                                    The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "TDSJHrG607Q",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Ibadat karo Lyrics(Christian song)Psalm 100(Anil kant)",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "DsqOHLR5Dxg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "IBADAT KARO - Psalm 100 | ANIL KANT",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "sfm9XXqvMRc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aye duniya ke logo unchi awaz karo Jesus short video/Jesus WhatsApp status/Jesus status#Shorts",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -84,9 +84,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "nJoB5XCQ5gs",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Cedarmont Kids - I'm In The Lord's Army",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "zeuoPQznpFo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I'm In the Lord's Army, Yes Sir! / plus more Bible songs for kids",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "9FqmiGwTqh4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "I’M IN THE LORD’S ARMY",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

@@ -136,9 +136,32 @@
     "page": null
   },
   "chords": "गुनहगारों को देने सहारा, आया चरनी में तारणहारा;\n\n\n          F                        Bb            C                  F\nकोरस:-  गुनहगारों को देने सहारा, आया चरनी में तारणहारा;\n          F                        Bb            C                  F\n          मुँजी प्यारा मसीह हमारा, आया चरनी में तारणहारा ।\n\n\n         F                       C          Bb            C      F\nमैदानों में करते रखवाली, चमकी रोशनी खूब निराली । (2)\n F                        Bb        C                        F\nपैदा हुआ है यीशु जलाली, मरियम की आँखों का तारा । (2)\n\n\n         F                          C       Bb         C          F\nतीन बादशाह पूरब से आए, सोना मुर्र लोबान वे लाए । (2)\n F              Bb               C                      F\nअपनी भेंटें उसको चढ़ाएं, बादशाहों का पालनहारा । (2)\n\n\n         F                          C                 Bb    C    F\nहम भी उसके द्वार पे जाएं, अपना जीवन भेंट चढ़ाएं । (2)\n F                           Bb           C               F\nउसकी जय और सन्ना गाएं, हमें अपनी जान से प्यारा । (2)",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "CFd_5yeKLyk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gunehgaron Ko Dene Sahara (गुनहगारों को देने सहारा) | Christmas Worship | Mahi Gospel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "rEYTw_pvvm4",
+      "start": 0,
+      "kind": "lyric",
+      "title": "गुनहगारों को देने सहारा | आया चरनी में तारणहारा | Hindi Christian Christmas Song 2026 | Cover",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "u17jTKVSNoQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Gunehgaaron ko | Official Music Video | Music for Jesus | with lyrics | Dene sahara",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

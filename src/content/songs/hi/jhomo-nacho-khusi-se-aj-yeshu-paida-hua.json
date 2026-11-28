@@ -141,9 +141,32 @@
     "page": null
   },
   "chords": "झूमों नाचों खुशी से आज, यीशु पैदा हुआ\n\n                     Em                     D          C  Em\n             कोरस:-  झूमों नाचो खुशी से आज, यीशु पैदा हुआ (2)\n             Em             D                          C                     D\n            यीशु पैदा हुआ, हो, हो, यीशु पैदा हुआ, हो, हो, यीशु पैदा हुआ\n             Em                   D           C      D\n            झूमों नाचों खुशी से आज, यीशु पैदा हुआ (2)\n\n         Em          D                C          Em\nबैतलहम की छोटी नगरिया चमका सितारा रे\nEm             D              C          Em\n       चरनी में आया यीशु मसीहा, दुतों ने गाया रे\n       Em                 D                             C                        D\n       प्रभु सबका आया, हो, हो यीशु सबका आया, हो, हो यीशु सबका आया\n\n         Em           D               C      Em\nराजा सब घबरा ही गए, यीशु के आने से\nEm                 D        C           Em\n       द्वार-द्वार ढूढ़ंवाया यीशु को, पाया पता न रे\n        Em                 D                         C                       D\n       यीशु राजा आया, हो, हो यीशु राजा आया, हो, हो यीशु राजा आया\n\n        Em           D                  C          Em\nआनन्द खुशियाँ आयी जगत में, यीशु के आने से\n Em           D               C           Em\n       ज्योति मुक्ति आयी जगत में, यीशु के आने से\n         Em                D                           C                     D\n       मुक्तिदाता आया, हो, हो मुक्तिदाता आया, हो, हो मुक्तिदाता आया,\n\n                                                                       (G/8)\n                                                                                                                             The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "S5Q8CdEjrsk",
+      "start": 0,
+      "kind": "lyric",
+      "title": "झूमो नाचों खुशी से आज यीशु पैदा हुआ//christmas dance video 2022.2023//yeshu paida hua",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "jEzQSFqeR2o",
+      "start": 0,
+      "kind": "lyric",
+      "title": "झूमो नाचो खुशी से आज,यीशु पैदा हुआ| Jhumo Nacho Khushi Se Aaj Yeshu Paida Hua | Hindi Christmas Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "WCxy2XiQ7iY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Yeshu Paida Hua",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

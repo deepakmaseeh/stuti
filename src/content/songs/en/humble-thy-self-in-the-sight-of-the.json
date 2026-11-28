@@ -98,9 +98,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "sU8MAQKSbEI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Humble Thyself in the Sight of the Lord",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "GC-fIhAWh5c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Humble Thyself In The Sight Of The Lord (Song Lyric Video) _ Maranatha! Kids Praise Company",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "hh3msvFU0Ws",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Humble Thyself in the Sight of the Lord",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

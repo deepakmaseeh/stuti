@@ -120,9 +120,32 @@
     "page": null
   },
   "chords": "मैंने है पाया तुझसे प्रभु जी\n\n                   Dm             C              Bb\nकोरसः-\tमैंने है पाया तुझसे प्रभु जी\n                   Dm                      C            Dm\n\t      सब कुछ है उत्तम जो मुझे दिया।\n\n         Dm                         C                   Dm\nजीवन की यात्रा में आज तक चला मैं (2)p\n                     C            Dm\n      पूरे समय मेरा साथ है दिया (2)\n         C                     Bb             Dm\n      एबेनेजर बनकर तू ही तो प्रभुजी (2)\n                  C                  Bb     Dm\n      मेरा सहायक और रक्षक हुआ (2)\n\n           Dm                     C                Dm\nआँधी तूफानों के बीच से मैं आया (2)\n                                 C            Dm\n      अन्धकार की शक्तियाँ प्रबल जो थी (2)\n         C                               Bb     Dm\n      पंखों में मुझको छिपा कर प्रभुजी (2)\n                C                   Bb     Dm\n      मेरा सहायक और रक्षक हुआ (2)\n\n         Dm                         C          Dm\nदुःख की घड़ी जब मुझ पर आई (2)\n                                   C          Dm\n      पास रहकर वह अपना आनन्द दिया (2)\n          C                                Bb            Dm\n      भय और निराशा के समय में प्रभु जी (2)\n                    C               Bb     Dm\n      तू ही मुझे बड़ा हियाव दिया  (2)\n                                                                             (D/35)\n                                                                                The Lucknow Baptist Church Lucknow",
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0PTLPxZSmk8",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine hai paya tujhse Prabhuji || मैंने है पाया तुझसे प्रभुजी || T. Emmanuel || Songs of Zion",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "3CI6G7vVZFw",
+      "start": 0,
+      "kind": "lyric",
+      "title": "मैंने है पाया तुझसे प्रभु जी हिंदी क्रिश्चियन गाना 2025 का ll ✝️🙏 #hebron #jesus #bible",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "wQ9zGhyghIE",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Maine Dhoondha Ye Sara Jahan",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

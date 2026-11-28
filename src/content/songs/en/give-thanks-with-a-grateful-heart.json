@@ -93,9 +93,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "cIsAGwTpfmc",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Give Thanks to God ❤️ | Christian Kids Song | 1 Thessalonians 5:18 | Kids Praise & Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "blbslHDgceY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Don Moen - Give Thanks | Live Worship Sessions",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "w00O7hdGOsM",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Give Thanks - THE ASIDORS 2024 COVERS | Christian Worship Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

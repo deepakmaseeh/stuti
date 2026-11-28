@@ -81,9 +81,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "LiDOkj5n4AQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Khushi Khushi Manao, Bolo Bolo Masih ki Jai Jai | New Hindi Christian Song | New Yeshu Song Hindi",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "SO_MLfzt96Y",
+      "start": 0,
+      "kind": "lyric",
+      "title": "खुशी खुशी मनाओ | (Lyrics) - Hindi Christian Song |",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "myF20ukqB4c",
+      "start": 0,
+      "kind": "lyric",
+      "title": "khushi khushi manao khushi khushi manao bolo bolo masiha ki jai jai amazing christian song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

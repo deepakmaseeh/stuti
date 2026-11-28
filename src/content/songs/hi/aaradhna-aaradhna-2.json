@@ -169,9 +169,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "0Qw7ZvEccTg",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aaradhna Teri Aaradhana (Official Music Video) | New Hindi Christian Song | Mahi Gospel",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "V2X1X1Lm0do",
+      "start": 0,
+      "kind": "lyric",
+      "title": "Aradhana Yeshu Aradhana - Ramya Behra | Hindi Christian Song",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "VDVb7oNLvTA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "TERI AARADHANA | Ft. Jessy Robin, Robinson Shalu, Philemon Anand, Sofia Shalu | One Tribe",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

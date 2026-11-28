@@ -97,9 +97,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "UV0ISnjtVoA",
+      "start": 0,
+      "kind": "lyric",
+      "title": "आदर के योग्य और महिमा के योग्य और | Song no. 4 | 30.04.2022",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "K9k45yiwXlo",
+      "start": 0,
+      "kind": "lyric",
+      "title": "//आदर के योग्य येशु//Aadar ke Yogyo//New Hindi Worship Song//Sister Moluben,Bro Vipul",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "-7FH0aS8WNI",
+      "start": 0,
+      "kind": "lyric",
+      "title": "🕊️ ✝️ तू ही योग्य है, आदर के योग्य है | Hindi Christian Worship Song 2026 | Powerful Jesus Worship",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }

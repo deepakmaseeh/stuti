@@ -109,9 +109,32 @@
     "page": null
   },
   "chords": null,
-  "media": {
-    "youtube": null
-  },
+  "media": [
+    {
+      "youtubeId": "BWNXXtSGufY",
+      "start": 0,
+      "kind": "lyric",
+      "title": "होवेगी बरकत की बारिश | Hovegi Barkat Ki Barish | Hindi Christian Classic | Hozanna Songs",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "nGM1uwoYPF0",
+      "start": 0,
+      "kind": "lyric",
+      "title": "होवेगी बरकत की बारिश | Hovegi Barkat Ki Baarish | Masih Bhajan | Lyrical | #masihigeethindi #jesus",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "youtubeId": "XHLAkKpVYNQ",
+      "start": 0,
+      "kind": "lyric",
+      "title": "होवेगी बरकत की बारिश | Hovegi Barkat Ki Baarish #jesus #jesussongs #christiansongs #worshipmusic",
+      "status": "ok",
+      "checkedAt": "2026-11-28"
+    }
+  ],
   "updated": "2026-11-19",
   "publish": true
 }
