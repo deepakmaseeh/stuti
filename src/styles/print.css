@@ -283,8 +283,165 @@ table.oos tr.song td {
     display: table-header-group;
   }
   .a4,
-  .lyr-page {
+  .lyr-page,
+  .lyr-a4 {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+}
+
+/* Lyrics PDF Preview (/print/lyrics/) */
+.lyr-print-root {
+  padding-bottom: 84px;
+}
+.lyr-print-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 6px 12px;
+  background: var(--bar);
+  color: var(--gold);
+  margin-bottom: 16px;
+}
+.lyr-print-top .icon-btn {
+  color: var(--gold);
+}
+.lyr-print-top__title {
+  flex: 1;
+  min-width: 0;
+  font: 600 15px / 1.3 var(--font-sans);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lyr-pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.lyr-page-wrap {
+  position: relative;
+}
+.lyr-a4 {
+  width: 794px;
+  min-height: 1123px;
+  background: #fff;
+  color: #1f1714;
+  padding: 48px 52px 56px;
+  box-shadow: 0 12px 36px oklch(0.2 0.03 20 / 0.16);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.lyr-a4__head {
+  border-bottom: 2px solid #2e1418;
+  padding-bottom: 14px;
+  margin-bottom: 22px;
+}
+.lyr-a4__badge {
+  display: inline-block;
+  font: 700 12px / 1 var(--font-sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8b2635;
+  margin-bottom: 6px;
+}
+.lyr-a4__title {
+  margin: 0;
+  font: 700 26px / 1.2 var(--font-display, Georgia, serif);
+  color: #2e1418;
+}
+.lyr-a4__sub {
+  margin: 4px 0 0;
+  font: italic 15px / 1.35 var(--font-sans);
+  color: #6b635a;
+}
+.lyr-a4__body {
+  flex: 1;
+}
+.lyr-a4__sec {
+  margin-bottom: 18px;
+}
+.lyr-a4__sec--chorus {
+  border-left: 3px solid #8b2635;
+  background: #faf5f0;
+  padding: 10px 14px;
+  border-radius: 0 10px 10px 0;
+}
+.lyr-a4__sec-label {
+  font: 700 11px / 1.2 var(--font-sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8b2635;
+  margin-bottom: 6px;
+}
+.lyr-a4__line {
+  margin-bottom: 5px;
+}
+.lyr-a4__n {
+  display: block;
+  font: 500 17px / 1.5 var(--font-hindi, sans-serif);
+}
+.lyr-a4__r {
+  display: block;
+  font: italic 14px / 1.4 var(--font-sans);
+  color: #6b635a;
+}
+.lyr-a4__rep {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border-radius: 6px;
+  font: 700 11px var(--font-sans);
+  background: #f3e4bc;
+  color: #5c4a1e;
+}
+.lyr-a4__foot {
+  border-top: 1px solid #dfd7cc;
+  padding-top: 10px;
+  margin-top: 18px;
+  font: 600 11px var(--font-sans);
+  color: #6b635a;
+}
+.lyr-print-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 12px 16px;
+  background: var(--surface, #fff);
+  border-top: 1px solid var(--line, #e4dcd0);
+  display: flex;
+  justify-content: center;
+  z-index: 30;
+}
+.lyr-print-bar .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+}
+
+@media print {
+  body.print-lyrics-page .lyr-print-root {
+    padding-bottom: 0;
+  }
+  body.print-lyrics-page .lyr-page-wrap {
+    width: auto !important;
+    height: auto !important;
+  }
+  body.print-lyrics-page .lyr-a4 {
+    transform: none !important;
+    width: 210mm;
+    min-height: 297mm;
+    box-shadow: none;
+    margin: 0;
+    padding: 14mm 15mm;
+    break-after: page;
+  }
+  body.print-lyrics-page .lyr-page-wrap:last-child .lyr-a4 {
+    break-after: auto;
   }
 }

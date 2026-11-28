@@ -225,12 +225,12 @@ export default function ShareSheet({ open, onClose, set, titles = {} }: Props) {
           <Tile label="Order of service" href={`/sets/print/?id=${encodeURIComponent(set.id)}`}>
             <Printer size={24} strokeWidth={1.75} />
           </Tile>
-          <Tile label="PowerPoint" disabled={building} onClick={() => void exportPpt()}>
-            {building ? <Check size={24} strokeWidth={1.75} /> : <Presentation size={24} strokeWidth={1.75} />}
+          <Tile label="PowerPoint" href={`/slides/?set=${encodeURIComponent(set.id)}`}>
+            <Presentation size={24} strokeWidth={1.75} />
           </Tile>
           <Tile
             label="Lyrics PDF"
-            href={`/sets/print/?id=${encodeURIComponent(set.id)}&copy=cong&lyrics=1`}
+            href={`/print/lyrics/?set=${encodeURIComponent(set.id)}`}
           >
             <FileText size={24} strokeWidth={1.75} />
           </Tile>

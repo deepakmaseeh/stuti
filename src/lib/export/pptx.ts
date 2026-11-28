@@ -160,6 +160,61 @@ export async function downloadSetPptx(
           color: 'F7F2EA',
         });
       }
+    } else if (s.kind === 'custom') {
+      if (s.style !== 'blank') {
+        if (s.title) {
+          sl.addText(s.title, {
+            x: 0.8,
+            y: s.body ? 1.8 : 2.9,
+            w: 11.7,
+            h: 0.9,
+            align: 'center',
+            fontFace: s.style === 'verse' ? 'Domine' : 'Segoe UI',
+            fontSize: s.style === 'verse' ? 24 : 36,
+            bold: true,
+            color: 'E9C46A',
+          });
+        }
+        if (s.body) {
+          sl.addText(s.body, {
+            x: 0.8,
+            y: s.title ? 2.9 : 2.1,
+            w: 11.7,
+            h: 2.8,
+            align: 'center',
+            valign: 'middle',
+            italic: s.style === 'verse',
+            fontFace: 'Segoe UI',
+            fontSize: 26,
+            color: 'F7F2EA',
+            lineSpacingMultiple: 1.3,
+          });
+        }
+      }
+    } else if (s.kind === 'note') {
+      sl.addText(`${s.book} ${s.no} · ${s.stanza}`.trim(), {
+        x: 0.6,
+        y: 1.8,
+        w: 12.1,
+        h: 0.5,
+        align: 'center',
+        fontFace: 'Segoe UI',
+        fontSize: 16,
+        bold: true,
+        color: 'E9C46A',
+      });
+      sl.addText(s.text, {
+        x: 1.0,
+        y: 2.6,
+        w: 11.3,
+        h: 2.4,
+        align: 'center',
+        valign: 'middle',
+        fontFace: 'Segoe UI',
+        fontSize: 28,
+        color: 'F7F2EA',
+      });
+      sl.addNotes(`Next: ${s.next}`);
     } else if (s.kind === 'lyrics') {
       sl.addText(`${s.book} ${s.no}`.trim(), {
         x: 0.4,
@@ -215,6 +270,19 @@ export async function downloadSetPptx(
           fontFace: 'Segoe UI',
           fontSize: 18,
           color: 'E9D8A6',
+        });
+      }
+      if (s.note) {
+        sl.addText(s.note, {
+          x: 0.8,
+          y: 0.25,
+          w: 11.7,
+          h: 0.4,
+          align: 'center',
+          fontFace: 'Segoe UI',
+          fontSize: 14,
+          italic: true,
+          color: 'E9C46A',
         });
       }
       sl.addNotes(`Next: ${s.next}`);

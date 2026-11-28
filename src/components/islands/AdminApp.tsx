@@ -18,6 +18,8 @@ import {
   X,
 } from 'lucide-preact';
 import { splitPastedSong, type SplitStanza } from '../../lib/paste-split';
+import { loadMeta } from '../../lib/search';
+import type { BookBundle } from '../../lib/book-bundle';
 
 const DRAFT_KEY = 'stuti-admin-draft-v1';
 const FIXED_KEY = 'stuti-admin-fixed-ids';
@@ -52,6 +54,7 @@ function buildSongJson(opts: {
   rights: 'public_domain' | 'licensed' | 'permission_pending' | 'unknown';
   topics: string;
   ytUrl: string;
+  ytVideos?: { url: string; label: string }[];
   stanzas: SplitStanza[];
   publish: boolean;
 }) {
@@ -99,9 +102,12 @@ function buildSongJson(opts: {
       layers: { roman: 'missing', en: 'missing' },
       source: { scan: 'admin-paste', page: null },
       chords: null,
-      media: {
-        youtube: opts.ytUrl.trim() || null,
-      },
+      media:
+        opts.ytVideos && opts.ytVideos.length > 0
+          ? opts.ytVideos.map((v) => ({ type: 'youtube', url: v.url, label: v.label }))
+          : opts.ytUrl.trim()
+            ? [{ type: 'youtube', url: opts.ytUrl.trim(), label: 'YouTube' }]
+            : [],
       updated: today(),
       publish: opts.publish && rightsStatus !== 'permission_pending',
     },
@@ -185,6 +191,10 @@ export default function AdminApp({
   const [topics, setTopics] = useState('Christmas');
   const [ytUrl, setYtUrl] = useState('');
   const [ytStatus, setYtStatus] = useState<string | null>(null);
+  const [ytVideos, setYtVideos] = useState<{ url: string; label: string }[]>([]);
+  const [videoFilter, setVideoFilter] = useState<'all' | 'has' | 'none' | 'broken'>('all');
+  const [videoSongs, setVideoSongs] = useState<{ id: string; title: string; badge: string; count: number; broken: boolean }[]>([]);
+  const [videoSongInputs, setVideoSongInputs] = useState<Record<string, string>>({});
   const [toast, setToast] = useState<string | null>(null);
   const [reports, setReports] = useState<SheetReport[]>([]);
   const [sheetUrl, setSheetUrl] = useState<string | null>(null);
@@ -382,6 +392,7 @@ export default function AdminApp({
       rights,
       topics,
       ytUrl,
+      ytVideos,
       stanzas,
       publish: true,
     });
@@ -449,25 +460,68 @@ export default function AdminApp({
   };
 
   const checkYoutube = async () => {
-    if (!ytUrl.trim()) return;
+    const targetUrl = ytUrl.trim();
+    if (!targetUrl) return;
     setYtStatus('Checking…');
     try {
       const res = await fetch('/api/admin/oembed', {
         method: 'POST',
         credentials: 'same-origin',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ url: ytUrl.trim() }),
+        body: JSON.stringify({ url: targetUrl }),
       });
       if (res.status === 403) {
         setNeedsLogin(true);
         setYtStatus('Sign in with the admin password to verify');
         return;
       }
-      setYtStatus(res.ok ? 'Embed allowed (OK)' : "This video can't play inside the app");
+      if (res.ok) {
+        const data = (await res.json().catch(() => ({}))) as { title?: string };
+        setYtVideos((prev) =>
+          prev.some((v) => v.url === targetUrl)
+            ? prev
+            : [...prev, { url: targetUrl, label: data.title || 'YouTube' }],
+        );
+        setYtUrl('');
+        setYtStatus('Embed allowed (OK) — added to list');
+      } else {
+        setYtStatus("This video can't play inside the app");
+      }
     } catch {
       setYtStatus('Offline — could not verify');
     }
   };
+
+  useEffect(() => {
+    if (view !== 'media' || videoSongs.length > 0) return;
+    loadMeta()
+      .then(async (meta) => {
+        const rows: { id: string; title: string; badge: string; count: number; broken: boolean }[] = [];
+        const bundles: Record<string, BookBundle> = {};
+        await Promise.all(
+          books.map(async (b) => {
+            const res = await fetch(`/data/books/${encodeURIComponent(b.id)}.json`).catch(() => null);
+            if (res?.ok) bundles[b.id] = (await res.json()) as BookBundle;
+          }),
+        );
+        for (const [id, m] of Object.entries(meta)) {
+          const [b, n = ''] = (m?.[3] ?? '').trim().split(/\s+/);
+          const s = b ? bundles[b]?.songs?.[id] : undefined;
+          const mediaCount = Array.isArray((s as { media?: unknown[] } | undefined)?.media)
+            ? ((s as { media?: unknown[] }).media?.length ?? 0)
+            : 0;
+          rows.push({
+            id,
+            title: m?.[0] ?? id,
+            badge: b ? `${b} ${n}`.trim() : id,
+            count: mediaCount,
+            broken: false,
+          });
+        }
+        setVideoSongs(rows.slice(0, 120));
+      })
+      .catch(() => {});
+  }, [view]);
 
   return (
     <div class="adm">
@@ -784,9 +838,28 @@ export default function AdminApp({
                     onClick={() => void checkYoutube()}
                   >
                     <Eye size={16} strokeWidth={1.75} aria-hidden="true" />
-                    Check embeddable
+                    Check &amp; add video
                   </button>
                   {ytStatus ? <p class="muted sm" style={{ marginTop: 8 }}>{ytStatus}</p> : null}
+                  {ytVideos.length > 0 ? (
+                    <div style={{ marginTop: 10 }}>
+                      {ytVideos.map((v, vi) => (
+                        <div key={v.url} class="att" style={{ padding: '6px 0' }}>
+                          <span style={{ flex: 1, fontSize: '13px', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                            {v.label}
+                          </span>
+                          <button
+                            type="button"
+                            class="ib ink"
+                            aria-label="Remove video"
+                            onClick={() => setYtVideos((prev) => prev.filter((_, i2) => i2 !== vi))}
+                          >
+                            <X size={14} aria-hidden="true" />
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
                 </div>
               </div>
             </div>
@@ -837,7 +910,89 @@ export default function AdminApp({
           </>
         ) : null}
 
-        {view !== 'dash' && view !== 'add' && view !== 'reports' ? (
+        {view === 'media' ? (
+          <>
+            <div class="ahead">
+              <h1>Videos</h1>
+            </div>
+            <div class="segtabs" style={{ marginBottom: 14 }}>
+              {(
+                [
+                  ['all', 'All songs'],
+                  ['has', 'Has video'],
+                  ['none', 'No video'],
+                  ['broken', 'Broken links'],
+                ] as const
+              ).map(([fid, flabel]) => (
+                <button
+                  key={fid}
+                  type="button"
+                  class={videoFilter === fid ? 'on' : undefined}
+                  onClick={() => setVideoFilter(fid)}
+                >
+                  {flabel}
+                </button>
+              ))}
+            </div>
+            <div class="adm-card">
+              {videoSongs
+                .filter((s) => {
+                  if (videoFilter === 'has') return s.count > 0;
+                  if (videoFilter === 'none') return s.count === 0;
+                  if (videoFilter === 'broken') return s.broken;
+                  return true;
+                })
+                .map((s) => (
+                  <div class="att" key={s.id} style={{ flexWrap: 'wrap', gap: '8px' }}>
+                    <b style={{ minWidth: 72, color: 'var(--ribbon)' }}>{s.badge}</b>
+                    <span style={{ flex: 1, minWidth: 160 }}>{s.title}</span>
+                    <span class={`pillx ${s.count > 0 ? 'ok' : 'new'}`}>
+                      {s.count > 0 ? `${s.count} video` : 'No video'}
+                    </span>
+                    <input
+                      type="url"
+                      placeholder="https://youtu.be/..."
+                      value={videoSongInputs[s.id] ?? ''}
+                      onInput={(e) =>
+                        setVideoSongInputs((prev) => ({ ...prev, [s.id]: e.currentTarget.value }))
+                      }
+                      style={{ width: '180px' }}
+                    />
+                    <button
+                      type="button"
+                      class="abtn"
+                      onClick={async () => {
+                        const u = (videoSongInputs[s.id] ?? '').trim();
+                        if (!u) return;
+                        const res = await fetch('/api/admin/oembed', {
+                          method: 'POST',
+                          credentials: 'same-origin',
+                          headers: { 'content-type': 'application/json' },
+                          body: JSON.stringify({ url: u }),
+                        }).catch(() => null);
+                        if (res?.ok) {
+                          setVideoSongs((prev) =>
+                            prev.map((x) => (x.id === s.id ? { ...x, count: x.count + 1 } : x)),
+                          );
+                          setVideoSongInputs((prev) => ({ ...prev, [s.id]: '' }));
+                          setToast(`Verified & staged video for ${s.badge}`);
+                        } else {
+                          setVideoSongs((prev) =>
+                            prev.map((x) => (x.id === s.id ? { ...x, broken: true } : x)),
+                          );
+                          setToast("This video can't play inside the app");
+                        }
+                      }}
+                    >
+                      Check
+                    </button>
+                  </div>
+                ))}
+            </div>
+          </>
+        ) : null}
+
+        {view !== 'dash' && view !== 'add' && view !== 'reports' && view !== 'media' ? (
           <div class="adm-card">
             <h2 style={{ marginTop: 0 }}>{NAV.find((n) => n[0] === view)?.[1]}</h2>
             <p class="muted">

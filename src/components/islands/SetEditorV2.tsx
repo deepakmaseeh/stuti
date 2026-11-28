@@ -1,5 +1,6 @@
 import type { ComponentChildren } from 'preact';
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { GripVertical, Pencil, Presentation, X } from 'lucide-preact';
 import { t } from '../../i18n';
 import { loadMeta, loadNumbers, type MetaRow, type NumbersMap } from '../../lib/search';
 import {
@@ -9,7 +10,7 @@ import {
   getSet,
   hydrateSets,
   listenSetsChanged,
-  moveItemInSet,
+  moveRowInSet,
   removeItem,
   serviceLabel,
   setActive,
@@ -19,11 +20,13 @@ import {
   type ServiceType,
   type WorshipSet,
 } from '../../lib/sets';
+import type { SlideRow, SlideStyle, SongRow, VerseNote } from '../../lib/sets/schema';
 import { isParseAddHit, parseAdd } from '../../lib/sets/parseAdd';
 import { readPrefs } from '../../lib/prefs';
 import { showToast } from '../../lib/toast';
 import { site } from '../../site.config';
 import ShareSheet from './ShareSheet';
+import Sheet from './Sheet';
 import SongsPicker from './SongsPicker';
 
 const KEY_CHIPS = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'Ab', 'A', 'Bb', 'B'] as const;
@@ -86,6 +89,17 @@ export default function SetEditorV2() {
   const [expandedUid, setExpandedUid] = useState<string | null>(null);
   const [renamingUid, setRenamingUid] = useState<string | null>(null);
   const [musician, setMusician] = useState(false);
+  const [slideOpen, setSlideOpen] = useState(false);
+  const [slideAfterIdx, setSlideAfterIdx] = useState<number | null>(null);
+  const [slideStyle, setSlideStyle] = useState<SlideStyle>('text');
+  const [slideTitle, setSlideTitle] = useState('');
+  const [slideBody, setSlideBody] = useState('');
+  const [noteSt, setNoteSt] = useState('v1');
+  const [noteText, setNoteText] = useState('');
+  const [noteMode, setNoteMode] = useState<'inline' | 'slide'>('inline');
+  const [dragIdx, setDragIdx] = useState<number | null>(null);
+  const [liveMsg, setLiveMsg] = useState('');
+  const titleInputRef = useRef<HTMLInputElement>(null);
   const savedTimer = useRef<ReturnType<typeof setTimeout>>();
 
   useEffect(() => {
@@ -239,12 +253,27 @@ export default function SetEditorV2() {
 
         <label class="field">
           <span class="field__label">{t('set.titleLabel')}</span>
-          <input
-            class="field__input set-editor-v2__title-input"
-            value={set.title}
-            maxLength={80}
-            onInput={(e) => patch(set.id, { title: e.currentTarget.value })}
-          />
+          <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
+            <input
+              ref={titleInputRef}
+              class="field__input set-editor-v2__title-input"
+              value={set.title}
+              maxLength={80}
+              onInput={(e) => patch(set.id, { title: e.currentTarget.value })}
+            />
+            <button
+              type="button"
+              class="ib ink"
+              aria-label="Rename set"
+              title="Rename set"
+              onClick={() => {
+                titleInputRef.current?.focus();
+                titleInputRef.current?.select();
+              }}
+            >
+              <Pencil size={18} strokeWidth={1.75} aria-hidden="true" />
+            </button>
+          </div>
         </label>
 
         <div class="set-editor-v2__meta-row">
@@ -349,12 +378,28 @@ export default function SetEditorV2() {
             </Icon>
           </button>
         </div>
-        <button type="button" class="btn btn--secondary set-editor-v2__songs-btn" onClick={() => setSongsOpen(true)}>
-          <Icon>
-            <path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01" />
-          </Icon>
-          <span>{t('set.songsBtn')}</span>
-        </button>
+        <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
+          <button type="button" class="btn btn--secondary set-editor-v2__songs-btn" onClick={() => setSongsOpen(true)}>
+            <Icon>
+              <path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01" />
+            </Icon>
+            <span>{t('set.songsBtn')}</span>
+          </button>
+          <button
+            type="button"
+            class="btn btn--secondary"
+            onClick={() => {
+              setSlideAfterIdx(null);
+              setSlideStyle('text');
+              setSlideTitle('');
+              setSlideBody('');
+              setSlideOpen(true);
+            }}
+          >
+            <Presentation size={18} strokeWidth={1.75} aria-hidden="true" />
+            <span>New slide</span>
+          </button>
+        </div>
 
         <div class="set-editor-v2__heading-add">
           <input
@@ -393,21 +438,41 @@ export default function SetEditorV2() {
         </div>
       </div>
 
+      <div class="visually-hidden" aria-live="polite">
+        {liveMsg}
+      </div>
       <ol class="set-editor-v2__list">
-        {set.items.map((it, idx) => {
+        {set.rows.map((r, idx) => {
           const nextIsHeading =
-            idx === set.items.length - 1 || set.items[idx + 1]?.kind === 'heading';
-          if (it.kind === 'heading') {
-            const isTarget = it.uid === effectiveTarget;
+            idx === set.rows.length - 1 || set.rows[idx + 1]?.k === 'h';
+          const doMove = (from: number, to: number) => {
+            moveRowInSet(set.id, from, to);
+            flashSaved();
+            setLiveMsg(`Moved to position ${to + 1}`);
+          };
+
+          if (r.k === 'h') {
+            const isTarget = r.id === effectiveTarget;
             const emptySection = nextIsHeading;
-            const isRenaming = renamingUid === it.uid;
+            const isRenaming = renamingUid === r.id;
             return (
-              <li class={`shead${isTarget ? ' target' : ''}`} key={it.uid}>
+              <li
+                class={`shead${isTarget ? ' target' : ''}`}
+                key={r.id}
+                draggable
+                onDragStart={() => setDragIdx(idx)}
+                onDragOver={(e) => e.preventDefault()}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  if (dragIdx !== null && dragIdx !== idx) doMove(dragIdx, idx);
+                  setDragIdx(null);
+                }}
+              >
                 {isRenaming ? (
                   <input
                     class="field__input"
                     type="text"
-                    value={it.text}
+                    value={r.label}
                     maxLength={40}
                     autoFocus
                     aria-label={t('set.addHeading')}
@@ -416,10 +481,10 @@ export default function SetEditorV2() {
                       if (e.key === 'Enter' || e.key === 'Escape') setRenamingUid(null);
                     }}
                     onInput={(e) => {
-                      const text = e.currentTarget.value;
+                      const label = e.currentTarget.value;
                       patch(set.id, {
-                        items: set.items.map((x) =>
-                          x.uid === it.uid && x.kind === 'heading' ? { ...x, text } : x,
+                        rows: set.rows.map((x) =>
+                          x.id === r.id && x.k === 'h' ? { ...x, label } : x,
                         ),
                       });
                     }}
@@ -429,10 +494,10 @@ export default function SetEditorV2() {
                     type="button"
                     class="nm"
                     style={{ background: 'none', border: 0, padding: 0 }}
-                    onClick={() => setRenamingUid(it.uid)}
+                    onClick={() => setRenamingUid(r.id)}
                     title="Click to rename section"
                   >
-                    {it.text}
+                    {r.label}
                     {emptySection ? <span class="em"> · empty</span> : null}
                   </button>
                 )}
@@ -443,7 +508,7 @@ export default function SetEditorV2() {
                   aria-label={t('set.addSongHere')}
                   title={t('set.addSongHere')}
                   onClick={() => {
-                    setTargetHeading(it.uid);
+                    setTargetHeading(r.id);
                     const inp = document.querySelector<HTMLInputElement>('.set-editor-v2__quick input');
                     inp?.focus();
                   }}
@@ -457,7 +522,7 @@ export default function SetEditorV2() {
                   class="ib ink"
                   aria-label={t('set.remove')}
                   onClick={() => {
-                    removeItem(set.id, it.uid);
+                    removeItem(set.id, r.id);
                     flashSaved();
                   }}
                 >
@@ -468,28 +533,132 @@ export default function SetEditorV2() {
               </li>
             );
           }
-          const songIndex = songs.findIndex((s) => s.uid === it.uid);
-          const title = meta?.[it.songId]?.[0] ?? it.songId;
+
+          if (r.k === 'slide') {
+            const isExpanded = expandedUid === r.id;
+            return (
+              <li
+                class="set-editor-v2__row-wrap"
+                key={r.id}
+                draggable
+                onDragStart={() => setDragIdx(idx)}
+                onDragOver={(e) => e.preventDefault()}
+                onDrop={(e) => {
+                  e.preventDefault();
+                  if (dragIdx !== null && dragIdx !== idx) doMove(dragIdx, idx);
+                  setDragIdx(null);
+                }}
+              >
+                <div
+                  class="srow"
+                  onClick={(e) => {
+                    if ((e.target as Element).closest('a,button')) return;
+                    setExpandedUid(isExpanded ? null : r.id);
+                  }}
+                >
+                  <span class="drag-handle" aria-hidden="true" style={{ cursor: 'grab', color: 'var(--muted)' }}>
+                    <GripVertical size={16} strokeWidth={1.75} />
+                  </span>
+                  <span class="set-editor-v2__badge">SLIDE</span>
+                  <span class="set-editor-v2__name" style={{ flex: 1 }}>
+                    {r.title || (r.style === 'blank' ? 'Blank slide' : 'Custom slide')}
+                  </span>
+                  <span class="sum">{r.style}</span>
+                  <button
+                    type="button"
+                    class="ib ink"
+                    aria-label={isExpanded ? 'Collapse slide options' : 'Edit slide'}
+                    onClick={() => setExpandedUid(isExpanded ? null : r.id)}
+                  >
+                    <Icon>
+                      <path d="M12 12h.01M12 5h.01M12 19h.01" />
+                    </Icon>
+                  </button>
+                </div>
+                {isExpanded ? (
+                  <div class="exp">
+                    <div class="set-editor-v2__move">
+                      <button
+                        type="button"
+                        class="icon-btn"
+                        aria-label={t('set.moveUp')}
+                        disabled={idx === 0}
+                        onClick={() => doMove(idx, idx - 1)}
+                      >
+                        <Icon>
+                          <path d="M12 19V5M5 12l7-7 7 7" />
+                        </Icon>
+                      </button>
+                      <button
+                        type="button"
+                        class="icon-btn"
+                        aria-label={t('set.moveDown')}
+                        disabled={idx === set.rows.length - 1}
+                        onClick={() => doMove(idx, idx + 1)}
+                      >
+                        <Icon>
+                          <path d="M12 5v14M19 12l-7 7-7-7" />
+                        </Icon>
+                      </button>
+                      <button
+                        type="button"
+                        class="icon-btn"
+                        aria-label={t('set.remove')}
+                        onClick={() => {
+                          removeItem(set.id, r.id);
+                          flashSaved();
+                        }}
+                      >
+                        <Icon>
+                          <path d="M6 6l12 12M18 6L6 18" />
+                        </Icon>
+                      </button>
+                    </div>
+                  </div>
+                ) : null}
+              </li>
+            );
+          }
+
+          if (r.k !== 's') return null;
+          const songIndex = songs.findIndex((s) => s.uid === r.id);
+          const title = meta?.[r.song]?.[0] ?? r.song;
           const verseChips = [1, 2, 3, 4, 5, 6];
-          const selectedVerses = new Set(it.verses ?? []);
-          const isExpanded = expandedUid === it.uid;
+          const selectedVerses = new Set(
+            (r.seq ?? []).filter((x) => /^v\d+$/i.test(x)).map((x) => Number(x.slice(1)) - 1),
+          );
+          const isExpanded = expandedUid === r.id;
           const verseSum = selectedVerses.size
             ? [...selectedVerses].map((v) => v + 1).join(' ')
             : 'All';
+          const noteCount = r.notes?.length ?? 0;
+
+          const updateSongRow = (fn: (row: SongRow) => SongRow) => {
+            patch(set.id, {
+              rows: set.rows.map((x) => (x.id === r.id && x.k === 's' ? fn(x) : x)),
+            });
+          };
+
           const row = (
             <li
               class="set-editor-v2__row-wrap"
-              key={it.uid}
+              key={r.id}
+              draggable
+              onDragStart={() => setDragIdx(idx)}
+              onDragOver={(e) => e.preventDefault()}
+              onDrop={(e) => {
+                e.preventDefault();
+                if (dragIdx !== null && dragIdx !== idx) doMove(dragIdx, idx);
+                setDragIdx(null);
+              }}
               onKeyDown={(e) => {
                 if (!e.altKey) return;
                 if (e.key === 'ArrowUp' && idx > 0) {
                   e.preventDefault();
-                  moveItemInSet(set.id, idx, idx - 1);
-                  flashSaved();
-                } else if (e.key === 'ArrowDown' && idx < set.items.length - 1) {
+                  doMove(idx, idx - 1);
+                } else if (e.key === 'ArrowDown' && idx < set.rows.length - 1) {
                   e.preventDefault();
-                  moveItemInSet(set.id, idx, idx + 1);
-                  flashSaved();
+                  doMove(idx, idx + 1);
                 }
               }}
             >
@@ -497,23 +666,27 @@ export default function SetEditorV2() {
                 class="srow"
                 onClick={(e) => {
                   if ((e.target as Element).closest('a,button')) return;
-                  setExpandedUid(isExpanded ? null : it.uid);
+                  setExpandedUid(isExpanded ? null : r.id);
                 }}
               >
-                <span class="set-editor-v2__ord">{songIndex + 1}</span>
-                <a class="set-editor-v2__song" href={songInWorshipSetUrl(set, songIndex)} data-astro-reload>
-                  <span class="set-editor-v2__badge">{badgeFor(it.songId, it.book)}</span>
+                <span class="drag-handle" aria-hidden="true" style={{ cursor: 'grab', color: 'var(--muted)' }}>
+                  <GripVertical size={16} strokeWidth={1.75} />
+                </span>
+                <span class="set-editor-v2__ord">{songIndex >= 0 ? songIndex + 1 : '·'}</span>
+                <a class="set-editor-v2__song" href={songInWorshipSetUrl(set, Math.max(0, songIndex))} data-astro-reload>
+                  <span class="set-editor-v2__badge">{badgeFor(r.song, r.book)}</span>
                   <span class="set-editor-v2__name">{title}</span>
                 </a>
                 <span class="sum">
-                  {musician && it.key ? <span class="k">{it.key}</span> : null}
+                  {musician && r.key ? <span class="k">{r.key}</span> : null}
                   {verseSum}
+                  {noteCount > 0 ? ` · ${noteCount} note${noteCount > 1 ? 's' : ''}` : ''}
                 </span>
                 <button
                   type="button"
                   class="ib ink"
                   aria-label={isExpanded ? 'Collapse options' : 'Edit key and verses'}
-                  onClick={() => setExpandedUid(isExpanded ? null : it.uid)}
+                  onClick={() => setExpandedUid(isExpanded ? null : r.id)}
                 >
                   <Icon>
                     <path d="M12 12h.01M12 5h.01M12 19h.01" />
@@ -528,18 +701,15 @@ export default function SetEditorV2() {
                         <button
                           type="button"
                           key={k}
-                          class={it.key === k || it.key === `${k}m` ? 'chip on' : 'chip'}
-                          onClick={() => {
-                            patch(set.id, {
-                              items: set.items.map((x) => {
-                                if (x.uid !== it.uid || x.kind !== 'song') return x;
-                                const next = { ...x };
-                                if (next.key === k) delete next.key;
-                                else next.key = k;
-                                return next;
-                              }),
-                            });
-                          }}
+                          class={r.key === k || r.key === `${k}m` ? 'chip on' : 'chip'}
+                          onClick={() =>
+                            updateSongRow((x) => {
+                              const next = { ...x };
+                              if (next.key === k) delete next.key;
+                              else next.key = k;
+                              return next;
+                            })
+                          }
                         >
                           {k}
                         </button>
@@ -554,21 +724,26 @@ export default function SetEditorV2() {
                           type="button"
                           key={v}
                           class={on ? 'chip v on' : 'chip v'}
-                          onClick={() => {
-                            patch(set.id, {
-                              items: set.items.map((x) => {
-                                if (x.uid !== it.uid || x.kind !== 'song') return x;
-                                const cur = new Set(x.verses ?? []);
-                                if (cur.has(v - 1)) cur.delete(v - 1);
-                                else cur.add(v - 1);
-                                const verses = [...cur].sort((a, b) => a - b);
-                                const next = { ...x };
-                                if (verses.length) next.verses = verses;
-                                else delete next.verses;
-                                return next;
-                              }),
-                            });
-                          }}
+                          onClick={() =>
+                            updateSongRow((x) => {
+                              const cur = new Set(
+                                (x.seq ?? [])
+                                  .filter((s) => /^v\d+$/i.test(s))
+                                  .map((s) => Number(s.slice(1)) - 1),
+                              );
+                              if (cur.has(v - 1)) cur.delete(v - 1);
+                              else cur.add(v - 1);
+                              const verses = [...cur].sort((a, b) => a - b);
+                              const hasC = x.seq ? x.seq.includes('c') : true;
+                              const nextSeq = verses.flatMap((vi) =>
+                                hasC ? [`v${vi + 1}`, 'c'] : [`v${vi + 1}`],
+                              );
+                              const next = { ...x };
+                              if (nextSeq.length) next.seq = nextSeq;
+                              else delete next.seq;
+                              return next;
+                            })
+                          }
                         >
                           V{v}
                         </button>
@@ -576,15 +751,19 @@ export default function SetEditorV2() {
                     })}
                     <button
                       type="button"
-                      class={it.repeatChorus !== false ? 'chip v on' : 'chip v'}
-                      onClick={() => {
-                        patch(set.id, {
-                          items: set.items.map((x) => {
-                            if (x.uid !== it.uid || x.kind !== 'song') return x;
-                            return { ...x, repeatChorus: x.repeatChorus === false };
-                          }),
-                        });
-                      }}
+                      class={!r.seq || r.seq.includes('c') ? 'chip v on' : 'chip v'}
+                      onClick={() =>
+                        updateSongRow((x) => {
+                          const hasC = !x.seq || x.seq.includes('c');
+                          const verses = (x.seq ?? [])
+                            .filter((s) => /^v\d+$/i.test(s));
+                          if (!verses.length) return x;
+                          const nextSeq = hasC
+                            ? verses
+                            : verses.flatMap((v) => [v, 'c']);
+                          return { ...x, seq: nextSeq };
+                        })
+                      }
                     >
                       C
                     </button>
@@ -597,21 +776,109 @@ export default function SetEditorV2() {
                         type="text"
                         maxLength={140}
                         placeholder={t('set.notePlaceholder')}
-                        value={it.note ?? ''}
+                        value={r.note ?? ''}
                         onInput={(e) => {
                           const note = e.currentTarget.value.slice(0, 140);
-                          patch(set.id, {
-                            items: set.items.map((x) => {
-                              if (x.uid !== it.uid || x.kind !== 'song') return x;
-                              const next = { ...x };
-                              if (note) next.note = note;
-                              else delete next.note;
-                              return next;
-                            }),
+                          updateSongRow((x) => {
+                            const next = { ...x };
+                            if (note) next.note = note;
+                            else delete next.note;
+                            return next;
                           });
                         }}
                       />
                     </label>
+                  </div>
+
+                  <div class="verse-notes" style={{ marginTop: 10 }}>
+                    <span class="field__label">Notes on verses</span>
+                    {(r.notes ?? []).map((vn, vi) => (
+                      <div key={vi} style={{ display: 'flex', gap: '6px', alignItems: 'center', marginTop: '4px', fontSize: '13px' }}>
+                        <span class="badge">{vn.st.toUpperCase()}</span>
+                        <span style={{ flex: 1 }}>{vn.text}</span>
+                        <span class="muted">{vn.mode === 'slide' ? 'Own slide' : 'On slide'}</span>
+                        <button
+                          type="button"
+                          class="ib ink"
+                          aria-label="Remove verse note"
+                          onClick={() =>
+                            updateSongRow((x) => ({
+                              ...x,
+                              notes: (x.notes ?? []).filter((_, i2) => i2 !== vi),
+                            }))
+                          }
+                        >
+                          <X size={14} aria-hidden="true" />
+                        </button>
+                      </div>
+                    ))}
+                    <div style={{ display: 'flex', gap: '6px', marginTop: '6px', flexWrap: 'wrap' }}>
+                      <select
+                        class="field__input"
+                        style={{ width: 'auto', minWidth: '72px' }}
+                        value={noteSt}
+                        onChange={(e) => setNoteSt(e.currentTarget.value)}
+                        aria-label="Stanza"
+                      >
+                        <option value="v1">V1</option>
+                        <option value="v2">V2</option>
+                        <option value="v3">V3</option>
+                        <option value="v4">V4</option>
+                        <option value="c">Chorus</option>
+                      </select>
+                      <input
+                        class="field__input"
+                        type="text"
+                        placeholder="Verse note…"
+                        maxLength={200}
+                        style={{ flex: 1, minWidth: '140px' }}
+                        value={noteText}
+                        onInput={(e) => setNoteText(e.currentTarget.value)}
+                      />
+                      <select
+                        class="field__input"
+                        style={{ width: 'auto' }}
+                        value={noteMode}
+                        onChange={(e) => setNoteMode(e.currentTarget.value as 'inline' | 'slide')}
+                        aria-label="Note display"
+                      >
+                        <option value="inline">On slide</option>
+                        <option value="slide">Own slide</option>
+                      </select>
+                      <button
+                        type="button"
+                        class="btn btn--secondary"
+                        onClick={() => {
+                          const txt = noteText.trim();
+                          if (!txt) return;
+                          const entry: VerseNote = { st: noteSt, text: txt, mode: noteMode };
+                          updateSongRow((x) => ({
+                            ...x,
+                            notes: [...(x.notes ?? []), entry],
+                          }));
+                          setNoteText('');
+                          flashSaved();
+                        }}
+                      >
+                        Add note
+                      </button>
+                    </div>
+                  </div>
+
+                  <div style={{ marginTop: 8 }}>
+                    <button
+                      type="button"
+                      class="btn btn--ghost"
+                      onClick={() => {
+                        setSlideAfterIdx(idx);
+                        setSlideStyle('text');
+                        setSlideTitle('');
+                        setSlideBody('');
+                        setSlideOpen(true);
+                      }}
+                    >
+                      Insert slide after
+                    </button>
                   </div>
                 </div>
               ) : null}
@@ -621,10 +888,7 @@ export default function SetEditorV2() {
                   class="icon-btn"
                   aria-label={t('set.moveUp')}
                   disabled={idx === 0}
-                  onClick={() => {
-                    moveItemInSet(set.id, idx, idx - 1);
-                    flashSaved();
-                  }}
+                  onClick={() => doMove(idx, idx - 1)}
                 >
                   <Icon>
                     <path d="M12 19V5M5 12l7-7 7 7" />
@@ -634,11 +898,8 @@ export default function SetEditorV2() {
                   type="button"
                   class="icon-btn"
                   aria-label={t('set.moveDown')}
-                  disabled={idx === set.items.length - 1}
-                  onClick={() => {
-                    moveItemInSet(set.id, idx, idx + 1);
-                    flashSaved();
-                  }}
+                  disabled={idx === set.rows.length - 1}
+                  onClick={() => doMove(idx, idx + 1)}
                 >
                   <Icon>
                     <path d="M12 5v14M19 12l-7 7-7-7" />
@@ -649,7 +910,7 @@ export default function SetEditorV2() {
                   class="icon-btn"
                   aria-label={t('set.remove')}
                   onClick={() => {
-                    removeItem(set.id, it.uid);
+                    removeItem(set.id, r.id);
                     flashSaved();
                   }}
                 >
@@ -660,20 +921,19 @@ export default function SetEditorV2() {
               </div>
             </li>
           );
-          if (!nextIsHeading || it.kind !== 'song') return row;
-          // Find owning heading for "Add song here"
+          if (!nextIsHeading) return row;
           let owner: string | null = null;
           for (let i = idx; i >= 0; i--) {
-            const x = set.items[i];
-            if (x?.kind === 'heading') {
-              owner = x.uid;
+            const x = set.rows[i];
+            if (x?.k === 'h') {
+              owner = x.id;
               break;
             }
           }
           return (
             <>
               {row}
-              <li class="set-editor-v2__add-here" key={`add-${it.uid}`}>
+              <li class="set-editor-v2__add-here" key={`add-${r.id}`}>
                 <button
                   type="button"
                   class="btn btn--ghost"
@@ -794,6 +1054,80 @@ export default function SetEditorV2() {
           showToast(t('set.addedToast'));
         }}
       />
+
+      <Sheet open={slideOpen} onClose={() => setSlideOpen(false)} title="New slide" id="new-slide">
+        <div class="form">
+          <div class="chips" role="group" aria-label="Slide style">
+            {(
+              [
+                ['text', 'Text'],
+                ['verse', 'Bible verse'],
+                ['announce', 'Announcement'],
+                ['blank', 'Blank'],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                class={slideStyle === id ? 'chip on' : 'chip'}
+                onClick={() => setSlideStyle(id)}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+          {slideStyle !== 'blank' ? (
+            <>
+              <label class="field">
+                <span class="field__label">{slideStyle === 'verse' ? 'Reference' : 'Title'}</span>
+                <input
+                  class="field__input"
+                  type="text"
+                  maxLength={120}
+                  value={slideTitle}
+                  onInput={(e) => setSlideTitle(e.currentTarget.value)}
+                />
+              </label>
+              <label class="field">
+                <span class="field__label">{slideStyle === 'verse' ? 'Verse text' : 'Body'}</span>
+                <textarea
+                  class="field__input"
+                  rows={4}
+                  maxLength={1200}
+                  value={slideBody}
+                  onInput={(e) => setSlideBody(e.currentTarget.value)}
+                />
+              </label>
+            </>
+          ) : null}
+          <div class="form__actions">
+            <button
+              type="button"
+              class="btn btn--primary"
+              onClick={() => {
+                const newSlide: SlideRow = {
+                  k: 'slide',
+                  id: `sl-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`,
+                  style: slideStyle,
+                  ...(slideTitle.trim() ? { title: slideTitle.trim() } : {}),
+                  ...(slideBody.trim() ? { body: slideBody.trim() } : {}),
+                };
+                const rows = [...set.rows];
+                if (slideAfterIdx !== null && slideAfterIdx >= 0 && slideAfterIdx < rows.length) {
+                  rows.splice(slideAfterIdx + 1, 0, newSlide);
+                } else {
+                  rows.push(newSlide);
+                }
+                patch(set.id, { rows });
+                setSlideOpen(false);
+                flashSaved();
+              }}
+            >
+              Add slide
+            </button>
+          </div>
+        </div>
+      </Sheet>
     </div>
   );
 }

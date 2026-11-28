@@ -2,7 +2,7 @@
  * Single source for Order of Service, Present, and PPT slide order.
  * @see STUTI_UI_CORRECTIONS_v1.4.md §4
  */
-import type { BridgedWorshipSet, ItemRow, SetRow, SongRow, WorshipSetV21 } from './schema';
+import type { BridgedWorshipSet, ItemRow, SetRow, SlideRow, SlideStyle, SongRow, WorshipSetV21 } from './schema';
 
 export type RunSheetSong = {
   id: string;
@@ -24,7 +24,7 @@ export type RunSheetSet = Pick<WorshipSetV21, 'title' | 'date' | 'time' | 'servi
   church?: string;
 };
 
-export type RunSheetEntry = (SongRow | ItemRow) & {
+export type RunSheetEntry = (SongRow | ItemRow | SlideRow) & {
   n: number;
   at: number;
   song: RunSheetSong | null;
@@ -132,7 +132,7 @@ export function buildRunSheet(
       song,
       seq,
     });
-    t += r.minutes ?? (r.k === 's' ? (song?.minutes ?? 5) : 3);
+    t += r.minutes ?? (r.k === 's' ? (song?.minutes ?? 5) : r.k === 'slide' ? 1 : 3);
     section.end = t;
   }
 
@@ -145,6 +145,8 @@ export type BuiltSlide =
   | { kind: 'title'; title: string; sub: string }
   | { kind: 'section'; label: string }
   | { kind: 'item'; title: string; sub: string; type: string }
+  | { kind: 'custom'; style: SlideStyle; title: string; body: string }
+  | { kind: 'note'; book: string; no: string; stanza: string; text: string; next: string }
   | {
       kind: 'lyrics';
       book: string;
@@ -152,6 +154,7 @@ export type BuiltSlide =
       tag: string;
       lines: SlideLine[];
       roman?: string[];
+      note?: string;
       script: string;
       next: string;
       songId: string;
@@ -221,6 +224,12 @@ export function buildSlides(
           label: `${entry.title}${entry.ref ? ` · ${entry.ref}` : ''}`,
           entry,
         });
+      } else if (entry.k === 'slide') {
+        flat.push({
+          kind: 'custom',
+          label: entry.title || (entry.style === 'blank' ? 'Blank slide' : 'Slide'),
+          entry,
+        });
       } else if (entry.k === 's') {
         const seq = entry.seq ?? [];
         for (const sid of seq) {
@@ -252,6 +261,16 @@ export function buildSlides(
         fi++;
         continue;
       }
+      if (entry.k === 'slide') {
+        slides.push({
+          kind: 'custom',
+          style: entry.style,
+          title: entry.title ?? '',
+          body: entry.body ?? '',
+        });
+        fi++;
+        continue;
+      }
       if (entry.k !== 's' || !entry.song) {
         fi++;
         continue;
@@ -259,10 +278,24 @@ export function buildSlides(
       const song = entry.song;
       const { book, no } = hymnNo(entry, song);
       const seq = entry.seq ?? autoSequence(song);
+      const vNotes = entry.notes ?? [];
       for (let si = 0; si < seq.length; si++) {
         const sid = seq[si]!;
         const stanza = findStanza(song, sid);
         const tag = (stanza?.label ?? (sid === 'c' ? 'Chorus' : sid)).toUpperCase();
+        const matchingNotes = vNotes.filter((n) => n.st.toLowerCase() === sid.toLowerCase());
+        const slideNote = matchingNotes.find((n) => n.mode === 'slide');
+        const inlineNote = matchingNotes.find((n) => n.mode === 'inline');
+        if (slideNote) {
+          slides.push({
+            kind: 'note',
+            book,
+            no,
+            stanza: tag,
+            text: slideNote.text,
+            next: nextLabel(flat, fi),
+          });
+        }
         const rawLines = stanza?.lines ?? [];
         const parsed: SlideLine[] = rawLines.map((ln) => {
           const { t, x } = parseRepeatMarker(ln.n);
@@ -287,6 +320,7 @@ export function buildSlides(
             tag: chunks.length > 1 ? `${tag} (${ci + 1}/${chunks.length})` : tag,
             lines: chunk.map(({ t, x }) => ({ t, x })),
             ...(roman?.length ? { roman } : {}),
+            ...(ci === 0 && inlineNote ? { note: inlineNote.text } : {}),
             script: song.lang ?? song.script ?? 'hi',
             next: nextLabel(flat, fi),
             songId: song.id,

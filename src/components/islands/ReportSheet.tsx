@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
+import { Flag } from 'lucide-preact';
 import { t } from '../../i18n';
 import { submitReport, flushReportQueue, type MistakeReport } from '../../lib/report-queue';
 import { showToast } from '../../lib/toast';
@@ -181,8 +182,9 @@ export default function ReportSheet({
 
   return (
     <>
-      <button type="button" class="report-btn" data-feature="report" onClick={() => start()}>
-        {t('song.report')}
+      <button type="button" class="report-link" data-feature="report" onClick={() => start()}>
+        <Flag size={16} strokeWidth={1.75} aria-hidden="true" />
+        <span>{t('song.report')}</span>
       </button>
       <Sheet open={open} onClose={() => setOpen(false)} title={t('report.title')} id="report">
         <form class="form" onSubmit={(e) => void send(e)}>

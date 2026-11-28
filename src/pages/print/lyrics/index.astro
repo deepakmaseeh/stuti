@@ -1,0 +1,17 @@
+---
+import AppShell from '../../../components/AppShell.astro';
+import LyricsPrintApp from '../../../components/islands/LyricsPrintApp';
+import '../../../styles/print.css';
+import { site } from '../../../site.config';
+---
+
+<AppShell
+  title={`Lyrics PDF | ${site.name}`}
+  description="Printable song lyrics preview."
+  active="songs"
+  hideMobileHeader
+  bodyClass="print-lyrics-page"
+>
+  <h1 class="visually-hidden">Lyrics PDF Preview</h1>
+  <LyricsPrintApp client:load />
+</AppShell>

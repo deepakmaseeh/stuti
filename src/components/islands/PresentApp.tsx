@@ -81,7 +81,7 @@ export default function PresentApp() {
   const [error, setError] = useState('');
   const [blank, setBlank] = useState(false);
   const [whiteout, setWhiteout] = useState(false);
-  const [layers, setLayers] = useState({ n: true, r: true, e: false });
+  const [layers, setLayers] = useState({ n: true, r: false, e: false });
   const [scale, setScale] = useState(1);
   const [hideChrome, setHideChrome] = useState(false);
   const [theme, setTheme] = useState<PresentTheme>('leather');
@@ -233,6 +233,8 @@ export default function PresentApp() {
     if (next.kind === 'title') return next.title;
     if (next.kind === 'section') return next.label;
     if (next.kind === 'item') return next.title;
+    if (next.kind === 'custom') return next.title || (next.style === 'blank' ? 'Blank slide' : 'Slide');
+    if (next.kind === 'note') return `${next.stanza} · Note`;
     return `Song · ${next.book} ${next.no}`;
   }, [next]);
 
@@ -308,6 +310,37 @@ export default function PresentApp() {
               </p>
             ) : null}
           </>
+        ) : null}
+        {slide.kind === 'custom' && slide.style !== 'blank' ? (
+          <>
+            {slide.title ? (
+              <p class="present__line">
+                <span class="present__n">{slide.title}</span>
+              </p>
+            ) : null}
+            {slide.body ? (
+              <p class="present__line">
+                <span class="present__r">{slide.body}</span>
+              </p>
+            ) : null}
+          </>
+        ) : null}
+        {slide.kind === 'note' ? (
+          <>
+            <p class="present__line">
+              <span class="present__r">
+                {slide.book} {slide.no} · {slide.stanza}
+              </span>
+            </p>
+            <p class="present__line">
+              <span class="present__n">{slide.text}</span>
+            </p>
+          </>
+        ) : null}
+        {slide.kind === 'lyrics' && slide.note ? (
+          <p class="present__line">
+            <span class="present__r">{slide.note}</span>
+          </p>
         ) : null}
         {slide.kind === 'lyrics'
           ? slide.lines.map((l) => (

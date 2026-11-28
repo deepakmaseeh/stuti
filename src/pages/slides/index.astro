@@ -1,0 +1,14 @@
+---
+import AppShell from '../../components/AppShell.astro';
+import SlidesPreviewApp from '../../components/islands/SlidesPreviewApp';
+import { site } from '../../site.config';
+---
+
+<AppShell
+  title={`Slides Preview | ${site.name}`}
+  description="Preview slides before downloading PowerPoint."
+  active="sets"
+  hideMobileHeader
+>
+  <SlidesPreviewApp client:load />
+</AppShell>

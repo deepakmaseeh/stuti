@@ -181,7 +181,7 @@
   position: fixed;
   inset: 0;
   background: oklch(0.15 0.03 15 / 0.45);
-  z-index: 60;
+  z-index: 100;
   animation: v3-fade 0.2s;
 }
 .v3 .v3-sheet {
@@ -189,7 +189,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 61;
+  z-index: 101;
   background: var(--surface);
   color: var(--ink);
   border-radius: 24px 24px 0 0;
@@ -601,10 +601,55 @@
   color: var(--gold);
 }
 .v3 .song-header__inner {
-  min-height: 56px;
+  min-height: 48px;
+  height: 48px;
+}
+.v3 .song-header__num {
+  flex: 1;
+  min-width: 0;
+  font: 700 15px / 1 var(--font-sans);
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .v3 .song-header .icon-btn {
   color: var(--gold);
+}
+.v3 .tools--icons {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  overflow: visible;
+}
+.v3 .tools--icons .tool--icon {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.v3 .report-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 24px;
+  padding: 12px 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+  background: none;
+  color: var(--muted);
+  font: 600 14px / 1.3 var(--font-sans);
+  cursor: pointer;
+}
+.v3 .report-link:hover {
+  color: var(--ink);
 }
 .v3 .lyrics {
   max-width: 760px;
@@ -1111,6 +1156,147 @@
   .v3 .ed2,
   .v3 .f2 {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ---- B7.5: Slides Preview (/slides/) ---- */
+.v3 .slides-preview {
+  padding-bottom: 92px;
+}
+.v3 .slides-preview__top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--bar);
+  color: var(--gold);
+  margin: -16px -16px 16px;
+}
+.v3 .slides-preview__top .icon-btn {
+  color: var(--gold);
+}
+.v3 .slides-preview__head h1 {
+  margin: 0;
+  font: 700 18px / 1.2 var(--font-display);
+}
+.v3 .slides-preview__head p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--gold-soft);
+}
+.v3 .slides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.v3 .slide-thumb {
+  aspect-ratio: 16 / 9;
+  background: #2e1418;
+  color: #f7f2ea;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid oklch(0.82 0.08 85 / 0.2);
+  overflow: hidden;
+}
+.v3 .slide-thumb__meta {
+  display: flex;
+  justify-content: space-between;
+  font: 700 11px / 1 var(--font-sans);
+  letter-spacing: 0.08em;
+  color: #e9c46a;
+  margin-bottom: 8px;
+}
+.v3 .slide-thumb__body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+  overflow: hidden;
+}
+.v3 .slide-thumb__body strong {
+  font: 700 15px / 1.3 var(--font-display);
+  color: #e9c46a;
+}
+.v3 .slide-thumb__body small {
+  font-size: 12px;
+  color: #e9d8a6;
+}
+.v3 .slide-thumb__body p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.v3 .slide-thumb__line {
+  font: 500 13.5px / 1.35 var(--font-hindi);
+}
+.v3 .slide-thumb__roman {
+  font-style: italic;
+  opacity: 0.8;
+}
+.v3 .slide-thumb__note {
+  color: #e9c46a;
+  font-style: italic;
+}
+.v3 .slides-preview__bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-top: 1px solid var(--line);
+  z-index: 30;
+}
+.v3 .slides-preview__bar .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+}
+
+/* ---- B7.14: Roman lyrics ---- */
+.v3 .lyrics .r {
+  font-style: italic;
+  opacity: 0.72;
+}
+
+/* ---- B7.11: Desktop 3-pane layout (>=1024px) ---- */
+@media (min-width: 1024px) {
+  .v3 .topbar__inner {
+    height: 56px;
+  }
+  html[data-desktop='wide'] .v3 .desktop-shell {
+    display: grid;
+    grid-template-columns: 340px minmax(0, 1fr) 340px;
+    height: calc(100dvh - 56px);
+  }
+  html[data-desktop='wide'] .v3 .desktop-finder {
+    width: 340px;
+    min-width: 340px;
+    max-width: 340px;
+    resize: none;
+  }
+  html[data-desktop='wide'] .v3 .desktop-set {
+    width: 340px;
+    min-width: 340px;
+    max-width: 340px;
+    resize: none;
+  }
+  html[data-desktop] .v3 .desktop-main .tools--icons {
+    max-width: 520px;
+    margin-inline: auto;
+  }
+  html[data-desktop] .v3 .desktop-main .lyrics {
+    max-width: 680px;
+    margin-inline: auto;
   }
 }
 

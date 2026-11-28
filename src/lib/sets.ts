@@ -497,7 +497,17 @@ export function addSongToSet(
   const at = insertIndexForSection(set.items, opts?.afterHeadingUid);
   const items = [...set.items];
   items.splice(at, 0, item);
-  updateSet(setId, { items });
+  const rows = [...set.rows];
+  const rowAt = Math.min(at, rows.length);
+  rows.splice(rowAt, 0, {
+    k: 's',
+    id: item.uid,
+    song: song.songId,
+    book: (song.book ?? 'TLBC').toUpperCase().slice(0, 8),
+    ...(song.key ? { key: song.key } : {}),
+    ...(song.note ? { note: song.note } : {}),
+  });
+  updateSet(setId, { items, rows });
   return true;
 }
 
@@ -512,7 +522,10 @@ export function addSongToActive(song: { songId: string; book?: string }): boolea
 export function removeItem(setId: string, itemUid: string): void {
   const set = getSet(setId);
   if (!set) return;
-  updateSet(setId, { items: set.items.filter((x) => x.uid !== itemUid) });
+  updateSet(setId, {
+    items: set.items.filter((x) => x.uid !== itemUid),
+    rows: set.rows.filter((x) => x.id !== itemUid),
+  });
 }
 
 export function moveItemInSet(setId: string, from: number, to: number): void {
@@ -525,11 +538,22 @@ export function moveItemInSet(setId: string, from: number, to: number): void {
   updateSet(setId, { items });
 }
 
+export function moveRowInSet(setId: string, from: number, to: number): void {
+  const set = getSet(setId);
+  if (!set) return;
+  if (from === to || from < 0 || to < 0 || from >= set.rows.length || to >= set.rows.length) return;
+  const rows = [...set.rows];
+  const [x] = rows.splice(from, 1);
+  rows.splice(to, 0, x!);
+  updateSet(setId, { rows });
+}
+
 export function addHeading(setId: string, text: string): void {
   const set = getSet(setId);
-  if (!set || set.items.length >= MAX_SET_ITEMS) return;
+  if (!set || set.rows.length >= MAX_SET_ITEMS) return;
+  const id = uid();
   updateSet(setId, {
-    items: [...set.items, { kind: 'heading', uid: uid(), text: text.slice(0, 80) }],
+    rows: [...set.rows, { k: 'h', id, label: text.slice(0, 40) }],
   });
 }
 

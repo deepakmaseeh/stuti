@@ -39,7 +39,7 @@ export const SIZE_STEPS = 6;
 
 export const DEFAULT_PREFS: Prefs = {
   v: 1,
-  layers: { n: true, r: true, e: false },
+  layers: { n: true, r: false, e: false },
   size: 2,
   theme: 'system',
   layout: 'stacked',

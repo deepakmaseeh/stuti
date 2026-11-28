@@ -30,12 +30,11 @@ test.describe('v3 Phase 3: Song page', () => {
     await expect(info.getByText('Rights')).toBeVisible();
     await info.getByRole('button', { name: 'Close' }).click();
 
-    // Open Report via ⋮
+    // Open Report via link under lyrics (B7.9)
     await page.route('**/api/report', async (route) => {
       await route.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' });
     });
-    await page.locator('[data-open-song-more]').click();
-    await page.getByRole('dialog', { name: 'Song options' }).getByRole('button', { name: 'Report a mistake' }).click();
+    await page.locator('.lyrics .report-link').click();
 
     const report = page.getByRole('dialog', { name: "What's wrong?" });
     await expect(report).toBeVisible();

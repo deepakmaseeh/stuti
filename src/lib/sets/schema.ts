@@ -24,6 +24,13 @@ export const HeadingRow = z.object({
   label: z.string().min(1).max(40),
 });
 
+export const VerseNote = z.object({
+  st: z.string().min(1),
+  text: z.string().min(1).max(200),
+  mode: z.enum(['inline', 'slide']),
+});
+export type VerseNote = z.infer<typeof VerseNote>;
+
 export const SongRow = z.object({
   k: z.literal('s'),
   id: z.string().min(1),
@@ -34,6 +41,7 @@ export const SongRow = z.object({
   seq: z.array(z.string()).optional(),
   by: z.string().max(60).optional(),
   note: z.string().max(140).optional(),
+  notes: z.array(VerseNote).optional(),
   minutes: z.number().positive().optional(),
 });
 
@@ -47,7 +55,20 @@ export const ItemRow = z.object({
   minutes: z.number().positive().optional(),
 });
 
-export const SetRow = z.discriminatedUnion('k', [HeadingRow, SongRow, ItemRow]);
+export const SlideStyle = z.enum(['text', 'verse', 'announce', 'blank']);
+export type SlideStyle = z.infer<typeof SlideStyle>;
+
+export const SlideRow = z.object({
+  k: z.literal('slide'),
+  id: z.string().min(1),
+  style: SlideStyle,
+  title: z.string().max(120).optional(),
+  body: z.string().max(1200).optional(),
+  minutes: z.number().positive().optional(),
+});
+export type SlideRow = z.infer<typeof SlideRow>;
+
+export const SetRow = z.discriminatedUnion('k', [HeadingRow, SongRow, ItemRow, SlideRow]);
 export type SetRow = z.infer<typeof SetRow>;
 export type HeadingRow = z.infer<typeof HeadingRow>;
 export type SongRow = z.infer<typeof SongRow>;

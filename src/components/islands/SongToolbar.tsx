@@ -3,17 +3,14 @@ import {
   AArrowDown,
   AArrowUp,
   CirclePlay,
-  FileText,
   ListChecks,
   ListPlus,
   Presentation,
-  Share2,
   Sun,
 } from 'lucide-preact';
 import { FLAGS } from '../../config/flags';
 import type { MediaItem } from '../../lib/schema';
 import { t } from '../../i18n';
-import { shareLink } from '../../lib/share';
 import {
   DEFAULT_PREFS,
   pushRecent,
@@ -295,16 +292,6 @@ export default function SongToolbar({
             <ListPlus size={22} strokeWidth={1.75} aria-hidden="true" />
           )}
         </button>
-        <button
-          type="button"
-          class="tool tool--icon"
-          aria-label={t('song.share')}
-          title={t('song.share')}
-          data-feature="share"
-          onClick={() => shareLink(share)}
-        >
-          <Share2 size={22} strokeWidth={1.75} aria-hidden="true" />
-        </button>
         {FLAGS.videos ? (
           videos.length > 0 ? (
             <button
@@ -333,26 +320,15 @@ export default function SongToolbar({
             </button>
           )
         ) : null}
-        <button
-          type="button"
+        <a
           class="tool tool--icon"
-          aria-label={t('desktop.pdf')}
-          title={t('desktop.pdf')}
-          data-feature="pdf"
-          onClick={() => window.print()}
-        >
-          <FileText size={22} strokeWidth={1.75} aria-hidden="true" />
-        </button>
-        <button
-          type="button"
-          class="tool tool--icon"
-          aria-label={t('desktop.ppt')}
-          title={t('desktop.ppt')}
-          data-feature="ppt"
-          onClick={() => void exportPpt()}
+          href={`/present/?song=${encodeURIComponent(snapshot.id)}`}
+          aria-label={t('desktop.present')}
+          title={t('desktop.present')}
+          data-feature="present"
         >
           <Presentation size={22} strokeWidth={1.75} aria-hidden="true" />
-        </button>
+        </a>
       </div>
       {!supported && (
         <p class="tools__note">

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'preact/hooks';
-import { FileText, Flag, Info, Presentation, Settings, Share2, X } from 'lucide-preact';
+import { createPortal } from 'preact/compat';
+import { FileText, Info, Presentation, Share2, X } from 'lucide-preact';
 import { shareLink } from '../../lib/share';
 
 export type SongInfoProps = {
@@ -49,7 +50,7 @@ export default function SongMoreSheet({ info }: { info: SongInfoProps }) {
     (n) => !(n.book === info.book && String(n.number) === String(info.number)),
   );
 
-  return (
+  const content = (
     <>
       <div class="v3-scrim" onClick={() => setMode('none')} />
       {mode === 'more' ? (
@@ -67,30 +68,6 @@ export default function SongMoreSheet({ info }: { info: SongInfoProps }) {
             <button
               type="button"
               class="row-v3"
-              data-feature="pdf"
-              onClick={() => {
-                setMode('none');
-                window.print();
-              }}
-            >
-              <FileText size={20} strokeWidth={1.75} aria-hidden="true" />
-              <span class="t">Lyrics PDF</span>
-            </button>
-            <button
-              type="button"
-              class="row-v3"
-              data-feature="ppt"
-              onClick={() => {
-                setMode('none');
-                dispatchEvent(new Event('stuti:song-ppt'));
-              }}
-            >
-              <Presentation size={20} strokeWidth={1.75} aria-hidden="true" />
-              <span class="t">PowerPoint</span>
-            </button>
-            <button
-              type="button"
-              class="row-v3"
               data-feature="share"
               onClick={() => {
                 setMode('none');
@@ -98,35 +75,29 @@ export default function SongMoreSheet({ info }: { info: SongInfoProps }) {
               }}
             >
               <Share2 size={20} strokeWidth={1.75} aria-hidden="true" />
-              <span class="t">Share</span>
+              <span class="t">Share song</span>
             </button>
+            <a
+              class="row-v3"
+              href={`/print/lyrics/?song=${encodeURIComponent(info.id)}`}
+              data-feature="pdf"
+              onClick={() => setMode('none')}
+            >
+              <FileText size={20} strokeWidth={1.75} aria-hidden="true" />
+              <span class="t">Lyrics PDF</span>
+            </a>
+            <a
+              class="row-v3"
+              href={`/slides/?song=${encodeURIComponent(info.id)}`}
+              data-feature="ppt"
+              onClick={() => setMode('none')}
+            >
+              <Presentation size={20} strokeWidth={1.75} aria-hidden="true" />
+              <span class="t">PowerPoint slides</span>
+            </a>
             <button type="button" class="row-v3" onClick={() => setMode('info')}>
               <Info size={20} strokeWidth={1.75} aria-hidden="true" />
               <span class="t">Song info</span>
-            </button>
-            <button
-              type="button"
-              class="row-v3"
-              data-feature="report"
-              onClick={() => {
-                setMode('none');
-                dispatchEvent(new CustomEvent('stuti:open-report'));
-              }}
-            >
-              <Flag size={20} strokeWidth={1.75} aria-hidden="true" />
-              <span class="t">Report a mistake</span>
-            </button>
-            <button
-              type="button"
-              class="row-v3"
-              data-feature="settings"
-              onClick={() => {
-                setMode('none');
-                dispatchEvent(new Event('stuti:open-settings'));
-              }}
-            >
-              <Settings size={20} strokeWidth={1.75} aria-hidden="true" />
-              <span class="t">Settings</span>
             </button>
           </div>
         </div>
@@ -177,4 +148,6 @@ export default function SongMoreSheet({ info }: { info: SongInfoProps }) {
       )}
     </>
   );
+
+  return typeof document !== 'undefined' ? createPortal(content, document.body) : content;
 }

@@ -188,6 +188,23 @@ export default function OrderOfService({
                   );
                   continue;
                 }
+                if (r.k === 'slide') {
+                  rows.push(
+                    <tr class="it" key={r.id}>
+                      <td class="no">{r.n}</td>
+                      {showTime ? <td class="tm c-time">{formatClock(r.at)}</td> : null}
+                      <td class="hn">SLIDE</td>
+                      <td class="ti">
+                        <b>{r.title || (r.style === 'blank' ? 'Blank slide' : 'Slide')}</b>
+                        {r.body ? <em>{r.body.slice(0, 80)}</em> : null}
+                      </td>
+                      <td class="ky c-key" />
+                      <td class="vs c-sing" />
+                      <td class="by c-by" />
+                    </tr>,
+                  );
+                  continue;
+                }
                 const song = r.song;
                 const num =
                   r.no != null
